@@ -1,0 +1,431 @@
+{
+  "_meta": { "lang": "af", "dir": "ltr" },
+  "nav": {
+    "title": "Image Converter Plus",
+    "privacy": "Privaatheidsbeleid",
+    "terms": "Gebruiksvoorwaardes",
+    "support": "Ondersteuning"
+  },
+  "index": {
+    "meta": {
+      "title": "Image Converter Plus — Skakel om, verklein, en beskerm jou foto's",
+      "description": "Skakel beelde om tussen JPEG, PNG, HEIC, TIFF en AVIF. Pas gehalte aan, verklein, en verwyder metadata — alles op jou toestel."
+    },
+    "hero": {
+      "headline": "Skakel om. Verklein.<br>Beskerm.",
+      "subtitle": "Bondel-beeldomskakeling met privaatheidsbeheer — heeltemal op jou toestel.",
+      "badgeAlt": "Laai af op die App Store",
+      "availability": "Beskikbaar op iPhone en iPad. Vereis iOS 16 of later."
+    },
+    "formats": {
+      "eyebrow": "5 Uitvoerformate",
+      "headline": "Elke formaat wat jy nodig het.",
+      "body": "Skakel om tussen die gewildste beeldformate. Kies die regte balans tussen gehalte, versoenbaarheid en lêergrootte."
+    },
+    "features": {
+      "eyebrow": "Kenmerke",
+      "headline": "Presisie by elke stap.",
+      "body": "Stel gehalte fyn in, verklein, hernoem en voorskou — alles voordat jy 'n enkele beeld omskakel.",
+      "cards": [
+        {
+          "icon": "&#9881;&#65039;",
+          "title": "Gehaltebeheer",
+          "description": "Pas gehalte aan van 40% tot 100% vir verliesformate. Sien die geskatte lêergrootte intyds opdateer."
+        },
+        {
+          "icon": "&#8596;&#65039;",
+          "title": "Verklein",
+          "description": "Skaal beelde van 50% tot 200%. Stel per-beeld-oorskrywings in of pas 'n voorinstelling op die hele bondel toe."
+        },
+        {
+          "icon": "&#128196;",
+          "title": "Lêernaamgewing",
+          "description": "Voeg 'n voor- of agtervoeging by omgeskakelde lêers. Benoem elke beeld individueel of pas 'n reël op almal toe."
+        },
+        {
+          "icon": "&#9889;",
+          "title": "Voorinstellings",
+          "description": "4 ingeboude voorinstellings vir omskakeling met een tik. Pas formaat, gehalte, grootte en naamgewing in elke een aan."
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "Privaatheid",
+      "headline": "Jou foto's dra meer<br>as wat jy dink.",
+      "body": "GPS-koördinate. Kameramodel. Tydstempels. Image Converter Plus verwyder verborge metadata voordat jy deel — met korrelvlakbeheer oor wat bly en wat verwyder word.",
+      "items": [
+        { "icon": "&#128205;", "title": "Ligging", "description": "GPS-koördinate en plekname" },
+        { "icon": "&#128247;", "title": "Kamera", "description": "Datum, tyd en vasleginstellings" },
+        { "icon": "&#9997;&#65039;", "title": "Outeur", "description": "Onderskrifte, sleutelwoorde en skepper" },
+        { "icon": "&#128241;", "title": "Toestel", "description": "Modelnaam en identifiseerders" },
+        { "icon": "&#128736;&#65039;", "title": "Wysigings", "description": "Wysigingsgeskiedenis en sagteware-inligting" },
+        { "icon": "&#128444;&#65039;", "title": "Voorskoubeelde", "description": "Ingebedde duimnaels" }
+      ]
+    },
+    "workflow": {
+      "eyebrow": "Werkstroom",
+      "headline": "Pas perfek in jou werkstroom.",
+      "shareTitle": "Share Extension",
+      "shareBody": "Skakel beelde om sonder om die program te open. Kies foto's in enige program, tik Deel, en skakel in een stap om. Pro-gebruikers kry bondelomskakelng en alle formate direk vanaf die Share Sheet.",
+      "historyTitle": "Omskakelgeskiedenis",
+      "historyBody": "Elke omskakeling word gestoor met 'n duimnael. Hervoer na Foto's, Lêers of die Share Sheet enige tyd. Stel outo-uitvee in om ou omskakelinge outomaties op te ruim."
+    },
+    "onDevice": {
+      "eyebrow": "Op Toestel",
+      "headline": "Geen bedieners. Geen oplaai.<br>Geen opsporing.",
+      "body": "Elke beeld word plaaslik op jou toestel verwerk. Daar is geen wolkdienste, geen ontledings en geen advertensies nie. 'n Internetverbinding is slegs nodig om 'n aankoop te doen."
+    },
+    "pro": {
+      "eyebrow": "Pro",
+      "headline": "Ontsluit alles.<br>Een keer.",
+      "body": "Een enkele aankoop. Geen intekening. Geen herhalende koste. Gedeel met jou gesin deur Family Sharing.",
+      "features": [
+        {
+          "icon": "&#128194;",
+          "title": "TIFF & AVIF",
+          "description": "Ontsluit al vyf uitvoerformate vir elke gebruik."
+        },
+        {
+          "icon": "&#128274;",
+          "title": "Metadata-verwydering",
+          "description": "Volledige EXIF- en metadata-verwydering met drie privaatheidvoorinstellings."
+        },
+        {
+          "icon": "&#127384;",
+          "title": "Bondel Share Extension",
+          "description": "Skakel verskeie beelde gelyktydig om direk vanaf die Share Sheet."
+        }
+      ],
+      "price": "$9.99",
+      "priceNote": "Eenmalige aankoop. Family Sharing ingesluit."
+    },
+    "accessibility": {
+      "eyebrow": "Toeganklikheid",
+      "headline": "Ontwerp vir almal.",
+      "body": "Gebou met toeganklikheid van die begin af. Beskikbaar in 60 tale met 'n in-program-taalkieser.",
+      "badges": ["VoiceOver", "Dynamic Type", "Haptiese terugvoer", "60 Tale"]
+    },
+    "bottomCta": {
+      "headline": "Begin gratis omskakel."
+    },
+    "footer": {
+      "copyright": "\u00a9 2026 Denys Lebiediev"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privaatheidsbeleid - Image Converter Plus",
+      "description": "Privaatheidsbeleid vir Image Converter Plus. Alle beeldverwerking vind op jou toestel plaas — niks word opgelaai, opgespoor of gedeel nie."
+    },
+    "hero": {
+      "title": "Privaatheidsbeleid",
+      "subtitle": "Jou foto's bly joune. Alles word op jou toestel verwerk — niks word opgelaai, opgespoor of gedeel nie."
+    },
+    "cards": [
+      {
+        "heading": "Op Jou Toestel",
+        "paragraphs": ["Al jou beelde, omskakelgeskiedenis en voorkeure word slegs op hierdie toestel gestoor. Niks verlaat ooit die toestel sonder jou uitdruklike handeling nie."],
+        "bullets": [
+          "Ingevoerde en omgeskakelde beelde in die program se sandbox-berging",
+          "Omskakelgeskiedenis en duimnaels",
+          "Jou formaat-, gehalte- en verkleiningvoorkeure",
+          "Tydelike lêers in <code>/var/tmp/</code> — outomaties opgeruim by elke bekendstelling",
+          "Sleutelhanger-berging — slegs 'n hash van ingeloste promosiekodes, nooit die kode self nie",
+          "App Group-houer — deel slegs Pro-aankoopstatus met die Share Extension"
+        ]
+      },
+      {
+        "heading": "Wat Ons Nie Insamel Nie",
+        "paragraphs": ["Image Converter Plus versamel geen persoonlike inligting nie. Ons weet nie wie jy is, wat jy omskakel of hoe jy die program gebruik nie."],
+        "bullets": [
+          "Geen persoonlike inligting",
+          "Geen toestel-identifiseerders",
+          "Geen gebruiksontledings",
+          "Geen liggingsdata",
+          "Geen advertensies of opsporing"
+        ]
+      },
+      {
+        "heading": "Foto's en Beelde",
+        "paragraphs": [
+          "Wanneer jy foto's kies, sien Image Converter Plus slegs die spesifieke beelde wat jy kies — nooit jou hele biblioteek nie. Die program gebruik beperkte fotobiblioteektoegang en stoor slegs <code>localIdentifiers</code> vir gekose bates.",
+          "As 'n gekose foto in iCloud gestoor is, laai die program dit tydelik na jou toestel af met 'n 2-minuut-tydsbeperking. Hierdie tydelike kopieë word outomaties by bekendstelling opgeruim.",
+          "Alle beeldverwerking vind plaaslik plaas deur jou toestel se hardeware. Omgeskakelde beelde word op jou toestel gestoor en gedeel slegs wanneer jy kies om dit te deel.",
+          "Jy kan metadata (EXIF, GPS, kamera-inligting, tydstempels, outeurbesonderhede, toestel-identifiseerders, wysigingsgeskiedenis en ingebedde duimnaels) uit omgeskakelde beelde verwyder om jou privaatheid te beskerm wanneer jy deel."
+        ]
+      },
+      {
+        "heading": "Aankope",
+        "paragraphs": [
+          "Aankope word heeltemal deur Apple hanteer deur StoreKit 2. Ons sien nooit jou betalingsinligting, Apple ID of rekeningbesonderhede nie.",
+          "Jou aankoopstatus word plaaslik geverifieer deur Apple se kriptografiese transaksie-verifikasie. Geen bedieneroproepe word gemaak om aankope te valideer nie.",
+          "Promosiekodes word plaaslik gevalideer deur HMAC — slegs 'n kriptografiese hash word in die Sleutelhanger gestoor, nooit die kode self nie."
+        ]
+      },
+      {
+        "heading": "Share Extension",
+        "paragraphs": [
+          "Die Share Extension loop as 'n geïsoleerde proses apart van die hoofprogram. Dit skakel beelde om deur jou verstekvoorinstelling direk vanaf die stelsel se Share Sheet te gebruik.",
+          "Tydelike lêers wat deur die uitbreiding geskep word, word na gebruik opgeruim. Die uitbreiding stoor nie omskakelgeskiedenis nie. Die enigste data wat tussen die hoofprogram en die uitbreiding via App Group gedeel word, is jou Pro-aankoopstatus."
+        ]
+      },
+      {
+        "heading": "Databewaring",
+        "paragraphs": [
+          "Jy het beheer oor jou data. Jy kan jou omskakelgeskiedenis enige tyd uitvee uit die Geskiedenisblad. Outomatiese opruiming is beskikbaar in Instellings — kies 7 dae, 30 dae, 90 dae, of hou omskakelinge vir altyd.",
+          "By elke bekendstelling ruim die program weeskind-lêers op (invoere, uitvoere en duimnaels wat nie aan enige geskiedenisrekord gekoppel is nie) en verwyder tydelike gidse.",
+          "Die uitvee van die program verwyder alle verwante data — beelde, geskiedenis, voorkeure en App Group-berging. Die enigste uitsondering is 'n klein Sleutelhanger-inskrywing (promosiekode-hash), wat oor installasies volhou soos standaard vir iOS Sleutelhanger-items."
+        ]
+      },
+      {
+        "heading": "Derdeparty-dienste",
+        "paragraphs": [
+          "Image Converter Plus gebruik slegs Apple se ingeboude raamwerke. Daar is geen derdeparty-ontledings, advertensie-SDK's of eksterne opsporingsinstrumente nie.",
+          "Die program werk heeltemal vanlyn. 'n Internetverbinding is slegs nodig wanneer 'n aankoop gedoen word."
+        ]
+      },
+      {
+        "heading": "Privaatheidsmanifes",
+        "paragraphs": [
+          "Die program bevat 'n Apple Privaatheidsmanifes wat <code>NSPrivacyTracking: false</code> verklaar. Geen datatipes word ingesamel of opgespoor nie, en geen opsporingdomeine word gekontak nie."
+        ]
+      },
+      {
+        "heading": "Kontak",
+        "paragraphs": [
+          "Vrae oor privaatheid? Kontak ons enige tyd by <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Hulp", "title": "Ondersteuning", "href": "support.html" },
+      { "label": "Regsake", "title": "Gebruiksvoorwaardes", "href": "terms.html" }
+    ],
+    "lastUpdated": "Laas opgedateer: Maart 2026"
+  },
+  "terms": {
+    "meta": {
+      "title": "Gebruiksvoorwaardes - Image Converter Plus",
+      "description": "Gebruiksvoorwaardes vir Image Converter Plus. Lees die lisensie, aankoopvoorwaardes en gebruiksriglyne vir die program."
+    },
+    "hero": {
+      "title": "Gebruiksvoorwaardes",
+      "subtitle": "Image Converter Plus vir iOS"
+    },
+    "cards": [
+      {
+        "heading": "Ooreenkoms",
+        "paragraphs": ["Deur Image Converter Plus af te laai of te gebruik, stem jy in tot hierdie voorwaardes. As jy nie saamstem nie, gebruik asseblief nie die program nie."]
+      },
+      {
+        "heading": "Lisensie",
+        "paragraphs": [
+          "Image Converter Plus verleen jou 'n beperkte, nie-eksklusiewe, nie-oordraagbare lisensie om die program te gebruik vir persoonlike, nie-kommersiële doeleindes op toestelle wat jy besit of beheer.",
+          "Hierdie lisensie strek tot die Share Extension (\u201cSkakel om met Image Converter Plus\u201d), wat deel van die program is. Die program vereis iOS 16.0 of later."
+        ]
+      },
+      {
+        "heading": "Jou Inhoud",
+        "paragraphs": [
+          "Jy behou alle regte op die beelde wat jy omskakel deur Image Converter Plus. Die program maak geen aanspraak op eienaarskap van jou inhoud nie.",
+          "Jy is verantwoordelik om te verseker dat jy die reg het om enige beelde wat jy in die program invoer te gebruik en om te skakel."
+        ]
+      },
+      {
+        "heading": "Gratis en Pro-vlakke",
+        "paragraphs": [
+          "Image Converter Plus is gratis om af te laai en te gebruik. Die gratisvlak sluit omskakeling tussen JPEG, PNG en HEIC-formate in, een beeld op 'n slag.",
+          "Pro is 'n eenmalige aankoop (nie 'n intekening nie) wat die volgende ontsluit:",
+          "Pro word met jou gesin gedeel deur Family Sharing.",
+          "Promosiekodes verleen dieselfde toegang as 'n Pro-aankoop. Elke promosiekode kan een keer per toestel ingewissel word."
+        ],
+        "bullets": [
+          "TIFF- en AVIF-uitvoerformate",
+          "Onbeperkte bondelomskakelng",
+          "Per-beeld-instelling-oorskrywings",
+          "Metadata-privaatheidsbeheers",
+          "Bondelomskakelng in die Share Extension"
+        ]
+      },
+      {
+        "heading": "Aankope",
+        "paragraphs": [
+          "Alle aankope word deur Apple verwerk deur StoreKit 2 en is onderhewig aan Apple se bepalings en voorwaardes.",
+          "Die Pro-opgradering is 'n eenmalige nie-verbruikbare aankoop — nie 'n intekening nie. Jy betaal een keer en behou dit vir altyd.",
+          "Wenke is opsionele verbruikbare aankope wat ontwikkeling ondersteun. Hulle ontsluit geen bykomende kenmerke nie.",
+          "Alle verkope is finaal. Terugbetalingsversoeke moet na Apple gerig word. Jy kan jou aankope enige tyd herstel vanuit Instellings."
+        ]
+      },
+      {
+        "heading": "Aanvaarbare Gebruik",
+        "paragraphs": ["Jy stem in om nie die volgende te doen nie:"],
+        "bullets": [
+          "Die program omgekeerd te ingenieur, te dekompileer of te disassembleer",
+          "Die program vir enige onwettige doel te gebruik",
+          "Probeer om enige beperkings of beperkings te omseil"
+        ]
+      },
+      {
+        "heading": "Vrywaring",
+        "paragraphs": [
+          "Image Converter Plus word verskaf \u201csoos dit is\u201d sonder enige waarborge. Ons waarborg nie dat die program foutloos of ononderbroke sal wees nie.",
+          "Ons is nie verantwoordelik vir enige verlies van data of beelde nie. Hou asseblief rugsteun van belangrike lêers."
+        ]
+      },
+      {
+        "heading": "Beperking van Aanspreeklikheid",
+        "paragraphs": [
+          "Tot die maksimum mate wat deur die wet toegelaat word, sal die ontwikkelaar nie aanspreeklik wees vir enige indirekte, toevallige, spesiale of gevolgskade wat voortspruit uit jou gebruik van die program nie."
+        ]
+      },
+      {
+        "heading": "Wysigings",
+        "paragraphs": [
+          "Ons kan hierdie voorwaardes van tyd tot tyd opdateer. Voortgesette gebruik van die program na wysigings word as aanvaarding van die nuwe voorwaardes beskou."
+        ]
+      },
+      {
+        "heading": "Kontak",
+        "paragraphs": [
+          "Vrae? Kontak ons by <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Hulp", "title": "Ondersteuning", "href": "support.html" },
+      { "label": "Regsake", "title": "Privaatheidsbeleid", "href": "privacy.html" }
+    ],
+    "lastUpdated": "Laas opgedateer: Maart 2026"
+  },
+  "support": {
+    "meta": {
+      "title": "Ondersteuning - Image Converter Plus",
+      "description": "Kry hulp met Image Converter Plus. Vind antwoorde op algemene vrae oor die omskakeling, verkleining en beskerming van jou foto's."
+    },
+    "hero": {
+      "title": "Ondersteuning",
+      "subtitle": "Vind antwoorde op algemene vrae oor die omskakeling, verkleining en beskerming van jou foto's.",
+      "contactBtn": "Kontak Ons"
+    },
+    "formats": {
+      "label": "Formate",
+      "title": "Vyf formate, een program.",
+      "description": "Skakel om tussen die gewildste beeldformate met volledige gehaltebeheer."
+    },
+    "faq": {
+      "categories": [
+        {
+          "title": "Begin",
+          "items": [
+            {
+              "question": "Hoe skakel ek beelde om?",
+              "answer": "Tik die Foto's- of Lêers-knoppie om beelde in te voer. Kies jou uitvoerformaat en gehalte, en tik dan Omskakel. Omgeskakelde beelde verskyn in die Geskiedenisblad, waar jy hulle kan stoor of deel."
+            },
+            {
+              "question": "Kan ek verskeie beelde gelyktydig omskakel?",
+              "answer": "Ja. Kies soveel beelde as wat jy nodig het en skakel hulle almal in 'n enkele bondel om. Elke beeld kan sy eie formaat-, gehalte-, grootte- en lêernaaминstellings hê."
+            },
+            {
+              "question": "Kan ek van iCloud Drive of ander programme invoer?",
+              "answer": "Ja. Tik die Lêers-knoppie om iCloud Drive, Dropbox, Google Drive of enige lêerverskaffers op jou toestel te blaai. Jy kan ook die Share Extension gebruik om beelde direk van ander programme om te skakel."
+            }
+          ]
+        },
+        {
+          "title": "Omskakelinstellings",
+          "items": [
+            {
+              "question": "Wat doen die gehalteskuifbalk?",
+              "answer": "Die gehalteskuifbalk beheer kompressie vir JPEG-, HEIC- en AVIF-formate. Hoër waardes produseer beter gehalte teen groter lêergroottes. PNG en TIFF is altyd verliesloos en ignoreer hierdie instelling."
+            },
+            {
+              "question": "Hoe verklein ek beelde?",
+              "answer": "Gebruik die grootteinstelling om beelde van 50% tot 200% van die oorspronklike afmetings te skaal. Jy kan 'n verstek vir alle beelde instel of elke een individueel aanpas."
+            },
+            {
+              "question": "Kan ek lêers tydens omskakeling hernoem?",
+              "answer": "Ja. Jy kan 'n voor- of agtervoeging by alle omgeskakelde lêers voeg deur 'n naamreel, of elke beeld individueel hernoem voor omskakeling."
+            },
+            {
+              "question": "Wat is voorinstellings?",
+              "answer": "Voorinstellings stoor 'n kombinasie van formaat-, gehalte-, grootte- en naamgewinginstellings vir omskakeling met een tik. Die program sluit 4 ingeboude voorinstellings in, en jy kan hulle herrangskik of versteek in Instellings."
+            }
+          ]
+        },
+        {
+          "title": "Privaatheid en Metadata",
+          "items": [
+            {
+              "question": "Kan ek metadata uit beelde verwyder?",
+              "answer": "Ja. Image Converter Plus kan EXIF-data verwyder, insluitend GPS-ligging, kamera-inligting, tydstempels, outeurbesonderhede, toestel-identifiseerders, wysigingsgeskiedenis en ingebedde duimnaels. Kies uit voorinstelling-privaatheidsmodi of pas presies aan wat verwyder moet word."
+            },
+            {
+              "question": "Word my beelde êrens opgelaai?",
+              "answer": "Nee. Alle verwerking vind heeltemal op jou toestel plaas. Daar is geen bedieners, geen oplaai, geen ontledings en geen advertensies nie. Die program werk heeltemal vanlyn — 'n internetverbinding is slegs nodig om 'n aankoop te doen."
+            }
+          ]
+        },
+        {
+          "title": "Stoor en Deel",
+          "items": [
+            {
+              "question": "Waar word my omgeskakelde beelde gestoor?",
+              "answer": "Omgeskakelde beelde word in die program se Geskiedenisblad gestoor. Van daar kan jy hulle na jou Fotobiblioteek stoor, na Lêers uitvoer, of via AirDrop, Boodskappe, Pos en meer deel."
+            },
+            {
+              "question": "Hoe werk die Share Extension?",
+              "answer": "Kies beelde in enige program, tik die Deel-knoppie, en kies Image Converter Plus. Jou beelde word omgeskakel deur jou verstekvoorinstelling te gebruik sonder om die hoofprogram oop te maak. Pro-gebruikers kan verskeie beelde gelyktydig omskakel vanaf die Share Sheet."
+            },
+            {
+              "question": "Kan ek ou omskakelinge outo-uitvee?",
+              "answer": "Ja. Gaan na Instellings en kies 'n outo-uitveeperiode — 7 dae, 30 dae, 90 dae, of nooit. Ou omskakelinge word outomaties verwyder om berging te bespaar."
+            }
+          ]
+        },
+        {
+          "title": "Pro",
+          "items": [
+            {
+              "question": "Wat is ingesluit in die Pro-opgradering?",
+              "answer": "Pro is 'n eenmalige aankoop wat TIFF- en AVIF-formate, volledige metadata- en privaatheidsbeheer, per-beeld-instelling-oorskrywings, en bondelomskakelng in die Share Extension ontsluit. Daar is geen intekening nie — en dit word met jou gesin gedeel deur Family Sharing."
+            },
+            {
+              "question": "Hoe herstel ek my aankoop?",
+              "answer": "Gaan na Instellings en tik Herstel Aankope. Maak seker jy is aangemeld met dieselfde Apple-rekening wat jy vir die oorspronklike aankoop gebruik het. As jy deel is van 'n Family Sharing-groep, word die aankoop outomaties gedeel."
+            }
+          ]
+        },
+        {
+          "title": "Probleemoplossing",
+          "items": [
+            {
+              "question": "Die program werk nie behoorlik nie.",
+              "answer": "Probeer om die program toe te maak en weer oop te maak. As die probleem voortduur, herbegin jou toestel en maak seker jy gebruik die nuutste weergawe van die App Store. Steeds probleme? Kontak ons met besonderhede oor wat gebeur en ons sal help."
+            },
+            {
+              "question": "'n Omskakeling het misluk. Wat moet ek doen?",
+              "answer": "Maak seker jou toestel het genoeg vrye berging. Baie groot beelde mag meer beskikbare spasie vereis. Probeer om minder beelde gelyktydig om te skakel, of verminder die uitvoergrootte. As die probleem voortduur, kontak ons met die beeldformaat en -grootte."
+            },
+            {
+              "question": "My Pro-aankoop verskyn nie.",
+              "answer": "Gaan na Instellings en tik Herstel Aankope. Maak seker jy is aan die internet gekoppel en aangemeld met die korrekte Apple-rekening. As jy deur Family Sharing gekoop het, verseker dat deel nog aktief is in jou gesingroep."
+            }
+          ]
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Stelselvereistes",
+      "items": [
+        "iOS 16.0 of later",
+        "Versoenbaar met iPhone en iPad",
+        "Werk heeltemal vanlyn — geen internetverbinding benodig nie"
+      ]
+    },
+    "links": [
+      { "label": "Regsake", "title": "Privaatheidsbeleid", "href": "privacy.html" },
+      { "label": "Regsake", "title": "Gebruiksvoorwaardes", "href": "terms.html" }
+    ],
+    "lastUpdated": "Laas opgedateer: Maart 2026"
+  }
+}

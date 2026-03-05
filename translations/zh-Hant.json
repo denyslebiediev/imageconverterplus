@@ -1,0 +1,431 @@
+{
+  "_meta": { "lang": "zh-Hant", "dir": "ltr" },
+  "nav": {
+    "title": "Image Converter Plus",
+    "privacy": "隱私權政策",
+    "terms": "使用條款",
+    "support": "支援"
+  },
+  "index": {
+    "meta": {
+      "title": "Image Converter Plus — 轉換、調整大小並保護您的照片",
+      "description": "在 JPEG、PNG、HEIC、TIFF 和 AVIF 之間轉換圖片。調整品質、調整大小並移除中繼資料——全在您的裝置上完成。"
+    },
+    "hero": {
+      "headline": "轉換。調整大小。<br>保護隱私。",
+      "subtitle": "具備隱私控制的批次圖片轉換——完全在您的裝置上進行。",
+      "badgeAlt": "從 App Store 下載",
+      "availability": "適用於 iPhone 和 iPad。需要 iOS 16 或更新版本。"
+    },
+    "formats": {
+      "eyebrow": "5 種輸出格式",
+      "headline": "滿足所有需求的格式。",
+      "body": "在最常用的圖片格式之間轉換。在品質、相容性和檔案大小之間找到最佳平衡。"
+    },
+    "features": {
+      "eyebrow": "功能特色",
+      "headline": "每個步驟都精確無誤。",
+      "body": "在轉換任何一張圖片之前，精細調整品質、調整大小、重新命名並預覽。",
+      "cards": [
+        {
+          "icon": "&#9881;&#65039;",
+          "title": "品質控制",
+          "description": "針對有損格式，將品質從 40% 調整至 100%。即時查看預估的檔案大小變化。"
+        },
+        {
+          "icon": "&#8596;&#65039;",
+          "title": "調整大小",
+          "description": "將圖片縮放至 50% 到 200%。設定個別圖片的覆寫設定，或將預設套用至整批圖片。"
+        },
+        {
+          "icon": "&#128196;",
+          "title": "檔案命名",
+          "description": "為轉換後的檔案加上前綴或後綴。個別命名每張圖片，或套用規則至所有圖片。"
+        },
+        {
+          "icon": "&#9889;",
+          "title": "預設組合",
+          "description": "4 個內建預設組合，一鍵完成轉換。可自訂每個預設的格式、品質、大小和命名規則。"
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "隱私保護",
+      "headline": "您的照片所承載的<br>遠比您想像的更多。",
+      "body": "GPS 座標、相機型號、時間戳記。Image Converter Plus 在您分享前移除隱藏的中繼資料——精細控制哪些資料保留、哪些資料移除。",
+      "items": [
+        { "icon": "&#128205;", "title": "位置", "description": "GPS 座標和地名" },
+        { "icon": "&#128247;", "title": "相機", "description": "日期、時間和拍攝設定" },
+        { "icon": "&#9997;&#65039;", "title": "作者", "description": "說明文字、關鍵字和創作者" },
+        { "icon": "&#128241;", "title": "裝置", "description": "型號名稱和識別碼" },
+        { "icon": "&#128736;&#65039;", "title": "編輯紀錄", "description": "編輯歷史記錄和軟體資訊" },
+        { "icon": "&#128444;&#65039;", "title": "預覽圖", "description": "嵌入的縮圖" }
+      ]
+    },
+    "workflow": {
+      "eyebrow": "工作流程",
+      "headline": "完美融入您的工作流程。",
+      "shareTitle": "Share Extension",
+      "shareBody": "無需開啟應用程式即可轉換圖片。在任何應用程式中選取照片，點一下「分享」，一個步驟完成轉換。Pro 使用者可直接從分享表單進行批次轉換並使用所有格式。",
+      "historyTitle": "轉換歷史記錄",
+      "historyBody": "每次轉換都會儲存縮圖。隨時重新匯出至「照片」、「檔案」或分享表單。設定自動刪除以自動清除舊的轉換記錄。"
+    },
+    "onDevice": {
+      "eyebrow": "裝置端處理",
+      "headline": "無伺服器。無上傳。<br>無追蹤。",
+      "body": "所有圖片均在您的裝置上本機處理。沒有雲端服務、沒有分析功能，也沒有廣告。只有在進行購買時才需要網際網路連線。"
+    },
+    "pro": {
+      "eyebrow": "Pro 版本",
+      "headline": "一次解鎖所有功能。<br>永久擁有。",
+      "body": "單次購買。沒有訂閱。沒有定期收費。透過 Family Sharing 與您的家人共享。",
+      "features": [
+        {
+          "icon": "&#128194;",
+          "title": "TIFF 和 AVIF",
+          "description": "解鎖所有五種輸出格式，滿足各種使用情境。"
+        },
+        {
+          "icon": "&#128274;",
+          "title": "中繼資料移除",
+          "description": "完整的 EXIF 和中繼資料移除功能，提供三種隱私預設模式。"
+        },
+        {
+          "icon": "&#127384;",
+          "title": "批次 Share Extension",
+          "description": "直接從分享表單一次轉換多張圖片。"
+        }
+      ],
+      "price": "$9.99",
+      "priceNote": "單次購買。包含 Family Sharing。"
+    },
+    "accessibility": {
+      "eyebrow": "輔助使用",
+      "headline": "為所有人而設計。",
+      "body": "從一開始就考量輔助使用功能。支援 60 種語言，並內建語言選擇器。",
+      "badges": ["VoiceOver", "Dynamic Type", "觸覺回饋", "60 種語言"]
+    },
+    "bottomCta": {
+      "headline": "立即免費開始轉換。"
+    },
+    "footer": {
+      "copyright": "\u00a9 2026 Denys Lebiediev"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "隱私權政策 - Image Converter Plus",
+      "description": "Image Converter Plus 的隱私權政策。所有圖片處理均在您的裝置上進行——不會上傳、追蹤或分享任何資料。"
+    },
+    "hero": {
+      "title": "隱私權政策",
+      "subtitle": "您的照片只屬於您。所有處理均在您的裝置上進行——不會上傳、追蹤或分享任何資料。"
+    },
+    "cards": [
+      {
+        "heading": "儲存於您的裝置",
+        "paragraphs": ["您所有的圖片、轉換歷史記錄和偏好設定僅儲存在此裝置上。若未經您明確操作，任何資料都不會離開裝置。"],
+        "bullets": [
+          "匯入和轉換的圖片儲存於應用程式沙盒儲存空間",
+          "轉換歷史記錄和縮圖",
+          "您的格式、品質和大小偏好設定",
+          "暫存檔案存放於 <code>/var/tmp/</code>——每次啟動時自動清除",
+          "鑰匙圈儲存——僅儲存已兌換優惠碼的雜湊值，絕不儲存優惠碼本身",
+          "App Group 容器——僅與 Share Extension 共享 Pro 購買狀態"
+        ]
+      },
+      {
+        "heading": "我們不收集的資料",
+        "paragraphs": ["Image Converter Plus 不收集任何個人資訊。我們不知道您是誰、您轉換了什麼，或您如何使用應用程式。"],
+        "bullets": [
+          "不收集個人資訊",
+          "不收集裝置識別碼",
+          "不收集使用分析資料",
+          "不收集位置資料",
+          "不進行廣告投放或追蹤"
+        ]
+      },
+      {
+        "heading": "照片與圖片",
+        "paragraphs": [
+          "當您選取照片時，Image Converter Plus 只會存取您選擇的特定圖片——絕不存取您的整個相簿。應用程式使用有限的照片圖庫存取權限，並僅針對所選項目儲存 <code>localIdentifiers</code>。",
+          "若所選照片儲存於 iCloud，應用程式會將其暫時下載至您的裝置，逾時時間為 2 分鐘。這些暫時副本會在啟動時自動清除。",
+          "所有圖片處理均使用您裝置的硬體在本機進行。轉換後的圖片儲存於您的裝置，僅在您選擇分享時才會共享。",
+          "您可以從轉換後的圖片中移除中繼資料（包括 EXIF、GPS、相機資訊、時間戳記、作者詳細資料、裝置識別碼、編輯歷史記錄和嵌入縮圖），以在分享時保護您的隱私。"
+        ]
+      },
+      {
+        "heading": "購買",
+        "paragraphs": [
+          "購買完全由 Apple 透過 StoreKit 2 處理。我們從不知道您的付款資訊、Apple ID 或帳單詳情。",
+          "您的購買狀態使用 Apple 的加密交易驗證在本機進行驗證。不會向任何伺服器發出驗證購買的請求。",
+          "優惠碼使用 HMAC 在本機驗證——鑰匙圈中僅儲存加密雜湊值，絕不儲存優惠碼本身。"
+        ]
+      },
+      {
+        "heading": "Share Extension",
+        "paragraphs": [
+          "Share Extension 作為獨立於主應用程式的隔離處理程序運行。它直接從系統分享表單使用您的預設組合轉換圖片。",
+          "擴充功能建立的暫存檔案在使用後會自動清除。擴充功能不會保存轉換歷史記錄。主應用程式與擴充功能之間透過 App Group 共享的唯一資料是您的 Pro 購買狀態。"
+        ]
+      },
+      {
+        "heading": "資料保留",
+        "paragraphs": [
+          "您可完全掌控自己的資料。您可以隨時從「歷史記錄」標籤頁刪除轉換歷史記錄。在「設定」中可設定自動清除功能——選擇 7 天、30 天、90 天，或永久保留轉換記錄。",
+          "每次啟動時，應用程式會清除孤立檔案（未連結至任何歷史記錄的匯入、輸出和縮圖），並移除暫存目錄。",
+          "刪除應用程式將移除所有相關資料——圖片、歷史記錄、偏好設定和 App Group 儲存空間。唯一的例外是一個小型的鑰匙圈項目（優惠碼雜湊值），該項目會跨安裝保留，這是 iOS 鑰匙圈項目的標準行為。"
+        ]
+      },
+      {
+        "heading": "第三方服務",
+        "paragraphs": [
+          "Image Converter Plus 僅使用 Apple 的內建框架。沒有第三方分析工具、廣告 SDK 或外部追蹤工具。",
+          "應用程式可完全離線運作。只有在進行購買時才需要網際網路連線。"
+        ]
+      },
+      {
+        "heading": "隱私資訊清單",
+        "paragraphs": [
+          "應用程式包含 Apple 隱私資訊清單，聲明 <code>NSPrivacyTracking: false</code>。不收集或追蹤任何資料類型，也不會連線至任何追蹤網域。"
+        ]
+      },
+      {
+        "heading": "聯絡我們",
+        "paragraphs": [
+          "對隱私有疑問？請隨時透過 <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a> 聯絡我們。"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "說明", "title": "支援", "href": "support.html" },
+      { "label": "法律", "title": "使用條款", "href": "terms.html" }
+    ],
+    "lastUpdated": "最後更新：2026 年 3 月"
+  },
+  "terms": {
+    "meta": {
+      "title": "使用條款 - Image Converter Plus",
+      "description": "Image Converter Plus 的使用條款。閱讀應用程式的授權、購買條款和使用指南。"
+    },
+    "hero": {
+      "title": "使用條款",
+      "subtitle": "Image Converter Plus for iOS"
+    },
+    "cards": [
+      {
+        "heading": "協議",
+        "paragraphs": ["下載或使用 Image Converter Plus 即表示您同意這些條款。若您不同意，請勿使用本應用程式。"]
+      },
+      {
+        "heading": "授權",
+        "paragraphs": [
+          "Image Converter Plus 授予您有限、非專屬、不可轉讓的授權，以在您擁有或控制的裝置上將應用程式用於個人、非商業目的。",
+          "此授權延伸至 Share Extension（\u201c使用 Image Converter Plus 轉換\u201d），該功能為應用程式的一部分。應用程式需要 iOS 16.0 或更新版本。"
+        ]
+      },
+      {
+        "heading": "您的內容",
+        "paragraphs": [
+          "您保留使用 Image Converter Plus 轉換的圖片的所有權利。本應用程式不主張對您的內容擁有任何所有權。",
+          "您有責任確保您有權使用和轉換匯入應用程式的任何圖片。"
+        ]
+      },
+      {
+        "heading": "免費版與 Pro 版",
+        "paragraphs": [
+          "Image Converter Plus 可免費下載和使用。免費版支援在 JPEG、PNG 和 HEIC 格式之間轉換，每次轉換一張圖片。",
+          "Pro 版是一次性購買（非訂閱），可解鎖以下功能：",
+          "Pro 版透過 Family Sharing 與您的家人共享。",
+          "優惠碼授予與 Pro 購買相同的存取權限。每個優惠碼每台裝置只能兌換一次。"
+        ],
+        "bullets": [
+          "TIFF 和 AVIF 輸出格式",
+          "無限批次轉換",
+          "個別圖片設定覆寫",
+          "中繼資料隱私控制",
+          "在 Share Extension 中進行批次轉換"
+        ]
+      },
+      {
+        "heading": "購買",
+        "paragraphs": [
+          "所有購買均由 Apple 透過 StoreKit 2 處理，並受 Apple 條款與條件約束。",
+          "Pro 升級是一次性非消耗性購買——非訂閱制。您只需付款一次，即可永久擁有。",
+          "小費是可選的消耗性購買，用於支持開發。它們不會解鎖任何額外功能。",
+          "所有銷售均為最終決定。退款請求應向 Apple 提出。您可以隨時從「設定」中恢復您的購買。"
+        ]
+      },
+      {
+        "heading": "可接受的使用",
+        "paragraphs": ["您同意不得："],
+        "bullets": [
+          "對應用程式進行逆向工程、反編譯或反組譯",
+          "將應用程式用於任何非法目的",
+          "嘗試繞過任何限制或規定"
+        ]
+      },
+      {
+        "heading": "免責聲明",
+        "paragraphs": [
+          "Image Converter Plus 以「現狀」提供，不附帶任何形式的保證。我們不保證應用程式不會出現錯誤或中斷。",
+          "我們不對任何資料或圖片的遺失負責。請務必備份重要檔案。"
+        ]
+      },
+      {
+        "heading": "責任限制",
+        "paragraphs": [
+          "在法律允許的最大範圍內，開發者對於因您使用應用程式而產生的任何間接、附帶、特殊或衍生損害概不負責。"
+        ]
+      },
+      {
+        "heading": "條款變更",
+        "paragraphs": [
+          "我們可能會不時更新這些條款。在變更後繼續使用應用程式即表示接受新條款。"
+        ]
+      },
+      {
+        "heading": "聯絡我們",
+        "paragraphs": [
+          "有疑問嗎？請透過 <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a> 聯絡我們。"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "說明", "title": "支援", "href": "support.html" },
+      { "label": "法律", "title": "隱私權政策", "href": "privacy.html" }
+    ],
+    "lastUpdated": "最後更新：2026 年 3 月"
+  },
+  "support": {
+    "meta": {
+      "title": "支援 - Image Converter Plus",
+      "description": "取得 Image Converter Plus 的使用說明。尋找有關轉換、調整大小和保護照片的常見問題解答。"
+    },
+    "hero": {
+      "title": "支援",
+      "subtitle": "尋找有關轉換、調整大小和保護照片的常見問題解答。",
+      "contactBtn": "聯絡我們"
+    },
+    "formats": {
+      "label": "格式",
+      "title": "五種格式，一個應用程式。",
+      "description": "在最常用的圖片格式之間轉換，並具備完整的品質控制功能。"
+    },
+    "faq": {
+      "categories": [
+        {
+          "title": "入門指南",
+          "items": [
+            {
+              "question": "如何轉換圖片？",
+              "answer": "點一下「照片」或「檔案」按鈕以匯入圖片。選擇輸出格式和品質，然後點一下「轉換」。轉換後的圖片會出現在「歷史記錄」標籤頁，您可以在那裡儲存或分享它們。"
+            },
+            {
+              "question": "我可以一次轉換多張圖片嗎？",
+              "answer": "可以。選取任意數量的圖片，在單次批次中一次完成轉換。每張圖片可以有各自的格式、品質、大小和檔案名稱設定。"
+            },
+            {
+              "question": "我可以從 iCloud Drive 或其他應用程式匯入嗎？",
+              "answer": "可以。點一下「檔案」按鈕以瀏覽 iCloud Drive、Dropbox、Google Drive 或您裝置上的任何檔案提供者。您也可以使用 Share Extension 直接從其他應用程式轉換圖片。"
+            }
+          ]
+        },
+        {
+          "title": "轉換設定",
+          "items": [
+            {
+              "question": "品質滑桿的作用是什麼？",
+              "answer": "品質滑桿控制 JPEG、HEIC 和 AVIF 格式的壓縮率。較高的值在較大的檔案大小下產生更好的品質。PNG 和 TIFF 始終為無損格式，會忽略此設定。"
+            },
+            {
+              "question": "如何調整圖片大小？",
+              "answer": "使用大小設定將圖片縮放至原始尺寸的 50% 到 200%。您可以為所有圖片設定預設值，或個別自訂每張圖片。"
+            },
+            {
+              "question": "轉換時可以重新命名檔案嗎？",
+              "answer": "可以。您可以使用命名規則為所有轉換後的檔案加上前綴或後綴，或在轉換前個別重新命名每張圖片。"
+            },
+            {
+              "question": "什麼是預設組合？",
+              "answer": "預設組合儲存格式、品質、大小和命名設定的組合，可一鍵完成轉換。應用程式包含 4 個內建預設組合，您可以在「設定」中重新排序或隱藏它們。"
+            }
+          ]
+        },
+        {
+          "title": "隱私與中繼資料",
+          "items": [
+            {
+              "question": "我可以從圖片中移除中繼資料嗎？",
+              "answer": "可以。Image Converter Plus 可以移除 EXIF 資料，包括 GPS 位置、相機資訊、時間戳記、作者詳細資料、裝置識別碼、編輯歷史記錄和嵌入縮圖。從預設隱私模式中選擇，或自訂要移除的確切內容。"
+            },
+            {
+              "question": "我的圖片會上傳到任何地方嗎？",
+              "answer": "不會。所有處理完全在您的裝置上進行。沒有伺服器、沒有上傳、沒有分析，也沒有廣告。應用程式可完全離線運作——只有在進行購買時才需要網際網路連線。"
+            }
+          ]
+        },
+        {
+          "title": "儲存與分享",
+          "items": [
+            {
+              "question": "轉換後的圖片儲存在哪裡？",
+              "answer": "轉換後的圖片儲存在應用程式的「歷史記錄」標籤頁中。您可以從那裡將它們儲存至「照片圖庫」、匯出至「檔案」，或透過 AirDrop、訊息、郵件等方式分享。"
+            },
+            {
+              "question": "Share Extension 如何運作？",
+              "answer": "在任何應用程式中選取圖片，點一下「分享」按鈕，然後選擇 Image Converter Plus。無需開啟主應用程式，即可使用您的預設組合轉換圖片。Pro 使用者可以直接從分享表單一次轉換多張圖片。"
+            },
+            {
+              "question": "我可以自動刪除舊的轉換記錄嗎？",
+              "answer": "可以。前往「設定」並選擇自動刪除時間——7 天、30 天、90 天或永不。舊的轉換記錄會自動移除以節省儲存空間。"
+            }
+          ]
+        },
+        {
+          "title": "Pro 版本",
+          "items": [
+            {
+              "question": "Pro 升級包含哪些內容？",
+              "answer": "Pro 是一次性購買，可解鎖 TIFF 和 AVIF 格式、完整的中繼資料和隱私控制、個別圖片設定覆寫，以及在 Share Extension 中的批次轉換功能。沒有訂閱制——並透過 Family Sharing 與您的家人共享。"
+            },
+            {
+              "question": "如何恢復我的購買？",
+              "answer": "前往「設定」並點一下「恢復購買」。確保您使用與原始購買相同的 Apple 帳號登入。若您是家庭共享群組的成員，購買將自動共享。"
+            }
+          ]
+        },
+        {
+          "title": "疑難排解",
+          "items": [
+            {
+              "question": "應用程式無法正常運作。",
+              "answer": "嘗試關閉並重新開啟應用程式。若問題持續存在，請重新啟動裝置，並確保您使用的是 App Store 的最新版本。仍然遇到問題？請聯絡我們並提供發生狀況的詳細說明，我們將為您提供協助。"
+            },
+            {
+              "question": "轉換失敗了。我該怎麼做？",
+              "answer": "請確保您的裝置有足夠的可用儲存空間。非常大的圖片可能需要更多可用空間。嘗試一次轉換較少的圖片，或縮小輸出大小。若問題持續，請聯絡我們並提供圖片格式和大小的相關資訊。"
+            },
+            {
+              "question": "我的 Pro 購買沒有顯示。",
+              "answer": "前往「設定」並點一下「恢復購買」。確保您已連線至網際網路，並使用正確的 Apple 帳號登入。若您是透過 Family Sharing 購買，請確認您的家庭群組中的共享功能仍然有效。"
+            }
+          ]
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "系統需求",
+      "items": [
+        "iOS 16.0 或更新版本",
+        "相容於 iPhone 和 iPad",
+        "完全離線運作——不需要網際網路連線"
+      ]
+    },
+    "links": [
+      { "label": "法律", "title": "隱私權政策", "href": "privacy.html" },
+      { "label": "法律", "title": "使用條款", "href": "terms.html" }
+    ],
+    "lastUpdated": "最後更新：2026 年 3 月"
+  }
+}

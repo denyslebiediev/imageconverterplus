@@ -1,0 +1,431 @@
+{
+  "_meta": { "lang": "cs", "dir": "ltr" },
+  "nav": {
+    "title": "Image Converter Plus",
+    "privacy": "Zásady ochrany osobních údajů",
+    "terms": "Podmínky použití",
+    "support": "Podpora"
+  },
+  "index": {
+    "meta": {
+      "title": "Image Converter Plus — Převádějte, měňte velikost a chraňte své fotografie",
+      "description": "Převádějte obrázky mezi formáty JPEG, PNG, HEIC, TIFF a AVIF. Upravujte kvalitu, měňte velikost a odstraňujte metadata — vše přímo na vašem zařízení."
+    },
+    "hero": {
+      "headline": "Převeďte. Změňte velikost.<br>Chraňte.",
+      "subtitle": "Hromadný převod obrázků s kontrolou soukromí — zcela na vašem zařízení.",
+      "badgeAlt": "Stáhnout v App Store",
+      "availability": "Dostupné pro iPhone a iPad. Vyžaduje iOS 16 nebo novější."
+    },
+    "formats": {
+      "eyebrow": "5 výstupních formátů",
+      "headline": "Každý formát, který potřebujete.",
+      "body": "Převádějte mezi nejoblíbenějšími obrazovými formáty. Zvolte správnou rovnováhu mezi kvalitou, kompatibilitou a velikostí souboru."
+    },
+    "features": {
+      "eyebrow": "Funkce",
+      "headline": "Přesnost v každém kroku.",
+      "body": "Dolaďte kvalitu, změňte velikost, přejmenujte a zobrazte náhled — to vše ještě před převodem jediného obrázku.",
+      "cards": [
+        {
+          "icon": "&#9881;&#65039;",
+          "title": "Kontrola kvality",
+          "description": "Upravte kvalitu od 40 % do 100 % u ztrátových formátů. Odhadovaná velikost souboru se aktualizuje v reálném čase."
+        },
+        {
+          "icon": "&#8596;&#65039;",
+          "title": "Změna velikosti",
+          "description": "Škálujte obrázky od 50 % do 200 %. Nastavte individuální přepsání pro každý obrázek nebo použijte předvolbu pro celou dávku."
+        },
+        {
+          "icon": "&#128196;",
+          "title": "Pojmenování souborů",
+          "description": "Přidejte předponu nebo příponu k převedeným souborům. Pojmenujte každý obrázek zvlášť nebo použijte pravidlo pro všechny."
+        },
+        {
+          "icon": "&#9889;",
+          "title": "Předvolby",
+          "description": "4 vestavěné předvolby pro převod jedním klepnutím. V každé z nich si přizpůsobte formát, kvalitu, velikost a pojmenování."
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "Soukromí",
+      "headline": "Vaše fotografie skrývají víc,<br>než si myslíte.",
+      "body": "Souřadnice GPS. Model fotoaparátu. Časová razítka. Image Converter Plus odstraní skrytá metadata ještě před sdílením — s detailní kontrolou nad tím, co zůstane a co bude odstraněno.",
+      "items": [
+        { "icon": "&#128205;", "title": "Poloha", "description": "Souřadnice GPS a názvy míst" },
+        { "icon": "&#128247;", "title": "Fotoaparát", "description": "Datum, čas a nastavení snímání" },
+        { "icon": "&#9997;&#65039;", "title": "Autor", "description": "Popisky, klíčová slova a tvůrce" },
+        { "icon": "&#128241;", "title": "Zařízení", "description": "Název modelu a identifikátory" },
+        { "icon": "&#128736;&#65039;", "title": "Úpravy", "description": "Historie úprav a informace o softwaru" },
+        { "icon": "&#128444;&#65039;", "title": "Náhledy", "description": "Vložené miniatury" }
+      ]
+    },
+    "workflow": {
+      "eyebrow": "Pracovní postup",
+      "headline": "Zapadne přímo do vašeho pracovního postupu.",
+      "shareTitle": "Share Extension",
+      "shareBody": "Převádějte obrázky bez otevření aplikace. Vyberte fotografie v libovolné aplikaci, klepněte na Sdílet a převeďte je v jediném kroku. Uživatelé Pro získají hromadný převod a všechny formáty přímo ze Share Sheet.",
+      "historyTitle": "Historie převodů",
+      "historyBody": "Každý převod je uložen s miniaturou. Kdykoli znovu exportujte do Fotek, Souborů nebo Share Sheet. Nastavte automatické mazání pro automatické čištění starých převodů."
+    },
+    "onDevice": {
+      "eyebrow": "Na zařízení",
+      "headline": "Žádné servery. Žádné nahrávání.<br>Žádné sledování.",
+      "body": "Každý obrázek je zpracováván lokálně na vašem zařízení. Neexistují žádné cloudové služby, žádná analytika a žádné reklamy. Připojení k internetu je potřeba pouze při nákupu."
+    },
+    "pro": {
+      "eyebrow": "Pro",
+      "headline": "Odemkněte vše.<br>Jednou provždy.",
+      "body": "Jednorázový nákup. Žádné předplatné. Žádné opakované poplatky. Sdíleno s vaší rodinou prostřednictvím Family Sharing.",
+      "features": [
+        {
+          "icon": "&#128194;",
+          "title": "TIFF & AVIF",
+          "description": "Odemkněte všech pět výstupních formátů pro každý případ použití."
+        },
+        {
+          "icon": "&#128274;",
+          "title": "Odstranění metadat",
+          "description": "Úplné odstranění EXIF a metadat se třemi předvolbami soukromí."
+        },
+        {
+          "icon": "&#127384;",
+          "title": "Hromadná Share Extension",
+          "description": "Převádějte více obrázků najednou přímo ze Share Sheet."
+        }
+      ],
+      "price": "$9.99",
+      "priceNote": "Jednorázový nákup. Family Sharing je součástí."
+    },
+    "accessibility": {
+      "eyebrow": "Přístupnost",
+      "headline": "Navrženo pro každého.",
+      "body": "Přístupnost je zabudována od samého začátku. Dostupné v 60 jazycích s výběrem jazyka přímo v aplikaci.",
+      "badges": ["VoiceOver", "Dynamic Type", "Haptická zpětná vazba", "60 jazyků"]
+    },
+    "bottomCta": {
+      "headline": "Začněte převádět zdarma."
+    },
+    "footer": {
+      "copyright": "\u00a9 2026 Denys Lebiediev"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Zásady ochrany osobních údajů – Image Converter Plus",
+      "description": "Zásady ochrany osobních údajů pro Image Converter Plus. Veškeré zpracování obrázků probíhá na vašem zařízení — nic se nenahrává, nesleduje ani nesdílí."
+    },
+    "hero": {
+      "title": "Zásady ochrany osobních údajů",
+      "subtitle": "Vaše fotografie zůstávají vaše. Vše je zpracováváno na vašem zařízení — nic se nenahrává, nesleduje ani nesdílí."
+    },
+    "cards": [
+      {
+        "heading": "Na vašem zařízení",
+        "paragraphs": ["Všechny vaše obrázky, historie převodů a předvolby jsou uloženy pouze na tomto zařízení. Nic nikdy neopustí zařízení bez vašeho výslovného souhlasu."],
+        "bullets": [
+          "Importované a převedené obrázky v úložišti sandboxu aplikace",
+          "Historie převodů a miniatury",
+          "Vaše předvolby formátu, kvality a velikosti",
+          "Dočasné soubory v <code>/var/tmp/</code> — automaticky mazány při každém spuštění",
+          "Úložiště Keychain — pouze hash uplatněných promo kódů, nikdy samotný kód",
+          "Kontejner App Group — sdílí pouze stav nákupu Pro se Share Extension"
+        ]
+      },
+      {
+        "heading": "Co neshromažďujeme",
+        "paragraphs": ["Image Converter Plus neshromažďuje žádné osobní údaje. Nevíme, kdo jste, co převádíte ani jak aplikaci používáte."],
+        "bullets": [
+          "Žádné osobní údaje",
+          "Žádné identifikátory zařízení",
+          "Žádná analytika využití",
+          "Žádné údaje o poloze",
+          "Žádná reklama ani sledování"
+        ]
+      },
+      {
+        "heading": "Fotografie a obrázky",
+        "paragraphs": [
+          "Když vyberete fotografie, Image Converter Plus vidí pouze konkrétní obrázky, které zvolíte — nikdy celou vaši knihovnu. Aplikace používá omezený přístup k fotoknihovně a ukládá pouze <code>localIdentifiers</code> pro vybrané podklady.",
+          "Pokud je vybraná fotografie uložena v iCloud, aplikace ji dočasně stáhne do vašeho zařízení s časovým limitem 2 minuty. Tyto dočasné kopie jsou při spuštění automaticky smazány.",
+          "Veškeré zpracování obrázků probíhá lokálně pomocí hardwaru vašeho zařízení. Převedené obrázky jsou uloženy na vašem zařízení a sdíleny pouze tehdy, když se rozhodnete je sdílet.",
+          "Z převedených obrázků můžete odstranit metadata (EXIF, GPS, informace o fotoaparátu, časová razítka, údaje o autorovi, identifikátory zařízení, historii úprav a vložené miniatury) a chránit tak své soukromí při sdílení."
+        ]
+      },
+      {
+        "heading": "Nákupy",
+        "paragraphs": [
+          "Nákupy jsou plně zpracovávány společností Apple prostřednictvím StoreKit 2. Nikdy nevidíme vaše platební informace, Apple ID ani fakturační údaje.",
+          "Stav vašeho nákupu je ověřován lokálně pomocí kryptografického ověřování transakcí společnosti Apple. K ověření nákupů nejsou uskutečňována žádná volání na server.",
+          "Promo kódy jsou ověřovány lokálně pomocí HMAC — v Keychain je uložen pouze kryptografický hash, nikdy samotný kód."
+        ]
+      },
+      {
+        "heading": "Share Extension",
+        "paragraphs": [
+          "Share Extension běží jako izolovaný proces oddělený od hlavní aplikace. Převádí obrázky pomocí vaší výchozí předvolby přímo ze systémové Share Sheet.",
+          "Dočasné soubory vytvořené rozšířením jsou po použití smazány. Rozšíření neuchovává historii převodů. Jediný údaj sdílený mezi hlavní aplikací a rozšířením prostřednictvím App Group je stav vašeho nákupu Pro."
+        ]
+      },
+      {
+        "heading": "Uchovávání dat",
+        "paragraphs": [
+          "Vaše data jsou ve vaší správě. Historii převodů můžete kdykoli smazat na záložce Historie. Automatické čištění je dostupné v Nastavení — zvolte 7 dní, 30 dní, 90 dní nebo ponechte převody navždy.",
+          "Při každém spuštění aplikace jsou vyčištěny osiřelé soubory (importy, výstupy a miniatury, které nejsou propojeny s žádným záznamem v historii) a odstraněny dočasné adresáře.",
+          "Smazáním aplikace odeberete veškerá přidružená data — obrázky, historii, předvolby a úložiště App Group. Jedinou výjimkou je malý záznam v Keychain (hash promo kódu), který přetrvává napříč instalacemi, jak je pro položky iOS Keychain standardní."
+        ]
+      },
+      {
+        "heading": "Služby třetích stran",
+        "paragraphs": [
+          "Image Converter Plus používá pouze vestavěné frameworky Apple. Neexistují žádné analytické nástroje třetích stran, reklamní SDK ani externí nástroje pro sledování.",
+          "Aplikace funguje zcela offline. Připojení k internetu je potřeba pouze při provádění nákupu."
+        ]
+      },
+      {
+        "heading": "Privacy Manifest",
+        "paragraphs": [
+          "Aplikace obsahuje Apple Privacy Manifest deklarující <code>NSPrivacyTracking: false</code>. Nejsou shromažďovány ani sledovány žádné typy dat a nejsou kontaktovány žádné sledovací domény."
+        ]
+      },
+      {
+        "heading": "Kontakt",
+        "paragraphs": [
+          "Dotazy ohledně soukromí? Kontaktujte nás kdykoli na <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Nápověda", "title": "Podpora", "href": "support.html" },
+      { "label": "Právní informace", "title": "Podmínky použití", "href": "terms.html" }
+    ],
+    "lastUpdated": "Naposledy aktualizováno: březen 2026"
+  },
+  "terms": {
+    "meta": {
+      "title": "Podmínky použití – Image Converter Plus",
+      "description": "Podmínky použití pro Image Converter Plus. Přečtěte si licenci, podmínky nákupu a pokyny pro používání aplikace."
+    },
+    "hero": {
+      "title": "Podmínky použití",
+      "subtitle": "Image Converter Plus pro iOS"
+    },
+    "cards": [
+      {
+        "heading": "Souhlas",
+        "paragraphs": ["Stažením nebo používáním Image Converter Plus souhlasíte s těmito podmínkami. Pokud nesouhlasíte, prosíme, aplikaci nepoužívejte."]
+      },
+      {
+        "heading": "Licence",
+        "paragraphs": [
+          "Image Converter Plus vám uděluje omezenou, nevýhradní a nepřenosnou licenci k používání aplikace pro osobní, nekomerční účely na zařízeních, která vlastníte nebo kontrolujete.",
+          "Tato licence se vztahuje na Share Extension (\u201eConvert with Image Converter Plus\u201c), která je součástí aplikace. Aplikace vyžaduje iOS 16.0 nebo novější."
+        ]
+      },
+      {
+        "heading": "Váš obsah",
+        "paragraphs": [
+          "Zachováváte veškerá práva k obrázkům, které pomocí Image Converter Plus převádíte. Aplikace si nenárokuje žádné vlastnictví vašeho obsahu.",
+          "Jste zodpovědní za to, že máte právo používat a převádět jakékoli obrázky, které do aplikace importujete."
+        ]
+      },
+      {
+        "heading": "Bezplatná verze a Pro",
+        "paragraphs": [
+          "Image Converter Plus je zdarma ke stažení a použití. Bezplatná verze zahrnuje převod mezi formáty JPEG, PNG a HEIC, vždy jeden obrázek najednou.",
+          "Pro je jednorázový nákup (nikoli předplatné), který odemkne:",
+          "Pro je sdíleno s vaší rodinou prostřednictvím Family Sharing.",
+          "Promo kódy poskytují stejný přístup jako nákup Pro. Každý promo kód lze uplatnit jednou na každém zařízení."
+        ],
+        "bullets": [
+          "Výstupní formáty TIFF a AVIF",
+          "Neomezený hromadný převod",
+          "Individuální přepsání nastavení pro každý obrázek",
+          "Kontrola soukromí metadat",
+          "Hromadný převod ve Share Extension"
+        ]
+      },
+      {
+        "heading": "Nákupy",
+        "paragraphs": [
+          "Všechny nákupy jsou zpracovávány společností Apple prostřednictvím StoreKit 2 a podléhají podmínkám Apple.",
+          "Upgrade na Pro je jednorázový nespotřebovatelný nákup — nikoli předplatné. Zaplatíte jednou a vlastníte ho navždy.",
+          "Spropitné je volitelný spotřebovatelný nákup na podporu vývoje. Neodemkne žádné další funkce.",
+          "Všechny prodeje jsou konečné. Žádosti o vrácení peněz směřujte na Apple. Nákupy můžete kdykoli obnovit v Nastavení."
+        ]
+      },
+      {
+        "heading": "Přijatelné použití",
+        "paragraphs": ["Souhlasíte, že nebudete:"],
+        "bullets": [
+          "Provádět zpětnou analýzu, dekompilovat ani rozebírat aplikaci",
+          "Používat aplikaci k jakémukoli nezákonnému účelu",
+          "Pokoušet se obejít jakákoli omezení nebo restrikce"
+        ]
+      },
+      {
+        "heading": "Odmítnutí záruky",
+        "paragraphs": [
+          "Image Converter Plus je poskytována \u201ejak je\u201c bez jakýchkoli záruk. Nezaručujeme, že aplikace bude bez chyb nebo nepřerušená.",
+          "Neneseme odpovědnost za jakoukoliv ztrátu dat nebo obrázků. Uchovávejte prosím zálohy důležitých souborů."
+        ]
+      },
+      {
+        "heading": "Omezení odpovědnosti",
+        "paragraphs": [
+          "V maximálním rozsahu povoleném zákonem vývojář nenese odpovědnost za žádné nepřímé, náhodné, zvláštní ani následné škody vzniklé v důsledku vašeho používání aplikace."
+        ]
+      },
+      {
+        "heading": "Změny",
+        "paragraphs": [
+          "Tyto podmínky můžeme čas od času aktualizovat. Pokračování v používání aplikace po provedení změn znamená přijetí nových podmínek."
+        ]
+      },
+      {
+        "heading": "Kontakt",
+        "paragraphs": [
+          "Dotazy? Kontaktujte nás na <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Nápověda", "title": "Podpora", "href": "support.html" },
+      { "label": "Právní informace", "title": "Zásady ochrany osobních údajů", "href": "privacy.html" }
+    ],
+    "lastUpdated": "Naposledy aktualizováno: březen 2026"
+  },
+  "support": {
+    "meta": {
+      "title": "Podpora – Image Converter Plus",
+      "description": "Získejte pomoc s Image Converter Plus. Najděte odpovědi na časté otázky o převodu, změně velikosti a ochraně vašich fotografií."
+    },
+    "hero": {
+      "title": "Podpora",
+      "subtitle": "Najděte odpovědi na časté otázky o převodu, změně velikosti a ochraně vašich fotografií.",
+      "contactBtn": "Kontaktujte nás"
+    },
+    "formats": {
+      "label": "Formáty",
+      "title": "Pět formátů, jedna aplikace.",
+      "description": "Převádějte mezi nejoblíbenějšími obrazovými formáty s plnou kontrolou kvality."
+    },
+    "faq": {
+      "categories": [
+        {
+          "title": "Začínáme",
+          "items": [
+            {
+              "question": "Jak převádím obrázky?",
+              "answer": "Klepněte na tlačítko Fotky nebo Soubory pro import obrázků. Zvolte výstupní formát a kvalitu a klepněte na Převést. Převedené obrázky se zobrazí na záložce Historie, odkud je můžete uložit nebo sdílet."
+            },
+            {
+              "question": "Mohu převést více obrázků najednou?",
+              "answer": "Ano. Vyberte libovolný počet obrázků a převeďte je všechny v jedné dávce. Každý obrázek může mít vlastní nastavení formátu, kvality, velikosti a názvu souboru."
+            },
+            {
+              "question": "Mohu importovat z iCloud Drive nebo jiných aplikací?",
+              "answer": "Ano. Klepněte na tlačítko Soubory pro procházení iCloud Drive, Dropboxu, Google Drive nebo libovolného poskytovatele souborů na vašem zařízení. Můžete také použít Share Extension pro převod obrázků přímo z jiných aplikací."
+            }
+          ]
+        },
+        {
+          "title": "Nastavení převodu",
+          "items": [
+            {
+              "question": "Co dělá posuvník kvality?",
+              "answer": "Posuvník kvality řídí kompresi pro formáty JPEG, HEIC a AVIF. Vyšší hodnoty poskytují lepší kvalitu při větší velikosti souboru. PNG a TIFF jsou vždy bezztrátové a toto nastavení ignorují."
+            },
+            {
+              "question": "Jak měním velikost obrázků?",
+              "answer": "Pomocí nastavení velikosti škálujte obrázky od 50 % do 200 % původních rozměrů. Můžete nastavit výchozí hodnotu pro všechny obrázky nebo každý obrázek přizpůsobit individuálně."
+            },
+            {
+              "question": "Mohu přejmenovat soubory během převodu?",
+              "answer": "Ano. Ke všem převedeným souborům můžete přidat předponu nebo příponu pomocí pravidla pojmenování, nebo každý obrázek přejmenovat individuálně před převodem."
+            },
+            {
+              "question": "Co jsou předvolby?",
+              "answer": "Předvolby ukládají kombinaci nastavení formátu, kvality, velikosti a pojmenování pro převod jedním klepnutím. Aplikace obsahuje 4 vestavěné předvolby, které lze v Nastavení změnit pořadí nebo skrýt."
+            }
+          ]
+        },
+        {
+          "title": "Soukromí a metadata",
+          "items": [
+            {
+              "question": "Mohu z obrázků odstranit metadata?",
+              "answer": "Ano. Image Converter Plus může odstranit data EXIF včetně polohy GPS, informací o fotoaparátu, časových razítek, údajů o autorovi, identifikátorů zařízení, historie úprav a vložených miniatur. Zvolte z předvolených režimů soukromí nebo přizpůsobte přesně to, co chcete odstranit."
+            },
+            {
+              "question": "Jsou moje obrázky někam nahrávány?",
+              "answer": "Ne. Veškeré zpracování probíhá zcela na vašem zařízení. Neexistují žádné servery, žádné nahrávání, žádná analytika ani reklamy. Aplikace funguje zcela offline — připojení k internetu je potřeba pouze při nákupu."
+            }
+          ]
+        },
+        {
+          "title": "Ukládání a sdílení",
+          "items": [
+            {
+              "question": "Kde jsou uloženy moje převedené obrázky?",
+              "answer": "Převedené obrázky jsou uloženy na záložce Historie v aplikaci. Odtud je můžete uložit do Fotoknihovny, exportovat do Souborů nebo sdílet prostřednictvím AirDrop, Zpráv, Mailu a dalších."
+            },
+            {
+              "question": "Jak funguje Share Extension?",
+              "answer": "Vyberte obrázky v libovolné aplikaci, klepněte na tlačítko Sdílet a zvolte Image Converter Plus. Vaše obrázky jsou převedeny pomocí vaší výchozí předvolby bez otevření hlavní aplikace. Uživatelé Pro mohou ze Share Sheet převádět více obrázků najednou."
+            },
+            {
+              "question": "Mohu nastavit automatické mazání starých převodů?",
+              "answer": "Ano. Přejděte do Nastavení a zvolte dobu automatického mazání — 7 dní, 30 dní, 90 dní nebo nikdy. Staré převody jsou automaticky odstraněny, aby se uvolnilo úložiště."
+            }
+          ]
+        },
+        {
+          "title": "Pro",
+          "items": [
+            {
+              "question": "Co zahrnuje upgrade na Pro?",
+              "answer": "Pro je jednorázový nákup, který odemkne formáty TIFF a AVIF, plnou kontrolu metadat a soukromí, individuální přepsání nastavení pro každý obrázek a hromadný převod ve Share Extension. Žádné předplatné — a je sdíleno s vaší rodinou prostřednictvím Family Sharing."
+            },
+            {
+              "question": "Jak obnovím svůj nákup?",
+              "answer": "Přejděte do Nastavení a klepněte na Obnovit nákupy. Ujistěte se, že jste přihlášeni se stejným Apple Account, který jste použili při původním nákupu. Pokud jste součástí skupiny Family Sharing, nákup je sdílen automaticky."
+            }
+          ]
+        },
+        {
+          "title": "Řešení problémů",
+          "items": [
+            {
+              "question": "Aplikace nefunguje správně.",
+              "answer": "Zkuste aplikaci zavřít a znovu otevřít. Pokud problém přetrvává, restartujte zařízení a ujistěte se, že používáte nejnovější verzi z App Store. Stále máte potíže? Kontaktujte nás s podrobnostmi o tom, co se děje, a pomůžeme vám."
+            },
+            {
+              "question": "Převod selhal. Co mám dělat?",
+              "answer": "Zkontrolujte, zda má vaše zařízení dostatek volného úložiště. Velmi velké obrázky mohou vyžadovat více dostupného místa. Zkuste převádět méně obrázků najednou nebo snižte výstupní velikost. Pokud problém přetrvává, kontaktujte nás s formátem a velikostí obrázku."
+            },
+            {
+              "question": "Můj nákup Pro se nezobrazuje.",
+              "answer": "Přejděte do Nastavení a klepněte na Obnovit nákupy. Ujistěte se, že jste připojeni k internetu a přihlášeni se správným Apple Account. Pokud jste zakoupili prostřednictvím Family Sharing, ověřte, že sdílení je stále aktivní ve vaší rodinné skupině."
+            }
+          ]
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Systémové požadavky",
+      "items": [
+        "iOS 16.0 nebo novější",
+        "Kompatibilní s iPhone a iPad",
+        "Funguje zcela offline — není vyžadováno připojení k internetu"
+      ]
+    },
+    "links": [
+      { "label": "Právní informace", "title": "Zásady ochrany osobních údajů", "href": "privacy.html" },
+      { "label": "Právní informace", "title": "Podmínky použití", "href": "terms.html" }
+    ],
+    "lastUpdated": "Naposledy aktualizováno: březen 2026"
+  }
+}

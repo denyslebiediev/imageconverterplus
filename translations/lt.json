@@ -1,0 +1,431 @@
+{
+  "_meta": { "lang": "lt", "dir": "ltr" },
+  "nav": {
+    "title": "Image Converter Plus",
+    "privacy": "Privatumo politika",
+    "terms": "Naudojimo sąlygos",
+    "support": "Pagalba"
+  },
+  "index": {
+    "meta": {
+      "title": "Image Converter Plus — Konvertuokite, keiskite dydį ir apsaugokite savo nuotraukas",
+      "description": "Konvertuokite vaizdus tarp JPEG, PNG, HEIC, TIFF ir AVIF. Sureguliuokite kokybę, keiskite dydį ir pašalinkite metaduomenis — viskas jūsų įrenginyje."
+    },
+    "hero": {
+      "headline": "Konvertuokite. Keiskite dydį.<br>Apsaugokite.",
+      "subtitle": "Paketinis vaizdų konvertavimas su privatumo valdikliais — visiškai jūsų įrenginyje.",
+      "badgeAlt": "Atsisiųsti iš App Store",
+      "availability": "Prieinama iPhone ir iPad. Reikalinga iOS 16 arba naujesnė versija."
+    },
+    "formats": {
+      "eyebrow": "5 išvesties formatai",
+      "headline": "Kiekvienas reikalingas formatas.",
+      "body": "Konvertuokite tarp populiariausių vaizdų formatų. Pasirinkite tinkamą kokybės, suderinamumo ir failo dydžio balansą."
+    },
+    "features": {
+      "eyebrow": "Funkcijos",
+      "headline": "Tikslumas kiekviename žingsnyje.",
+      "body": "Sureguliuokite kokybę, keiskite dydį, pervadinkite ir peržiūrėkite — viskas prieš konvertuojant.",
+      "cards": [
+        {
+          "icon": "&#9881;&#65039;",
+          "title": "Kokybės valdymas",
+          "description": "Reguliuokite kokybę nuo 40% iki 100% su nuostoliais pagrįstiems formatams. Stebėkite apytikslį failo dydį realiuoju laiku."
+        },
+        {
+          "icon": "&#8596;&#65039;",
+          "title": "Dydžio keitimas",
+          "description": "Keiskite vaizdų mastelį nuo 50% iki 200%. Nustatykite atskirų vaizdų parametrus arba taikykite išankstinį nustatymą visam paketui."
+        },
+        {
+          "icon": "&#128196;",
+          "title": "Failų įvardinimas",
+          "description": "Pridėkite priešdėlį arba priesagą prie konvertuotų failų. Pavadinkite kiekvieną vaizdą atskirai arba taikykite taisyklę visiems."
+        },
+        {
+          "icon": "&#9889;",
+          "title": "Išankstiniai nustatymai",
+          "description": "4 įtaisyti išankstiniai nustatymai konvertavimui vienu palietimu. Tinkinkite formatą, kokybę, dydį ir įvardinimą kiekviename."
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "Privatumas",
+      "headline": "Jūsų nuotraukose yra daugiau,<br>nei manote.",
+      "body": "GPS koordinatės. Fotoaparato modelis. Laiko žymos. Image Converter Plus pašalina paslėptus metaduomenis prieš bendrinant — su tiksliu valdymu, kas lieka ir kas išnyksta.",
+      "items": [
+        { "icon": "&#128205;", "title": "Vieta", "description": "GPS koordinatės ir vietų pavadinimai" },
+        { "icon": "&#128247;", "title": "Fotoaparatas", "description": "Data, laikas ir fotografavimo nustatymai" },
+        { "icon": "&#9997;&#65039;", "title": "Autorius", "description": "Antraštės, raktažodžiai ir kūrėjas" },
+        { "icon": "&#128241;", "title": "Įrenginys", "description": "Modelio pavadinimas ir identifikatoriai" },
+        { "icon": "&#128736;&#65039;", "title": "Redagavimai", "description": "Redagavimo istorija ir programinės įrangos informacija" },
+        { "icon": "&#128444;&#65039;", "title": "Peržiūros", "description": "Įterptosios miniatiūros" }
+      ]
+    },
+    "workflow": {
+      "eyebrow": "Darbo eiga",
+      "headline": "Puikiai dera į jūsų darbo eigą.",
+      "shareTitle": "Share Extension",
+      "shareBody": "Konvertuokite vaizdus neatidarę programos. Pasirinkite nuotraukas bet kurioje programoje, bakstelėkite Bendrinti ir konvertuokite vienu žingsniu. Pro naudotojai gauna paketinį konvertavimą ir visus formatus tiesiai iš Share Sheet.",
+      "historyTitle": "Konvertavimo istorija",
+      "historyBody": "Kiekvienas konvertavimas išsaugomas su miniatiūra. Bet kada pakartotinai eksportuokite į Nuotraukas, Failus arba Share Sheet. Nustatykite automatinį ištrynimą, kad automatiškai išvalytumėte senus konvertavimus."
+    },
+    "onDevice": {
+      "eyebrow": "Įrenginyje",
+      "headline": "Jokių serverių. Jokių įkėlimų.<br>Jokio sekimo.",
+      "body": "Kiekvienas vaizdas apdorojamas lokaliai jūsų įrenginyje. Nėra debesų paslaugų, analitikos ar reklamos. Interneto ryšys reikalingas tik pirkimui atlikti."
+    },
+    "pro": {
+      "eyebrow": "Pro",
+      "headline": "Atrakinkite viską.<br>Vieną kartą.",
+      "body": "Vienas pirkimas. Jokio prenumeratos. Jokių pasikartojančių mokėjimų. Bendrinamas su šeima per Family Sharing.",
+      "features": [
+        {
+          "icon": "&#128194;",
+          "title": "TIFF ir AVIF",
+          "description": "Atrakinkite visus penkis išvesties formatus kiekvienam naudojimo atvejui."
+        },
+        {
+          "icon": "&#128274;",
+          "title": "Metaduomenų šalinimas",
+          "description": "Visiškas EXIF ir metaduomenų šalinimas su trimis privatumo išankstiniais nustatymais."
+        },
+        {
+          "icon": "&#127384;",
+          "title": "Paketinis bendrinimo plėtinys",
+          "description": "Konvertuokite kelis vaizdus iš karto tiesiai iš Share Sheet."
+        }
+      ],
+      "price": "$9.99",
+      "priceNote": "Vienkartinis pirkimas. Family Sharing įskaičiuotas."
+    },
+    "accessibility": {
+      "eyebrow": "Prieinamumas",
+      "headline": "Sukurta visiems.",
+      "body": "Prieinamumas įtaisytas nuo pat pradžių. Prieinama 60 kalbų su kalbos parinkikliu programoje.",
+      "badges": ["VoiceOver", "Dynamic Type", "Haptic Feedback", "60 kalbų"]
+    },
+    "bottomCta": {
+      "headline": "Pradėkite konvertuoti nemokamai."
+    },
+    "footer": {
+      "copyright": "\u00a9 2026 Denys Lebiediev"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privatumo politika - Image Converter Plus",
+      "description": "Image Converter Plus privatumo politika. Visas vaizdų apdorojimas vyksta jūsų įrenginyje — niekas neįkeliama, nesekama ar nebendrinamas."
+    },
+    "hero": {
+      "title": "Privatumo politika",
+      "subtitle": "Jūsų nuotraukos lieka jūsų. Viskas apdorojama jūsų įrenginyje — niekas neįkeliama, nesekama ar nebendrinamas."
+    },
+    "cards": [
+      {
+        "heading": "Jūsų įrenginyje",
+        "paragraphs": ["Visi jūsų vaizdai, konvertavimo istorija ir nuostatos saugomos tik šiame įrenginyje. Niekas niekada neišeina be jūsų aiškaus veiksmo."],
+        "bullets": [
+          "Importuoti ir konvertuoti vaizdai programos smėlio dėžės saugykloje",
+          "Konvertavimo istorija ir miniatiūros",
+          "Jūsų formato, kokybės ir dydžio nuostatos",
+          "Laikinieji failai <code>/var/tmp/</code> — automatiškai išvalomi kiekvieno paleidimo metu",
+          "Raktų grandinės saugykla — tik išpirktų promo kodų maiša, niekada ne pats kodas",
+          "App Group konteineris — bendrina tik Pro pirkimo būseną su Share Extension"
+        ]
+      },
+      {
+        "heading": "Ko mes nerenkame",
+        "paragraphs": ["Image Converter Plus nerenka jokios asmeninės informacijos. Mes nežinome, kas jūs esate, ką konvertuojate ar kaip naudojate programą."],
+        "bullets": [
+          "Jokios asmeninės informacijos",
+          "Jokių įrenginio identifikatorių",
+          "Jokios naudojimo analitikos",
+          "Jokių vietos duomenų",
+          "Jokios reklamos ar sekimo"
+        ]
+      },
+      {
+        "heading": "Nuotraukos ir vaizdai",
+        "paragraphs": [
+          "Renkantis nuotraukas, Image Converter Plus mato tik jūsų pasirinktus vaizdus — niekada ne visą biblioteką. Programa naudoja ribotą prieigą prie nuotraukų bibliotekos ir saugo tik pasirinktų išteklių <code>localIdentifiers</code>.",
+          "Jei pasirinkta nuotrauka saugoma iCloud, programa laikinai ją atsisiunčia į jūsų įrenginį su 2 minučių skirtojo laiko apribojimu. Šios laikinosios kopijos automatiškai išvalomos paleidimo metu.",
+          "Visas vaizdų apdorojimas vyksta lokaliai, naudojant jūsų įrenginio aparatinę įrangą. Konvertuoti vaizdai išsaugomi jūsų įrenginyje ir bendrinami tik tada, kai jūs tai pasirenkate.",
+          "Galite pašalinti metaduomenis (EXIF, GPS, fotoaparato informaciją, laiko žymas, autoriaus duomenis, įrenginio identifikatorius, redagavimo istoriją ir įterptas miniatiūras) iš konvertuotų vaizdų, kad apsaugotumėte privatumą bendrinant."
+        ]
+      },
+      {
+        "heading": "Pirkimai",
+        "paragraphs": [
+          "Pirkimus visiškai tvarko Apple per StoreKit 2. Mes niekada nematome jūsų mokėjimo informacijos, Apple ID ar atsiskaitymo duomenų.",
+          "Jūsų pirkimo būsena tikrinama lokaliai naudojant Apple kriptografinę sandorių patikrą. Pirkimams patvirtinti nėra atliekami jokie serverio kvietimai.",
+          "Promo kodai tvirtinami lokaliai naudojant HMAC — raktų grandinėje saugoma tik kriptografinė maiša, niekada ne pats kodas."
+        ]
+      },
+      {
+        "heading": "Share Extension",
+        "paragraphs": [
+          "Share Extension veikia kaip izoliuotas procesas, atskirtas nuo pagrindinės programos. Ji konvertuoja vaizdus naudodama jūsų numatytąjį išankstinį nustatymą tiesiai iš sistemos Share Sheet.",
+          "Plėtinio sukurti laikinieji failai išvalomi po naudojimo. Plėtinys nesaugo konvertavimo istorijos. Vieninteliai duomenys, kuriuos pagrindinis programa ir plėtinys keičiasi per App Group, yra jūsų Pro pirkimo būsena."
+        ]
+      },
+      {
+        "heading": "Duomenų saugojimas",
+        "paragraphs": [
+          "Jūs valdote savo duomenis. Bet kada galite ištrinti konvertavimo istoriją iš skirtuko Istorija. Automatinis valymas galimas Nustatymuose — pasirinkite 7 dienas, 30 dienų, 90 dienų arba saugokite konvertavimus amžinai.",
+          "Kiekvieno paleidimo metu programa išvalo našlaičių failus (importus, išvestis ir miniatiūras, nesusijusias su jokiu istorijos įrašu) ir pašalina laikinuosius katalogus.",
+          "Ištrynus programą, pašalinami visi susiję duomenys — vaizdai, istorija, nuostatos ir App Group saugykla. Vienintelė išimtis yra mažas raktų grandinės įrašas (promo kodo maiša), kuris išlieka per diegimus, kaip įprasta iOS raktų grandinės elementams."
+        ]
+      },
+      {
+        "heading": "Trečiųjų šalių paslaugos",
+        "paragraphs": [
+          "Image Converter Plus naudoja tik Apple įtaisytas sistemas. Nėra trečiųjų šalių analitikos, reklamos SDK ar išorinių sekimo įrankių.",
+          "Programa veikia visiškai neprisijungus. Interneto ryšys reikalingas tik pirkimo metu."
+        ]
+      },
+      {
+        "heading": "Privatumo manifestas",
+        "paragraphs": [
+          "Programa turi Apple privatumo manifestą, deklaruojantį <code>NSPrivacyTracking: false</code>. Jokio tipo duomenys nerenkami ar nesekamys, ir nesusisiekiama su sekimo domenais."
+        ]
+      },
+      {
+        "heading": "Susisiekite",
+        "paragraphs": [
+          "Klausimai dėl privatumo? Susisiekite su mumis bet kada <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Pagalba", "title": "Palaikymas", "href": "support.html" },
+      { "label": "Teisinis", "title": "Naudojimo sąlygos", "href": "terms.html" }
+    ],
+    "lastUpdated": "Paskutinį kartą atnaujinta: 2026 m. kovo mėn."
+  },
+  "terms": {
+    "meta": {
+      "title": "Naudojimo sąlygos - Image Converter Plus",
+      "description": "Image Converter Plus naudojimo sąlygos. Perskaitykite licenciją, pirkimo sąlygas ir programos naudojimo gaires."
+    },
+    "hero": {
+      "title": "Naudojimo sąlygos",
+      "subtitle": "Image Converter Plus iOS"
+    },
+    "cards": [
+      {
+        "heading": "Sutartis",
+        "paragraphs": ["Atsisiųsdami ar naudodami Image Converter Plus, sutinkate su šiomis sąlygomis. Jei nesutinkate, prašome nenaudoti programos."]
+      },
+      {
+        "heading": "Licencija",
+        "paragraphs": [
+          "Image Converter Plus suteikia jums ribotą, neišskirtinę, neperleidžiamą licenciją naudoti programą asmeniniais, nekomerciniais tikslais įrenginiuose, kurie priklauso jums arba kuriuos jūs kontroliuojate.",
+          "Ši licencija taikoma Share Extension (\u201cKonvertuoti naudojant Image Converter Plus\u201d), kuri yra programos dalis. Programa reikalauja iOS 16.0 arba naujesnės versijos."
+        ]
+      },
+      {
+        "heading": "Jūsų turinys",
+        "paragraphs": [
+          "Jūs išlaikote visas teises į vaizdus, kuriuos konvertuojate naudodami Image Converter Plus. Programa nepretenzinguoja jūsų turinio nuosavybės teisių.",
+          "Esate atsakingi už tai, kad turėtumėte teisę naudoti ir konvertuoti vaizdus, kuriuos importuojate į programą."
+        ]
+      },
+      {
+        "heading": "Nemokama ir Pro pakopos",
+        "paragraphs": [
+          "Image Converter Plus galima nemokamai atsisiųsti ir naudoti. Nemokama pakopa apima konvertavimą tarp JPEG, PNG ir HEIC formatų, po vieną vaizdą vienu metu.",
+          "Pro yra vienkartinis pirkimas (ne prenumerata), kuris atrakina:",
+          "Pro bendrinamas su jūsų šeima per Family Sharing.",
+          "Promo kodai suteikia tokią pačią prieigą kaip Pro pirkimas. Kiekvieną promo kodą galima išpirkti vieną kartą vienam įrenginiui."
+        ],
+        "bullets": [
+          "TIFF ir AVIF išvesties formatai",
+          "Neribotų paketų konvertavimas",
+          "Atskirų vaizdų nustatymų perrašymas",
+          "Metaduomenų privatumo valdikliai",
+          "Paketinis konvertavimas Share Extension"
+        ]
+      },
+      {
+        "heading": "Pirkimai",
+        "paragraphs": [
+          "Visus pirkimus tvarko Apple per StoreKit 2, ir jiems taikomos Apple sąlygos bei nuostatos.",
+          "Pro atnaujinimas yra vienkartinis nevartojamas pirkimas — ne prenumerata. Sumokate vieną kartą ir išlaikote amžinai.",
+          "Arbatpinigiai yra savanoriški vartojami pirkimai, palaikantys kūrimą. Jie nesuteikia jokių papildomų funkcijų.",
+          "Visi pardavimai yra galutiniai. Grąžinimo prašymai turi būti teikiami Apple. Pirkimus bet kada galite atkurti iš Nustatymų."
+        ]
+      },
+      {
+        "heading": "Priimtinas naudojimas",
+        "paragraphs": ["Sutinkate neatlikti šių veiksmų:"],
+        "bullets": [
+          "Atvirkštinės inžinerijos, dekompiliavimo ar išardymo",
+          "Naudoti programą jokiais neteisėtais tikslais",
+          "Bandyti apeiti bet kokius apribojimus"
+        ]
+      },
+      {
+        "heading": "Atsakomybės atsisakymas",
+        "paragraphs": [
+          "Image Converter Plus teikiama \u201ckaip yra\u201d be jokių garantijų. Mes negarantuojame, kad programa bus be klaidų ar nenutrūkstama.",
+          "Mes nesame atsakingi už duomenų ar vaizdų praradimą. Prašome saugoti svarbių failų atsargines kopijas."
+        ]
+      },
+      {
+        "heading": "Atsakomybės apribojimas",
+        "paragraphs": [
+          "Maksimaliu įstatymo leistinu mastu kūrėjas nebus atsakingas už jokius netiesioginius, atsitiktinius, ypatingus ar išvestinius nuostolius, kylančius dėl programos naudojimo."
+        ]
+      },
+      {
+        "heading": "Pakeitimai",
+        "paragraphs": [
+          "Galime kartas nuo karto atnaujinti šias sąlygas. Tolesniam programos naudojimui po pakeitimų laikoma, kad sutinkate su naujomis sąlygomis."
+        ]
+      },
+      {
+        "heading": "Susisiekite",
+        "paragraphs": [
+          "Klausimai? Susisiekite <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Pagalba", "title": "Palaikymas", "href": "support.html" },
+      { "label": "Teisinis", "title": "Privatumo politika", "href": "privacy.html" }
+    ],
+    "lastUpdated": "Paskutinį kartą atnaujinta: 2026 m. kovo mėn."
+  },
+  "support": {
+    "meta": {
+      "title": "Pagalba - Image Converter Plus",
+      "description": "Gaukite pagalbos su Image Converter Plus. Raskite atsakymus į dažniausius klausimus apie nuotraukų konvertavimą, dydžio keitimą ir apsaugą."
+    },
+    "hero": {
+      "title": "Pagalba",
+      "subtitle": "Raskite atsakymus į dažniausius klausimus apie nuotraukų konvertavimą, dydžio keitimą ir apsaugą.",
+      "contactBtn": "Susisiekite su mumis"
+    },
+    "formats": {
+      "label": "Formatai",
+      "title": "Penki formatai, viena programa.",
+      "description": "Konvertuokite tarp populiariausių vaizdų formatų su visu kokybės valdymu."
+    },
+    "faq": {
+      "categories": [
+        {
+          "title": "Darbo pradžia",
+          "items": [
+            {
+              "question": "Kaip konvertuoti vaizdus?",
+              "answer": "Bakstelėkite mygtuką Nuotraukos arba Failai, kad importuotumėte vaizdus. Pasirinkite išvesties formatą ir kokybę, tada bakstelėkite Konvertuoti. Konvertuoti vaizdai pasirodo skirtuke Istorija, iš kur galite juos išsaugoti ar bendrinti."
+            },
+            {
+              "question": "Ar galiu konvertuoti kelis vaizdus vienu metu?",
+              "answer": "Taip. Pasirinkite tiek vaizdų, kiek reikia, ir konvertuokite juos visus vienu paketu. Kiekvienas vaizdas gali turėti savo formato, kokybės, dydžio ir failo pavadinimo nustatymus."
+            },
+            {
+              "question": "Ar galiu importuoti iš iCloud Drive ar kitų programų?",
+              "answer": "Taip. Bakstelėkite mygtuką Failai, kad naršytumėte iCloud Drive, Dropbox, Google Drive arba bet kurį failų teikėją jūsų įrenginyje. Taip pat galite naudoti Share Extension, kad konvertuotumėte vaizdus tiesiai iš kitų programų."
+            }
+          ]
+        },
+        {
+          "title": "Konvertavimo nustatymai",
+          "items": [
+            {
+              "question": "Ką daro kokybės slankiklis?",
+              "answer": "Kokybės slankiklis valdo glaudinimą JPEG, HEIC ir AVIF formatams. Aukštesnės reikšmės suteikia geresnę kokybę esant didesniems failų dydžiams. PNG ir TIFF visada yra be nuostolių ir ignoruoja šį nustatymą."
+            },
+            {
+              "question": "Kaip keisti vaizdų dydį?",
+              "answer": "Naudokite dydžio nustatymą, kad keistumėte vaizdų mastelį nuo 50% iki 200% pradinių matmenų. Galite nustatyti numatytąją reikšmę visiems vaizdams arba tinkinti kiekvieną atskirai."
+            },
+            {
+              "question": "Ar galiu pervadinti failus konvertavimo metu?",
+              "answer": "Taip. Galite pridėti priešdėlį ar priesagą visiems konvertuotiems failams naudodami įvardinimo taisyklę arba pervadinti kiekvieną vaizdą atskirai prieš konvertuojant."
+            },
+            {
+              "question": "Kas yra išankstiniai nustatymai?",
+              "answer": "Išankstiniai nustatymai išsaugo formato, kokybės, dydžio ir įvardinimo nustatymų derinį konvertavimui vienu palietimu. Programa apima 4 įtaisytus išankstinius nustatymus, kuriuos galite pertvarkyti arba paslėpti Nustatymuose."
+            }
+          ]
+        },
+        {
+          "title": "Privatumas ir metaduomenys",
+          "items": [
+            {
+              "question": "Ar galiu pašalinti metaduomenis iš vaizdų?",
+              "answer": "Taip. Image Converter Plus gali pašalinti EXIF duomenis, įskaitant GPS vietą, fotoaparato informaciją, laiko žymas, autoriaus duomenis, įrenginio identifikatorius, redagavimo istoriją ir įterptąsias miniatiūras. Pasirinkite iš išankstinių privatumo režimų arba tiksliai tinkinkite, ką pašalinti."
+            },
+            {
+              "question": "Ar mano vaizdai kur nors įkeliami?",
+              "answer": "Ne. Visas apdorojimas vyksta visiškai jūsų įrenginyje. Nėra serverių, įkėlimų, analitikos ar reklamos. Programa veikia visiškai neprisijungus — interneto ryšys reikalingas tik pirkimui atlikti."
+            }
+          ]
+        },
+        {
+          "title": "Išsaugojimas ir bendrinimas",
+          "items": [
+            {
+              "question": "Kur išsaugomi mano konvertuoti vaizdai?",
+              "answer": "Konvertuoti vaizdai išsaugomi programos skirtuke Istorija. Iš ten galite juos išsaugoti savo nuotraukų bibliotekoje, eksportuoti į Failus arba bendrinti per AirDrop, Žinutes, El. paštą ir kt."
+            },
+            {
+              "question": "Kaip veikia Share Extension?",
+              "answer": "Pasirinkite vaizdus bet kurioje programoje, bakstelėkite mygtuką Bendrinti ir pasirinkite Image Converter Plus. Jūsų vaizdai konvertuojami naudojant numatytąjį išankstinį nustatymą neatidarant pagrindinės programos. Pro naudotojai gali konvertuoti kelis vaizdus vienu metu iš Share Sheet."
+            },
+            {
+              "question": "Ar galiu automatiškai trinti senus konvertavimus?",
+              "answer": "Taip. Eikite į Nustatymus ir pasirinkite automatinio trynimo laikotarpį — 7 dienas, 30 dienų, 90 dienų arba niekada. Seni konvertavimai automatiškai pašalinami, kad būtų taupoma saugykla."
+            }
+          ]
+        },
+        {
+          "title": "Pro",
+          "items": [
+            {
+              "question": "Kas įskaičiuota Pro atnaujinime?",
+              "answer": "Pro yra vienkartinis pirkimas, kuris atrakina TIFF ir AVIF formatus, visišką metaduomenų ir privatumo valdymą, atskirų vaizdų nustatymų perrašymą ir paketinį konvertavimą Share Extension. Prenumeratos nėra — ir jis bendrinamas su jūsų šeima per Family Sharing."
+            },
+            {
+              "question": "Kaip atkurti pirkimą?",
+              "answer": "Eikite į Nustatymus ir bakstelėkite Atkurti pirkimus. Įsitikinkite, kad esate prisijungę su ta pačia Apple paskyra, kurią naudojote pradiniam pirkimui. Jei esate Family Sharing grupės narys, pirkimas bendrinamas automatiškai."
+            }
+          ]
+        },
+        {
+          "title": "Trikčių šalinimas",
+          "items": [
+            {
+              "question": "Programa neveikia tinkamai.",
+              "answer": "Pabandykite uždaryti ir iš naujo atidaryti programą. Jei problema išlieka, paleiskite įrenginį iš naujo ir įsitikinkite, kad naudojate naujausią versiją iš App Store. Vis dar kyla problemų? Susisiekite su mumis, papasakodami, kas vyksta, ir mes padėsime."
+            },
+            {
+              "question": "Konvertavimas nepavyko. Ką daryti?",
+              "answer": "Įsitikinkite, kad jūsų įrenginyje yra pakankamai laisvos saugyklos. Labai dideli vaizdai gali reikalauti daugiau laisvos vietos. Pabandykite konvertuoti mažiau vaizdų vienu metu arba sumažinkite išvesties dydį. Jei problema tęsiasi, susisiekite su mumis nurodydami vaizdo formatą ir dydį."
+            },
+            {
+              "question": "Mano Pro pirkimas nerodomas.",
+              "answer": "Eikite į Nustatymus ir bakstelėkite Atkurti pirkimus. Įsitikinkite, kad esate prisijungę prie interneto ir prisijungę su teisinga Apple paskyra. Jei pirktumėte per Family Sharing, įsitikinkite, kad bendrinimas jūsų šeimos grupėje vis dar aktyvus."
+            }
+          ]
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Sistemos reikalavimai",
+      "items": [
+        "iOS 16.0 arba naujesnė versija",
+        "Suderinamas su iPhone ir iPad",
+        "Veikia visiškai neprisijungus — interneto ryšys nereikalingas"
+      ]
+    },
+    "links": [
+      { "label": "Teisinis", "title": "Privatumo politika", "href": "privacy.html" },
+      { "label": "Teisinis", "title": "Naudojimo sąlygos", "href": "terms.html" }
+    ],
+    "lastUpdated": "Paskutinį kartą atnaujinta: 2026 m. kovo mėn."
+  }
+}

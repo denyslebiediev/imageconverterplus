@@ -1,0 +1,431 @@
+{
+  "_meta": { "lang": "de", "dir": "ltr" },
+  "nav": {
+    "title": "Image Converter Plus",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "support": "Support"
+  },
+  "index": {
+    "meta": {
+      "title": "Image Converter Plus — Fotos konvertieren, skalieren und schützen",
+      "description": "Konvertiere Bilder zwischen JPEG, PNG, HEIC, TIFF und AVIF. Qualität anpassen, skalieren und Metadaten entfernen — alles auf deinem Gerät."
+    },
+    "hero": {
+      "headline": "Konvertieren. Skalieren.<br>Schützen.",
+      "subtitle": "Batch-Bildkonvertierung mit Datenschutzfunktionen — vollständig auf deinem Gerät.",
+      "badgeAlt": "Laden im App Store",
+      "availability": "Verfügbar für iPhone und iPad. Erfordert iOS 16 oder neuer."
+    },
+    "formats": {
+      "eyebrow": "5 Ausgabeformate",
+      "headline": "Jedes Format, das du brauchst.",
+      "body": "Konvertiere zwischen den gängigsten Bildformaten. Wähle die optimale Balance aus Qualität, Kompatibilität und Dateigröße."
+    },
+    "features": {
+      "eyebrow": "Funktionen",
+      "headline": "Präzision bei jedem Schritt.",
+      "body": "Qualität, Größe, Dateinamen und Vorschau anpassen — alles vor der eigentlichen Konvertierung.",
+      "cards": [
+        {
+          "icon": "&#9881;&#65039;",
+          "title": "Qualitätskontrolle",
+          "description": "Qualität für verlustbehaftete Formate von 40 % bis 100 % einstellen. Die geschätzte Dateigröße wird in Echtzeit aktualisiert."
+        },
+        {
+          "icon": "&#8596;&#65039;",
+          "title": "Skalierung",
+          "description": "Bilder von 50 % bis 200 % skalieren. Pro Bild individuell festlegen oder ein Preset für den gesamten Batch anwenden."
+        },
+        {
+          "icon": "&#128196;",
+          "title": "Dateiname",
+          "description": "Präfix oder Suffix zu konvertierten Dateien hinzufügen. Jedes Bild einzeln benennen oder eine Regel auf alle anwenden."
+        },
+        {
+          "icon": "&#9889;",
+          "title": "Presets",
+          "description": "4 integrierte Presets für die Konvertierung mit einem Tippen. Format, Qualität, Größe und Benennung in jedem Preset anpassbar."
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "Datenschutz",
+      "headline": "Deine Fotos verraten mehr,<br>als du denkst.",
+      "body": "GPS-Koordinaten. Kameramodell. Zeitstempel. Image Converter Plus entfernt versteckte Metadaten, bevor du teilst — mit präziser Kontrolle darüber, was bleibt und was entfernt wird.",
+      "items": [
+        { "icon": "&#128205;", "title": "Standort", "description": "GPS-Koordinaten und Ortsnamen" },
+        { "icon": "&#128247;", "title": "Kamera", "description": "Datum, Uhrzeit und Aufnahmeeinstellungen" },
+        { "icon": "&#9997;&#65039;", "title": "Autor", "description": "Bildunterschriften, Schlagwörter und Ersteller" },
+        { "icon": "&#128241;", "title": "Gerät", "description": "Modellname und Kennungen" },
+        { "icon": "&#128736;&#65039;", "title": "Bearbeitungen", "description": "Bearbeitungsverlauf und Softwareinfo" },
+        { "icon": "&#128444;&#65039;", "title": "Vorschauen", "description": "Eingebettete Vorschaubilder" }
+      ]
+    },
+    "workflow": {
+      "eyebrow": "Workflow",
+      "headline": "Passt perfekt in deinen Workflow.",
+      "shareTitle": "Share Extension",
+      "shareBody": "Bilder konvertieren, ohne die App zu öffnen. Fotos in einer beliebigen App auswählen, auf „Teilen“ tippen und in einem Schritt konvertieren. Pro-Nutzer erhalten Batch-Konvertierung und alle Formate direkt aus dem Share Sheet.",
+      "historyTitle": "Konvertierungsverlauf",
+      "historyBody": "Jede Konvertierung wird mit einem Vorschaubild gespeichert. Jederzeit erneut in Fotos, Dateien oder das Share Sheet exportieren. Automatisches Löschen einrichten, um alte Konvertierungen automatisch zu bereinigen."
+    },
+    "onDevice": {
+      "eyebrow": "Auf dem Gerät",
+      "headline": "Keine Server. Keine Uploads.<br>Kein Tracking.",
+      "body": "Jedes Bild wird lokal auf deinem Gerät verarbeitet. Es gibt keine Cloud-Dienste, keine Analysen und keine Werbung. Eine Internetverbindung wird nur für einen Kauf benötigt."
+    },
+    "pro": {
+      "eyebrow": "Pro",
+      "headline": "Alles freischalten.<br>Einmalig.",
+      "body": "Ein einmaliger Kauf. Kein Abo. Keine wiederkehrenden Kosten. Über Familienfreigabe mit deiner Familie geteilt.",
+      "features": [
+        {
+          "icon": "&#128194;",
+          "title": "TIFF & AVIF",
+          "description": "Alle fünf Ausgabeformate für jeden Anwendungsfall freischalten."
+        },
+        {
+          "icon": "&#128274;",
+          "title": "Metadaten entfernen",
+          "description": "Vollständige EXIF- und Metadatenentfernung mit drei Datenschutz-Presets."
+        },
+        {
+          "icon": "&#127384;",
+          "title": "Batch-Share Extension",
+          "description": "Mehrere Bilder auf einmal direkt aus dem Share Sheet konvertieren."
+        }
+      ],
+      "price": "$9.99",
+      "priceNote": "Einmaliger Kauf. Familienfreigabe inklusive."
+    },
+    "accessibility": {
+      "eyebrow": "Barrierefreiheit",
+      "headline": "Für alle konzipiert.",
+      "body": "Von Anfang an mit Barrierefreiheit entwickelt. In 60 Sprachen verfügbar mit einer In-App-Sprachauswahl.",
+      "badges": ["VoiceOver", "Dynamic Type", "Haptisches Feedback", "60 Sprachen"]
+    },
+    "bottomCta": {
+      "headline": "Kostenlos starten."
+    },
+    "footer": {
+      "copyright": "\u00a9 2026 Denys Lebiediev"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Datenschutzerklärung - Image Converter Plus",
+      "description": "Datenschutzerklärung für Image Converter Plus. Die gesamte Bildverarbeitung erfolgt auf deinem Gerät — nichts wird hochgeladen, verfolgt oder weitergegeben."
+    },
+    "hero": {
+      "title": "Datenschutzerklärung",
+      "subtitle": "Deine Fotos bleiben deine. Alles wird auf deinem Gerät verarbeitet — nichts wird hochgeladen, verfolgt oder weitergegeben."
+    },
+    "cards": [
+      {
+        "heading": "Auf deinem Gerät",
+        "paragraphs": ["Alle deine Bilder, der Konvertierungsverlauf und deine Einstellungen werden ausschließlich auf diesem Gerät gespeichert. Nichts verlässt das Gerät ohne deine ausdrückliche Aktion."],
+        "bullets": [
+          "Importierte und konvertierte Bilder im App-Sandbox-Speicher",
+          "Konvertierungsverlauf und Vorschaubilder",
+          "Deine Format-, Qualitäts- und Größeneinstellungen",
+          "Temporäre Dateien in <code>/var/tmp/</code> — werden bei jedem Start automatisch bereinigt",
+          "Keychain-Speicher — nur ein Hash eingelöster Promo-Codes, niemals der Code selbst",
+          "App-Group-Container — teilt ausschließlich den Pro-Kaufstatus mit der Share Extension"
+        ]
+      },
+      {
+        "heading": "Was wir nicht erfassen",
+        "paragraphs": ["Image Converter Plus erfasst keinerlei personenbezogene Daten. Wir wissen nicht, wer du bist, was du konvertierst oder wie du die App verwendest."],
+        "bullets": [
+          "Keine personenbezogenen Daten",
+          "Keine Gerätekennungen",
+          "Keine Nutzungsanalysen",
+          "Keine Standortdaten",
+          "Keine Werbung oder kein Tracking"
+        ]
+      },
+      {
+        "heading": "Fotos und Bilder",
+        "paragraphs": [
+          "Wenn du Fotos auswählst, sieht Image Converter Plus nur die von dir ausgewählten Bilder — niemals deine gesamte Bibliothek. Die App verwendet eingeschränkten Fotobibliothekszugriff und speichert nur <code>localIdentifiers</code> für ausgewählte Assets.",
+          "Wenn ein ausgewähltes Foto in iCloud gespeichert ist, lädt die App es vorübergehend mit einem Timeout von 2 Minuten auf dein Gerät herunter. Diese temporären Kopien werden beim Start automatisch bereinigt.",
+          "Die gesamte Bildverarbeitung erfolgt lokal mithilfe der Hardware deines Geräts. Konvertierte Bilder werden auf deinem Gerät gespeichert und nur dann geteilt, wenn du dies möchtest.",
+          "Du kannst Metadaten (EXIF, GPS, Kamerainformationen, Zeitstempel, Autorendetails, Gerätekennungen, Bearbeitungsverlauf und eingebettete Vorschaubilder) aus konvertierten Bildern entfernen, um deine Privatsphäre beim Teilen zu schützen."
+        ]
+      },
+      {
+        "heading": "Käufe",
+        "paragraphs": [
+          "Käufe werden vollständig von Apple über StoreKit 2 abgewickelt. Wir sehen niemals deine Zahlungsinformationen, deine Apple-ID oder deine Abrechnungsdaten.",
+          "Dein Kaufstatus wird lokal mithilfe der kryptografischen Transaktionsverifizierung von Apple überprüft. Es werden keine Serveraufrufe zur Validierung von Käufen durchgeführt.",
+          "Promo-Codes werden lokal mithilfe von HMAC validiert — nur ein kryptografischer Hash wird im Keychain gespeichert, niemals der Code selbst."
+        ]
+      },
+      {
+        "heading": "Share Extension",
+        "paragraphs": [
+          "Die Share Extension läuft als isolierter Prozess getrennt von der Haupt-App. Sie konvertiert Bilder direkt aus dem System-Share-Sheet mithilfe deines Standard-Presets.",
+          "Temporäre Dateien, die von der Extension erstellt werden, werden nach der Verwendung bereinigt. Die Extension speichert keinen Konvertierungsverlauf. Die einzigen Daten, die über die App Group zwischen der Haupt-App und der Extension geteilt werden, sind dein Pro-Kaufstatus."
+        ]
+      },
+      {
+        "heading": "Datenspeicherung",
+        "paragraphs": [
+          "Du hast die Kontrolle über deine Daten. Du kannst deinen Konvertierungsverlauf jederzeit über den Tab „Verlauf“ löschen. In den Einstellungen ist eine automatische Bereinigung verfügbar — wähle 7 Tage, 30 Tage, 90 Tage oder behalte Konvertierungen dauerhaft.",
+          "Bei jedem Start bereinigt die App verwaiste Dateien (Importe, Ausgaben und Vorschaubilder, die keinem Verlaufseintrag zugeordnet sind) und entfernt temporäre Verzeichnisse.",
+          "Das Löschen der App entfernt alle zugehörigen Daten — Bilder, Verlauf, Einstellungen und App-Group-Speicher. Die einzige Ausnahme ist ein kleiner Keychain-Eintrag (Promo-Code-Hash), der geräteübergreifend bestehen bleibt, wie es für iOS-Keychain-Einträge üblich ist."
+        ]
+      },
+      {
+        "heading": "Drittanbieterdienste",
+        "paragraphs": [
+          "Image Converter Plus verwendet ausschließlich die integrierten Frameworks von Apple. Es gibt keine Analysetools, Werbe-SDKs oder externen Tracking-Dienste von Drittanbietern.",
+          "Die App funktioniert vollständig offline. Eine Internetverbindung wird nur für einen Kauf benötigt."
+        ]
+      },
+      {
+        "heading": "Privacy Manifest",
+        "paragraphs": [
+          "Die App enthält ein Apple Privacy Manifest, das <code>NSPrivacyTracking: false</code> deklariert. Es werden keine Datentypen erfasst oder verfolgt, und es werden keine Tracking-Domains kontaktiert."
+        ]
+      },
+      {
+        "heading": "Kontakt",
+        "paragraphs": [
+          "Fragen zum Datenschutz? Schreib uns jederzeit an <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Hilfe", "title": "Support", "href": "support.html" },
+      { "label": "Rechtliches", "title": "Nutzungsbedingungen", "href": "terms.html" }
+    ],
+    "lastUpdated": "Zuletzt aktualisiert: März 2026"
+  },
+  "terms": {
+    "meta": {
+      "title": "Nutzungsbedingungen - Image Converter Plus",
+      "description": "Nutzungsbedingungen für Image Converter Plus. Lizenz, Kaufbedingungen und Nutzungsrichtlinien der App."
+    },
+    "hero": {
+      "title": "Nutzungsbedingungen",
+      "subtitle": "Image Converter Plus für iOS"
+    },
+    "cards": [
+      {
+        "heading": "Vereinbarung",
+        "paragraphs": ["Mit dem Herunterladen oder der Nutzung von Image Converter Plus stimmst du diesen Bedingungen zu. Wenn du nicht zustimmst, verwende die App bitte nicht."]
+      },
+      {
+        "heading": "Lizenz",
+        "paragraphs": [
+          "Image Converter Plus gewährt dir eine eingeschränkte, nicht-exklusive, nicht übertragbare Lizenz zur Nutzung der App für persönliche, nicht-kommerzielle Zwecke auf Geräten, die du besitzt oder kontrollierst.",
+          "Diese Lizenz erstreckt sich auf die Share Extension (\u201eConvert with Image Converter Plus\u201c), die Teil der App ist. Die App erfordert iOS 16.0 oder neuer."
+        ]
+      },
+      {
+        "heading": "Deine Inhalte",
+        "paragraphs": [
+          "Du behältst alle Rechte an den Bildern, die du mit Image Converter Plus konvertierst. Die App erhebt keinerlei Eigentumsansprüche an deinen Inhalten.",
+          "Du bist dafür verantwortlich sicherzustellen, dass du das Recht hast, alle in die App importierten Bilder zu verwenden und zu konvertieren."
+        ]
+      },
+      {
+        "heading": "Kostenlose Version & Pro",
+        "paragraphs": [
+          "Image Converter Plus ist kostenlos zum Download und zur Nutzung. Die kostenlose Version ermöglicht die Konvertierung zwischen JPEG, PNG und HEIC, jeweils ein Bild auf einmal.",
+          "Pro ist ein einmaliger Kauf (kein Abo), der folgendes freischaltet:",
+          "Pro wird über Familienfreigabe mit deiner Familie geteilt.",
+          "Promo-Codes gewähren denselben Zugang wie ein Pro-Kauf. Jeder Promo-Code kann einmal pro Gerät eingelöst werden."
+        ],
+        "bullets": [
+          "TIFF- und AVIF-Ausgabeformate",
+          "Unbegrenzte Batch-Konvertierung",
+          "Individuelle Einstellungen pro Bild",
+          "Metadaten-Datenschutzsteuerung",
+          "Batch-Konvertierung in der Share Extension"
+        ]
+      },
+      {
+        "heading": "Käufe",
+        "paragraphs": [
+          "Alle Käufe werden von Apple über StoreKit 2 abgewickelt und unterliegen den Allgemeinen Geschäftsbedingungen von Apple.",
+          "Das Pro-Upgrade ist ein einmaliger, nicht verbrauchbarer Kauf — kein Abo. Du zahlst einmal und behältst es für immer.",
+          "Trinkgelder sind optionale, verbrauchbare Käufe, die die Entwicklung unterstützen. Sie schalten keine zusätzlichen Funktionen frei.",
+          "Alle Verkäufe sind endgültig. Rückerstattungsanfragen sind an Apple zu richten. Du kannst deine Käufe jederzeit in den Einstellungen wiederherstellen."
+        ]
+      },
+      {
+        "heading": "Zulässige Nutzung",
+        "paragraphs": ["Du stimmst zu, Folgendes zu unterlassen:"],
+        "bullets": [
+          "Die App zurückzuentwickeln, zu dekompilieren oder zu disassemblieren",
+          "Die App für illegale Zwecke zu nutzen",
+          "Einschränkungen oder Beschränkungen zu umgehen"
+        ]
+      },
+      {
+        "heading": "Haftungsausschluss",
+        "paragraphs": [
+          "Image Converter Plus wird \u201eso wie sie ist\u201c ohne jegliche Gewährleistung bereitgestellt. Wir garantieren nicht, dass die App fehlerfrei oder unterbrechungsfrei funktioniert.",
+          "Wir haften nicht für Datenverluste oder Bildverluste. Bitte erstelle Sicherungskopien wichtiger Dateien."
+        ]
+      },
+      {
+        "heading": "Haftungsbeschränkung",
+        "paragraphs": [
+          "Im größtmöglichen gesetzlich zulässigen Umfang haftet der Entwickler nicht für indirekte, zufällige, besondere oder Folgeschäden, die aus deiner Nutzung der App entstehen."
+        ]
+      },
+      {
+        "heading": "Änderungen",
+        "paragraphs": [
+          "Wir können diese Bedingungen von Zeit zu Zeit aktualisieren. Die weitere Nutzung der App nach Änderungen gilt als Zustimmung zu den neuen Bedingungen."
+        ]
+      },
+      {
+        "heading": "Kontakt",
+        "paragraphs": [
+          "Fragen? Schreib uns an <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Hilfe", "title": "Support", "href": "support.html" },
+      { "label": "Rechtliches", "title": "Datenschutzerklärung", "href": "privacy.html" }
+    ],
+    "lastUpdated": "Zuletzt aktualisiert: März 2026"
+  },
+  "support": {
+    "meta": {
+      "title": "Support - Image Converter Plus",
+      "description": "Hilfe zu Image Converter Plus. Antworten auf häufige Fragen zum Konvertieren, Skalieren und Schützen deiner Fotos."
+    },
+    "hero": {
+      "title": "Support",
+      "subtitle": "Antworten auf häufige Fragen zum Konvertieren, Skalieren und Schützen deiner Fotos.",
+      "contactBtn": "Kontakt"
+    },
+    "formats": {
+      "label": "Formate",
+      "title": "Fünf Formate, eine App.",
+      "description": "Konvertiere zwischen den gängigsten Bildformaten mit vollständiger Qualitätskontrolle."
+    },
+    "faq": {
+      "categories": [
+        {
+          "title": "Erste Schritte",
+          "items": [
+            {
+              "question": "Wie konvertiere ich Bilder?",
+              "answer": "Tippe auf die Schaltfläche „Fotos“ oder „Dateien“, um Bilder zu importieren. Wähle das Ausgabeformat und die Qualität, dann tippe auf „Konvertieren“. Konvertierte Bilder erscheinen im Tab „Verlauf“, wo du sie speichern oder teilen kannst."
+            },
+            {
+              "question": "Kann ich mehrere Bilder auf einmal konvertieren?",
+              "answer": "Ja. Wähle so viele Bilder aus, wie du benötigst, und konvertiere sie alle in einem einzigen Batch. Jedes Bild kann eigene Einstellungen für Format, Qualität, Größe und Dateiname haben."
+            },
+            {
+              "question": "Kann ich aus iCloud Drive oder anderen Apps importieren?",
+              "answer": "Ja. Tippe auf die Schaltfläche „Dateien“, um iCloud Drive, Dropbox, Google Drive oder jeden anderen Dateianbieter auf deinem Gerät zu durchsuchen. Du kannst auch die Share Extension verwenden, um Bilder direkt aus anderen Apps zu konvertieren."
+            }
+          ]
+        },
+        {
+          "title": "Konvertierungseinstellungen",
+          "items": [
+            {
+              "question": "Was bewirkt der Qualitätsschieberegler?",
+              "answer": "Der Qualitätsschieberegler steuert die Komprimierung für JPEG, HEIC und AVIF. Höhere Werte erzeugen bessere Qualität bei größeren Dateien. PNG und TIFF sind immer verlustfrei und ignorieren diese Einstellung."
+            },
+            {
+              "question": "Wie skaliere ich Bilder?",
+              "answer": "Verwende die Größeneinstellung, um Bilder von 50 % bis 200 % der Originalgröße zu skalieren. Du kannst einen Standard für alle Bilder festlegen oder jedes Bild individuell anpassen."
+            },
+            {
+              "question": "Kann ich Dateien beim Konvertieren umbenennen?",
+              "answer": "Ja. Du kannst allen konvertierten Dateien mithilfe einer Benennungsregel ein Präfix oder Suffix hinzufügen oder jedes Bild vor der Konvertierung einzeln umbenennen."
+            },
+            {
+              "question": "Was sind Presets?",
+              "answer": "Presets speichern eine Kombination aus Format-, Qualitäts-, Größen- und Benennungseinstellungen für die Konvertierung mit einem Tippen. Die App enthält 4 integrierte Presets, die du in den Einstellungen neu anordnen oder ausblenden kannst."
+            }
+          ]
+        },
+        {
+          "title": "Datenschutz und Metadaten",
+          "items": [
+            {
+              "question": "Kann ich Metadaten aus Bildern entfernen?",
+              "answer": "Ja. Image Converter Plus kann EXIF-Daten entfernen, darunter GPS-Standort, Kamerainformationen, Zeitstempel, Autorendetails, Gerätekennungen, Bearbeitungsverlauf und eingebettete Vorschaubilder. Wähle aus voreingestellten Datenschutzmodi oder passe genau an, was entfernt werden soll."
+            },
+            {
+              "question": "Werden meine Bilder irgendwo hochgeladen?",
+              "answer": "Nein. Die gesamte Verarbeitung erfolgt vollständig auf deinem Gerät. Es gibt keine Server, keine Uploads, keine Analysen und keine Werbung. Die App funktioniert vollständig offline — eine Internetverbindung wird nur für einen Kauf benötigt."
+            }
+          ]
+        },
+        {
+          "title": "Speichern und Teilen",
+          "items": [
+            {
+              "question": "Wo werden meine konvertierten Bilder gespeichert?",
+              "answer": "Konvertierte Bilder werden im Tab „Verlauf“ der App gespeichert. Von dort aus kannst du sie in deiner Fotomediathek speichern, in „Dateien“ exportieren oder über AirDrop, Nachrichten, Mail und mehr teilen."
+            },
+            {
+              "question": "Wie funktioniert die Share Extension?",
+              "answer": "Wähle Bilder in einer beliebigen App aus, tippe auf die Teilen-Schaltfläche und wähle Image Converter Plus. Deine Bilder werden mit deinem Standard-Preset konvertiert, ohne die Haupt-App zu öffnen. Pro-Nutzer können mehrere Bilder gleichzeitig aus dem Share Sheet konvertieren."
+            },
+            {
+              "question": "Kann ich alte Konvertierungen automatisch löschen?",
+              "answer": "Ja. Gehe zu den Einstellungen und wähle einen Zeitraum für das automatische Löschen — 7 Tage, 30 Tage, 90 Tage oder nie. Alte Konvertierungen werden automatisch entfernt, um Speicherplatz zu sparen."
+            }
+          ]
+        },
+        {
+          "title": "Pro",
+          "items": [
+            {
+              "question": "Was ist im Pro-Upgrade enthalten?",
+              "answer": "Pro ist ein einmaliger Kauf, der TIFF- und AVIF-Formate, vollständige Metadaten- und Datenschutzsteuerung, individuelle Einstellungen pro Bild sowie Batch-Konvertierung in der Share Extension freischaltet. Es gibt kein Abo — und es wird über Familienfreigabe mit deiner Familie geteilt."
+            },
+            {
+              "question": "Wie stelle ich meinen Kauf wieder her?",
+              "answer": "Gehe zu den Einstellungen und tippe auf „Käufe wiederherstellen“. Stelle sicher, dass du mit demselben Apple-Account angemeldet bist, den du für den ursprünglichen Kauf verwendet hast. Wenn du Teil einer Familienfreigabe-Gruppe bist, wird der Kauf automatisch geteilt."
+            }
+          ]
+        },
+        {
+          "title": "Fehlerbehebung",
+          "items": [
+            {
+              "question": "Die App funktioniert nicht richtig.",
+              "answer": "Versuche, die App zu schließen und neu zu öffnen. Wenn das Problem weiterhin besteht, starte dein Gerät neu und stelle sicher, dass du die neueste Version aus dem App Store verwendest. Immer noch Probleme? Kontaktiere uns mit Details zu dem, was passiert, und wir helfen dir."
+            },
+            {
+              "question": "Eine Konvertierung ist fehlgeschlagen. Was soll ich tun?",
+              "answer": "Stelle sicher, dass dein Gerät über genügend freien Speicherplatz verfügt. Sehr große Bilder benötigen möglicherweise mehr freien Speicher. Versuche, weniger Bilder auf einmal zu konvertieren oder die Ausgabegröße zu reduzieren. Wenn das Problem weiterhin besteht, kontaktiere uns mit dem Bildformat und der Größe."
+            },
+            {
+              "question": "Mein Pro-Kauf wird nicht angezeigt.",
+              "answer": "Gehe zu den Einstellungen und tippe auf „Käufe wiederherstellen“. Stelle sicher, dass du mit dem Internet verbunden und mit dem richtigen Apple-Account angemeldet bist. Wenn du über Familienfreigabe gekauft hast, stelle sicher, dass die Freigabe in deiner Familiengruppe noch aktiv ist."
+            }
+          ]
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Systemanforderungen",
+      "items": [
+        "iOS 16.0 oder neuer",
+        "Kompatibel mit iPhone und iPad",
+        "Funktioniert vollständig offline — keine Internetverbindung erforderlich"
+      ]
+    },
+    "links": [
+      { "label": "Rechtliches", "title": "Datenschutzerklärung", "href": "privacy.html" },
+      { "label": "Rechtliches", "title": "Nutzungsbedingungen", "href": "terms.html" }
+    ],
+    "lastUpdated": "Zuletzt aktualisiert: März 2026"
+  }
+}

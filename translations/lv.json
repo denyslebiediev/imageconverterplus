@@ -1,0 +1,431 @@
+{
+  "_meta": { "lang": "lv", "dir": "ltr" },
+  "nav": {
+    "title": "Image Converter Plus",
+    "privacy": "Privātuma politika",
+    "terms": "Lietošanas noteikumi",
+    "support": "Atbalsts"
+  },
+  "index": {
+    "meta": {
+      "title": "Image Converter Plus — Konvertē, mainiet izmēru un aizsargājiet savas fotogrāfijas",
+      "description": "Konvertējiet attēlus starp JPEG, PNG, HEIC, TIFF un AVIF. Pielāgojiet kvalitāti, mainiet izmēru un noņemiet metadatus — viss notiek jūsu ierīcē."
+    },
+    "hero": {
+      "headline": "Konvertē. Mainiet izmēru.<br>Aizsargājiet.",
+      "subtitle": "Attēlu pakešu konvertēšana ar privātuma kontroli — pilnībā jūsu ierīcē.",
+      "badgeAlt": "Lejupielādēt App Store",
+      "availability": "Pieejams iPhone un iPad. Nepieciešams iOS 16 vai jaunāks."
+    },
+    "formats": {
+      "eyebrow": "5 izvades formāti",
+      "headline": "Katrs nepieciešamais formāts.",
+      "body": "Konvertējiet starp populārākajiem attēlu formātiem. Izvēlieties pareizo līdzsvaru starp kvalitāti, saderību un faila izmēru."
+    },
+    "features": {
+      "eyebrow": "Funkcijas",
+      "headline": "Precizitāte katrā solī.",
+      "body": "Pielāgojiet kvalitāti, mainiet izmēru, pārsauciet un priekšskatiet — viss pirms jebkādas konvertēšanas.",
+      "cards": [
+        {
+          "icon": "&#9881;&#65039;",
+          "title": "Kvalitātes kontrole",
+          "description": "Pielāgojiet zudumu formātu kvalitāti no 40% līdz 100%. Skatiet aplēsto faila izmēru reāllaikā."
+        },
+        {
+          "icon": "&#8596;&#65039;",
+          "title": "Izmēra maiņa",
+          "description": "Mērogojiet attēlus no 50% līdz 200%. Iestatiet atsevišķa attēla iestatījumus vai lietojiet priekšiestatījumu visai paketei."
+        },
+        {
+          "icon": "&#128196;",
+          "title": "Failu nosaukšana",
+          "description": "Pievienojiet konvertētajiem failiem prefiksu vai sufiksu. Nosauciet katru attēlu atsevišķi vai lietojiet kārtulu visiem."
+        },
+        {
+          "icon": "&#9889;",
+          "title": "Priekšiestatījumi",
+          "description": "4 iebūvēti priekšiestatījumi konvertēšanai ar vienu pieskārienu. Pielāgojiet katram formātu, kvalitāti, izmēru un nosaukšanu."
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "Privātums",
+      "headline": "Jūsu fotogrāfijās ir vairāk,<br>nekā domājat.",
+      "body": "GPS koordinātas. Kameras modelis. Laika zīmogi. Image Converter Plus noņem slēptos metadatus pirms koplietošanas — ar precīzu kontroli pār to, kas paliek un kas iet.",
+      "items": [
+        { "icon": "&#128205;", "title": "Atrašanās vieta", "description": "GPS koordinātas un vietu nosaukumi" },
+        { "icon": "&#128247;", "title": "Kamera", "description": "Datums, laiks un uzņemšanas iestatījumi" },
+        { "icon": "&#9997;&#65039;", "title": "Autors", "description": "Paraksti, atslēgvārdi un veidotājs" },
+        { "icon": "&#128241;", "title": "Ierīce", "description": "Modeļa nosaukums un identifikatori" },
+        { "icon": "&#128736;&#65039;", "title": "Rediģējumi", "description": "Rediģēšanas vēsture un programmatūras info" },
+        { "icon": "&#128444;&#65039;", "title": "Priekšskatījumi", "description": "Iegultie sīkattēli" }
+      ]
+    },
+    "workflow": {
+      "eyebrow": "Darba plūsma",
+      "headline": "Lieliski iekļaujas jūsu darba plūsmā.",
+      "shareTitle": "Share Extension",
+      "shareBody": "Konvertējiet attēlus, neatverot lietotni. Izvēlieties fotogrāfijas jebkurā lietotnē, pieskarieties Kopīgot un konvertējiet vienā solī. Pro lietotāji saņem pakešu konvertēšanu un visus formātus tieši no Share Sheet.",
+      "historyTitle": "Konvertēšanas vēsture",
+      "historyBody": "Katra konvertēšana tiek saglabāta ar sīkattēlu. Jebkurā laikā atkārtoti eksportējiet uz Fotoattēliem, Failiem vai Share Sheet. Iestatiet automātisko dzēšanu, lai automātiski iztīrītu vecās konvertēšanas."
+    },
+    "onDevice": {
+      "eyebrow": "Ierīcē",
+      "headline": "Nav serveru. Nav augšupielādes.<br>Nav izsekošanas.",
+      "body": "Katrs attēls tiek apstrādāts lokāli jūsu ierīcē. Nav mākoņpakalpojumu, nav analītikas un nav reklāmu. Interneta savienojums nepieciešams tikai pirkuma veikšanai."
+    },
+    "pro": {
+      "eyebrow": "Pro",
+      "headline": "Atbloķējiet visu.<br>Vienreiz.",
+      "body": "Viens pirkums. Nav abonementa. Nav atkārtotu maksājumu. Kopīgots ar ģimeni, izmantojot Family Sharing.",
+      "features": [
+        {
+          "icon": "&#128194;",
+          "title": "TIFF un AVIF",
+          "description": "Atbloķējiet visus piecus izvades formātus katram lietošanas gadījumam."
+        },
+        {
+          "icon": "&#128274;",
+          "title": "Metadatu noņemšana",
+          "description": "Pilnīga EXIF un metadatu noņemšana ar trim privātuma priekšiestatījumiem."
+        },
+        {
+          "icon": "&#127384;",
+          "title": "Pakešu koplietošanas paplašinājums",
+          "description": "Konvertējiet vairākus attēlus vienlaikus tieši no Share Sheet."
+        }
+      ],
+      "price": "$9.99",
+      "priceNote": "Vienreizējs pirkums. Family Sharing iekļauts."
+    },
+    "accessibility": {
+      "eyebrow": "Pieejamība",
+      "headline": "Izstrādāts visiem.",
+      "body": "Pieejamība iebūvēta no sākuma. Pieejams 60 valodās ar lietotnē integrētu valodas izvēlni.",
+      "badges": ["VoiceOver", "Dynamic Type", "Haptiskā atgriezeniskā saite", "60 valodas"]
+    },
+    "bottomCta": {
+      "headline": "Sāciet konvertēt bez maksas."
+    },
+    "footer": {
+      "copyright": "\u00a9 2026 Denys Lebiediev"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privātuma politika - Image Converter Plus",
+      "description": "Image Converter Plus privātuma politika. Visa attēlu apstrāde notiek jūsu ierīcē — nekas netiek augšupielādēts, izsekots vai kopīgots."
+    },
+    "hero": {
+      "title": "Privātuma politika",
+      "subtitle": "Jūsu fotogrāfijas paliek jūsu īpašumā. Viss tiek apstrādāts jūsu ierīcē — nekas netiek augšupielādēts, izsekots vai kopīgots."
+    },
+    "cards": [
+      {
+        "heading": "Jūsu ierīcē",
+        "paragraphs": ["Visi jūsu attēli, konvertēšanas vēsture un preferences tiek glabātas tikai šajā ierīcē. Nekas nekad nepameta ierīci bez jūsu skaidras darbības."],
+        "bullets": [
+          "Importētie un konvertētie attēli lietotnes smilšukastes krātuvē",
+          "Konvertēšanas vēsture un sīkattēli",
+          "Jūsu formāta, kvalitātes un izmēra preferences",
+          "Pagaidu faili <code>/var/tmp/</code> — automātiski iztīrīti katras palaišanas laikā",
+          "Atslēgu ķēdes krātuve — tikai atpirkto promo kodu jaucēja, nekad paša koda",
+          "App Group konteiners — kopīgo tikai Pro pirkuma statusu ar Share Extension"
+        ]
+      },
+      {
+        "heading": "Ko mēs neievācam",
+        "paragraphs": ["Image Converter Plus nevāc nekādu personīgo informāciju. Mēs nezinām, kas jūs esat, ko konvertējat vai kā lietojat lietotni."],
+        "bullets": [
+          "Nav personīgās informācijas",
+          "Nav ierīces identifikatoru",
+          "Nav lietošanas analītikas",
+          "Nav atrašanās vietas datu",
+          "Nav reklāmas vai izsekošanas"
+        ]
+      },
+      {
+        "heading": "Fotogrāfijas un attēli",
+        "paragraphs": [
+          "Izvēloties fotogrāfijas, Image Converter Plus redz tikai jūsu izvēlētos attēlus — nekad visu bibliotēku. Lietotne izmanto ierobežotu piekļuvi foto bibliotēkai un glabā tikai izvēlēto aktīvu <code>localIdentifiers</code>.",
+          "Ja izvēlētā fotogrāfija ir saglabāta iCloud, lietotne to īslaicīgi lejupielādē jūsu ierīcē ar 2 minūšu taimautu. Šīs īslaicīgās kopijas tiek automātiski iztīrītas palaišanas laikā.",
+          "Visa attēlu apstrāde notiek lokāli, izmantojot jūsu ierīces aparatūru. Konvertētie attēli tiek saglabāti jūsu ierīcē un kopīgoti tikai tad, kad jūs to izvēlaties darīt.",
+          "Varat noņemt metadatus (EXIF, GPS, kameras informāciju, laika zīmogus, autora datus, ierīces identifikatorus, rediģēšanas vēsturi un iegultos sīkattēlus) no konvertētajiem attēliem, lai aizsargātu privātumu, koplietojot."
+        ]
+      },
+      {
+        "heading": "Pirkumi",
+        "paragraphs": [
+          "Pirkumus pilnībā apstrādā Apple, izmantojot StoreKit 2. Mēs nekad neredzam jūsu maksājumu informāciju, Apple ID vai norēķinu datus.",
+          "Jūsu pirkuma statuss tiek pārbaudīts lokāli, izmantojot Apple kriptogrāfisko darījumu verifikāciju. Pirkumu validēšanai netiek veikti servera zvani.",
+          "Promo kodi tiek validēti lokāli, izmantojot HMAC — atslēgu ķēdē tiek glabāts tikai kriptogrāfiskais jaucēja, nekad pats kods."
+        ]
+      },
+      {
+        "heading": "Share Extension",
+        "paragraphs": [
+          "Share Extension darbojas kā izolēts process, kas atdalīts no galvenās lietotnes. Tas konvertē attēlus, izmantojot jūsu noklusējuma priekšiestatījumu tieši no sistēmas Share Sheet.",
+          "Paplašinājuma izveidotie pagaidu faili tiek iztīrīti pēc lietošanas. Paplašinājums neglabā konvertēšanas vēsturi. Vienīgie dati, kas tiek kopīgoti starp galveno lietotni un paplašinājumu, izmantojot App Group, ir jūsu Pro pirkuma statuss."
+        ]
+      },
+      {
+        "heading": "Datu glabāšana",
+        "paragraphs": [
+          "Jūs kontrolējat savus datus. Jebkurā laikā varat dzēst konvertēšanas vēsturi no cilnes Vēsture. Automātiskā tīrīšana ir pieejama Iestatījumos — izvēlieties 7 dienas, 30 dienas, 90 dienas vai glabājiet konvertēšanas uz visiem laikiem.",
+          "Katras palaišanas laikā lietotne iztīra bāreņu failus (importus, izvades un sīkattēlus, kas nav saistīti ar nevienu vēstures ierakstu) un noņem pagaidu direktorijus.",
+          "Dzēšot lietotni, tiek noņemti visi saistītie dati — attēli, vēsture, preferences un App Group krātuve. Vienīgais izņēmums ir neliels atslēgu ķēdes ieraksts (promo koda jaucēja), kas saglabājas pāri instalācijām, kā parasts iOS atslēgu ķēdes elementiem."
+        ]
+      },
+      {
+        "heading": "Trešo pušu pakalpojumi",
+        "paragraphs": [
+          "Image Converter Plus izmanto tikai Apple iebūvētos ietvarus. Nav trešo pušu analītikas, reklāmas SDK vai ārēju izsekošanas rīku.",
+          "Lietotne darbojas pilnīgi bezsaistē. Interneta savienojums nepieciešams tikai pirkuma veikšanas laikā."
+        ]
+      },
+      {
+        "heading": "Privātuma manifests",
+        "paragraphs": [
+          "Lietotne ietver Apple privātuma manifestu, kas deklarē <code>NSPrivacyTracking: false</code>. Netiek vākti vai izsekoti datu tipi, un netiek sazināties ar izsekošanas domēniem."
+        ]
+      },
+      {
+        "heading": "Kontakti",
+        "paragraphs": [
+          "Jautājumi par privātumu? Sazinieties ar mums jebkurā laikā <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Palīdzība", "title": "Atbalsts", "href": "support.html" },
+      { "label": "Juridisks", "title": "Lietošanas noteikumi", "href": "terms.html" }
+    ],
+    "lastUpdated": "Pēdējo reizi atjaunināts: 2026. gada marts"
+  },
+  "terms": {
+    "meta": {
+      "title": "Lietošanas noteikumi - Image Converter Plus",
+      "description": "Image Converter Plus lietošanas noteikumi. Lasiet licenci, pirkuma noteikumus un lietotnes lietošanas pamatnostādnes."
+    },
+    "hero": {
+      "title": "Lietošanas noteikumi",
+      "subtitle": "Image Converter Plus iOS"
+    },
+    "cards": [
+      {
+        "heading": "Vienošanās",
+        "paragraphs": ["Lejupielādējot vai lietojot Image Converter Plus, jūs piekrītat šiem noteikumiem. Ja nepiekrītat, lūdzu, nelietojiet lietotni."]
+      },
+      {
+        "heading": "Licence",
+        "paragraphs": [
+          "Image Converter Plus piešķir jums ierobežotu, neekskluzīvu, nenododamu licenci lietot lietotni personīgiem, nekomerciāliem mērķiem ierīcēs, kas jums pieder vai kuras jūs kontrolējat.",
+          "Šī licence attiecas uz Share Extension (\u201cKonvertēt ar Image Converter Plus\u201d), kas ir daļa no lietotnes. Lietotnei nepieciešams iOS 16.0 vai jaunāks."
+        ]
+      },
+      {
+        "heading": "Jūsu saturs",
+        "paragraphs": [
+          "Jūs saglabājat visas tiesības uz attēliem, kurus konvertējat, izmantojot Image Converter Plus. Lietotne nepretendē uz jūsu satura īpašumtiesībām.",
+          "Jūs esat atbildīgi par to, ka jums ir tiesības lietot un konvertēt attēlus, ko importējat lietotnē."
+        ]
+      },
+      {
+        "heading": "Bezmaksas un Pro līmeņi",
+        "paragraphs": [
+          "Image Converter Plus ir bezmaksas lejupielādei un lietošanai. Bezmaksas līmenis ietver konvertēšanu starp JPEG, PNG un HEIC formātiem, pa vienam attēlam.",
+          "Pro ir vienreizējs pirkums (nevis abonements), kas atbloķē:",
+          "Pro tiek kopīgots ar jūsu ģimeni, izmantojot Family Sharing.",
+          "Promo kodi piešķir to pašu piekļuvi kā Pro pirkums. Katru promo kodu var atpirkt vienu reizi vienā ierīcē."
+        ],
+        "bullets": [
+          "TIFF un AVIF izvades formāti",
+          "Neierobežota pakešu konvertēšana",
+          "Atsevišķa attēla iestatījumu ignorēšana",
+          "Metadatu privātuma kontrole",
+          "Pakešu konvertēšana Share Extension"
+        ]
+      },
+      {
+        "heading": "Pirkumi",
+        "paragraphs": [
+          "Visus pirkumus apstrādā Apple, izmantojot StoreKit 2, un uz tiem attiecas Apple noteikumi un nosacījumi.",
+          "Pro jauninājums ir vienreizējs patērējams pirkums — nevis abonements. Maksājat vienreiz un paturiet uz visiem laikiem.",
+          "Dzeramnaudas ir izvēles patērējami pirkumi, kas atbalsta izstrādi. Tie neatbloķē nekādas papildu funkcijas.",
+          "Visi pārdošanas darījumi ir galīgi. Atmaksas pieprasījumi jāiesniedz Apple. Pirkumus jebkurā laikā varat atjaunot no Iestatījumiem."
+        ]
+      },
+      {
+        "heading": "Pieļaujamā lietošana",
+        "paragraphs": ["Jūs piekrītat nedarīt šādas darbības:"],
+        "bullets": [
+          "Reversā inženierija, dekompilācija vai izjaukšana",
+          "Lietot lietotni nelikumīgiem mērķiem",
+          "Mēģināt apiet jebkādus ierobežojumus"
+        ]
+      },
+      {
+        "heading": "Atruna",
+        "paragraphs": [
+          "Image Converter Plus tiek piedāvāts \u201ckāds tas ir\u201d bez jebkādām garantijām. Mēs negarantējam, ka lietotne būs bez kļūdām vai nepārtraukta.",
+          "Mēs neesam atbildīgi par datu vai attēlu zudumu. Lūdzu, saglabājiet svarīgu failu rezerves kopijas."
+        ]
+      },
+      {
+        "heading": "Atbildības ierobežojums",
+        "paragraphs": [
+          "Maksimālā likuma atļautā apmērā izstrādātājs nebūs atbildīgs par netiešiem, nejaušiem, īpašiem vai izrietošiem zaudējumiem, kas rodas no lietotnes lietošanas."
+        ]
+      },
+      {
+        "heading": "Izmaiņas",
+        "paragraphs": [
+          "Mēs laiku pa laikam varam atjaunināt šos noteikumus. Turpinot lietot lietotni pēc izmaiņām, jūs piekrītat jaunajiem noteikumiem."
+        ]
+      },
+      {
+        "heading": "Kontakti",
+        "paragraphs": [
+          "Jautājumi? Sazinieties <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Palīdzība", "title": "Atbalsts", "href": "support.html" },
+      { "label": "Juridisks", "title": "Privātuma politika", "href": "privacy.html" }
+    ],
+    "lastUpdated": "Pēdējo reizi atjaunināts: 2026. gada marts"
+  },
+  "support": {
+    "meta": {
+      "title": "Atbalsts - Image Converter Plus",
+      "description": "Saņemiet palīdzību ar Image Converter Plus. Atrodiet atbildes uz biežāk uzdotajiem jautājumiem par fotogrāfiju konvertēšanu, izmēra maiņu un aizsardzību."
+    },
+    "hero": {
+      "title": "Atbalsts",
+      "subtitle": "Atrodiet atbildes uz biežāk uzdotajiem jautājumiem par fotogrāfiju konvertēšanu, izmēra maiņu un aizsardzību.",
+      "contactBtn": "Sazināties ar mums"
+    },
+    "formats": {
+      "label": "Formāti",
+      "title": "Pieci formāti, viena lietotne.",
+      "description": "Konvertējiet starp populārākajiem attēlu formātiem ar pilnu kvalitātes kontroli."
+    },
+    "faq": {
+      "categories": [
+        {
+          "title": "Darba sākšana",
+          "items": [
+            {
+              "question": "Kā konvertēt attēlus?",
+              "answer": "Pieskarieties pogai Fotogrāfijas vai Faili, lai importētu attēlus. Izvēlieties izvades formātu un kvalitāti, pēc tam pieskarieties Konvertēt. Konvertētie attēli parādās cilnē Vēsture, kur varat tos saglabāt vai kopīgot."
+            },
+            {
+              "question": "Vai varu konvertēt vairākus attēlus vienlaikus?",
+              "answer": "Jā. Izvēlieties tik daudz attēlu, cik nepieciešams, un konvertējiet tos visus vienā paketē. Katram attēlam var būt savi formāta, kvalitātes, izmēra un faila nosaukuma iestatījumi."
+            },
+            {
+              "question": "Vai varu importēt no iCloud Drive vai citām lietotnēm?",
+              "answer": "Jā. Pieskarieties pogai Faili, lai pārlūkotu iCloud Drive, Dropbox, Google Drive vai jebkuru failu pakalpojumu sniedzēju jūsu ierīcē. Varat arī izmantot Share Extension, lai konvertētu attēlus tieši no citām lietotnēm."
+            }
+          ]
+        },
+        {
+          "title": "Konvertēšanas iestatījumi",
+          "items": [
+            {
+              "question": "Ko dara kvalitātes slīdnis?",
+              "answer": "Kvalitātes slīdnis kontrolē saspiešanu JPEG, HEIC un AVIF formātiem. Augstākas vērtības nodrošina labāku kvalitāti ar lielāku faila izmēru. PNG un TIFF vienmēr ir bezjudumu formāti un ignorē šo iestatījumu."
+            },
+            {
+              "question": "Kā mainīt attēlu izmēru?",
+              "answer": "Izmantojiet izmēra iestatījumu, lai mērogotu attēlus no 50% līdz 200% no sākotnējiem izmēriem. Varat iestatīt noklusējumu visiem attēliem vai pielāgot katru atsevišķi."
+            },
+            {
+              "question": "Vai konvertēšanas laikā varu pārdēvēt failus?",
+              "answer": "Jā. Varat pievienot prefiksu vai sufiksu visiem konvertētajiem failiem, izmantojot nosaukšanas kārtulu, vai pārdēvēt katru attēlu atsevišķi pirms konvertēšanas."
+            },
+            {
+              "question": "Kas ir priekšiestatījumi?",
+              "answer": "Priekšiestatījumi saglabā formāta, kvalitātes, izmēra un nosaukšanas iestatījumu kombināciju konvertēšanai ar vienu pieskārienu. Lietotnē ir iekļauti 4 iebūvēti priekšiestatījumi, kurus varat pārkārtot vai slēpt Iestatījumos."
+            }
+          ]
+        },
+        {
+          "title": "Privātums un metadati",
+          "items": [
+            {
+              "question": "Vai varu noņemt metadatus no attēliem?",
+              "answer": "Jā. Image Converter Plus var noņemt EXIF datus, tostarp GPS atrašanās vietu, kameras informāciju, laika zīmogus, autora datus, ierīces identifikatorus, rediģēšanas vēsturi un iegultos sīkattēlus. Izvēlieties no iepriekš iestatītajiem privātuma režīmiem vai pielāgojiet tieši to, ko noņemt."
+            },
+            {
+              "question": "Vai mani attēli tiek augšupielādēti?",
+              "answer": "Nē. Visa apstrāde notiek pilnībā jūsu ierīcē. Nav serveru, nav augšupielādes, nav analītikas un nav reklāmu. Lietotne darbojas pilnīgi bezsaistē — interneta savienojums nepieciešams tikai pirkuma veikšanai."
+            }
+          ]
+        },
+        {
+          "title": "Saglabāšana un kopīgošana",
+          "items": [
+            {
+              "question": "Kur tiek saglabāti mani konvertētie attēli?",
+              "answer": "Konvertētie attēli tiek saglabāti lietotnes cilnē Vēsture. No turienes varat tos saglabāt fotogrāfiju bibliotēkā, eksportēt uz Failiem vai kopīgot, izmantojot AirDrop, Ziņojumus, E-pastu un citus."
+            },
+            {
+              "question": "Kā darbojas Share Extension?",
+              "answer": "Izvēlieties attēlus jebkurā lietotnē, pieskarieties pogai Kopīgot un izvēlieties Image Converter Plus. Jūsu attēli tiek konvertēti, izmantojot jūsu noklusējuma priekšiestatījumu, neatverot galveno lietotni. Pro lietotāji var konvertēt vairākus attēlus vienlaikus no Share Sheet."
+            },
+            {
+              "question": "Vai varu automātiski dzēst vecās konvertēšanas?",
+              "answer": "Jā. Dodieties uz Iestatījumiem un izvēlieties automātiskās dzēšanas periodu — 7 dienas, 30 dienas, 90 dienas vai nekad. Vecās konvertēšanas tiek automātiski noņemtas, lai ietaupītu krātuvi."
+            }
+          ]
+        },
+        {
+          "title": "Pro",
+          "items": [
+            {
+              "question": "Kas ir iekļauts Pro jauninājumā?",
+              "answer": "Pro ir vienreizējs pirkums, kas atbloķē TIFF un AVIF formātus, pilnu metadatu un privātuma kontroli, atsevišķa attēla iestatījumu ignorēšanu un pakešu konvertēšanu Share Extension. Nav abonementa — un tas tiek kopīgots ar jūsu ģimeni, izmantojot Family Sharing."
+            },
+            {
+              "question": "Kā atjaunot savu pirkumu?",
+              "answer": "Dodieties uz Iestatījumiem un pieskarieties Atjaunot pirkumus. Pārliecinieties, ka esat pierakstījies ar to pašu Apple kontu, ko izmantojāt sākotnējam pirkumam. Ja esat Family Sharing grupas dalībnieks, pirkums tiek kopīgots automātiski."
+            }
+          ]
+        },
+        {
+          "title": "Problēmu novēršana",
+          "items": [
+            {
+              "question": "Lietotne nedarbojas pareizi.",
+              "answer": "Mēģiniet aizvērt un atkārtoti atvērt lietotni. Ja problēma saglabājas, restartējiet ierīci un pārliecinieties, ka izmantojat jaunāko versiju no App Store. Joprojām ir problēmas? Sazinieties ar mums, aprakstot, kas notiek, un mēs palīdzēsim."
+            },
+            {
+              "question": "Konvertēšana neizdevās. Ko darīt?",
+              "answer": "Pārliecinieties, ka jūsu ierīcei ir pietiekami daudz brīvas krātuves. Ļoti lieli attēli var prasīt vairāk pieejamas vietas. Mēģiniet konvertēt mazāk attēlu vienlaikus vai samaziniet izvades izmēru. Ja problēma turpinās, sazinieties ar mums, norādot attēla formātu un izmēru."
+            },
+            {
+              "question": "Mans Pro pirkums neparādās.",
+              "answer": "Dodieties uz Iestatījumiem un pieskarieties Atjaunot pirkumus. Pārliecinieties, ka esat savienots ar internetu un pierakstījies ar pareizo Apple kontu. Ja iegādājāties, izmantojot Family Sharing, pārliecinieties, ka kopīgošana jūsu ģimenes grupā joprojām ir aktīva."
+            }
+          ]
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Sistēmas prasības",
+      "items": [
+        "iOS 16.0 vai jaunāks",
+        "Saderīgs ar iPhone un iPad",
+        "Darbojas pilnīgi bezsaistē — interneta savienojums nav nepieciešams"
+      ]
+    },
+    "links": [
+      { "label": "Juridisks", "title": "Privātuma politika", "href": "privacy.html" },
+      { "label": "Juridisks", "title": "Lietošanas noteikumi", "href": "terms.html" }
+    ],
+    "lastUpdated": "Pēdējo reizi atjaunināts: 2026. gada marts"
+  }
+}

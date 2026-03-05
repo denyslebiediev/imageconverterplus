@@ -1,0 +1,431 @@
+{
+  "_meta": { "lang": "bs", "dir": "ltr" },
+  "nav": {
+    "title": "Image Converter Plus",
+    "privacy": "Politika privatnosti",
+    "terms": "Uslovi korištenja",
+    "support": "Podrška"
+  },
+  "index": {
+    "meta": {
+      "title": "Image Converter Plus — Konvertujte, promijenite veličinu i zaštitite svoje fotografije",
+      "description": "Konvertujte slike između JPEG, PNG, HEIC, TIFF i AVIF formata. Podesite kvalitetu, promijenite veličinu i uklonite metapodatke — sve na vašem uređaju."
+    },
+    "hero": {
+      "headline": "Konvertuj. Promijeni veličinu.<br>Zaštiti.",
+      "subtitle": "Grupna konverzija slika s kontrolama privatnosti — u potpunosti na vašem uređaju.",
+      "badgeAlt": "Preuzmite na App Storeu",
+      "availability": "Dostupno na iPhoneu i iPadu. Zahtijeva iOS 16 ili noviji."
+    },
+    "formats": {
+      "eyebrow": "5 izlaznih formata",
+      "headline": "Svaki format koji vam treba.",
+      "body": "Konvertujte između najpopularnijih formata slika. Odaberite pravi balans kvalitete, kompatibilnosti i veličine datoteke."
+    },
+    "features": {
+      "eyebrow": "Funkcije",
+      "headline": "Preciznost na svakom koraku.",
+      "body": "Fino podesite kvalitetu, promijenite veličinu, preimenujte i pregledajte — sve prije konverzije ikoje slike.",
+      "cards": [
+        {
+          "icon": "&#9881;&#65039;",
+          "title": "Kontrola kvalitete",
+          "description": "Podesite kvalitetu od 40% do 100% za formate s gubicima. Pogledajte procijenjenu veličinu datoteke kako se ažurira u realnom vremenu."
+        },
+        {
+          "icon": "&#8596;&#65039;",
+          "title": "Promjena veličine",
+          "description": "Skalirajte slike od 50% do 200%. Postavite individualne postavke za svaku sliku ili primijenite predefinirane postavke na cijelu grupu."
+        },
+        {
+          "icon": "&#128196;",
+          "title": "Imenovanje datoteka",
+          "description": "Dodajte prefiks ili sufiks konvertovanim datotekama. Imenujte svaku sliku pojedinačno ili primijenite pravilo na sve."
+        },
+        {
+          "icon": "&#9889;",
+          "title": "Predefinirane postavke",
+          "description": "4 ugrađene predefinirane postavke za konverziju jednim dodirom. Prilagodite format, kvalitetu, veličinu i imenovanje u svakoj od njih."
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "Privatnost",
+      "headline": "Vaše fotografije nose više<br>nego što mislite.",
+      "body": "GPS koordinate. Model kamere. Vremenske oznake. Image Converter Plus uklanja skrivene metapodatke prije nego što podijelite — s preciznom kontrolom nad onim što ostaje i onim što odlazi.",
+      "items": [
+        { "icon": "&#128205;", "title": "Lokacija", "description": "GPS koordinate i nazivi mjesta" },
+        { "icon": "&#128247;", "title": "Kamera", "description": "Datum, vrijeme i postavke snimanja" },
+        { "icon": "&#9997;&#65039;", "title": "Autor", "description": "Opisi, ključne riječi i kreator" },
+        { "icon": "&#128241;", "title": "Uređaj", "description": "Naziv modela i identifikatori" },
+        { "icon": "&#128736;&#65039;", "title": "Uređivanja", "description": "Historija uređivanja i informacije o softveru" },
+        { "icon": "&#128444;&#65039;", "title": "Pregledi", "description": "Ugrađene minijature" }
+      ]
+    },
+    "workflow": {
+      "eyebrow": "Tok rada",
+      "headline": "Savršeno se uklapa u vaš tok rada.",
+      "shareTitle": "Share Extension",
+      "shareBody": "Konvertujte slike bez otvaranja aplikacije. Odaberite fotografije u bilo kojoj aplikaciji, dodirnite Dijeli i konvertujte u jednom koraku. Pro korisnici dobivaju grupnu konverziju i sve formate direktno iz Share Sheeta.",
+      "historyTitle": "Historija konverzija",
+      "historyBody": "Svaka konverzija se sprema s minijaturom. Ponovo izvezite u Fotografije, Datoteke ili Share Sheet u bilo koje vrijeme. Postavite automatsko brisanje za čišćenje starih konverzija automatski."
+    },
+    "onDevice": {
+      "eyebrow": "Na uređaju",
+      "headline": "Bez servera. Bez prijenosa.<br>Bez praćenja.",
+      "body": "Svaka slika se obrađuje lokalno na vašem uređaju. Nema cloud usluga, nema analitike i nema oglasa. Internet veza je potrebna samo za obavljanje kupovine."
+    },
+    "pro": {
+      "eyebrow": "Pro",
+      "headline": "Otključajte sve.<br>Jednom.",
+      "body": "Jednokratna kupovina. Bez pretplate. Bez ponavljajućih troškova. Dijeli se s vašom porodicom putem Family Sharinga.",
+      "features": [
+        {
+          "icon": "&#128194;",
+          "title": "TIFF i AVIF",
+          "description": "Otključajte svih pet izlaznih formata za svaki slučaj korištenja."
+        },
+        {
+          "icon": "&#128274;",
+          "title": "Uklanjanje metapodataka",
+          "description": "Potpuno uklanjanje EXIF podataka i metapodataka s tri predefinirane postavke privatnosti."
+        },
+        {
+          "icon": "&#127384;",
+          "title": "Grupna Share Extension",
+          "description": "Konvertujte više slika odjednom direktno iz Share Sheeta."
+        }
+      ],
+      "price": "$9.99",
+      "priceNote": "Jednokratna kupovina. Family Sharing uključen."
+    },
+    "accessibility": {
+      "eyebrow": "Pristupačnost",
+      "headline": "Dizajnirano za sve.",
+      "body": "Izgrađeno s pristupačnošću od samog početka. Dostupno na 60 jezika s biranjem jezika unutar aplikacije.",
+      "badges": ["VoiceOver", "Dynamic Type", "Haptična povratna informacija", "60 jezika"]
+    },
+    "bottomCta": {
+      "headline": "Počnite konvertovati besplatno."
+    },
+    "footer": {
+      "copyright": "\u00a9 2026 Denys Lebiediev"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Politika privatnosti - Image Converter Plus",
+      "description": "Politika privatnosti za Image Converter Plus. Sva obrada slika odvija se na vašem uređaju — ništa se ne prenosi, ne prati niti dijeli."
+    },
+    "hero": {
+      "title": "Politika privatnosti",
+      "subtitle": "Vaše fotografije ostaju vaše. Sve se obrađuje na vašem uređaju — ništa se ne prenosi, ne prati niti dijeli."
+    },
+    "cards": [
+      {
+        "heading": "Na vašem uređaju",
+        "paragraphs": ["Sve vaše slike, historija konverzija i postavke pohranjuju se samo na ovom uređaju. Ništa nikada ne napušta uređaj bez vaše izričite radnje."],
+        "bullets": [
+          "Uvezene i konvertovane slike u sandbox pohrani aplikacije",
+          "Historija konverzija i minijature",
+          "Vaše postavke formata, kvalitete i veličine",
+          "Privremene datoteke u <code>/var/tmp/</code> — automatski se čiste pri svakom pokretanju",
+          "Pohrana u Keychain — samo hash iskorištenih promo kodova, nikada sam kod",
+          "App Group kontejner — dijeli samo status Pro kupovine s Share Extension"
+        ]
+      },
+      {
+        "heading": "Što ne prikupljamo",
+        "paragraphs": ["Image Converter Plus ne prikuplja nikakve lične podatke. Ne znamo ko ste, što konvertujete ni kako koristite aplikaciju."],
+        "bullets": [
+          "Nema ličnih podataka",
+          "Nema identifikatora uređaja",
+          "Nema analitike korištenja",
+          "Nema podataka o lokaciji",
+          "Nema oglašavanja ni praćenja"
+        ]
+      },
+      {
+        "heading": "Fotografije i slike",
+        "paragraphs": [
+          "Kada odaberete fotografije, Image Converter Plus vidi samo određene slike koje ste odabrali — nikada cijelu vašu biblioteku. Aplikacija koristi ograničen pristup biblioteci fotografija i pohranjuje samo <code>localIdentifiers</code> za odabrane stavke.",
+          "Ako je odabrana fotografija pohranjena u iCloudu, aplikacija je privremeno preuzima na vaš uređaj s vremenskim ograničenjem od 2 minute. Ove privremene kopije automatski se čiste pri pokretanju.",
+          "Sva obrada slika odvija se lokalno koristeći hardver vašeg uređaja. Konvertovane slike se pohranjuju na vaš uređaj i dijele se samo kada vi to odaberete.",
+          "Možete ukloniti metapodatke (EXIF, GPS, informacije o kameri, vremenske oznake, detalje autora, identifikatore uređaja, historiju uređivanja i ugrađene minijature) iz konvertovanih slika kako biste zaštitili svoju privatnost pri dijeljenju."
+        ]
+      },
+      {
+        "heading": "Kupovine",
+        "paragraphs": [
+          "Kupovine se u potpunosti obrađuju putem Applea kroz StoreKit 2. Nikada ne vidimo vaše podatke o plaćanju, Apple ID ili podatke o naplati.",
+          "Vaš status kupovine verificira se lokalno koristeći Appleovu kriptografsku verifikaciju transakcija. Nema poziva serveru za provjeru kupovina.",
+          "Promo kodovi se potvrđuju lokalno koristeći HMAC — samo kriptografski hash se pohranjuje u Keychainu, nikada sam kod."
+        ]
+      },
+      {
+        "heading": "Share Extension",
+        "paragraphs": [
+          "Share Extension radi kao izolirani proces odvojen od glavne aplikacije. Konvertuje slike koristeći vaše zadane predefinirane postavke direktno iz sistemskog Share Sheeta.",
+          "Privremene datoteke koje kreira ekstenzija čiste se nakon upotrebe. Ekstenzija ne pohranjuje historiju konverzija. Jedini podaci koji se dijele između glavne aplikacije i ekstenzije putem App Groupa su vaš status Pro kupovine."
+        ]
+      },
+      {
+        "heading": "Čuvanje podataka",
+        "paragraphs": [
+          "Vi imate kontrolu nad svojim podacima. Historiju konverzija možete obrisati u bilo koje vrijeme s kartice Historija. Automatsko čišćenje dostupno je u Postavkama — odaberite 7 dana, 30 dana, 90 dana ili čuvajte konverzije zauvijek.",
+          "Pri svakom pokretanju, aplikacija čisti orphaned datoteke (uvozene, izlazne i minijature koje nisu povezane ni s jednim zapisom u historiji) i uklanja privremene direktorije.",
+          "Brisanjem aplikacije uklanjaju se svi povezani podaci — slike, historija, postavke i App Group pohrana. Jedina iznimka je mali unos u Keychain (hash promo koda), koji ostaje između instalacija što je standardno za iOS Keychain stavke."
+        ]
+      },
+      {
+        "heading": "Usluge trećih strana",
+        "paragraphs": [
+          "Image Converter Plus koristi samo Appleove ugrađene okvire. Nema analitike trećih strana, SDK-ova za oglašavanje ni vanjskih alata za praćenje.",
+          "Aplikacija radi potpuno offline. Internet veza je potrebna samo pri obavljanju kupovine."
+        ]
+      },
+      {
+        "heading": "Manifest privatnosti",
+        "paragraphs": [
+          "Aplikacija uključuje Appleov Manifest privatnosti koji deklarira <code>NSPrivacyTracking: false</code>. Nema tipova podataka koji se prikupljaju ili prate, i nema kontaktiranja domena za praćenje."
+        ]
+      },
+      {
+        "heading": "Kontakt",
+        "paragraphs": [
+          "Imate pitanja o privatnosti? Obratite nam se u bilo koje vrijeme na <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Pomoć", "title": "Podrška", "href": "support.html" },
+      { "label": "Pravno", "title": "Uslovi korištenja", "href": "terms.html" }
+    ],
+    "lastUpdated": "Posljednje ažuriranje: mart 2026."
+  },
+  "terms": {
+    "meta": {
+      "title": "Uslovi korištenja - Image Converter Plus",
+      "description": "Uslovi korištenja za Image Converter Plus. Pročitajte licencu, uslove kupovine i smjernice korištenja aplikacije."
+    },
+    "hero": {
+      "title": "Uslovi korištenja",
+      "subtitle": "Image Converter Plus za iOS"
+    },
+    "cards": [
+      {
+        "heading": "Sporazum",
+        "paragraphs": ["Preuzimanjem ili korištenjem Image Converter Plusa prihvatate ove uvjete. Ako se ne slažete, molimo vas da ne koristite aplikaciju."]
+      },
+      {
+        "heading": "Licenca",
+        "paragraphs": [
+          "Image Converter Plus vam dodjeljuje ograničenu, neekskluzivnu, neprenosivu licencu za korištenje aplikacije u lične, nekomercijalne svrhe na uređajima koje posjedujete ili kontrolišete.",
+          "Ova licenca se proširuje na Share Extension (\u201cKonvertuj s Image Converter Plusom\u201d), koji je dio aplikacije. Aplikacija zahtijeva iOS 16.0 ili noviji."
+        ]
+      },
+      {
+        "heading": "Vaš sadržaj",
+        "paragraphs": [
+          "Zadržavate sva prava na slike koje konvertujete koristeći Image Converter Plus. Aplikacija ne polaže nikakvo vlasništvo nad vašim sadržajem.",
+          "Odgovorni ste za osiguravanje da imate pravo korištenja i konverzije svih slika koje uvozite u aplikaciju."
+        ]
+      },
+      {
+        "heading": "Besplatni i Pro nivoi",
+        "paragraphs": [
+          "Image Converter Plus je besplatno za preuzimanje i korištenje. Besplatni nivo uključuje konverziju između JPEG, PNG i HEIC formata, jednu sliku u isto vrijeme.",
+          "Pro je jednokratna kupovina (nije pretplata) koja otključava:",
+          "Pro se dijeli s vašom porodicom putem Family Sharinga.",
+          "Promo kodovi daju isti pristup kao Pro kupovina. Svaki promo kod može se iskoristiti jednom po uređaju."
+        ],
+        "bullets": [
+          "TIFF i AVIF izlazni formati",
+          "Neograničena grupna konverzija",
+          "Individualne postavke za svaku sliku",
+          "Kontrole privatnosti metapodataka",
+          "Grupna konverzija u Share Extension"
+        ]
+      },
+      {
+        "heading": "Kupovine",
+        "paragraphs": [
+          "Sve kupovine obrađuje Apple putem StoreKit 2 i podliježu Appleovim uvjetima i odredbama.",
+          "Pro nadogradnja je jednokratna nekonsumabilna kupovina — nije pretplata. Plaćate jednom i zadržavate je zauvijek.",
+          "Napojnice su opcionalne konsumabilne kupovine koje podržavaju razvoj. Ne otključavaju nikakve dodatne funkcije.",
+          "Sve prodaje su konačne. Zahtjevi za povrat novca trebaju biti upućeni Appleu. Kupovine možete obnoviti u bilo koje vrijeme u Postavkama."
+        ]
+      },
+      {
+        "heading": "Prihvatljivo korištenje",
+        "paragraphs": ["Slažete se da nećete:"],
+        "bullets": [
+          "Obavljati reverzni inženjering, dekompilirati ili rastavljati aplikaciju",
+          "Koristiti aplikaciju u bilo kakve nezakonite svrhe",
+          "Pokušavati zaobići bilo kakva ograničenja ili restrikcije"
+        ]
+      },
+      {
+        "heading": "Odricanje od odgovornosti",
+        "paragraphs": [
+          "Image Converter Plus se pruža \u201ckakav jest\u201d bez ikakvih jamstava. Ne garantujemo da će aplikacija biti bez grešaka ili bez prekida.",
+          "Nismo odgovorni za gubitak podataka ili slika. Molimo vas da čuvate sigurnosne kopije važnih datoteka."
+        ]
+      },
+      {
+        "heading": "Ograničenje odgovornosti",
+        "paragraphs": [
+          "U maksimalnoj mjeri dozvoljenoj zakonom, programer neće biti odgovoran za bilo kakvu indirektnu, slučajnu, posebnu ili posljedičnu štetu nastalu iz vašeg korištenja aplikacije."
+        ]
+      },
+      {
+        "heading": "Izmjene",
+        "paragraphs": [
+          "Ove uvjete možemo povremeno ažurirati. Nastavak korištenja aplikacije nakon izmjena znači prihvatanje novih uvjeta."
+        ]
+      },
+      {
+        "heading": "Kontakt",
+        "paragraphs": [
+          "Imate pitanja? Obratite nam se na <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Pomoć", "title": "Podrška", "href": "support.html" },
+      { "label": "Pravno", "title": "Politika privatnosti", "href": "privacy.html" }
+    ],
+    "lastUpdated": "Posljednje ažuriranje: mart 2026."
+  },
+  "support": {
+    "meta": {
+      "title": "Podrška - Image Converter Plus",
+      "description": "Dobijte pomoć s Image Converter Plusom. Pronađite odgovore na uobičajena pitanja o konverziji, promjeni veličine i zaštiti vaših fotografija."
+    },
+    "hero": {
+      "title": "Podrška",
+      "subtitle": "Pronađite odgovore na uobičajena pitanja o konverziji, promjeni veličine i zaštiti vaših fotografija.",
+      "contactBtn": "Kontaktirajte nas"
+    },
+    "formats": {
+      "label": "Formati",
+      "title": "Pet formata, jedna aplikacija.",
+      "description": "Konvertujte između najpopularnijih formata slika s potpunom kontrolom kvalitete."
+    },
+    "faq": {
+      "categories": [
+        {
+          "title": "Početak rada",
+          "items": [
+            {
+              "question": "Kako da konvertujem slike?",
+              "answer": "Dodirnite dugme Fotografije ili Datoteke za uvoz slika. Odaberite izlazni format i kvalitetu, zatim dodirnite Konvertuj. Konvertovane slike pojavljuju se na kartici Historija, odakle ih možete pohraniti ili dijeliti."
+            },
+            {
+              "question": "Mogu li konvertovati više slika odjednom?",
+              "answer": "Da. Odaberite koliko god slika trebate i konvertujte ih sve u jednoj grupi. Svaka slika može imati vlastite postavke formata, kvalitete, veličine i naziva datoteke."
+            },
+            {
+              "question": "Mogu li uvoziti iz iCloud Drivea ili drugih aplikacija?",
+              "answer": "Da. Dodirnite dugme Datoteke za pregled iCloud Drivea, Dropboxa, Google Drivea ili bilo kojeg davatelja datoteka na vašem uređaju. Možete koristiti i Share Extension za konverziju slika direktno iz drugih aplikacija."
+            }
+          ]
+        },
+        {
+          "title": "Postavke konverzije",
+          "items": [
+            {
+              "question": "Šta radi klizač kvalitete?",
+              "answer": "Klizač kvalitete kontroliše kompresiju za JPEG, HEIC i AVIF formate. Veće vrijednosti daju bolju kvalitetu uz veće veličine datoteke. PNG i TIFF su uvijek bez gubitaka i ignorišu ovu postavku."
+            },
+            {
+              "question": "Kako da promijenim veličinu slika?",
+              "answer": "Koristite postavku veličine za skaliranje slika od 50% do 200% originalnih dimenzija. Možete postaviti zadanu vrijednost za sve slike ili prilagoditi svaku pojedinačno."
+            },
+            {
+              "question": "Mogu li preimenovati datoteke tokom konverzije?",
+              "answer": "Da. Možete dodati prefiks ili sufiks svim konvertovanim datotekama koristeći pravilo imenovanja, ili preimenovati svaku sliku pojedinačno prije konverzije."
+            },
+            {
+              "question": "Šta su predefinirane postavke?",
+              "answer": "Predefinirane postavke čuvaju kombinaciju formata, kvalitete, veličine i postavki imenovanja za konverziju jednim dodirom. Aplikacija uključuje 4 ugrađene predefinirane postavke, a možete ih preurediti ili sakriti u Postavkama."
+            }
+          ]
+        },
+        {
+          "title": "Privatnost i metapodaci",
+          "items": [
+            {
+              "question": "Mogu li ukloniti metapodatke iz slika?",
+              "answer": "Da. Image Converter Plus može ukloniti EXIF podatke uključujući GPS lokaciju, informacije o kameri, vremenske oznake, detalje autora, identifikatore uređaja, historiju uređivanja i ugrađene minijature. Odaberite iz predefiniranih načina privatnosti ili prilagodite točno što želite ukloniti."
+            },
+            {
+              "question": "Da li se moje slike prenose negdje?",
+              "answer": "Ne. Sva obrada odvija se u potpunosti na vašem uređaju. Nema servera, nema prijenosa, nema analitike i nema oglasa. Aplikacija radi potpuno offline — internet veza je potrebna samo za obavljanje kupovine."
+            }
+          ]
+        },
+        {
+          "title": "Pohrana i dijeljenje",
+          "items": [
+            {
+              "question": "Gdje su pohranjene moje konvertovane slike?",
+              "answer": "Konvertovane slike se pohranjuju na kartici Historija aplikacije. Odande ih možete pohraniti u Biblioteku fotografija, izvesti u Datoteke ili dijeliti putem AirDropa, Poruka, Maila i više."
+            },
+            {
+              "question": "Kako funkcioniše Share Extension?",
+              "answer": "Odaberite slike u bilo kojoj aplikaciji, dodirnite dugme Dijeli i odaberite Image Converter Plus. Vaše slike se konvertuju koristeći vaše zadane predefinirane postavke bez otvaranja glavne aplikacije. Pro korisnici mogu konvertovati više slika odjednom iz Share Sheeta."
+            },
+            {
+              "question": "Mogu li automatski brisati stare konverzije?",
+              "answer": "Da. Idite u Postavke i odaberite period automatskog brisanja — 7 dana, 30 dana, 90 dana ili nikad. Stare konverzije se automatski uklanjaju radi uštede prostora za pohranu."
+            }
+          ]
+        },
+        {
+          "title": "Pro",
+          "items": [
+            {
+              "question": "Što uključuje Pro nadogradnja?",
+              "answer": "Pro je jednokratna kupovina koja otključava TIFF i AVIF formate, potpune kontrole metapodataka i privatnosti, individualne postavke za svaku sliku i grupnu konverziju u Share Extension. Nema pretplate — i dijeli se s vašom porodicom putem Family Sharinga."
+            },
+            {
+              "question": "Kako da obnovim svoju kupovinu?",
+              "answer": "Idite u Postavke i dodirnite Obnovi kupovine. Provjerite jeste li prijavljeni s istim Apple računom koji ste koristili za originalnu kupovinu. Ako ste dio grupe Family Sharing, kupovina se automatski dijeli."
+            }
+          ]
+        },
+        {
+          "title": "Rješavanje problema",
+          "items": [
+            {
+              "question": "Aplikacija ne radi ispravno.",
+              "answer": "Pokušajte zatvoriti i ponovo otvoriti aplikaciju. Ako problem i dalje postoji, ponovo pokrenite uređaj i provjerite je li pokrenuta najnovija verzija iz App Storea. I dalje imate problema? Kontaktirajte nas s detaljima o tome što se dešava i pomoći ćemo vam."
+            },
+            {
+              "question": "Konverzija nije uspjela. Šta trebam učiniti?",
+              "answer": "Provjerite ima li vaš uređaj dovoljno slobodnog prostora za pohranu. Vrlo velike slike mogu zahtijevati više dostupnog prostora. Pokušajte konvertovati manje slika odjednom ili smanjite izlaznu veličinu. Ako problem i dalje postoji, kontaktirajte nas s formatom i veličinom slike."
+            },
+            {
+              "question": "Moja Pro kupovina se ne prikazuje.",
+              "answer": "Idite u Postavke i dodirnite Obnovi kupovine. Provjerite jeste li povezani s internetom i prijavljeni s ispravnim Apple računom. Ako ste kupili putem Family Sharinga, provjerite je li dijeljenje i dalje aktivno u vašoj porodičnoj grupi."
+            }
+          ]
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Sistemski zahtjevi",
+      "items": [
+        "iOS 16.0 ili noviji",
+        "Kompatibilno s iPhoneom i iPadom",
+        "Radi potpuno offline — nije potrebna internet veza"
+      ]
+    },
+    "links": [
+      { "label": "Pravno", "title": "Politika privatnosti", "href": "privacy.html" },
+      { "label": "Pravno", "title": "Uslovi korištenja", "href": "terms.html" }
+    ],
+    "lastUpdated": "Posljednje ažuriranje: mart 2026."
+  }
+}

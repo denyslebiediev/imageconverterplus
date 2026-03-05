@@ -69,7 +69,7 @@
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/subpage.css">
     <link rel="stylesheet" href="../css/support.css">
-    
+
 </head>
 <body>
 
@@ -110,114 +110,220 @@
 
     <!-- FAQ -->
     <div class="faq-section">
-        
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Başlarken</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Fotoğrafları nasıl içe aktarırım?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Ana ekrandaki "+" düğmesine dokunarak Fotoğraf Kitaplığınızdan veya Dosyalar uygulamasından görselleri seçin. Ayrıca herhangi bir uygulamadan Share Extension'ı kullanabilirsiniz — paylaşım sayfasından Image Converter Plus'ı seçmeniz yeterlidir.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Hangi görsel formatları destekleniyor?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Uygulama JPEG, PNG, HEIC, TIFF ve AVIF formatlarını destekler. Bu formatlar arasında dönüştürme yapabilirsiniz.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Aynı anda birden fazla görseli dönüştürebilir miyim?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Evet. İçe aktarırken birden fazla görsel seçin; hepsi aynı ayarlarla dönüştürülecektir. Toplu dönüştürme Pro ile kullanılabilir.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Dönüştürme Ayarları</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Kaliteyi nasıl ayarlarım?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Dönüştürme ekranındaki kalite kaydırıcısını kullanın. Düşük değerler daha küçük dosyalar üretir, yüksek değerler daha fazla detayı korur. Dosya boyutu tahmini siz ayarladıkça gerçek zamanlı olarak güncellenir.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Dönüştürme sırasında görselleri yeniden boyutlandırabilir miyim?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Evet. Maksimum çözünürlük belirleyebilir veya görselleri yüzde olarak ölçeklendirebilirsiniz. En boy oranı her zaman otomatik olarak korunur.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>HEIC ile JPEG arasındaki fark nedir?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>HEIC, Apple'ın daha iyi sıkıştırma sunan varsayılan formatıdır — benzer kalitede daha küçük dosyalar. JPEG, tüm cihaz ve platformlarda evrensel olarak uyumludur. Apple dışı cihazlarla paylaşmanız gerektiğinde HEIC'i JPEG'e dönüştürün.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Gizlilik ve Meta Veriler</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Fotoğraflardan EXIF verilerini nasıl kaldırırım?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Dönüştürme ayarlarında "Meta Verileri Kaldır" seçeneğini açın. Bu, dönüştürülen dosyadan konum, kamera bilgisi ve zaman damgaları dahil EXIF verilerini kaldırır.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Uygulama konum verilerini kaldırıyor mu?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Evet. "Meta Verileri Kaldır" etkinleştirildiğinde, tüm konum (GPS) verileri diğer EXIF bilgileriyle birlikte kaldırılır. Bu, fotoğrafları çevrimiçi paylaşırken faydalıdır.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Görsellerime filigran ekleyebilir miyim?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Evet. Özelleştirilebilir yazı tipi, boyut, renk, opaklık ve konum ile metin filigranı ekleyebilirsiniz. Filigran ekleme Pro ile kullanılabilir.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Kaydetme ve Paylaşma</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Dönüştürülen görseller nereye kaydedilir?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Dönüştürülen görselleri Fotoğraf Kitaplığınıza, Dosyalar uygulamasına kaydedebilir veya paylaşım sayfasını kullanarak doğrudan diğer uygulamalarla paylaşabilirsiniz.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Share Extension nasıl çalışır?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Herhangi bir uygulamada paylaş düğmesine dokunun, ardından Image Converter Plus'ı seçin. Görsel dönüştürmeye hazır şekilde Uygulamada açılacaktır. Tüm işlemler cihazınızda kalır.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Doğrudan sosyal medyaya paylaşabilir miyim?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Evet. Dönüştürmeden sonra paylaş düğmesini kullanarak görseli sosyal medya, mesajlaşma ve e-posta uygulamaları dahil cihazınızdaki herhangi bir uygulamaya gönderebilirsiniz.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Pro</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Pro neleri içerir?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Pro, tüm limitleri kaldıran tek seferlik bir satın almadır. Sınırsız dönüştürme, toplu işleme, tüm dışa aktarma formatları, filigran ekleme ve gelecekteki tüm özellik güncellemelerini elde edersiniz.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Pro'ya nasıl yükseltme yaparım?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Pro başlığına dokunun veya Uygulama içindeki Ayarlar'a gidin. Satın alma App Store üzerinden güvenli bir şekilde gerçekleştirilir.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Satın almamı nasıl geri yüklerim?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Uygulamada Ayarlar'a gidin ve "Satın Almaları Geri Yükle"ye dokunun. Orijinal satın alma için kullandığınız Apple ID ile giriş yapmış olduğunuzdan emin olun.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Sorun Giderme</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Uygulama fotoğraflarıma erişemiyor. Ne yapmalıyım?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Cihazınızda Ayarlar &gt; Gizlilik ve Güvenlik &gt; Fotoğraflar bölümüne gidin ve Image Converter Plus'ın erişimi olduğundan emin olun. "Tam Erişim" verebilir veya belirli fotoğrafları seçebilirsiniz.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Dosya boyutu limiti var mı?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Sabit bir dosya boyutu limiti yoktur. Uygulama büyük görselleri işleyebilir, ancak çok büyük dosyalar cihazınızın mevcut belleğine bağlı olarak daha uzun sürebilir.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Dönüştürme başarısız oldu. Ne deneyebilirim?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Bellek boşaltmak için diğer uygulamaları kapatmayı deneyin, ardından dönüştürmeyi tekrar deneyin. Sorun devam ederse Uygulamayı veya cihazınızı yeniden başlatın. Ayrıca <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a> adresinden bizimle iletişime geçebilirsiniz.</p>
+                </div></div>
+            </div>
         </div>
-        {{/each}}
+
     </div>
 
     <!-- System Requirements -->
     <div class="requirements fade-in">
         <h3>Sistem Gereksinimleri</h3>
-        
+
         <p>iOS 16.0 veya üstü</p>
-        
+
         <p>iPhone ve iPad ile uyumlu</p>
-        
+
         <p>Tamamen çevrimdışı çalışır — internet bağlantısı gerekmez</p>
-        
+
     </div>
 
     <!-- Links -->
     <div class="links-section fade-in">
-        
+
         <a class="link-card" href="privacy.html">
             <p class="link-label">Hukuki</p>
             <p class="link-title">Gizlilik Politikası</p>
         </a>
-        
+
         <a class="link-card" href="terms.html">
             <p class="link-label">Hukuki</p>
             <p class="link-title">Kullanım Şartları</p>
         </a>
-        
+
     </div>
 
     <!-- Footer -->

@@ -69,7 +69,7 @@
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/subpage.css">
     <link rel="stylesheet" href="../css/support.css">
-    
+
 </head>
 <body>
 
@@ -110,114 +110,216 @@
 
     <!-- FAQ -->
     <div class="faq-section">
-        
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Aloittaminen</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Miten tuon kuvia?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Napauta "+" valitaksesi kuvia Kuvakirjastosta tai Tiedostoista, tai käytä Share Extension -toimintoa lähettääksesi kuvia suoraan muista sovelluksista.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Mitä muotoja tuetaan?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Sovellus tukee JPEG-, PNG-, HEIC-, TIFF- ja AVIF-muotoja. Voit muuntaa minkä tahansa tuetun muodon toiseksi tuetuksi muodoksi.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Voinko muuntaa useita kuvia kerralla?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Kyllä. Pro-versiossa voit käyttää erämuunnosta käsitelläksesi useita kuvia samanaikaisesti samoilla asetuksilla.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Muunnosasetukset</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Voinko säätää kuvanlaatua?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Kyllä. Käytä laatuliukusäädintä asettaaksesi pakkausaste. Sovellus näyttää reaaliaikaisen tiedostokoon arvion, jotta voit löytää oikean tasapainon laadun ja tiedostokoon välillä.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Voinko muuttaa kuvan kokoa muunnoksen aikana?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Kyllä. Voit asettaa enimmäisresoluution tai prosentuaalisen skaalauksen. Kuvasuhde säilytetään aina automaattisesti.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Mikä on ero HEIC:n ja JPEG:n välillä?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>HEIC on Applen oletusmuoto, joka tarjoaa paremman pakkauksen pienemmillä tiedostokooilla. JPEG on yleisesti yhteensopiva muoto, joka toimii käytännössä kaikilla alustoilla ja laitteilla.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Tietosuoja ja metatiedot</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Voinko poistaa EXIF-tiedot kuvistani?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Kyllä. Ota käyttöön "Poista metatiedot" -asetus poistaaksesi kaikki EXIF-tiedot, mukaan lukien kameratiedot, asetukset ja muut upotetut metatiedot.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Voinko poistaa sijaintitiedot kuvistani?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Kyllä. GPS-sijaintitiedot poistetaan, kun otat käyttöön Poista metatiedot -asetuksen. Tämä poistaa kaikki upotetut koordinaatit kuvistasi.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Voinko lisätä vesileiman kuviini?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Kyllä. Pro-versiossa voit lisätä mukautetun tekstivesileiman kuviisi säädettävällä sijainnilla, koolla ja läpinäkyvyydellä.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Tallentaminen ja jakaminen</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Minne muunnetut kuvat tallennetaan?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Voit tallentaa muunnetut kuvat Kuvakirjastoon, Tiedostoihin tai jakaa ne suoraan jakoarkin kautta muihin sovelluksiin.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Miten Share Extension toimii?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Mistä tahansa sovelluksesta napauta jakopainiketta ja valitse Image Converter Plus. Kuva lähetetään suoraan sovellukseen muunnettavaksi.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Voinko jakaa kuvia suoraan sosiaaliseen mediaan?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Kyllä. Muunnoksen jälkeen napauta jakopainiketta lähettääksesi kuvan suoraan mihin tahansa asennettuun sovellukseen tai palveluun.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Pro</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Mitä Pro sisältää?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Pro on kertaostos, joka avaa rajattoman muuntamisen, eräkäsittelyn, kaikki vientimuodot, vesileimauksen ja kaikki tulevat ominaisuudet.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Miten päivitän Pro-versioon?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Napauta Pro-banneria sovelluksessa tai siirry Asetuksiin ostaaksesi Pro-päivityksen. Se on kertaostos — ei tilauksia.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Miten palautan ostokseni?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Siirry kohtaan Asetukset > Palauta ostokset. Varmista, että olet kirjautunut sisään samalla Apple ID:llä, jolla teit alkuperäisen ostoksen.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Vianmääritys</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>En pääse käsiksi kuviini. Mitä teen?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Siirry kohtaan Asetukset > Tietosuoja ja turvallisuus > Kuvat ja myönnä Image Converter Plusille käyttöoikeus kuviisi.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Onko tiedostokoolle rajoitusta?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Kiinteää tiedostokokorajoitusta ei ole. Erittäin suurten tiedostojen käsittely voi kestää kauemmin laitteesi ominaisuuksien mukaan.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Muunnos epäonnistui. Mitä teen?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Sulje muut sovellukset vapauttaaksesi muistia ja yritä uudelleen. Jos ongelma jatkuu, käynnistä sovellus uudelleen tai ota yhteyttä osoitteessa <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a>.</p>
+                </div></div>
+            </div>
         </div>
-        {{/each}}
+
     </div>
 
     <!-- System Requirements -->
     <div class="requirements fade-in">
         <h3>Järjestelmävaatimukset</h3>
-        
         <p>iOS 16.0 tai uudempi</p>
-        
         <p>Yhteensopiva iPhonen ja iPadin kanssa</p>
-        
         <p>Toimii täysin offline-tilassa — ei internet-yhteyttä tarvita</p>
-        
     </div>
 
     <!-- Links -->
     <div class="links-section fade-in">
-        
+
         <a class="link-card" href="privacy.html">
             <p class="link-label">Juridinen</p>
             <p class="link-title">Tietosuojakäytäntö</p>
         </a>
-        
+
         <a class="link-card" href="terms.html">
             <p class="link-label">Juridinen</p>
             <p class="link-title">Käyttöehdot</p>
         </a>
-        
+
     </div>
 
     <!-- Footer -->

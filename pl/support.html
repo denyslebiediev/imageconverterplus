@@ -110,87 +110,193 @@
 
     <!-- FAQ -->
     <div class="faq-section">
-        
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Pierwsze kroki</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Jak importować zdjęcia?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Stuknij przycisk plus na ekranie głównym, aby wybrać zdjęcia z biblioteki. Możesz też użyć Share Extension, aby wysyłać obrazy bezpośrednio z aplikacji Zdjęcia lub Pliki.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Jakie formaty obrazów są obsługiwane?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Aplikacja obsługuje formaty JPEG, PNG, HEIC, TIFF i AVIF. Możesz konwertować między dowolnymi z tych formatów w pełnej jakości.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Czy mogę konwertować wiele zdjęć naraz?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Tak. Wybierz wiele zdjęć podczas importu, a wszystkie zostaną przekonwertowane z tymi samymi ustawieniami jednocześnie. Nie ma limitu liczby zdjęć w partii.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Ustawienia konwersji</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Jak regulować jakość?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Użyj suwaka jakości na ekranie konwersji, aby ustawić poziom kompresji. Wyższe wartości zachowują więcej szczegółów, ale tworzą większe pliki. Podgląd aktualizuje się w czasie rzeczywistym.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Czy mogę zmieniać rozmiar zdjęć podczas konwersji?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Tak. Włącz zmianę rozmiaru i ustaw docelową szerokość lub wysokość. Proporcje są zachowywane automatycznie. Zmiana rozmiaru jest stosowana podczas konwersji.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Jaka jest różnica między HEIC a JPEG?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>HEIC to nowoczesny format Apple oferujący mniejsze rozmiary plików przy podobnej jakości. JPEG jest powszechnie kompatybilny ze wszystkimi platformami. Konwertuj HEIC na JPEG, aby łatwo udostępniać na urządzeniach innych niż Apple.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Prywatność i metadane</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Jak usunąć dane EXIF ze zdjęć?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Włącz opcję „Usuń metadane" przed konwersją. Spowoduje to usunięcie wszystkich danych EXIF, w tym ustawień aparatu, znaczników czasu i informacji o lokalizacji ze zdjęć wyjściowych.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Czy aplikacja usuwa dane lokalizacyjne?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Tak, gdy włączona jest opcja usuwania metadanych. Dane GPS, nazwy miejsc i wszystkie inne informacje o lokalizacji osadzone w zdjęciach zostaną usunięte z przekonwertowanego pliku.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Czy mogę dodać znak wodny do moich zdjęć?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Tak. Włącz znakowanie wodne i dostosuj tekst, pozycję, rozmiar i przezroczystość. Znak wodny jest stosowany podczas konwersji i pojawia się na wszystkich zdjęciach wyjściowych.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Zapisywanie i udostępnianie</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Gdzie zapisywane są przekonwertowane zdjęcia?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Przekonwertowane zdjęcia możesz zapisać w bibliotece Zdjęć lub w dowolnym folderze za pomocą aplikacji Pliki. Miejsce docelowe wybierasz po zakończeniu konwersji.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Jak działa Share Extension?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Wybierz dowolne zdjęcie w iOS, stuknij przycisk Udostępnij i wybierz Image Converter Plus. Obraz zostanie otwarty bezpośrednio w aplikacji, gotowy do konwersji — bez konieczności ręcznego importu.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Czy mogę udostępniać bezpośrednio w mediach społecznościowych?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Po konwersji użyj arkusza udostępniania iOS, aby wysłać zdjęcia bezpośrednio do dowolnej zainstalowanej aplikacji, w tym mediów społecznościowych, komunikatorów i poczty e-mail.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Pro</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Co zawiera Pro?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Pro odblokowuje nieograniczoną konwersję wsadową, wszystkie formaty wyjściowe, zmianę rozmiaru, usuwanie metadanych i znakowanie wodne. To jednorazowy zakup bez subskrypcji.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Jak uaktualnić do Pro?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Stuknij przycisk Pro w aplikacji, aby zobaczyć szczegóły i kupić. Płatność jest przetwarzana przez Apple. Po zakupie funkcje Pro są natychmiast odblokowywane.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Jak przywrócić zakup?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Stuknij „Przywróć zakup" na ekranie Pro. Aplikacja sprawdzi w Apple i odblokuje Pro, jeśli wcześniej dokonano zakupu. Upewnij się, że jesteś zalogowany na ten sam Apple ID.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Rozwiązywanie problemów</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Aplikacja nie ma dostępu do moich zdjęć. Co zrobić?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Przejdź do Ustawień iOS → Prywatność i bezpieczeństwo → Zdjęcia i upewnij się, że Image Converter Plus ma przyznany dostęp. Możesz też wybrać konkretne zdjęcia lub przyznać pełny dostęp do biblioteki.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Czy istnieje limit rozmiaru pliku?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Nie ma sztywnego limitu rozmiaru pliku. Aplikacja obsługuje duże obrazy, w tym pliki RAW i obrazy o wysokiej rozdzielczości. Czas przetwarzania zależy od rozmiaru pliku i możliwości urządzenia.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Konwersja nie powiodła się. Co mogę spróbować?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Spróbuj ponownie uruchomić aplikację i powtórzyć konwersję. Upewnij się, że na urządzeniu jest wystarczająco dużo wolnej pamięci. Jeśli problem dotyczy konkretnego obrazu, spróbuj innego formatu źródłowego.</p>
+                </div></div>
+            </div>
         </div>
-        {{/each}}
+
     </div>
 
     <!-- System Requirements -->

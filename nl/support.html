@@ -69,7 +69,7 @@
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/subpage.css">
     <link rel="stylesheet" href="../css/support.css">
-    
+
 </head>
 <body>
 
@@ -110,114 +110,216 @@
 
     <!-- FAQ -->
     <div class="faq-section">
-        
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Aan de slag</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Hoe importeer ik foto's?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Tik op de "+"-knop om te kiezen uit je Fotobibliotheek of Bestanden. Je kunt ook de Share Extension vanuit een andere app gebruiken om afbeeldingen rechtstreeks naar Image Converter Plus te sturen.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Welke formaten worden ondersteund?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Image Converter Plus ondersteunt JPEG, PNG, HEIC, TIFF en AVIF. Je kunt vrij tussen al deze formaten converteren.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Kan ik meerdere afbeeldingen tegelijk converteren?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Ja. Met de Pro-upgrade kun je meerdere afbeeldingen selecteren en ze allemaal in één keer batchgewijs converteren.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Conversieinstellingen</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Kan ik de kwaliteit aanpassen?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Ja. Gebruik de kwaliteitsschuifregelaar om het compressieniveau aan te passen. Je ziet een realtime schatting van de bestandsgrootte terwijl je aanpast, zodat je de juiste balans tussen kwaliteit en grootte kunt vinden.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Kan ik het formaat wijzigen tijdens de conversie?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Ja. Je kunt een maximale resolutie instellen of een percentage schalen. De beeldverhouding blijft altijd behouden.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Wat is het verschil tussen HEIC en JPEG?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>HEIC is Apple's standaardformaat met betere compressie — kleinere bestanden met dezelfde kwaliteit. JPEG is universeel compatibel en werkt overal. Converteer HEIC naar JPEG wanneer je bestanden moet delen met niet-Apple-apparaten.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Privacy en metadata</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Hoe verwijder ik EXIF-gegevens uit mijn foto's?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Schakel de optie "Metadata verwijderen" in voordat je converteert. Dit verwijdert alle EXIF-gegevens, inclusief camera-instellingen, datum/tijd en andere ingebedde informatie.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Kan ik locatiegegevens uit mijn foto's verwijderen?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Ja. Wanneer "Metadata verwijderen" is ingeschakeld, worden GPS-coördinaten en alle andere locatiegegevens uit je foto's verwijderd.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Kan ik een watermerk toevoegen aan mijn foto's?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Ja. Met de Pro-upgrade kun je een tekst-watermerk aan je afbeeldingen toevoegen met aanpasbare tekst, positie, grootte en transparantie.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Opslaan en delen</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Waar worden geconverteerde bestanden opgeslagen?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Na de conversie kun je het resultaat opslaan in je Fotobibliotheek, in Bestanden, of delen via het deelvenster.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Hoe werkt de Share Extension?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Vanuit elke app tik je op de deelknop, kies Image Converter Plus en de afbeelding wordt direct in de app geopend, klaar om te converteren.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Kan ik direct delen naar sociale media?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Ja. Na de conversie tik je op de deelknop om de afbeelding rechtstreeks naar elke app te sturen, inclusief sociale media, berichten of e-mail.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Pro</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Wat is inbegrepen bij Pro?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Pro is een eenmalige aankoop die alles ontgrendelt: onbeperkte conversies, batchverwerking, alle exportformaten, geavanceerde opties voor formaat wijzigen, watermerk en meer. Geen abonnement vereist.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Hoe upgrade ik naar Pro?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Tik op de Pro-banner in de app of ga naar Instellingen. De aankoop wordt veilig door Apple afgehandeld.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Kan ik mijn aankoop herstellen?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Ja. Ga naar Instellingen > Aankopen herstellen. Zorg ervoor dat je bent ingelogd met dezelfde Apple ID waarmee de oorspronkelijke aankoop is gedaan.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Probleemoplossing</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Ik heb geen toegang tot mijn foto's.</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Ga naar Instellingen > Privacy en beveiliging > Foto's en geef Image Converter Plus toegang tot je foto's.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Is er een limiet voor de bestandsgrootte?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Er is geen vaste limiet voor de bestandsgrootte. Zeer grote bestanden kunnen iets langer duren om te verwerken, afhankelijk van je apparaat.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>De conversie is mislukt. Wat kan ik doen?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Probeer andere apps te sluiten om geheugen vrij te maken en start de app opnieuw. Als het probleem aanhoudt, neem contact met ons op via <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a>.</p>
+                </div></div>
+            </div>
         </div>
-        {{/each}}
+
     </div>
 
     <!-- System Requirements -->
     <div class="requirements fade-in">
         <h3>Systeemvereisten</h3>
-        
         <p>iOS 16.0 of later</p>
-        
         <p>Compatibel met iPhone en iPad</p>
-        
         <p>Werkt volledig offline — geen internetverbinding vereist</p>
-        
     </div>
 
     <!-- Links -->
     <div class="links-section fade-in">
-        
+
         <a class="link-card" href="privacy.html">
             <p class="link-label">Juridisch</p>
             <p class="link-title">Privacybeleid</p>
         </a>
-        
+
         <a class="link-card" href="terms.html">
             <p class="link-label">Juridisch</p>
             <p class="link-title">Gebruiksvoorwaarden</p>
         </a>
-        
+
     </div>
 
     <!-- Footer -->

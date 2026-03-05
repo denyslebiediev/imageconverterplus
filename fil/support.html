@@ -69,7 +69,7 @@
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/subpage.css">
     <link rel="stylesheet" href="../css/support.css">
-    
+
 </head>
 <body>
 
@@ -110,114 +110,213 @@
 
     <!-- FAQ -->
     <div class="faq-section">
-        
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Pagsisimula</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Paano mag-import ng mga larawan?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>I-tap ang "+" button sa main screen para pumili ng mga larawan mula sa iyong Photo Library o Files app. Maaari mo ring gamitin ang Share Extension mula sa anumang app — piliin lang ang Image Converter Plus mula sa share sheet.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Anong mga format ng larawan ang sinusuportahan?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Sinusuportahan ng App ang JPEG, PNG, HEIC, TIFF, at AVIF. Maaari kang mag-convert sa pagitan ng alinman sa mga format na ito.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Maaari bang mag-convert ng maraming larawan nang sabay-sabay?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Oo. Pumili ng maraming larawan kapag nag-i-import at lahat sila ay mako-convert gamit ang parehong mga setting. Ang batch conversion ay available sa Pro.</p>
+                </div></div>
+            </div>
+        </div>
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Mga Setting ng Pag-convert</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Paano i-adjust ang kalidad?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Gamitin ang quality slider sa conversion screen. Ang mas mababang value ay gumagawa ng mas maliliit na file, ang mas mataas na value ay nagpapanatili ng mas maraming detalye. Ang file size estimate ay nag-a-update sa real time habang nag-a-adjust ka.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Maaari bang i-resize ang mga larawan habang nagko-convert?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Oo. Maaari kang mag-set ng maximum resolution o mag-scale ng mga larawan ayon sa porsyento. Ang aspect ratio ay palaging awtomatikong pinapanatili.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Ano ang pagkakaiba ng HEIC at JPEG?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Ang HEIC ay ang default format ng Apple na nag-aalok ng mas magandang compression — mas maliliit na file sa katulad na kalidad. Ang JPEG ay universally compatible sa lahat ng device at platform. I-convert ang HEIC sa JPEG kapag kailangan mong mag-share sa mga hindi Apple device.</p>
+                </div></div>
+            </div>
+        </div>
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Privacy at Metadata</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Paano mag-alis ng EXIF data mula sa mga larawan?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>I-toggle on ang "Strip Metadata" sa conversion settings. Inaalis nito ang EXIF data kabilang ang location, camera info, at timestamps mula sa na-convert na file.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Inaalis ba ng app ang location data?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Oo. Kapag naka-enable ang "Strip Metadata", lahat ng location (GPS) data ay inaalis kasama ng iba pang EXIF information. Kapaki-pakinabang ito kapag nagbabahagi ng mga larawan online.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Maaari bang magdagdag ng watermark sa aking mga larawan?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Oo. Maaari kang magdagdag ng text watermark na may customizable na font, size, kulay, opacity, at posisyon. Ang watermarking ay available sa Pro.</p>
+                </div></div>
+            </div>
+        </div>
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Pag-save at Pagbabahagi</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Saan nase-save ang mga na-convert na larawan?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Maaari mong i-save ang mga na-convert na larawan sa iyong Photo Library, Files app, o ibahagi ang mga ito nang direkta sa ibang mga app gamit ang share sheet.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Paano gumagana ang Share Extension?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Mula sa anumang app, i-tap ang share button, pagkatapos piliin ang Image Converter Plus. Magbubukas ang larawan sa App na handa nang i-convert. Lahat ng pagpoproseso ay nananatili sa iyong device.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Maaari bang mag-share nang direkta sa social media?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Oo. Pagkatapos mag-convert, gamitin ang share button para ipadala ang larawan sa anumang app na naka-install sa iyong device, kabilang ang social media, messaging, at email apps.</p>
+                </div></div>
+            </div>
+        </div>
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Pro</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Ano ang kasama sa Pro?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Ang Pro ay isang beses na pagbili na inaalis ang lahat ng limitasyon. Makakakuha ka ng walang limitasyong conversions, batch processing, lahat ng export formats, watermarking, at bawat future feature update.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Paano mag-upgrade sa Pro?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>I-tap ang Pro banner o pumunta sa Settings sa loob ng App. Ang pagbili ay ligtas na pinangangasiwaan sa pamamagitan ng App Store.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Paano i-restore ang aking pagbili?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Pumunta sa Settings sa App at i-tap ang "Restore Purchases." Siguraduhing naka-sign in ka gamit ang parehong Apple ID na ginamit mo para sa orihinal na pagbili.</p>
+                </div></div>
+            </div>
+        </div>
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Pag-aayos ng Problema</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Hindi ma-access ng app ang aking mga larawan. Ano ang dapat kong gawin?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Pumunta sa Settings > Privacy &amp; Security > Photos sa iyong device at siguraduhing may access ang Image Converter Plus. Maaari kang magbigay ng "Full Access" o pumili ng mga partikular na larawan.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>May file size limit ba?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Walang nakatakdang file size limit. Kaya ng App na hawakan ang malalaking larawan, pero ang napakalaking file ay maaaring mas matagal i-process depende sa available na memory ng iyong device.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Nabigo ang isang conversion. Ano ang maaari kong subukan?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Subukang isara ang ibang mga app para palayain ang memory, pagkatapos subukan muli ang conversion. Kung nagpapatuloy ang problema, i-restart ang App o ang iyong device. Maaari ka ring makipag-ugnayan sa amin sa <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a>.</p>
+                </div></div>
+            </div>
         </div>
-        {{/each}}
     </div>
 
     <!-- System Requirements -->
     <div class="requirements fade-in">
         <h3>Mga Kinakailangan ng Sistema</h3>
-        
+
         <p>iOS 16.0 o mas bago</p>
-        
+
         <p>Compatible sa iPhone at iPad</p>
-        
+
         <p>Ganap na gumagana nang offline — hindi kailangan ng koneksyon sa internet</p>
-        
+
     </div>
 
     <!-- Links -->
     <div class="links-section fade-in">
-        
+
         <a class="link-card" href="privacy.html">
             <p class="link-label">Legal</p>
             <p class="link-title">Patakaran sa Privacy</p>
         </a>
-        
+
         <a class="link-card" href="terms.html">
             <p class="link-label">Legal</p>
             <p class="link-title">Mga Tuntunin ng Paggamit</p>
         </a>
-        
+
     </div>
 
     <!-- Footer -->

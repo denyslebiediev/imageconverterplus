@@ -110,87 +110,49 @@
 
     <!-- FAQ -->
     <div class="faq-section">
-        
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Почетак рада</h2>
-            {{#each items}}
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span></span>
-                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </button>
-                <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
-                </div></div>
-            </div>
-            
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Како апликација ради?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Изаберите једну или више слика из Фото библиотеке или апликације Датотеке, подесите излазни формат и квалитет, затим додирните Конвертуј. Обрада се одвија искључиво на вашем уређају.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Који формати су подржани?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Апликација подржава конверзију између JPEG, PNG, HEIC, TIFF и AVIF (Pro). Можете конвертовати у било којој комбинацији ових формата.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Могу ли да конвертујем више слика одједном?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Да! Бесплатна верзија дозвољава конверзију до 3 слике одједном. Pro надоградња уклања ово ограничење и омогућава неограничену групну конверзију.</p></div></div></div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Подешавања конверзије</h2>
-            {{#each items}}
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span></span>
-                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </button>
-                <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
-                </div></div>
-            </div>
-            
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Могу ли да контролишем квалитет слике?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Да. Можете подесити клизач квалитета компресије за JPEG и HEIC. PNG је без губитака, тако да се подешавање квалитета не примењује.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Могу ли да мењам величину слика током конверзије?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Да. Укључите опцију за промену величине пре конверзије и подесите жељену максималну ширину или висину. Апликација аутоматски чува однос страница.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Шта је AVIF?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>AVIF је модеран формат слика који нуди одличну ефикасност компресије. Пружа одличан квалитет уз мање величине датотека и доступан је уз Pro.</p></div></div></div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Приватност и метаподаци</h2>
-            {{#each items}}
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span></span>
-                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </button>
-                <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
-                </div></div>
-            </div>
-            
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Да ли се моје фотографије отпремају?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Не. Сва обрада се одвија на вашем уређају. Ваше слике никада не напуштају ваш телефон или таблет.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Шта је уклањање метаподатака?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Слике могу садржати скривене податке (EXIF) попут локације, подешавања камере и датума. Апликација вам омогућава да уклоните ове податке пре дељења.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Које податке апликација прикупља?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Никакве. Апликација не прикупља личне податке, аналитику нити податке о коришћењу. Нема праћења нити SDK-ова за аналитику трећих страна.</p></div></div></div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Чување и дељење</h2>
-            {{#each items}}
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span></span>
-                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </button>
-                <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
-                </div></div>
-            </div>
-            
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Где се чувају конвертоване слике?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Можете изабрати да сачувате у Фото библиотеку или у било који фолдер у апликацији Датотеке. Апликација сваки пут пита где да сачува.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Могу ли да делим конвертоване датотеке директно?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Да. Након конверзије, можете користити iOS лист за дељење за директно дељење слика преко Порука, Поште, AirDrop-а или било које друге апликације.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Могу ли да користим Share Extension?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Да. Можете користити iOS мени за дељење за слање слика директно из било које апликације у Image Converter Plus.</p></div></div></div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Pro</h2>
-            {{#each items}}
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span></span>
-                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </button>
-                <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
-                </div></div>
-            </div>
-            
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Шта је укључено у Pro?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Pro укључује подршку за AVIF формат, неограничену групну конверзију, прилагођене водене жигове и све будуће Pro функције.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Да ли је Pro претплата или једнократна куповина?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Pro је једнократна куповина. Платите једном, добијте приступ заувек — без понављајућих трошкова.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Може ли се Pro вратити на све моје уређаје?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Да. Пошто је куповина повезана са вашим Apple ID-јем, можете вратити Pro на било ком од ваших уређаја са истим Apple ID-јем.</p></div></div></div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Решавање проблема</h2>
-            {{#each items}}
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span></span>
-                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </button>
-                <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
-                </div></div>
-            </div>
-            
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Моја конверзија није успела. Шта да радим?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Проверите да ваш уређај има довољно простора и да користите најновију верзију. Ако проблем и даље постоји, покушајте да поново покренете апликацију.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Апликација не ради исправно.</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Ажурирајте апликацију на најновију верзију и поново покрените уређај. Ако проблем и даље постоји, пишите на наш имејл за подршку са описом проблема.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Имам други проблем.</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Контактирајте нас на <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a> за било какве проблеме. Наведите модел уређаја и верзију iOS-а, а ми ћемо одговорити што је пре могуће.</p></div></div></div>
         </div>
-        {{/each}}
+
     </div>
 
     <!-- System Requirements -->

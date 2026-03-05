@@ -113,84 +113,45 @@
         
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Il-Bidu</h2>
-            {{#each items}}
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span></span>
-                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </button>
-                <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
-                </div></div>
-            </div>
-            
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Kif taħdem l-App?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Agħżel immaġni waħda jew aktar mill-Librerija tar-Ritratti jew l-app Files, issettja l-format u l-kwalità tal-output, imbagħad ittappja Ikkonverti. L-ipproċessar isir kollu fuq l-apparat tiegħek.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Liema formati huma appoġġjati?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>L-App tappoġġja konverżjoni bejn JPEG, PNG, HEIC, TIFF u AVIF (Pro). Tista' tikkonverti fi kwalunkwe kombinazzjoni ta' dawn il-formati.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Nista' nikkonverti diversi immaġni f'daqqa?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Iva! Bil-livell bla ħlas tista' tikkonverti sa 3 immaġni f'daqqa. L-aġġornament Pro jneħħi din il-limitazzjoni u jippermetti konverżjoni batch illimitata.</p></div></div></div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Settings tal-Konverżjoni</h2>
-            {{#each items}}
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span></span>
-                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </button>
-                <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
-                </div></div>
-            </div>
-            
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Nista' nikkontrolla l-kwalità tal-immaġni?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Iva. Tista' taġġusta l-islajder tal-kwalità tal-kompressjoni għal JPEG u HEIC. PNG huwa lossless, għalhekk is-setting tal-kwalità ma tapplikax.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Nista' nirridimensjona immaġni waqt il-konverżjoni?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Iva. Attiva l-għażla ta' ridimensjonament qabel il-konverżjoni u ssettja l-wisa' jew l-għoli massimu mixtieq. L-App iżżomm ir-ratio tal-aspett awtomatikament.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>X'inhu AVIF?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>AVIF huwa format modern ta' immaġni li joffri effiċjenza tal-kompressjoni eċċellenti. Jipprovdi kwalità eċċellenti f'daqsijiet ta' fajl iżgħar u huwa disponibbli ma' Pro.</p></div></div></div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Privatezza u Metadejta</h2>
-            {{#each items}}
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span></span>
-                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </button>
-                <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
-                </div></div>
-            </div>
-            
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Ir-ritratti tiegħi jiġu uploaded?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Le. L-ipproċessar kollu jsir fuq l-apparat tiegħek. L-immaġni tiegħek qatt ma jitilqu t-telefon jew it-tablet tiegħek.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>X'inhi t-tneħħija tal-metadejta?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>L-immaġni jistgħu jkun fihom dejta moħbija (EXIF) bħal il-post, is-settings tal-kamera u d-dati. L-App tippermetti li tneħħi din id-dejta qabel ma tikkondividi.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>X'dejta tiġbor l-App?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Xejn. L-App ma tiġborx informazzjoni personali, analitika jew dejta tal-użu. M'hemm l-ebda tracking jew SDKs ta' analitika ta' terzi.</p></div></div></div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Ħażna u Kondiviżjoni</h2>
-            {{#each items}}
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span></span>
-                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </button>
-                <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
-                </div></div>
-            </div>
-            
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Fejn jiġu ffranakti l-immaġni konvertiti?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Tista' tagħżel li tiffranka fil-Librerija tar-Ritratti jew fi kwalunkwe folder fl-app Files. L-App tistaqsi kull darba fejn tiffranka.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Nista' nikkondividi fajls konvertiti direttament?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Iva. Wara l-konverżjoni, tista' tuża l-folja ta' kondiviżjoni tal-iOS biex tikkondividi immaġni direttament permezz ta' Messages, Mail, AirDrop jew kwalunkwe app oħra.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Nista' nuża s-Share Extension?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Iva. Tista' tuża l-menu ta' kondiviżjoni tal-iOS biex tibgħat immaġni direttament minn kwalunkwe app lil Image Converter Plus.</p></div></div></div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Pro</h2>
-            {{#each items}}
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span></span>
-                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </button>
-                <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
-                </div></div>
-            </div>
-            
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>X'hemm inkluż fi Pro?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Pro jinkludi appoġġ tal-format AVIF, konverżjoni batch illimitata, watermarks personalizzati u l-karatteristiċi Pro futuri kollha.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Pro huwa abbonament jew xirja ta' darba?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Pro hija xirja ta' darba. Ħallas darba, ikseb aċċess għal dejjem — bla ħlasijiet rikorrenti.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Pro jista' jiġi restawrat fuq l-apparati kollha tiegħi?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Iva. Peress li x-xirja hija marbuta mal-Apple ID tiegħek, tista' tirrestawra Pro fuq kwalunkwe apparat tiegħek bl-istess Apple ID.</p></div></div></div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Soluzzjoni tal-Problemi</h2>
-            {{#each items}}
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span></span>
-                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </button>
-                <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
-                </div></div>
-            </div>
-            
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Il-konverżjoni tiegħi falliet. X'għandi nagħmel?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Kun ċert li l-apparat tiegħek għandu biżżejjed ħażna u li qed tuża l-aħħar verżjoni. Jekk il-problema tibqa', ipprova erġa' ibda l-app.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>L-App mhix taħdem sew.</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Aġġorna l-app għall-aħħar verżjoni u erġa' ibda l-apparat tiegħek. Jekk il-problema tibqa', ikteb lill-email ta' appoġġ tagħna b'deskrizzjoni tal-problema tiegħek.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Għandi problema oħra.</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Ikkuntattjana fuq <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a> għal kwalunkwe problema. Inkludi l-mudell tal-apparat u l-verżjoni tal-iOS tiegħek, u aħna nirrispondu malajr kemm jista' jkun.</p></div></div></div>
         </div>
-        {{/each}}
     </div>
 
     <!-- System Requirements -->

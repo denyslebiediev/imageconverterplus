@@ -110,87 +110,193 @@
 
     <!-- FAQ -->
     <div class="faq-section">
-        
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">शुरुआत करना</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>मैं फ़ोटो कैसे इम्पोर्ट करूं?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>मुख्य स्क्रीन पर "+" बटन टैप करें और अपनी फ़ोटो लाइब्रेरी या फ़ाइल्स ऐप से इमेज चुनें। आप किसी भी ऐप से Share Extension का भी उपयोग कर सकते हैं — बस शेयर शीट में Image Converter Plus चुनें।</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>कौन से इमेज फ़ॉर्मेट समर्थित हैं?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>ऐप JPEG, PNG, HEIC, TIFF और AVIF को सपोर्ट करता है। आप इनमें से किसी भी फ़ॉर्मेट के बीच कन्वर्ट कर सकते हैं।</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>क्या मैं एक साथ कई इमेज कन्वर्ट कर सकता/सकती हूं?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>हां। इम्पोर्ट करते समय कई इमेज चुनें और सभी एक ही सेटिंग्स के साथ कन्वर्ट हो जाएंगी। बैच कन्वर्ज़न Pro के साथ उपलब्ध है।</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">कन्वर्जन सेटिंग्स</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>मैं गुणवत्ता कैसे समायोजित करूं?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>कन्वर्ज़न स्क्रीन पर क्वालिटी स्लाइडर का उपयोग करें। कम मान छोटी फ़ाइलें बनाते हैं, अधिक मान अधिक विवरण संरक्षित करते हैं। फ़ाइल आकार का अनुमान आपके समायोजन के साथ रीयल-टाइम में अपडेट होता है।</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>क्या मैं कन्वर्ज़न के दौरान इमेज का आकार बदल सकता/सकती हूं?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>हां। आप अधिकतम रिज़ॉल्यूशन सेट कर सकते हैं या प्रतिशत के अनुसार इमेज को स्केल कर सकते हैं। पहलू अनुपात हमेशा स्वचालित रूप से बना रहता है।</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>HEIC और JPEG में क्या अंतर है?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>HEIC Apple का डिफ़ॉल्ट फ़ॉर्मेट है जो बेहतर कम्प्रेशन प्रदान करता है — समान गुणवत्ता पर छोटी फ़ाइलें। JPEG सभी डिवाइस और प्लेटफ़ॉर्म पर सार्वभौमिक रूप से संगत है। जब आपको गैर-Apple डिवाइस के साथ शेयर करना हो तो HEIC को JPEG में कन्वर्ट करें।</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">गोपनीयता और मेटाडेटा</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>मैं फ़ोटो से EXIF डेटा कैसे हटाऊं?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>कन्वर्ज़न सेटिंग्स में "मेटाडेटा हटाएं" चालू करें। यह कन्वर्ट की गई फ़ाइल से स्थान, कैमरा जानकारी और टाइमस्टैम्प सहित EXIF डेटा हटा देता है।</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>क्या ऐप लोकेशन डेटा हटाता है?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>हां। जब "मेटाडेटा हटाएं" सक्षम हो, तो सभी स्थान (GPS) डेटा अन्य EXIF जानकारी के साथ हटा दिया जाता है। यह ऑनलाइन फ़ोटो शेयर करते समय उपयोगी है।</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>क्या मैं अपनी इमेज में वॉटरमार्क जोड़ सकता/सकती हूं?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>हां। आप कस्टमाइज़ करने योग्य फ़ॉन्ट, आकार, रंग, अपारदर्शिता और स्थिति के साथ टेक्स्ट वॉटरमार्क जोड़ सकते हैं। वॉटरमार्क Pro के साथ उपलब्ध है।</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">सेव करना और शेयर करना</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>कन्वर्ट की गई इमेज कहां सेव होती हैं?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>आप कन्वर्ट की गई इमेज को अपनी फ़ोटो लाइब्रेरी, फ़ाइल्स ऐप में सेव कर सकते हैं, या शेयर शीट का उपयोग करके सीधे अन्य ऐप्स में शेयर कर सकते हैं।</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Share Extension कैसे काम करता है?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>किसी भी ऐप से, शेयर बटन टैप करें, फिर Image Converter Plus चुनें। इमेज ऐप में कन्वर्ज़न के लिए तैयार खुल जाएगी। सारी प्रोसेसिंग आपके डिवाइस पर ही रहती है।</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>क्या मैं सीधे सोशल मीडिया पर शेयर कर सकता/सकती हूं?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>हां। कन्वर्ज़न के बाद, शेयर बटन का उपयोग करके इमेज को अपने डिवाइस पर इंस्टॉल किसी भी ऐप में भेजें, जिसमें सोशल मीडिया, मैसेजिंग और ईमेल ऐप्स शामिल हैं।</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Pro</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Pro में क्या शामिल है?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Pro एक बार की खरीदारी है जो सभी सीमाएं हटा देती है। आपको असीमित कन्वर्ज़न, बैच प्रोसेसिंग, सभी निर्यात फ़ॉर्मेट, वॉटरमार्किंग और भविष्य के सभी फ़ीचर अपडेट मिलते हैं।</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>मैं Pro में कैसे अपग्रेड करूं?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Pro बैनर टैप करें या ऐप के अंदर सेटिंग्स में जाएं। खरीदारी App Store के माध्यम से सुरक्षित रूप से संसाधित होती है।</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>मैं अपनी खरीदारी कैसे पुनर्स्थापित करूं?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>ऐप में सेटिंग्स पर जाएं और "खरीदारी पुनर्स्थापित करें" टैप करें। सुनिश्चित करें कि आप उसी Apple ID से साइन इन हैं जिसका उपयोग आपने मूल खरीदारी के लिए किया था।</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">समस्या निवारण</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>ऐप मेरी फ़ोटो तक पहुंच नहीं पा रहा। मुझे क्या करना चाहिए?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>अपने डिवाइस पर सेटिंग्स > गोपनीयता और सुरक्षा > फ़ोटो पर जाएं और सुनिश्चित करें कि Image Converter Plus के पास एक्सेस है। आप "पूर्ण एक्सेस" दे सकते हैं या विशिष्ट फ़ोटो चुन सकते हैं।</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>क्या कोई फ़ाइल आकार सीमा है?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>कोई निश्चित फ़ाइल आकार सीमा नहीं है। ऐप बड़ी इमेज को संभाल सकता है, लेकिन बहुत बड़ी फ़ाइलों को आपके डिवाइस की उपलब्ध मेमोरी के आधार पर प्रोसेस करने में अधिक समय लग सकता है।</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>कन्वर्ज़न विफल हो गया। मैं क्या कोशिश कर सकता/सकती हूं?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>मेमोरी खाली करने के लिए अन्य ऐप्स बंद करने का प्रयास करें, फिर फिर से कन्वर्ज़न का प्रयास करें। यदि समस्या बनी रहती है, तो ऐप या अपना डिवाइस रीस्टार्ट करें। आप हमसे <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a> पर भी संपर्क कर सकते हैं।</p>
+                </div></div>
+            </div>
         </div>
-        {{/each}}
+
     </div>
 
     <!-- System Requirements -->

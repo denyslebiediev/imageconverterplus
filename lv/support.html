@@ -110,87 +110,193 @@
 
     <!-- FAQ -->
     <div class="faq-section">
-        
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Darba sākšana</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Kā konvertēt attēlu?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Atveriet lietotni, izvēlieties vienu vai vairākus fotoattēlus no savas bibliotēkas, izvēlieties mērķa formātu (JPEG, PNG, HEIC, TIFF vai AVIF) un pieskarieties Konvertēt. Tas ir viss!</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Kādi attēlu formāti tiek atbalstīti?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Image Converter Plus atbalsta JPEG, PNG, HEIC, TIFF un AVIF. Jūs varat konvertēt starp jebkuriem no šiem formātiem.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Vai man ir nepieciešams interneta savienojums?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Nē. Visa apstrāde notiek jūsu ierīcē. Interneta savienojums nav nepieciešams konvertēšanai, izmēra maiņai vai metadatu dzēšanai.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Konvertēšanas iestatījumi</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Vai es varu pielāgot attēla kvalitāti?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Jā. Zaudējošās saspiešanas formātiem (JPEG, HEIC, AVIF) varat pielāgot kvalitātes slīdni no 0 līdz 100, lai kontrolētu līdzsvaru starp faila izmēru un attēla kvalitāti.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Vai es varu mainīt attēlu izmēru konvertēšanas laikā?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Jā. Jūs varat izvēlēties pielāgotus izmērus vai mērogot pēc procentiem. Malu attiecību var bloķēt vai atbloķēt.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Kas ir metadatu noņemšanas opcija?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Kad tā ir ieslēgta, tā noņem EXIF datus, GPS atrašanās vietu un citus iegultos metadatus no jūsu konvertētajiem attēliem. Tas palīdz aizsargāt jūsu privātumu, kopīgojot fotoattēlus.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Privātums un metadati</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Vai mani fotoattēli tiek sūtīti uz serveri?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Nekad. Visi attēli tiek apstrādāti jūsu ierīcē. Neviens fotoattēls neatstāj jūsu tālruni vai planšetdatoru — nekas netiek sūtīts vai izsekots.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Kādus metadatus var noņemt?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Lietotne var noņemt EXIF datus, GPS koordinātas, kameras informāciju, laika zīmogus un citus iegultos metadatus. Tas ir noderīgi, ja vēlaties kopīgot fotoattēlus, neatklājot personīgu informāciju.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Vai lietotne vāc lietotāju datus?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Nē. Lietotne nevāc personīgu informāciju, analītiku, avāriju pārskatus vai jebkādus citus datus. Nav izsekošanas, nav telemetrijas un nav trešo pušu analītikas SDK.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Saglabāšana un kopīgošana</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Kur tiek saglabāti konvertētie attēli?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Pēc konvertēšanas varat saglabāt attēlus savā fotoattēlu bibliotēkā vai kopīgot tos tieši, izmantojot Kopīgošanu. Jūs izvēlaties galamērķi.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Vai es varu konvertēt vairākus attēlus vienlaikus?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Jā. Ar Pro jaunināšanu varat izvēlēties vairākus fotoattēlus un konvertēt tos visus vienlaikus ar vienādiem iestatījumiem. Pakešu konvertēšana ir pieejama tikai Pro versijā.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Vai es varu kopīgot attēlus tieši no lietotnes?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Jā. Pēc konvertēšanas pieskarieties pogai Kopīgot, lai nosūtītu konvertētos attēlus caur ziņu, e-pastu, AirDrop vai jebkuru citu instalētu lietotni.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Pro</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Ko ietver Pro jaunināšana?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Pro atbloķē pakešu konvertēšanu, visus eksporta formātus, ūdenszīmes, uzlabotu izmēra maiņu, metadatu noņemšanu un noņem visus dienas ierobežojumus. Tas ir vienreizējs pirkums — bez abonēšanas.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Vai Pro ir abonēšana?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Nē. Pro ir vienreizējs pirkums. Maksājiet vienreiz un baudiet visas Pro funkcijas mūžīgi, ieskaitot nākotnes atjauninājumus.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Vai es varu atjaunot savu pirkumu jaunā ierīcē?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Jā. Tā kā pirkums tiek apstrādāts caur App Store, varat atjaunot Pro jebkurā ierīcē, kas pieteikta ar to pašu Apple ID. Lietojiet pogu Atjaunot pirkumus lietotnē.</p>
+                </div></div>
+            </div>
+        </div>
+
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Problēmu novēršana</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Konvertēšana neizdevās. Ko darīt?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Pārliecinieties, ka avota attēls nav bojāts un ierīcē ir pietiekami daudz brīvas vietas. Ja problēma saglabājas, aizveriet lietotni un mēģiniet vēlreiz. Ļoti lieliem attēliem mēģiniet samazināt izšķirtspēju.</p>
                 </div></div>
             </div>
-            
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Lietotne nerāda manus fotoattēlus.</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Pārliecinieties, ka esat piešķīris lietotnei piekļuvi savai fotoattēlu bibliotēkai. Dodieties uz Iestatījumi > Image Converter Plus un pārbaudiet, vai fotoattēlu atļauja ir iespējota.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Mans Pro pirkums netiek atpazīts.</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Mēģiniet atjaunot pirkumu lietotnes iestatījumos. Pārliecinieties, ka esat pieteicies ar to pašu Apple ID, ko izmantojāt pirkumam. Ja problēma saglabājas, sazinieties ar mums.</p>
+                </div></div>
+            </div>
         </div>
-        {{/each}}
+
     </div>
 
     <!-- System Requirements -->

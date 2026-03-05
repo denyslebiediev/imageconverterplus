@@ -137,84 +137,190 @@
 
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Getting Started</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>How do I import photos?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Tap the "+" button on the main screen to pick images from your Photo Library or Files app. You can also use the Share Extension from any app — just choose Image Converter Plus from the share sheet.</p>
                 </div></div>
             </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Which image formats are supported?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>The App supports JPEG, PNG, HEIC, TIFF, and AVIF. You can convert between any of these formats.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Can I convert multiple images at once?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Yes. Select multiple images when importing and they will all be converted with the same settings. Batch conversion is available with Pro.</p>
+                </div></div>
+            </div>
+        </div>
 
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Conversion Settings</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>How do I adjust the quality?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Use the quality slider on the conversion screen. Lower values produce smaller files, higher values preserve more detail. The file size estimate updates in real time as you adjust.</p>
                 </div></div>
             </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Can I resize images during conversion?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Yes. You can set a maximum resolution or scale images by percentage. The aspect ratio is always preserved automatically.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>What is the difference between HEIC and JPEG?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>HEIC is Apple's default format that offers better compression — smaller files at similar quality. JPEG is universally compatible across all devices and platforms. Convert HEIC to JPEG when you need to share with non-Apple devices.</p>
+                </div></div>
+            </div>
+        </div>
 
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Privacy and Metadata</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>How do I remove EXIF data from photos?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Toggle on "Strip Metadata" in the conversion settings. This removes EXIF data including location, camera info, and timestamps from the converted file.</p>
                 </div></div>
             </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Does the app remove location data?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Yes. When "Strip Metadata" is enabled, all location (GPS) data is removed along with other EXIF information. This is useful when sharing photos online.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Can I add a watermark to my images?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Yes. You can add a text watermark with customizable font, size, color, opacity, and position. Watermarking is available with Pro.</p>
+                </div></div>
+            </div>
+        </div>
 
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Saving and Sharing</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>Where are converted images saved?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>You can save converted images to your Photo Library, the Files app, or share them directly to other apps using the share sheet.</p>
                 </div></div>
             </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>How does the Share Extension work?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>From any app, tap the share button, then choose Image Converter Plus. The image will open in the App ready for conversion. All processing stays on your device.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Can I share directly to social media?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Yes. After conversion, use the share button to send the image to any app installed on your device, including social media, messaging, and email apps.</p>
+                </div></div>
+            </div>
+        </div>
 
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Pro</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>What does Pro include?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Pro is a one-time purchase that removes all limits. You get unlimited conversions, batch processing, all export formats, watermarking, and every future feature update.</p>
                 </div></div>
             </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>How do I upgrade to Pro?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Tap the Pro banner or go to Settings inside the App. The purchase is handled securely through the App Store.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>How do I restore my purchase?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Go to Settings in the App and tap "Restore Purchases." Make sure you are signed in with the same Apple ID you used for the original purchase.</p>
+                </div></div>
+            </div>
+        </div>
 
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Troubleshooting</h2>
-            {{#each items}}
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span></span>
+                    <span>The app can't access my photos. What should I do?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p></p>
+                    <p>Go to Settings > Privacy &amp; Security > Photos on your device and make sure Image Converter Plus has access. You can grant "Full Access" or select specific photos.</p>
                 </div></div>
             </div>
-
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Is there a file size limit?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>There is no fixed file size limit. The App can handle large images, but very large files may take longer to process depending on your device's available memory.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>A conversion failed. What can I try?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Try closing other apps to free memory, then attempt the conversion again. If the issue persists, restart the App or your device. You can also contact us at <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a>.</p>
+                </div></div>
+            </div>
         </div>
-        {{/each}}
+
     </div>
 
     <!-- System Requirements -->

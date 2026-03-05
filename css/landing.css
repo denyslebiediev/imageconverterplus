@@ -114,7 +114,7 @@ section {
 /* ---- Feature Grid ---- */
 .feature-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin-top: 56px;
 }
@@ -162,7 +162,7 @@ section {
 /* ---- Privacy section ---- */
 .privacy-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 16px;
     margin-top: 48px;
 }
@@ -393,11 +393,15 @@ footer .footer-links a:hover {
         padding: 32px 24px;
     }
 
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
     .feature-card {
         padding: 32px 24px;
     }
 
     .privacy-grid {
-        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
     }
 }

@@ -3,203 +3,683 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Support - ImageConverter</title>
+    <title>Support - Image Converter Plus</title>
+    <meta name="description" content="Get help with Image Converter Plus. Find answers to common questions about converting, resizing, and protecting your photos.">
     <style>
+        :root {
+            --text-primary: #1d1d1f;
+            --text-secondary: #86868b;
+            --bg-primary: #fff;
+            --bg-secondary: #f5f5f7;
+            --border-color: #d2d2d7;
+            --border-light: #e8e8ed;
+            --accent: #0071e3;
+            --accent-hover: #0077ed;
+            --radius: 12px;
+            --radius-lg: 20px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --text-primary: #f5f5f7;
+                --text-secondary: #a1a1a6;
+                --bg-primary: #000;
+                --bg-secondary: #1c1c1e;
+                --border-color: #38383a;
+                --border-light: #2c2c2e;
+                --accent: #2997ff;
+                --accent-hover: #40a9ff;
+            }
+        }
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+        }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #1d1d1f;
-            background: #fff;
-            padding: 40px 20px;
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            line-height: 1.47;
+            color: var(--text-primary);
+            background: var(--bg-primary);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* ---- Nav ---- */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(255, 255, 255, 0.72);
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+            backdrop-filter: saturate(180%) blur(20px);
+            border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            nav {
+                background: rgba(0, 0, 0, 0.72);
+                border-bottom-color: rgba(255, 255, 255, 0.1);
+            }
+        }
+
+        .nav-inner {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 0 22px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-decoration: none;
+            letter-spacing: -0.01em;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-size: 12px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        /* ---- Page Layout ---- */
+        .page {
             max-width: 680px;
             margin: 0 auto;
+            padding: 64px 20px 40px;
         }
-        h1 {
-            font-size: 2rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-        }
-        .subtitle {
-            color: #86868b;
-            margin-bottom: 2rem;
-        }
+
+        /* ---- Hero ---- */
         .hero {
-            font-size: 1.1rem;
-            color: #1d1d1f;
-            margin-bottom: 2rem;
-            padding: 1.5rem;
-            background: #f5f5f7;
-            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 56px;
         }
+
+        .hero h1 {
+            font-size: clamp(32px, 6vw, 48px);
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            line-height: 1.08;
+            margin-bottom: 12px;
+        }
+
+        .hero .subtitle {
+            font-size: clamp(17px, 3vw, 21px);
+            color: var(--text-secondary);
+            line-height: 1.38;
+            max-width: 480px;
+            margin: 0 auto 32px;
+        }
+
         .contact-btn {
             display: inline-block;
-            background: #0071e3;
+            background: var(--accent);
             color: #fff;
             padding: 12px 24px;
             border-radius: 980px;
             text-decoration: none;
-            font-weight: 500;
-            margin-top: 0.5rem;
+            font-size: 17px;
+            font-weight: 400;
             transition: background 0.2s;
         }
+
         .contact-btn:hover {
-            background: #0077ed;
+            background: var(--accent-hover);
             text-decoration: none;
         }
-        h2 {
-            font-size: 1.25rem;
-            font-weight: 600;
-            margin-top: 2rem;
-            margin-bottom: 1rem;
+
+        /* ---- Fade-in animation ---- */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
         }
-        p {
-            margin-bottom: 1rem;
-            color: #1d1d1f;
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
         }
-        .secondary {
-            color: #86868b;
+
+        /* stagger children */
+        .stagger > .fade-in:nth-child(1) { transition-delay: 0s; }
+        .stagger > .fade-in:nth-child(2) { transition-delay: 0.06s; }
+        .stagger > .fade-in:nth-child(3) { transition-delay: 0.12s; }
+        .stagger > .fade-in:nth-child(4) { transition-delay: 0.18s; }
+        .stagger > .fade-in:nth-child(5) { transition-delay: 0.24s; }
+
+        /* ---- Formats ---- */
+        .formats-section {
+            margin-bottom: 56px;
         }
-        .faq-item {
-            margin-bottom: 1.5rem;
-            padding-bottom: 1.5rem;
-            border-bottom: 1px solid #e5e5e5;
-        }
-        .faq-item:last-child {
-            border-bottom: none;
-        }
-        .faq-question {
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-            color: #1d1d1f;
-        }
-        .faq-answer {
-            color: #86868b;
-        }
-        .formats {
+
+        .formats-row {
             display: flex;
-            flex-wrap: wrap;
             gap: 8px;
-            margin: 1rem 0;
+            flex-wrap: wrap;
+            margin-top: 16px;
         }
+
         .format-badge {
-            background: #f5f5f7;
-            padding: 6px 12px;
-            border-radius: 6px;
-            font-size: 0.875rem;
-            color: #1d1d1f;
-            font-weight: 500;
+            padding: 8px 16px;
+            background: var(--bg-secondary);
+            border-radius: 980px;
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--text-primary);
+            letter-spacing: 0.02em;
         }
-        a {
-            color: #0066cc;
-            text-decoration: none;
+
+        .section-label {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            margin-bottom: 6px;
         }
-        a:hover {
-            text-decoration: underline;
+
+        .section-title {
+            font-size: clamp(24px, 4vw, 32px);
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 1.12;
+            margin-bottom: 8px;
         }
-        .links {
-            margin-top: 2rem;
-            padding: 1.5rem;
-            background: #f5f5f7;
-            border-radius: 12px;
+
+        .section-desc {
+            font-size: 17px;
+            color: var(--text-secondary);
+            line-height: 1.47;
         }
-        .links a {
-            display: block;
-            margin-bottom: 0.5rem;
+
+        /* ---- FAQ ---- */
+        .faq-section {
+            margin-bottom: 48px;
         }
-        .links a:last-child {
+
+        .faq-category {
+            margin-bottom: 32px;
+        }
+
+        .faq-category-title {
+            font-size: 22px;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+            margin-bottom: 4px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .faq-item {
+            border-bottom: 1px solid var(--border-light);
+            overflow: hidden;
+        }
+
+        .faq-question {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            width: 100%;
+            padding: 16px 0;
+            background: none;
+            border: none;
+            font: inherit;
+            font-size: 17px;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-align: left;
+            cursor: pointer;
+            -webkit-tap-highlight-color: transparent;
+            transition: color 0.2s;
+        }
+
+        .faq-question:hover {
+            color: var(--accent);
+        }
+
+        .faq-chevron {
+            flex-shrink: 0;
+            width: 16px;
+            height: 16px;
+            transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+        }
+
+        .faq-item.open .faq-chevron {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer-wrap {
+            display: grid;
+            grid-template-rows: 0fr;
+            transition: grid-template-rows 0.35s cubic-bezier(0.25, 0.1, 0.25, 1);
+        }
+
+        .faq-item.open .faq-answer-wrap {
+            grid-template-rows: 1fr;
+        }
+
+        .faq-answer {
+            overflow: hidden;
+        }
+
+        .faq-answer p {
+            padding-bottom: 16px;
+            font-size: 15px;
+            line-height: 1.53;
+            color: var(--text-secondary);
+        }
+
+        /* ---- System Requirements ---- */
+        .requirements {
+            background: var(--bg-secondary);
+            border-radius: var(--radius-lg);
+            padding: 32px;
+            margin-bottom: 48px;
+        }
+
+        .requirements h3 {
+            font-size: 19px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .requirements p {
+            font-size: 15px;
+            color: var(--text-secondary);
+            line-height: 1.47;
+            margin-bottom: 6px;
+        }
+
+        .requirements p:last-child {
             margin-bottom: 0;
         }
+
+        /* ---- Links ---- */
+        .links-section {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 48px;
+        }
+
+        .link-card {
+            flex: 1;
+            display: block;
+            padding: 20px;
+            background: var(--bg-secondary);
+            border-radius: var(--radius);
+            text-decoration: none;
+            transition: background 0.2s, transform 0.2s;
+        }
+
+        .link-card:hover {
+            background: var(--border-light);
+            transform: scale(1.02);
+        }
+
+        .link-card .link-label {
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-bottom: 4px;
+        }
+
+        .link-card .link-title {
+            font-size: 17px;
+            font-weight: 600;
+            color: var(--accent);
+        }
+
+        /* ---- Footer ---- */
         .footer {
-            margin-top: 3rem;
-            padding-top: 1.5rem;
-            border-top: 1px solid #e5e5e5;
-            color: #86868b;
-            font-size: 0.875rem;
+            padding-top: 24px;
+            border-top: 1px solid var(--border-light);
+            color: var(--text-secondary);
+            font-size: 13px;
+        }
+
+        /* ---- Responsive ---- */
+        @media (max-width: 734px) {
+            .page {
+                padding: 48px 20px 32px;
+            }
+
+            .hero {
+                margin-bottom: 40px;
+            }
+
+            .nav-links {
+                display: none !important;
+            }
+
+            .links-section {
+                flex-direction: column;
+            }
+
+            .requirements {
+                padding: 24px;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Support</h1>
-    <p class="subtitle">ImageConverter for iOS</p>
 
-    <div class="hero">
-        <p>Need help? We're here for you. Most questions are answered below, but feel free to reach out directly.</p>
-        <a href="mailto:imageconverterplus.support@gmail.com" class="contact-btn">Contact Support</a>
+<!-- Nav -->
+<nav>
+    <div class="nav-inner">
+        <a class="nav-title" href="index.html">Image Converter Plus</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Overview</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="page">
+
+    <!-- Hero -->
+    <div class="hero fade-in">
+        <h1>Support</h1>
+        <p class="subtitle">Find answers to common questions about converting, resizing, and protecting your photos.</p>
+        <a href="mailto:imageconverterplus.support@gmail.com" class="contact-btn">Contact Us</a>
     </div>
 
-    <h2>Supported Formats</h2>
-    <p>ImageConverter supports the most common image formats:</p>
-    <div class="formats">
-        <span class="format-badge">JPEG</span>
-        <span class="format-badge">PNG</span>
-        <span class="format-badge">HEIC</span>
-        <span class="format-badge">TIFF</span>
-    </div>
-    <p class="secondary">Convert between any of these formats with full quality control.</p>
-
-    <h2>Frequently Asked Questions</h2>
-
-    <div class="faq-item">
-        <p class="faq-question">How do I convert images?</p>
-        <p class="faq-answer">Tap the + button to select photos from your library or files. Choose your desired output format and quality, then tap Convert. Your converted images will appear in the History tab.</p>
+    <!-- Formats -->
+    <div class="formats-section fade-in">
+        <p class="section-label">Formats</p>
+        <h2 class="section-title">Five formats, one app.</h2>
+        <p class="section-desc">Convert between the most popular image formats with full quality control.</p>
+        <div class="formats-row stagger">
+            <span class="format-badge fade-in">JPEG</span>
+            <span class="format-badge fade-in">PNG</span>
+            <span class="format-badge fade-in">HEIC</span>
+            <span class="format-badge fade-in">TIFF</span>
+            <span class="format-badge fade-in">AVIF</span>
+        </div>
     </div>
 
-    <div class="faq-item">
-        <p class="faq-question">Can I convert multiple images at once?</p>
-        <p class="faq-answer">Yes. Select as many images as you'd like and convert them all in a single batch. Each image can have its own format, quality, and size settings.</p>
+    <!-- FAQ -->
+    <div class="faq-section">
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">Getting Started</h2>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>How do I convert images?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Tap the Photos or Files button to import images. Choose your output format and quality, then tap Convert. Converted images appear in the History tab, where you can save or share them.</p>
+                </div></div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Can I convert multiple images at once?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Yes. Select as many images as you need and convert them all in a single batch. Each image can have its own format, quality, size, and file name settings.</p>
+                </div></div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Can I import from iCloud Drive or other apps?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Yes. Tap the Files button to browse iCloud Drive, Dropbox, Google Drive, or any file provider on your device. You can also use the Share Extension to convert images directly from other apps.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">Conversion Settings</h2>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>What does the quality slider do?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>The quality slider controls compression for JPEG, HEIC, and AVIF formats. Higher values produce better quality at larger file sizes. PNG and TIFF are always lossless and ignore this setting.</p>
+                </div></div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>How do I resize images?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Use the size setting to scale images from 50% to 200% of the original dimensions. You can set a default for all images or customize each one individually.</p>
+                </div></div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Can I rename files during conversion?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Yes. You can add a prefix or suffix to all converted files using a naming rule, or rename each image individually before converting.</p>
+                </div></div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>What are presets?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Presets save a combination of format, quality, size, and naming settings for one-tap conversion. The app includes 4 built-in presets, and you can reorder or hide them in Settings.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">Privacy and Metadata</h2>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Can I remove metadata from images?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Yes. Image Converter Plus can strip EXIF data including GPS location, camera information, timestamps, author details, device identifiers, edit history, and embedded thumbnails. Choose from preset privacy modes or customize exactly what to remove.</p>
+                </div></div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Are my images uploaded anywhere?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>No. All processing happens entirely on your device. There are no servers, no uploads, no analytics, and no ads. The app works completely offline — an internet connection is only needed to make a purchase.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">Saving and Sharing</h2>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Where are my converted images saved?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Converted images are saved in the app's History tab. From there, you can save them to your Photo Library, export to Files, or share via AirDrop, Messages, Mail, and more.</p>
+                </div></div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>How does the Share Extension work?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Select images in any app, tap the Share button, and choose Image Converter Plus. Your images are converted using your default preset without opening the main app. Pro users can convert multiple images at once from the Share Sheet.</p>
+                </div></div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Can I auto-delete old conversions?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Yes. Go to Settings and choose an auto-delete period — 7 days, 30 days, 90 days, or never. Old conversions are removed automatically to save storage.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">Pro</h2>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>What's included in the Pro upgrade?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Pro is a one-time purchase that unlocks TIFF and AVIF formats, full metadata and privacy controls, per-image setting overrides, and batch conversion in the Share Extension. There is no subscription — and it's shared with your family through Family Sharing.</p>
+                </div></div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>How do I restore my purchase?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Go to Settings and tap Restore Purchases. Make sure you're signed in with the same Apple Account you used for the original purchase. If you're part of a Family Sharing group, the purchase is shared automatically.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">Troubleshooting</h2>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>The app isn't working properly.</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Try closing and reopening the app. If the issue persists, restart your device and make sure you're running the latest version from the App Store. Still having trouble? Contact us with details about what's happening and we'll help.</p>
+                </div></div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>A conversion failed. What should I do?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Make sure your device has enough free storage. Very large images may require more available space. Try converting fewer images at once, or reduce the output size. If the problem continues, contact us with the image format and size.</p>
+                </div></div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>My Pro purchase isn't showing up.</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Go to Settings and tap Restore Purchases. Make sure you're connected to the internet and signed in with the correct Apple Account. If you purchased through Family Sharing, ensure that sharing is still active in your family group.</p>
+                </div></div>
+            </div>
+        </div>
+
     </div>
 
-    <div class="faq-item">
-        <p class="faq-question">How do I resize images?</p>
-        <p class="faq-answer">After selecting images, tap on an image to customize its settings. You can set a scale percentage (10-100%) to resize the output.</p>
+    <!-- System Requirements -->
+    <div class="requirements fade-in">
+        <h3>System Requirements</h3>
+        <p>iOS 16.0 or later</p>
+        <p>Compatible with iPhone and iPad</p>
+        <p>Works entirely offline — no internet connection required</p>
     </div>
 
-    <div class="faq-item">
-        <p class="faq-question">What does the quality slider do?</p>
-        <p class="faq-answer">The quality slider (0-100%) controls compression for JPEG and HEIC formats. Higher values mean better quality but larger file sizes. PNG and TIFF are lossless and ignore this setting.</p>
+    <!-- Links -->
+    <div class="links-section fade-in">
+        <a class="link-card" href="privacy.html">
+            <p class="link-label">Legal</p>
+            <p class="link-title">Privacy Policy</p>
+        </a>
+        <a class="link-card" href="terms.html">
+            <p class="link-label">Legal</p>
+            <p class="link-title">Terms of Use</p>
+        </a>
     </div>
 
-    <div class="faq-item">
-        <p class="faq-question">Where are my converted images saved?</p>
-        <p class="faq-answer">Converted images are saved within the app's History. From there, you can save them to your Photo Library, share them, or export to Files.</p>
+    <!-- Footer -->
+    <div class="footer fade-in">
+        <p>Last updated: March 2026</p>
     </div>
 
-    <div class="faq-item">
-        <p class="faq-question">Can I remove metadata from images?</p>
-        <p class="faq-answer">Yes. ImageConverter can strip EXIF data including location, camera info, and timestamps from your converted images for privacy.</p>
-    </div>
+</div>
 
-    <div class="faq-item">
-        <p class="faq-question">What's included in the Pro upgrade?</p>
-        <p class="faq-answer">Pro is a one-time purchase that unlocks unlimited conversions and all advanced features. There's no subscription.</p>
-    </div>
+<script>
+    // Fade-in on scroll
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
 
-    <div class="faq-item">
-        <p class="faq-question">How do I restore my purchase?</p>
-        <p class="faq-answer">Go to Settings within the app and tap "Restore Purchases". Make sure you're signed in with the same Apple ID you used for the original purchase.</p>
-    </div>
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 
-    <div class="faq-item">
-        <p class="faq-question">The app isn't working properly. What should I do?</p>
-        <p class="faq-answer">Try closing and reopening the app. If the issue persists, restart your device. Still having trouble? Contact us with details about what's happening.</p>
-    </div>
+    // Accordion FAQ
+    document.querySelectorAll('.faq-question').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const item = btn.closest('.faq-item');
+            const isOpen = item.classList.contains('open');
 
-    <h2>System Requirements</h2>
-    <p>ImageConverter requires iOS 16.0 or later.</p>
-    <p class="secondary">Compatible with iPhone and iPad.</p>
+            // close all items in the same category
+            item.closest('.faq-category').querySelectorAll('.faq-item.open').forEach(openItem => {
+                openItem.classList.remove('open');
+                openItem.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+            });
 
-    <div class="links">
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="terms.html">Terms of Use</a>
-    </div>
+            // toggle clicked item
+            if (!isOpen) {
+                item.classList.add('open');
+                btn.setAttribute('aria-expanded', 'true');
+            }
+        });
+    });
+</script>
 
-    <div class="footer">
-        <p>Last updated: February 2026</p>
-    </div>
 </body>
 </html>

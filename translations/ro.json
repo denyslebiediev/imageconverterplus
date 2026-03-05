@@ -1,0 +1,431 @@
+{
+  "_meta": { "lang": "ro", "dir": "ltr" },
+  "nav": {
+    "title": "Image Converter Plus",
+    "privacy": "Politică de confidențialitate",
+    "terms": "Termeni de utilizare",
+    "support": "Asistență"
+  },
+  "index": {
+    "meta": {
+      "title": "Image Converter Plus — Convertește, redimensionează și protejează-ți fotografiile",
+      "description": "Convertește imagini între JPEG, PNG, HEIC, TIFF și AVIF. Ajustează calitatea, redimensionează și elimină metadatele — totul pe dispozitivul tău."
+    },
+    "hero": {
+      "headline": "Convertește. Redimensionează.<br>Protejează.",
+      "subtitle": "Conversie în lot cu controale de confidențialitate — complet pe dispozitivul tău.",
+      "badgeAlt": "Descarcă din App Store",
+      "availability": "Disponibil pentru iPhone și iPad. Necesită iOS 16 sau o versiune ulterioară."
+    },
+    "formats": {
+      "eyebrow": "5 Formate de ieșire",
+      "headline": "Orice format ai nevoie.",
+      "body": "Convertește între cele mai populare formate de imagini. Alege echilibrul potrivit între calitate, compatibilitate și dimensiunea fișierului."
+    },
+    "features": {
+      "eyebrow": "Funcționalități",
+      "headline": "Precizie la fiecare pas.",
+      "body": "Ajustează calitatea, redimensionează, redenumește și previzualizează — totul înainte de a converti o singură imagine.",
+      "cards": [
+        {
+          "icon": "&#9881;&#65039;",
+          "title": "Control calitate",
+          "description": "Ajustează calitatea de la 40% la 100% pentru formatele cu pierderi. Vezi dimensiunea estimată a fișierului actualizată în timp real."
+        },
+        {
+          "icon": "&#8596;&#65039;",
+          "title": "Redimensionare",
+          "description": "Scalează imaginile de la 50% la 200%. Setează opțiuni individuale per imagine sau aplică un preset întregului lot."
+        },
+        {
+          "icon": "&#128196;",
+          "title": "Denumire fișiere",
+          "description": "Adaugă un prefix sau sufix fișierelor convertite. Denumește fiecare imagine individual sau aplică o regulă tuturor."
+        },
+        {
+          "icon": "&#9889;",
+          "title": "Preseturi",
+          "description": "4 preseturi integrate pentru conversie cu un singur tap. Personalizează formatul, calitatea, dimensiunea și denumirea în fiecare."
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "Confidențialitate",
+      "headline": "Fotografiile tale conțin mai multe<br>decât crezi.",
+      "body": "Coordonate GPS. Model cameră. Marcaje temporale. Image Converter Plus elimină metadatele ascunse înainte să partajezi — cu control detaliat asupra a ce rămâne și ce dispare.",
+      "items": [
+        { "icon": "&#128205;", "title": "Locație", "description": "Coordonate GPS și denumiri de locuri" },
+        { "icon": "&#128247;", "title": "Cameră", "description": "Dată, oră și setări de captură" },
+        { "icon": "&#9997;&#65039;", "title": "Autor", "description": "Legende, cuvinte cheie și creator" },
+        { "icon": "&#128241;", "title": "Dispozitiv", "description": "Denumire model și identificatori" },
+        { "icon": "&#128736;&#65039;", "title": "Editări", "description": "Istoric editări și informații software" },
+        { "icon": "&#128444;&#65039;", "title": "Previzualizări", "description": "Miniaturi încorporate" }
+      ]
+    },
+    "workflow": {
+      "eyebrow": "Flux de lucru",
+      "headline": "Se integrează perfect în fluxul tău de lucru.",
+      "shareTitle": "Share Extension",
+      "shareBody": "Convertește imagini fără a deschide aplicația. Selectează fotografii în orice aplicație, apasă Partajare și convertește într-un singur pas. Utilizatorii Pro beneficiază de conversie în lot și toate formatele direct din Share Sheet.",
+      "historyTitle": "Istoric conversii",
+      "historyBody": "Fiecare conversie este salvată cu o miniatură. Reexportă în Fotografii, Fișiere sau Share Sheet oricând. Setează ștergerea automată pentru a curăța conversiile vechi în mod automat."
+    },
+    "onDevice": {
+      "eyebrow": "Pe dispozitiv",
+      "headline": "Fără servere. Fără încărcări.<br>Fără urmărire.",
+      "body": "Fiecare imagine este procesată local pe dispozitivul tău. Nu există servicii cloud, analize sau reclame. O conexiune la internet este necesară doar pentru a efectua o achiziție."
+    },
+    "pro": {
+      "eyebrow": "Pro",
+      "headline": "Deblochează totul.<br>O singură dată.",
+      "body": "O singură achiziție. Fără abonament. Fără taxe recurente. Partajat cu familia ta prin Family Sharing.",
+      "features": [
+        {
+          "icon": "&#128194;",
+          "title": "TIFF & AVIF",
+          "description": "Deblochează toate cele cinci formate de ieșire pentru orice caz de utilizare."
+        },
+        {
+          "icon": "&#128274;",
+          "title": "Eliminare metadate",
+          "description": "Eliminare completă EXIF și metadate cu trei preseturi de confidențialitate."
+        },
+        {
+          "icon": "&#127384;",
+          "title": "Conversie în lot prin Share Extension",
+          "description": "Convertește mai multe imagini simultan direct din Share Sheet."
+        }
+      ],
+      "price": "$9.99",
+      "priceNote": "Achiziție unică. Family Sharing inclus."
+    },
+    "accessibility": {
+      "eyebrow": "Accesibilitate",
+      "headline": "Conceput pentru toți.",
+      "body": "Construit cu accesibilitate de la bun început. Disponibil în 60 de limbi cu un selector de limbă în aplicație.",
+      "badges": ["VoiceOver", "Dynamic Type", "Feedback haptic", "60 de limbi"]
+    },
+    "bottomCta": {
+      "headline": "Începe să convertești gratuit."
+    },
+    "footer": {
+      "copyright": "\u00a9 2026 Denys Lebiediev"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Politică de confidențialitate - Image Converter Plus",
+      "description": "Politica de confidențialitate pentru Image Converter Plus. Toate procesările de imagini au loc pe dispozitivul tău — nimic nu este încărcat, urmărit sau partajat."
+    },
+    "hero": {
+      "title": "Politică de confidențialitate",
+      "subtitle": "Fotografiile tale îți aparțin. Totul este procesat pe dispozitivul tău — nimic nu este încărcat, urmărit sau partajat."
+    },
+    "cards": [
+      {
+        "heading": "Pe dispozitivul tău",
+        "paragraphs": ["Toate imaginile tale, istoricul conversiilor și preferințele sunt stocate doar pe acest dispozitiv. Nimic nu iese fără acțiunea ta explicită."],
+        "bullets": [
+          "Imagini importate și convertite în spațiul de stocare sandbox al aplicației",
+          "Istoricul conversiilor și miniaturile",
+          "Preferințele tale de format, calitate și redimensionare",
+          "Fișiere temporare în <code>/var/tmp/</code> — curățate automat la fiecare lansare",
+          "Stocare Keychain — doar un hash al codurilor promoționale utilizate, niciodată codul în sine",
+          "Container App Group — partajează doar starea achiziției Pro cu Share Extension"
+        ]
+      },
+      {
+        "heading": "Ce nu colectăm",
+        "paragraphs": ["Image Converter Plus nu colectează nicio informație personală. Nu știm cine ești, ce convertești sau cum utilizezi aplicația."],
+        "bullets": [
+          "Nicio informație personală",
+          "Niciun identificator de dispozitiv",
+          "Nicio analiză de utilizare",
+          "Nicio date de locație",
+          "Nicio publicitate sau urmărire"
+        ]
+      },
+      {
+        "heading": "Fotografii și imagini",
+        "paragraphs": [
+          "Când selectezi fotografii, Image Converter Plus vede doar imaginile specifice pe care le alegi — niciodată întreaga ta bibliotecă. Aplicația utilizează acces limitat la biblioteca foto și stochează doar <code>localIdentifiers</code> pentru activele selectate.",
+          "Dacă o fotografie selectată este stocată în iCloud, aplicația o descarcă temporar pe dispozitivul tău cu un timeout de 2 minute. Aceste copii efemere sunt curățate automat la lansare.",
+          "Toate procesările de imagini au loc local folosind hardware-ul dispozitivului tău. Imaginile convertite sunt salvate pe dispozitivul tău și partajate doar atunci când alegi să le partajezi.",
+          "Poți elimina metadatele (EXIF, GPS, informații cameră, marcaje temporale, detalii autor, identificatori dispozitiv, istoric editări și miniaturi încorporate) din imaginile convertite pentru a-ți proteja confidențialitatea la partajare."
+        ]
+      },
+      {
+        "heading": "Achiziții",
+        "paragraphs": [
+          "Achizițiile sunt gestionate integral de Apple prin StoreKit 2. Nu vedem niciodată informațiile tale de plată, Apple ID-ul sau detaliile de facturare.",
+          "Starea achiziției tale este verificată local folosind verificarea criptografică a tranzacțiilor Apple. Nu se fac apeluri la server pentru validarea achizițiilor.",
+          "Codurile promoționale sunt validate local folosind HMAC — doar un hash criptografic este stocat în Keychain, niciodată codul în sine."
+        ]
+      },
+      {
+        "heading": "Share Extension",
+        "paragraphs": [
+          "Share Extension rulează ca un proces izolat, separat de aplicația principală. Convertește imagini folosind presetul tău implicit direct din Share Sheet-ul sistemului.",
+          "Fișierele temporare create de extensie sunt curățate după utilizare. Extensia nu persistă istoricul conversiilor. Singurele date partajate între aplicația principală și extensie prin App Group sunt starea achiziției tale Pro."
+        ]
+      },
+      {
+        "heading": "Retenția datelor",
+        "paragraphs": [
+          "Tu controlezi datele tale. Poți șterge istoricul conversiilor oricând din tab-ul Istoric. Curățarea automată este disponibilă în Setări — alege 7 zile, 30 de zile, 90 de zile sau păstrează conversiile pentru totdeauna.",
+          "La fiecare lansare, aplicația curăță fișierele orfane (importuri, ieșiri și miniaturi nelegate de niciun înregistrare din istoric) și elimină directoarele temporare.",
+          "Ștergerea aplicației elimină toate datele asociate — imagini, istoric, preferințe și stocare App Group. Singura excepție este o mică intrare Keychain (hash cod promoțional), care persistă între instalări conform standardului pentru elementele Keychain iOS."
+        ]
+      },
+      {
+        "heading": "Servicii terțe",
+        "paragraphs": [
+          "Image Converter Plus folosește doar framework-urile integrate Apple. Nu există analize terțe, SDK-uri publicitare sau instrumente externe de urmărire.",
+          "Aplicația funcționează complet offline. O conexiune la internet este necesară doar la efectuarea unei achiziții."
+        ]
+      },
+      {
+        "heading": "Manifest de confidențialitate",
+        "paragraphs": [
+          "Aplicația include un Apple Privacy Manifest care declară <code>NSPrivacyTracking: false</code>. Niciun tip de date nu este colectat sau urmărit și nu se contactează domenii de urmărire."
+        ]
+      },
+      {
+        "heading": "Contact",
+        "paragraphs": [
+          "Întrebări despre confidențialitate? Contactează-ne oricând la <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Ajutor", "title": "Asistență", "href": "support.html" },
+      { "label": "Juridic", "title": "Termeni de utilizare", "href": "terms.html" }
+    ],
+    "lastUpdated": "Ultima actualizare: Martie 2026"
+  },
+  "terms": {
+    "meta": {
+      "title": "Termeni de utilizare - Image Converter Plus",
+      "description": "Termenii de utilizare pentru Image Converter Plus. Citește licența, termenii de achiziție și ghidurile de utilizare ale aplicației."
+    },
+    "hero": {
+      "title": "Termeni de utilizare",
+      "subtitle": "Image Converter Plus pentru iOS"
+    },
+    "cards": [
+      {
+        "heading": "Acord",
+        "paragraphs": ["Prin descărcarea sau utilizarea Image Converter Plus, ești de acord cu acești termeni. Dacă nu ești de acord, te rugăm să nu utilizezi aplicația."]
+      },
+      {
+        "heading": "Licență",
+        "paragraphs": [
+          "Image Converter Plus îți acordă o licență limitată, neexclusivă și netransferabilă pentru a utiliza aplicația în scopuri personale, necomerciale, pe dispozitivele pe care le dețin sau le controlezi.",
+          "Această licență se extinde și la Share Extension (\u201cConvert with Image Converter Plus\u201d), care face parte din aplicație. Aplicația necesită iOS 16.0 sau o versiune ulterioară."
+        ]
+      },
+      {
+        "heading": "Conținutul tău",
+        "paragraphs": [
+          "Păstrezi toate drepturile asupra imaginilor pe care le convertești folosind Image Converter Plus. Aplicația nu revendică nicio proprietate asupra conținutului tău.",
+          "Ești responsabil pentru a te asigura că ai dreptul de a utiliza și converti orice imagini importate în aplicație."
+        ]
+      },
+      {
+        "heading": "Niveluri gratuit și Pro",
+        "paragraphs": [
+          "Image Converter Plus este gratuit de descărcat și utilizat. Nivelul gratuit include conversia între formatele JPEG, PNG și HEIC, câte o imagine pe rând.",
+          "Pro este o achiziție unică (nu un abonament) care deblochează:",
+          "Pro este partajat cu familia ta prin Family Sharing.",
+          "Codurile promoționale acordă același acces ca o achiziție Pro. Fiecare cod promoțional poate fi utilizat o singură dată pe dispozitiv."
+        ],
+        "bullets": [
+          "Formate de ieșire TIFF și AVIF",
+          "Conversie în lot nelimitată",
+          "Setări individuale per imagine",
+          "Controale de confidențialitate pentru metadate",
+          "Conversie în lot în Share Extension"
+        ]
+      },
+      {
+        "heading": "Achiziții",
+        "paragraphs": [
+          "Toate achizițiile sunt procesate de Apple prin StoreKit 2 și sunt supuse termenilor și condițiilor Apple.",
+          "Actualizarea Pro este o achiziție unică, neconsumabilă — nu un abonament. Plătești o dată și o păstrezi pentru totdeauna.",
+          "Bacșișurile sunt achiziții consumabile opționale care susțin dezvoltarea. Nu deblochează funcționalități suplimentare.",
+          "Toate vânzările sunt finale. Cererile de rambursare trebuie adresate Apple. Poți restaura achizițiile oricând din Setări."
+        ]
+      },
+      {
+        "heading": "Utilizare acceptabilă",
+        "paragraphs": ["Ești de acord să nu:"],
+        "bullets": [
+          "Efectuezi inginerie inversă, decompilezi sau dezasamblezi aplicația",
+          "Utilizezi aplicația în scopuri ilegale",
+          "Încerci să ocolești limitări sau restricții"
+        ]
+      },
+      {
+        "heading": "Declinare de responsabilitate",
+        "paragraphs": [
+          "Image Converter Plus este furnizat \u201cca atare\u201d fără garanții de niciun fel. Nu garantăm că aplicația va fi lipsită de erori sau neîntreruptă.",
+          "Nu suntem responsabili pentru nicio pierdere de date sau imagini. Te rugăm să păstrezi copii de rezervă ale fișierelor importante."
+        ]
+      },
+      {
+        "heading": "Limitarea răspunderii",
+        "paragraphs": [
+          "În măsura maximă permisă de lege, dezvoltatorul nu va fi răspunzător pentru nicio daună indirectă, accidentală, specială sau consecventă rezultată din utilizarea aplicației."
+        ]
+      },
+      {
+        "heading": "Modificări",
+        "paragraphs": [
+          "Putem actualiza acești termeni din când în când. Utilizarea continuă a aplicației după modificări constituie acceptarea noilor termeni."
+        ]
+      },
+      {
+        "heading": "Contact",
+        "paragraphs": [
+          "Întrebări? Contactează-ne la <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Ajutor", "title": "Asistență", "href": "support.html" },
+      { "label": "Juridic", "title": "Politică de confidențialitate", "href": "privacy.html" }
+    ],
+    "lastUpdated": "Ultima actualizare: Martie 2026"
+  },
+  "support": {
+    "meta": {
+      "title": "Asistență - Image Converter Plus",
+      "description": "Obține ajutor cu Image Converter Plus. Găsește răspunsuri la întrebări frecvente despre conversia, redimensionarea și protejarea fotografiilor tale."
+    },
+    "hero": {
+      "title": "Asistență",
+      "subtitle": "Găsește răspunsuri la întrebări frecvente despre conversia, redimensionarea și protejarea fotografiilor tale.",
+      "contactBtn": "Contactează-ne"
+    },
+    "formats": {
+      "label": "Formate",
+      "title": "Cinci formate, o singură aplicație.",
+      "description": "Convertește între cele mai populare formate de imagini cu control complet al calității."
+    },
+    "faq": {
+      "categories": [
+        {
+          "title": "Primii pași",
+          "items": [
+            {
+              "question": "Cum convertesc imagini?",
+              "answer": "Apasă butonul Fotografii sau Fișiere pentru a importa imagini. Alege formatul de ieșire și calitatea, apoi apasă Convertește. Imaginile convertite apar în tab-ul Istoric, de unde le poți salva sau partaja."
+            },
+            {
+              "question": "Pot converti mai multe imagini simultan?",
+              "answer": "Da. Selectează câte imagini ai nevoie și convertește-le pe toate într-un singur lot. Fiecare imagine poate avea propriile setări de format, calitate, dimensiune și denumire fișier."
+            },
+            {
+              "question": "Pot importa din iCloud Drive sau alte aplicații?",
+              "answer": "Da. Apasă butonul Fișiere pentru a naviga în iCloud Drive, Dropbox, Google Drive sau orice furnizor de fișiere de pe dispozitivul tău. Poți utiliza și Share Extension pentru a converti imagini direct din alte aplicații."
+            }
+          ]
+        },
+        {
+          "title": "Setări de conversie",
+          "items": [
+            {
+              "question": "Ce face cursorul de calitate?",
+              "answer": "Cursorul de calitate controlează compresia pentru formatele JPEG, HEIC și AVIF. Valorile mai mari produc o calitate mai bună la dimensiuni de fișier mai mari. PNG și TIFF sunt întotdeauna fără pierderi și ignoră această setare."
+            },
+            {
+              "question": "Cum redimensionez imaginile?",
+              "answer": "Utilizează setarea de dimensiune pentru a scala imaginile de la 50% la 200% din dimensiunile originale. Poți seta o valoare implicită pentru toate imaginile sau personaliza fiecare în parte."
+            },
+            {
+              "question": "Pot redenumi fișierele în timpul conversiei?",
+              "answer": "Da. Poți adăuga un prefix sau sufix tuturor fișierelor convertite folosind o regulă de denumire sau poți redenumi fiecare imagine individual înainte de conversie."
+            },
+            {
+              "question": "Ce sunt preseturile?",
+              "answer": "Preseturile salvează o combinație de setări de format, calitate, dimensiune și denumire pentru conversie cu un singur tap. Aplicația include 4 preseturi integrate și le poți reordona sau ascunde în Setări."
+            }
+          ]
+        },
+        {
+          "title": "Confidențialitate și metadate",
+          "items": [
+            {
+              "question": "Pot elimina metadatele din imagini?",
+              "answer": "Da. Image Converter Plus poate elimina datele EXIF, inclusiv locația GPS, informații cameră, marcaje temporale, detalii autor, identificatori dispozitiv, istoric editări și miniaturi încorporate. Alege din moduri de confidențialitate presetate sau personalizează exact ce să elimini."
+            },
+            {
+              "question": "Sunt imaginile mele încărcate undeva?",
+              "answer": "Nu. Toate procesările au loc integral pe dispozitivul tău. Nu există servere, încărcări, analize sau reclame. Aplicația funcționează complet offline — o conexiune la internet este necesară doar pentru a efectua o achiziție."
+            }
+          ]
+        },
+        {
+          "title": "Salvare și partajare",
+          "items": [
+            {
+              "question": "Unde sunt salvate imaginile convertite?",
+              "answer": "Imaginile convertite sunt salvate în tab-ul Istoric al aplicației. De acolo, le poți salva în Biblioteca foto, exporta în Fișiere sau partaja prin AirDrop, Mesaje, Mail și altele."
+            },
+            {
+              "question": "Cum funcționează Share Extension?",
+              "answer": "Selectează imagini în orice aplicație, apasă butonul Partajare și alege Image Converter Plus. Imaginile tale sunt convertite folosind presetul implicit fără a deschide aplicația principală. Utilizatorii Pro pot converti mai multe imagini simultan din Share Sheet."
+            },
+            {
+              "question": "Pot șterge automat conversiile vechi?",
+              "answer": "Da. Mergi la Setări și alege o perioadă de ștergere automată — 7 zile, 30 de zile, 90 de zile sau niciodată. Conversiile vechi sunt eliminate automat pentru a economisi spațiu de stocare."
+            }
+          ]
+        },
+        {
+          "title": "Pro",
+          "items": [
+            {
+              "question": "Ce include actualizarea Pro?",
+              "answer": "Pro este o achiziție unică ce deblochează formatele TIFF și AVIF, controale complete de metadate și confidențialitate, setări individuale per imagine și conversie în lot în Share Extension. Nu există abonament — și este partajat cu familia ta prin Family Sharing."
+            },
+            {
+              "question": "Cum îmi restaurez achiziția?",
+              "answer": "Mergi la Setări și apasă Restaurează achizițiile. Asigură-te că ești autentificat cu același Apple Account folosit pentru achiziția originală. Dacă faci parte dintr-un grup Family Sharing, achiziția este partajată automat."
+            }
+          ]
+        },
+        {
+          "title": "Depanare",
+          "items": [
+            {
+              "question": "Aplicația nu funcționează corect.",
+              "answer": "Încearcă să închizi și să redeschizi aplicația. Dacă problema persistă, repornește dispozitivul și asigură-te că rulezi cea mai recentă versiune din App Store. Ai în continuare probleme? Contactează-ne cu detalii despre ce se întâmplă și te vom ajuta."
+            },
+            {
+              "question": "O conversie a eșuat. Ce ar trebui să fac?",
+              "answer": "Asigură-te că dispozitivul tău are suficient spațiu de stocare liber. Imaginile foarte mari pot necesita mai mult spațiu disponibil. Încearcă să convertești mai puține imagini simultan sau reduce dimensiunea de ieșire. Dacă problema continuă, contactează-ne cu formatul și dimensiunea imaginii."
+            },
+            {
+              "question": "Achiziția mea Pro nu apare.",
+              "answer": "Mergi la Setări și apasă Restaurează achizițiile. Asigură-te că ești conectat la internet și autentificat cu Apple Account-ul corect. Dacă ai achiziționat prin Family Sharing, verifică că partajarea este încă activă în grupul familial."
+            }
+          ]
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Cerințe de sistem",
+      "items": [
+        "iOS 16.0 sau o versiune ulterioară",
+        "Compatibil cu iPhone și iPad",
+        "Funcționează complet offline — nu necesită conexiune la internet"
+      ]
+    },
+    "links": [
+      { "label": "Juridic", "title": "Politică de confidențialitate", "href": "privacy.html" },
+      { "label": "Juridic", "title": "Termeni de utilizare", "href": "terms.html" }
+    ],
+    "lastUpdated": "Ultima actualizare: Martie 2026"
+  }
+}

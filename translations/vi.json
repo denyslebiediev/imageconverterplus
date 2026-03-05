@@ -1,0 +1,431 @@
+{
+  "_meta": { "lang": "vi", "dir": "ltr" },
+  "nav": {
+    "title": "Image Converter Plus",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản sử dụng",
+    "support": "Hỗ trợ"
+  },
+  "index": {
+    "meta": {
+      "title": "Image Converter Plus — Chuyển đổi, thay đổi kích thước và bảo vệ ảnh của bạn",
+      "description": "Chuyển đổi ảnh giữa các định dạng JPEG, PNG, HEIC, TIFF và AVIF. Điều chỉnh chất lượng, thay đổi kích thước và xóa siêu dữ liệu — tất cả ngay trên thiết bị của bạn."
+    },
+    "hero": {
+      "headline": "Chuyển đổi. Thay đổi kích thước.<br>Bảo vệ.",
+      "subtitle": "Chuyển đổi ảnh hàng loạt với tính năng kiểm soát quyền riêng tư — hoàn toàn trên thiết bị của bạn.",
+      "badgeAlt": "Tải về trên App Store",
+      "availability": "Có sẵn trên iPhone và iPad. Yêu cầu iOS 16 trở lên."
+    },
+    "formats": {
+      "eyebrow": "5 định dạng đầu ra",
+      "headline": "Mọi định dạng bạn cần.",
+      "body": "Chuyển đổi giữa các định dạng ảnh phổ biến nhất. Chọn sự cân bằng phù hợp giữa chất lượng, khả năng tương thích và kích thước tệp."
+    },
+    "features": {
+      "eyebrow": "Tính năng",
+      "headline": "Tinh chỉnh ở từng bước.",
+      "body": "Điều chỉnh chất lượng, thay đổi kích thước, đổi tên và xem trước — tất cả trước khi chuyển đổi bất kỳ ảnh nào.",
+      "cards": [
+        {
+          "icon": "&#9881;&#65039;",
+          "title": "Kiểm soát chất lượng",
+          "description": "Điều chỉnh chất lượng từ 40% đến 100% cho các định dạng nén có tổn thất. Xem kích thước tệp ước tính cập nhật theo thời gian thực."
+        },
+        {
+          "icon": "&#8596;&#65039;",
+          "title": "Thay đổi kích thước",
+          "description": "Chia tỷ lệ ảnh từ 50% đến 200%. Thiết lập ghi đè cho từng ảnh riêng lẻ hoặc áp dụng cài đặt sẵn cho toàn bộ lô."
+        },
+        {
+          "icon": "&#128196;",
+          "title": "Đặt tên tệp",
+          "description": "Thêm tiền tố hoặc hậu tố vào các tệp đã chuyển đổi. Đặt tên từng ảnh riêng lẻ hoặc áp dụng một quy tắc cho tất cả."
+        },
+        {
+          "icon": "&#9889;",
+          "title": "Cài đặt sẵn",
+          "description": "4 cài đặt sẵn tích hợp để chuyển đổi chỉ bằng một thao thác. Tùy chỉnh định dạng, chất lượng, kích thước và cách đặt tên trong từng cài đặt."
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "Quyền riêng tư",
+      "headline": "Ảnh của bạn chứa nhiều thông tin<br>hơn bạn nghĩ.",
+      "body": "Tọa độ GPS. Model máy ảnh. Dấu thời gian. Image Converter Plus xóa siêu dữ liệu ẩn trước khi bạn chia sẻ — với khả năng kiểm soát chi tiết những gì được giữ lại và những gì bị xóa đi.",
+      "items": [
+        { "icon": "&#128205;", "title": "Vị trí", "description": "Tọa độ GPS và tên địa điểm" },
+        { "icon": "&#128247;", "title": "Máy ảnh", "description": "Ngày, giờ và cài đặt chụp" },
+        { "icon": "&#9997;&#65039;", "title": "Tác giả", "description": "Chú thích, từ khóa và người tạo" },
+        { "icon": "&#128241;", "title": "Thiết bị", "description": "Tên model và các định danh" },
+        { "icon": "&#128736;&#65039;", "title": "Chỉnh sửa", "description": "Lịch sử chỉnh sửa và thông tin phần mềm" },
+        { "icon": "&#128444;&#65039;", "title": "Xem trước", "description": "Hình thu nhỏ nhúng trong tệp" }
+      ]
+    },
+    "workflow": {
+      "eyebrow": "Quy trình làm việc",
+      "headline": "Hoà nhập hoàn hảo vào quy trình của bạn.",
+      "shareTitle": "Share Extension",
+      "shareBody": "Chuyển đổi ảnh mà không cần mở ứng dụng. Chọn ảnh trong bất kỳ ứng dụng nào, nhấn Chia sẻ và chuyển đổi chỉ một bước. Người dùng Pro có thể chuyển đổi hàng loạt và tất cả định dạng ngay từ Share Sheet.",
+      "historyTitle": "Lịch sử chuyển đổi",
+      "historyBody": "Mỗi lần chuyển đổi được lưu kèm hình thu nhỏ. Xuất lại sang Ảnh, Tệp hoặc Share Sheet bất cứ lúc nào. Đặt tự động xóa để dọn dẹp các lần chuyển đổi cũ một cách tự động."
+    },
+    "onDevice": {
+      "eyebrow": "Trên thiết bị",
+      "headline": "Không máy chủ. Không tải lên.<br>Không theo dõi.",
+      "body": "Mọi ảnh đều được xử lý cục bộ trên thiết bị của bạn. Không có dịch vụ đám mây, không có phân tích dữ liệu và không có quảng cáo. Kết nối internet chỉ cần thiết khi thực hiện mua hàng."
+    },
+    "pro": {
+      "eyebrow": "Pro",
+      "headline": "Mở khóa tất cả.<br>Một lần duy nhất.",
+      "body": "Một lần mua duy nhất. Không có đăng ký. Không có phí định kỳ. Được chia sẻ với gia đình qua Family Sharing.",
+      "features": [
+        {
+          "icon": "&#128194;",
+          "title": "TIFF & AVIF",
+          "description": "Mở khóa tất cả năm định dạng đầu ra cho mọi trường hợp sử dụng."
+        },
+        {
+          "icon": "&#128274;",
+          "title": "Xóa siêu dữ liệu",
+          "description": "Xóa hoàn toàn EXIF và siêu dữ liệu với ba chế độ bảo mật đặt sẵn."
+        },
+        {
+          "icon": "&#127384;",
+          "title": "Chuyển đổi hàng loạt qua Share Extension",
+          "description": "Chuyển đổi nhiều ảnh cùng lúc trực tiếp từ Share Sheet."
+        }
+      ],
+      "price": "$9.99",
+      "priceNote": "Mua một lần. Bao gồm Family Sharing."
+    },
+    "accessibility": {
+      "eyebrow": "Khả năng tiếp cận",
+      "headline": "Được thiết kế cho tất cả mọi người.",
+      "body": "Được xây dựng với khả năng tiếp cận ngay từ đầu. Có sẵn bằng 60 ngôn ngữ với bộ chọn ngôn ngữ trong ứng dụng.",
+      "badges": ["VoiceOver", "Dynamic Type", "Phản hồi xúc giác", "60 ngôn ngữ"]
+    },
+    "bottomCta": {
+      "headline": "Bắt đầu chuyển đổi miễn phí."
+    },
+    "footer": {
+      "copyright": "\u00a9 2026 Denys Lebiediev"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Chính sách bảo mật - Image Converter Plus",
+      "description": "Chính sách bảo mật của Image Converter Plus. Toàn bộ quá trình xử lý ảnh diễn ra trên thiết bị của bạn — không có gì được tải lên, theo dõi hay chia sẻ."
+    },
+    "hero": {
+      "title": "Chính sách bảo mật",
+      "subtitle": "Ảnh của bạn luôn thuộc về bạn. Mọi thứ được xử lý trên thiết bị của bạn — không có gì được tải lên, theo dõi hay chia sẻ."
+    },
+    "cards": [
+      {
+        "heading": "Trên thiết bị của bạn",
+        "paragraphs": ["Tất cả ảnh, lịch sử chuyển đổi và tùy chọn của bạn chỉ được lưu trữ trên thiết bị này. Không có gì rời khỏi thiết bị mà không có hành động rõ ràng từ phía bạn."],
+        "bullets": [
+          "Ảnh đã nhập và đã chuyển đổi trong bộ nhớ sandbox của ứng dụng",
+          "Lịch sử chuyển đổi và hình thu nhỏ",
+          "Tùy chọn định dạng, chất lượng và kích thước của bạn",
+          "Tệp tạm thời trong <code>/var/tmp/</code> — tự động dọn dẹp mỗi khi khởi chạy",
+          "Lưu trữ Keychain — chỉ lưu mã băm của mã khuyến mãi đã sử dụng, không bao giờ lưu chính mã đó",
+          "App Group container — chỉ chia sẻ trạng thái mua Pro với Share Extension"
+        ]
+      },
+      {
+        "heading": "Những gì chúng tôi không thu thập",
+        "paragraphs": ["Image Converter Plus không thu thập bất kỳ thông tin cá nhân nào. Chúng tôi không biết bạn là ai, bạn chuyển đổi gì hay bạn sử dụng ứng dụng như thế nào."],
+        "bullets": [
+          "Không có thông tin cá nhân",
+          "Không có định danh thiết bị",
+          "Không có phân tích sử dụng",
+          "Không có dữ liệu vị trí",
+          "Không có quảng cáo hay theo dõi"
+        ]
+      },
+      {
+        "heading": "Ảnh và hình ảnh",
+        "paragraphs": [
+          "Khi bạn chọn ảnh, Image Converter Plus chỉ thấy những ảnh cụ thể mà bạn chọn — không bao giờ toàn bộ thư viện của bạn. Ứng dụng sử dụng quyền truy cập thư viện ảnh giới hạn và chỉ lưu <code>localIdentifiers</code> cho các tài nguyên đã chọn.",
+          "Nếu ảnh được chọn đang lưu trong iCloud, ứng dụng sẽ tạm thời tải xuống thiết bị của bạn với thời gian chờ 2 phút. Các bản sao tạm thời này được dọn dẹp tự động khi khởi chạy.",
+          "Toàn bộ quá trình xử lý ảnh diễn ra cục bộ bằng phần cứng trên thiết bị của bạn. Ảnh đã chuyển đổi được lưu vào thiết bị và chỉ được chia sẻ khi bạn chọn chia sẻ.",
+          "Bạn có thể xóa siêu dữ liệu (EXIF, GPS, thông tin máy ảnh, dấu thời gian, thông tin tác giả, định danh thiết bị, lịch sử chỉnh sửa và hình thu nhỏ nhúng) khỏi ảnh đã chuyển đổi để bảo vệ quyền riêng tư khi chia sẻ."
+        ]
+      },
+      {
+        "heading": "Mua hàng",
+        "paragraphs": [
+          "Việc mua hàng được xử lý hoàn toàn bởi Apple thông qua StoreKit 2. Chúng tôi không bao giờ thấy thông tin thanh toán, Apple ID hay thông tin thanh toán của bạn.",
+          "Trạng thái mua hàng của bạn được xác minh cục bộ bằng cách sử dụng xác minh giao dịch mã hóa của Apple. Không có lệnh gọi máy chủ nào được thực hiện để xác nhận mua hàng.",
+          "Mã khuyến mãi được xác thực cục bộ bằng HMAC — chỉ lưu mã băm mật mã trong Keychain, không bao giờ lưu chính mã đó."
+        ]
+      },
+      {
+        "heading": "Share Extension",
+        "paragraphs": [
+          "Share Extension chạy như một tiến trình độc lập tách biệt với ứng dụng chính. Nó chuyển đổi ảnh bằng cài đặt sẵn mặc định của bạn trực tiếp từ Share Sheet của hệ thống.",
+          "Các tệp tạm thời được tạo bởi extension sẽ được dọn dẹp sau khi sử dụng. Extension không lưu lịch sử chuyển đổi. Dữ liệu duy nhất được chia sẻ giữa ứng dụng chính và extension thông qua App Group là trạng thái mua Pro của bạn."
+        ]
+      },
+      {
+        "heading": "Lưu giữ dữ liệu",
+        "paragraphs": [
+          "Bạn kiểm soát dữ liệu của mình. Bạn có thể xóa lịch sử chuyển đổi bất cứ lúc nào từ tab Lịch sử. Tính năng tự động dọn dẹp có sẵn trong Cài đặt — chọn 7 ngày, 30 ngày, 90 ngày hoặc giữ lịch sử mãi mãi.",
+          "Mỗi khi khởi chạy, ứng dụng sẽ dọn dẹp các tệp mồ côi (ảnh nhập, ảnh xuất và hình thu nhỏ không liên kết với bất kỳ bản ghi lịch sử nào) và xóa các thư mục tạm thời.",
+          "Xóa ứng dụng sẽ xóa tất cả dữ liệu liên quan — ảnh, lịch sử, tùy chọn và bộ nhớ App Group. Ngoại lệ duy nhất là một mục Keychain nhỏ (mã băm mã khuyến mãi), vốn tồn tại qua các lần cài đặt theo tiêu chuẩn của iOS Keychain."
+        ]
+      },
+      {
+        "heading": "Dịch vụ của bên thứ ba",
+        "paragraphs": [
+          "Image Converter Plus chỉ sử dụng các framework tích hợp sẵn của Apple. Không có phân tích dữ liệu của bên thứ ba, SDK quảng cáo hay công cụ theo dõi bên ngoài nào.",
+          "Ứng dụng hoạt động hoàn toàn ngoại tuyến. Kết nối internet chỉ cần thiết khi thực hiện mua hàng."
+        ]
+      },
+      {
+        "heading": "Privacy Manifest",
+        "paragraphs": [
+          "Ứng dụng bao gồm Apple Privacy Manifest khai báo <code>NSPrivacyTracking: false</code>. Không có loại dữ liệu nào được thu thập hay theo dõi, và không có miền theo dõi nào được liên hệ."
+        ]
+      },
+      {
+        "heading": "Liên hệ",
+        "paragraphs": [
+          "Có câu hỏi về quyền riêng tư? Hãy liên hệ với chúng tôi bất cứ lúc nào tại <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Trợ giúp", "title": "Hỗ trợ", "href": "support.html" },
+      { "label": "Pháp lý", "title": "Điều khoản sử dụng", "href": "terms.html" }
+    ],
+    "lastUpdated": "Cập nhật lần cuối: Tháng 3 năm 2026"
+  },
+  "terms": {
+    "meta": {
+      "title": "Điều khoản sử dụng - Image Converter Plus",
+      "description": "Điều khoản sử dụng của Image Converter Plus. Đọc giấy phép, điều khoản mua hàng và hướng dẫn sử dụng ứng dụng."
+    },
+    "hero": {
+      "title": "Điều khoản sử dụng",
+      "subtitle": "Image Converter Plus dành cho iOS"
+    },
+    "cards": [
+      {
+        "heading": "Thỏa thuận",
+        "paragraphs": ["Bằng cách tải xuống hoặc sử dụng Image Converter Plus, bạn đồng ý với các điều khoản này. Nếu bạn không đồng ý, vui lòng không sử dụng ứng dụng."]
+      },
+      {
+        "heading": "Giấy phép",
+        "paragraphs": [
+          "Image Converter Plus cấp cho bạn giấy phép giới hạn, không độc quyền, không thể chuyển nhượng để sử dụng ứng dụng cho mục đích cá nhân, phi thương mại trên các thiết bị bạn sở hữu hoặc kiểm soát.",
+          "Giấy phép này mở rộng đến Share Extension (\u201cConvert with Image Converter Plus\u201d), vốn là một phần của ứng dụng. Ứng dụng yêu cầu iOS 16.0 trở lên."
+        ]
+      },
+      {
+        "heading": "Nội dung của bạn",
+        "paragraphs": [
+          "Bạn giữ toàn bộ quyền đối với các ảnh bạn chuyển đổi bằng Image Converter Plus. Ứng dụng không yêu cầu bất kỳ quyền sở hữu nào đối với nội dung của bạn.",
+          "Bạn có trách nhiệm đảm bảo rằng bạn có quyền sử dụng và chuyển đổi bất kỳ ảnh nào bạn nhập vào ứng dụng."
+        ]
+      },
+      {
+        "heading": "Gói miễn phí & Pro",
+        "paragraphs": [
+          "Image Converter Plus miễn phí để tải xuống và sử dụng. Gói miễn phí bao gồm chuyển đổi giữa các định dạng JPEG, PNG và HEIC, mỗi lần một ảnh.",
+          "Pro là một lần mua (không phải đăng ký) mở khóa:",
+          "Pro được chia sẻ với gia đình của bạn thông qua Family Sharing.",
+          "Mã khuyến mãi cấp quyền truy cập tương tự như mua Pro. Mỗi mã khuyến mãi có thể được đổi một lần cho mỗi thiết bị."
+        ],
+        "bullets": [
+          "Định dạng đầu ra TIFF và AVIF",
+          "Chuyển đổi hàng loạt không giới hạn",
+          "Ghi đè cài đặt cho từng ảnh riêng lẻ",
+          "Kiểm soát quyền riêng tư siêu dữ liệu",
+          "Chuyển đổi hàng loạt trong Share Extension"
+        ]
+      },
+      {
+        "heading": "Mua hàng",
+        "paragraphs": [
+          "Tất cả giao dịch mua được xử lý bởi Apple thông qua StoreKit 2 và tuân theo các điều khoản và điều kiện của Apple.",
+          "Nâng cấp Pro là một lần mua không tiêu thụ — không phải đăng ký. Bạn trả một lần và giữ mãi mãi.",
+          "Tiền tip là các giao dịch mua tiêu thụ tùy chọn để hỗ trợ quá trình phát triển. Chúng không mở khóa bất kỳ tính năng bổ sung nào.",
+          "Tất cả giao dịch là cuối cùng. Yêu cầu hoàn tiền cần được gửi đến Apple. Bạn có thể khôi phục giao dịch mua bất cứ lúc nào từ Cài đặt."
+        ]
+      },
+      {
+        "heading": "Sử dụng hợp lệ",
+        "paragraphs": ["Bạn đồng ý không:"],
+        "bullets": [
+          "Dịch ngược, dịch mã hoặc tháo rời ứng dụng",
+          "Sử dụng ứng dụng cho bất kỳ mục đích bất hợp pháp nào",
+          "Cố gắng vượt qua bất kỳ giới hạn hoặc hạn chế nào"
+        ]
+      },
+      {
+        "heading": "Tuyên bố miễn trách",
+        "paragraphs": [
+          "Image Converter Plus được cung cấp \u201cnhư nguyên trạng\u201d mà không có bảo đảm dưới bất kỳ hình thức nào. Chúng tôi không đảm bảo rằng ứng dụng sẽ không có lỗi hay không bị gián đoạn.",
+          "Chúng tôi không chịu trách nhiệm về bất kỳ mất mát dữ liệu hay ảnh nào. Vui lòng giữ bản sao lưu của các tệp quan trọng."
+        ]
+      },
+      {
+        "heading": "Giới hạn trách nhiệm",
+        "paragraphs": [
+          "Trong phạm vi tối đa được pháp luật cho phép, nhà phát triển sẽ không chịu trách nhiệm về bất kỳ thiệt hại gián tiếp, ngẫu nhiên, đặc biệt hay hệ quả nào phát sinh từ việc bạn sử dụng ứng dụng."
+        ]
+      },
+      {
+        "heading": "Thay đổi",
+        "paragraphs": [
+          "Chúng tôi có thể cập nhật các điều khoản này theo thời gian. Việc tiếp tục sử dụng ứng dụng sau khi có thay đổi đồng nghĩa với việc chấp nhận các điều khoản mới."
+        ]
+      },
+      {
+        "heading": "Liên hệ",
+        "paragraphs": [
+          "Có câu hỏi? Hãy liên hệ tại <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Trợ giúp", "title": "Hỗ trợ", "href": "support.html" },
+      { "label": "Pháp lý", "title": "Chính sách bảo mật", "href": "privacy.html" }
+    ],
+    "lastUpdated": "Cập nhật lần cuối: Tháng 3 năm 2026"
+  },
+  "support": {
+    "meta": {
+      "title": "Hỗ trợ - Image Converter Plus",
+      "description": "Nhận trợ giúp với Image Converter Plus. Tìm câu trả lời cho các câu hỏi phổ biến về chuyển đổi, thay đổi kích thước và bảo vệ ảnh của bạn."
+    },
+    "hero": {
+      "title": "Hỗ trợ",
+      "subtitle": "Tìm câu trả lời cho các câu hỏi phổ biến về chuyển đổi, thay đổi kích thước và bảo vệ ảnh của bạn.",
+      "contactBtn": "Liên hệ với chúng tôi"
+    },
+    "formats": {
+      "label": "Định dạng",
+      "title": "Năm định dạng, một ứng dụng.",
+      "description": "Chuyển đổi giữa các định dạng ảnh phổ biến nhất với kiểm soát chất lượng đầy đủ."
+    },
+    "faq": {
+      "categories": [
+        {
+          "title": "Bắt đầu",
+          "items": [
+            {
+              "question": "Làm thế nào để chuyển đổi ảnh?",
+              "answer": "Nhấn nút Ảnh hoặc Tệp để nhập ảnh. Chọn định dạng đầu ra và chất lượng, sau đó nhấn Chuyển đổi. Ảnh đã chuyển đổi xuất hiện trong tab Lịch sử, nơi bạn có thể lưu hoặc chia sẻ chúng."
+            },
+            {
+              "question": "Tôi có thể chuyển đổi nhiều ảnh cùng một lúc không?",
+              "answer": "Có. Chọn bao nhiêu ảnh tùy ý và chuyển đổi tất cả trong một lô duy nhất. Mỗi ảnh có thể có cài đặt định dạng, chất lượng, kích thước và tên tệp riêng."
+            },
+            {
+              "question": "Tôi có thể nhập từ iCloud Drive hoặc các ứng dụng khác không?",
+              "answer": "Có. Nhấn nút Tệp để duyệt iCloud Drive, Dropbox, Google Drive hoặc bất kỳ nhà cung cấp tệp nào trên thiết bị của bạn. Bạn cũng có thể sử dụng Share Extension để chuyển đổi ảnh trực tiếp từ các ứng dụng khác."
+            }
+          ]
+        },
+        {
+          "title": "Cài đặt chuyển đổi",
+          "items": [
+            {
+              "question": "Thanh trượt chất lượng dùng để làm gì?",
+              "answer": "Thanh trượt chất lượng kiểm soát độ nén cho các định dạng JPEG, HEIC và AVIF. Giá trị cao hơn tạo ra chất lượng tốt hơn với kích thước tệp lớn hơn. PNG và TIFF luôn không tổn thất và bỏ qua cài đặt này."
+            },
+            {
+              "question": "Làm thế nào để thay đổi kích thước ảnh?",
+              "answer": "Sử dụng cài đặt kích thước để chia tỷ lệ ảnh từ 50% đến 200% so với kích thước gốc. Bạn có thể đặt mặc định cho tất cả ảnh hoặc tùy chỉnh từng ảnh riêng lẻ."
+            },
+            {
+              "question": "Tôi có thể đổi tên tệp trong quá trình chuyển đổi không?",
+              "answer": "Có. Bạn có thể thêm tiền tố hoặc hậu tố vào tất cả tệp đã chuyển đổi bằng cách sử dụng quy tắc đặt tên, hoặc đổi tên từng ảnh riêng lẻ trước khi chuyển đổi."
+            },
+            {
+              "question": "Cài đặt sẵn là gì?",
+              "answer": "Cài đặt sẵn lưu tổ hợp định dạng, chất lượng, kích thước và cài đặt đặt tên để chuyển đổi chỉ với một thao tác. Ứng dụng bao gồm 4 cài đặt sẵn tích hợp, và bạn có thể sắp xếp lại hoặc ẩn chúng trong Cài đặt."
+            }
+          ]
+        },
+        {
+          "title": "Quyền riêng tư và siêu dữ liệu",
+          "items": [
+            {
+              "question": "Tôi có thể xóa siêu dữ liệu khỏi ảnh không?",
+              "answer": "Có. Image Converter Plus có thể xóa dữ liệu EXIF bao gồm vị trí GPS, thông tin máy ảnh, dấu thời gian, thông tin tác giả, định danh thiết bị, lịch sử chỉnh sửa và hình thu nhỏ nhúng. Chọn từ các chế độ bảo mật đặt sẵn hoặc tùy chỉnh chính xác những gì cần xóa."
+            },
+            {
+              "question": "Ảnh của tôi có bị tải lên đâu không?",
+              "answer": "Không. Toàn bộ quá trình xử lý diễn ra hoàn toàn trên thiết bị của bạn. Không có máy chủ, không tải lên, không có phân tích dữ liệu và không có quảng cáo. Ứng dụng hoạt động hoàn toàn ngoại tuyến — kết nối internet chỉ cần thiết khi thực hiện mua hàng."
+            }
+          ]
+        },
+        {
+          "title": "Lưu và chia sẻ",
+          "items": [
+            {
+              "question": "Ảnh đã chuyển đổi của tôi được lưu ở đâu?",
+              "answer": "Ảnh đã chuyển đổi được lưu trong tab Lịch sử của ứng dụng. Từ đó, bạn có thể lưu vào Thư viện ảnh, xuất sang Tệp hoặc chia sẻ qua AirDrop, Tin nhắn, Mail và nhiều hơn nữa."
+            },
+            {
+              "question": "Share Extension hoạt động như thế nào?",
+              "answer": "Chọn ảnh trong bất kỳ ứng dụng nào, nhấn nút Chia sẻ và chọn Image Converter Plus. Ảnh của bạn được chuyển đổi bằng cài đặt sẵn mặc định mà không cần mở ứng dụng chính. Người dùng Pro có thể chuyển đổi nhiều ảnh cùng lúc từ Share Sheet."
+            },
+            {
+              "question": "Tôi có thể tự động xóa các lần chuyển đổi cũ không?",
+              "answer": "Có. Vào Cài đặt và chọn thời gian tự động xóa — 7 ngày, 30 ngày, 90 ngày hoặc không bao giờ. Các lần chuyển đổi cũ được xóa tự động để tiết kiệm bộ nhớ."
+            }
+          ]
+        },
+        {
+          "title": "Pro",
+          "items": [
+            {
+              "question": "Nâng cấp Pro bao gồm những gì?",
+              "answer": "Pro là một lần mua duy nhất mở khóa định dạng TIFF và AVIF, kiểm soát siêu dữ liệu và quyền riêng tư đầy đủ, ghi đè cài đặt cho từng ảnh và chuyển đổi hàng loạt trong Share Extension. Không có đăng ký — và được chia sẻ với gia đình bạn thông qua Family Sharing."
+            },
+            {
+              "question": "Làm thế nào để khôi phục giao dịch mua của tôi?",
+              "answer": "Vào Cài đặt và nhấn Khôi phục giao dịch mua. Hãy đảm bảo bạn đăng nhập bằng cùng một Apple Account mà bạn đã dùng để mua ban đầu. Nếu bạn là thành viên của nhóm Family Sharing, giao dịch mua được chia sẻ tự động."
+            }
+          ]
+        },
+        {
+          "title": "Khắc phục sự cố",
+          "items": [
+            {
+              "question": "Ứng dụng không hoạt động đúng cách.",
+              "answer": "Thử đóng và mở lại ứng dụng. Nếu sự cố vẫn tiếp diễn, hãy khởi động lại thiết bị và đảm bảo bạn đang chạy phiên bản mới nhất từ App Store. Vẫn gặp khó khăn? Hãy liên hệ với chúng tôi và mô tả chi tiết về sự cố đang xảy ra."
+            },
+            {
+              "question": "Một lần chuyển đổi bị thất bại. Tôi nên làm gì?",
+              "answer": "Đảm bảo thiết bị của bạn có đủ dung lượng trống. Các ảnh rất lớn có thể yêu cầu nhiều dung lượng trống hơn. Thử chuyển đổi ít ảnh hơn mỗi lần, hoặc giảm kích thước đầu ra. Nếu vấn đề vẫn tiếp diễn, hãy liên hệ với chúng tôi và cho biết định dạng và kích thước ảnh."
+            },
+            {
+              "question": "Giao dịch mua Pro của tôi không hiển thị.",
+              "answer": "Vào Cài đặt và nhấn Khôi phục giao dịch mua. Đảm bảo bạn đang kết nối internet và đăng nhập bằng Apple Account chính xác. Nếu bạn đã mua qua Family Sharing, hãy đảm bảo rằng tính năng chia sẻ vẫn đang hoạt động trong nhóm gia đình của bạn."
+            }
+          ]
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Yêu cầu hệ thống",
+      "items": [
+        "iOS 16.0 trở lên",
+        "Tương thích với iPhone và iPad",
+        "Hoạt động hoàn toàn ngoại tuyến — không cần kết nối internet"
+      ]
+    },
+    "links": [
+      { "label": "Pháp lý", "title": "Chính sách bảo mật", "href": "privacy.html" },
+      { "label": "Pháp lý", "title": "Điều khoản sử dụng", "href": "terms.html" }
+    ],
+    "lastUpdated": "Cập nhật lần cuối: Tháng 3 năm 2026"
+  }
+}

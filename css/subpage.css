@@ -1,0 +1,163 @@
+/* ---- Subpage body line-height ---- */
+body {
+    line-height: 1.47;
+}
+
+/* ---- Page Layout ---- */
+.page {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 64px 20px 40px;
+}
+
+/* ---- Subpage Hero ---- */
+.hero {
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.hero h1 {
+    font-size: clamp(32px, 6vw, 48px);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.08;
+    margin-bottom: 12px;
+}
+
+.hero .subtitle {
+    font-size: clamp(17px, 3vw, 21px);
+    color: var(--text-secondary);
+    line-height: 1.38;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+/* ---- Stagger children ---- */
+.stagger > .fade-in:nth-child(1) { transition-delay: 0s; }
+.stagger > .fade-in:nth-child(2) { transition-delay: 0.06s; }
+.stagger > .fade-in:nth-child(3) { transition-delay: 0.12s; }
+.stagger > .fade-in:nth-child(4) { transition-delay: 0.18s; }
+.stagger > .fade-in:nth-child(5) { transition-delay: 0.24s; }
+.stagger > .fade-in:nth-child(6) { transition-delay: 0.30s; }
+.stagger > .fade-in:nth-child(7) { transition-delay: 0.36s; }
+.stagger > .fade-in:nth-child(8) { transition-delay: 0.42s; }
+.stagger > .fade-in:nth-child(9) { transition-delay: 0.48s; }
+.stagger > .fade-in:nth-child(10) { transition-delay: 0.54s; }
+
+/* ---- Content Card (unified from policy-card / terms-card) ---- */
+.content-card {
+    background: var(--bg-secondary);
+    border-radius: var(--radius-lg);
+    padding: 32px;
+    margin-bottom: 20px;
+}
+
+.content-card h2 {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin-bottom: 12px;
+}
+
+.content-card p {
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.53;
+    margin-bottom: 12px;
+}
+
+.content-card p:last-child {
+    margin-bottom: 0;
+}
+
+.content-card ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content-card li {
+    padding: 6px 0 6px 20px;
+    position: relative;
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.47;
+}
+
+.content-card li::before {
+    content: "\2022";
+    position: absolute;
+    left: 0;
+    color: var(--text-secondary);
+}
+
+.content-card a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.content-card a:hover {
+    color: var(--accent-hover);
+}
+
+/* ---- Links Section ---- */
+.links-section {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 48px;
+}
+
+.link-card {
+    flex: 1;
+    display: block;
+    padding: 20px;
+    background: var(--bg-secondary);
+    border-radius: var(--radius);
+    text-decoration: none;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.link-card:hover {
+    background: var(--border-light);
+    transform: scale(1.02);
+}
+
+.link-card .link-label {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-bottom: 4px;
+}
+
+.link-card .link-title {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--accent);
+}
+
+/* ---- Simple Footer ---- */
+.footer {
+    padding-top: 24px;
+    border-top: 1px solid var(--border-light);
+    color: var(--text-secondary);
+    font-size: 13px;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 734px) {
+    .page {
+        padding: 48px 20px 32px;
+    }
+
+    .hero {
+        margin-bottom: 40px;
+    }
+
+    .links-section {
+        flex-direction: column;
+    }
+
+    .content-card {
+        padding: 24px;
+    }
+}

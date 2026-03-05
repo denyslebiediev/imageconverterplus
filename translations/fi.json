@@ -1,0 +1,431 @@
+{
+  "_meta": { "lang": "fi", "dir": "ltr" },
+  "nav": {
+    "title": "Image Converter Plus",
+    "privacy": "Tietosuojakäytäntö",
+    "terms": "Käyttöehdot",
+    "support": "Tuki"
+  },
+  "index": {
+    "meta": {
+      "title": "Image Converter Plus — Muunna, muuta kokoa ja suojaa kuvasi",
+      "description": "Muunna kuvia JPEG-, PNG-, HEIC-, TIFF- ja AVIF-muotojen välillä. Säädä laatua, muuta kokoa ja poista metatiedot — kaikki laitteellasi."
+    },
+    "hero": {
+      "headline": "Muunna. Muuta kokoa.<br>Suojaa.",
+      "subtitle": "Kuvien erämuunnos tietosuojaominaisuuksilla — kokonaan laitteellasi.",
+      "badgeAlt": "Lataa App Storesta",
+      "availability": "Saatavilla iPhonelle ja iPadille. Vaatii iOS 16:n tai uudemman."
+    },
+    "formats": {
+      "eyebrow": "5 tulostusmuotoa",
+      "headline": "Kaikki tarvitsemasi muodot.",
+      "body": "Muunna suosituimpien kuvamuotojen välillä. Valitse oikea tasapaino laadun, yhteensopivuuden ja tiedostokoon välillä."
+    },
+    "features": {
+      "eyebrow": "Ominaisuudet",
+      "headline": "Tarkkuutta joka vaiheessa.",
+      "body": "Hienosäädä laatu, muuta kokoa, nimeä uudelleen ja esikatsele — kaikki ennen yhdenkään kuvan muuntamista.",
+      "cards": [
+        {
+          "icon": "&#9881;&#65039;",
+          "title": "Laadun hallinta",
+          "description": "Säädä laatua 40–100 % häviöllisille muodoille. Näe arvioitu tiedostokoko päivittyvän reaaliaikaisesti."
+        },
+        {
+          "icon": "&#8596;&#65039;",
+          "title": "Koon muuttaminen",
+          "description": "Skaalaa kuvia 50–200 %. Aseta kuvakohtaiset asetukset tai käytä esiasetusta koko erälle."
+        },
+        {
+          "icon": "&#128196;",
+          "title": "Tiedostojen nimeäminen",
+          "description": "Lisää etuliite tai jälkiliite muunnettuihin tiedostoihin. Nimeä jokainen kuva erikseen tai käytä sääntöä kaikkiin."
+        },
+        {
+          "icon": "&#9889;",
+          "title": "Esiasetukset",
+          "description": "4 sisäänrakennettua esiasetusta yhdellä napautuksella muuntamista varten. Mukauta muoto, laatu, koko ja nimeäminen kussakin."
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "Tietosuoja",
+      "headline": "Kuvasi sisältävät enemmän<br>kuin luulet.",
+      "body": "GPS-koordinaatit. Kameran malli. Aikaleimat. Image Converter Plus poistaa piilotetut metatiedot ennen jakamista — tarkalla hallinnalla siitä, mikä jää ja mikä poistetaan.",
+      "items": [
+        { "icon": "&#128205;", "title": "Sijainti", "description": "GPS-koordinaatit ja paikannimet" },
+        { "icon": "&#128247;", "title": "Kamera", "description": "Päivämäärä, aika ja kuvausasetukset" },
+        { "icon": "&#9997;&#65039;", "title": "Tekijä", "description": "Kuvatekstit, avainsanat ja luoja" },
+        { "icon": "&#128241;", "title": "Laite", "description": "Mallin nimi ja tunnisteet" },
+        { "icon": "&#128736;&#65039;", "title": "Muokkaukset", "description": "Muokkaushistoria ja ohjelmistotiedot" },
+        { "icon": "&#128444;&#65039;", "title": "Esikatselukuvat", "description": "Upotetut pikkukuvat" }
+      ]
+    },
+    "workflow": {
+      "eyebrow": "Työnkulku",
+      "headline": "Sopii suoraan työnkulkuusi.",
+      "shareTitle": "Share Extension",
+      "shareBody": "Muunna kuvia avaamatta sovellusta. Valitse kuvia missä tahansa sovelluksessa, napauta Jaa ja muunna yhdellä askeleella. Pro-käyttäjät saavat erämuunnoksen ja kaikki muodot suoraan Jaa-valikosta.",
+      "historyTitle": "Muunnoshistoria",
+      "historyBody": "Jokainen muunnos tallennetaan pikkukuvan kera. Vie uudelleen Kuviin, Tiedostoihin tai Jaa-valikkoon milloin tahansa. Aseta automaattinen poisto siivoamaan vanhat muunnokset automaattisesti."
+    },
+    "onDevice": {
+      "eyebrow": "Laitteella",
+      "headline": "Ei palvelimia. Ei latauksia.<br>Ei seurantaa.",
+      "body": "Jokainen kuva käsitellään paikallisesti laitteellasi. Ei pilvipalveluita, ei analytiikkaa eikä mainoksia. Internet-yhteys tarvitaan vain ostoksen tekemiseen."
+    },
+    "pro": {
+      "eyebrow": "Pro",
+      "headline": "Avaa kaikki.<br>Kerran.",
+      "body": "Yksi ostos. Ei tilausta. Ei toistuvia maksuja. Jaettu perheesi kanssa Family Sharingin kautta.",
+      "features": [
+        {
+          "icon": "&#128194;",
+          "title": "TIFF & AVIF",
+          "description": "Avaa kaikki viisi tulostusmuotoa kaikkiin käyttötarkoituksiin."
+        },
+        {
+          "icon": "&#128274;",
+          "title": "Metatietojen poisto",
+          "description": "Täydellinen EXIF-tietojen ja metatietojen poisto kolmella tietosuoja-esiasetuksella."
+        },
+        {
+          "icon": "&#127384;",
+          "title": "Erämuunnos Share Extensionissa",
+          "description": "Muunna useita kuvia kerralla suoraan Jaa-valikosta."
+        }
+      ],
+      "price": "$9.99",
+      "priceNote": "Kertaluonteinen ostos. Family Sharing sisältyy."
+    },
+    "accessibility": {
+      "eyebrow": "Saavutettavuus",
+      "headline": "Suunniteltu kaikille.",
+      "body": "Rakennettu saavutettavuus alusta alkaen mielessä. Saatavilla 60 kielellä sovelluksen sisäisellä kielivalitsimella.",
+      "badges": ["VoiceOver", "Dynamic Type", "Haptinen palaute", "60 kieltä"]
+    },
+    "bottomCta": {
+      "headline": "Aloita muuntaminen ilmaiseksi."
+    },
+    "footer": {
+      "copyright": "\u00a9 2026 Denys Lebiediev"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Tietosuojakäytäntö - Image Converter Plus",
+      "description": "Image Converter Plusin tietosuojakäytäntö. Kaikki kuvankäsittely tapahtuu laitteellasi — mitään ei ladata, seurata tai jaeta."
+    },
+    "hero": {
+      "title": "Tietosuojakäytäntö",
+      "subtitle": "Kuvasi pysyvät sinun. Kaikki käsitellään laitteellasi — mitään ei ladata, seurata tai jaeta."
+    },
+    "cards": [
+      {
+        "heading": "Laitteellasi",
+        "paragraphs": ["Kaikki kuvasi, muunnoshistoriasi ja asetuksesi tallennetaan vain tälle laitteelle. Mikään ei koskaan poistu ilman sinun nimenomaista toimintaasi."],
+        "bullets": [
+          "Tuodut ja muunnetut kuvat sovelluksen hiekkalaatikkomuistiin",
+          "Muunnoshistoria ja pikkukuvat",
+          "Muoto-, laatu- ja kokomieltymyksesi",
+          "Väliaikaiset tiedostot kansiossa <code>/var/tmp/</code> — siivotaan automaattisesti jokaisella käynnistyksellä",
+          "Avainniputallennus — ainoastaan lunastettujen kampanjakoodien tiiviste, ei koskaan itse koodi",
+          "App Group -säiliö — jakaa vain Pro-ostoksen tilan Share Extensionin kanssa"
+        ]
+      },
+      {
+        "heading": "Mitä emme kerää",
+        "paragraphs": ["Image Converter Plus ei kerää mitään henkilökohtaisia tietoja. Emme tiedä kuka olet, mitä muunnat tai miten käytät sovellusta."],
+        "bullets": [
+          "Ei henkilökohtaisia tietoja",
+          "Ei laitetunnisteita",
+          "Ei käyttöanalytiikkaa",
+          "Ei sijaintitietoja",
+          "Ei mainontaa tai seurantaa"
+        ]
+      },
+      {
+        "heading": "Kuvat",
+        "paragraphs": [
+          "Kun valitset kuvia, Image Converter Plus näkee vain ne tietyt kuvat, jotka valitset — ei koskaan koko kirjastoasi. Sovellus käyttää rajoitettua valokuvakirjaston käyttöoikeutta ja tallentaa vain valittujen tiedostojen <code>localIdentifiers</code>-tunnisteet.",
+          "Jos valittu kuva on tallennettu iCloudiin, sovellus lataa sen väliaikaisesti laitteellesi kahden minuutin aikakatkaistulla. Nämä väliaikaiset kopiot siivotaan automaattisesti käynnistyksessä.",
+          "Kaikki kuvankäsittely tapahtuu paikallisesti laitteesi laitteistoa käyttäen. Muunnetut kuvat tallennetaan laitteellesi ja jaetaan vain kun päätät jakaa ne.",
+          "Voit poistaa metatiedot (EXIF, GPS, kameratiedot, aikaleimat, tekijätiedot, laitetunnisteet, muokkaushistorian ja upotetut pikkukuvat) muunnetuista kuvista yksityisyytesi suojaamiseksi jaettaessa."
+        ]
+      },
+      {
+        "heading": "Ostokset",
+        "paragraphs": [
+          "Ostokset käsittelee kokonaan Apple StoreKit 2:n kautta. Emme koskaan näe maksutietojasi, Apple ID:täsi tai laskutustietojasi.",
+          "Ostostilasi varmennetaan paikallisesti Applen kryptografisen tapahtumavarmenteen avulla. Ostosten vahvistamiseen ei tehdä palvelinpyyntöjä.",
+          "Kampanjakoodit varmennetaan paikallisesti HMAC:n avulla — vain kryptografinen tiiviste tallennetaan avainniputuun, ei koskaan itse koodi."
+        ]
+      },
+      {
+        "heading": "Share Extension",
+        "paragraphs": [
+          "Share Extension toimii eristettynä prosessina erillään pääsovelluksesta. Se muuntaa kuvia oletusesetuksesi avulla suoraan järjestelmän Jaa-valikosta.",
+          "Laajennuksen luomat väliaikaiset tiedostot siivotaan käytön jälkeen. Laajennus ei tallenna muunnoshistoriaa. Ainoa pääsovelluksen ja laajennuksen App Groupin kautta jakama tieto on Pro-ostoksesi tila."
+        ]
+      },
+      {
+        "heading": "Tietojen säilytys",
+        "paragraphs": [
+          "Olet tietojesi hallinnassa. Voit poistaa muunnoshistoriasi milloin tahansa Historia-välilehdeltä. Automaattinen siivous on käytettävissä Asetuksissa — valitse 7 päivää, 30 päivää, 90 päivää tai säilytä muunnokset ikuisesti.",
+          "Jokaisella käynnistyksellä sovellus siivoo orpoja tiedostoja (tuonnit, tulosteet ja pikkukuvat, joita ei ole linkitetty mihinkään historiatietueeseen) ja poistaa väliaikaiset hakemistot.",
+          "Sovelluksen poistaminen poistaa kaikki siihen liittyvät tiedot — kuvat, historian, asetukset ja App Group -tallennuksen. Ainoa poikkeus on pieni avainniputumerkintä (kampanjakoodin tiiviste), joka säilyy asennusten välillä iOS-avainniputukohteiden standardin mukaisesti."
+        ]
+      },
+      {
+        "heading": "Kolmansien osapuolten palvelut",
+        "paragraphs": [
+          "Image Converter Plus käyttää vain Applen sisäänrakennettuja ohjelmistokehyksiä. Ei kolmansien osapuolten analytiikkaa, mainontaan liittyviä SDK:ita tai ulkoisia seurantatyökaluja.",
+          "Sovellus toimii täysin offline-tilassa. Internet-yhteys tarvitaan vain ostoksen tekemiseen."
+        ]
+      },
+      {
+        "heading": "Tietosuojailmoitus",
+        "paragraphs": [
+          "Sovellus sisältää Applen tietosuojailmoituksen, joka ilmoittaa <code>NSPrivacyTracking: false</code>. Mitään tietotyyppejä ei kerätä tai seurata, eikä seurantaverkkotunnuksiin oteta yhteyttä."
+        ]
+      },
+      {
+        "heading": "Yhteystiedot",
+        "paragraphs": [
+          "Tietosuojaa koskevia kysymyksiä? Ota yhteyttä milloin tahansa osoitteeseen <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Ohje", "title": "Tuki", "href": "support.html" },
+      { "label": "Juridinen", "title": "Käyttöehdot", "href": "terms.html" }
+    ],
+    "lastUpdated": "Päivitetty viimeksi: maaliskuu 2026"
+  },
+  "terms": {
+    "meta": {
+      "title": "Käyttöehdot - Image Converter Plus",
+      "description": "Image Converter Plusin käyttöehdot. Lue lisenssi, ostoehdot ja sovelluksen käyttöohjeet."
+    },
+    "hero": {
+      "title": "Käyttöehdot",
+      "subtitle": "Image Converter Plus iOS:lle"
+    },
+    "cards": [
+      {
+        "heading": "Sopimus",
+        "paragraphs": ["Lataamalla tai käyttämällä Image Converter Plusia hyväksyt nämä ehdot. Jos et hyväksy, älä käytä sovellusta."]
+      },
+      {
+        "heading": "Lisenssi",
+        "paragraphs": [
+          "Image Converter Plus myöntää sinulle rajoitetun, ei-yksinoikeudellisen, ei-siirrettävän lisenssin käyttää sovellusta henkilökohtaisiin, ei-kaupallisiin tarkoituksiin laitteilla, jotka omistat tai hallitset.",
+          "Tämä lisenssi koskee myös Share Extensionia (\u201cMuunna Image Converter Plusilla\u201d), joka on osa sovellusta. Sovellus vaatii iOS 16.0:n tai uudemman."
+        ]
+      },
+      {
+        "heading": "Sisältösi",
+        "paragraphs": [
+          "Sinulla säilyy kaikki oikeudet kuviin, jotka muunnat Image Converter Plusilla. Sovellus ei vaadi omistusoikeutta sisältöösi.",
+          "Olet vastuussa siitä, että sinulla on oikeus käyttää ja muuntaa sovellukseen tuomiasi kuvia."
+        ]
+      },
+      {
+        "heading": "Ilmainen ja Pro-taso",
+        "paragraphs": [
+          "Image Converter Plus on ilmainen ladata ja käyttää. Ilmainen taso sisältää muunnoksen JPEG-, PNG- ja HEIC-muotojen välillä, yksi kuva kerrallaan.",
+          "Pro on kertaluonteinen ostos (ei tilaus), joka avaa:",
+          "Pro jaetaan perheesi kanssa Family Sharingin kautta.",
+          "Kampanjakoodit myöntävät saman käyttöoikeuden kuin Pro-ostos. Jokainen kampanjakoodi voidaan lunastaa kerran per laite."
+        ],
+        "bullets": [
+          "TIFF- ja AVIF-tulostusmuodot",
+          "Rajoittamaton erämuunnos",
+          "Kuvakohtaisten asetusten ohitukset",
+          "Metatietojen tietosuojan hallinta",
+          "Erämuunnos Share Extensionissa"
+        ]
+      },
+      {
+        "heading": "Ostokset",
+        "paragraphs": [
+          "Kaikki ostokset käsittelee Apple StoreKit 2:n kautta, ja niihin sovelletaan Applen käyttöehtoja.",
+          "Pro-päivitys on kertaluonteinen ei-kulutettava ostos — ei tilaus. Maksat kerran ja pidät sen ikuisesti.",
+          "Juomarahat ovat valinnaisia kulutettavia ostoksia, jotka tukevat kehitystyötä. Ne eivät avaa mitään lisäominaisuuksia.",
+          "Kaikki myynnit ovat lopullisia. Palautuspyynnöt tulee ohjata Applelle. Voit palauttaa ostoksesi milloin tahansa Asetuksista."
+        ]
+      },
+      {
+        "heading": "Hyväksyttävä käyttö",
+        "paragraphs": ["Sitoudut olemaan:"],
+        "bullets": [
+          "Käänteistutkimatta, purkamatta tai purkamatta kokoonpanua sovelluksesta",
+          "Käyttämättä sovellusta laittomaan tarkoitukseen",
+          "Yrittämättä ohittaa rajoituksia tai esteitä"
+        ]
+      },
+      {
+        "heading": "Vastuuvapauslauseke",
+        "paragraphs": [
+          "Image Converter Plus tarjotaan \u201csellaisena kuin se on\u201d ilman minkäänlaisia takuita. Emme takaa, että sovellus toimii virheettömästi tai keskeytymättä.",
+          "Emme ole vastuussa mistään tietojen tai kuvien menetyksestä. Pidä varmuuskopiot tärkeistä tiedostoista."
+        ]
+      },
+      {
+        "heading": "Vastuun rajoitus",
+        "paragraphs": [
+          "Lain sallimassa laajimmassa määrin kehittäjä ei ole vastuussa mistään välillisistä, satunnaisista, erityisistä tai seurannaisvahingoista, jotka aiheutuvat sovelluksen käytöstäsi."
+        ]
+      },
+      {
+        "heading": "Muutokset",
+        "paragraphs": [
+          "Saatamme päivittää näitä ehtoja ajoittain. Sovelluksen jatkuva käyttö muutosten jälkeen merkitsee uusien ehtojen hyväksymistä."
+        ]
+      },
+      {
+        "heading": "Yhteystiedot",
+        "paragraphs": [
+          "Kysyttävää? Ota yhteyttä osoitteeseen <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Ohje", "title": "Tuki", "href": "support.html" },
+      { "label": "Juridinen", "title": "Tietosuojakäytäntö", "href": "privacy.html" }
+    ],
+    "lastUpdated": "Päivitetty viimeksi: maaliskuu 2026"
+  },
+  "support": {
+    "meta": {
+      "title": "Tuki - Image Converter Plus",
+      "description": "Saat apua Image Converter Plusin käyttöön. Löydä vastauksia yleisiin kysymyksiin kuvien muuntamisesta, koon muuttamisesta ja suojaamisesta."
+    },
+    "hero": {
+      "title": "Tuki",
+      "subtitle": "Löydä vastauksia yleisiin kysymyksiin kuvien muuntamisesta, koon muuttamisesta ja suojaamisesta.",
+      "contactBtn": "Ota yhteyttä"
+    },
+    "formats": {
+      "label": "Muodot",
+      "title": "Viisi muotoa, yksi sovellus.",
+      "description": "Muunna suosituimpien kuvamuotojen välillä täydellä laadun hallinnalla."
+    },
+    "faq": {
+      "categories": [
+        {
+          "title": "Aloittaminen",
+          "items": [
+            {
+              "question": "Miten muunnan kuvia?",
+              "answer": "Napauta Kuvat- tai Tiedostot-painiketta tuodaksesi kuvia. Valitse tulostusmuoto ja laatu, sitten napauta Muunna. Muunnetut kuvat näkyvät Historia-välilehdellä, josta voit tallentaa tai jakaa ne."
+            },
+            {
+              "question": "Voinko muuntaa useita kuvia kerralla?",
+              "answer": "Kyllä. Valitse niin monta kuvaa kuin tarvitset ja muunna ne kaikki yhdessä erässä. Jokaisella kuvalla voi olla omat muoto-, laatu-, koko- ja tiedostonimiasetuksensa."
+            },
+            {
+              "question": "Voinko tuoda kuvia iCloud Drivesta tai muista sovelluksista?",
+              "answer": "Kyllä. Napauta Tiedostot-painiketta selataksesi iCloud Drivea, Dropboxia, Google Drivea tai mitä tahansa laitteesi tiedostontarjoajaa. Voit myös käyttää Share Extensionia muuntaaksesi kuvia suoraan muista sovelluksista."
+            }
+          ]
+        },
+        {
+          "title": "Muunnosasetukset",
+          "items": [
+            {
+              "question": "Mitä laadun liukusäädin tekee?",
+              "answer": "Laadun liukusäädin hallitsee pakkausta JPEG-, HEIC- ja AVIF-muodoille. Korkeammat arvot tuottavat parempaa laatua suuremmilla tiedostokokoilla. PNG ja TIFF ovat aina häviöttömiä eivätkä huomioi tätä asetusta."
+            },
+            {
+              "question": "Miten muutan kuvien kokoa?",
+              "answer": "Käytä kokoasetusta skaalataksesi kuvia 50–200 % alkuperäisestä koosta. Voit asettaa oletuksen kaikille kuville tai mukauttaa jokaisen erikseen."
+            },
+            {
+              "question": "Voinko nimetä tiedostot uudelleen muunnoksen aikana?",
+              "answer": "Kyllä. Voit lisätä etuliitteen tai jälkiliitteen kaikkiin muunnettuihin tiedostoihin nimeämissäännöllä tai nimetä jokaisen kuvan erikseen ennen muuntamista."
+            },
+            {
+              "question": "Mitä esiasetukset ovat?",
+              "answer": "Esiasetukset tallentavat muodon, laadun, koon ja nimeämisasetusten yhdistelmän yhdellä napautuksella muuntamista varten. Sovellus sisältää 4 sisäänrakennettua esiasetusta, ja voit järjestää tai piilottaa niitä Asetuksissa."
+            }
+          ]
+        },
+        {
+          "title": "Tietosuoja ja metatiedot",
+          "items": [
+            {
+              "question": "Voinko poistaa metatietoja kuvista?",
+              "answer": "Kyllä. Image Converter Plus voi poistaa EXIF-tiedot, mukaan lukien GPS-sijainnin, kameratiedot, aikaleimat, tekijätiedot, laitetunnisteet, muokkaushistorian ja upotetut pikkukuvat. Valitse valmiista tietosuojatiloista tai mukauta tarkkaan mitä poistetaan."
+            },
+            {
+              "question": "Ladataanko kuviani jonnekin?",
+              "answer": "Ei. Kaikki käsittely tapahtuu kokonaan laitteellasi. Ei palvelimia, ei latauksia, ei analytiikkaa eikä mainoksia. Sovellus toimii täysin offline-tilassa — internet-yhteys tarvitaan vain ostoksen tekemiseen."
+            }
+          ]
+        },
+        {
+          "title": "Tallentaminen ja jakaminen",
+          "items": [
+            {
+              "question": "Minne muunnetut kuvani tallennetaan?",
+              "answer": "Muunnetut kuvat tallennetaan sovelluksen Historia-välilehdelle. Sieltä voit tallentaa ne Kuvakirjastoosi, viedä Tiedostoihin tai jakaa AirDropin, Viestien, Mailin ja muiden kautta."
+            },
+            {
+              "question": "Miten Share Extension toimii?",
+              "answer": "Valitse kuvia missä tahansa sovelluksessa, napauta Jaa-painiketta ja valitse Image Converter Plus. Kuvasi muunnetaan oletusesetuksesi avulla avaamatta pääsovellusta. Pro-käyttäjät voivat muuntaa useita kuvia kerralla Jaa-valikosta."
+            },
+            {
+              "question": "Voinko poistaa vanhat muunnokset automaattisesti?",
+              "answer": "Kyllä. Siirry Asetuksiin ja valitse automaattisen poiston aika — 7 päivää, 30 päivää, 90 päivää tai ei koskaan. Vanhat muunnokset poistetaan automaattisesti tallennustilan säästämiseksi."
+            }
+          ]
+        },
+        {
+          "title": "Pro",
+          "items": [
+            {
+              "question": "Mitä Pro-päivitys sisältää?",
+              "answer": "Pro on kertaluonteinen ostos, joka avaa TIFF- ja AVIF-muodot, täyden metatietojen ja tietosuojan hallinnan, kuvakohtaisten asetusten ohitukset ja erämuunnoksen Share Extensionissa. Ei tilausta — ja se jaetaan perheesi kanssa Family Sharingin kautta."
+            },
+            {
+              "question": "Miten palautan ostokseni?",
+              "answer": "Siirry Asetuksiin ja napauta Palauta ostokset. Varmista, että olet kirjautunut samalla Apple-tilillä, jota käytit alkuperäiseen ostokseen. Jos olet osa Family Sharing -ryhmää, ostos jaetaan automaattisesti."
+            }
+          ]
+        },
+        {
+          "title": "Vianmääritys",
+          "items": [
+            {
+              "question": "Sovellus ei toimi oikein.",
+              "answer": "Kokeile sulkea ja avata sovellus uudelleen. Jos ongelma jatkuu, käynnistä laitteesi uudelleen ja varmista, että käytät uusinta versiota App Storesta. Onko ongelma yhä? Ota yhteyttä kertomalla yksityiskohtaisesti, mitä tapahtuu."
+            },
+            {
+              "question": "Muunnos epäonnistui. Mitä minun pitäisi tehdä?",
+              "answer": "Varmista, että laitteellasi on riittävästi vapaata tallennustilaa. Hyvin suuret kuvat saattavat vaatia enemmän tilaa. Kokeile muuntaa vähemmän kuvia kerralla tai pienennä tulostuskokoa. Jos ongelma jatkuu, ota yhteyttä kuvamuodon ja -koon kera."
+            },
+            {
+              "question": "Pro-ostokseni ei näy.",
+              "answer": "Siirry Asetuksiin ja napauta Palauta ostokset. Varmista, että olet yhteydessä internetiin ja kirjautuneena oikealla Apple-tilillä. Jos ostit Family Sharingin kautta, varmista, että jakaminen on edelleen aktiivinen perheryhmässäsi."
+            }
+          ]
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Järjestelmävaatimukset",
+      "items": [
+        "iOS 16.0 tai uudempi",
+        "Yhteensopiva iPhonen ja iPadin kanssa",
+        "Toimii täysin offline-tilassa — ei internet-yhteyttä tarvita"
+      ]
+    },
+    "links": [
+      { "label": "Juridinen", "title": "Tietosuojakäytäntö", "href": "privacy.html" },
+      { "label": "Juridinen", "title": "Käyttöehdot", "href": "terms.html" }
+    ],
+    "lastUpdated": "Päivitetty viimeksi: maaliskuu 2026"
+  }
+}

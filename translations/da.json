@@ -1,0 +1,431 @@
+{
+  "_meta": { "lang": "da", "dir": "ltr" },
+  "nav": {
+    "title": "Image Converter Plus",
+    "privacy": "Privatlivspolitik",
+    "terms": "Brugsbetingelser",
+    "support": "Support"
+  },
+  "index": {
+    "meta": {
+      "title": "Image Converter Plus — Konverter, tilpas størrelse og beskyt dine billeder",
+      "description": "Konverter billeder mellem JPEG, PNG, HEIC, TIFF og AVIF. Juster kvalitet, tilpas størrelse og fjern metadata — alt på din enhed."
+    },
+    "hero": {
+      "headline": "Konverter. Tilpas størrelse.<br>Beskyt.",
+      "subtitle": "Batch-billedkonvertering med privatlivskontroller — udelukkende på din enhed.",
+      "badgeAlt": "Download on the App Store",
+      "availability": "Tilgængelig til iPhone og iPad. Kræver iOS 16 eller nyere."
+    },
+    "formats": {
+      "eyebrow": "5 outputformater",
+      "headline": "Alle de formater, du har brug for.",
+      "body": "Konverter mellem de mest populære billedformater. Vælg den rette balance mellem kvalitet, kompatibilitet og filstørrelse."
+    },
+    "features": {
+      "eyebrow": "Funktioner",
+      "headline": "Præcision ved hvert trin.",
+      "body": "Finjuster kvalitet, tilpas størrelse, omdøb og forhåndsvis — alt sammen inden du konverterer et eneste billede.",
+      "cards": [
+        {
+          "icon": "&#9881;&#65039;",
+          "title": "Kvalitetskontrol",
+          "description": "Juster kvaliteten fra 40% til 100% for formater med tab. Se den anslåede filstørrelse opdateres i realtid."
+        },
+        {
+          "icon": "&#8596;&#65039;",
+          "title": "Tilpas størrelse",
+          "description": "Skalér billeder fra 50% til 200%. Angiv individuelle indstillinger pr. billede eller anvend en forudindstilling på hele batchen."
+        },
+        {
+          "icon": "&#128196;",
+          "title": "Filnavngivning",
+          "description": "Tilføj et præfiks eller suffiks til konverterede filer. Navngiv hvert billede individuelt eller anvend en regel på alle."
+        },
+        {
+          "icon": "&#9889;",
+          "title": "Forudindstillinger",
+          "description": "4 indbyggede forudindstillinger til konvertering med ét tryk. Tilpas format, kvalitet, størrelse og navngivning i hver enkelt."
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "Privatliv",
+      "headline": "Dine billeder indeholder mere,<br>end du tror.",
+      "body": "GPS-koordinater. Kameramodel. Tidsstempler. Image Converter Plus fjerner skjulte metadata, inden du deler — med detaljeret kontrol over, hvad der bevares og hvad der slettes.",
+      "items": [
+        { "icon": "&#128205;", "title": "Placering", "description": "GPS-koordinater og stednavne" },
+        { "icon": "&#128247;", "title": "Kamera", "description": "Dato, tidspunkt og optagelsesindstillinger" },
+        { "icon": "&#9997;&#65039;", "title": "Forfatter", "description": "Tekster, nøgleord og ophavsmand" },
+        { "icon": "&#128241;", "title": "Enhed", "description": "Modelnavn og identifikatorer" },
+        { "icon": "&#128736;&#65039;", "title": "Redigeringer", "description": "Redigeringshistorik og softwareoplysninger" },
+        { "icon": "&#128444;&#65039;", "title": "Forhåndsvisninger", "description": "Indlejrede miniaturebilleder" }
+      ]
+    },
+    "workflow": {
+      "eyebrow": "Arbejdsgang",
+      "headline": "Passer direkte ind i din arbejdsgang.",
+      "shareTitle": "Share Extension",
+      "shareBody": "Konverter billeder uden at åbne appen. Vælg billeder i en hvilken som helst app, tryk på Del, og konverter i ét trin. Pro-brugere får batch-konvertering og alle formater direkte fra Share Sheet.",
+      "historyTitle": "Konverteringshistorik",
+      "historyBody": "Hver konvertering gemmes med et miniaturebillede. Eksporter til Fotos, Filer eller Share Sheet når som helst. Indstil automatisk sletning for at rydde op i gamle konverteringer automatisk."
+    },
+    "onDevice": {
+      "eyebrow": "På enheden",
+      "headline": "Ingen servere. Ingen uploads.<br>Ingen sporing.",
+      "body": "Alle billeder behandles lokalt på din enhed. Der er ingen skytjenester, ingen analyser og ingen reklamer. En internetforbindelse er kun nødvendig for at foretage et køb."
+    },
+    "pro": {
+      "eyebrow": "Pro",
+      "headline": "Lås alt op.<br>Én gang.",
+      "body": "Et enkelt køb. Intet abonnement. Ingen løbende gebyrer. Deles med din familie via Family Sharing.",
+      "features": [
+        {
+          "icon": "&#128194;",
+          "title": "TIFF & AVIF",
+          "description": "Lås alle fem outputformater op til ethvert formål."
+        },
+        {
+          "icon": "&#128274;",
+          "title": "Fjernelse af metadata",
+          "description": "Fuld EXIF- og metadatafjernelse med tre privatlivsforudindstillinger."
+        },
+        {
+          "icon": "&#127384;",
+          "title": "Batch Share Extension",
+          "description": "Konverter flere billeder på én gang direkte fra Share Sheet."
+        }
+      ],
+      "price": "$9.99",
+      "priceNote": "Engangskøb. Family Sharing inkluderet."
+    },
+    "accessibility": {
+      "eyebrow": "Tilgængelighed",
+      "headline": "Designet til alle.",
+      "body": "Bygget med tilgængelighed fra starten. Tilgængelig på 60 sprog med en sprogvælger i appen.",
+      "badges": ["VoiceOver", "Dynamic Type", "Haptisk feedback", "60 sprog"]
+    },
+    "bottomCta": {
+      "headline": "Begynd at konvertere gratis."
+    },
+    "footer": {
+      "copyright": "\u00a9 2026 Denys Lebiediev"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privatlivspolitik - Image Converter Plus",
+      "description": "Privatlivspolitik for Image Converter Plus. Al billedbehandling sker på din enhed — intet uploades, spores eller deles."
+    },
+    "hero": {
+      "title": "Privatlivspolitik",
+      "subtitle": "Dine billeder forbliver dine. Alt behandles på din enhed — intet uploades, spores eller deles."
+    },
+    "cards": [
+      {
+        "heading": "På din enhed",
+        "paragraphs": ["Alle dine billeder, konverteringshistorik og indstillinger gemmes kun på denne enhed. Intet forlader enheden uden din udtrykkelige handling."],
+        "bullets": [
+          "Importerede og konverterede billeder i appens sandkasse-lager",
+          "Konverteringshistorik og miniaturebilleder",
+          "Dine format-, kvalitets- og størrelsesindstillinger",
+          "Midlertidige filer i <code>/var/tmp/</code> — ryddes automatisk ved hver opstart",
+          "Nøgleringslagring — kun en hash af indløste kampagnekoder, aldrig selve koden",
+          "App Group-container — deler kun Pro-købsstatus med Share Extension"
+        ]
+      },
+      {
+        "heading": "Hvad vi ikke indsamler",
+        "paragraphs": ["Image Converter Plus indsamler ingen personlige oplysninger. Vi ved ikke, hvem du er, hvad du konverterer, eller hvordan du bruger appen."],
+        "bullets": [
+          "Ingen personlige oplysninger",
+          "Ingen enhedsidentifikatorer",
+          "Ingen brugsanalyser",
+          "Ingen placeringsdata",
+          "Ingen reklamer eller sporing"
+        ]
+      },
+      {
+        "heading": "Fotos og billeder",
+        "paragraphs": [
+          "Når du vælger fotos, ser Image Converter Plus kun de specifikke billeder, du vælger — aldrig hele dit bibliotek. Appen bruger begrænset adgang til fotobiblioteket og gemmer kun <code>localIdentifiers</code> for valgte aktiver.",
+          "Hvis et valgt foto er gemt i iCloud, downloader appen det midlertidigt til din enhed med en timeout på 2 minutter. Disse midlertidige kopier ryddes automatisk ved opstart.",
+          "Al billedbehandling sker lokalt ved hjælp af din enheds hardware. Konverterede billeder gemmes på din enhed og deles kun, når du vælger at dele dem.",
+          "Du kan fjerne metadata (EXIF, GPS, kameraoplysninger, tidsstempler, forfatteroplysninger, enhedsidentifikatorer, redigeringshistorik og indlejrede miniaturebilleder) fra konverterede billeder for at beskytte dit privatliv, når du deler."
+        ]
+      },
+      {
+        "heading": "Køb",
+        "paragraphs": [
+          "Køb håndteres udelukkende af Apple via StoreKit 2. Vi ser aldrig dine betalingsoplysninger, Apple-id eller faktureringsoplysninger.",
+          "Din købsstatus verificeres lokalt ved hjælp af Apples kryptografiske transaktionsverifikation. Der foretages ingen serverkald for at validere køb.",
+          "Kampagnekoder valideres lokalt ved hjælp af HMAC — kun en kryptografisk hash gemmes i nøgleringen, aldrig selve koden."
+        ]
+      },
+      {
+        "heading": "Share Extension",
+        "paragraphs": [
+          "Share Extension kører som en isoleret proces adskilt fra hovedappen. Den konverterer billeder ved hjælp af din standardforudindstilling direkte fra systemets Share Sheet.",
+          "Midlertidige filer oprettet af udvidelsen ryddes op efter brug. Udvidelsen gemmer ikke konverteringshistorik. De eneste data, der deles mellem hovedappen og udvidelsen via App Group, er din Pro-købsstatus."
+        ]
+      },
+      {
+        "heading": "Dataopbevaring",
+        "paragraphs": [
+          "Du har kontrol over dine data. Du kan slette din konverteringshistorik når som helst fra fanen Historik. Automatisk oprydning er tilgængelig i Indstillinger — vælg 7 dage, 30 dage, 90 dage, eller behold konverteringer for altid.",
+          "Ved hver opstart rydder appen forældreløse filer (imports, outputs og miniaturebilleder, der ikke er knyttet til en historikpost) og fjerner midlertidige mapper.",
+          "Sletning af appen fjerner alle tilknyttede data — billeder, historik, indstillinger og App Group-lager. Den eneste undtagelse er en lille nøgleringpost (hash af kampagnekode), som bevares på tværs af installationer, som det er standard for iOS-nøgleringelementer."
+        ]
+      },
+      {
+        "heading": "Tredjepartstjenester",
+        "paragraphs": [
+          "Image Converter Plus bruger kun Apples indbyggede frameworks. Der er ingen tredjepartsanalyser, reklame-SDK'er eller eksterne sporingsværktøjer.",
+          "Appen fungerer helt offline. En internetforbindelse er kun nødvendig ved et køb."
+        ]
+      },
+      {
+        "heading": "Privacy Manifest",
+        "paragraphs": [
+          "Appen inkluderer en Apple Privacy Manifest, der erklærer <code>NSPrivacyTracking: false</code>. Ingen datatyper indsamles eller spores, og der kontaktes ingen sporingsdomæner."
+        ]
+      },
+      {
+        "heading": "Kontakt",
+        "paragraphs": [
+          "Spørgsmål om privatliv? Kontakt os når som helst på <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Hjælp", "title": "Support", "href": "support.html" },
+      { "label": "Juridisk", "title": "Brugsbetingelser", "href": "terms.html" }
+    ],
+    "lastUpdated": "Sidst opdateret: marts 2026"
+  },
+  "terms": {
+    "meta": {
+      "title": "Brugsbetingelser - Image Converter Plus",
+      "description": "Brugsbetingelser for Image Converter Plus. Læs licensen, købsbetingelser og retningslinjer for brug af appen."
+    },
+    "hero": {
+      "title": "Brugsbetingelser",
+      "subtitle": "Image Converter Plus til iOS"
+    },
+    "cards": [
+      {
+        "heading": "Aftale",
+        "paragraphs": ["Ved at downloade eller bruge Image Converter Plus accepterer du disse betingelser. Hvis du ikke accepterer dem, bedes du ikke bruge appen."]
+      },
+      {
+        "heading": "Licens",
+        "paragraphs": [
+          "Image Converter Plus tildeler dig en begrænset, ikke-eksklusiv, ikke-overdragelig licens til at bruge appen til personlige, ikke-kommercielle formål på enheder, du ejer eller kontrollerer.",
+          "Denne licens dækker også Share Extension (\u201cKonverter med Image Converter Plus\u201d), som er en del af appen. Appen kræver iOS 16.0 eller nyere."
+        ]
+      },
+      {
+        "heading": "Dit indhold",
+        "paragraphs": [
+          "Du bevarer alle rettigheder til de billeder, du konverterer med Image Converter Plus. Appen gør ikke krav på ejerskab af dit indhold.",
+          "Du er ansvarlig for at sikre, at du har ret til at bruge og konvertere de billeder, du importerer til appen."
+        ]
+      },
+      {
+        "heading": "Gratis og Pro-niveauer",
+        "paragraphs": [
+          "Image Converter Plus er gratis at downloade og bruge. Det gratis niveau inkluderer konvertering mellem JPEG, PNG og HEIC, ét billede ad gangen.",
+          "Pro er et engangskøb (ikke et abonnement), der låser op for:",
+          "Pro deles med din familie via Family Sharing.",
+          "Kampagnekoder giver samme adgang som et Pro-køb. Hver kampagnekode kan indløses én gang pr. enhed."
+        ],
+        "bullets": [
+          "TIFF og AVIF outputformater",
+          "Ubegrænset batch-konvertering",
+          "Individuelle indstillingstilpasninger pr. billede",
+          "Privatlivskontroller for metadata",
+          "Batch-konvertering i Share Extension"
+        ]
+      },
+      {
+        "heading": "Køb",
+        "paragraphs": [
+          "Alle køb behandles af Apple via StoreKit 2 og er underlagt Apples vilkår og betingelser.",
+          "Pro-opgraderingen er et engangskøb uden abonnement. Du betaler én gang og beholder det for altid.",
+          "Tips er valgfrie forbrugskøb, der støtter udviklingen. De låser ikke yderligere funktioner op.",
+          "Alle salg er endelige. Anmodninger om refusion skal rettes til Apple. Du kan gendanne dine køb når som helst fra Indstillinger."
+        ]
+      },
+      {
+        "heading": "Acceptabel brug",
+        "paragraphs": ["Du accepterer ikke at:"],
+        "bullets": [
+          "Reverse-engineere, dekompilere eller adskille appen",
+          "Bruge appen til ulovlige formål",
+          "Forsøge at omgå begrænsninger eller restriktioner"
+        ]
+      },
+      {
+        "heading": "Ansvarsfraskrivelse",
+        "paragraphs": [
+          "Image Converter Plus leveres \u201dsom den er\u201d uden garantier af nogen art. Vi garanterer ikke, at appen vil være fejlfri eller uafbrudt.",
+          "Vi er ikke ansvarlige for tab af data eller billeder. Bevar venligst sikkerhedskopier af vigtige filer."
+        ]
+      },
+      {
+        "heading": "Ansvarsbegrænsning",
+        "paragraphs": [
+          "I det omfang loven tillader det, er udvikleren ikke ansvarlig for indirekte, tilfældige, særlige eller følgeskader, der opstår som følge af din brug af appen."
+        ]
+      },
+      {
+        "heading": "Ændringer",
+        "paragraphs": [
+          "Vi kan opdatere disse betingelser fra tid til anden. Fortsat brug af appen efter ændringer udgør accept af de nye betingelser."
+        ]
+      },
+      {
+        "heading": "Kontakt",
+        "paragraphs": [
+          "Spørgsmål? Kontakt os på <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Hjælp", "title": "Support", "href": "support.html" },
+      { "label": "Juridisk", "title": "Privatlivspolitik", "href": "privacy.html" }
+    ],
+    "lastUpdated": "Sidst opdateret: marts 2026"
+  },
+  "support": {
+    "meta": {
+      "title": "Support - Image Converter Plus",
+      "description": "Få hjælp til Image Converter Plus. Find svar på almindelige spørgsmål om konvertering, tilpasning af størrelse og beskyttelse af dine billeder."
+    },
+    "hero": {
+      "title": "Support",
+      "subtitle": "Find svar på almindelige spørgsmål om konvertering, tilpasning af størrelse og beskyttelse af dine billeder.",
+      "contactBtn": "Kontakt os"
+    },
+    "formats": {
+      "label": "Formater",
+      "title": "Fem formater, én app.",
+      "description": "Konverter mellem de mest populære billedformater med fuld kvalitetskontrol."
+    },
+    "faq": {
+      "categories": [
+        {
+          "title": "Kom godt i gang",
+          "items": [
+            {
+              "question": "Hvordan konverterer jeg billeder?",
+              "answer": "Tryk på knappen Fotos eller Filer for at importere billeder. Vælg dit outputformat og din kvalitet, og tryk derefter på Konverter. Konverterede billeder vises under fanen Historik, hvor du kan gemme eller dele dem."
+            },
+            {
+              "question": "Kan jeg konvertere flere billeder på én gang?",
+              "answer": "Ja. Vælg så mange billeder, du har brug for, og konverter dem alle i ét batch. Hvert billede kan have sine egne indstillinger for format, kvalitet, størrelse og filnavn."
+            },
+            {
+              "question": "Kan jeg importere fra iCloud Drive eller andre apps?",
+              "answer": "Ja. Tryk på knappen Filer for at gennemse iCloud Drive, Dropbox, Google Drive eller enhver filudbyder på din enhed. Du kan også bruge Share Extension til at konvertere billeder direkte fra andre apps."
+            }
+          ]
+        },
+        {
+          "title": "Konverteringsindstillinger",
+          "items": [
+            {
+              "question": "Hvad gør kvalitetsskyderen?",
+              "answer": "Kvalitetsskyderen styrer komprimering for JPEG-, HEIC- og AVIF-formater. Højere værdier giver bedre kvalitet ved større filstørrelser. PNG og TIFF er altid tabsfri og ignorerer denne indstilling."
+            },
+            {
+              "question": "Hvordan tilpasser jeg størrelsen på billeder?",
+              "answer": "Brug størrelsesindstillingen til at skalere billeder fra 50% til 200% af de originale dimensioner. Du kan angive en standard for alle billeder eller tilpasse hvert enkelt individuelt."
+            },
+            {
+              "question": "Kan jeg omdøbe filer under konvertering?",
+              "answer": "Ja. Du kan tilføje et præfiks eller suffiks til alle konverterede filer ved hjælp af en navngivningsregel eller omdøbe hvert billede individuelt inden konvertering."
+            },
+            {
+              "question": "Hvad er forudindstillinger?",
+              "answer": "Forudindstillinger gemmer en kombination af format-, kvalitets-, størrelses- og navngivningsindstillinger til konvertering med ét tryk. Appen inkluderer 4 indbyggede forudindstillinger, og du kan omarrangere eller skjule dem i Indstillinger."
+            }
+          ]
+        },
+        {
+          "title": "Privatliv og metadata",
+          "items": [
+            {
+              "question": "Kan jeg fjerne metadata fra billeder?",
+              "answer": "Ja. Image Converter Plus kan fjerne EXIF-data, herunder GPS-placering, kameraoplysninger, tidsstempler, forfatteroplysninger, enhedsidentifikatorer, redigeringshistorik og indlejrede miniaturebilleder. Vælg fra forudindstillede privatlivstilstande, eller tilpas præcist, hvad der skal fjernes."
+            },
+            {
+              "question": "Uploades mine billeder nogen steder?",
+              "answer": "Nej. Al behandling sker udelukkende på din enhed. Der er ingen servere, ingen uploads, ingen analyser og ingen reklamer. Appen fungerer helt offline — en internetforbindelse er kun nødvendig for at foretage et køb."
+            }
+          ]
+        },
+        {
+          "title": "Gemning og deling",
+          "items": [
+            {
+              "question": "Hvor gemmes mine konverterede billeder?",
+              "answer": "Konverterede billeder gemmes under appens fane Historik. Derfra kan du gemme dem til dit fotobibliotek, eksportere til Filer eller dele via AirDrop, Beskeder, Mail og mere."
+            },
+            {
+              "question": "Hvordan fungerer Share Extension?",
+              "answer": "Vælg billeder i en hvilken som helst app, tryk på Del-knappen, og vælg Image Converter Plus. Dine billeder konverteres ved hjælp af din standardforudindstilling uden at åbne hovedappen. Pro-brugere kan konvertere flere billeder på én gang fra Share Sheet."
+            },
+            {
+              "question": "Kan jeg automatisk slette gamle konverteringer?",
+              "answer": "Ja. Gå til Indstillinger og vælg en periode for automatisk sletning — 7 dage, 30 dage, 90 dage eller aldrig. Gamle konverteringer fjernes automatisk for at spare lagerplads."
+            }
+          ]
+        },
+        {
+          "title": "Pro",
+          "items": [
+            {
+              "question": "Hvad er inkluderet i Pro-opgraderingen?",
+              "answer": "Pro er et engangskøb, der låser op for TIFF og AVIF-formater, fuld metadata- og privatlivskontrol, individuelle indstillingstilpasninger pr. billede og batch-konvertering i Share Extension. Der er intet abonnement — og det deles med din familie via Family Sharing."
+            },
+            {
+              "question": "Hvordan gendanner jeg mit køb?",
+              "answer": "Gå til Indstillinger og tryk på Gendan køb. Sørg for, at du er logget ind med den samme Apple-konto, du brugte til det oprindelige køb. Hvis du er en del af en Family Sharing-gruppe, deles købet automatisk."
+            }
+          ]
+        },
+        {
+          "title": "Fejlfinding",
+          "items": [
+            {
+              "question": "Appen fungerer ikke korrekt.",
+              "answer": "Prøv at lukke og genåbne appen. Hvis problemet fortsætter, genstart din enhed og sørg for, at du kører den nyeste version fra App Store. Har du stadig problemer? Kontakt os med oplysninger om, hvad der sker, så hjælper vi dig."
+            },
+            {
+              "question": "En konvertering mislykkedes. Hvad skal jeg gøre?",
+              "answer": "Sørg for, at din enhed har tilstrækkelig ledig lagerplads. Meget store billeder kan kræve mere tilgængeligt plads. Prøv at konvertere færre billeder ad gangen, eller reducer outputstørrelsen. Hvis problemet fortsætter, kontakt os med billedformatet og størrelsen."
+            },
+            {
+              "question": "Mit Pro-køb vises ikke.",
+              "answer": "Gå til Indstillinger og tryk på Gendan køb. Sørg for, at du er forbundet til internettet og logget ind med den korrekte Apple-konto. Hvis du har købt via Family Sharing, skal du sikre, at deling stadig er aktiv i din familiegruppe."
+            }
+          ]
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Systemkrav",
+      "items": [
+        "iOS 16.0 eller nyere",
+        "Kompatibel med iPhone og iPad",
+        "Fungerer helt offline — ingen internetforbindelse kræves"
+      ]
+    },
+    "links": [
+      { "label": "Juridisk", "title": "Privatlivspolitik", "href": "privacy.html" },
+      { "label": "Juridisk", "title": "Brugsbetingelser", "href": "terms.html" }
+    ],
+    "lastUpdated": "Sidst opdateret: marts 2026"
+  }
+}

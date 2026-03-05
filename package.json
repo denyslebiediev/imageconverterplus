@@ -1,0 +1,7 @@
+{
+  "name": "imageconverterplus-legal",
+  "private": true,
+  "scripts": {
+    "build": "node build.js"
+  }
+}

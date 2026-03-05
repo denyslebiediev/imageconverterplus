@@ -1,0 +1,431 @@
+{
+  "_meta": { "lang": "tr", "dir": "ltr" },
+  "nav": {
+    "title": "Image Converter Plus",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Şartları",
+    "support": "Destek"
+  },
+  "index": {
+    "meta": {
+      "title": "Image Converter Plus — Fotoğraflarınızı Dönüştürün, Yeniden Boyutlandırın ve Koruyun",
+      "description": "Görselleri JPEG, PNG, HEIC, TIFF ve AVIF arasında dönüştürün. Kaliteyi ayarlayın, yeniden boyutlandırın ve meta verileri silin — tümü cihazınızda."
+    },
+    "hero": {
+      "headline": "Dönüştür. Yeniden Boyutlandır.<br>Koru.",
+      "subtitle": "Gizlilik kontrolleriyle toplu görsel dönüştürme — tamamen cihazınızda.",
+      "badgeAlt": "App Store'dan İndir",
+      "availability": "iPhone ve iPad'de kullanılabilir. iOS 16 veya üstü gerektirir."
+    },
+    "formats": {
+      "eyebrow": "5 Çıktı Formatı",
+      "headline": "İhtiyacınız olan her format.",
+      "body": "En popüler görsel formatları arasında dönüştürün. Kalite, uyumluluk ve dosya boyutu arasında doğru dengeyi seçin."
+    },
+    "features": {
+      "eyebrow": "Özellikler",
+      "headline": "Her adımda hassasiyet.",
+      "body": "Kaliteyi ayarlayın, yeniden boyutlandırın, yeniden adlandırın ve önizleyin — tek bir görseli dönüştürmeden önce her şeyi yapın.",
+      "cards": [
+        {
+          "icon": "&#9881;&#65039;",
+          "title": "Kalite Kontrolü",
+          "description": "Kayıplı formatlar için kaliteyi %40 ile %100 arasında ayarlayın. Tahmini dosya boyutunun gerçek zamanlı güncellendiğini izleyin."
+        },
+        {
+          "icon": "&#8596;&#65039;",
+          "title": "Yeniden Boyutlandır",
+          "description": "Görselleri %50 ile %200 arasında ölçeklendirin. Her görsel için ayrı ayrı ayar yapın veya tüm toplu işleme bir ön ayar uygulayın."
+        },
+        {
+          "icon": "&#128196;",
+          "title": "Dosya Adlandırma",
+          "description": "Dönüştürülen dosyalara önek veya sonek ekleyin. Her görseli ayrı ayrı adlandırın veya hepsine bir kural uygulayın."
+        },
+        {
+          "icon": "&#9889;",
+          "title": "Ön Ayarlar",
+          "description": "Tek dokunuşla dönüştürme için 4 yerleşik ön ayar. Her birinde format, kalite, boyut ve adlandırmayı özelleştirin."
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "Gizlilik",
+      "headline": "Fotoğraflarınız düşündüğünüzden<br>çok daha fazlasını taşıyor.",
+      "body": "GPS koordinatları. Kamera modeli. Zaman damgaları. Image Converter Plus, siz paylaşmadan önce gizli meta verileri siler — neyin kalacağı ve neyin gideceği üzerinde ayrıntılı kontrol sağlar.",
+      "items": [
+        { "icon": "&#128205;", "title": "Konum", "description": "GPS koordinatları ve yer adları" },
+        { "icon": "&#128247;", "title": "Kamera", "description": "Tarih, saat ve çekim ayarları" },
+        { "icon": "&#9997;&#65039;", "title": "Yazar", "description": "Açıklamalar, anahtar sözcükler ve içerik oluşturucu" },
+        { "icon": "&#128241;", "title": "Cihaz", "description": "Model adı ve tanımlayıcılar" },
+        { "icon": "&#128736;&#65039;", "title": "Düzenlemeler", "description": "Düzenleme geçmişi ve yazılım bilgisi" },
+        { "icon": "&#128444;&#65039;", "title": "Önizlemeler", "description": "Gömülü küçük resimler" }
+      ]
+    },
+    "workflow": {
+      "eyebrow": "İş Akışı",
+      "headline": "İş akışınıza mükemmel uyum sağlar.",
+      "shareTitle": "Share Extension",
+      "shareBody": "Uygulamayı açmadan görselleri dönüştürün. Herhangi bir uygulamada fotoğrafları seçin, Paylaş'a dokunun ve tek adımda dönüştürün. Pro kullanıcılar, Paylaşım Sayfası'ndan toplu dönüştürme ve tüm formatlara erişebilir.",
+      "historyTitle": "Dönüştürme Geçmişi",
+      "historyBody": "Her dönüştürme bir küçük resimle kaydedilir. İstediğiniz zaman Fotoğraflar'a, Dosyalar'a veya Paylaşım Sayfası'na yeniden aktarın. Eski dönüştürmeleri otomatik olarak temizlemek için otomatik silmeyi ayarlayın."
+    },
+    "onDevice": {
+      "eyebrow": "Cihaz Üzerinde",
+      "headline": "Sunucu yok. Yükleme yok.<br>Takip yok.",
+      "body": "Her görsel, cihazınızda yerel olarak işlenir. Bulut hizmeti, analitik ve reklam yoktur. İnternet bağlantısı yalnızca satın alma işlemi için gereklidir."
+    },
+    "pro": {
+      "eyebrow": "Pro",
+      "headline": "Her şeyin kilidini açın.<br>Bir kez.",
+      "body": "Tek bir satın alma. Abonelik yok. Tekrarlayan ücret yok. Family Sharing ile ailenizle paylaşılır.",
+      "features": [
+        {
+          "icon": "&#128194;",
+          "title": "TIFF ve AVIF",
+          "description": "Her kullanım durumu için beş çıktı formatının tamamının kilidini açın."
+        },
+        {
+          "icon": "&#128274;",
+          "title": "Meta Veri Silme",
+          "description": "Üç gizlilik ön ayarıyla tam EXIF ve meta veri kaldırma."
+        },
+        {
+          "icon": "&#127384;",
+          "title": "Toplu Share Extension",
+          "description": "Paylaşım Sayfası'ndan birden fazla görseli aynı anda dönüştürün."
+        }
+      ],
+      "price": "$9.99",
+      "priceNote": "Tek seferlik satın alma. Family Sharing dahil."
+    },
+    "accessibility": {
+      "eyebrow": "Erişilebilirlik",
+      "headline": "Herkes için tasarlandı.",
+      "body": "Erişilebilirlik en başından itibaren gözetilerek oluşturuldu. Uygulama içi dil seçiciyle 60 dilde kullanılabilir.",
+      "badges": ["VoiceOver", "Dynamic Type", "Dokunsal Geri Bildirim", "60 Dil"]
+    },
+    "bottomCta": {
+      "headline": "Ücretsiz dönüştürmeye başlayın."
+    },
+    "footer": {
+      "copyright": "\u00a9 2026 Denys Lebiediev"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Gizlilik Politikası - Image Converter Plus",
+      "description": "Image Converter Plus için Gizlilik Politikası. Tüm görsel işleme cihazınızda gerçekleşir — hiçbir şey yüklenmez, izlenmez veya paylaşılmaz."
+    },
+    "hero": {
+      "title": "Gizlilik Politikası",
+      "subtitle": "Fotoğraflarınız size aittir. Her şey cihazınızda işlenir — hiçbir şey yüklenmez, izlenmez veya paylaşılmaz."
+    },
+    "cards": [
+      {
+        "heading": "Cihazınızda",
+        "paragraphs": ["Tüm görselleriniz, dönüştürme geçmişiniz ve tercihleriniz yalnızca bu cihazda saklanır. Açık bir işlem yapmadığınız sürece hiçbir şey cihazı terk etmez."],
+        "bullets": [
+          "Uygulama korumalı alanında içe aktarılan ve dönüştürülen görseller",
+          "Dönüştürme geçmişi ve küçük resimler",
+          "Format, kalite ve yeniden boyutlandırma tercihleriniz",
+          "<code>/var/tmp/</code> içindeki geçici dosyalar — her başlatmada otomatik temizlenir",
+          "Anahtar Zinciri depolama — yalnızca kullanılan promosyon kodlarının karma değeri, kodun kendisi asla",
+          "App Group kapsayıcı — yalnızca Pro satın alma durumunu Share Extension ile paylaşır"
+        ]
+      },
+      {
+        "heading": "Toplamadıklarımız",
+        "paragraphs": ["Image Converter Plus hiçbir kişisel bilgi toplamaz. Kim olduğunuzu, neyi dönüştürdüğünüzü veya uygulamayı nasıl kullandığınızı bilmiyoruz."],
+        "bullets": [
+          "Kişisel bilgi yok",
+          "Cihaz tanımlayıcısı yok",
+          "Kullanım analitiği yok",
+          "Konum verisi yok",
+          "Reklam veya izleme yok"
+        ]
+      },
+      {
+        "heading": "Fotoğraflar ve Görseller",
+        "paragraphs": [
+          "Fotoğraf seçtiğinizde, Image Converter Plus yalnızca seçtiğiniz belirli görselleri görür — tüm kütüphanenizi asla görmez. Uygulama sınırlı fotoğraf kütüphanesi erişimi kullanır ve seçilen varlıklar için yalnızca <code>localIdentifiers</code> değerlerini saklar.",
+          "Seçilen bir fotoğraf iCloud'da depolanıyorsa uygulama, 2 dakikalık zaman aşımıyla geçici olarak cihazınıza indirir. Bu geçici kopyalar başlatmada otomatik olarak temizlenir.",
+          "Tüm görsel işleme, cihazınızın donanımı kullanılarak yerel olarak gerçekleşir. Dönüştürülen görseller cihazınıza kaydedilir ve yalnızca siz paylaşmayı seçtiğinizde paylaşılır.",
+          "Paylaşırken gizliliğinizi korumak için dönüştürülen görsellerden meta verileri (EXIF, GPS, kamera bilgisi, zaman damgaları, yazar ayrıntıları, cihaz tanımlayıcıları, düzenleme geçmişi ve gömülü küçük resimler) kaldırabilirsiniz."
+        ]
+      },
+      {
+        "heading": "Satın Almalar",
+        "paragraphs": [
+          "Satın almalar tamamen Apple tarafından StoreKit 2 aracılığıyla işlenir. Ödeme bilgilerinizi, Apple ID'nizi veya fatura ayrıntılarınızı asla görmeyiz.",
+          "Satın alma durumunuz, Apple'ın şifreli işlem doğrulaması kullanılarak yerel olarak doğrulanır. Satın almaları doğrulamak için sunucu çağrısı yapılmaz.",
+          "Promosyon kodları HMAC kullanılarak yerel olarak doğrulanır — Anahtar Zinciri'nde yalnızca şifreli bir karma değeri saklanır, kodun kendisi asla saklanmaz."
+        ]
+      },
+      {
+        "heading": "Share Extension",
+        "paragraphs": [
+          "Share Extension, ana uygulamadan ayrı izole bir süreç olarak çalışır. Sistem Paylaşım Sayfası'ndan doğrudan varsayılan ön ayarınızı kullanarak görselleri dönüştürür.",
+          "Uzantı tarafından oluşturulan geçici dosyalar kullanım sonrasında temizlenir. Uzantı, dönüştürme geçmişini saklamaz. Ana uygulama ile uzantı arasında App Group aracılığıyla paylaşılan tek veri, Pro satın alma durumunuzdur."
+        ]
+      },
+      {
+        "heading": "Veri Saklama",
+        "paragraphs": [
+          "Verilerinizin kontrolü sizde. Dönüştürme geçmişinizi istediğiniz zaman Geçmiş sekmesinden silebilirsiniz. Ayarlar'da otomatik temizleme mevcuttur — 7 gün, 30 gün, 90 gün seçin veya dönüştürmeleri sonsuza kadar saklayın.",
+          "Her başlatmada uygulama, sahipsiz dosyaları (herhangi bir geçmiş kaydına bağlı olmayan içe aktarmalar, çıktılar ve küçük resimler) temizler ve geçici dizinleri kaldırır.",
+          "Uygulamayı silmek, ilgili tüm verileri kaldırır — görseller, geçmiş, tercihler ve App Group depolama. Tek istisna, iOS Anahtar Zinciri öğeleri için standart olduğu üzere kurulumlar arasında kalıcı olan küçük bir Anahtar Zinciri girişidir (promosyon kodu karması)."
+        ]
+      },
+      {
+        "heading": "Üçüncü Taraf Hizmetleri",
+        "paragraphs": [
+          "Image Converter Plus yalnızca Apple'ın yerleşik çerçevelerini kullanır. Üçüncü taraf analitik, reklam SDK'sı veya harici izleme aracı yoktur.",
+          "Uygulama tamamen çevrimdışı çalışır. İnternet bağlantısı yalnızca satın alma yaparken gereklidir."
+        ]
+      },
+      {
+        "heading": "Gizlilik Bildirimi",
+        "paragraphs": [
+          "Uygulama, <code>NSPrivacyTracking: false</code> bildiren bir Apple Gizlilik Bildirimi içerir. Hiçbir veri türü toplanmaz veya izlenmez; hiçbir izleme etki alanına bağlanılmaz."
+        ]
+      },
+      {
+        "heading": "İletişim",
+        "paragraphs": [
+          "Gizlilikle ilgili sorularınız mı var? Bize istediğiniz zaman <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a> adresinden ulaşın."
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Yardım", "title": "Destek", "href": "support.html" },
+      { "label": "Hukuki", "title": "Kullanım Şartları", "href": "terms.html" }
+    ],
+    "lastUpdated": "Son güncelleme: Mart 2026"
+  },
+  "terms": {
+    "meta": {
+      "title": "Kullanım Şartları - Image Converter Plus",
+      "description": "Image Converter Plus için Kullanım Şartları. Uygulama için lisans, satın alma koşulları ve kullanım yönergelerini okuyun."
+    },
+    "hero": {
+      "title": "Kullanım Şartları",
+      "subtitle": "iOS için Image Converter Plus"
+    },
+    "cards": [
+      {
+        "heading": "Anlaşma",
+        "paragraphs": ["Image Converter Plus'ı indirerek veya kullanarak bu şartları kabul etmiş olursunuz. Kabul etmiyorsanız lütfen uygulamayı kullanmayın."]
+      },
+      {
+        "heading": "Lisans",
+        "paragraphs": [
+          "Image Converter Plus, size uygulamayı sahip olduğunuz veya kontrolünüzdeki cihazlarda kişisel, ticari olmayan amaçlarla kullanmak için sınırlı, münhasır olmayan, devredilemez bir lisans verir.",
+          "Bu lisans, uygulamanın bir parçası olan Share Extension'ı (\u201cImage Converter Plus ile Dönüştür\u201d) kapsar. Uygulama iOS 16.0 veya üstünü gerektirir."
+        ]
+      },
+      {
+        "heading": "İçeriğiniz",
+        "paragraphs": [
+          "Image Converter Plus kullanarak dönüştürdüğünüz görsellerin tüm hakları size aittir. Uygulama içeriğiniz üzerinde herhangi bir sahiplik iddiasında bulunmaz.",
+          "Uygulamaya içe aktardığınız görselleri kullanma ve dönüştürme hakkına sahip olduğunuzdan emin olmak sizin sorumluluğunuzdadır."
+        ]
+      },
+      {
+        "heading": "Ücretsiz ve Pro Katmanlar",
+        "paragraphs": [
+          "Image Converter Plus ücretsiz olarak indirilebilir ve kullanılabilir. Ücretsiz katman, JPEG, PNG ve HEIC formatları arasında tek seferlik dönüştürme içerir.",
+          "Pro, şunların kilidini açan tek seferlik bir satın almadır (abonelik değil):",
+          "Pro, Family Sharing aracılığıyla ailenizle paylaşılır.",
+          "Promosyon kodları, Pro satın almayla aynı erişimi sağlar. Her promosyon kodu cihaz başına bir kez kullanılabilir."
+        ],
+        "bullets": [
+          "TIFF ve AVIF çıktı formatları",
+          "Sınırsız toplu dönüştürme",
+          "Görsel başına ayar geçersiz kılma",
+          "Meta veri gizlilik kontrolleri",
+          "Share Extension'da toplu dönüştürme"
+        ]
+      },
+      {
+        "heading": "Satın Almalar",
+        "paragraphs": [
+          "Tüm satın almalar Apple tarafından StoreKit 2 aracılığıyla işlenir ve Apple'ın hüküm ve koşullarına tabidir.",
+          "Pro yükseltmesi, tek seferlik tüketilemeyen bir satın almadır — abonelik değildir. Bir kez ödersiniz ve sonsuza kadar sahip olursunuz.",
+          "Bahşişler, geliştirmeyi destekleyen isteğe bağlı tüketilebilir satın almalardır. Herhangi bir ek özelliğin kilidini açmazlar.",
+          "Tüm satışlar kesindir. İade talepleri Apple'a yönlendirilmelidir. Satın almalarınızı Ayarlar'dan istediğiniz zaman geri yükleyebilirsiniz."
+        ]
+      },
+      {
+        "heading": "Kabul Edilebilir Kullanım",
+        "paragraphs": ["Aşağıdakileri yapmamayı kabul edersiniz:"],
+        "bullets": [
+          "Uygulamayı tersine mühendislik yapmak, derlemeyi çözmek veya parçalara ayırmak",
+          "Uygulamayı herhangi bir yasadışı amaçla kullanmak",
+          "Herhangi bir sınırlamayı veya kısıtlamayı atlatmaya çalışmak"
+        ]
+      },
+      {
+        "heading": "Sorumluluk Reddi",
+        "paragraphs": [
+          "Image Converter Plus, hiçbir türde garanti olmaksızın \u201cOlduğu gibi\u201d sağlanır. Uygulamanın hatasız veya kesintisiz olacağını garanti etmiyoruz.",
+          "Herhangi bir veri veya görsel kaybından sorumlu değiliz. Lütfen önemli dosyalarınızın yedeklerini saklayın."
+        ]
+      },
+      {
+        "heading": "Sorumluluğun Sınırlandırılması",
+        "paragraphs": [
+          "Yasaların izin verdiği azami ölçüde, geliştirici, uygulamayı kullanımınızdan kaynaklanan dolaylı, arızi, özel veya sonuçsal zararlardan sorumlu tutulamaz."
+        ]
+      },
+      {
+        "heading": "Değişiklikler",
+        "paragraphs": [
+          "Bu şartları zaman zaman güncelleyebiliriz. Değişikliklerden sonra uygulamayı kullanmaya devam etmeniz, yeni şartların kabul edildiği anlamına gelir."
+        ]
+      },
+      {
+        "heading": "İletişim",
+        "paragraphs": [
+          "Sorularınız mı var? <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a> adresinden bize ulaşın."
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Yardım", "title": "Destek", "href": "support.html" },
+      { "label": "Hukuki", "title": "Gizlilik Politikası", "href": "privacy.html" }
+    ],
+    "lastUpdated": "Son güncelleme: Mart 2026"
+  },
+  "support": {
+    "meta": {
+      "title": "Destek - Image Converter Plus",
+      "description": "Image Converter Plus hakkında yardım alın. Fotoğraflarınızı dönüştürme, yeniden boyutlandırma ve koruma hakkında sık sorulan soruların yanıtlarını bulun."
+    },
+    "hero": {
+      "title": "Destek",
+      "subtitle": "Fotoğraflarınızı dönüştürme, yeniden boyutlandırma ve koruma hakkında sık sorulan soruların yanıtlarını bulun.",
+      "contactBtn": "Bize Ulaşın"
+    },
+    "formats": {
+      "label": "Formatlar",
+      "title": "Beş format, tek uygulama.",
+      "description": "Tam kalite kontrolüyle en popüler görsel formatları arasında dönüştürün."
+    },
+    "faq": {
+      "categories": [
+        {
+          "title": "Başlarken",
+          "items": [
+            {
+              "question": "Görselleri nasıl dönüştürürüm?",
+              "answer": "Görselleri içe aktarmak için Fotoğraflar veya Dosyalar düğmesine dokunun. Çıktı formatınızı ve kalitenizi seçin, ardından Dönüştür'e dokunun. Dönüştürülen görseller, kaydedebileceğiniz veya paylaşabileceğiniz Geçmiş sekmesinde görünür."
+            },
+            {
+              "question": "Birden fazla görseli aynı anda dönüştürebilir miyim?",
+              "answer": "Evet. İstediğiniz kadar görsel seçin ve hepsini tek bir toplu işlemde dönüştürün. Her görselin kendi format, kalite, boyut ve dosya adı ayarları olabilir."
+            },
+            {
+              "question": "iCloud Drive veya diğer uygulamalardan içe aktarabilir miyim?",
+              "answer": "Evet. iCloud Drive, Dropbox, Google Drive veya cihazınızdaki herhangi bir dosya sağlayıcısında gezinmek için Dosyalar düğmesine dokunun. Ayrıca diğer uygulamalardan doğrudan görsel dönüştürmek için Share Extension'ı da kullanabilirsiniz."
+            }
+          ]
+        },
+        {
+          "title": "Dönüştürme Ayarları",
+          "items": [
+            {
+              "question": "Kalite kaydırıcısı ne işe yarar?",
+              "answer": "Kalite kaydırıcısı, JPEG, HEIC ve AVIF formatları için sıkıştırmayı kontrol eder. Daha yüksek değerler, daha büyük dosya boyutlarında daha iyi kalite üretir. PNG ve TIFF her zaman kayıpsızdır ve bu ayarı yoksayar."
+            },
+            {
+              "question": "Görselleri nasıl yeniden boyutlandırırım?",
+              "answer": "Görselleri orijinal boyutların %50 ile %200'ü arasında ölçeklendirmek için boyut ayarını kullanın. Tüm görseller için bir varsayılan belirleyebilir veya her birini ayrı ayrı özelleştirebilirsiniz."
+            },
+            {
+              "question": "Dönüştürme sırasında dosyaları yeniden adlandırabilir miyim?",
+              "answer": "Evet. Bir adlandırma kuralı kullanarak tüm dönüştürülen dosyalara önek veya sonek ekleyebilir ya da dönüştürmeden önce her görseli ayrı ayrı yeniden adlandırabilirsiniz."
+            },
+            {
+              "question": "Ön ayarlar nedir?",
+              "answer": "Ön ayarlar, tek dokunuşla dönüştürme için format, kalite, boyut ve adlandırma ayarlarının bir kombinasyonunu kaydeder. Uygulama 4 yerleşik ön ayar içerir; bunları Ayarlar'da yeniden sıralayabilir veya gizleyebilirsiniz."
+            }
+          ]
+        },
+        {
+          "title": "Gizlilik ve Meta Veriler",
+          "items": [
+            {
+              "question": "Görsellerden meta verileri kaldırabilir miyim?",
+              "answer": "Evet. Image Converter Plus, GPS konumu, kamera bilgisi, zaman damgaları, yazar ayrıntıları, cihaz tanımlayıcıları, düzenleme geçmişi ve gömülü küçük resimler dahil olmak üzere EXIF verilerini silebilir. Ön ayarlı gizlilik modlarından birini seçin veya tam olarak neyin kaldırılacağını özelleştirin."
+            },
+            {
+              "question": "Görsellerim bir yere yükleniyor mu?",
+              "answer": "Hayır. Tüm işleme tamamen cihazınızda gerçekleşir. Sunucu yok, yükleme yok, analitik yok ve reklam yok. Uygulama tamamen çevrimdışı çalışır — internet bağlantısı yalnızca satın alma yapmak için gereklidir."
+            }
+          ]
+        },
+        {
+          "title": "Kaydetme ve Paylaşma",
+          "items": [
+            {
+              "question": "Dönüştürülen görsellerim nereye kaydedilir?",
+              "answer": "Dönüştürülen görseller, uygulamanın Geçmiş sekmesine kaydedilir. Buradan Fotoğraf Kütüphanenize kaydedebilir, Dosyalar'a aktarabilir veya AirDrop, Mesajlar, Posta ve daha fazlası aracılığıyla paylaşabilirsiniz."
+            },
+            {
+              "question": "Share Extension nasıl çalışır?",
+              "answer": "Herhangi bir uygulamada görselleri seçin, Paylaş düğmesine dokunun ve Image Converter Plus'ı seçin. Görselleriniz, ana uygulamayı açmadan varsayılan ön ayarınız kullanılarak dönüştürülür. Pro kullanıcılar Paylaşım Sayfası'ndan birden fazla görseli aynı anda dönüştürebilir."
+            },
+            {
+              "question": "Eski dönüştürmeleri otomatik silebilir miyim?",
+              "answer": "Evet. Ayarlar'a gidin ve otomatik silme süresi seçin — 7 gün, 30 gün, 90 gün veya hiçbir zaman. Depolama alanından tasarruf etmek için eski dönüştürmeler otomatik olarak kaldırılır."
+            }
+          ]
+        },
+        {
+          "title": "Pro",
+          "items": [
+            {
+              "question": "Pro yükseltmesinde neler var?",
+              "answer": "Pro, TIFF ve AVIF formatlarını, tam meta veri ve gizlilik kontrollerini, görsel başına ayar geçersiz kılmalarını ve Share Extension'da toplu dönüştürmeyi açan tek seferlik bir satın almadır. Abonelik yoktur — ve Family Sharing aracılığıyla ailenizle paylaşılır."
+            },
+            {
+              "question": "Satın almamı nasıl geri yüklerim?",
+              "answer": "Ayarlar'a gidin ve Satın Almaları Geri Yükle'ye dokunun. Orijinal satın alma için kullandığınız Apple Account ile oturum açtığınızdan emin olun. Bir Aile Paylaşımı grubunun parçasıysanız satın alma otomatik olarak paylaşılır."
+            }
+          ]
+        },
+        {
+          "title": "Sorun Giderme",
+          "items": [
+            {
+              "question": "Uygulama düzgün çalışmıyor.",
+              "answer": "Uygulamayı kapatıp yeniden açmayı deneyin. Sorun devam ederse cihazınızı yeniden başlatın ve App Store'dan en son sürümü çalıştırdığınızdan emin olun. Hâlâ sorun yaşıyor musunuz? Ne olduğuna dair ayrıntılarla bize ulaşın, yardımcı olacağız."
+            },
+            {
+              "question": "Bir dönüştürme başarısız oldu. Ne yapmalıyım?",
+              "answer": "Cihazınızda yeterli boş depolama alanı olduğundan emin olun. Çok büyük görseller daha fazla kullanılabilir alan gerektirebilir. Daha az görsel dönüştürmeyi veya çıktı boyutunu küçültmeyi deneyin. Sorun devam ederse görsel formatı ve boyutuyla birlikte bize ulaşın."
+            },
+            {
+              "question": "Pro satın almam görünmüyor.",
+              "answer": "Ayarlar'a gidin ve Satın Almaları Geri Yükle'ye dokunun. İnternete bağlı olduğunuzdan ve doğru Apple Account ile oturum açtığınızdan emin olun. Family Sharing aracılığıyla satın aldıysanız paylaşımın aile grubunuzda hâlâ etkin olduğundan emin olun."
+            }
+          ]
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Sistem Gereksinimleri",
+      "items": [
+        "iOS 16.0 veya üstü",
+        "iPhone ve iPad ile uyumlu",
+        "Tamamen çevrimdışı çalışır — internet bağlantısı gerekmez"
+      ]
+    },
+    "links": [
+      { "label": "Hukuki", "title": "Gizlilik Politikası", "href": "privacy.html" },
+      { "label": "Hukuki", "title": "Kullanım Şartları", "href": "terms.html" }
+    ],
+    "lastUpdated": "Son güncelleme: Mart 2026"
+  }
+}

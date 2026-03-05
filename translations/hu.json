@@ -1,0 +1,431 @@
+{
+  "_meta": { "lang": "hu", "dir": "ltr" },
+  "nav": {
+    "title": "Image Converter Plus",
+    "privacy": "Adatvédelmi irányelvek",
+    "terms": "Felhasználási feltételek",
+    "support": "Támogatás"
+  },
+  "index": {
+    "meta": {
+      "title": "Image Converter Plus — Konvertáld, méretezd és védd meg a fotóidat",
+      "description": "Konvertálj képeket JPEG, PNG, HEIC, TIFF és AVIF formátumok között. Állítsd be a minőséget, méretezd át és távolítsd el a metaadatokat — mindent az eszközödön."
+    },
+    "hero": {
+      "headline": "Konvertálj. Méretezz.<br>Védd meg.",
+      "subtitle": "Kötegelt képkonvertálás adatvédelmi vezérlőkkel — teljes egészében az eszközödön.",
+      "badgeAlt": "Letöltés az App Store-ból",
+      "availability": "Elérhető iPhone-on és iPaden. iOS 16 vagy újabb szükséges."
+    },
+    "formats": {
+      "eyebrow": "5 kimeneti formátum",
+      "headline": "Minden szükséges formátum.",
+      "body": "Konvertálj a legnépszerűbb képformátumok között. Válaszd ki a megfelelő egyensúlyt a minőség, a kompatibilitás és a fájlméret között."
+    },
+    "features": {
+      "eyebrow": "Funkciók",
+      "headline": "Pontosság minden lépésben.",
+      "body": "Finomhangold a minőséget, méretezz át, nevezz át és nézd meg az előnézetet — még az első kép konvertálása előtt.",
+      "cards": [
+        {
+          "icon": "&#9881;&#65039;",
+          "title": "Minőségvezérlés",
+          "description": "Állítsd be a minőséget 40%-tól 100%-ig veszteséges formátumoknál. A becsült fájlméret valós időben frissül."
+        },
+        {
+          "icon": "&#8596;&#65039;",
+          "title": "Átméretezés",
+          "description": "Méretezd a képeket 50%-tól 200%-ig. Állíts be egyéni értékeket képenként, vagy alkalmazz egy beállítást az egész kötegre."
+        },
+        {
+          "icon": "&#128196;",
+          "title": "Fájlnevezés",
+          "description": "Adj előtagot vagy utótagot a konvertált fájlokhoz. Nevezd el az egyes képeket egyenként, vagy alkalmazz egy szabályt mindegyikre."
+        },
+        {
+          "icon": "&#9889;",
+          "title": "Előbeállítások",
+          "description": "4 beépített előbeállítás az egykattintásos konvertáláshoz. Személyre szabhatod a formátumot, minőséget, méretet és elnevezést mindegyikben."
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "Adatvédelem",
+      "headline": "A fotóid többet rejtenek,<br>mint gondolnád.",
+      "body": "GPS-koordináták. Kamera típusa. Időbélyegzők. Az Image Converter Plus eltávolítja a rejtett metaadatokat, mielőtt megosztanád — részletes vezérléssel azt illetően, mi maradjon meg és mi törlődjön.",
+      "items": [
+        { "icon": "&#128205;", "title": "Helyszín", "description": "GPS-koordináták és helységnevek" },
+        { "icon": "&#128247;", "title": "Kamera", "description": "Dátum, idő és felvételi beállítások" },
+        { "icon": "&#9997;&#65039;", "title": "Szerző", "description": "Feliratok, kulcsszavak és alkotó" },
+        { "icon": "&#128241;", "title": "Eszköz", "description": "Modellnév és azonosítók" },
+        { "icon": "&#128736;&#65039;", "title": "Szerkesztések", "description": "Szerkesztési előzmények és szoftveradatok" },
+        { "icon": "&#128444;&#65039;", "title": "Előnézetek", "description": "Beágyazott miniatűrök" }
+      ]
+    },
+    "workflow": {
+      "eyebrow": "Munkafolyamat",
+      "headline": "Illeszkedik a munkafolyamatodba.",
+      "shareTitle": "Share Extension",
+      "shareBody": "Konvertálj képeket az alkalmazás megnyitása nélkül. Válassz fotókat bármely alkalmazásban, koppints a Megosztás gombra, és egy lépésben konvertálj. Pro felhasználók kötegelt konvertálást és minden formátumot elérhetnek közvetlenül a megosztási panelből.",
+      "historyTitle": "Konvertálási előzmények",
+      "historyBody": "Minden konvertálás egy miniatűrrel kerül mentésre. Bármikor exportálhatod újra a Fotókba, a Fájlokba vagy a megosztási panelbe. Állíts be automatikus törlést a régi konvertálások automatikus eltávolításához."
+    },
+    "onDevice": {
+      "eyebrow": "Eszközön",
+      "headline": "Nincs szerver. Nincs feltöltés.<br>Nincs követés.",
+      "body": "Minden kép helyi feldolgozása az eszközödön történik. Nincs felhőszolgáltatás, nincs analitika és nincs reklám. Internetkapcsolat csak vásárláshoz szükséges."
+    },
+    "pro": {
+      "eyebrow": "Pro",
+      "headline": "Oldd fel az összeset.<br>Egyszer.",
+      "body": "Egyszeri vásárlás. Nincs előfizetés. Nincsenek ismétlődő díjak. Megosztható a családdal a Family Sharing segítségével.",
+      "features": [
+        {
+          "icon": "&#128194;",
+          "title": "TIFF és AVIF",
+          "description": "Oldd fel mind az öt kimeneti formátumot minden felhasználási esethez."
+        },
+        {
+          "icon": "&#128274;",
+          "title": "Metaadatok eltávolítása",
+          "description": "Teljes EXIF és metaadat-eltávolítás három adatvédelmi előbeállítással."
+        },
+        {
+          "icon": "&#127384;",
+          "title": "Kötegelt Share Extension",
+          "description": "Konvertálj több képet egyszerre közvetlenül a megosztási panelből."
+        }
+      ],
+      "price": "$9.99",
+      "priceNote": "Egyszeri vásárlás. Family Sharing mellékelve."
+    },
+    "accessibility": {
+      "eyebrow": "Akadálymentesség",
+      "headline": "Mindenki számára tervezve.",
+      "body": "Az akadálymentesség az alapoktól be van építve. 60 nyelven érhető el, beépített nyelvválasztóval.",
+      "badges": ["VoiceOver", "Dynamic Type", "Haptikus visszajelzés", "60 nyelv"]
+    },
+    "bottomCta": {
+      "headline": "Kezdj el ingyenesen konvertálni."
+    },
+    "footer": {
+      "copyright": "\u00a9 2026 Denys Lebiediev"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Adatvédelmi irányelvek - Image Converter Plus",
+      "description": "Az Image Converter Plus adatvédelmi irányelvei. Minden képfeldolgozás az eszközödön történik — semmi nem kerül feltöltésre, követésre vagy megosztásra."
+    },
+    "hero": {
+      "title": "Adatvédelmi irányelvek",
+      "subtitle": "A fotóid a tiéid maradnak. Minden az eszközödön kerül feldolgozásra — semmi nem kerül feltöltésre, követésre vagy megosztásra."
+    },
+    "cards": [
+      {
+        "heading": "Az eszközödön",
+        "paragraphs": ["Minden képed, konvertálási előzményed és beállításod kizárólag ezen az eszközön kerül tárolásra. Semmi sem hagyja el az eszközt az explicit műveleteid nélkül."],
+        "bullets": [
+          "Importált és konvertált képek az alkalmazás sandbox tárhelyén",
+          "Konvertálási előzmények és miniatűrök",
+          "Formátum-, minőség- és átméretezési beállításaid",
+          "Ideiglenes fájlok a <code>/var/tmp/</code> mappában — minden indításkor automatikusan törlődnek",
+          "Keychain tárolás — csak a beváltott promókódok kivonata, soha maga a kód",
+          "App Group tároló — kizárólag a Pro vásárlás állapotát osztja meg a Share Extension bővítménnyel"
+        ]
+      },
+      {
+        "heading": "Mit nem gyűjtünk",
+        "paragraphs": ["Az Image Converter Plus nem gyűjt semmilyen személyes adatot. Nem tudjuk, ki vagy, mit konvertálsz, vagy hogyan használod az alkalmazást."],
+        "bullets": [
+          "Nincs személyes adat",
+          "Nincsenek eszközazonosítók",
+          "Nincs használati analitika",
+          "Nincs helyadat",
+          "Nincs reklám vagy követés"
+        ]
+      },
+      {
+        "heading": "Fotók és képek",
+        "paragraphs": [
+          "Amikor fotókat választasz ki, az Image Converter Plus kizárólag a kiválasztott képeket látja — soha nem a teljes könyvtáradat. Az alkalmazás korlátozott fotókönyvtár-hozzáférést használ, és csak a kiválasztott elemek <code>localIdentifiers</code> azonosítóit tárolja.",
+          "Ha egy kiválasztott fotó az iCloudban van tárolva, az alkalmazás ideiglenesen letölti az eszközödre, 2 perces időkorláttal. Ezek az ideiglenes másolatok indításkor automatikusan törlődnek.",
+          "Minden képfeldolgozás helyi szinten, az eszközöd hardverét használva történik. A konvertált képek az eszközödre kerülnek mentésre, és csak akkor kerülnek megosztásra, amikor te döntesz így.",
+          "A konvertált képekből eltávolíthatod a metaadatokat (EXIF, GPS, kamerainformáció, időbélyegzők, szerzői adatok, eszközazonosítók, szerkesztési előzmények és beágyazott miniatűrök), hogy megvédd az adatvédelmedet megosztáskor."
+        ]
+      },
+      {
+        "heading": "Vásárlások",
+        "paragraphs": [
+          "A vásárlásokat teljes egészében az Apple kezeli a StoreKit 2 rendszeren keresztül. Soha nem látjuk a fizetési adataidat, Apple-fiókodat vagy számlázási adataidat.",
+          "A vásárlás állapota helyi szinten kerül ellenőrzésre az Apple kriptográfiai tranzakció-ellenőrzésével. A vásárlások érvényesítéséhez nem történik szerverkommunikáció.",
+          "A promókódok helyi szinten kerülnek érvényesítésre HMAC segítségével — csak egy kriptográfiai kivonat kerül tárolásra a Keychainben, soha maga a kód."
+        ]
+      },
+      {
+        "heading": "Share Extension",
+        "paragraphs": [
+          "A Share Extension a főalkalmazástól elkülönített folyamatként fut. A képeket az alapértelmezett előbeállítással konvertálja közvetlenül a rendszer megosztási paneljéből.",
+          "A bővítmény által létrehozott ideiglenes fájlok használat után törlődnek. A bővítmény nem tárolja a konvertálási előzményeket. Az egyetlen adat, amelyet a főalkalmazás és a bővítmény az App Group tárolón keresztül megoszt, a Pro vásárlás állapota."
+        ]
+      },
+      {
+        "heading": "Adatmegőrzés",
+        "paragraphs": [
+          "Te felügyeled az adataidat. A konvertálási előzményeket bármikor törölheted az Előzmények lapfülről. Az automatikus törlés a Beállításokban érhető el — válassz 7 napot, 30 napot, 90 napot, vagy tartsd meg a konvertálásokat örökre.",
+          "Minden indításkor az alkalmazás törli az árva fájlokat (importált, kimeneti és miniatűr fájlok, amelyek nincsenek előzményrekordhoz kapcsolva) és eltávolítja az ideiglenes könyvtárakat.",
+          "Az alkalmazás törlése eltávolítja az összes kapcsolódó adatot — képeket, előzményeket, beállításokat és az App Group tárolóját. Az egyetlen kivétel egy kis Keychain bejegyzés (promókód kivonat), amely az iOS Keychain elemekre jellemző módon megmarad a telepítések között."
+        ]
+      },
+      {
+        "heading": "Harmadik felek szolgáltatásai",
+        "paragraphs": [
+          "Az Image Converter Plus kizárólag az Apple beépített keretrendszereit használja. Nincsenek harmadik féltől származó analitikai, reklám SDK-k vagy külső követési eszközök.",
+          "Az alkalmazás teljesen offline működik. Internetkapcsolat csak vásárláskor szükséges."
+        ]
+      },
+      {
+        "heading": "Adatvédelmi nyilatkozat",
+        "paragraphs": [
+          "Az alkalmazás tartalmaz egy Apple Adatvédelmi Nyilatkozatot, amely deklarálja a <code>NSPrivacyTracking: false</code> értéket. Semmilyen adattípus nem kerül gyűjtésre vagy követésre, és nem történik kapcsolat követési doménekkel."
+        ]
+      },
+      {
+        "heading": "Kapcsolat",
+        "paragraphs": [
+          "Adatvédelmi kérdések? Fordulj hozzánk bármikor: <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Súgó", "title": "Támogatás", "href": "support.html" },
+      { "label": "Jogi", "title": "Felhasználási feltételek", "href": "terms.html" }
+    ],
+    "lastUpdated": "Utoljára frissítve: 2026. március"
+  },
+  "terms": {
+    "meta": {
+      "title": "Felhasználási feltételek - Image Converter Plus",
+      "description": "Az Image Converter Plus felhasználási feltételei. Olvasd el a licencet, a vásárlási feltételeket és az alkalmazás használatára vonatkozó irányelveket."
+    },
+    "hero": {
+      "title": "Felhasználási feltételek",
+      "subtitle": "Image Converter Plus iOS-re"
+    },
+    "cards": [
+      {
+        "heading": "Megállapodás",
+        "paragraphs": ["Az Image Converter Plus letöltésével vagy használatával elfogadod ezeket a feltételeket. Ha nem értesz egyet, kérjük, ne használd az alkalmazást."]
+      },
+      {
+        "heading": "Licenc",
+        "paragraphs": [
+          "Az Image Converter Plus korlátozott, nem kizárólagos, nem átruházható licencet biztosít számodra az alkalmazás személyes, nem kereskedelmi célú használatára az általad tulajdonolt vagy irányított eszközökön.",
+          "Ez a licenc kiterjed a Share Extension bővítményre (\u201cKonvertálás az Image Converter Plus segítségével\u201d), amely az alkalmazás részét képezi. Az alkalmazáshoz iOS 16.0 vagy újabb szükséges."
+        ]
+      },
+      {
+        "heading": "A te tartalmad",
+        "paragraphs": [
+          "Megőrzöd minden jogot az Image Converter Plus segítségével konvertált képeidhez. Az alkalmazás nem igényel tulajdonjogot a tartalmaidra.",
+          "Te felelsz azért, hogy jogod legyen az alkalmazásba importált képek használatára és konvertálására."
+        ]
+      },
+      {
+        "heading": "Ingyenes és Pro szintek",
+        "paragraphs": [
+          "Az Image Converter Plus ingyenesen letölthető és használható. Az ingyenes szint tartalmazza a JPEG, PNG és HEIC formátumok közötti konvertálást, egyszerre egy képet.",
+          "A Pro egyszeri vásárlás (nem előfizetés), amely feloldja a következőket:",
+          "A Pro megosztható a családdal a Family Sharing segítségével.",
+          "A promókódok ugyanolyan hozzáférést biztosítanak, mint a Pro vásárlás. Minden promókód eszközönként egyszer váltható be."
+        ],
+        "bullets": [
+          "TIFF és AVIF kimeneti formátumok",
+          "Korlátlan kötegelt konvertálás",
+          "Képenkénti beállítás-felülbírálatok",
+          "Metaadat-adatvédelmi vezérlők",
+          "Kötegelt konvertálás a Share Extension bővítményben"
+        ]
+      },
+      {
+        "heading": "Vásárlások",
+        "paragraphs": [
+          "Minden vásárlást az Apple dolgoz fel a StoreKit 2 rendszeren keresztül, és az Apple feltételeire és kikötéseire vonatkoznak.",
+          "A Pro frissítés egyszeri, nem fogyasztható vásárlás — nem előfizetés. Egyszer fizetsz, és örökre megtartod.",
+          "A borravalók opcionális fogyasztható vásárlások, amelyek a fejlesztést támogatják. Nem oldanak fel semmilyen további funkciót.",
+          "Minden értékesítés végleges. A visszatérítési kérelmeket az Apple-hez kell benyújtani. A vásárlásaidat bármikor visszaállíthatod a Beállításokból."
+        ]
+      },
+      {
+        "heading": "Elfogadható használat",
+        "paragraphs": ["Elfogadod, hogy nem fogsz:"],
+        "bullets": [
+          "Visszafejteni, dekompilálni vagy szétszedni az alkalmazást",
+          "Az alkalmazást törvénytelen célra használni",
+          "Megkísérelni megkerülni bármilyen korlátozást vagy megszorítást"
+        ]
+      },
+      {
+        "heading": "Jogi nyilatkozat",
+        "paragraphs": [
+          "Az Image Converter Plus \u201cajánlott állapotban\u201d kerül biztosításra, bármilyen garancia nélkül. Nem garantáljuk, hogy az alkalmazás hibamentes vagy megszakítás nélküli lesz.",
+          "Nem vállalunk felelősséget semmilyen adatvesztésért vagy képvesztésért. Kérjük, készíts biztonsági másolatot a fontos fájlokról."
+        ]
+      },
+      {
+        "heading": "Felelősség korlátozása",
+        "paragraphs": [
+          "A törvény által megengedett maximális mértékig a fejlesztő nem vállal felelősséget semmilyen közvetett, véletlenszerű, különleges vagy következményes kárért, amely az alkalmazás használatából ered."
+        ]
+      },
+      {
+        "heading": "Változások",
+        "paragraphs": [
+          "Időnként frissíthetjük ezeket a feltételeket. A változások utáni folyamatos alkalmazáshasználat az új feltételek elfogadásának minősül."
+        ]
+      },
+      {
+        "heading": "Kapcsolat",
+        "paragraphs": [
+          "Kérdések? Írj nekünk: <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Súgó", "title": "Támogatás", "href": "support.html" },
+      { "label": "Jogi", "title": "Adatvédelmi irányelvek", "href": "privacy.html" }
+    ],
+    "lastUpdated": "Utoljára frissítve: 2026. március"
+  },
+  "support": {
+    "meta": {
+      "title": "Támogatás - Image Converter Plus",
+      "description": "Kérj segítséget az Image Converter Plus-hoz. Találj válaszokat a képek konvertálásával, átméretezésével és védelmével kapcsolatos gyakori kérdésekre."
+    },
+    "hero": {
+      "title": "Támogatás",
+      "subtitle": "Találj válaszokat a képek konvertálásával, átméretezésével és védelmével kapcsolatos gyakori kérdésekre.",
+      "contactBtn": "Kapcsolatfelvétel"
+    },
+    "formats": {
+      "label": "Formátumok",
+      "title": "Öt formátum, egy alkalmazás.",
+      "description": "Konvertálj a legnépszerűbb képformátumok között teljes minőségvezérléssel."
+    },
+    "faq": {
+      "categories": [
+        {
+          "title": "Első lépések",
+          "items": [
+            {
+              "question": "Hogyan konvertálhatok képeket?",
+              "answer": "Koppints a Fotók vagy Fájlok gombra a képek importálásához. Válaszd ki a kimeneti formátumot és a minőséget, majd koppints a Konvertálás gombra. A konvertált képek megjelennek az Előzmények lapfülön, ahol mentheted vagy megoszthatod őket."
+            },
+            {
+              "question": "Konvertálhatok több képet egyszerre?",
+              "answer": "Igen. Válassz ki annyi képet, amennyire szükséged van, és konvertáld őket egyetlen kötegben. Minden képnek saját formátum-, minőség-, méret- és fájlnév-beállításai lehetnek."
+            },
+            {
+              "question": "Importálhatok az iCloud Drive-ból vagy más alkalmazásokból?",
+              "answer": "Igen. Koppints a Fájlok gombra az iCloud Drive, Dropbox, Google Drive vagy az eszközöd bármely fájlszolgáltatójának böngészéséhez. A Share Extension bővítményt is használhatod, hogy közvetlenül más alkalmazásokból konvertálj képeket."
+            }
+          ]
+        },
+        {
+          "title": "Konvertálási beállítások",
+          "items": [
+            {
+              "question": "Mit csinál a minőségcsúszka?",
+              "answer": "A minőségcsúszka vezérli a tömörítést JPEG, HEIC és AVIF formátumoknál. A magasabb értékek jobb minőséget eredményeznek nagyobb fájlméret mellett. A PNG és TIFF mindig veszteségmentes, és figyelmen kívül hagyja ezt a beállítást."
+            },
+            {
+              "question": "Hogyan méretezhetem át a képeket?",
+              "answer": "Használd a méretbeállítást a képek 50%-tól 200%-ig való méretezéséhez az eredeti méretek alapján. Beállíthatsz alapértéket az összes képhez, vagy testreszabhatod egyenként mindegyiket."
+            },
+            {
+              "question": "Átnevezhetem a fájlokat konvertálás közben?",
+              "answer": "Igen. Hozzáadhatsz előtagot vagy utótagot az összes konvertált fájlhoz egy elnevezési szabállyal, vagy átnevezhetsz minden képet egyenként a konvertálás előtt."
+            },
+            {
+              "question": "Mik azok az előbeállítások?",
+              "answer": "Az előbeállítások mentik a formátum, minőség, méret és elnevezési beállítások kombinációját az egykattintásos konvertáláshoz. Az alkalmazás 4 beépített előbeállítást tartalmaz, amelyeket átrendezhetsz vagy elrejthetsz a Beállításokban."
+            }
+          ]
+        },
+        {
+          "title": "Adatvédelem és metaadatok",
+          "items": [
+            {
+              "question": "Eltávolíthatom a metaadatokat a képekből?",
+              "answer": "Igen. Az Image Converter Plus képes eltávolítani az EXIF adatokat, beleértve a GPS-helyszínt, kamerainformációkat, időbélyegzőket, szerzői adatokat, eszközazonosítókat, szerkesztési előzményeket és beágyazott miniatűröket. Válassz előre beállított adatvédelmi módok közül, vagy személyre szabhatod, pontosan mit távolíts el."
+            },
+            {
+              "question": "Feltöltődnek a képeim valahova?",
+              "answer": "Nem. Minden feldolgozás teljesen az eszközödön történik. Nincsenek szerverek, nincsenek feltöltések, nincs analitika és nincs reklám. Az alkalmazás teljesen offline működik — internetkapcsolat csak vásárláshoz szükséges."
+            }
+          ]
+        },
+        {
+          "title": "Mentés és megosztás",
+          "items": [
+            {
+              "question": "Hova mentődnek a konvertált képeim?",
+              "answer": "A konvertált képek az alkalmazás Előzmények lapfülén kerülnek mentésre. Onnan mentheted őket a Fotókönyvtárba, exportálhatod a Fájlokba, vagy megoszthatod AirDrop, Üzenetek, Mail és egyebek segítségével."
+            },
+            {
+              "question": "Hogyan működik a Share Extension?",
+              "answer": "Válassz ki képeket bármely alkalmazásban, koppints a Megosztás gombra, és válaszd az Image Converter Plus lehetőséget. A képeid az alapértelmezett előbeállítással kerülnek konvertálásra a főalkalmazás megnyitása nélkül. Pro felhasználók egyszerre több képet is konvertálhatnak a megosztási panelből."
+            },
+            {
+              "question": "Automatikusan törölhetem a régi konvertálásokat?",
+              "answer": "Igen. Lépj a Beállításokba, és válassz automatikus törlési időszakot — 7 nap, 30 nap, 90 nap vagy soha. A régi konvertálások automatikusan törlődnek a tárhely megőrzése érdekében."
+            }
+          ]
+        },
+        {
+          "title": "Pro",
+          "items": [
+            {
+              "question": "Mit tartalmaz a Pro frissítés?",
+              "answer": "A Pro egyszeri vásárlás, amely feloldja a TIFF és AVIF formátumokat, a teljes metaadat- és adatvédelmi vezérlőket, a képenkénti beállítás-felülbírálatokat és a kötegelt konvertálást a Share Extension bővítményben. Nincs előfizetés — és megosztható a családdal a Family Sharing segítségével."
+            },
+            {
+              "question": "Hogyan állíthatom vissza a vásárlásomat?",
+              "answer": "Lépj a Beállításokba, és koppints a Vásárlások visszaállítása gombra. Győződj meg arról, hogy be vagy jelentkezve ugyanazzal az Apple-fiókkal, amelyet az eredeti vásárláshoz használtál. Ha egy Family Sharing csoporthoz tartozol, a vásárlás automatikusan megosztásra kerül."
+            }
+          ]
+        },
+        {
+          "title": "Hibaelhárítás",
+          "items": [
+            {
+              "question": "Az alkalmazás nem működik megfelelően.",
+              "answer": "Próbáld meg bezárni és újra megnyitni az alkalmazást. Ha a probléma fennmarad, indítsd újra az eszközt, és győződj meg arról, hogy az App Store legújabb verzióját futtatod. Még mindig gondod van? Vedd fel velünk a kapcsolatot a részletekkel arról, mi történik, és segítünk."
+            },
+            {
+              "question": "Egy konvertálás meghiúsult. Mit tegyek?",
+              "answer": "Győződj meg arról, hogy az eszközödön elegendő szabad tárhely van. A nagyon nagy képek több szabad helyet igényelhetnek. Próbálj meg egyszerre kevesebb képet konvertálni, vagy csökkentsd a kimeneti méretet. Ha a probléma folytatódik, vedd fel velünk a kapcsolatot a kép formátumával és méretével."
+            },
+            {
+              "question": "A Pro vásárlásom nem jelenik meg.",
+              "answer": "Lépj a Beállításokba, és koppints a Vásárlások visszaállítása gombra. Győződj meg arról, hogy csatlakozol az internethez, és be vagy jelentkezve a megfelelő Apple-fiókkal. Ha a Family Sharing segítségével vásároltál, győződj meg arról, hogy a megosztás még aktív a családi csoportodban."
+            }
+          ]
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Rendszerkövetelmények",
+      "items": [
+        "iOS 16.0 vagy újabb",
+        "Kompatibilis iPhone-nal és iPaddel",
+        "Teljesen offline működik — nincs szükség internetkapcsolatra"
+      ]
+    },
+    "links": [
+      { "label": "Jogi", "title": "Adatvédelmi irányelvek", "href": "privacy.html" },
+      { "label": "Jogi", "title": "Felhasználási feltételek", "href": "terms.html" }
+    ],
+    "lastUpdated": "Utoljára frissítve: 2026. március"
+  }
+}

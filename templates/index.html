@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="{{__lang__}}" dir="{{__dir__}}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{index.meta.title}}</title>
+    <meta name="description" content="{{index.meta.description}}">
+    <meta property="og:title" content="{{nav.title}}">
+    <meta property="og:description" content="{{index.meta.description}}">
+    <meta property="og:type" content="website">
+    {{{__hreflang_tags__}}}
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/landing.css">
+    {{{__rtl_css__}}}
+</head>
+<body>
+
+<!-- Nav -->
+<nav>
+    <div class="nav-inner">
+        <a class="nav-title" href="index.html">{{nav.title}}</a>
+        <ul class="nav-links">
+            <li><a href="privacy.html">{{nav.privacy}}</a></li>
+            <li><a href="terms.html">{{nav.terms}}</a></li>
+            <li><a href="support.html">{{nav.support}}</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+    <img class="app-icon" src="../images/AppIcon.png" alt="{{index.hero.badgeAlt}}">
+    <h1>{{{index.hero.headline}}}</h1>
+    <p class="subtitle">{{index.hero.subtitle}}</p>
+    <div class="cta-group">
+        <a class="badge-link" href="https://apps.apple.com/app/image-converter-plus/id0000000000" aria-label="{{index.hero.badgeAlt}}">
+            <img src="{{__app_store_badge_url__}}" alt="{{index.hero.badgeAlt}}">
+        </a>
+    </div>
+    <p class="availability">{{index.hero.availability}}</p>
+</section>
+
+<!-- Formats -->
+<section id="formats">
+    <div class="section-inner fade-in" style="text-align: center;">
+        <p class="section-eyebrow">{{index.formats.eyebrow}}</p>
+        <h2 class="section-headline">{{index.formats.headline}}</h2>
+        <p class="section-body" style="margin: 0 auto 0;">{{index.formats.body}}</p>
+        <div class="formats-row">
+            <span class="format-badge">JPEG</span>
+            <span class="format-badge">PNG</span>
+            <span class="format-badge">HEIC</span>
+            <span class="format-badge">TIFF</span>
+            <span class="format-badge">AVIF</span>
+        </div>
+    </div>
+</section>
+
+<!-- Features -->
+<section id="features" style="background: var(--bg-secondary);">
+    <div class="section-inner fade-in">
+        <p class="section-eyebrow">{{index.features.eyebrow}}</p>
+        <h2 class="section-headline">{{index.features.headline}}</h2>
+        <p class="section-body">{{index.features.body}}</p>
+        <div class="feature-grid">
+            {{#each index.features.cards}}
+            <div class="feature-card">
+                <span class="card-icon" aria-hidden="true">{{{icon}}}</span>
+                <h3>{{title}}</h3>
+                <p>{{description}}</p>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</section>
+
+<!-- Privacy -->
+<section id="privacy" class="dark-section">
+    <div class="section-inner fade-in">
+        <p class="section-eyebrow" style="color: #30d158;">{{index.privacy.eyebrow}}</p>
+        <h2 class="section-headline">{{{index.privacy.headline}}}</h2>
+        <p class="section-body">{{index.privacy.body}}</p>
+        <div class="privacy-grid">
+            {{#each index.privacy.items}}
+            <div class="privacy-item">
+                <span class="item-icon" aria-hidden="true">{{{icon}}}</span>
+                <h4>{{title}}</h4>
+                <p>{{description}}</p>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</section>
+
+<!-- Share & History -->
+<section>
+    <div class="section-inner fade-in">
+        <p class="section-eyebrow">{{index.workflow.eyebrow}}</p>
+        <h2 class="section-headline">{{index.workflow.headline}}</h2>
+        <div class="split-section">
+            <div class="split-card">
+                <h3>{{index.workflow.shareTitle}}</h3>
+                <p>{{index.workflow.shareBody}}</p>
+            </div>
+            <div class="split-card">
+                <h3>{{index.workflow.historyTitle}}</h3>
+                <p>{{index.workflow.historyBody}}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- On-Device -->
+<section style="background: var(--bg-secondary);">
+    <div class="section-inner fade-in" style="text-align: center;">
+        <p class="section-eyebrow">{{index.onDevice.eyebrow}}</p>
+        <h2 class="section-headline">{{{index.onDevice.headline}}}</h2>
+        <p class="section-body" style="margin: 0 auto;">{{index.onDevice.body}}</p>
+    </div>
+</section>
+
+<!-- Pro -->
+<section id="pro" class="dark-section pro-section">
+    <div class="section-inner fade-in">
+        <p class="section-eyebrow">{{index.pro.eyebrow}}</p>
+        <h2 class="section-headline">{{{index.pro.headline}}}</h2>
+        <p class="section-body">{{index.pro.body}}</p>
+        <div class="pro-features">
+            {{#each index.pro.features}}
+            <div class="pro-feature">
+                <span class="pro-icon" aria-hidden="true">{{{icon}}}</span>
+                <div>
+                    <h4>{{title}}</h4>
+                    <p>{{description}}</p>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+        <div class="pro-price">
+            <span class="price">{{index.pro.price}}</span>
+            <p class="price-note">{{index.pro.priceNote}}</p>
+        </div>
+    </div>
+</section>
+
+<!-- Accessibility -->
+<section>
+    <div class="section-inner fade-in">
+        <p class="section-eyebrow">{{index.accessibility.eyebrow}}</p>
+        <h2 class="section-headline">{{index.accessibility.headline}}</h2>
+        <p class="section-body">{{index.accessibility.body}}</p>
+        <div class="a11y-badges">
+            {{#each index.accessibility.badges}}
+            <span class="a11y-badge">{{this}}</span>
+            {{/each}}
+        </div>
+    </div>
+</section>
+
+<!-- Bottom CTA -->
+<section class="bottom-cta">
+    <h2>{{index.bottomCta.headline}}</h2>
+    <div class="cta-group">
+        <a class="badge-link" href="https://apps.apple.com/app/image-converter-plus/id0000000000" aria-label="{{index.hero.badgeAlt}}">
+            <img src="{{__app_store_badge_url__}}" alt="{{index.hero.badgeAlt}}">
+        </a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-inner">
+        <span class="copyright">{{index.footer.copyright}}</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">{{nav.privacy}}</a></li>
+            <li><a href="terms.html">{{nav.terms}}</a></li>
+            <li><a href="support.html">{{nav.support}}</a></li>
+        </ul>
+    </div>
+</footer>
+
+<script>
+    // Fade-in on scroll
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>

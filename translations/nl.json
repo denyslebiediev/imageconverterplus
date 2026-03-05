@@ -1,0 +1,431 @@
+{
+  "_meta": { "lang": "nl", "dir": "ltr" },
+  "nav": {
+    "title": "Image Converter Plus",
+    "privacy": "Privacybeleid",
+    "terms": "Gebruiksvoorwaarden",
+    "support": "Ondersteuning"
+  },
+  "index": {
+    "meta": {
+      "title": "Image Converter Plus — Converteer, Vergroot en Bescherm je Foto's",
+      "description": "Converteer afbeeldingen tussen JPEG, PNG, HEIC, TIFF en AVIF. Pas kwaliteit aan, wijzig formaat en verwijder metadata — allemaal op je apparaat."
+    },
+    "hero": {
+      "headline": "Converteer. Vergroot.<br>Bescherm.",
+      "subtitle": "Batchgewijze afbeeldingsconversie met privacycontroles — volledig op je apparaat.",
+      "badgeAlt": "Download in de App Store",
+      "availability": "Beschikbaar op iPhone en iPad. Vereist iOS 16 of later."
+    },
+    "formats": {
+      "eyebrow": "5 Uitvoerformaten",
+      "headline": "Elk formaat dat je nodig hebt.",
+      "body": "Converteer tussen de populairste afbeeldingsformaten. Kies de juiste balans tussen kwaliteit, compatibiliteit en bestandsgrootte."
+    },
+    "features": {
+      "eyebrow": "Functies",
+      "headline": "Precisie op elke stap.",
+      "body": "Stel kwaliteit, formaat, naam en voorvertoning nauwkeurig in — allemaal vóórdat je ook maar één afbeelding converteert.",
+      "cards": [
+        {
+          "icon": "&#9881;&#65039;",
+          "title": "Kwaliteitsregeling",
+          "description": "Pas de kwaliteit aan van 40% tot 100% voor lossy-formaten. Zie de geschatte bestandsgrootte in real time bijwerken."
+        },
+        {
+          "icon": "&#8596;&#65039;",
+          "title": "Formaat wijzigen",
+          "description": "Schaal afbeeldingen van 50% tot 200%. Stel per afbeelding afwijkende instellingen in of pas een voorinstelling toe op de hele batch."
+        },
+        {
+          "icon": "&#128196;",
+          "title": "Bestandsnaamgeving",
+          "description": "Voeg een voor- of achtervoegsel toe aan geconverteerde bestanden. Geef elke afbeelding een eigen naam of pas een regel toe op alle bestanden."
+        },
+        {
+          "icon": "&#9889;",
+          "title": "Voorinstellingen",
+          "description": "4 ingebouwde voorinstellingen voor conversie met één tik. Pas formaat, kwaliteit, grootte en naamgeving per voorinstelling aan."
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "Privacy",
+      "headline": "Je foto's bevatten meer<br>dan je denkt.",
+      "body": "GPS-coördinaten. Cameramodel. Tijdstempels. Image Converter Plus verwijdert verborgen metadata voordat je deelt — met gedetailleerde controle over wat blijft en wat verdwijnt.",
+      "items": [
+        { "icon": "&#128205;", "title": "Locatie", "description": "GPS-coördinaten en plaatsnamen" },
+        { "icon": "&#128247;", "title": "Camera", "description": "Datum, tijd en opname-instellingen" },
+        { "icon": "&#9997;&#65039;", "title": "Auteur", "description": "Bijschriften, trefwoorden en maker" },
+        { "icon": "&#128241;", "title": "Apparaat", "description": "Modelnaam en identificatoren" },
+        { "icon": "&#128736;&#65039;", "title": "Bewerkingen", "description": "Bewerkingsgeschiedenis en software-informatie" },
+        { "icon": "&#128444;&#65039;", "title": "Voorvertoningen", "description": "Ingesloten miniaturen" }
+      ]
+    },
+    "workflow": {
+      "eyebrow": "Workflow",
+      "headline": "Naadloos in je workflow.",
+      "shareTitle": "Share Extension",
+      "shareBody": "Converteer afbeeldingen zonder de app te openen. Selecteer foto's in een willekeurige app, tik op Deel en converteer in één stap. Pro-gebruikers krijgen batchconversie en alle formaten rechtstreeks vanuit het deelmenu.",
+      "historyTitle": "Conversiegeschiedenis",
+      "historyBody": "Elke conversie wordt opgeslagen met een miniatuur. Exporteer opnieuw naar Foto's, Bestanden of het deelmenu wanneer je maar wilt. Stel automatisch verwijderen in om oude conversies automatisch op te ruimen."
+    },
+    "onDevice": {
+      "eyebrow": "Op Apparaat",
+      "headline": "Geen servers. Geen uploads.<br>Geen tracking.",
+      "body": "Elke afbeelding wordt lokaal op je apparaat verwerkt. Er zijn geen clouddiensten, geen analyses en geen advertenties. Een internetverbinding is alleen nodig om een aankoop te doen."
+    },
+    "pro": {
+      "eyebrow": "Pro",
+      "headline": "Ontgrendel alles.<br>Eenmalig.",
+      "body": "Één aankoop. Geen abonnement. Geen terugkerende kosten. Gedeeld met je familie via Family Sharing.",
+      "features": [
+        {
+          "icon": "&#128194;",
+          "title": "TIFF & AVIF",
+          "description": "Ontgrendel alle vijf uitvoerformaten voor elk gebruik."
+        },
+        {
+          "icon": "&#128274;",
+          "title": "Metadata verwijderen",
+          "description": "Volledige EXIF- en metadata-verwijdering met drie privacyvoorinstellingen."
+        },
+        {
+          "icon": "&#127384;",
+          "title": "Batch Share Extension",
+          "description": "Converteer meerdere afbeeldingen tegelijk rechtstreeks vanuit het deelmenu."
+        }
+      ],
+      "price": "$9.99",
+      "priceNote": "Eenmalige aankoop. Family Sharing inbegrepen."
+    },
+    "accessibility": {
+      "eyebrow": "Toegankelijkheid",
+      "headline": "Ontworpen voor iedereen.",
+      "body": "Gebouwd met toegankelijkheid als uitgangspunt. Beschikbaar in 60 talen met een taalkiezer in de app.",
+      "badges": ["VoiceOver", "Dynamic Type", "Haptische feedback", "60 talen"]
+    },
+    "bottomCta": {
+      "headline": "Begin gratis te converteren."
+    },
+    "footer": {
+      "copyright": "\u00a9 2026 Denys Lebiediev"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacybeleid - Image Converter Plus",
+      "description": "Privacybeleid van Image Converter Plus. Alle afbeeldingsverwerking vindt plaats op je apparaat — er wordt niets geüpload, bijgehouden of gedeeld."
+    },
+    "hero": {
+      "title": "Privacybeleid",
+      "subtitle": "Je foto's blijven van jou. Alles wordt op je apparaat verwerkt — er wordt niets geüpload, bijgehouden of gedeeld."
+    },
+    "cards": [
+      {
+        "heading": "Op je apparaat",
+        "paragraphs": ["Al je afbeeldingen, conversiegeschiedenis en voorkeuren worden uitsluitend op dit apparaat opgeslagen. Er verlaat niets je apparaat zonder je uitdrukkelijke actie."],
+        "bullets": [
+          "Geïmporteerde en geconverteerde afbeeldingen in de app-sandbox-opslag",
+          "Conversiegeschiedenis en miniaturen",
+          "Je voorkeuren voor formaat, kwaliteit en grootte",
+          "Tijdelijke bestanden in <code>/var/tmp/</code> — worden automatisch verwijderd bij elke start",
+          "Sleutelhanger-opslag — alleen een hash van ingewisselde promocodes, nooit de code zelf",
+          "App Group-container — deelt alleen de Pro-aankoopstatus met de Share Extension"
+        ]
+      },
+      {
+        "heading": "Wat we niet verzamelen",
+        "paragraphs": ["Image Converter Plus verzamelt geen persoonlijke informatie. We weten niet wie je bent, wat je converteert of hoe je de app gebruikt."],
+        "bullets": [
+          "Geen persoonlijke informatie",
+          "Geen apparaat-identificatoren",
+          "Geen gebruiksanalyses",
+          "Geen locatiegegevens",
+          "Geen reclame of tracking"
+        ]
+      },
+      {
+        "heading": "Foto's en afbeeldingen",
+        "paragraphs": [
+          "Wanneer je foto's selecteert, ziet Image Converter Plus alleen de specifieke afbeeldingen die je kiest — nooit je hele bibliotheek. De app gebruikt beperkte toegang tot de fotobibliotheek en slaat alleen <code>localIdentifiers</code> op voor geselecteerde items.",
+          "Als een geselecteerde foto is opgeslagen in iCloud, downloadt de app deze tijdelijk naar je apparaat met een time-out van 2 minuten. Deze tijdelijke kopieën worden automatisch verwijderd bij het opstarten.",
+          "Alle afbeeldingsverwerking vindt lokaal plaats via de hardware van je apparaat. Geconverteerde afbeeldingen worden op je apparaat opgeslagen en alleen gedeeld wanneer jij dat kiest.",
+          "Je kunt metadata (EXIF, GPS, camera-informatie, tijdstempels, auteurgegevens, apparaat-identificatoren, bewerkingsgeschiedenis en ingesloten miniaturen) verwijderen uit geconverteerde afbeeldingen om je privacy te beschermen bij het delen."
+        ]
+      },
+      {
+        "heading": "Aankopen",
+        "paragraphs": [
+          "Aankopen worden volledig door Apple afgehandeld via StoreKit 2. We zien nooit je betalingsgegevens, Apple ID of factuurgegevens.",
+          "Je aankoopstatus wordt lokaal geverifieerd via de cryptografische transactieverificatie van Apple. Er worden geen serveraanroepen gedaan om aankopen te valideren.",
+          "Promocodes worden lokaal gevalideerd via HMAC — alleen een cryptografische hash wordt opgeslagen in de sleutelhanger, nooit de code zelf."
+        ]
+      },
+      {
+        "heading": "Share Extension",
+        "paragraphs": [
+          "De Share Extension draait als een afzonderlijk proces los van de hoofd-app. Het converteert afbeeldingen met je standaard voorinstelling rechtstreeks vanuit het systeem-deelmenu.",
+          "Tijdelijke bestanden die door de extensie zijn aangemaakt, worden na gebruik verwijderd. De extensie bewaart geen conversiegeschiedenis. De enige gegevens die via App Group worden gedeeld tussen de hoofd-app en de extensie zijn je Pro-aankoopstatus."
+        ]
+      },
+      {
+        "heading": "Gegevensbewaring",
+        "paragraphs": [
+          "Jij hebt de controle over je gegevens. Je kunt je conversiegeschiedenis op elk moment verwijderen via het tabblad Geschiedenis. Automatisch opruimen is beschikbaar via Instellingen — kies 7 dagen, 30 dagen, 90 dagen of bewaar conversies voor altijd.",
+          "Bij elke start ruimt de app zwevende bestanden op (imports, outputs en miniaturen die niet aan een geschiedenisrecord zijn gekoppeld) en verwijdert tijdelijke mappen.",
+          "Het verwijderen van de app verwijdert alle bijbehorende gegevens — afbeeldingen, geschiedenis, voorkeuren en App Group-opslag. De enige uitzondering is een kleine sleutelhanger-vermelding (hash van de promocode), die bij herinstallaties behouden blijft, zoals gebruikelijk is voor iOS-sleutelhanger-items."
+        ]
+      },
+      {
+        "heading": "Diensten van derden",
+        "paragraphs": [
+          "Image Converter Plus maakt uitsluitend gebruik van de ingebouwde frameworks van Apple. Er zijn geen analyses, advertentie-SDK's of externe trackingtools van derden.",
+          "De app werkt volledig offline. Een internetverbinding is alleen nodig bij het doen van een aankoop."
+        ]
+      },
+      {
+        "heading": "Privacy Manifest",
+        "paragraphs": [
+          "De app bevat een Apple Privacy Manifest waarin <code>NSPrivacyTracking: false</code> is gedeclareerd. Er worden geen gegevenstypen verzameld of bijgehouden, en er worden geen trackingdomeinen gecontacteerd."
+        ]
+      },
+      {
+        "heading": "Contact",
+        "paragraphs": [
+          "Vragen over privacy? Neem op elk moment contact op via <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Help", "title": "Ondersteuning", "href": "support.html" },
+      { "label": "Juridisch", "title": "Gebruiksvoorwaarden", "href": "terms.html" }
+    ],
+    "lastUpdated": "Laatst bijgewerkt: maart 2026"
+  },
+  "terms": {
+    "meta": {
+      "title": "Gebruiksvoorwaarden - Image Converter Plus",
+      "description": "Gebruiksvoorwaarden van Image Converter Plus. Lees de licentie, aankoopvoorwaarden en gebruiksrichtlijnen voor de app."
+    },
+    "hero": {
+      "title": "Gebruiksvoorwaarden",
+      "subtitle": "Image Converter Plus voor iOS"
+    },
+    "cards": [
+      {
+        "heading": "Overeenkomst",
+        "paragraphs": ["Door Image Converter Plus te downloaden of te gebruiken, ga je akkoord met deze voorwaarden. Als je niet akkoord gaat, gebruik de app dan niet."]
+      },
+      {
+        "heading": "Licentie",
+        "paragraphs": [
+          "Image Converter Plus verleent je een beperkte, niet-exclusieve, niet-overdraagbare licentie om de app te gebruiken voor persoonlijke, niet-commerciële doeleinden op apparaten die je bezit of beheert.",
+          "Deze licentie strekt zich uit tot de Share Extension (\u201cConverteren met Image Converter Plus\u201d), die onderdeel is van de app. De app vereist iOS 16.0 of later."
+        ]
+      },
+      {
+        "heading": "Jouw inhoud",
+        "paragraphs": [
+          "Je behoudt alle rechten op de afbeeldingen die je converteert met Image Converter Plus. De app maakt geen aanspraak op eigendom van je inhoud.",
+          "Je bent verantwoordelijk voor het waarborgen dat je het recht hebt om afbeeldingen die je in de app importeert te gebruiken en te converteren."
+        ]
+      },
+      {
+        "heading": "Gratis en Pro",
+        "paragraphs": [
+          "Image Converter Plus is gratis te downloaden en te gebruiken. De gratis versie biedt conversie tussen JPEG, PNG en HEIC-formaten, één afbeelding tegelijk.",
+          "Pro is een eenmalige aankoop (geen abonnement) die het volgende ontgrendelt:",
+          "Pro wordt gedeeld met je familie via Family Sharing.",
+          "Promocodes verlenen dezelfde toegang als een Pro-aankoop. Elke promocode kan één keer per apparaat worden ingewisseld."
+        ],
+        "bullets": [
+          "TIFF en AVIF uitvoerformaten",
+          "Onbeperkte batchconversie",
+          "Per afbeelding afwijkende instellingen",
+          "Metadata-privacycontroles",
+          "Batchconversie in de Share Extension"
+        ]
+      },
+      {
+        "heading": "Aankopen",
+        "paragraphs": [
+          "Alle aankopen worden verwerkt door Apple via StoreKit 2 en zijn onderworpen aan de voorwaarden van Apple.",
+          "De Pro-upgrade is een eenmalige niet-verbruikbare aankoop — geen abonnement. Je betaalt één keer en behoudt het voor altijd.",
+          "Fooien zijn optionele verbruikbare aankopen die de ontwikkeling ondersteunen. Ze ontgrendelen geen extra functies.",
+          "Alle verkopen zijn definitief. Verzoeken om terugbetaling moeten bij Apple worden ingediend. Je kunt je aankopen op elk moment herstellen via Instellingen."
+        ]
+      },
+      {
+        "heading": "Aanvaardbaar gebruik",
+        "paragraphs": ["Je stemt ermee in het volgende niet te doen:"],
+        "bullets": [
+          "De app reverse-engineeren, decompileren of demonteren",
+          "De app voor illegale doeleinden gebruiken",
+          "Proberen beperkingen of restricties te omzeilen"
+        ]
+      },
+      {
+        "heading": "Disclaimer",
+        "paragraphs": [
+          "Image Converter Plus wordt geleverd \u201czoals het is\u201d zonder enige garantie. We garanderen niet dat de app foutloos of ononderbroken zal werken.",
+          "We zijn niet verantwoordelijk voor enig verlies van gegevens of afbeeldingen. Maak back-ups van belangrijke bestanden."
+        ]
+      },
+      {
+        "heading": "Beperking van aansprakelijkheid",
+        "paragraphs": [
+          "Voor zover maximaal toegestaan door de wet is de ontwikkelaar niet aansprakelijk voor indirecte, incidentele, bijzondere of gevolgschade die voortvloeit uit je gebruik van de app."
+        ]
+      },
+      {
+        "heading": "Wijzigingen",
+        "paragraphs": [
+          "We kunnen deze voorwaarden van tijd tot tijd bijwerken. Voortgezet gebruik van de app na wijzigingen houdt acceptatie van de nieuwe voorwaarden in."
+        ]
+      },
+      {
+        "heading": "Contact",
+        "paragraphs": [
+          "Vragen? Neem contact op via <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Help", "title": "Ondersteuning", "href": "support.html" },
+      { "label": "Juridisch", "title": "Privacybeleid", "href": "privacy.html" }
+    ],
+    "lastUpdated": "Laatst bijgewerkt: maart 2026"
+  },
+  "support": {
+    "meta": {
+      "title": "Ondersteuning - Image Converter Plus",
+      "description": "Krijg hulp bij Image Converter Plus. Vind antwoorden op veelgestelde vragen over het converteren, aanpassen en beschermen van je foto's."
+    },
+    "hero": {
+      "title": "Ondersteuning",
+      "subtitle": "Vind antwoorden op veelgestelde vragen over het converteren, aanpassen en beschermen van je foto's.",
+      "contactBtn": "Neem contact op"
+    },
+    "formats": {
+      "label": "Formaten",
+      "title": "Vijf formaten, één app.",
+      "description": "Converteer tussen de populairste afbeeldingsformaten met volledige kwaliteitsregeling."
+    },
+    "faq": {
+      "categories": [
+        {
+          "title": "Aan de slag",
+          "items": [
+            {
+              "question": "Hoe converteer ik afbeeldingen?",
+              "answer": "Tik op de knop Foto's of Bestanden om afbeeldingen te importeren. Kies je uitvoerformaat en kwaliteit en tik vervolgens op Converteren. Geconverteerde afbeeldingen verschijnen op het tabblad Geschiedenis, waar je ze kunt opslaan of delen."
+            },
+            {
+              "question": "Kan ik meerdere afbeeldingen tegelijk converteren?",
+              "answer": "Ja. Selecteer zoveel afbeeldingen als je nodig hebt en converteer ze allemaal in één batch. Elke afbeelding kan zijn eigen instellingen voor formaat, kwaliteit, grootte en bestandsnaam hebben."
+            },
+            {
+              "question": "Kan ik importeren vanuit iCloud Drive of andere apps?",
+              "answer": "Ja. Tik op de knop Bestanden om te bladeren in iCloud Drive, Dropbox, Google Drive of een andere bestandsprovider op je apparaat. Je kunt ook de Share Extension gebruiken om afbeeldingen rechtstreeks vanuit andere apps te converteren."
+            }
+          ]
+        },
+        {
+          "title": "Conversieinstellingen",
+          "items": [
+            {
+              "question": "Wat doet de kwaliteitsschuifregelaar?",
+              "answer": "De kwaliteitsschuifregelaar regelt de compressie voor JPEG-, HEIC- en AVIF-formaten. Hogere waarden produceren betere kwaliteit bij grotere bestandsgroottes. PNG en TIFF zijn altijd verliesvrij en negeren deze instelling."
+            },
+            {
+              "question": "Hoe wijzig ik het formaat van afbeeldingen?",
+              "answer": "Gebruik de grootteinstelling om afbeeldingen te schalen van 50% tot 200% van de oorspronkelijke afmetingen. Je kunt een standaard instellen voor alle afbeeldingen of elke afbeelding afzonderlijk aanpassen."
+            },
+            {
+              "question": "Kan ik bestanden hernoemen tijdens de conversie?",
+              "answer": "Ja. Je kunt een voor- of achtervoegsel toevoegen aan alle geconverteerde bestanden via een naamregel, of elke afbeelding afzonderlijk hernoemen vóór de conversie."
+            },
+            {
+              "question": "Wat zijn voorinstellingen?",
+              "answer": "Voorinstellingen slaan een combinatie van formaat-, kwaliteits-, grootte- en naamgevingsinstellingen op voor conversie met één tik. De app bevat 4 ingebouwde voorinstellingen die je in Instellingen kunt herordenen of verbergen."
+            }
+          ]
+        },
+        {
+          "title": "Privacy en metadata",
+          "items": [
+            {
+              "question": "Kan ik metadata uit afbeeldingen verwijderen?",
+              "answer": "Ja. Image Converter Plus kan EXIF-gegevens verwijderen, waaronder GPS-locatie, camera-informatie, tijdstempels, auteurgegevens, apparaat-identificatoren, bewerkingsgeschiedenis en ingesloten miniaturen. Kies uit vooraf ingestelde privacymodi of pas precies aan wat je wilt verwijderen."
+            },
+            {
+              "question": "Worden mijn afbeeldingen ergens naartoe geüpload?",
+              "answer": "Nee. Alle verwerking vindt volledig op je apparaat plaats. Er zijn geen servers, geen uploads, geen analyses en geen advertenties. De app werkt volledig offline — een internetverbinding is alleen nodig om een aankoop te doen."
+            }
+          ]
+        },
+        {
+          "title": "Opslaan en delen",
+          "items": [
+            {
+              "question": "Waar worden mijn geconverteerde afbeeldingen opgeslagen?",
+              "answer": "Geconverteerde afbeeldingen worden opgeslagen op het tabblad Geschiedenis van de app. Van daaruit kun je ze opslaan in je fotobibliotheek, exporteren naar Bestanden of delen via AirDrop, Berichten, Mail en meer."
+            },
+            {
+              "question": "Hoe werkt de Share Extension?",
+              "answer": "Selecteer afbeeldingen in een willekeurige app, tik op de knop Deel en kies Image Converter Plus. Je afbeeldingen worden geconverteerd met je standaard voorinstelling zonder de hoofd-app te openen. Pro-gebruikers kunnen meerdere afbeeldingen tegelijk converteren vanuit het deelmenu."
+            },
+            {
+              "question": "Kan ik oude conversies automatisch laten verwijderen?",
+              "answer": "Ja. Ga naar Instellingen en kies een periode voor automatisch verwijderen — 7 dagen, 30 dagen, 90 dagen of nooit. Oude conversies worden automatisch verwijderd om opslag te besparen."
+            }
+          ]
+        },
+        {
+          "title": "Pro",
+          "items": [
+            {
+              "question": "Wat is inbegrepen in de Pro-upgrade?",
+              "answer": "Pro is een eenmalige aankoop die TIFF en AVIF-formaten, volledige metadata- en privacycontroles, per-afbeelding afwijkende instellingen en batchconversie in de Share Extension ontgrendelt. Er is geen abonnement — en het wordt gedeeld met je familie via Family Sharing."
+            },
+            {
+              "question": "Hoe herstel ik mijn aankoop?",
+              "answer": "Ga naar Instellingen en tik op Aankopen herstellen. Zorg ervoor dat je bent aangemeld met hetzelfde Apple Account dat je hebt gebruikt voor de oorspronkelijke aankoop. Als je deel uitmaakt van een Family Sharing-groep, wordt de aankoop automatisch gedeeld."
+            }
+          ]
+        },
+        {
+          "title": "Probleemoplossing",
+          "items": [
+            {
+              "question": "De app werkt niet goed.",
+              "answer": "Probeer de app te sluiten en opnieuw te openen. Als het probleem aanhoudt, start je apparaat opnieuw op en zorg je ervoor dat je de nieuwste versie uit de App Store gebruikt. Nog steeds problemen? Neem contact met ons op met details over wat er gebeurt en we helpen je verder."
+            },
+            {
+              "question": "Een conversie is mislukt. Wat moet ik doen?",
+              "answer": "Zorg ervoor dat je apparaat voldoende vrije opslagruimte heeft. Zeer grote afbeeldingen kunnen meer beschikbare ruimte vereisen. Probeer minder afbeeldingen tegelijk te converteren of verklein de uitvoergrootte. Als het probleem aanhoudt, neem dan contact met ons op met het afbeeldingsformaat en de afbeeldingsgrootte."
+            },
+            {
+              "question": "Mijn Pro-aankoop wordt niet weergegeven.",
+              "answer": "Ga naar Instellingen en tik op Aankopen herstellen. Zorg ervoor dat je verbinding hebt met internet en bent aangemeld met het juiste Apple Account. Als je via Family Sharing hebt gekocht, controleer dan of delen nog actief is in je familiegroep."
+            }
+          ]
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Systeemvereisten",
+      "items": [
+        "iOS 16.0 of later",
+        "Compatibel met iPhone en iPad",
+        "Werkt volledig offline — geen internetverbinding vereist"
+      ]
+    },
+    "links": [
+      { "label": "Juridisch", "title": "Privacybeleid", "href": "privacy.html" },
+      { "label": "Juridisch", "title": "Gebruiksvoorwaarden", "href": "terms.html" }
+    ],
+    "lastUpdated": "Laatst bijgewerkt: maart 2026"
+  }
+}

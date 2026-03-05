@@ -1,0 +1,431 @@
+{
+  "_meta": { "lang": "ca", "dir": "ltr" },
+  "nav": {
+    "title": "Image Converter Plus",
+    "privacy": "Política de privadesa",
+    "terms": "Condicions d'ús",
+    "support": "Suport"
+  },
+  "index": {
+    "meta": {
+      "title": "Image Converter Plus — Converteix, redimensiona i protegeix les teves fotos",
+      "description": "Converteix imatges entre JPEG, PNG, HEIC, TIFF i AVIF. Ajusta la qualitat, redimensiona i elimina metadades — tot al teu dispositiu."
+    },
+    "hero": {
+      "headline": "Converteix. Redimensiona.<br>Protegeix.",
+      "subtitle": "Conversió d'imatges per lots amb controls de privadesa — completament al teu dispositiu.",
+      "badgeAlt": "Descarrega a l'App Store",
+      "availability": "Disponible per a iPhone i iPad. Requereix iOS 16 o posterior."
+    },
+    "formats": {
+      "eyebrow": "5 formats de sortida",
+      "headline": "Tots els formats que necessites.",
+      "body": "Converteix entre els formats d'imatge més populars. Tria el millor equilibri entre qualitat, compatibilitat i mida de fitxer."
+    },
+    "features": {
+      "eyebrow": "Funcionalitats",
+      "headline": "Precisió a cada pas.",
+      "body": "Ajusta la qualitat, redimensiona, reanomena i previsualitza — tot abans de convertir una sola imatge.",
+      "cards": [
+        {
+          "icon": "&#9881;&#65039;",
+          "title": "Control de qualitat",
+          "description": "Ajusta la qualitat del 40% al 100% per als formats amb pèrdua. Mira com s'actualitza la mida estimada del fitxer en temps real."
+        },
+        {
+          "icon": "&#8596;&#65039;",
+          "title": "Redimensionament",
+          "description": "Escala les imatges del 50% al 200%. Estableix ajustos individuals per imatge o aplica una configuració predefinida a tot el lot."
+        },
+        {
+          "icon": "&#128196;",
+          "title": "Nom de fitxer",
+          "description": "Afegeix un prefix o sufix als fitxers convertits. Anomena cada imatge individualment o aplica una regla a totes."
+        },
+        {
+          "icon": "&#9889;",
+          "title": "Configuracions predefinides",
+          "description": "4 configuracions predefinides integrades per a conversió amb un sol toc. Personalitza el format, la qualitat, la mida i el nom en cadascuna."
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "Privadesa",
+      "headline": "Les teves fotos contenen més<br>del que creus.",
+      "body": "Coordenades GPS. Model de càmera. Marques de temps. Image Converter Plus elimina les metadades ocultes abans que comparteixis — amb control granular sobre el que es conserva i el que s'elimina.",
+      "items": [
+        { "icon": "&#128205;", "title": "Ubicació", "description": "Coordenades GPS i noms de lloc" },
+        { "icon": "&#128247;", "title": "Càmera", "description": "Data, hora i configuració de captura" },
+        { "icon": "&#9997;&#65039;", "title": "Autor", "description": "Llegendes, paraules clau i creador" },
+        { "icon": "&#128241;", "title": "Dispositiu", "description": "Nom del model i identificadors" },
+        { "icon": "&#128736;&#65039;", "title": "Edicions", "description": "Historial d'edicions i informació del programari" },
+        { "icon": "&#128444;&#65039;", "title": "Previsualitzacions", "description": "Miniatures incrustades" }
+      ]
+    },
+    "workflow": {
+      "eyebrow": "Flux de treball",
+      "headline": "S'adapta perfectament al teu flux de treball.",
+      "shareTitle": "Share Extension",
+      "shareBody": "Converteix imatges sense obrir l'aplicació. Selecciona fotos en qualsevol app, toca Compartir i converteix en un sol pas. Els usuaris Pro obtenen conversió per lots i tots els formats directament des del Share Sheet.",
+      "historyTitle": "Historial de conversions",
+      "historyBody": "Cada conversió es desa amb una miniatura. Exporta de nou a Fotos, Fitxers o el Share Sheet en qualsevol moment. Configura l'eliminació automàtica per netejar les conversions antigues automàticament."
+    },
+    "onDevice": {
+      "eyebrow": "Al dispositiu",
+      "headline": "Sense servidors. Sense pujades.<br>Sense seguiment.",
+      "body": "Cada imatge es processa localment al teu dispositiu. No hi ha serveis al núvol, ni analítiques, ni anuncis. Només es necessita connexió a internet per fer una compra."
+    },
+    "pro": {
+      "eyebrow": "Pro",
+      "headline": "Desbloqueja-ho tot.<br>Una vegada.",
+      "body": "Una sola compra. Sense subscripció. Sense càrrecs recurrents. Compartit amb la teva família a través de Family Sharing.",
+      "features": [
+        {
+          "icon": "&#128194;",
+          "title": "TIFF i AVIF",
+          "description": "Desbloqueja els cinc formats de sortida per a qualsevol cas d'ús."
+        },
+        {
+          "icon": "&#128274;",
+          "title": "Eliminació de metadades",
+          "description": "Eliminació completa d'EXIF i metadades amb tres configuracions predefinides de privadesa."
+        },
+        {
+          "icon": "&#127384;",
+          "title": "Share Extension per lots",
+          "description": "Converteix múltiples imatges alhora directament des del Share Sheet."
+        }
+      ],
+      "price": "$9.99",
+      "priceNote": "Compra única. Family Sharing inclòs."
+    },
+    "accessibility": {
+      "eyebrow": "Accessibilitat",
+      "headline": "Dissenyat per a tothom.",
+      "body": "Creat amb accessibilitat des del principi. Disponible en 60 idiomes amb un selector d'idioma integrat a l'app.",
+      "badges": ["VoiceOver", "Dynamic Type", "Resposta hàptica", "60 idiomes"]
+    },
+    "bottomCta": {
+      "headline": "Comença a convertir gratis."
+    },
+    "footer": {
+      "copyright": "\u00a9 2026 Denys Lebiediev"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Política de privadesa - Image Converter Plus",
+      "description": "Política de privadesa d'Image Converter Plus. Tot el processament d'imatges passa al teu dispositiu — res no es puja, es rastreja ni es comparteix."
+    },
+    "hero": {
+      "title": "Política de privadesa",
+      "subtitle": "Les teves fotos es queden amb tu. Tot es processa al teu dispositiu — res no es puja, es rastreja ni es comparteix."
+    },
+    "cards": [
+      {
+        "heading": "Al teu dispositiu",
+        "paragraphs": ["Totes les teves imatges, l'historial de conversions i les preferències s'emmagatzemen únicament en aquest dispositiu. Res no surt mai sense la teva acció explícita."],
+        "bullets": [
+          "Imatges importades i convertides a l'emmagatzematge del sandbox de l'app",
+          "Historial de conversions i miniatures",
+          "Les teves preferències de format, qualitat i redimensionament",
+          "Fitxers temporals a <code>/var/tmp/</code> — s'eliminen automàticament en cada inici",
+          "Emmagatzematge al Keychain — només un hash dels codis promocionals bescanviats, mai el codi en si",
+          "Contenidor App Group — comparteix únicament l'estat de compra Pro amb la Share Extension"
+        ]
+      },
+      {
+        "heading": "Què no recopilem",
+        "paragraphs": ["Image Converter Plus no recull cap informació personal. No sabem qui ets, què converteixes ni com uses l'app."],
+        "bullets": [
+          "Cap informació personal",
+          "Cap identificador de dispositiu",
+          "Cap analítica d'ús",
+          "Cap dada de localització",
+          "Cap publicitat ni seguiment"
+        ]
+      },
+      {
+        "heading": "Fotos i imatges",
+        "paragraphs": [
+          "Quan selecciones fotos, Image Converter Plus només veu les imatges específiques que tries — mai tota la teva biblioteca. L'app utilitza accés limitat a la biblioteca de fotos i emmagatzema únicament <code>localIdentifiers</code> per als elements seleccionats.",
+          "Si una foto seleccionada s'emmagatzema a iCloud, l'app la descarrega temporalment al teu dispositiu amb un temps d'espera de 2 minuts. Aquestes còpies efímeres s'eliminen automàticament en iniciar l'app.",
+          "Tot el processament d'imatges passa localment utilitzant el maquinari del teu dispositiu. Les imatges convertides es guarden al teu dispositiu i es comparteixen només quan tu ho decideixis.",
+          "Pots eliminar metadades (EXIF, GPS, informació de la càmera, marques de temps, detalls de l'autor, identificadors del dispositiu, historial d'edicions i miniatures incrustades) de les imatges convertides per protegir la teva privadesa en compartir-les."
+        ]
+      },
+      {
+        "heading": "Compres",
+        "paragraphs": [
+          "Les compres les gestiona Apple completament a través de StoreKit 2. Mai veiem la teva informació de pagament, l'Apple ID ni els detalls de facturació.",
+          "L'estat de la teva compra es verifica localment mitjançant la verificació criptogràfica de transaccions d'Apple. No es fan trucades a servidors per validar les compres.",
+          "Els codis promocionals es validen localment mitjançant HMAC — únicament un hash criptogràfic s'emmagatzema al Keychain, mai el codi en si."
+        ]
+      },
+      {
+        "heading": "Share Extension",
+        "paragraphs": [
+          "La Share Extension s'executa com un procés aïllat separat de l'app principal. Converteix imatges usant la teva configuració predefinida directament des del Share Sheet del sistema.",
+          "Els fitxers temporals creats per l'extensió s'eliminen després d'usar-los. L'extensió no conserva l'historial de conversions. Les úniques dades compartides entre l'app principal i l'extensió via App Group són l'estat de compra Pro."
+        ]
+      },
+      {
+        "heading": "Retenció de dades",
+        "paragraphs": [
+          "Tu tens el control de les teves dades. Pots eliminar l'historial de conversions en qualsevol moment des de la pestanya Historial. L'eliminació automàtica està disponible a Configuració — tria 7 dies, 30 dies, 90 dies o conserva les conversions per sempre.",
+          "En cada inici, l'app elimina fitxers orfes (importacions, sortides i miniatures no vinculades a cap registre de l'historial) i suprimeix els directoris temporals.",
+          "Eliminar l'app suprimeix totes les dades associades — imatges, historial, preferències i emmagatzematge App Group. L'única excepció és una entrada petita al Keychain (hash del codi promocional), que persisteix entre instal·lacions tal com és habitual per als elements del Keychain d'iOS."
+        ]
+      },
+      {
+        "heading": "Serveis de tercers",
+        "paragraphs": [
+          "Image Converter Plus utilitza únicament els frameworks integrats d'Apple. No hi ha analítiques de tercers, SDK de publicitat ni eines de seguiment externes.",
+          "L'app funciona completament sense connexió. Només es necessita connexió a internet per fer una compra."
+        ]
+      },
+      {
+        "heading": "Privacy Manifest",
+        "paragraphs": [
+          "L'app inclou un Apple Privacy Manifest que declara <code>NSPrivacyTracking: false</code>. No es recull ni es rastreja cap tipus de dada, i no es contacta cap domini de seguiment."
+        ]
+      },
+      {
+        "heading": "Contacte",
+        "paragraphs": [
+          "Preguntes sobre privadesa? Posa't en contacte en qualsevol moment a <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Ajuda", "title": "Suport", "href": "support.html" },
+      { "label": "Legal", "title": "Condicions d'ús", "href": "terms.html" }
+    ],
+    "lastUpdated": "Última actualització: març del 2026"
+  },
+  "terms": {
+    "meta": {
+      "title": "Condicions d'ús - Image Converter Plus",
+      "description": "Condicions d'ús d'Image Converter Plus. Llegeix la llicència, les condicions de compra i les directrius d'ús de l'app."
+    },
+    "hero": {
+      "title": "Condicions d'ús",
+      "subtitle": "Image Converter Plus per a iOS"
+    },
+    "cards": [
+      {
+        "heading": "Acord",
+        "paragraphs": ["En descarregar o usar Image Converter Plus, acceptes aquestes condicions. Si no hi estàs d'acord, no facis servir l'app."]
+      },
+      {
+        "heading": "Llicència",
+        "paragraphs": [
+          "Image Converter Plus et concedeix una llicència limitada, no exclusiva i intransferible per usar l'app amb fins personals i no comercials en dispositius que posseeixis o controlis.",
+          "Aquesta llicència s'estén a la Share Extension (\u201cConverteix amb Image Converter Plus\u201d), que forma part de l'app. L'app requereix iOS 16.0 o posterior."
+        ]
+      },
+      {
+        "heading": "El teu contingut",
+        "paragraphs": [
+          "Conserves tots els drets sobre les imatges que converteixes amb Image Converter Plus. L'app no reclama cap propietat sobre el teu contingut.",
+          "Ets responsable d'assegurar-te que tens dret a usar i convertir qualsevol imatge que importis a l'app."
+        ]
+      },
+      {
+        "heading": "Nivells gratuït i Pro",
+        "paragraphs": [
+          "Image Converter Plus és gratuït per descarregar i usar. El nivell gratuït inclou la conversió entre JPEG, PNG i HEIC, una imatge alhora.",
+          "Pro és una compra única (no una subscripció) que desbloqueja:",
+          "Pro es comparteix amb la teva família a través de Family Sharing.",
+          "Els codis promocionals atorguen el mateix accés que una compra Pro. Cada codi promocional es pot bescanviar una vegada per dispositiu."
+        ],
+        "bullets": [
+          "Formats de sortida TIFF i AVIF",
+          "Conversió per lots il·limitada",
+          "Configuració individual per imatge",
+          "Controls de privadesa de metadades",
+          "Conversió per lots a la Share Extension"
+        ]
+      },
+      {
+        "heading": "Compres",
+        "paragraphs": [
+          "Totes les compres les processa Apple a través de StoreKit 2 i estan subjectes a les condicions d'Apple.",
+          "L'actualització a Pro és una compra única no consumible — no una subscripció. Pagues una vegada i la conserves per sempre.",
+          "Les propines són compres consumibles opcionals que donen suport al desenvolupament. No desbloquegen cap funció addicional.",
+          "Totes les vendes són definitives. Les sol·licituds de reemborsament s'han de dirigir a Apple. Pots restaurar les teves compres en qualsevol moment des de Configuració."
+        ]
+      },
+      {
+        "heading": "Ús acceptable",
+        "paragraphs": ["Acceptes no fer el següent:"],
+        "bullets": [
+          "Fer enginyeria inversa, descompilar o desmuntar l'app",
+          "Usar l'app per a qualsevol propòsit il·legal",
+          "Intentar eludir cap limitació o restricció"
+        ]
+      },
+      {
+        "heading": "Exempció de responsabilitat",
+        "paragraphs": [
+          "Image Converter Plus es proporciona \u201ctal com és\u201d sense garanties de cap tipus. No garantim que l'app estigui lliure d'errors ni que funcioni de manera ininterrompuda.",
+          "No som responsables de cap pèrdua de dades o imatges. Fes còpies de seguretat dels fitxers importants."
+        ]
+      },
+      {
+        "heading": "Limitació de responsabilitat",
+        "paragraphs": [
+          "En la mesura màxima permesa per la llei, el desenvolupador no serà responsable de cap dany indirecte, incidental, especial o conseqüent derivat de l'ús de l'app."
+        ]
+      },
+      {
+        "heading": "Canvis",
+        "paragraphs": [
+          "Podem actualitzar aquestes condicions de tant en tant. Continuar usant l'app després dels canvis implica l'acceptació de les noves condicions."
+        ]
+      },
+      {
+        "heading": "Contacte",
+        "paragraphs": [
+          "Preguntes? Posa't en contacte a <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Ajuda", "title": "Suport", "href": "support.html" },
+      { "label": "Legal", "title": "Política de privadesa", "href": "privacy.html" }
+    ],
+    "lastUpdated": "Última actualització: març del 2026"
+  },
+  "support": {
+    "meta": {
+      "title": "Suport - Image Converter Plus",
+      "description": "Obtén ajuda amb Image Converter Plus. Troba respostes a les preguntes freqüents sobre la conversió, el redimensionament i la protecció de les teves fotos."
+    },
+    "hero": {
+      "title": "Suport",
+      "subtitle": "Troba respostes a les preguntes freqüents sobre la conversió, el redimensionament i la protecció de les teves fotos.",
+      "contactBtn": "Contacta'ns"
+    },
+    "formats": {
+      "label": "Formats",
+      "title": "Cinc formats, una app.",
+      "description": "Converteix entre els formats d'imatge més populars amb control total de la qualitat."
+    },
+    "faq": {
+      "categories": [
+        {
+          "title": "Primers passos",
+          "items": [
+            {
+              "question": "Com converteixo imatges?",
+              "answer": "Toca el botó Fotos o Fitxers per importar imatges. Tria el format de sortida i la qualitat, després toca Converteix. Les imatges convertides apareixen a la pestanya Historial, des d'on pots desar-les o compartir-les."
+            },
+            {
+              "question": "Puc convertir múltiples imatges alhora?",
+              "answer": "Sí. Selecciona tantes imatges com necessitis i converteix-les totes en un sol lot. Cada imatge pot tenir la seva pròpia configuració de format, qualitat, mida i nom de fitxer."
+            },
+            {
+              "question": "Puc importar des d'iCloud Drive o altres apps?",
+              "answer": "Sí. Toca el botó Fitxers per explorar iCloud Drive, Dropbox, Google Drive o qualsevol proveïdor de fitxers del teu dispositiu. També pots usar la Share Extension per convertir imatges directament des d'altres apps."
+            }
+          ]
+        },
+        {
+          "title": "Configuració de conversió",
+          "items": [
+            {
+              "question": "Què fa el control lliscant de qualitat?",
+              "answer": "El control lliscant de qualitat controla la compressió per als formats JPEG, HEIC i AVIF. Els valors més alts produeixen millor qualitat amb mides de fitxer més grans. PNG i TIFF sempre són sense pèrdua i ignoren aquesta configuració."
+            },
+            {
+              "question": "Com redimensiono imatges?",
+              "answer": "Usa la configuració de mida per escalar imatges del 50% al 200% de les dimensions originals. Pots establir un valor predeterminat per a totes les imatges o personalitzar cadascuna individualment."
+            },
+            {
+              "question": "Puc reanomenar fitxers durant la conversió?",
+              "answer": "Sí. Pots afegir un prefix o sufix a tots els fitxers convertits mitjançant una regla de nomenclatura, o reanomenar cada imatge individualment abans de convertir."
+            },
+            {
+              "question": "Què són les configuracions predefinides?",
+              "answer": "Les configuracions predefinides guarden una combinació de format, qualitat, mida i configuració de nomenclatura per a la conversió amb un sol toc. L'app inclou 4 configuracions predefinides integrades, i pots reordenar-les o amagar-les a Configuració."
+            }
+          ]
+        },
+        {
+          "title": "Privadesa i metadades",
+          "items": [
+            {
+              "question": "Puc eliminar metadades de les imatges?",
+              "answer": "Sí. Image Converter Plus pot eliminar dades EXIF incloent la ubicació GPS, la informació de la càmera, les marques de temps, els detalls de l'autor, els identificadors del dispositiu, l'historial d'edicions i les miniatures incrustades. Tria entre modes de privadesa predefinits o personalitza exactament el que vols eliminar."
+            },
+            {
+              "question": "Es pugen les meves imatges en algun lloc?",
+              "answer": "No. Tot el processament passa completament al teu dispositiu. No hi ha servidors, ni pujades, ni analítiques, ni anuncis. L'app funciona completament sense connexió — només es necessita connexió a internet per fer una compra."
+            }
+          ]
+        },
+        {
+          "title": "Desar i compartir",
+          "items": [
+            {
+              "question": "On es guarden les meves imatges convertides?",
+              "answer": "Les imatges convertides es guarden a la pestanya Historial de l'app. Des d'allà, pots desar-les a la Biblioteca de fotos, exportar-les a Fitxers o compartir-les via AirDrop, Missatges, Mail i molt més."
+            },
+            {
+              "question": "Com funciona la Share Extension?",
+              "answer": "Selecciona imatges en qualsevol app, toca el botó Compartir i tria Image Converter Plus. Les teves imatges es converteixen usant la teva configuració predefinida sense obrir l'app principal. Els usuaris Pro poden convertir múltiples imatges alhora des del Share Sheet."
+            },
+            {
+              "question": "Puc eliminar automàticament les conversions antigues?",
+              "answer": "Sí. Ves a Configuració i tria un període d'eliminació automàtica — 7 dies, 30 dies, 90 dies o mai. Les conversions antigues s'eliminen automàticament per estalviar emmagatzematge."
+            }
+          ]
+        },
+        {
+          "title": "Pro",
+          "items": [
+            {
+              "question": "Què inclou l'actualització a Pro?",
+              "answer": "Pro és una compra única que desbloqueja els formats TIFF i AVIF, controls complets de metadades i privadesa, configuració individual per imatge i conversió per lots a la Share Extension. No hi ha subscripció — i es comparteix amb la teva família a través de Family Sharing."
+            },
+            {
+              "question": "Com restauro la meva compra?",
+              "answer": "Ves a Configuració i toca Restaurar compres. Assegura't que has iniciat sessió amb el mateix Apple Account que vas usar per a la compra original. Si formes part d'un grup de Family Sharing, la compra es comparteix automàticament."
+            }
+          ]
+        },
+        {
+          "title": "Resolució de problemes",
+          "items": [
+            {
+              "question": "L'app no funciona correctament.",
+              "answer": "Prova de tancar i tornar a obrir l'app. Si el problema persisteix, reinicia el dispositiu i assegura't que tens la darrera versió de l'App Store. Encara tens problemes? Posa't en contacte amb nosaltres amb els detalls del que passa i t'ajudarem."
+            },
+            {
+              "question": "Ha fallat una conversió. Què haig de fer?",
+              "answer": "Assegura't que el teu dispositiu té prou emmagatzematge lliure. Les imatges molt grans poden requerir més espai disponible. Prova de convertir menys imatges alhora o redueix la mida de sortida. Si el problema continua, posa't en contacte amb nosaltres indicant el format i la mida de la imatge."
+            },
+            {
+              "question": "La meva compra Pro no apareix.",
+              "answer": "Ves a Configuració i toca Restaurar compres. Assegura't que estàs connectat a internet i que has iniciat sessió amb el Apple Account correcte. Si vas comprar a través de Family Sharing, comprova que el compartiment encara és actiu al teu grup familiar."
+            }
+          ]
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Requisits del sistema",
+      "items": [
+        "iOS 16.0 o posterior",
+        "Compatible amb iPhone i iPad",
+        "Funciona completament sense connexió — no cal connexió a internet"
+      ]
+    },
+    "links": [
+      { "label": "Legal", "title": "Política de privadesa", "href": "privacy.html" },
+      { "label": "Legal", "title": "Condicions d'ús", "href": "terms.html" }
+    ],
+    "lastUpdated": "Última actualització: març del 2026"
+  }
+}

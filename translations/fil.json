@@ -1,0 +1,431 @@
+{
+  "_meta": { "lang": "fil", "dir": "ltr" },
+  "nav": {
+    "title": "Image Converter Plus",
+    "privacy": "Patakaran sa Privacy",
+    "terms": "Mga Tuntunin ng Paggamit",
+    "support": "Suporta"
+  },
+  "index": {
+    "meta": {
+      "title": "Image Converter Plus — I-convert, I-resize, at Protektahan ang Iyong mga Larawan",
+      "description": "I-convert ang mga larawan sa pagitan ng JPEG, PNG, HEIC, TIFF, at AVIF. Ayusin ang kalidad, i-resize, at alisin ang metadata — lahat sa iyong device."
+    },
+    "hero": {
+      "headline": "I-convert. I-resize.<br>Protektahan.",
+      "subtitle": "Batch na pag-convert ng larawan na may mga kontrol sa privacy — ganap sa iyong device.",
+      "badgeAlt": "I-download sa App Store",
+      "availability": "Available sa iPhone at iPad. Nangangailangan ng iOS 16 o mas bago."
+    },
+    "formats": {
+      "eyebrow": "5 Output na Format",
+      "headline": "Bawat format na kailangan mo.",
+      "body": "Mag-convert sa pagitan ng pinakasikat na mga format ng larawan. Piliin ang tamang balanse ng kalidad, compatibility, at laki ng file."
+    },
+    "features": {
+      "eyebrow": "Mga Tampok",
+      "headline": "Katumpakan sa bawat hakbang.",
+      "body": "I-fine-tune ang kalidad, i-resize, palitan ng pangalan, at i-preview — bago pa man i-convert ang isang larawan.",
+      "cards": [
+        {
+          "icon": "&#9881;&#65039;",
+          "title": "Kontrol sa Kalidad",
+          "description": "Ayusin ang kalidad mula 40% hanggang 100% para sa mga lossy na format. Tingnan ang tinatayang laki ng file na ina-update sa real time."
+        },
+        {
+          "icon": "&#8596;&#65039;",
+          "title": "I-resize",
+          "description": "I-scale ang mga larawan mula 50% hanggang 200%. Magtakda ng mga override bawat larawan o mag-apply ng preset sa buong batch."
+        },
+        {
+          "icon": "&#128196;",
+          "title": "Pagpapangalan ng File",
+          "description": "Magdagdag ng prefix o suffix sa mga na-convert na file. Pangalanan ang bawat larawan nang isa-isa o mag-apply ng panuntunan sa lahat."
+        },
+        {
+          "icon": "&#9889;",
+          "title": "Mga Preset",
+          "description": "4 na built-in na preset para sa one-tap na pag-convert. I-customize ang format, kalidad, laki, at pagpapangalan sa bawat isa."
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "Privacy",
+      "headline": "Ang iyong mga larawan ay nagtataglay<br>ng higit pa sa inaakala mo.",
+      "body": "Mga koordinada ng GPS. Modelo ng camera. Mga timestamp. Inaalis ng Image Converter Plus ang nakatagong metadata bago ka mag-share — na may detalyadong kontrol sa kung ano ang mananatili at kung ano ang aalisin.",
+      "items": [
+        { "icon": "&#128205;", "title": "Lokasyon", "description": "Mga koordinada ng GPS at pangalan ng lugar" },
+        { "icon": "&#128247;", "title": "Camera", "description": "Petsa, oras, at mga setting ng pagkuha" },
+        { "icon": "&#9997;&#65039;", "title": "May-akda", "description": "Mga caption, keyword, at creator" },
+        { "icon": "&#128241;", "title": "Device", "description": "Pangalan ng modelo at mga identifier" },
+        { "icon": "&#128736;&#65039;", "title": "Mga Pag-edit", "description": "Kasaysayan ng pag-edit at impormasyon ng software" },
+        { "icon": "&#128444;&#65039;", "title": "Mga Preview", "description": "Mga embedded na thumbnail" }
+      ]
+    },
+    "workflow": {
+      "eyebrow": "Workflow",
+      "headline": "Akma sa iyong workflow.",
+      "shareTitle": "Share Extension",
+      "shareBody": "Mag-convert ng mga larawan nang hindi binubuksan ang app. Pumili ng mga larawan sa anumang app, i-tap ang Share, at i-convert sa isang hakbang. Ang mga Pro user ay makakakuha ng batch na pag-convert at lahat ng format direkta mula sa Share Sheet.",
+      "historyTitle": "Kasaysayan ng Pag-convert",
+      "historyBody": "Bawat pag-convert ay nai-save na may thumbnail. Mag-re-export sa Photos, Files, o sa Share Sheet anumang oras. Magtakda ng auto-delete para awtomatikong linisin ang mga lumang pag-convert."
+    },
+    "onDevice": {
+      "eyebrow": "On-Device",
+      "headline": "Walang server. Walang upload.<br>Walang tracking.",
+      "body": "Bawat larawan ay pinoproseso nang lokal sa iyong device. Walang mga serbisyo sa cloud, walang analytics, at walang mga ad. Isang koneksyon sa internet ay kailangan lamang kapag gumagawa ng pagbili."
+    },
+    "pro": {
+      "eyebrow": "Pro",
+      "headline": "I-unlock ang lahat.<br>Isang beses.",
+      "body": "Isang biling pagbili. Walang subscription. Walang paulit-ulit na bayad. Ibinabahagi sa iyong pamilya sa pamamagitan ng Family Sharing.",
+      "features": [
+        {
+          "icon": "&#128194;",
+          "title": "TIFF at AVIF",
+          "description": "I-unlock ang lahat ng limang output na format para sa bawat kaso ng paggamit."
+        },
+        {
+          "icon": "&#128274;",
+          "title": "Pag-aalis ng Metadata",
+          "description": "Kumpletong pag-aalis ng EXIF at metadata na may tatlong privacy preset."
+        },
+        {
+          "icon": "&#127384;",
+          "title": "Batch Share Extension",
+          "description": "Mag-convert ng maraming larawan nang sabay-sabay direkta mula sa Share Sheet."
+        }
+      ],
+      "price": "$9.99",
+      "priceNote": "Isang beses na pagbili. Kasama ang Family Sharing."
+    },
+    "accessibility": {
+      "eyebrow": "Accessibility",
+      "headline": "Dinisenyo para sa lahat.",
+      "body": "Itinayo na may accessibility mula pa sa simula. Available sa 60 wika na may in-app na pangpili ng wika.",
+      "badges": ["VoiceOver", "Dynamic Type", "Haptic Feedback", "60 Wika"]
+    },
+    "bottomCta": {
+      "headline": "Magsimulang mag-convert nang libre."
+    },
+    "footer": {
+      "copyright": "\u00a9 2026 Denys Lebiediev"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Patakaran sa Privacy - Image Converter Plus",
+      "description": "Patakaran sa Privacy para sa Image Converter Plus. Lahat ng pagpoproseso ng larawan ay nangyayari sa iyong device — walang ini-upload, nita-track, o ibinabahagi."
+    },
+    "hero": {
+      "title": "Patakaran sa Privacy",
+      "subtitle": "Ang iyong mga larawan ay sa iyo. Lahat ay pinoproseso sa iyong device — walang ini-upload, nita-track, o ibinabahagi."
+    },
+    "cards": [
+      {
+        "heading": "Sa Iyong Device",
+        "paragraphs": ["Lahat ng iyong mga larawan, kasaysayan ng pag-convert, at mga kagustuhan ay nakaimbak lamang sa device na ito. Walang anumang lumalabas nang wala ang iyong tahasang pagkilos."],
+        "bullets": [
+          "Mga in-import at na-convert na larawan sa app sandbox storage",
+          "Kasaysayan ng pag-convert at mga thumbnail",
+          "Ang iyong mga kagustuhan sa format, kalidad, at resize",
+          "Mga pansamantalang file sa <code>/var/tmp/</code> — awtomatikong nililinis sa bawat paglulunsad",
+          "Keychain storage — isang hash lamang ng mga na-redeem na promo code, hindi kailanman ang code mismo",
+          "App Group container — ibinabahagi lamang ang Pro purchase status sa Share Extension"
+        ]
+      },
+      {
+        "heading": "Ang Hindi Namin Kinokolekta",
+        "paragraphs": ["Hindi kinokolekta ng Image Converter Plus ang anumang personal na impormasyon. Hindi namin alam kung sino ka, kung ano ang iyong ino-convert, o kung paano mo ginagamit ang app."],
+        "bullets": [
+          "Walang personal na impormasyon",
+          "Walang mga identifier ng device",
+          "Walang analytics ng paggamit",
+          "Walang datos ng lokasyon",
+          "Walang advertising o tracking"
+        ]
+      },
+      {
+        "heading": "Mga Larawan",
+        "paragraphs": [
+          "Kapag pumipili ka ng mga larawan, ang Image Converter Plus ay nakikita lamang ang mga partikular na larawang iyong pinili — hindi ang iyong buong library. Ang app ay gumagamit ng limitadong access sa photo library at nag-iimbak lamang ng <code>localIdentifiers</code> para sa mga piling asset.",
+          "Kung ang isang piling larawan ay nakaimbak sa iCloud, ang app ay pansamantalang dina-download ito sa iyong device na may 2-minutong timeout. Ang mga pansamantalang kopyang ito ay awtomatikong nililinis sa paglulunsad.",
+          "Lahat ng pagpoproseso ng larawan ay nangyayari nang lokal gamit ang hardware ng iyong device. Ang mga na-convert na larawan ay nai-save sa iyong device at ibinabahagi lamang kapag pinili mong ibahagi ang mga ito.",
+          "Maaari kang mag-alis ng metadata (EXIF, GPS, impormasyon ng camera, mga timestamp, detalye ng may-akda, mga identifier ng device, kasaysayan ng pag-edit, at mga embedded na thumbnail) mula sa mga na-convert na larawan upang protektahan ang iyong privacy kapag nagbabahagi."
+        ]
+      },
+      {
+        "heading": "Mga Pagbili",
+        "paragraphs": [
+          "Ang mga pagbili ay ganap na pinamamahalaan ng Apple sa pamamagitan ng StoreKit 2. Hindi namin kailanman nakikita ang iyong impormasyon sa pagbabayad, Apple ID, o mga detalye ng billing.",
+          "Ang iyong purchase status ay bine-verify nang lokal gamit ang cryptographic transaction verification ng Apple. Walang server call na ginagawa upang ma-validate ang mga pagbili.",
+          "Ang mga promo code ay bine-validate nang lokal gamit ang HMAC — isang cryptographic hash lamang ang nakaimbak sa Keychain, hindi kailanman ang code mismo."
+        ]
+      },
+      {
+        "heading": "Share Extension",
+        "paragraphs": [
+          "Ang Share Extension ay tumatakbo bilang isang nakahiwalay na proseso na hiwalay sa pangunahing app. Kino-convert nito ang mga larawan gamit ang iyong default preset direkta mula sa system Share Sheet.",
+          "Ang mga pansamantalang file na nilikha ng extension ay nililinis pagkatapos ng paggamit. Hindi nagpapanatili ng kasaysayan ng pag-convert ang extension. Ang tanging datos na ibinabahagi sa pagitan ng pangunahing app at ng extension sa pamamagitan ng App Group ay ang iyong Pro purchase status."
+        ]
+      },
+      {
+        "heading": "Pagpapanatili ng Datos",
+        "paragraphs": [
+          "Ikaw ang may kontrol sa iyong datos. Maaari mong tanggalin ang iyong kasaysayan ng pag-convert anumang oras mula sa tab na History. Available ang awtomatikong paglilinis sa Settings — pumili ng 7 araw, 30 araw, 90 araw, o panatilihin ang mga pag-convert magpakailanman.",
+          "Sa bawat paglulunsad, nililinis ng app ang mga orphaned na file (mga import, output, at thumbnail na hindi nakakonekta sa anumang record ng kasaysayan) at inaaalis ang mga pansamantalang direktoryo.",
+          "Ang pagtanggal ng app ay nag-aalis ng lahat ng nauugnay na datos — mga larawan, kasaysayan, mga kagustuhan, at App Group storage. Ang tanging pagbubukod ay isang maliit na Keychain entry (promo code hash), na nananatili sa mga pag-install gaya ng pamantayan para sa mga iOS Keychain item."
+        ]
+      },
+      {
+        "heading": "Mga Third-Party na Serbisyo",
+        "paragraphs": [
+          "Gumagamit ang Image Converter Plus ng mga built-in na framework ng Apple lamang. Walang mga third-party na analytics, advertising SDK, o external na tool sa tracking.",
+          "Ang app ay ganap na gumagana nang offline. Isang koneksyon sa internet ay kailangan lamang kapag gumagawa ng pagbili."
+        ]
+      },
+      {
+        "heading": "Privacy Manifest",
+        "paragraphs": [
+          "Kasama sa app ang isang Apple Privacy Manifest na nagdedeklara ng <code>NSPrivacyTracking: false</code>. Walang uri ng datos na kinokolekta o tinatrack, at walang mga tracking domain na kinokontakta."
+        ]
+      },
+      {
+        "heading": "Makipag-ugnayan",
+        "paragraphs": [
+          "May mga katanungan tungkol sa privacy? Makipag-ugnayan anumang oras sa <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Tulong", "title": "Suporta", "href": "support.html" },
+      { "label": "Legal", "title": "Mga Tuntunin ng Paggamit", "href": "terms.html" }
+    ],
+    "lastUpdated": "Huling na-update: Marso 2026"
+  },
+  "terms": {
+    "meta": {
+      "title": "Mga Tuntunin ng Paggamit - Image Converter Plus",
+      "description": "Mga Tuntunin ng Paggamit para sa Image Converter Plus. Basahin ang lisensya, mga tuntunin sa pagbili, at mga alituntunin sa paggamit para sa app."
+    },
+    "hero": {
+      "title": "Mga Tuntunin ng Paggamit",
+      "subtitle": "Image Converter Plus para sa iOS"
+    },
+    "cards": [
+      {
+        "heading": "Kasunduan",
+        "paragraphs": ["Sa pamamagitan ng pag-download o paggamit ng Image Converter Plus, sumasang-ayon ka sa mga tuntuning ito. Kung hindi ka sumasang-ayon, mangyaring huwag gamitin ang app."]
+      },
+      {
+        "heading": "Lisensya",
+        "paragraphs": [
+          "Binibigyan ka ng Image Converter Plus ng limitado, hindi eksklusibo, hindi mapagpalipat-lipat na lisensya upang gamitin ang app para sa personal, hindi komersyal na layunin sa mga device na pagmamay-ari mo o kinokontrol.",
+          "Ang lisensyang ito ay umaabot sa Share Extension (\u201cConvert with Image Converter Plus\u201d), na bahagi ng app. Ang app ay nangangailangan ng iOS 16.0 o mas bago."
+        ]
+      },
+      {
+        "heading": "Ang Iyong Nilalaman",
+        "paragraphs": [
+          "Pinapanatili mo ang lahat ng karapatan sa mga larawang iyong ino-convert gamit ang Image Converter Plus. Hindi inaangkin ng app ang anumang pagmamay-ari ng iyong nilalaman.",
+          "Responsable kang tiyaking mayroon kang karapatang gamitin at i-convert ang anumang larawang ini-import mo sa app."
+        ]
+      },
+      {
+        "heading": "Libre at Pro na Antas",
+        "paragraphs": [
+          "Ang Image Converter Plus ay libre sa pag-download at paggamit. Kasama sa libreng antas ang pag-convert sa pagitan ng mga format na JPEG, PNG, at HEIC, isang larawan sa isang pagkakataon.",
+          "Ang Pro ay isang beses na pagbili (hindi subscription) na nag-a-unlock ng:",
+          "Ang Pro ay ibinabahagi sa iyong pamilya sa pamamagitan ng Family Sharing.",
+          "Ang mga promo code ay nagbibigay ng parehong access tulad ng isang Pro purchase. Ang bawat promo code ay maaaring i-redeem nang isang beses bawat device."
+        ],
+        "bullets": [
+          "Mga output na format na TIFF at AVIF",
+          "Walang limitasyong batch na pag-convert",
+          "Mga override ng setting bawat larawan",
+          "Mga kontrol sa metadata privacy",
+          "Batch na pag-convert sa Share Extension"
+        ]
+      },
+      {
+        "heading": "Mga Pagbili",
+        "paragraphs": [
+          "Lahat ng pagbili ay pinoproseso ng Apple sa pamamagitan ng StoreKit 2 at napapailalim sa mga tuntunin at kundisyon ng Apple.",
+          "Ang Pro upgrade ay isang beses na hindi mauubos na pagbili — hindi subscription. Nagbabayad ka nang isang beses at pinapanatili ito magpakailanman.",
+          "Ang mga tip ay opsyonal na mauubos na pagbili na sumusuporta sa pagpapaunlad. Hindi nila ina-unlock ang anumang karagdagang tampok.",
+          "Lahat ng benta ay pangwakas. Ang mga kahilingan sa refund ay dapat idirekta sa Apple. Maaari mong i-restore ang iyong mga pagbili anumang oras mula sa Settings."
+        ]
+      },
+      {
+        "heading": "Katanggap-tanggap na Paggamit",
+        "paragraphs": ["Sumasang-ayon kang huwag:"],
+        "bullets": [
+          "Mag-reverse engineer, mag-decompile, o mag-disassemble ng app",
+          "Gamitin ang app para sa anumang ilegal na layunin",
+          "Subukang lampasan ang anumang mga limitasyon o paghihigpit"
+        ]
+      },
+      {
+        "heading": "Disclaimer",
+        "paragraphs": [
+          "Ang Image Converter Plus ay ibinibigay \u201cas is\u201d nang walang anumang uri ng warranty. Hindi namin ginagarantiyahan na ang app ay magiging libre sa error o walang putol.",
+          "Hindi kami responsable para sa anumang pagkawala ng datos o mga larawan. Mangyaring panatilihin ang mga backup ng mahahalagang file."
+        ]
+      },
+      {
+        "heading": "Limitasyon ng Pananagutan",
+        "paragraphs": [
+          "Sa pinakamataas na lawak na pinahihintulutan ng batas, ang developer ay hindi mananagot para sa anumang hindi direkta, hindi sinasadyang, espesyal, o kahihinatnan na pinsala na nagmumula sa iyong paggamit ng app."
+        ]
+      },
+      {
+        "heading": "Mga Pagbabago",
+        "paragraphs": [
+          "Maaari naming i-update ang mga tuntuning ito paminsan-minsan. Ang patuloy na paggamit ng app pagkatapos ng mga pagbabago ay bumubuo ng pagtanggap ng mga bagong tuntunin."
+        ]
+      },
+      {
+        "heading": "Makipag-ugnayan",
+        "paragraphs": [
+          "Mga katanungan? Makipag-ugnayan sa <a href=\"mailto:imageconverterplus.support@gmail.com\">imageconverterplus.support@gmail.com</a>"
+        ]
+      }
+    ],
+    "links": [
+      { "label": "Tulong", "title": "Suporta", "href": "support.html" },
+      { "label": "Legal", "title": "Patakaran sa Privacy", "href": "privacy.html" }
+    ],
+    "lastUpdated": "Huling na-update: Marso 2026"
+  },
+  "support": {
+    "meta": {
+      "title": "Suporta - Image Converter Plus",
+      "description": "Kumuha ng tulong sa Image Converter Plus. Hanapin ang mga sagot sa mga karaniwang tanong tungkol sa pag-convert, pag-resize, at pagprotekta ng iyong mga larawan."
+    },
+    "hero": {
+      "title": "Suporta",
+      "subtitle": "Hanapin ang mga sagot sa mga karaniwang tanong tungkol sa pag-convert, pag-resize, at pagprotekta ng iyong mga larawan.",
+      "contactBtn": "Makipag-ugnayan sa Amin"
+    },
+    "formats": {
+      "label": "Mga Format",
+      "title": "Limang format, isang app.",
+      "description": "Mag-convert sa pagitan ng pinakasikat na mga format ng larawan na may buong kontrol sa kalidad."
+    },
+    "faq": {
+      "categories": [
+        {
+          "title": "Pagsisimula",
+          "items": [
+            {
+              "question": "Paano ko ico-convert ang mga larawan?",
+              "answer": "I-tap ang button na Photos o Files upang mag-import ng mga larawan. Piliin ang iyong output na format at kalidad, pagkatapos ay i-tap ang Convert. Ang mga na-convert na larawan ay lumalabas sa tab na History, kung saan maaari mong i-save o ibahagi ang mga ito."
+            },
+            {
+              "question": "Maaari ba akong mag-convert ng maraming larawan nang sabay-sabay?",
+              "answer": "Oo. Pumili ng maraming larawan hangga't kailangan mo at i-convert ang lahat ng ito sa isang batch. Ang bawat larawan ay maaaring magkaroon ng sariling mga setting ng format, kalidad, laki, at pangalan ng file."
+            },
+            {
+              "question": "Maaari ba akong mag-import mula sa iCloud Drive o iba pang app?",
+              "answer": "Oo. I-tap ang button na Files upang mag-browse ng iCloud Drive, Dropbox, Google Drive, o anumang file provider sa iyong device. Maaari ka ring gumamit ng Share Extension upang mag-convert ng mga larawan direkta mula sa iba pang app."
+            }
+          ]
+        },
+        {
+          "title": "Mga Setting ng Pag-convert",
+          "items": [
+            {
+              "question": "Ano ang ginagawa ng quality slider?",
+              "answer": "Kinokontrol ng quality slider ang compression para sa mga format na JPEG, HEIC, at AVIF. Ang mas mataas na mga halaga ay nagbibigay ng mas magandang kalidad sa mas malalaking laki ng file. Ang PNG at TIFF ay palaging lossless at binabalewala ang setting na ito."
+            },
+            {
+              "question": "Paano ko irere-resize ang mga larawan?",
+              "answer": "Gamitin ang setting ng laki upang i-scale ang mga larawan mula 50% hanggang 200% ng orihinal na dimensyon. Maaari kang magtakda ng default para sa lahat ng larawan o i-customize ang bawat isa nang isa-isa."
+            },
+            {
+              "question": "Maaari ba akong magpalitan ng pangalan ng mga file habang nag-co-convert?",
+              "answer": "Oo. Maaari kang magdagdag ng prefix o suffix sa lahat ng na-convert na file gamit ang isang panuntunan sa pagpapangalan, o palitan ng pangalan ang bawat larawan nang isa-isa bago mag-convert."
+            },
+            {
+              "question": "Ano ang mga preset?",
+              "answer": "Nagse-save ang mga preset ng kombinasyon ng mga setting ng format, kalidad, laki, at pagpapangalan para sa one-tap na pag-convert. Kasama sa app ang 4 na built-in na preset, at maaari mo itong muling ayusin o itago sa Settings."
+            }
+          ]
+        },
+        {
+          "title": "Privacy at Metadata",
+          "items": [
+            {
+              "question": "Maaari ba akong mag-alis ng metadata mula sa mga larawan?",
+              "answer": "Oo. Maaaring alisin ng Image Converter Plus ang datos ng EXIF kasama na ang lokasyon ng GPS, impormasyon ng camera, mga timestamp, detalye ng may-akda, mga identifier ng device, kasaysayan ng pag-edit, at mga embedded na thumbnail. Pumili mula sa mga preset na mode ng privacy o i-customize nang eksakto kung ano ang aalisin."
+            },
+            {
+              "question": "Ang aking mga larawan ba ay ina-upload kahit saan?",
+              "answer": "Hindi. Lahat ng pagpoproseso ay ganap na nangyayari sa iyong device. Walang mga server, walang upload, walang analytics, at walang mga ad. Ang app ay ganap na gumagana nang offline — isang koneksyon sa internet ay kailangan lamang kapag gumagawa ng pagbili."
+            }
+          ]
+        },
+        {
+          "title": "Pag-save at Pagbabahagi",
+          "items": [
+            {
+              "question": "Saan nai-save ang aking mga na-convert na larawan?",
+              "answer": "Ang mga na-convert na larawan ay nai-save sa tab na History ng app. Mula doon, maaari mo itong i-save sa iyong Photo Library, i-export sa Files, o ibahagi sa pamamagitan ng AirDrop, Messages, Mail, at marami pa."
+            },
+            {
+              "question": "Paano gumagana ang Share Extension?",
+              "answer": "Pumili ng mga larawan sa anumang app, i-tap ang button na Share, at piliin ang Image Converter Plus. Ang iyong mga larawan ay ino-convert gamit ang iyong default preset nang hindi binubuksan ang pangunahing app. Ang mga Pro user ay maaaring mag-convert ng maraming larawan nang sabay-sabay mula sa Share Sheet."
+            },
+            {
+              "question": "Maaari ba akong awtomatikong magtanggal ng mga lumang pag-convert?",
+              "answer": "Oo. Pumunta sa Settings at pumili ng panahon ng auto-delete — 7 araw, 30 araw, 90 araw, o hindi kailanman. Ang mga lumang pag-convert ay awtomatikong inaalis upang makatipid ng storage."
+            }
+          ]
+        },
+        {
+          "title": "Pro",
+          "items": [
+            {
+              "question": "Ano ang kasama sa Pro upgrade?",
+              "answer": "Ang Pro ay isang beses na pagbili na nag-a-unlock ng mga format na TIFF at AVIF, buong kontrol sa metadata at privacy, mga override ng setting bawat larawan, at batch na pag-convert sa Share Extension. Walang subscription — at ibinabahagi ito sa iyong pamilya sa pamamagitan ng Family Sharing."
+            },
+            {
+              "question": "Paano ko ire-restore ang aking pagbili?",
+              "answer": "Pumunta sa Settings at i-tap ang Restore Purchases. Siguraduhing naka-sign in ka gamit ang parehong Apple Account na ginamit mo para sa orihinal na pagbili. Kung bahagi ka ng isang Family Sharing group, awtomatikong ibinabahagi ang pagbili."
+            }
+          ]
+        },
+        {
+          "title": "Pag-aayos ng Problema",
+          "items": [
+            {
+              "question": "Hindi gumagana nang maayos ang app.",
+              "answer": "Subukang isara at muling buksan ang app. Kung nagpapatuloy ang isyu, i-restart ang iyong device at tiyaking nagpapatakbo ka ng pinakabagong bersyon mula sa App Store. May problema pa rin? Makipag-ugnayan sa amin na may mga detalye tungkol sa nangyayari at tutulungan ka namin."
+            },
+            {
+              "question": "Nabigo ang isang pag-convert. Ano ang dapat kong gawin?",
+              "answer": "Siguraduhing ang iyong device ay may sapat na libreng storage. Ang mga napakalalaking larawan ay maaaring mangailangan ng mas maraming espasyo. Subukang mag-convert ng mas kaunting larawan nang sabay-sabay, o bawasan ang output na laki. Kung nagpapatuloy ang problema, makipag-ugnayan sa amin na may format at laki ng larawan."
+            },
+            {
+              "question": "Hindi lumalabas ang aking Pro purchase.",
+              "answer": "Pumunta sa Settings at i-tap ang Restore Purchases. Siguraduhing nakakonekta ka sa internet at naka-sign in gamit ang tamang Apple Account. Kung bumili ka sa pamamagitan ng Family Sharing, tiyaking aktibo pa rin ang pagbabahagi sa iyong family group."
+            }
+          ]
+        }
+      ]
+    },
+    "requirements": {
+      "heading": "Mga Kinakailangan ng Sistema",
+      "items": [
+        "iOS 16.0 o mas bago",
+        "Compatible sa iPhone at iPad",
+        "Ganap na gumagana nang offline — hindi kailangan ng koneksyon sa internet"
+      ]
+    },
+    "links": [
+      { "label": "Legal", "title": "Patakaran sa Privacy", "href": "privacy.html" },
+      { "label": "Legal", "title": "Mga Tuntunin ng Paggamit", "href": "terms.html" }
+    ],
+    "lastUpdated": "Huling na-update: Marso 2026"
+  }
+}

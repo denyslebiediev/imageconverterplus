@@ -1,0 +1,11 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/
+CLAUDE.md
+.claudeignore
+
+# Build
+node_modules/

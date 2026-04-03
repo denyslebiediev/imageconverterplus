@@ -97,14 +97,16 @@
     <!-- Formats -->
     <div class="formats-section fade-in">
         <p class="section-label">Định dạng</p>
-        <h2 class="section-title">Năm định dạng, một ứng dụng.</h2>
+        <h2 class="section-title">Bảy định dạng, một ứng dụng.</h2>
         <p class="section-desc">Chuyển đổi giữa các định dạng ảnh phổ biến nhất với khả năng kiểm soát chất lượng hoàn toàn.</p>
         <div class="formats-row stagger">
             <span class="format-badge fade-in">JPEG</span>
             <span class="format-badge fade-in">PNG</span>
+            <span class="format-badge fade-in">PDF</span>
+            <span class="format-badge fade-in">WebP</span>
             <span class="format-badge fade-in">HEIC</span>
-            <span class="format-badge fade-in">TIFF</span>
             <span class="format-badge fade-in">AVIF</span>
+            <span class="format-badge fade-in">TIFF</span>
         </div>
     </div>
 
@@ -115,11 +117,11 @@
             <h2 class="faq-category-title">Bắt đầu</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Làm thế nào để nhập ảnh?</span>
+                    <span>Làm thế nào để chuyển đổi ảnh?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Nhấn nút "+" trên màn hình chính để chọn hình ảnh từ Thư viện ảnh hoặc ứng dụng Tệp. Bạn cũng có thể sử dụng Share Extension từ bất kỳ ứng dụng nào — chỉ cần chọn Image Converter Plus từ bảng chia sẻ.</p>
+                    <p>Nhấn <strong>Chọn từ Ảnh</strong> hoặc <strong>Chọn từ Tệp</strong>, chọn một hoặc nhiều hình ảnh, chọn định dạng, chất lượng và kích thước, sau đó nhấn <strong>Lưu vào Ảnh</strong>, <strong>Lưu vào Tệp</strong> hoặc <strong>Chia sẻ</strong>.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -128,7 +130,7 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Ứng dụng hỗ trợ JPEG, PNG, HEIC, TIFF và AVIF. Bạn có thể chuyển đổi giữa bất kỳ định dạng nào trong số này.</p>
+                    <p>Image Converter Plus hỗ trợ JPEG, PNG, HEIC, WebP, AVIF và TIFF. Bạn cũng có thể kết hợp nhiều ảnh thành một tệp PDF duy nhất. TIFF, AVIF và PDF yêu cầu Pro.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -137,7 +139,16 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Có. Chọn nhiều hình ảnh khi nhập và tất cả sẽ được chuyển đổi với cùng cài đặt. Chuyển đổi hàng loạt có sẵn với Pro.</p>
+                    <p>Có. Chọn nhiều hình ảnh khi nhập từ Ảnh hoặc Tệp. Với Pro, bạn có thể chuyển đổi không giới hạn số lượng ảnh cùng lúc. Người dùng miễn phí có thể chuyển đổi từng ảnh một.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Ảnh đã chuyển đổi ở đâu?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Ảnh đã chuyển đổi sẽ được lưu vào nơi bạn chọn. <strong>Lưu vào Ảnh</strong> thêm chúng vào Thư viện ảnh. <strong>Lưu vào Tệp</strong> cho phép bạn chọn thư mục. <strong>Chia sẻ</strong> gửi chúng đến ứng dụng khác. Bạn cũng có thể xem các lần chuyển đổi trước trong tab <strong>Lịch sử</strong>.</p>
                 </div></div>
             </div>
         </div>
@@ -146,73 +157,82 @@
             <h2 class="faq-category-title">Cài đặt chuyển đổi</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Làm thế nào để điều chỉnh chất lượng?</span>
+                    <span>Làm thế nào để thay đổi định dạng đầu ra?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Sử dụng thanh trượt chất lượng trên màn hình chuyển đổi. Giá trị thấp hơn tạo ra tệp nhỏ hơn, giá trị cao hơn giữ lại nhiều chi tiết hơn. Ước tính kích thước tệp cập nhật theo thời gian thực khi bạn điều chỉnh.</p>
+                    <p>Nhấn menu <strong>Định dạng</strong> và chọn từ JPEG, PNG, HEIC, WebP, TIFF, AVIF hoặc PDF. <strong>Giữ nguyên</strong> giữ cùng định dạng với ảnh gốc. TIFF, AVIF và PDF yêu cầu Pro.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Tôi có thể thay đổi kích thước ảnh trong quá trình chuyển đổi không?</span>
+                    <span>Chất lượng hoạt động như thế nào?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Có. Bạn có thể đặt độ phân giải tối đa hoặc thu phóng hình ảnh theo phần trăm. Tỷ lệ khung hình luôn được giữ nguyên tự động.</p>
+                    <p>Sử dụng thanh trượt <strong>Chất lượng</strong> hoặc nhấn một mức cài sẵn (Thấp, Trung bình, Cao, Tối đa). Chất lượng cao hơn nghĩa là tệp lớn hơn. Chất lượng áp dụng cho JPEG, HEIC, WebP và AVIF. PNG và TIFF luôn là lossless.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Sự khác biệt giữa HEIC và JPEG là gì?</span>
+                    <span>Tôi có thể thay đổi kích thước ảnh khi chuyển đổi không?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>HEIC là định dạng mặc định của Apple cung cấp khả năng nén tốt hơn — tệp nhỏ hơn ở chất lượng tương đương. JPEG tương thích phổ biến trên tất cả các thiết bị và nền tảng. Chuyển đổi HEIC sang JPEG khi bạn cần chia sẻ với các thiết bị không phải Apple.</p>
+                    <p>Có. Nhấn nút <strong>Kích thước</strong> để chọn Nhỏ (50%), Gốc (100%) hoặc Lớn (200%). Giảm kích thước giúp tệp nhỏ hơn đáng kể. Phóng to sẽ không cải thiện độ rõ nét của ảnh.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Tôi có thể đặt tùy chọn khác nhau cho từng ảnh không?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Với Pro, nhấn vào ảnh thu nhỏ bất kỳ để đặt định dạng, chất lượng, kích thước hoặc tên riêng cho ảnh đó. Các ảnh khác giữ nguyên cài đặt hàng loạt.</p>
                 </div></div>
             </div>
         </div>
 
         <div class="faq-category fade-in">
-            <h2 class="faq-category-title">Quyền riêng tư và siêu dữ liệu</h2>
+            <h2 class="faq-category-title">Quyền riêng tư &amp; siêu dữ liệu</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Làm thế nào để xóa dữ liệu EXIF khỏi ảnh?</span>
+                    <span>Siêu dữ liệu là gì?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Bật "Xóa siêu dữ liệu" trong cài đặt chuyển đổi. Điều này sẽ xóa dữ liệu EXIF bao gồm vị trí, thông tin máy ảnh và dấu thời gian khỏi tệp đã chuyển đổi.</p>
+                    <p>Ảnh chứa dữ liệu ẩn như vị trí GPS, ngày chụp, kiểu máy ảnh và thông tin thiết bị. Xóa dữ liệu này giúp bảo vệ quyền riêng tư khi bạn chia sẻ ảnh trực tuyến.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Ứng dụng có xóa dữ liệu vị trí không?</span>
+                    <span>Làm thế nào để xóa dữ liệu vị trí?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Có. Khi "Xóa siêu dữ liệu" được bật, tất cả dữ liệu vị trí (GPS) sẽ được xóa cùng với các thông tin EXIF khác. Điều này hữu ích khi chia sẻ ảnh trực tuyến.</p>
+                    <p>Với Pro, nhấn <strong>Quyền riêng tư</strong> và bật <strong>Dữ liệu vị trí</strong>. Thao tác này xóa tọa độ GPS và tên địa điểm mà vẫn giữ nguyên mọi thứ khác.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Tôi có thể thêm watermark vào ảnh không?</span>
+                    <span>Các mức cài sẵn quyền riêng tư làm gì?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Có. Bạn có thể thêm watermark văn bản với phông chữ, kích thước, màu sắc, độ mờ và vị trí tùy chỉnh. Tính năng watermark có sẵn với Pro.</p>
+                    <p><strong>Chỉ vị trí</strong> chỉ xóa dữ liệu GPS. <strong>Siêu dữ liệu cá nhân</strong> xóa vị trí, thông tin thiết bị, chú thích và lịch sử chỉnh sửa. <strong>Tất cả siêu dữ liệu</strong> xóa mọi thứ ngoại trừ dữ liệu hiển thị cần thiết. <strong>Tùy chỉnh</strong> cho phép bạn chọn từng danh mục riêng.</p>
                 </div></div>
             </div>
         </div>
 
         <div class="faq-category fade-in">
-            <h2 class="faq-category-title">Lưu và chia sẻ</h2>
+            <h2 class="faq-category-title">Lưu &amp; chia sẻ</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
                     <span>Ảnh đã chuyển đổi được lưu ở đâu?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Bạn có thể lưu ảnh đã chuyển đổi vào Thư viện ảnh, ứng dụng Tệp, hoặc chia sẻ trực tiếp đến các ứng dụng khác bằng bảng chia sẻ.</p>
+                    <p>Bạn chọn nơi lưu. <strong>Lưu vào Ảnh</strong> thêm chúng vào Thư viện ảnh. <strong>Lưu vào Tệp</strong> cho phép bạn chọn thư mục, bao gồm iCloud Drive và các dịch vụ đám mây đã kết nối. <strong>Chia sẻ</strong> mở bảng chia sẻ iOS cho AirDrop, Tin nhắn, Mail hoặc bất kỳ ứng dụng nào khác.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -221,16 +241,60 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Từ bất kỳ ứng dụng nào, nhấn nút chia sẻ, sau đó chọn Image Converter Plus. Hình ảnh sẽ mở trong Ứng dụng sẵn sàng để chuyển đổi. Tất cả quá trình xử lý đều diễn ra trên thiết bị của bạn.</p>
+                    <p>Từ bất kỳ ứng dụng nào, nhấn nút chia sẻ, sau đó chọn <strong>Convert</strong> (bạn có thể cần cuộn hoặc nhấn <strong>Thêm</strong>). Share Extension sử dụng mức cài sẵn mặc định của bạn. Tất cả quá trình xử lý đều diễn ra trên thiết bị.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Tôi có thể chia sẻ trực tiếp lên mạng xã hội không?</span>
+                    <span>Chia sẻ tương thích tối đa là gì?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Có. Sau khi chuyển đổi, sử dụng nút chia sẻ để gửi hình ảnh đến bất kỳ ứng dụng nào được cài đặt trên thiết bị, bao gồm mạng xã hội, tin nhắn và ứng dụng email.</p>
+                    <p>Khi được bật trong <strong>Cài đặt &gt; Cài đặt mặc định</strong>, các định dạng như HEIC, AVIF và TIFF sẽ tự động được chuyển đổi sang JPEG khi bạn chia sẻ. Điều này đảm bảo ảnh của bạn mở được trên mọi thiết bị, bao gồm Android và các hệ thống cũ hơn.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">Cài sẵn</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Cài sẵn là gì?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Cài sẵn là các tổ hợp đã lưu của định dạng, chất lượng, kích thước và cài đặt quyền riêng tư. Chúng cho phép bạn nhanh chóng áp dụng các thiết lập yêu thích mà không cần điều chỉnh từng tùy chọn.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Làm thế nào để sắp xếp lại hoặc ẩn cài sẵn?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Vào <strong>Cài đặt &gt; Cài sẵn</strong>. Nhấn <strong>Sửa</strong> để kéo các cài sẵn theo thứ tự bạn muốn. Bạn cũng có thể ẩn các cài sẵn không sử dụng.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">Lịch sử</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Làm thế nào để xóa mục lịch sử?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Vuốt sang trái trên bất kỳ mục lịch sử nào và nhấn <strong>Xóa</strong>. Hoặc nhấn <strong>Sửa</strong> và chọn nhiều mục để xóa cùng lúc.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Tự động xóa hoạt động như thế nào?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Vào <strong>Cài đặt &gt; Tùy chọn lịch sử</strong> và chọn khung thời gian: 7 ngày, 30 ngày hoặc 90 ngày. Các lần chuyển đổi cũ hơn sẽ tự động bị xóa. Chọn <strong>Không bao giờ</strong> để giữ tất cả.</p>
                 </div></div>
             </div>
         </div>
@@ -243,7 +307,7 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Pro là giao dịch mua một lần loại bỏ tất cả giới hạn. Bạn được chuyển đổi không giới hạn, xử lý hàng loạt, tất cả định dạng xuất, watermark và mọi bản cập nhật tính năng trong tương lai.</p>
+                    <p>Chuyển đổi hàng loạt không giới hạn, định dạng đầu ra TIFF, AVIF và PDF, tùy chỉnh cài đặt riêng cho từng ảnh, tất cả tùy chọn bảo mật và xóa siêu dữ liệu, và tất cả cài sẵn bao gồm các cài sẵn có kiểm soát quyền riêng tư.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -252,16 +316,16 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Nhấn vào biểu ngữ Pro hoặc vào Cài đặt trong Ứng dụng. Giao dịch mua được xử lý an toàn thông qua App Store.</p>
+                    <p>Nhấn vào biểu ngữ <strong>Pro</strong> trong Cài đặt hoặc nhấn vào bất kỳ tính năng Pro bị khóa nào. Pro có sẵn dưới dạng đăng ký (hàng tuần, hàng tháng hoặc hàng năm) hoặc mua trọn đời một lần. Tất cả giao dịch mua được xử lý an toàn qua App Store.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Làm thế nào để khôi phục giao dịch mua?</span>
+                    <span>Tôi đã mua Pro nhưng các tính năng vẫn bị khóa</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Vào Cài đặt trong Ứng dụng và nhấn "Khôi phục giao dịch mua." Đảm bảo bạn đã đăng nhập bằng cùng Apple ID đã sử dụng cho giao dịch mua ban đầu.</p>
+                    <p>Vào <strong>Cài đặt</strong>, cuộn đến phần Pro và nhấn <strong>Khôi phục giao dịch mua</strong>. Thao tác này đồng bộ giao dịch mua nếu bạn đã mua Pro trên thiết bị khác hoặc cài đặt lại ứng dụng. Hãy đảm bảo bạn đã đăng nhập bằng cùng Apple ID.</p>
                 </div></div>
             </div>
         </div>
@@ -270,20 +334,20 @@
             <h2 class="faq-category-title">Khắc phục sự cố</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Ứng dụng không thể truy cập ảnh của tôi. Tôi nên làm gì?</span>
+                    <span>Tại sao tệp của tôi vẫn lớn?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Vào Cài đặt &gt; Quyền riêng tư &amp; Bảo mật &gt; Ảnh trên thiết bị của bạn và đảm bảo Image Converter Plus có quyền truy cập. Bạn có thể cấp "Quyền truy cập đầy đủ" hoặc chọn các ảnh cụ thể.</p>
+                    <p>Kích thước tệp phụ thuộc vào nội dung hình ảnh. Ảnh có nhiều chi tiết sẽ nén ít hơn. Thử giảm <strong>Chất lượng</strong> hoặc <strong>Kích thước</strong> để có tệp nhỏ hơn. Định dạng PNG là lossless và thường lớn hơn JPEG.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Có giới hạn kích thước tệp không?</span>
+                    <span>Ứng dụng không thể truy cập ảnh của tôi. Tôi nên làm gì?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Không có giới hạn kích thước tệp cố định. Ứng dụng có thể xử lý hình ảnh lớn, nhưng các tệp rất lớn có thể mất nhiều thời gian hơn để xử lý tùy thuộc vào bộ nhớ khả dụng của thiết bị.</p>
+                    <p>Vào <strong>Cài đặt &gt; Quyền riêng tư &amp; Bảo mật &gt; Ảnh &gt; Image Converter Plus</strong> trên thiết bị của bạn và cho phép truy cập. Nếu bộ nhớ đầy, hãy giải phóng dung lượng hoặc lưu vào Tệp.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -292,7 +356,16 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Thử đóng các ứng dụng khác để giải phóng bộ nhớ, sau đó thử chuyển đổi lại. Nếu sự cố vẫn tiếp diễn, hãy khởi động lại Ứng dụng hoặc thiết bị. Bạn cũng có thể liên hệ với chúng tôi tại <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a>.</p>
+                    <p>Tệp có thể bị hỏng hoặc ở định dạng không được hỗ trợ. Thử mở tệp trong Ảnh trước. Đồng thời kiểm tra xem thiết bị có đủ dung lượng trống không. Nếu sự cố vẫn tiếp diễn, hãy liên hệ với chúng tôi tại <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a>.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Dữ liệu của tôi có riêng tư không?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Có. Tất cả quá trình chuyển đổi đều diễn ra trên thiết bị của bạn. Không có ảnh nào được tải lên bất kỳ máy chủ nào. Ảnh của bạn không bao giờ rời khỏi iPhone hoặc iPad trừ khi bạn tự chia sẻ.</p>
                 </div></div>
             </div>
         </div>
@@ -328,7 +401,7 @@
 
     <!-- Footer -->
     <div class="footer fade-in">
-        <p>Cập nhật lần cuối: Tháng 3 năm 2026</p>
+        <p>Cập nhật lần cuối: tháng 4 năm 2026</p>
     </div>
 
 </div>

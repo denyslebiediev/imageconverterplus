@@ -69,7 +69,7 @@
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/subpage.css">
     <link rel="stylesheet" href="../css/support.css">
-        <link rel="stylesheet" href="../css/rtl.css">
+    <link rel="stylesheet" href="../css/rtl.css">
 </head>
 <body>
 
@@ -97,14 +97,16 @@
     <!-- Formats -->
     <div class="formats-section fade-in">
         <p class="section-label">الصيغ</p>
-        <h2 class="section-title">خمس صيغ، تطبيق واحد.</h2>
+        <h2 class="section-title">سبع صيغ، تطبيق واحد.</h2>
         <p class="section-desc">تحويل بين أكثر صيغ الصور شيوعاً مع تحكم كامل في الجودة.</p>
         <div class="formats-row stagger">
             <span class="format-badge fade-in">JPEG</span>
             <span class="format-badge fade-in">PNG</span>
+            <span class="format-badge fade-in">PDF</span>
+            <span class="format-badge fade-in">WebP</span>
             <span class="format-badge fade-in">HEIC</span>
-            <span class="format-badge fade-in">TIFF</span>
             <span class="format-badge fade-in">AVIF</span>
+            <span class="format-badge fade-in">TIFF</span>
         </div>
     </div>
 
@@ -115,11 +117,11 @@
             <h2 class="faq-category-title">البدء</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>كيف أستورد الصور؟</span>
+                    <span>كيف أحوّل صورة؟</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>اضغط على زر "+" في الشاشة الرئيسية لاختيار صور من مكتبة الصور أو تطبيق الملفات. يمكنك أيضاً استخدام Share Extension من أي تطبيق — فقط اختر Image Converter Plus من ورقة المشاركة.</p>
+                    <p>اضغط على <strong>اختيار من الصور</strong> أو <strong>اختيار من الملفات</strong>، ثم حدد صورة أو أكثر، واختر الصيغة والجودة والحجم، ثم اضغط على <strong>حفظ في الصور</strong> أو <strong>حفظ في الملفات</strong> أو <strong>مشاركة</strong>.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -128,7 +130,7 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>يدعم التطبيق JPEG وPNG وHEIC وTIFF وAVIF. يمكنك التحويل بين أي من هذه الصيغ.</p>
+                    <p>يدعم Image Converter Plus صيغ JPEG وPNG وHEIC وWebP وAVIF وTIFF. يمكنك أيضاً دمج عدة صور في ملف PDF واحد. تتطلب صيغ TIFF وAVIF وPDF اشتراك Pro.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -137,7 +139,16 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>نعم. اختر عدة صور عند الاستيراد وسيتم تحويلها جميعاً بنفس الإعدادات. التحويل الجماعي متوفر مع Pro.</p>
+                    <p>نعم. اختر عدة صور عند الاستيراد من الصور أو الملفات. مع Pro، يمكنك تحويل دفعة غير محدودة في المرة الواحدة. يستطيع المستخدمون المجانيون تحويل صورة واحدة في كل مرة.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>أين أجد صوري المحوّلة؟</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>تُحفظ الصور المحوّلة حيث تختار. <strong>حفظ في الصور</strong> يضيفها إلى مكتبة الصور. <strong>حفظ في الملفات</strong> يتيح لك اختيار مجلد. <strong>مشاركة</strong> ترسلها إلى تطبيق آخر. يمكنك أيضاً عرض التحويلات السابقة في تبويب <strong>السجل</strong>.</p>
                 </div></div>
             </div>
         </div>
@@ -146,11 +157,20 @@
             <h2 class="faq-category-title">إعدادات التحويل</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>كيف أضبط الجودة؟</span>
+                    <span>كيف أغيّر صيغة الإخراج؟</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>استخدم شريط تمرير الجودة في شاشة التحويل. القيم المنخفضة تنتج ملفات أصغر، والقيم العالية تحافظ على المزيد من التفاصيل. يتم تحديث تقدير حجم الملف في الوقت الفعلي أثناء الضبط.</p>
+                    <p>اضغط على قائمة <strong>الصيغة</strong> واختر من JPEG أو PNG أو HEIC أو WebP أو TIFF أو AVIF أو PDF. خيار <strong>الاحتفاظ بالأصلية</strong> يبقي نفس صيغة الملف المصدر. تتطلب صيغ TIFF وAVIF وPDF اشتراك Pro.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>كيف تعمل الجودة؟</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>استخدم شريط تمرير <strong>الجودة</strong> أو اضغط على إعداد مسبق (منخفضة، متوسطة، عالية، قصوى). الجودة الأعلى تعني ملفات أكبر. تنطبق الجودة على صيغ JPEG وHEIC وWebP وAVIF. صيغتا PNG وTIFF بدون فقدان دائماً.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -159,16 +179,16 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>نعم. يمكنك تحديد دقة قصوى أو تصغير الصور بنسبة مئوية. يتم الحفاظ على نسبة العرض إلى الارتفاع تلقائياً دائماً.</p>
+                    <p>نعم. اضغط على عنصر التحكم في <strong>الحجم</strong> للاختيار بين صغير (50%) أو أصلي (100%) أو كبير (200%). تقليل الحجم يجعل الملفات أصغر بشكل ملحوظ. التكبير لن يحسّن وضوح الصورة.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>ما الفرق بين HEIC وJPEG؟</span>
+                    <span>هل يمكنني تعيين إعدادات مختلفة لكل صورة؟</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>HEIC هو صيغة Apple الافتراضية التي توفر ضغطاً أفضل — ملفات أصغر بجودة مماثلة. JPEG متوافق عالمياً عبر جميع الأجهزة والمنصات. حوّل HEIC إلى JPEG عندما تحتاج إلى المشاركة مع أجهزة غير Apple.</p>
+                    <p>مع Pro، اضغط على أي صورة مصغرة لتعيين صيغة أو جودة أو حجم أو اسم مختلف لتلك الصورة فقط. تحتفظ الصور الأخرى بإعدادات الدفعة.</p>
                 </div></div>
             </div>
         </div>
@@ -177,29 +197,29 @@
             <h2 class="faq-category-title">الخصوصية والبيانات الوصفية</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>كيف أزيل بيانات EXIF من الصور؟</span>
+                    <span>ما هي البيانات الوصفية؟</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>فعّل "إزالة البيانات الوصفية" في إعدادات التحويل. هذا يزيل بيانات EXIF بما في ذلك الموقع ومعلومات الكاميرا والطوابع الزمنية من الملف المحوّل.</p>
+                    <p>تحتوي الصور على بيانات مخفية مثل موقع GPS وتاريخ الالتقاط وطراز الكاميرا ومعلومات الجهاز. إزالة هذه البيانات تحمي خصوصيتك عند مشاركة الصور عبر الإنترنت.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>هل يزيل التطبيق بيانات الموقع؟</span>
+                    <span>كيف أزيل بيانات الموقع؟</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>نعم. عند تفعيل "إزالة البيانات الوصفية"، تتم إزالة جميع بيانات الموقع (GPS) مع معلومات EXIF الأخرى. هذا مفيد عند مشاركة الصور عبر الإنترنت.</p>
+                    <p>مع Pro، اضغط على <strong>الخصوصية</strong> وفعّل <strong>بيانات الموقع</strong>. هذا يزيل إحداثيات GPS وأسماء الأماكن مع الاحتفاظ بكل شيء آخر.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>هل يمكنني إضافة علامة مائية على صوري؟</span>
+                    <span>ماذا تفعل إعدادات الخصوصية المسبقة؟</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>نعم. يمكنك إضافة علامة مائية نصية مع خط وحجم ولون وشفافية وموضع قابلين للتخصيص. العلامة المائية متوفرة مع Pro.</p>
+                    <p><strong>الموقع فقط</strong> يزيل بيانات GPS فقط. <strong>البيانات الوصفية الشخصية</strong> يزيل الموقع ومعلومات الجهاز والتعليقات وسجل التعديل. <strong>جميع البيانات الوصفية</strong> يزيل كل شيء ما عدا بيانات المظهر الأساسية. <strong>مخصص</strong> يتيح لك اختيار فئات فردية.</p>
                 </div></div>
             </div>
         </div>
@@ -212,7 +232,7 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>يمكنك حفظ الصور المحوّلة في مكتبة الصور أو تطبيق الملفات أو مشاركتها مباشرة مع تطبيقات أخرى باستخدام ورقة المشاركة.</p>
+                    <p>أنت تختار مكان الحفظ. <strong>حفظ في الصور</strong> يضيفها إلى مكتبة الصور. <strong>حفظ في الملفات</strong> يتيح لك اختيار مجلد، بما في ذلك iCloud Drive والخدمات السحابية المتصلة. <strong>مشاركة</strong> تفتح ورقة مشاركة iOS لـ AirDrop والرسائل والبريد أو أي تطبيق آخر.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -221,16 +241,60 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>من أي تطبيق، اضغط على زر المشاركة ثم اختر Image Converter Plus. ستُفتح الصورة في التطبيق جاهزة للتحويل. تبقى جميع المعالجة على جهازك.</p>
+                    <p>من أي تطبيق، اضغط على زر المشاركة ثم اختر <strong>تحويل</strong> (قد تحتاج إلى التمرير أو الضغط على <strong>المزيد</strong>). يستخدم Share Extension الإعداد المسبق الافتراضي. تبقى جميع المعالجة على جهازك.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>هل يمكنني المشاركة مباشرة على وسائل التواصل الاجتماعي؟</span>
+                    <span>ما هي ميزة المشاركة الأكثر توافقاً؟</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>نعم. بعد التحويل، استخدم زر المشاركة لإرسال الصورة إلى أي تطبيق مثبت على جهازك، بما في ذلك تطبيقات التواصل الاجتماعي والرسائل والبريد الإلكتروني.</p>
+                    <p>عند تفعيلها في <strong>الإعدادات &gt; الإعدادات الافتراضية</strong>، يتم تحويل صيغ مثل HEIC وAVIF وTIFF تلقائياً إلى JPEG عند المشاركة. هذا يضمن فتح صورك على أي جهاز، بما في ذلك Android والأنظمة القديمة.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">الإعدادات المسبقة</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>ما هي الإعدادات المسبقة؟</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>الإعدادات المسبقة هي مجموعات محفوظة من الصيغة والجودة والحجم وإعدادات الخصوصية. تتيح لك تطبيق إعداداتك المفضلة بسرعة دون ضبط كل خيار على حدة.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>كيف أعيد ترتيب الإعدادات المسبقة أو أخفيها؟</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>انتقل إلى <strong>الإعدادات &gt; الإعدادات المسبقة</strong>. اضغط على <strong>تعديل</strong> لسحب الإعدادات المسبقة إلى الترتيب المفضل. يمكنك أيضاً إخفاء الإعدادات المسبقة التي لا تستخدمها.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">السجل</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>كيف أحذف عناصر السجل؟</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>اسحب لليسار على أي عنصر في السجل واضغط على <strong>حذف</strong>. أو اضغط على <strong>تعديل</strong> وحدد عدة عناصر لحذفها دفعة واحدة.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>كيف يعمل الحذف التلقائي؟</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>انتقل إلى <strong>الإعدادات &gt; خيارات السجل</strong> واختر مدة زمنية: 7 أيام أو 30 يوماً أو 90 يوماً. تُزال التحويلات الأقدم تلقائياً. اختر <strong>أبداً</strong> للاحتفاظ بكل شيء.</p>
                 </div></div>
             </div>
         </div>
@@ -243,7 +307,7 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Pro هو شراء لمرة واحدة يزيل جميع القيود. تحصل على تحويلات غير محدودة ومعالجة جماعية وجميع صيغ التصدير وعلامات مائية وكل تحديثات الميزات المستقبلية.</p>
+                    <p>تحويلات جماعية غير محدودة، وصيغ إخراج TIFF وAVIF وPDF، وتخصيص إعدادات كل صورة، وجميع خيارات الخصوصية وإزالة البيانات الوصفية، وجميع الإعدادات المسبقة بما فيها تلك التي تتضمن أدوات التحكم في الخصوصية.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -252,16 +316,16 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>اضغط على شعار Pro أو انتقل إلى الإعدادات داخل التطبيق. تتم عملية الشراء بأمان من خلال App Store.</p>
+                    <p>اضغط على شعار <strong>Pro</strong> في الإعدادات أو اضغط على أي ميزة مقفلة بـ Pro. متاح كاشتراك (أسبوعي أو شهري أو سنوي) أو كشراء لمرة واحدة مدى الحياة. تتم جميع عمليات الشراء بأمان من خلال App Store.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>كيف أستعيد عملية الشراء؟</span>
+                    <span>اشتريت Pro لكن الميزات لا تزال مقفلة</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>انتقل إلى الإعدادات في التطبيق واضغط على "استعادة المشتريات". تأكد من تسجيل الدخول بنفس Apple ID الذي استخدمته للشراء الأصلي.</p>
+                    <p>انتقل إلى <strong>الإعدادات</strong>، ثم مرّر إلى قسم Pro واضغط على <strong>استعادة المشتريات</strong>. هذا يزامن عملية الشراء إذا اشتريت Pro على جهاز آخر أو أعدت تثبيت التطبيق. تأكد من تسجيل الدخول بنفس Apple ID.</p>
                 </div></div>
             </div>
         </div>
@@ -270,29 +334,38 @@
             <h2 class="faq-category-title">استكشاف الأخطاء وإصلاحها</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
+                    <span>لماذا لا يزال ملفي كبيراً؟</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>يعتمد حجم الملف على محتوى الصورة. الصور الغنية بالتفاصيل تُضغط بدرجة أقل. جرّب تقليل <strong>الجودة</strong> أو <strong>الحجم</strong> للحصول على ملفات أصغر. صيغة PNG بدون فقدان وعادةً ما تكون أكبر من JPEG.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
                     <span>التطبيق لا يستطيع الوصول إلى صوري. ماذا أفعل؟</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>انتقل إلى الإعدادات &gt; الخصوصية والأمان &gt; الصور على جهازك وتأكد أن Image Converter Plus لديه حق الوصول. يمكنك منح "وصول كامل" أو اختيار صور محددة.</p>
+                    <p>انتقل إلى <strong>الإعدادات &gt; الخصوصية والأمان &gt; الصور &gt; Image Converter Plus</strong> على جهازك واسمح بالوصول. إذا كانت مساحة التخزين ممتلئة، قم بتحرير مساحة أو احفظ في الملفات بدلاً من ذلك.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>هل هناك حد لحجم الملف؟</span>
+                    <span>فشل التحويل. ماذا يمكنني أن أجرّب؟</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>لا يوجد حد ثابت لحجم الملف. يمكن للتطبيق معالجة صور كبيرة، لكن الملفات الكبيرة جداً قد تستغرق وقتاً أطول في المعالجة حسب الذاكرة المتوفرة في جهازك.</p>
+                    <p>قد يكون الملف تالفاً أو بصيغة غير مدعومة. جرّب فتحه في تطبيق الصور أولاً. تحقق أيضاً من أن جهازك يحتوي على مساحة تخزين كافية. إذا استمرت المشكلة، تواصل معنا عبر <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a>.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>فشل التحويل. ماذا يمكنني أن أجرب؟</span>
+                    <span>هل بياناتي خاصة؟</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>حاول إغلاق التطبيقات الأخرى لتحرير الذاكرة ثم أعد محاولة التحويل. إذا استمرت المشكلة، أعد تشغيل التطبيق أو جهازك. يمكنك أيضاً التواصل معنا عبر <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a>.</p>
+                    <p>نعم. تتم جميع التحويلات على جهازك. لا يتم رفع أي صور إلى أي خادم. لن تغادر صورك جهاز iPhone أو iPad الخاص بك ما لم تشاركها بنفسك.</p>
                 </div></div>
             </div>
         </div>
@@ -328,7 +401,7 @@
 
     <!-- Footer -->
     <div class="footer fade-in">
-        <p>آخر تحديث: مارس 2026</p>
+        <p>آخر تحديث: أبريل 2026</p>
     </div>
 
 </div>

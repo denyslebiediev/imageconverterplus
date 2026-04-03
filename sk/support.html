@@ -69,7 +69,7 @@
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/subpage.css">
     <link rel="stylesheet" href="../css/support.css">
-    
+
 </head>
 <body>
 
@@ -97,14 +97,16 @@
     <!-- Formats -->
     <div class="formats-section fade-in">
         <p class="section-label">Formáty</p>
-        <h2 class="section-title">Päť formátov, jedna aplikácia.</h2>
-        <p class="section-desc">Konvertujte medzi najpopulárnejšími obrazovými formátmi s plnou kontrolou kvality.</p>
+        <h2 class="section-title">Sedem formátov, jedna aplikácia.</h2>
+        <p class="section-desc">Prevádzajte medzi najobľúbenejšími obrazovými formátmi s plnou kontrolou kvality.</p>
         <div class="formats-row stagger">
             <span class="format-badge fade-in">JPEG</span>
             <span class="format-badge fade-in">PNG</span>
+            <span class="format-badge fade-in">PDF</span>
+            <span class="format-badge fade-in">WebP</span>
             <span class="format-badge fade-in">HEIC</span>
-            <span class="format-badge fade-in">TIFF</span>
             <span class="format-badge fade-in">AVIF</span>
+            <span class="format-badge fade-in">TIFF</span>
         </div>
     </div>
 
@@ -115,11 +117,11 @@
             <h2 class="faq-category-title">Začíname</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Ako importujem fotografie?</span>
+                    <span>Ako skonvertujem obrázok?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Ťuknite na tlačidlo plus na hlavnej obrazovke a vyberte fotografie z knižnice. Môžete tiež použiť Share Extension na odoslanie obrázkov priamo z aplikácie Fotky alebo Súbory.</p>
+                    <p>Ťuknite na <strong>Vybrať z Fotiek</strong> alebo <strong>Vybrať zo Súborov</strong>, vyberte jeden alebo viac obrázkov, zvoľte formát, kvalitu a veľkosť a potom ťuknite na <strong>Uložiť do Fotiek</strong>, <strong>Uložiť do Súborov</strong> alebo <strong>Zdieľať</strong>.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -128,16 +130,25 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Aplikácia podporuje JPEG, PNG, HEIC, TIFF a AVIF. Môžete prevádzať medzi ľubovoľnými z týchto formátov v plnej kvalite.</p>
+                    <p>Image Converter Plus podporuje JPEG, PNG, HEIC, WebP, AVIF a TIFF. Môžete tiež zlúčiť viacero obrázkov do jedného PDF. TIFF, AVIF a PDF vyžadujú Pro.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Môžem konvertovať viac fotografií naraz?</span>
+                    <span>Môžem skonvertovať viacero obrázkov naraz?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Áno. Vyberte viac fotografií pri importe a všetky budú konvertované s rovnakými nastaveniami naraz. Počet fotografií v dávke nie je obmedzený.</p>
+                    <p>Áno. Pri importe z Fotiek alebo Súborov vyberte viacero obrázkov. S Pro môžete skonvertovať neobmedzený počet naraz. Bezplatní používatelia môžu skonvertovať jeden obrázok naraz.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Kde sú moje skonvertované obrázky?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Skonvertované obrázky idú tam, kam si zvolíte. <strong>Uložiť do Fotiek</strong> ich pridá do vašej Knižnice fotiek. <strong>Uložiť do Súborov</strong> vám umožní vybrať priečinok. <strong>Zdieľať</strong> ich odošle do inej aplikácie. Minulé konverzie si môžete prezrieť na karte <strong>História</strong>.</p>
                 </div></div>
             </div>
         </div>
@@ -146,29 +157,38 @@
             <h2 class="faq-category-title">Nastavenia konverzie</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Ako upravím kvalitu?</span>
+                    <span>Ako zmením výstupný formát?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Použite posuvník kvality na obrazovke konverzie na nastavenie úrovne kompresie. Vyššie hodnoty zachovávajú viac detailov, ale vytvárajú väčšie súbory. Náhľad sa aktualizuje v reálnom čase.</p>
+                    <p>Ťuknite na ponuku <strong>Formát</strong> a vyberte JPEG, PNG, HEIC, WebP, TIFF, AVIF alebo PDF. <strong>Ponechať originál</strong> zachová rovnaký formát ako zdroj. TIFF, AVIF a PDF vyžadujú Pro.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Môžem meniť veľkosť fotografií počas konverzie?</span>
+                    <span>Ako funguje kvalita?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Áno. Zapnite zmenu veľkosti a nastavte cieľovú šírku alebo výšku. Pomer strán sa zachováva automaticky. Zmena veľkosti sa aplikuje počas konverzie.</p>
+                    <p>Použite posuvník <strong>Kvalita</strong> alebo ťuknite na predvoľbu (Nízka, Stredná, Vysoká, Maximálna). Vyššia kvalita znamená väčšie súbory. Kvalita sa týka JPEG, HEIC, WebP a AVIF. PNG a TIFF sú vždy bezstratové.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Aký je rozdiel medzi HEIC a JPEG?</span>
+                    <span>Môžem počas konverzie zmeniť veľkosť obrázkov?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>HEIC je moderný formát Apple ponúkajúci menšie veľkosti súborov pri podobnej kvalite. JPEG je univerzálne kompatibilný na všetkých platformách. Konvertujte HEIC na JPEG pre jednoduché zdieľanie na zariadeniach mimo Apple.</p>
+                    <p>Áno. Ťuknite na ovládací prvok <strong>Veľkosť</strong> a vyberte Malá (50 %), Originál (100 %) alebo Veľká (200 %). Zmenšenie výrazne zmenší súbory. Zväčšenie nezlepší ostrosť obrázka.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Môžem nastaviť rôzne možnosti pre každý obrázok?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>S Pro ťuknite na ľubovoľný náhľad obrázka a nastavte iný formát, kvalitu, veľkosť alebo názov len pre tento obrázok. Ostatné obrázky si ponechajú hromadné nastavenie.</p>
                 </div></div>
             </div>
         </div>
@@ -177,29 +197,29 @@
             <h2 class="faq-category-title">Súkromie a metadáta</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Ako odstránim EXIF dáta z fotografií?</span>
+                    <span>Čo sú metadáta?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Pred konverziou zapnite možnosť „Odstrániť metadáta". Tým sa odstránia všetky EXIF dáta vrátane nastavení fotoaparátu, časových pečiatok a informácií o polohe z výstupných fotografií.</p>
+                    <p>Fotografie obsahujú skryté dáta ako GPS polohu, dátum nasnímania, model fotoaparátu a informácie o zariadení. Ich odstránenie chráni vaše súkromie pri zdieľaní obrázkov online.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Odstraňuje aplikácia údaje o polohe?</span>
+                    <span>Ako odstránim údaje o polohe?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Áno, ak je zapnuté odstraňovanie metadát. GPS dáta, názvy miest a všetky ostatné informácie o polohe vložené do vašich fotografií budú z konvertovaného súboru odstránené.</p>
+                    <p>S Pro ťuknite na <strong>Súkromie</strong> a zapnite <strong>Údaje o polohe</strong>. Tým sa odstránia GPS súradnice a názvy miest, zatiaľ čo všetko ostatné zostane zachované.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Môžem pridať vodoznak na svoje fotografie?</span>
+                    <span>Čo robia predvoľby súkromia?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Áno. Zapnite vodoznak a prispôsobte text, pozíciu, veľkosť a priehľadnosť. Vodoznak sa aplikuje počas konverzie a zobrazí sa na všetkých výstupných fotografiách.</p>
+                    <p><strong>Iba poloha</strong> odstráni len GPS dáta. <strong>Osobné metadáta</strong> odstránia polohu, informácie o zariadení, popisky a históriu úprav. <strong>Všetky metadáta</strong> odstránia všetko okrem základných dát pre zobrazenie. <strong>Vlastné</strong> vám umožnia vybrať jednotlivé kategórie.</p>
                 </div></div>
             </div>
         </div>
@@ -208,11 +228,11 @@
             <h2 class="faq-category-title">Ukladanie a zdieľanie</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Kam sa ukladajú konvertované fotografie?</span>
+                    <span>Kam sa ukladajú skonvertované obrázky?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Konvertované fotografie môžete uložiť do knižnice Fotiek alebo do ľubovoľného priečinka cez aplikáciu Súbory. Cieľ zvolíte po dokončení konverzie.</p>
+                    <p>Vy si volíte, kam uložiť. <strong>Uložiť do Fotiek</strong> ich pridá do vašej Knižnice fotiek. <strong>Uložiť do Súborov</strong> vám umožní vybrať priečinok, vrátane iCloud Drive a pripojených cloudových služieb. <strong>Zdieľať</strong> otvorí zdieľací hárok iOS pre AirDrop, Správy, Mail alebo inú aplikáciu.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -221,16 +241,60 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Vyberte ľubovoľnú fotografiu v iOS, ťuknite na tlačidlo Zdieľať a vyberte Image Converter Plus. Obrázok sa otvorí priamo v aplikácii, pripravený na konverziu — bez nutnosti manuálneho importu.</p>
+                    <p>Z ľubovoľnej aplikácie ťuknite na tlačidlo zdieľania a potom zvoľte <strong>Konvertovať</strong> (možno budete musieť posunúť alebo ťuknúť na <strong>Viac</strong>). Share Extension používa vašu predvolenú predvoľbu. Všetko spracovanie zostáva na vašom zariadení.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Môžem zdieľať priamo na sociálnych sieťach?</span>
+                    <span>Čo je Zdieľanie v najkompatibilnejšom formáte?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Po konverzii použite zdieľací hárok iOS na odoslanie fotografií priamo do akejkoľvek nainštalovanej aplikácie, vrátane sociálnych sietí, správ a e-mailu.</p>
+                    <p>Ak je zapnuté v <strong>Nastavenia &gt; Predvolené nastavenia</strong>, formáty ako HEIC, AVIF a TIFF sa pri zdieľaní automaticky prevedú na JPEG. Tým sa zabezpečí, že sa vaše obrázky otvoria na akomkoľvek zariadení, vrátane Androidu a starších systémov.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">Predvoľby</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Čo sú predvoľby?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Predvoľby sú uložené kombinácie formátu, kvality, veľkosti a nastavení súkromia. Umožňujú rýchlo použiť vaše obľúbené nastavenia bez nutnosti upravovať každú možnosť.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Ako preusporiadam alebo skryjem predvoľby?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Prejdite do <strong>Nastavenia &gt; Predvoľby</strong>. Ťuknite na <strong>Upraviť</strong> a pretiahnite predvoľby do požadovaného poradia. Môžete tiež skryť predvoľby, ktoré nepoužívate.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">História</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Ako vymažem položky histórie?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Prejdite prstom doľava na ľubovoľnej položke histórie a ťuknite na <strong>Vymazať</strong>. Alebo ťuknite na <strong>Upraviť</strong> a vyberte viacero položiek na vymazanie naraz.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Ako funguje automatické mazanie?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Prejdite do <strong>Nastavenia &gt; Možnosti histórie</strong> a zvoľte časový rámec: 7 dní, 30 dní alebo 90 dní. Staršie konverzie sa automaticky odstránia. Zvoľte <strong>Nikdy</strong> na zachovanie všetkého.</p>
                 </div></div>
             </div>
         </div>
@@ -243,7 +307,7 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Pro odomyká neobmedzenú dávkovú konverziu, všetky výstupné formáty, zmenu veľkosti, odstraňovanie metadát a vodoznaky. Ide o jednorazový nákup bez predplatného.</p>
+                    <p>Neobmedzený dávkový prevod, výstupné formáty TIFF, AVIF a PDF, individuálne nastavenia pre každý obrázok, všetky možnosti ochrany súkromia a odstraňovania metadát a všetky predvoľby vrátane tých s ovládaním súkromia.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -252,16 +316,16 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Ťuknite na tlačidlo Pro v aplikácii pre zobrazenie podrobností a nákup. Platba sa spracuje cez Apple. Po nákupe sú funkcie Pro okamžite odomknuté.</p>
+                    <p>Ťuknite na banner <strong>Pro</strong> v Nastaveniach alebo na ľubovoľnú funkciu uzamknutú pre Pro. Pro je k dispozícii ako predplatné (týždenné, mesačné alebo ročné) alebo ako jednorazový doživotný nákup. Všetky nákupy sú bezpečne spracované prostredníctvom App Store.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Ako obnovím nákup?</span>
+                    <span>Kúpil/a som Pro, ale funkcie sú zamknuté</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Ťuknite na „Obnoviť nákup" na obrazovke Pro. Aplikácia overí u Apple a odomkne Pro, ak bol predtým zakúpený. Uistite sa, že ste prihlásení s rovnakým Apple ID.</p>
+                    <p>Prejdite do <strong>Nastavení</strong>, posuňte sa nadol k sekcii Pro a ťuknite na <strong>Obnoviť nákupy</strong>. Tým sa synchronizuje váš nákup, ak ste Pro zakúpili na inom zariadení alebo preinštalovali aplikáciu. Uistite sa, že ste prihlásení s rovnakým Apple ID.</p>
                 </div></div>
             </div>
         </div>
@@ -270,20 +334,20 @@
             <h2 class="faq-category-title">Riešenie problémov</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Aplikácia nemá prístup k mojim fotkám. Čo mám robiť?</span>
+                    <span>Prečo je môj súbor stále veľký?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Prejdite do Nastavenia iOS → Súkromie a bezpečnosť → Fotky a uistite sa, že Image Converter Plus má udelený prístup. Môžete vybrať konkrétne fotografie alebo udeliť plný prístup ku knižnici.</p>
+                    <p>Veľkosť súboru závisí od obsahu obrázka. Fotografie s veľkým množstvom detailov sa komprimujú menej. Skúste znížiť <strong>Kvalitu</strong> alebo <strong>Veľkosť</strong> pre menšie súbory. Formát PNG je bezstratový a zvyčajne väčší ako JPEG.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Existuje limit veľkosti súboru?</span>
+                    <span>Aplikácia nemá prístup k mojim fotkám. Čo mám robiť?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Pevný limit veľkosti súboru neexistuje. Aplikácia spracováva veľké obrázky vrátane súborov RAW a obrázkov vo vysokom rozlíšení. Čas spracovania závisí od veľkosti súboru a schopností zariadenia.</p>
+                    <p>Prejdite do <strong>Nastavenia &gt; Súkromie a bezpečnosť &gt; Fotky &gt; Image Converter Plus</strong> na vašom zariadení a povoľte prístup. Ak je úložisko plné, uvoľnite miesto alebo ukladajte do Súborov.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -292,7 +356,16 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Skúste reštartovať aplikáciu a zopakovať konverziu. Uistite sa, že máte na zariadení dostatok voľného úložiska. Ak je problém s konkrétnym obrázkom, skúste iný zdrojový formát.</p>
+                    <p>Súbor môže byť poškodený alebo v nepodporovanom formáte. Skúste ho najprv otvoriť vo Fotkách. Tiež skontrolujte, či má vaše zariadenie dostatok voľného úložiska. Ak problém pretrváva, kontaktujte nás na <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a>.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Sú moje dáta v bezpečí?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Áno. Všetky konverzie prebiehajú na vašom zariadení. Žiadne obrázky sa nenahrávajú na žiadny server. Vaše fotografie nikdy neopustia váš iPhone alebo iPad, pokiaľ ich sami nezdieľate.</p>
                 </div></div>
             </div>
         </div>
@@ -302,33 +375,33 @@
     <!-- System Requirements -->
     <div class="requirements fade-in">
         <h3>Systémové požiadavky</h3>
-        
+
         <p>iOS 16.0 alebo novší</p>
-        
-        <p>Kompatibilné s iPhone a iPad</p>
-        
-        <p>Funguje úplne offline — internetové pripojenie nie je potrebné</p>
-        
+
+        <p>Kompatibilný s iPhone a iPad</p>
+
+        <p>Funguje úplne offline — nie je potrebné pripojenie na internet</p>
+
     </div>
 
     <!-- Links -->
     <div class="links-section fade-in">
-        
+
         <a class="link-card" href="privacy.html">
             <p class="link-label">Právne</p>
             <p class="link-title">Zásady ochrany súkromia</p>
         </a>
-        
+
         <a class="link-card" href="terms.html">
             <p class="link-label">Právne</p>
             <p class="link-title">Podmienky používania</p>
         </a>
-        
+
     </div>
 
     <!-- Footer -->
     <div class="footer fade-in">
-        <p>Posledná aktualizácia: marec 2026</p>
+        <p>Posledná aktualizácia: apríl 2026</p>
     </div>
 
 </div>

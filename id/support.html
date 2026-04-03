@@ -69,7 +69,7 @@
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/subpage.css">
     <link rel="stylesheet" href="../css/support.css">
-    
+
 </head>
 <body>
 
@@ -97,14 +97,16 @@
     <!-- Formats -->
     <div class="formats-section fade-in">
         <p class="section-label">Format</p>
-        <h2 class="section-title">Lima format, satu aplikasi.</h2>
+        <h2 class="section-title">Tujuh format, satu aplikasi.</h2>
         <p class="section-desc">Konversi antara format gambar paling populer dengan kontrol kualitas penuh.</p>
         <div class="formats-row stagger">
             <span class="format-badge fade-in">JPEG</span>
             <span class="format-badge fade-in">PNG</span>
+            <span class="format-badge fade-in">PDF</span>
+            <span class="format-badge fade-in">WebP</span>
             <span class="format-badge fade-in">HEIC</span>
-            <span class="format-badge fade-in">TIFF</span>
             <span class="format-badge fade-in">AVIF</span>
+            <span class="format-badge fade-in">TIFF</span>
         </div>
     </div>
 
@@ -115,11 +117,11 @@
             <h2 class="faq-category-title">Memulai</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Bagaimana cara mengimpor foto?</span>
+                    <span>Bagaimana cara mengonversi gambar?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Ketuk tombol "+" di layar utama untuk memilih gambar dari Perpustakaan Foto atau aplikasi File. Anda juga dapat menggunakan Share Extension dari aplikasi apa pun — cukup pilih Image Converter Plus dari lembar berbagi.</p>
+                    <p>Ketuk <strong>Pilih dari Foto</strong> atau <strong>Pilih dari File</strong>, pilih satu atau beberapa gambar, atur format, kualitas, dan ukuran, lalu ketuk <strong>Simpan ke Foto</strong>, <strong>Simpan ke File</strong>, atau <strong>Bagikan</strong>.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -128,7 +130,7 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Aplikasi mendukung JPEG, PNG, HEIC, TIFF, dan AVIF. Anda dapat mengonversi antara format-format ini.</p>
+                    <p>Image Converter Plus mendukung JPEG, PNG, HEIC, WebP, AVIF, dan TIFF. Anda juga dapat menggabungkan beberapa gambar menjadi satu PDF. TIFF, AVIF, dan PDF memerlukan Pro.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -137,7 +139,16 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Ya. Pilih beberapa gambar saat mengimpor dan semuanya akan dikonversi dengan pengaturan yang sama. Konversi massal tersedia dengan Pro.</p>
+                    <p>Ya. Pilih beberapa gambar saat mengimpor dari Foto atau File. Dengan Pro, Anda dapat mengonversi batch tak terbatas sekaligus. Pengguna gratis dapat mengonversi satu gambar dalam satu waktu.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Di mana gambar yang sudah dikonversi?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Gambar yang dikonversi disimpan di tempat yang Anda pilih. <strong>Simpan ke Foto</strong> menambahkannya ke Perpustakaan Foto. <strong>Simpan ke File</strong> memungkinkan Anda memilih folder. <strong>Bagikan</strong> mengirimnya ke aplikasi lain. Anda juga dapat melihat konversi sebelumnya di tab <strong>Riwayat</strong>.</p>
                 </div></div>
             </div>
         </div>
@@ -146,11 +157,20 @@
             <h2 class="faq-category-title">Pengaturan Konversi</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Bagaimana cara mengatur kualitas?</span>
+                    <span>Bagaimana cara mengubah format output?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Gunakan slider kualitas di layar konversi. Nilai lebih rendah menghasilkan file lebih kecil, nilai lebih tinggi mempertahankan lebih banyak detail. Perkiraan ukuran file diperbarui secara real-time saat Anda menyesuaikan.</p>
+                    <p>Ketuk menu <strong>Format</strong> dan pilih dari JPEG, PNG, HEIC, WebP, TIFF, AVIF, atau PDF. <strong>Pertahankan Asli</strong> mempertahankan format yang sama dengan sumber. TIFF, AVIF, dan PDF memerlukan Pro.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Bagaimana cara kerja kualitas?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Gunakan slider <strong>Kualitas</strong> atau ketuk preset (Rendah, Sedang, Tinggi, Maksimum). Kualitas lebih tinggi berarti file lebih besar. Kualitas berlaku untuk JPEG, HEIC, WebP, dan AVIF. PNG dan TIFF selalu lossless.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -159,60 +179,60 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Ya. Anda dapat mengatur resolusi maksimum atau menskalakan gambar berdasarkan persentase. Rasio aspek selalu dijaga secara otomatis.</p>
+                    <p>Ya. Ketuk kontrol <strong>Ukuran</strong> untuk memilih Kecil (50%), Asli (100%), atau Besar (200%). Mengurangi ukuran membuat file jauh lebih kecil. Memperbesar tidak meningkatkan kejernihan gambar.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Apa perbedaan antara HEIC dan JPEG?</span>
+                    <span>Bisakah saya mengatur opsi berbeda per gambar?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>HEIC adalah format default Apple yang menawarkan kompresi lebih baik — file lebih kecil dengan kualitas serupa. JPEG kompatibel secara universal di semua perangkat dan platform. Konversi HEIC ke JPEG saat Anda perlu berbagi dengan perangkat non-Apple.</p>
+                    <p>Dengan Pro, ketuk thumbnail gambar mana pun untuk mengatur format, kualitas, ukuran, atau nama yang berbeda hanya untuk gambar tersebut. Gambar lainnya mempertahankan pengaturan batch.</p>
                 </div></div>
             </div>
         </div>
 
         <div class="faq-category fade-in">
-            <h2 class="faq-category-title">Privasi dan Metadata</h2>
+            <h2 class="faq-category-title">Privasi &amp; Metadata</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Bagaimana cara menghapus data EXIF dari foto?</span>
+                    <span>Apa itu metadata?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Aktifkan "Hapus Metadata" di pengaturan konversi. Ini menghapus data EXIF termasuk lokasi, info kamera, dan cap waktu dari file yang dikonversi.</p>
+                    <p>Foto berisi data tersembunyi seperti lokasi GPS, tanggal pengambilan, model kamera, dan info perangkat. Menghapus data ini melindungi privasi Anda saat berbagi gambar secara online.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Apakah aplikasi menghapus data lokasi?</span>
+                    <span>Bagaimana cara menghapus data lokasi?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Ya. Ketika "Hapus Metadata" diaktifkan, semua data lokasi (GPS) dihapus bersama informasi EXIF lainnya. Ini berguna saat berbagi foto secara online.</p>
+                    <p>Dengan Pro, ketuk <strong>Privasi</strong> dan aktifkan <strong>Data Lokasi</strong>. Ini menghapus koordinat GPS dan nama tempat sambil mempertahankan yang lainnya.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Bisakah saya menambahkan watermark ke gambar saya?</span>
+                    <span>Apa fungsi preset privasi?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Ya. Anda dapat menambahkan watermark teks dengan font, ukuran, warna, opasitas, dan posisi yang dapat disesuaikan. Watermark tersedia dengan Pro.</p>
+                    <p><strong>Lokasi Saja</strong> hanya menghapus data GPS. <strong>Metadata Pribadi</strong> menghapus lokasi, info perangkat, keterangan, dan riwayat edit. <strong>Semua Metadata</strong> menghapus semuanya kecuali data tampilan esensial. <strong>Kustom</strong> memungkinkan Anda memilih kategori individual.</p>
                 </div></div>
             </div>
         </div>
 
         <div class="faq-category fade-in">
-            <h2 class="faq-category-title">Menyimpan dan Berbagi</h2>
+            <h2 class="faq-category-title">Menyimpan &amp; Berbagi</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
                     <span>Di mana gambar yang dikonversi disimpan?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Anda dapat menyimpan gambar yang dikonversi ke Perpustakaan Foto, aplikasi File, atau membagikannya langsung ke aplikasi lain menggunakan lembar berbagi.</p>
+                    <p>Anda memilih tempat penyimpanan. <strong>Simpan ke Foto</strong> menambahkannya ke Perpustakaan Foto. <strong>Simpan ke File</strong> memungkinkan Anda memilih folder, termasuk iCloud Drive dan layanan cloud yang terhubung. <strong>Bagikan</strong> membuka lembar berbagi iOS untuk AirDrop, Pesan, Mail, atau aplikasi lainnya.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -221,16 +241,60 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Dari aplikasi apa pun, ketuk tombol berbagi, lalu pilih Image Converter Plus. Gambar akan terbuka di Aplikasi siap untuk dikonversi. Semua pemrosesan tetap di perangkat Anda.</p>
+                    <p>Dari aplikasi apa pun, ketuk tombol berbagi, lalu pilih <strong>Convert</strong> (Anda mungkin perlu menggulir atau mengetuk <strong>Lainnya</strong>). Share Extension menggunakan preset default Anda. Semua pemrosesan tetap di perangkat Anda.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Bisakah saya berbagi langsung ke media sosial?</span>
+                    <span>Apa itu Berbagi Paling Kompatibel?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Ya. Setelah konversi, gunakan tombol berbagi untuk mengirim gambar ke aplikasi apa pun yang terinstal di perangkat Anda, termasuk media sosial, pesan, dan email.</p>
+                    <p>Saat diaktifkan di <strong>Pengaturan &gt; Pengaturan Default</strong>, format seperti HEIC, AVIF, dan TIFF secara otomatis dikonversi ke JPEG saat berbagi. Ini memastikan gambar Anda dapat dibuka di perangkat apa pun, termasuk Android dan sistem lama.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">Preset</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Apa itu preset?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Preset adalah kombinasi tersimpan dari pengaturan format, kualitas, ukuran, dan privasi. Preset memungkinkan Anda menerapkan pengaturan favorit dengan cepat tanpa menyesuaikan setiap opsi.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Bagaimana cara mengurutkan ulang atau menyembunyikan preset?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Buka <strong>Pengaturan &gt; Preset</strong>. Ketuk <strong>Edit</strong> untuk menyeret preset ke urutan yang Anda inginkan. Anda juga dapat menyembunyikan preset yang tidak digunakan.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">Riwayat</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Bagaimana cara menghapus item riwayat?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Geser ke kiri pada item riwayat mana pun dan ketuk <strong>Hapus</strong>. Atau ketuk <strong>Edit</strong> dan pilih beberapa item untuk dihapus sekaligus.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Bagaimana cara kerja hapus otomatis?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Buka <strong>Pengaturan &gt; Opsi Riwayat</strong> dan pilih jangka waktu: 7 hari, 30 hari, atau 90 hari. Konversi lama dihapus secara otomatis. Pilih <strong>Tidak Pernah</strong> untuk menyimpan semuanya.</p>
                 </div></div>
             </div>
         </div>
@@ -243,7 +307,7 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Pro adalah pembelian sekali bayar yang menghapus semua batasan. Anda mendapatkan konversi tak terbatas, pemrosesan massal, semua format ekspor, watermark, dan semua pembaruan fitur di masa depan.</p>
+                    <p>Konversi batch tak terbatas, format output TIFF, AVIF, dan PDF, pengaturan override per gambar, semua opsi privasi dan penghapusan metadata, dan semua preset termasuk yang memiliki kontrol privasi.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -252,16 +316,16 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Ketuk banner Pro atau buka Pengaturan di dalam Aplikasi. Pembelian ditangani secara aman melalui App Store.</p>
+                    <p>Ketuk banner <strong>Pro</strong> di Pengaturan atau ketuk fitur apa pun yang terkunci Pro. Pro tersedia sebagai langganan (mingguan, bulanan, atau tahunan) atau sebagai pembelian seumur hidup sekali bayar. Semua pembelian ditangani dengan aman melalui App Store.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Bagaimana cara memulihkan pembelian saya?</span>
+                    <span>Saya membeli Pro tetapi fitur terkunci</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Buka Pengaturan di Aplikasi dan ketuk "Pulihkan Pembelian." Pastikan Anda masuk dengan Apple ID yang sama yang digunakan untuk pembelian asli.</p>
+                    <p>Buka <strong>Pengaturan</strong>, gulir ke bagian Pro, dan ketuk <strong>Pulihkan Pembelian</strong>. Ini menyinkronkan pembelian Anda jika Anda membeli Pro di perangkat lain atau menginstal ulang aplikasi. Pastikan Anda masuk dengan Apple ID yang sama.</p>
                 </div></div>
             </div>
         </div>
@@ -270,20 +334,20 @@
             <h2 class="faq-category-title">Pemecahan Masalah</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Aplikasi tidak bisa mengakses foto saya. Apa yang harus saya lakukan?</span>
+                    <span>Mengapa file saya masih besar?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Buka Pengaturan > Privasi &amp; Keamanan > Foto di perangkat Anda dan pastikan Image Converter Plus memiliki akses. Anda dapat memberikan "Akses Penuh" atau memilih foto tertentu.</p>
+                    <p>Ukuran file tergantung pada konten gambar. Foto dengan banyak detail lebih sulit dikompres. Coba kurangi <strong>Kualitas</strong> atau <strong>Ukuran</strong> untuk file yang lebih kecil. Format PNG bersifat lossless dan biasanya lebih besar dari JPEG.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Apakah ada batasan ukuran file?</span>
+                    <span>Aplikasi tidak bisa mengakses foto saya. Apa yang harus saya lakukan?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Tidak ada batasan ukuran file tetap. Aplikasi dapat menangani gambar besar, tetapi file yang sangat besar mungkin memerlukan waktu lebih lama untuk diproses tergantung pada memori yang tersedia di perangkat Anda.</p>
+                    <p>Buka <strong>Pengaturan &gt; Privasi &amp; Keamanan &gt; Foto &gt; Image Converter Plus</strong> di perangkat Anda dan izinkan akses. Jika penyimpanan penuh, kosongkan ruang atau simpan ke File sebagai gantinya.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -292,7 +356,16 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Coba tutup aplikasi lain untuk membebaskan memori, lalu coba konversi lagi. Jika masalah berlanjut, mulai ulang Aplikasi atau perangkat Anda. Anda juga dapat menghubungi kami di <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a>.</p>
+                    <p>File mungkin rusak atau dalam format yang tidak didukung. Coba buka di Foto terlebih dahulu. Pastikan juga perangkat Anda memiliki cukup ruang penyimpanan kosong. Jika masalah berlanjut, hubungi kami di <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a>.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Apakah data saya privat?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Ya. Semua konversi terjadi di perangkat Anda. Tidak ada gambar yang diunggah ke server mana pun. Foto Anda tidak pernah meninggalkan iPhone atau iPad Anda kecuali Anda membagikannya sendiri.</p>
                 </div></div>
             </div>
         </div>
@@ -302,33 +375,33 @@
     <!-- System Requirements -->
     <div class="requirements fade-in">
         <h3>Persyaratan Sistem</h3>
-        
+
         <p>iOS 16.0 atau lebih baru</p>
-        
+
         <p>Kompatibel dengan iPhone dan iPad</p>
-        
+
         <p>Bekerja sepenuhnya secara offline — tidak diperlukan koneksi internet</p>
-        
+
     </div>
 
     <!-- Links -->
     <div class="links-section fade-in">
-        
+
         <a class="link-card" href="privacy.html">
             <p class="link-label">Hukum</p>
             <p class="link-title">Kebijakan Privasi</p>
         </a>
-        
+
         <a class="link-card" href="terms.html">
             <p class="link-label">Hukum</p>
             <p class="link-title">Ketentuan Penggunaan</p>
         </a>
-        
+
     </div>
 
     <!-- Footer -->
     <div class="footer fade-in">
-        <p>Terakhir diperbarui: Maret 2026</p>
+        <p>Terakhir diperbarui: April 2026</p>
     </div>
 
 </div>

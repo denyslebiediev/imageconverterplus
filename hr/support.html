@@ -69,7 +69,7 @@
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/subpage.css">
     <link rel="stylesheet" href="../css/support.css">
-    
+
 </head>
 <body>
 
@@ -97,14 +97,16 @@
     <!-- Formats -->
     <div class="formats-section fade-in">
         <p class="section-label">Formati</p>
-        <h2 class="section-title">Pet formata, jedna aplikacija.</h2>
+        <h2 class="section-title">Sedam formata, jedna aplikacija.</h2>
         <p class="section-desc">Pretvarajte između najpopularnijih formata slika uz potpunu kontrolu kvalitete.</p>
         <div class="formats-row stagger">
             <span class="format-badge fade-in">JPEG</span>
             <span class="format-badge fade-in">PNG</span>
+            <span class="format-badge fade-in">PDF</span>
+            <span class="format-badge fade-in">WebP</span>
             <span class="format-badge fade-in">HEIC</span>
-            <span class="format-badge fade-in">TIFF</span>
             <span class="format-badge fade-in">AVIF</span>
+            <span class="format-badge fade-in">TIFF</span>
         </div>
     </div>
 
@@ -115,11 +117,11 @@
             <h2 class="faq-category-title">Početak rada</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Kako uvozim fotografije?</span>
+                    <span>Kako pretvoriti sliku?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Dodirnite gumb plus na glavnom zaslonu za odabir fotografija iz knjižnice. Također možete koristiti Share Extension za slanje slika izravno iz aplikacije Fotografije ili Datoteke.</p>
+                    <p>Dodirnite <strong>Odaberite iz Fotografija</strong> ili <strong>Odaberite iz Datoteka</strong>, odaberite jednu ili više slika, izaberite format, kvalitetu i veličinu, zatim dodirnite <strong>Spremi u Fotografije</strong>, <strong>Spremi u Datoteke</strong> ili <strong>Podijeli</strong>.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -128,16 +130,25 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Aplikacija podržava JPEG, PNG, HEIC, TIFF i AVIF. Možete pretvarati između bilo kojih od ovih formata u punoj kvaliteti.</p>
+                    <p>Image Converter Plus podržava JPEG, PNG, HEIC, WebP, AVIF i TIFF. Također možete kombinirati više slika u jedan PDF. TIFF, AVIF i PDF zahtijevaju Pro.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Mogu li pretvoriti više fotografija odjednom?</span>
+                    <span>Mogu li pretvoriti više slika odjednom?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Da. Odaberite više fotografija prilikom uvoza i sve će biti pretvorene s istim postavkama odjednom. Nema ograničenja broja fotografija po seriji.</p>
+                    <p>Da. Odaberite više slika prilikom uvoza iz Fotografija ili Datoteka. S Pro verzijom možete pretvoriti neograničenu skupinu odjednom. Besplatni korisnici mogu pretvoriti jednu sliku istodobno.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Gdje su moje pretvorene slike?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Pretvorene slike idu onamo gdje vi odaberete. <strong>Spremi u Fotografije</strong> ih dodaje u vašu Knjižnicu fotografija. <strong>Spremi u Datoteke</strong> vam omogućuje odabir mape. <strong>Podijeli</strong> ih šalje u drugu aplikaciju. Također možete pregledati prethodne pretvorbe u kartici <strong>Povijest</strong>.</p>
                 </div></div>
             </div>
         </div>
@@ -146,29 +157,38 @@
             <h2 class="faq-category-title">Postavke pretvorbe</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Kako prilagodim kvalitetu?</span>
+                    <span>Kako promijeniti izlazni format?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Koristite klizač kvalitete na zaslonu pretvorbe za postavljanje razine kompresije. Više vrijednosti čuvaju više detalja, ali stvaraju veće datoteke. Pregled se ažurira u stvarnom vremenu.</p>
+                    <p>Dodirnite izbornik <strong>Format</strong> i odaberite JPEG, PNG, HEIC, WebP, TIFF, AVIF ili PDF. <strong>Zadrži original</strong> zadržava isti format kao vaš izvor. TIFF, AVIF i PDF zahtijevaju Pro.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Mogu li mijenjati veličinu fotografija tijekom pretvorbe?</span>
+                    <span>Kako funkcionira kvaliteta?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Da. Uključite promjenu veličine i postavite ciljanu širinu ili visinu. Omjer slike se automatski zadržava. Promjena veličine se primjenjuje tijekom pretvorbe.</p>
+                    <p>Koristite klizač <strong>Kvaliteta</strong> ili dodirnite predložak (Niska, Srednja, Visoka, Maksimalna). Viša kvaliteta znači veće datoteke. Kvaliteta se primjenjuje na JPEG, HEIC, WebP i AVIF. PNG i TIFF su uvijek bez gubitaka.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Koja je razlika između HEIC i JPEG?</span>
+                    <span>Mogu li promijeniti veličinu slika tijekom pretvorbe?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>HEIC je Appleov moderni format koji nudi manje veličine datoteka uz sličnu kvalitetu. JPEG je univerzalno kompatibilan sa svim platformama. Pretvorite HEIC u JPEG za jednostavno dijeljenje na uređajima koji nisu Apple.</p>
+                    <p>Da. Dodirnite kontrolu <strong>Veličina</strong> kako biste odabrali Mala (50%), Originalna (100%) ili Velika (200%). Smanjenje veličine značajno smanjuje datoteke. Povećanje neće poboljšati oštrinu slike.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Mogu li postaviti različite opcije po slici?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>S Pro verzijom dodirnite bilo koju sličicu slike kako biste postavili drugačiji format, kvalitetu, veličinu ili naziv samo za tu sliku. Ostale slike zadržavaju skupne postavke.</p>
                 </div></div>
             </div>
         </div>
@@ -177,42 +197,42 @@
             <h2 class="faq-category-title">Privatnost i metapodaci</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Kako uklonim EXIF podatke iz fotografija?</span>
+                    <span>Što su metapodaci?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Prije pretvorbe uključite opciju „Ukloni metapodatke". Time će se ukloniti svi EXIF podaci uključujući postavke kamere, vremenske oznake i podatke o lokaciji iz izlaznih fotografija.</p>
+                    <p>Fotografije sadrže skrivene podatke poput GPS lokacije, datuma snimanja, modela kamere i podataka o uređaju. Uklanjanje tih podataka štiti vašu privatnost kada dijelite slike na internetu.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Uklanja li aplikacija podatke o lokaciji?</span>
+                    <span>Kako ukloniti podatke o lokaciji?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Da, kada je uklanjanje metapodataka uključeno. GPS podaci, nazivi mjesta i svi ostali podaci o lokaciji ugrađeni u vaše fotografije bit će uklonjeni iz pretvorene datoteke.</p>
+                    <p>S Pro verzijom dodirnite <strong>Privatnost</strong> i omogućite <strong>Podaci o lokaciji</strong>. To uklanja GPS koordinate i nazive mjesta dok zadržava sve ostalo.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Mogu li dodati vodeni žig na svoje fotografije?</span>
+                    <span>Što rade predlošci privatnosti?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Da. Uključite vodeni žig i prilagodite tekst, položaj, veličinu i prozirnost. Vodeni žig se primjenjuje tijekom pretvorbe i pojavljuje se na svim izlaznim fotografijama.</p>
+                    <p><strong>Samo lokacija</strong> uklanja samo GPS podatke. <strong>Osobni metapodaci</strong> uklanjaju lokaciju, podatke o uređaju, opise i povijest uređivanja. <strong>Svi metapodaci</strong> uklanjaju sve osim osnovnih podataka o izgledu. <strong>Prilagođeno</strong> vam omogućuje odabir pojedinačnih kategorija.</p>
                 </div></div>
             </div>
         </div>
 
         <div class="faq-category fade-in">
-            <h2 class="faq-category-title">Pohrana i dijeljenje</h2>
+            <h2 class="faq-category-title">Spremanje i dijeljenje</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Gdje se spremaju pretvorene fotografije?</span>
+                    <span>Gdje se spremaju pretvorene slike?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Pretvorene fotografije možete spremiti u svoju Knjižnicu fotografija ili u bilo koju mapu putem aplikacije Datoteke. Odredište birate nakon završetka pretvorbe.</p>
+                    <p>Vi birate gdje ćete spremiti. <strong>Spremi u Fotografije</strong> ih dodaje u vašu Knjižnicu fotografija. <strong>Spremi u Datoteke</strong> vam omogućuje odabir mape, uključujući iCloud Drive i povezane usluge u oblaku. <strong>Podijeli</strong> otvara iOS dijeljenje za AirDrop, Poruke, Mail ili bilo koju drugu aplikaciju.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -221,16 +241,60 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Odaberite bilo koju fotografiju u iOS-u, dodirnite gumb Dijeli i odaberite Image Converter Plus. Slika se otvara izravno u aplikaciji, spremna za pretvorbu — bez ručnog uvoza.</p>
+                    <p>Iz bilo koje aplikacije dodirnite gumb za dijeljenje, zatim odaberite <strong>Pretvori</strong> (možda ćete morati klizati ili dodirnuti <strong>Više</strong>). Share Extension koristi vaš zadani predložak. Sva obrada ostaje na vašem uređaju.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Mogu li dijeliti izravno na društvenim mrežama?</span>
+                    <span>Što je Najkompatibilnije dijeljenje?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Nakon pretvorbe koristite iOS list za dijeljenje za slanje fotografija izravno u bilo koju instaliranu aplikaciju, uključujući društvene mreže, poruke i e-poštu.</p>
+                    <p>Kada je omogućeno u <strong>Postavke &gt; Zadane postavke</strong>, formati poput HEIC, AVIF i TIFF automatski se pretvaraju u JPEG kada dijelite. To osigurava da se vaše slike otvaraju na bilo kojem uređaju, uključujući Android i starije sustave.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">Predlošci</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Što su predlošci?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Predlošci su spremljene kombinacije formata, kvalitete, veličine i postavki privatnosti. Omogućuju vam brzu primjenu omiljenih postavki bez podešavanja svake opcije.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Kako prerasporediti ili sakriti predloške?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Idite na <strong>Postavke &gt; Predlošci</strong>. Dodirnite <strong>Uredi</strong> da povučete predloške u željeni redoslijed. Također možete sakriti predloške koje ne koristite.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">Povijest</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Kako obrisati stavke povijesti?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Povucite ulijevo na bilo kojoj stavci povijesti i dodirnite <strong>Obriši</strong>. Ili dodirnite <strong>Uredi</strong> i odaberite više stavki za brisanje odjednom.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Kako funkcionira automatsko brisanje?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Idite na <strong>Postavke &gt; Opcije povijesti</strong> i odaberite vremenski okvir: 7 dana, 30 dana ili 90 dana. Starije pretvorbe automatski se uklanjaju. Odaberite <strong>Nikada</strong> da zadržite sve.</p>
                 </div></div>
             </div>
         </div>
@@ -243,25 +307,25 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Pro otključava neograničenu serijsku pretvorbu, sve izlazne formate, promjenu veličine, uklanjanje metapodataka i vodeni žig. Radi se o jednokratnoj kupnji bez pretplate.</p>
+                    <p>Neograničene skupne pretvorbe, TIFF, AVIF i PDF izlazne formate, individualne postavke po slici, sve opcije privatnosti i uklanjanja metapodataka te sve predloške uključujući one s kontrolama privatnosti.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Kako nadogradim na Pro?</span>
+                    <span>Kako nadograditi na Pro?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Dodirnite gumb Pro u aplikaciji za pregled pojedinosti i kupnju. Plaćanje obrađuje Apple. Nakon kupnje, Pro značajke se odmah otključavaju.</p>
+                    <p>Dodirnite <strong>Pro</strong> banner u Postavkama ili dodirnite bilo koju Pro-zaključanu značajku. Pro je dostupan kao pretplata (tjedna, mjesečna ili godišnja) ili kao jednokratna doživotna kupnja. Sve kupnje sigurno se obrađuju putem App Storea.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Kako vratim kupnju?</span>
+                    <span>Kupio/la sam Pro ali značajke su zaključane</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Dodirnite „Vrati kupnju" na zaslonu Pro. Aplikacija će provjeriti s Appleom i otključati Pro ako je prethodno kupljen. Provjerite jeste li prijavljeni s istim Apple ID-jem.</p>
+                    <p>Idite na <strong>Postavke</strong>, klizajte do odjeljka Pro i dodirnite <strong>Obnovi kupnje</strong>. To sinkronizira vašu kupnju ako ste kupili Pro na drugom uređaju ili ponovno instalirali aplikaciju. Provjerite da ste prijavljeni s istim Apple ID-om.</p>
                 </div></div>
             </div>
         </div>
@@ -270,20 +334,20 @@
             <h2 class="faq-category-title">Rješavanje problema</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Aplikacija ne može pristupiti mojim fotografijama. Što da učinim?</span>
+                    <span>Zašto je moja datoteka još uvijek velika?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Idite na Postavke iOS → Privatnost i sigurnost → Fotografije i provjerite ima li Image Converter Plus odobren pristup. Možete odabrati određene fotografije ili odobriti puni pristup knjižnici.</p>
+                    <p>Veličina datoteke ovisi o sadržaju slike. Fotografije s mnogo detalja slabije se komprimiraju. Pokušajte smanjiti <strong>Kvalitetu</strong> ili <strong>Veličinu</strong> za manje datoteke. PNG format je bez gubitaka i obično veći od JPEG-a.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Postoji li ograničenje veličine datoteke?</span>
+                    <span>Aplikacija ne može pristupiti mojim fotografijama. Što učiniti?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Ne postoji strogo ograničenje veličine datoteke. Aplikacija obrađuje velike slike uključujući RAW datoteke i slike visoke rezolucije. Vrijeme obrade ovisi o veličini datoteke i mogućnostima uređaja.</p>
+                    <p>Idite na <strong>Postavke &gt; Privatnost i sigurnost &gt; Fotografije &gt; Image Converter Plus</strong> na vašem uređaju i dopustite pristup. Ako je pohrana puna, oslobodite prostor ili spremite u Datoteke.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -292,7 +356,16 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Pokušajte ponovno pokrenuti aplikaciju i ponoviti pretvorbu. Provjerite imate li dovoljno slobodne memorije na uređaju. Ako je problem s određenom slikom, pokušajte s drugim izvornim formatom.</p>
+                    <p>Datoteka je možda oštećena ili u nepodržanom formatu. Pokušajte je prvo otvoriti u Fotografijama. Također provjerite ima li vaš uređaj dovoljno slobodnog prostora. Ako problem i dalje postoji, kontaktirajte nas na <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a>.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Jesu li moji podaci privatni?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Da. Sve pretvorbe odvijaju se na vašem uređaju. Nijedna slika ne prenosi se na poslužitelj. Vaše fotografije nikada ne napuštaju vaš iPhone ili iPad osim ako ih sami ne podijelite.</p>
                 </div></div>
             </div>
         </div>
@@ -302,33 +375,33 @@
     <!-- System Requirements -->
     <div class="requirements fade-in">
         <h3>Sistemski zahtjevi</h3>
-        
+
         <p>iOS 16.0 ili noviji</p>
-        
+
         <p>Kompatibilno s iPhoneom i iPadom</p>
-        
-        <p>Radi potpuno izvan mreže — nije potrebna internetska veza</p>
-        
+
+        <p>Radi potpuno izvanmrežno — nije potrebna internetska veza</p>
+
     </div>
 
     <!-- Links -->
     <div class="links-section fade-in">
-        
+
         <a class="link-card" href="privacy.html">
             <p class="link-label">Pravno</p>
             <p class="link-title">Pravila privatnosti</p>
         </a>
-        
+
         <a class="link-card" href="terms.html">
             <p class="link-label">Pravno</p>
             <p class="link-title">Uvjeti korištenja</p>
         </a>
-        
+
     </div>
 
     <!-- Footer -->
     <div class="footer fade-in">
-        <p>Zadnje ažuriranje: ožujak 2026.</p>
+        <p>Zadnje ažuriranje: travanj 2026.</p>
     </div>
 
 </div>

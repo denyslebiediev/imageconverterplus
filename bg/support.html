@@ -69,7 +69,7 @@
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/subpage.css">
     <link rel="stylesheet" href="../css/support.css">
-    
+
 </head>
 <body>
 
@@ -97,14 +97,16 @@
     <!-- Formats -->
     <div class="formats-section fade-in">
         <p class="section-label">Формати</p>
-        <h2 class="section-title">Пет формата, едно приложение.</h2>
+        <h2 class="section-title">Седем формата, едно приложение.</h2>
         <p class="section-desc">Конвертирайте между най-популярните формати за изображения с пълен контрол на качеството.</p>
         <div class="formats-row stagger">
             <span class="format-badge fade-in">JPEG</span>
             <span class="format-badge fade-in">PNG</span>
+            <span class="format-badge fade-in">PDF</span>
+            <span class="format-badge fade-in">WebP</span>
             <span class="format-badge fade-in">HEIC</span>
-            <span class="format-badge fade-in">TIFF</span>
             <span class="format-badge fade-in">AVIF</span>
+            <span class="format-badge fade-in">TIFF</span>
         </div>
     </div>
 
@@ -113,44 +115,259 @@
 
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Начало</h2>
-            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Как работи приложението?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Изберете едно или повече изображения от вашата Фотобиблиотека или приложението Файлове, задайте формат и качество, след което натиснете Конвертиране. Обработката се извършва изцяло на вашето устройство.</p></div></div></div>
-            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Кои формати се поддържат?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Приложението поддържа конвертиране между JPEG, PNG, HEIC, TIFF и AVIF (Pro). Можете да конвертирате в произволна комбинация от тези формати.</p></div></div></div>
-            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Мога ли да конвертирам няколко изображения наведнъж?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Да! С безплатната версия можете да конвертирате до 3 изображения наведнъж. Pro надграждането премахва това ограничение и позволява неограничена пакетна конверсия.</p></div></div></div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Как да конвертирам изображение?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Натиснете <strong>Избиране от Снимки</strong> или <strong>Избиране от Файлове</strong>, изберете едно или повече изображения, изберете формат, качество и размер, след което натиснете <strong>Запази в Снимки</strong>, <strong>Запази във Файлове</strong> или <strong>Сподели</strong>.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Кои формати за изображения се поддържат?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Image Converter Plus поддържа JPEG, PNG, HEIC, WebP, AVIF и TIFF. Можете също да комбинирате множество изображения в един PDF. TIFF, AVIF и PDF изискват Pro.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Мога ли да конвертирам няколко изображения наведнъж?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Да. Изберете множество изображения при импортиране от Снимки или Файлове. С Pro можете да конвертирате неограничен пакет наведнъж. Безплатните потребители могат да конвертират по едно изображение наведнъж.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Къде са конвертираните ми изображения?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Конвертираните изображения отиват там, където изберете. <strong>Запази в Снимки</strong> ги добавя във вашата Фотобиблиотека. <strong>Запази във Файлове</strong> ви позволява да изберете папка. <strong>Сподели</strong> ги изпраща към друго приложение. Можете също да преглеждате минали конверсии в раздела <strong>История</strong>.</p>
+                </div></div>
+            </div>
         </div>
 
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Настройки за конвертиране</h2>
-            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Мога ли да контролирам качеството на изображението?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Да. Можете да регулирате плъзгача за качество на компресията за JPEG и HEIC. PNG е без загуби, така че настройката за качество не се прилага.</p></div></div></div>
-            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Мога ли да преоразмерявам изображения по време на конвертиране?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Да. Активирайте опцията за преоразмеряване преди конвертиране и задайте желаната максимална ширина или височина. Приложението автоматично запазва съотношението на страните.</p></div></div></div>
-            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Какво е AVIF?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>AVIF е модерен формат за изображения, предлагащ отлична ефективност на компресията. Осигурява отлично качество при по-малки файлови размери и е достъпен с Pro.</p></div></div></div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Как да променя изходния формат?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Натиснете менюто <strong>Формат</strong> и изберете от JPEG, PNG, HEIC, WebP, TIFF, AVIF или PDF. <strong>Запази оригинала</strong> запазва същия формат като източника. TIFF, AVIF и PDF изискват Pro.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Как работи качеството?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Използвайте плъзгача за <strong>Качество</strong> или натиснете предварителна настройка (Ниско, Средно, Високо, Максимално). По-високо качество означава по-големи файлове. Качеството се прилага за JPEG, HEIC, WebP и AVIF. PNG и TIFF са винаги без загуби.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Мога ли да преоразмерявам изображения при конвертиране?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Да. Натиснете контрола за <strong>Размер</strong>, за да изберете Малък (50%), Оригинален (100%) или Голям (200%). Намаляването на размера прави файловете значително по-малки. Увеличаването няма да подобри яснотата на изображението.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Мога ли да задам различни опции за всяко изображение?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>С Pro натиснете миниатюрата на което и да е изображение, за да зададете различен формат, качество, размер или име само за това изображение. Останалите изображения запазват пакетните настройки.</p>
+                </div></div>
+            </div>
         </div>
 
         <div class="faq-category fade-in">
-            <h2 class="faq-category-title">Поверителност и метаданни</h2>
-            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Качват ли се моите снимки?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Не. Цялата обработка се извършва на вашето устройство. Вашите изображения никога не напускат вашия телефон или таблет.</p></div></div></div>
-            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Какво е премахване на метаданни?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Изображенията могат да съдържат скрити данни (EXIF) като местоположение, настройки на камерата и дати. Приложението ви позволява да премахнете тези данни преди споделяне.</p></div></div></div>
-            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Какви данни събира приложението?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Никакви. Приложението не събира лична информация, аналитика или данни за използване. Няма проследяване или SDK за анализ от трети страни.</p></div></div></div>
+            <h2 class="faq-category-title">Поверителност &amp; метаданни</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Какво са метаданните?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Снимките съдържат скрити данни като GPS местоположение, дата на заснемане, модел на камерата и информация за устройството. Премахването им защитава поверителността ви при споделяне на изображения онлайн.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Как да премахна данни за местоположение?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>С Pro натиснете <strong>Поверителност</strong> и активирайте <strong>Данни за местоположение</strong>. Това премахва GPS координатите и имената на места, като запазва всичко останало.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Какво правят предварителните настройки за поверителност?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p><strong>Само местоположение</strong> премахва само GPS данни. <strong>Лични метаданни</strong> премахва местоположение, информация за устройството, надписи и история на редакциите. <strong>Всички метаданни</strong> премахва всичко освен основните данни за визуализация. <strong>По избор</strong> ви позволява да изберете отделни категории.</p>
+                </div></div>
+            </div>
         </div>
 
         <div class="faq-category fade-in">
-            <h2 class="faq-category-title">Запазване и споделяне</h2>
-            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Къде се запазват конвертираните изображения?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Можете да изберете да запазите във вашата Фотобиблиотека или в произволна папка в приложението Файлове. Приложението пита всеки път къде да запази.</p></div></div></div>
-            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Мога ли да споделям конвертирани файлове директно?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Да. След конвертиране можете да използвате листа за споделяне на iOS, за да споделите изображения директно чрез Съобщения, Поща, AirDrop или всяко друго приложение.</p></div></div></div>
-            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Мога ли да използвам Share Extension?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Да. Можете да използвате менюто за споделяне на iOS, за да изпращате изображения директно от всяко приложение в Image Converter Plus.</p></div></div></div>
+            <h2 class="faq-category-title">Запазване &amp; споделяне</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Къде се запазват конвертираните изображения?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Вие избирате къде да запазите. <strong>Запази в Снимки</strong> ги добавя във вашата Фотобиблиотека. <strong>Запази във Файлове</strong> ви позволява да изберете папка, включително iCloud Drive и свързани облачни услуги. <strong>Сподели</strong> отваря листа за споделяне на iOS за AirDrop, Съобщения, Поща или всяко друго приложение.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Как работи Share Extension?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>От всяко приложение натиснете бутона за споделяне, след което изберете <strong>Конвертиране</strong> (може да се наложи да превъртите или да натиснете <strong>Още</strong>). Share Extension използва вашата предварителна настройка по подразбиране. Цялата обработка остава на вашето устройство.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Какво е Най-съвместимо споделяне?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Когато е активирано в <strong>Настройки &gt; Настройки по подразбиране</strong>, формати като HEIC, AVIF и TIFF автоматично се конвертират в JPEG при споделяне. Това гарантира, че изображенията ви се отварят на всяко устройство, включително Android и по-стари системи.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">Предварителни настройки</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Какво са предварителните настройки?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Предварителните настройки са запазени комбинации от формат, качество, размер и настройки за поверителност. Те ви позволяват бързо да приложите любимите си настройки, без да настройвате всяка опция.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Как да пренаредя или скрия предварителни настройки?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Отидете в <strong>Настройки &gt; Предварителни настройки</strong>. Натиснете <strong>Редактиране</strong>, за да плъзнете настройките в предпочитания от вас ред. Можете също да скриете настройки, които не използвате.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">История</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Как да изтрия елементи от историята?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Плъзнете наляво върху който и да е елемент от историята и натиснете <strong>Изтрий</strong>. Или натиснете <strong>Редактиране</strong> и изберете множество елементи за изтриване наведнъж.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Как работи автоматичното изтриване?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Отидете в <strong>Настройки &gt; Опции за история</strong> и изберете времеви период: 7 дни, 30 дни или 90 дни. По-старите конверсии се премахват автоматично. Изберете <strong>Никога</strong>, за да запазите всичко.</p>
+                </div></div>
+            </div>
         </div>
 
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Pro</h2>
-            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Какво включва Pro?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Pro включва поддръжка на формат AVIF, неограничена пакетна конверсия, персонализирани водни знаци и всички бъдещи Pro функции.</p></div></div></div>
-            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Pro абонамент ли е или еднократна покупка?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Pro е еднократна покупка. Платете веднъж, получете достъп завинаги — без повтарящи се такси.</p></div></div></div>
-            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Може ли Pro да се възстанови на всичките ми устройства?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Да. Тъй като покупката е свързана с вашия Apple ID, можете да възстановите Pro на всяко от вашите устройства със същия Apple ID.</p></div></div></div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Какво включва Pro?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Неограничени пакетни конверсии, TIFF, AVIF и PDF изходни формати, индивидуални настройки за всяко изображение, всички опции за поверителност и премахване на метаданни, и всички предварителни настройки включително тези с контрол на поверителността.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Как да надградя до Pro?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Натиснете банера <strong>Pro</strong> в Настройки или натиснете която и да е Pro-заключена функция. Pro е наличен като абонамент (седмичен, месечен или годишен) или като еднократна покупка за цял живот. Всички покупки се обработват сигурно чрез App Store.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Купих Pro, но функциите са заключени</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Отидете в <strong>Настройки</strong>, превъртете до секцията Pro и натиснете <strong>Възстановяване на покупки</strong>. Това синхронизира покупката ви, ако сте купили Pro на друго устройство или сте преинсталирали приложението. Уверете се, че сте влезли със същия Apple ID.</p>
+                </div></div>
+            </div>
         </div>
 
         <div class="faq-category fade-in">
             <h2 class="faq-category-title">Отстраняване на проблеми</h2>
-            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Конвертирането ми се провали. Какво да направя?</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Уверете се, че устройството ви има достатъчно място за съхранение и че сте на най-новата версия. Ако проблемът продължава, опитайте да рестартирате приложението.</p></div></div></div>
-            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Приложението не работи правилно.</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Актуализирайте приложението до най-новата версия и рестартирайте устройството си. Ако проблемът продължава, пишете на нашия имейл за поддръжка с описание на проблема.</p></div></div></div>
-            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Имам друг проблем.</span><svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="faq-answer-wrap"><div class="faq-answer"><p>Свържете се с нас на <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a> за всякакви проблеми. Включете модела на устройството и версията на iOS и ще отговорим възможно най-скоро.</p></div></div></div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Защо файлът ми все още е голям?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Размерът на файла зависи от съдържанието на изображението. Снимки с много детайли се компресират по-малко. Опитайте да намалите <strong>Качеството</strong> или <strong>Размера</strong> за по-малки файлове. PNG форматът е без загуби и обикновено по-голям от JPEG.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Приложението няма достъп до снимките ми. Какво да направя?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Отидете в <strong>Настройки &gt; Поверителност и сигурност &gt; Снимки &gt; Image Converter Plus</strong> на вашето устройство и разрешете достъп. Ако хранилището е пълно, освободете място или запазете във Файлове вместо това.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Конверсия се провали. Какво мога да опитам?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Файлът може да е повреден или в неподдържан формат. Опитайте да го отворите първо в Снимки. Също проверете дали устройството ви има достатъчно свободно пространство. Ако проблемът продължава, свържете се с нас на <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a>.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Данните ми поверителни ли са?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Да. Всички конверсии се извършват на вашето устройство. Никакви изображения не се качват на сървър. Вашите снимки никога не напускат вашия iPhone или iPad, освен ако не ги споделите сами.</p>
+                </div></div>
+            </div>
         </div>
 
     </div>
@@ -158,33 +375,33 @@
     <!-- System Requirements -->
     <div class="requirements fade-in">
         <h3>Системни изисквания</h3>
-        
+
         <p>iOS 16.0 или по-нова версия</p>
-        
+
         <p>Съвместимо с iPhone и iPad</p>
-        
+
         <p>Работи изцяло офлайн — не се изисква интернет връзка</p>
-        
+
     </div>
 
     <!-- Links -->
     <div class="links-section fade-in">
-        
+
         <a class="link-card" href="privacy.html">
             <p class="link-label">Правни</p>
             <p class="link-title">Политика за поверителност</p>
         </a>
-        
+
         <a class="link-card" href="terms.html">
             <p class="link-label">Правни</p>
             <p class="link-title">Условия за ползване</p>
         </a>
-        
+
     </div>
 
     <!-- Footer -->
     <div class="footer fade-in">
-        <p>Последна актуализация: март 2026 г.</p>
+        <p>Последна актуализация: април 2026 г.</p>
     </div>
 
 </div>

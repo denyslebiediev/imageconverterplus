@@ -97,14 +97,16 @@
     <!-- Formats -->
     <div class="formats-section fade-in">
         <p class="section-label">Format</p>
-        <h2 class="section-title">Fem format, en app.</h2>
+        <h2 class="section-title">Sju format, en app.</h2>
         <p class="section-desc">Konvertera mellan de mest populära bildformaten med fullständig kvalitetskontroll.</p>
         <div class="formats-row stagger">
             <span class="format-badge fade-in">JPEG</span>
             <span class="format-badge fade-in">PNG</span>
+            <span class="format-badge fade-in">PDF</span>
+            <span class="format-badge fade-in">WebP</span>
             <span class="format-badge fade-in">HEIC</span>
-            <span class="format-badge fade-in">TIFF</span>
             <span class="format-badge fade-in">AVIF</span>
+            <span class="format-badge fade-in">TIFF</span>
         </div>
     </div>
 
@@ -115,20 +117,20 @@
             <h2 class="faq-category-title">Kom igång</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Hur importerar jag foton?</span>
+                    <span>Hur konverterar jag en bild?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Tryck på "+"-knappen för att välja från ditt Fotobibliotek eller Filer. Du kan också använda Share Extension från en annan app för att skicka bilder direkt till Image Converter Plus.</p>
+                    <p>Tryck på <strong>Välj från Foton</strong> eller <strong>Välj från Filer</strong>, välj en eller flera bilder, välj format, kvalitet och storlek, och tryck sedan på <strong>Spara i Foton</strong>, <strong>Spara i Filer</strong> eller <strong>Dela</strong>.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Vilka format stöds?</span>
+                    <span>Vilka bildformat stöds?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Image Converter Plus stöder JPEG, PNG, HEIC, TIFF och AVIF. Du kan fritt konvertera mellan alla dessa format.</p>
+                    <p>Image Converter Plus stöder JPEG, PNG, HEIC, WebP, AVIF och TIFF. Du kan även kombinera flera bilder till en enda PDF. TIFF, AVIF och PDF kräver Pro.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -137,7 +139,16 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Ja. Med Pro-uppgraderingen kan du välja flera bilder och batchkonvertera dem alla på en gång.</p>
+                    <p>Ja. Välj flera bilder när du importerar från Foton eller Filer. Med Pro kan du konvertera en obegränsad batch på en gång. Gratisanvändare kan konvertera en bild åt gången.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Var finns mina konverterade bilder?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Konverterade bilder hamnar där du väljer. <strong>Spara i Foton</strong> lägger till dem i ditt Fotobibliotek. <strong>Spara i Filer</strong> låter dig välja en mapp. <strong>Dela</strong> skickar dem till en annan app. Du kan även visa tidigare konverteringar i fliken <strong>Historik</strong>.</p>
                 </div></div>
             </div>
         </div>
@@ -146,11 +157,20 @@
             <h2 class="faq-category-title">Konverteringsinställningar</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Kan jag justera kvaliteten?</span>
+                    <span>Hur ändrar jag utdataformatet?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Ja. Använd kvalitetsreglaget för att justera komprimeringsnivån. Du ser en uppskattning av filstorleken i realtid medan du justerar, så att du kan hitta rätt balans mellan kvalitet och storlek.</p>
+                    <p>Tryck på menyn <strong>Format</strong> och välj bland JPEG, PNG, HEIC, WebP, TIFF, AVIF eller PDF. <strong>Behåll original</strong> behåller samma format som källfilen. TIFF, AVIF och PDF kräver Pro.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Hur fungerar kvalitetsinställningen?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Använd <strong>Kvalitet</strong>-reglaget eller tryck på en förinställning (Låg, Medium, Hög, Maximal). Högre kvalitet innebär större filer. Kvalitet gäller för JPEG, HEIC, WebP och AVIF. PNG och TIFF är alltid förlustfria.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -159,60 +179,60 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Ja. Du kan ställa in en maximal upplösning eller skala med procentandel. Bildförhållandet bevaras alltid.</p>
+                    <p>Ja. Tryck på kontrollen <strong>Storlek</strong> för att välja Liten (50%), Original (100%) eller Stor (200%). Att minska storleken gör filerna betydligt mindre. Att förstora förbättrar inte bildskärpan.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Vad är skillnaden mellan HEIC och JPEG?</span>
+                    <span>Kan jag ställa in olika alternativ per bild?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>HEIC är Apples standardformat med bättre komprimering — mindre filer med samma kvalitet. JPEG är universellt kompatibelt och fungerar överallt. Konvertera HEIC till JPEG när du behöver dela filer med enheter som inte är Apple.</p>
-                </div></div>
-            </div>
-        </div>
-
-        <div class="faq-category fade-in">
-            <h2 class="faq-category-title">Integritet och metadata</h2>
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span>Hur tar jag bort EXIF-data från mina foton?</span>
-                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </button>
-                <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Aktivera alternativet "Ta bort metadata" innan du konverterar. Detta tar bort all EXIF-data inklusive kamerainställningar, datum/tid och annan inbäddad information.</p>
-                </div></div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span>Kan jag ta bort platsdata från mina foton?</span>
-                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </button>
-                <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Ja. När "Ta bort metadata" är aktiverat tas GPS-koordinater och all annan platsdata bort från dina foton.</p>
-                </div></div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    <span>Kan jag lägga till en vattenstämpel på mina foton?</span>
-                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </button>
-                <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Ja. Med Pro-uppgraderingen kan du lägga till en textvattenstämpel på dina bilder med anpassningsbar text, position, storlek och transparens.</p>
+                    <p>Med Pro trycker du på en bildminiatyr för att ställa in ett annat format, kvalitet, storlek eller namn för just den bilden. Övriga bilder behåller batchinställningarna.</p>
                 </div></div>
             </div>
         </div>
 
         <div class="faq-category fade-in">
-            <h2 class="faq-category-title">Spara och dela</h2>
+            <h2 class="faq-category-title">Sekretess &amp; metadata</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Var sparas konverterade filer?</span>
+                    <span>Vad är metadata?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Efter konverteringen kan du spara resultatet i ditt Fotobibliotek, i Filer eller dela via delningsmenyn.</p>
+                    <p>Foton innehåller dold data som GPS-position, datum, kameramodell och enhetsinformation. Att ta bort detta skyddar din integritet när du delar bilder online.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Hur tar jag bort platsdata?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Med Pro trycker du på <strong>Sekretess</strong> och aktiverar <strong>Platsdata</strong>. Detta tar bort GPS-koordinater och platsnamn medan allt annat behålls.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Vad gör sekretessförinställningarna?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p><strong>Enbart plats</strong> tar bort bara GPS-data. <strong>Personlig metadata</strong> tar bort plats, enhetsinformation, bildtexter och redigeringshistorik. <strong>All metadata</strong> tar bort allt utom grundläggande visningsdata. <strong>Anpassad</strong> låter dig välja enskilda kategorier.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">Spara &amp; dela</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Var sparas konverterade bilder?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Du väljer var du sparar. <strong>Spara i Foton</strong> lägger till dem i ditt Fotobibliotek. <strong>Spara i Filer</strong> låter dig välja en mapp, inklusive iCloud Drive och anslutna molntjänster. <strong>Dela</strong> öppnar iOS delningsmenyn för AirDrop, Meddelanden, Mail eller valfri annan app.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -221,16 +241,60 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Från valfri app trycker du på delningsknappen, väljer Image Converter Plus och bilden öppnas direkt i appen, redo att konverteras.</p>
+                    <p>Från valfri app trycker du på delningsknappen och väljer <strong>Konvertera</strong> (du kan behöva scrolla eller trycka på <strong>Mer</strong>). Share Extension använder din standardförinställning. All bearbetning sker på din enhet.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Kan jag dela direkt till sociala medier?</span>
+                    <span>Vad är Mest kompatibel delning?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Ja. Efter konverteringen trycker du på delningsknappen för att skicka bilden direkt till valfri app, inklusive sociala medier, meddelanden eller e-post.</p>
+                    <p>När det är aktiverat i <strong>Inställningar &gt; Standardinställningar</strong> konverteras format som HEIC, AVIF och TIFF automatiskt till JPEG när du delar. Detta säkerställer att dina bilder öppnas på alla enheter, inklusive Android och äldre system.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">Förinställningar</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Vad är förinställningar?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Förinställningar är sparade kombinationer av format, kvalitet, storlek och sekretessinställningar. De låter dig snabbt tillämpa dina favoritinställningar utan att justera varje alternativ.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Hur ordnar eller döljer jag förinställningar?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Gå till <strong>Inställningar &gt; Förinställningar</strong>. Tryck på <strong>Redigera</strong> för att dra förinställningar till önskad ordning. Du kan även dölja förinställningar som du inte använder.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">Historik</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Hur tar jag bort historikposter?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Svep åt vänster på en historikpost och tryck på <strong>Radera</strong>. Eller tryck på <strong>Redigera</strong> och välj flera poster att radera samtidigt.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Hur fungerar automatisk radering?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Gå till <strong>Inställningar &gt; Historikalternativ</strong> och välj en tidsram: 7 dagar, 30 dagar eller 90 dagar. Äldre konverteringar tas bort automatiskt. Välj <strong>Aldrig</strong> för att behålla allt.</p>
                 </div></div>
             </div>
         </div>
@@ -243,7 +307,7 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Pro är ett engångsköp som låser upp allt: obegränsade konverteringar, batchbearbetning, alla exportformat, avancerade alternativ för storleksändring, vattenstämpel och mer. Inget abonnemang krävs.</p>
+                    <p>Obegränsade batchkonverteringar, TIFF-, AVIF- och PDF-utdataformat, inställningsöverskridanden per bild, alla sekretess- och metadataborttagningsalternativ, samt alla förinställningar inklusive de med sekretesskontroller.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -252,16 +316,16 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Tryck på Pro-bannern i appen eller gå till Inställningar. Köpet hanteras säkert av Apple.</p>
+                    <p>Tryck på <strong>Pro</strong>-bannern i Inställningar eller tryck på en Pro-låst funktion. Pro finns som prenumeration (vecko-, månads- eller årsvis) eller som ett engångsköp med livstidslicens. Alla köp hanteras säkert genom App Store.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Kan jag återställa mitt köp?</span>
+                    <span>Jag köpte Pro men funktioner är låsta</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Ja. Gå till Inställningar > Återställ köp. Se till att du är inloggad med samma Apple ID som du använde för det ursprungliga köpet.</p>
+                    <p>Gå till <strong>Inställningar</strong>, scrolla till Pro-sektionen och tryck på <strong>Återställ köp</strong>. Detta synkroniserar ditt köp om du köpte Pro på en annan enhet eller installerade om appen. Se till att du är inloggad med samma Apple ID.</p>
                 </div></div>
             </div>
         </div>
@@ -270,29 +334,38 @@
             <h2 class="faq-category-title">Felsökning</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Jag kan inte komma åt mina foton.</span>
+                    <span>Varför är min fil fortfarande stor?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Gå till Inställningar > Integritet och säkerhet > Foton och ge Image Converter Plus åtkomst till dina foton.</p>
+                    <p>Filstorleken beror på bildinnehållet. Foton med mycket detaljer komprimeras sämre. Prova att sänka <strong>Kvalitet</strong> eller <strong>Storlek</strong> för mindre filer. PNG-formatet är förlustfritt och vanligtvis större än JPEG.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Finns det en filstorleksgräns?</span>
+                    <span>Appen kan inte komma åt mina foton. Vad ska jag göra?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Det finns ingen fast filstorleksgräns. Mycket stora filer kan ta lite längre tid att bearbeta beroende på din enhet.</p>
+                    <p>Gå till <strong>Inställningar &gt; Integritet och säkerhet &gt; Foton &gt; Image Converter Plus</strong> på din enhet och tillåt åtkomst. Om lagringsutrymmet är fullt, frigör utrymme eller spara till Filer istället.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Konverteringen misslyckades. Vad kan jag göra?</span>
+                    <span>En konvertering misslyckades. Vad kan jag prova?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Försök stänga andra appar för att frigöra minne och starta om appen. Om problemet kvarstår, kontakta oss på <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a>.</p>
+                    <p>Filen kan vara skadad eller i ett format som inte stöds. Prova att öppna den i Foton först. Kontrollera även att din enhet har tillräckligt med ledigt lagringsutrymme. Om problemet kvarstår, kontakta oss på <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a>.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Är mina data privata?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Ja. Alla konverteringar sker på din enhet. Inga bilder laddas upp till någon server. Dina foton lämnar aldrig din iPhone eller iPad om du inte delar dem själv.</p>
                 </div></div>
             </div>
         </div>
@@ -324,7 +397,7 @@
 
     <!-- Footer -->
     <div class="footer fade-in">
-        <p>Senast uppdaterad: mars 2026</p>
+        <p>Senast uppdaterad: april 2026</p>
     </div>
 
 </div>

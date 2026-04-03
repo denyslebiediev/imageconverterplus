@@ -69,7 +69,7 @@
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/subpage.css">
     <link rel="stylesheet" href="../css/support.css">
-    
+
 </head>
 <body>
 
@@ -97,14 +97,16 @@
     <!-- Formats -->
     <div class="formats-section fade-in">
         <p class="section-label">Formátumok</p>
-        <h2 class="section-title">Öt formátum, egy alkalmazás.</h2>
+        <h2 class="section-title">Hét formátum, egy alkalmazás.</h2>
         <p class="section-desc">Konvertálj a legnépszerűbb képformátumok között teljes minőségvezérléssel.</p>
         <div class="formats-row stagger">
             <span class="format-badge fade-in">JPEG</span>
             <span class="format-badge fade-in">PNG</span>
+            <span class="format-badge fade-in">PDF</span>
+            <span class="format-badge fade-in">WebP</span>
             <span class="format-badge fade-in">HEIC</span>
-            <span class="format-badge fade-in">TIFF</span>
             <span class="format-badge fade-in">AVIF</span>
+            <span class="format-badge fade-in">TIFF</span>
         </div>
     </div>
 
@@ -115,11 +117,11 @@
             <h2 class="faq-category-title">Első lépések</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Hogyan importálok fényképeket?</span>
+                    <span>Hogyan konvertálok egy képet?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Koppints a plusz gombra a főképernyőn, hogy fényképeket válassz a könyvtáradból. Használhatod a Share Extension-t is, hogy képeket küldj közvetlenül a Fotók vagy Fájlok alkalmazásból.</p>
+                    <p>Koppints a <strong>Választás a Fotókból</strong> vagy a <strong>Választás a Fájlokból</strong> gombra, válassz ki egy vagy több képet, állítsd be a formátumot, minőséget és méretet, majd koppints a <strong>Mentés a Fotókba</strong>, <strong>Mentés a Fájlokba</strong> vagy a <strong>Megosztás</strong> gombra.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -128,16 +130,25 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Az alkalmazás támogatja a JPEG, PNG, HEIC, TIFF és AVIF formátumokat. Bármelyik formátum között konvertálhatsz teljes minőségben.</p>
+                    <p>Az Image Converter Plus támogatja a JPEG, PNG, HEIC, WebP, AVIF és TIFF formátumokat. Több képet egyetlen PDF-fájlba is kombinálhatsz. A TIFF, AVIF és PDF Pro-t igényel.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Konvertálhatok egyszerre több fényképet?</span>
+                    <span>Konvertálhatok egyszerre több képet?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Igen. Válassz ki több fényképet importáláskor, és mindegyik azonos beállításokkal lesz konvertálva egyszerre. Nincs korlát a kötegenkénti fényképek számára.</p>
+                    <p>Igen. Válassz ki több képet a Fotókból vagy Fájlokból történő importáláskor. A Pro-val korlátlan számú képet konvertálhatsz egyszerre. Az ingyenes felhasználók egyszerre egy képet konvertálhatnak.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Hol vannak a konvertált képeim?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>A konvertált képek oda kerülnek, ahová te választod. A <strong>Mentés a Fotókba</strong> hozzáadja őket a Fotókönyvtáradhoz. A <strong>Mentés a Fájlokba</strong> lehetővé teszi egy mappa kiválasztását. A <strong>Megosztás</strong> egy másik alkalmazásba küldi őket. A korábbi konverziókat az <strong>Előzmények</strong> lapon is megtekintheted.</p>
                 </div></div>
             </div>
         </div>
@@ -146,29 +157,38 @@
             <h2 class="faq-category-title">Konvertálási beállítások</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Hogyan állítom be a minőséget?</span>
+                    <span>Hogyan változtatom meg a kimeneti formátumot?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Használd a minőség csúszkát a konvertálási képernyőn a tömörítési szint beállításához. Magasabb értékek több részletet őriznek meg, de nagyobb fájlokat hoznak létre. Az előnézet valós időben frissül.</p>
+                    <p>Koppints a <strong>Formátum</strong> menüre, és válassz a JPEG, PNG, HEIC, WebP, TIFF, AVIF vagy PDF közül. Az <strong>Eredeti megtartása</strong> megőrzi a forrásfájl formátumát. A TIFF, AVIF és PDF Pro-t igényel.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Átméretezhetek fényképeket konvertálás közben?</span>
+                    <span>Hogyan működik a minőség?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Igen. Kapcsold be az átméretezést és állítsd be a cél szélességet vagy magasságot. A képarány automatikusan megőrződik. Az átméretezés a konvertálás során történik.</p>
+                    <p>Használd a <strong>Minőség</strong> csúszkát, vagy koppints egy előre beállított értékre (Alacsony, Közepes, Magas, Maximális). A magasabb minőség nagyobb fájlméretet eredményez. A minőség a JPEG, HEIC, WebP és AVIF formátumokra vonatkozik. A PNG és TIFF mindig veszteségmentes.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Mi a különbség a HEIC és a JPEG között?</span>
+                    <span>Átméretezhetem a képeket konvertálás közben?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>A HEIC az Apple modern formátuma, amely kisebb fájlméretet kínál hasonló minőség mellett. A JPEG univerzálisan kompatibilis minden platformon. Konvertáld a HEIC-et JPEG-re a könnyű megosztáshoz nem Apple eszközökön.</p>
+                    <p>Igen. Koppints a <strong>Méret</strong> vezérlőre, és válaszd a Kicsi (50%), Eredeti (100%) vagy Nagy (200%) lehetőséget. A méret csökkentése jelentősen kisebb fájlokat eredményez. A nagyítás nem javítja a kép élességét.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Beállíthatok képenként különböző beállításokat?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>A Pro-val koppints bármelyik kép miniatűrjére, hogy egyedi formátumot, minőséget, méretet vagy nevet állíts be az adott képhez. A többi kép megtartja a kötegelt beállításokat.</p>
                 </div></div>
             </div>
         </div>
@@ -177,29 +197,29 @@
             <h2 class="faq-category-title">Adatvédelem és metaadatok</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Hogyan távolítom el az EXIF adatokat a fényképekből?</span>
+                    <span>Mik azok a metaadatok?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Konvertálás előtt kapcsold be a „Metaadatok eltávolítása" opciót. Ez eltávolít minden EXIF adatot, beleértve a kamerabeállításokat, időbélyegeket és helyadatokat a kimeneti fényképekből.</p>
+                    <p>A fényképek rejtett adatokat tartalmaznak, például GPS-helyet, a készítés dátumát, kameramodellt és eszközinformációkat. Ezek eltávolítása védi a magánszférádat, amikor képeket osztasz meg online.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Eltávolítja az alkalmazás a helyadatokat?</span>
+                    <span>Hogyan távolítom el a helyadatokat?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Igen, ha a metaadatok eltávolítása be van kapcsolva. A GPS adatok, helynevek és minden egyéb, a fényképeidbe ágyazott helyadat eltávolításra kerül a konvertált fájlból.</p>
+                    <p>A Pro-val koppints az <strong>Adatvédelem</strong> lehetőségre, és engedélyezd a <strong>Helyadatok</strong> opciót. Ez eltávolítja a GPS-koordinátákat és helyneveket, miközben minden mást megtart.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Adhatok vízjelet a fényképeimhez?</span>
+                    <span>Mit csinálnak az adatvédelmi előbeállítások?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Igen. Kapcsold be a vízjelezést és szabd testre a szöveget, pozíciót, méretet és átlátszóságot. A vízjel a konvertálás során kerül alkalmazásra és megjelenik minden kimeneti fényképen.</p>
+                    <p>A <strong>Csak hely</strong> csak a GPS-adatokat távolítja el. A <strong>Személyes metaadatok</strong> eltávolítja a helyet, eszközadatokat, feliratokat és szerkesztési előzményeket. A <strong>Minden metaadat</strong> mindent eltávolít a lényeges megjelenési adatok kivételével. Az <strong>Egyéni</strong> lehetővé teszi az egyes kategóriák kiválasztását.</p>
                 </div></div>
             </div>
         </div>
@@ -208,11 +228,11 @@
             <h2 class="faq-category-title">Mentés és megosztás</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Hová mentődnek a konvertált fényképek?</span>
+                    <span>Hová mentődnek a konvertált képek?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>A konvertált fényképeket mentheted a Fotókönyvtáradba vagy bármely mappába a Fájlok alkalmazáson keresztül. A célt a konvertálás befejezése után választod ki.</p>
+                    <p>Te döntöd el, hová mentsed. A <strong>Mentés a Fotókba</strong> hozzáadja őket a Fotókönyvtáradhoz. A <strong>Mentés a Fájlokba</strong> lehetővé teszi egy mappa kiválasztását, beleértve az iCloud Drive-ot és a csatlakoztatott felhőszolgáltatásokat. A <strong>Megosztás</strong> megnyitja az iOS megosztási lapot az AirDrop, Üzenetek, Mail vagy bármely más alkalmazás számára.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -221,16 +241,60 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Válassz ki bármely fényképet iOS-en, koppints a Megosztás gombra és válaszd az Image Converter Plus-t. A kép közvetlenül megnyílik az alkalmazásban, készen a konvertálásra — manuális importálás nélkül.</p>
+                    <p>Bármely alkalmazásból koppints a megosztás gombra, majd válaszd a <strong>Convert</strong> lehetőséget (szükség lehet a görgetésre vagy a <strong>Továbbiak</strong> megérintésére). A Share Extension az alapértelmezett előbeállításodat használja. Minden feldolgozás az eszközön marad.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Megoszthatok közvetlenül közösségi médiában?</span>
+                    <span>Mi a Legkompatibilisebb megosztás?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Konvertálás után használd az iOS megosztási lapot, hogy fényképeket küldj közvetlenül bármely telepített alkalmazásba, beleértve a közösségi médiát, üzenetküldőket és e-mailt.</p>
+                    <p>Ha engedélyezve van a <strong>Beállítások &gt; Alapértelmezett beállítások</strong> alatt, a HEIC, AVIF és TIFF formátumok automatikusan JPEG-re konvertálódnak megosztáskor. Ez biztosítja, hogy a képeid bármely eszközön megnyílnak, beleértve az Android és régebbi rendszereket.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">Előbeállítások</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Mik azok az előbeállítások?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Az előbeállítások formátum, minőség, méret és adatvédelmi beállítások mentett kombinációi. Lehetővé teszik a kedvenc beállításaid gyors alkalmazását anélkül, hogy minden egyes opciót külön beállítanád.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Hogyan rendezem át vagy rejtem el az előbeállításokat?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Menj a <strong>Beállítások &gt; Előbeállítások</strong> menübe. Koppints a <strong>Szerkesztés</strong> gombra, hogy az előbeállításokat a kívánt sorrendbe húzd. A nem használt előbeállításokat el is rejtheted.</p>
+                </div></div>
+            </div>
+        </div>
+
+        <div class="faq-category fade-in">
+            <h2 class="faq-category-title">Előzmények</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Hogyan törölhetek előzményelemeket?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Húzd balra bármely előzményelemet, és koppints a <strong>Törlés</strong> gombra. Vagy koppints a <strong>Szerkesztés</strong> gombra, és válassz ki több elemet az egyszerre történő törléshez.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Hogyan működik az automatikus törlés?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Menj a <strong>Beállítások &gt; Előzmények beállítások</strong> menübe, és válassz egy időkeretet: 7 nap, 30 nap vagy 90 nap. A régebbi konverziók automatikusan eltávolításra kerülnek. Válaszd a <strong>Soha</strong> lehetőséget, ha mindent meg szeretnél tartani.</p>
                 </div></div>
             </div>
         </div>
@@ -243,7 +307,7 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>A Pro korlátlan kötegelt konvertálást, minden kimeneti formátumot, átméretezést, metaadat-eltávolítást és vízjelezést old fel. Egyszeri vásárlás előfizetés nélkül.</p>
+                    <p>Korlátlan kötegelt konvertálás, TIFF, AVIF és PDF kimeneti formátumok, képenkénti egyéni beállítások, minden adatvédelmi és metaadat-eltávolítási lehetőség, valamint az összes előbeállítás, beleértve az adatvédelmi vezérlőkkel rendelkezőket is.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -252,16 +316,16 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Koppints a Pro gombra az alkalmazásban a részletek megtekintéséhez és vásárláshoz. A fizetést az Apple dolgozza fel. Vásárlás után a Pro funkciók azonnal feloldódnak.</p>
+                    <p>Koppints a <strong>Pro</strong> bannerre a Beállításokban, vagy koppints bármely Pro-zárolt funkcióra. A Pro előfizetésként (heti, havi vagy éves) vagy egyszeri, élethosszig tartó vásárlásként érhető el. Minden vásárlást az App Store biztonságosan kezel.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Hogyan állítom vissza a vásárlást?</span>
+                    <span>Megvettem a Pro-t, de a funkciók zárolva vannak</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Koppints a „Vásárlás visszaállítása" gombra a Pro képernyőn. Az alkalmazás ellenőrzi az Apple-nél, és feloldja a Pro-t, ha korábban megvásárolták. Győződj meg róla, hogy ugyanazzal az Apple ID-val vagy bejelentkezve.</p>
+                    <p>Menj a <strong>Beállítások</strong>ba, görgess a Pro részhez, és koppints a <strong>Vásárlás visszaállítása</strong> gombra. Ez szinkronizálja a vásárlásodat, ha egy másik eszközön vetted meg a Pro-t, vagy újratelepítetted az alkalmazást. Győződj meg róla, hogy ugyanazzal az Apple ID-val vagy bejelentkezve.</p>
                 </div></div>
             </div>
         </div>
@@ -270,20 +334,20 @@
             <h2 class="faq-category-title">Hibaelhárítás</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Az alkalmazás nem fér hozzá a fényképeimhez. Mit tegyek?</span>
+                    <span>Miért nagy még mindig a fájlom?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Menj az iOS Beállítások → Adatvédelem és biztonság → Fotók menüpontra, és győződj meg róla, hogy az Image Converter Plus hozzáféréssel rendelkezik. Kiválaszthatsz konkrét fényképeket vagy teljes könyvtár-hozzáférést adhatsz.</p>
+                    <p>A fájlméret a kép tartalmától függ. A sok részletet tartalmazó fényképek kevésbé tömöríthetők. Próbáld csökkenteni a <strong>Minőséget</strong> vagy a <strong>Méretet</strong> kisebb fájlokhoz. A PNG formátum veszteségmentes, és jellemzően nagyobb, mint a JPEG.</p>
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
-                    <span>Van fájlméret-korlát?</span>
+                    <span>Az alkalmazás nem fér hozzá a fényképeimhez. Mit tegyek?</span>
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Nincs szigorú fájlméret-korlát. Az alkalmazás kezeli a nagy képeket, beleértve a RAW fájlokat és a nagy felbontású képeket. A feldolgozási idő a fájl méretétől és az eszköz képességeitől függ.</p>
+                    <p>Menj az eszközödön a <strong>Beállítások &gt; Adatvédelem és biztonság &gt; Fotók &gt; Image Converter Plus</strong> menüpontba, és engedélyezd a hozzáférést. Ha a tárhely megtelt, szabadíts fel helyet, vagy használd a Mentés a Fájlokba lehetőséget.</p>
                 </div></div>
             </div>
             <div class="faq-item">
@@ -292,7 +356,16 @@
                     <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
                 <div class="faq-answer-wrap"><div class="faq-answer">
-                    <p>Próbáld újraindítani az alkalmazást és megismételni a konvertálást. Győződj meg róla, hogy elegendő szabad tárhely van az eszközön. Ha a probléma egy adott képpel van, próbálj meg másik forrásformátumot.</p>
+                    <p>A fájl sérült vagy nem támogatott formátumú lehet. Próbáld először megnyitni a Fotók alkalmazásban. Ellenőrizd azt is, hogy az eszközödön elegendő szabad tárhely van. Ha a probléma fennáll, lépj kapcsolatba velünk: <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a>.</p>
+                </div></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Biztonságban vannak az adataim?</span>
+                    <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer-wrap"><div class="faq-answer">
+                    <p>Igen. Minden konvertálás az eszközödön történik. Egyetlen kép sem kerül feltöltésre semmilyen szerverre. A fényképeid soha nem hagyják el az iPhone-odat vagy iPadedet, hacsak te magad nem osztod meg őket.</p>
                 </div></div>
             </div>
         </div>
@@ -302,33 +375,33 @@
     <!-- System Requirements -->
     <div class="requirements fade-in">
         <h3>Rendszerkövetelmények</h3>
-        
+
         <p>iOS 16.0 vagy újabb</p>
-        
+
         <p>Kompatibilis iPhone-nal és iPaddel</p>
-        
+
         <p>Teljesen offline működik — nincs szükség internetkapcsolatra</p>
-        
+
     </div>
 
     <!-- Links -->
     <div class="links-section fade-in">
-        
+
         <a class="link-card" href="privacy.html">
             <p class="link-label">Jogi</p>
             <p class="link-title">Adatvédelmi irányelvek</p>
         </a>
-        
+
         <a class="link-card" href="terms.html">
             <p class="link-label">Jogi</p>
             <p class="link-title">Felhasználási feltételek</p>
         </a>
-        
+
     </div>
 
     <!-- Footer -->
     <div class="footer fade-in">
-        <p>Utoljára frissítve: 2026. március</p>
+        <p>Utoljára frissítve: 2026. április</p>
     </div>
 
 </div>

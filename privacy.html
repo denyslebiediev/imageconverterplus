@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
     (function() {
+        // Skip language detection when the URL explicitly asks for English
+        // (e.g., when a per-language page redirects here for legal accuracy).
+        if (location.search.indexOf('lang=en') !== -1) return;
+
         var supported = ["uk","zh-Hans","ja","es","pt-BR","ko","de","fr","hi","id","tr","vi","ar","it","zh-Hant","nl","sv","nb","da","fi","he","pl","th","pt-PT","el","cs","hu","ro","sk","hr","ms","ca","bn","ur","fil","pa","ta","te","fa","mr","gu","kn","ml","af","bg","sr","sl","mt","ga","sq","bs","mk","is","et","lv","lt","sw","cy","be"];
         var set = {};
         for (var i = 0; i < supported.length; i++) set[supported[i]] = true;
@@ -28,7 +32,7 @@
     })();
     </script>
     <title>Privacy Policy - Image Converter Plus</title>
-    <meta name="description" content="Privacy Policy for Image Converter Plus. All images are processed on your device. Nothing you convert is ever uploaded or shared.">
+    <meta name="description" content="Privacy Policy for Image Converter Plus. Photos are processed only on your device. We explain exactly what third-party SDKs collect for purchases and ads.">
     <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/privacy.html">
     <link rel="alternate" hreflang="uk" href="https://denyslebiediev.github.io/imageconverterplus/uk/privacy.html">
     <link rel="alternate" hreflang="zh-Hans" href="https://denyslebiediev.github.io/imageconverterplus/zh-Hans/privacy.html">
@@ -113,65 +117,115 @@
     <!-- Hero -->
     <div class="hero fade-in">
         <h1>Privacy Policy</h1>
-        <p class="subtitle">Your photos stay yours. All images are processed on your device. Nothing you convert is ever uploaded or shared.</p>
+        <p class="subtitle">Your photos stay on your device. This page explains exactly what we and our service providers do — and don't do — with your information.</p>
     </div>
 
     <!-- Content Cards -->
     <div class="stagger">
 
         <div class="content-card fade-in">
-            <h2>On Your Device</h2>
-            <p>All image conversion, resizing, metadata removal, and watermarking happens entirely on your device. Nothing is sent to a remote server. The App works fully offline.</p>
+            <h2>Summary</h2>
+            <p>Image Converter Plus (the &ldquo;App&rdquo;) is built by Denys Lebiediev. All image conversion runs on your device. We do not operate any server that receives your photos. We do, however, use a small number of trusted third-party services to handle in-app purchases and to show optional rewarded video ads to free users. Those services collect limited, mostly anonymous information as described below. You always have control over what happens.</p>
+            <ul>
+                <li>Photos and files you convert never leave your device.</li>
+                <li>Apple processes purchases. Adapty helps us verify your subscription state.</li>
+                <li>Free users may choose to watch a rewarded ad delivered by Google AdMob.</li>
+                <li>If you live in a region that requires an ad-consent form, you will see one before any ad is shown.</li>
+                <li>If we ever request permission to track you for personalized ads, you can decline at any time and the App will keep working with non-personalized ads.</li>
+            </ul>
         </div>
 
         <div class="content-card fade-in">
-            <h2>What We Don't Collect</h2>
-            <p>We do not collect personal information, usage analytics, crash reports, or location data. We never see your photos, files, or conversion activity.</p>
+            <h2>What Stays On Your Device</h2>
+            <p>All image conversion, resizing, metadata stripping, watermarking, file naming, presets, and conversion history happen entirely on your iPhone or iPad. Nothing about the contents of your photos is transmitted to us or to any third party.</p>
+            <ul>
+                <li>The photos and files you import.</li>
+                <li>Metadata extracted or removed from those files.</li>
+                <li>Output images and PDFs.</li>
+                <li>Your conversion history, presets, and app preferences.</li>
+            </ul>
+            <p>You can delete this data at any time by removing items in the History tab, clearing history from Settings, or deleting the App.</p>
         </div>
 
         <div class="content-card fade-in">
-            <h2>Photos &amp; Images</h2>
-            <p>Your photos and images are never uploaded, copied, or transmitted outside your device. The App accesses only the files you explicitly select, processes them locally, and saves the results where you choose.</p>
+            <h2>Information Collected by Third-Party Services</h2>
+            <p>The App relies on a small number of services to function. We have configured each of them to collect the minimum data necessary. We do not have access to the contents of your photos through any of them.</p>
+
+            <p><strong>Apple StoreKit (purchases).</strong> All in-app purchases &mdash; subscriptions, the lifetime upgrade, and tips &mdash; are processed by Apple. Apple charges your Apple ID, and we receive an anonymous transaction confirmation. We never see your name, email address, billing address, or payment method.</p>
+
+            <p><strong>Adapty (subscription management).</strong> We use Adapty to verify whether you have an active subscription or lifetime purchase. Adapty receives an anonymous device-scoped identifier generated by its SDK along with the App Store transaction information needed to validate your purchase, the App version, and basic device characteristics (operating system version and device model). Adapty does not receive your Apple ID, your email address, or the contents of your photos. See <a href="https://adapty.io/privacy" rel="noopener" target="_blank">adapty.io/privacy</a>.</p>
+
+            <p><strong>Google AdMob and the User Messaging Platform (rewarded ads, free users only).</strong> Free users can choose to watch a rewarded video ad to unlock a single batch conversion. Pro users never see ads. When an ad is shown, Google AdMob receives the App identifier, basic device characteristics, an ad identifier, and limited interaction events (ad impression, click, completion). When required by your region (for example, the EEA, the UK, Switzerland, and parts of the United States), Google&rsquo;s User Messaging Platform shows you a consent form before any ad is loaded; you can refuse and continue using the App. Apple&rsquo;s SKAdNetwork is also used to attribute ad performance anonymously. See <a href="https://policies.google.com/technologies/ads" rel="noopener" target="_blank">policies.google.com/technologies/ads</a>.</p>
+
+            <p><strong>Apple App Store (update check).</strong> The App periodically queries Apple&rsquo;s public iTunes Lookup endpoint to learn whether a newer version is available. This request includes only the App&rsquo;s bundle identifier and your storefront country. Apple may receive your IP address as part of any HTTPS request, but we do not.</p>
         </div>
 
         <div class="content-card fade-in">
-            <h2>Purchases</h2>
-            <p>In-app purchases are handled by Apple through StoreKit. We do not receive, process, or store any payment details, billing information, or Apple ID data. The App uses Adapty to manage purchases and verify your Pro status. Adapty receives only anonymous transaction data from Apple — it does not access your photos, files, or personal information.</p>
+            <h2>Tracking and Personalized Ads</h2>
+            <p>If you are a free user, the first time the App is in a position to show you an ad we may ask, through Apple&rsquo;s standard system prompt (App Tracking Transparency), whether you allow the App to use your device&rsquo;s advertising identifier (IDFA) to deliver more relevant ads. Your answer is final: you can change it at any time in iOS&nbsp;Settings&nbsp;&rsaquo; Privacy &amp; Security &nbsp;&rsaquo; Tracking &nbsp;&rsaquo; Image Converter Plus.</p>
+            <ul>
+                <li>If you <strong>Allow Tracking</strong>, AdMob may use your device&rsquo;s advertising identifier to show personalized ads.</li>
+                <li>If you choose <strong>Ask App Not to Track</strong>, only non-personalized, contextual ads are shown.</li>
+                <li>Pro users do not see ads at all and are never asked the tracking question.</li>
+            </ul>
+            <p>In regions covered by GDPR or comparable laws, the User Messaging Platform consent form will appear before any ad is loaded, and you can review or change your choices later from <strong>Settings &nbsp;&rsaquo; Manage Ad Choices</strong> inside the App.</p>
         </div>
 
         <div class="content-card fade-in">
-            <h2>Advertising</h2>
-            <p>The free version of Image Converter Plus shows optional rewarded video ads powered by Google AdMob. You choose when to watch an ad — ads are never shown automatically. AdMob may collect a device identifier to serve relevant ads and measure ad performance, as required by its SDK. This data is not linked to your identity. Pro users enjoy a completely ad-free experience.</p>
+            <h2>Your Photos and Files</h2>
+            <p>The App accesses photos through Apple&rsquo;s privacy-preserving picker (<em>PHPickerViewController</em>), which means we only see the items you explicitly select &mdash; not your full photo library. Files you import from the Files app are read directly from the location you choose. Converted images are written either to a private folder inside the App, to your Photos library (with your permission), or to the location you pick in the Files app.</p>
+            <p>If you grant the App permission to add to your Photos library, the App requests the minimum &ldquo;Add Photos Only&rdquo; permission so it can never read your existing photos.</p>
         </div>
 
         <div class="content-card fade-in">
             <h2>Share Extension</h2>
-            <p>When you use the Share Extension to send images to the App, those images are processed locally on your device. They are not uploaded or shared with any external service.</p>
+            <p>The Share Extension lets you convert images from any other app without opening Image Converter Plus. Selected images are processed locally on your device. The Share Extension does not include in-app purchases, ads, or analytics. If you tap the upgrade entry point inside the Share Extension, the main App opens and the upgrade flow runs there.</p>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2>Diagnostic Information in Support Emails</h2>
+            <p>When you tap a contact link inside the App, your default mail app opens with a draft message that pre-fills basic diagnostic information: app version, iOS version, device model, app language, subscription status, and available disk space. The message is fully visible to you before you send it. Nothing is transmitted unless you press Send.</p>
         </div>
 
         <div class="content-card fade-in">
             <h2>Data Retention</h2>
-            <p>We do not store any data on external servers because there are none. All converted files and settings remain on your device and under your control. Deleting the App removes all associated data.</p>
-        </div>
-
-        <div class="content-card fade-in">
-            <h2>Third-Party Services</h2>
-            <p>Image Converter Plus uses the following third-party services: Adapty for purchase management, Google AdMob for rewarded ads (free users only), and Apple StoreKit for payment processing. All image processing happens on your device. An internet connection is needed for purchases, ads, and checking for app updates.</p>
+            <p>We do not run a server, so there is nothing to retain on our side. Files, history, presets, and preferences live on your device and are removed when you delete them or uninstall the App. Apple, Adapty, and Google retain the limited information described above according to their own retention policies; consult their privacy notices for details.</p>
         </div>
 
         <div class="content-card fade-in">
             <h2>Privacy Manifest</h2>
-            <p>The App includes an Apple-required privacy manifest. It declares that the App collects a device identifier for third-party advertising purposes (via AdMob), which is not linked to your identity. The manifest also declares use of UserDefaults, file timestamps, and disk space APIs. This manifest is reviewed by Apple as part of the App Store review process.</p>
+            <p>The App ships an Apple-required privacy manifest declaring exactly which platform APIs it uses and which data categories its third-party SDKs may collect. Specifically, the manifest declares: device identifier and advertising data linked to third-party advertising (used only by AdMob, only when you grant permission); product interaction, performance data, and other diagnostic data linked to analytics and app functionality (used by Adapty and AdMob, anonymously); and purchase history linked to app functionality and analytics (used to verify your subscription). Apple aggregates these declarations and the manifests of our third-party SDKs into the &ldquo;App Privacy&rdquo; section on the App Store listing.</p>
         </div>
 
         <div class="content-card fade-in">
-            <h2>Support Emails</h2>
-            <p>When you contact support from within the App, basic diagnostic information (app version, iOS version, device model, language, subscription status, and available disk space) is pre-filled in the email body. This information is fully visible to you before sending and helps us troubleshoot issues. No data is sent automatically — it is only transmitted when you choose to send the email.</p>
+            <h2>Children&rsquo;s Privacy</h2>
+            <p>Image Converter Plus is not directed at children under 13 (or the equivalent minimum age in your country). We do not knowingly collect personal information from children. If you believe a child has provided personal information to us through any third-party service, please contact us and we will work with the relevant provider to have it removed.</p>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2>Your Rights in the EEA, UK, and Switzerland</h2>
+            <p>If the GDPR or UK GDPR applies to you, you have the right to access, correct, delete, or export your personal data, to restrict or object to certain processing, and to lodge a complaint with your local data-protection authority. Because the App processes your photos and conversion history only on your device, you can exercise the access, correction, and deletion rights yourself directly in the App. For data held by Apple, Adapty, or Google, please contact those companies directly. You can also write to us at the address below and we will help you route the request.</p>
+            <p>The legal bases we rely on are: performing the contract (delivering the App and your purchases), consent (for personalized ads, where consent is requested through the User Messaging Platform and App Tracking Transparency), and legitimate interests (limited diagnostic information needed to keep the App reliable, balanced against your interests).</p>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2>Your Rights in California</h2>
+            <p>If you are a California resident, the California Consumer Privacy Act (CCPA/CPRA) gives you the right to know what personal information is collected about you, to request deletion of personal information, to correct inaccurate personal information, and to opt out of the &ldquo;sale&rdquo; or &ldquo;sharing&rdquo; of personal information for cross-context behavioral advertising. We do not sell your personal information. To opt out of any sharing for personalized advertising, choose <strong>Ask App Not to Track</strong> in the App Tracking Transparency prompt or refuse consent in the User Messaging Platform form. To exercise the other rights, contact us at the address below.</p>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2>International Transfers</h2>
+            <p>Apple, Adapty, and Google may process limited information on servers outside your country, including in the United States. These providers rely on Standard Contractual Clauses or comparable transfer mechanisms where required by law. We do not operate our own servers and therefore do not perform additional international transfers ourselves.</p>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2>Changes to This Policy</h2>
+            <p>If we make material changes to this policy, we will post the updated version at this URL and update the &ldquo;Last updated&rdquo; date below. For meaningful changes that affect what data is collected, we will use the App Store update notes to draw your attention to the change.</p>
         </div>
 
         <div class="content-card fade-in">
             <h2>Contact</h2>
-            <p>If you have questions about this Privacy Policy, please contact us at <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a>.</p>
+            <p>The data controller for any first-party processing is Denys Lebiediev. If you have questions about this Privacy Policy or want to exercise your rights, write to <a href="mailto:imageconverterplus.help@gmail.com">imageconverterplus.help@gmail.com</a> and we will respond within 30 days.</p>
         </div>
 
     </div>
@@ -193,7 +247,7 @@
 
     <!-- Footer -->
     <div class="footer fade-in">
-        <p>Last updated: April 2026</p>
+        <p>Last updated: 25 April 2026</p>
     </div>
 
 </div>

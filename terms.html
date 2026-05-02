@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
     (function() {
+        // Skip language detection when the URL explicitly asks for English
+        // (e.g., when a per-language page redirects here for legal accuracy).
+        if (location.search.indexOf('lang=en') !== -1) return;
+
         var supported = ["uk","zh-Hans","ja","es","pt-BR","ko","de","fr","hi","id","tr","vi","ar","it","zh-Hant","nl","sv","nb","da","fi","he","pl","th","pt-PT","el","cs","hu","ro","sk","hr","ms","ca","bn","ur","fil","pa","ta","te","fa","mr","gu","kn","ml","af","bg","sr","sl","mt","ga","sq","bs","mk","is","et","lv","lt","sw","cy","be"];
         var set = {};
         for (var i = 0; i < supported.length; i++) set[supported[i]] = true;
@@ -28,7 +32,7 @@
     })();
     </script>
     <title>Terms of Use - Image Converter Plus</title>
-    <meta name="description" content="Terms of Use for Image Converter Plus. Read the license, purchase terms, and usage guidelines for the app.">
+    <meta name="description" content="Terms of Use for Image Converter Plus. Read the license, purchase terms, subscription auto-renewal details, and usage guidelines for the app.">
     <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
     <link rel="alternate" hreflang="uk" href="https://denyslebiediev.github.io/imageconverterplus/uk/terms.html">
     <link rel="alternate" hreflang="zh-Hans" href="https://denyslebiediev.github.io/imageconverterplus/zh-Hans/terms.html">
@@ -113,7 +117,7 @@
     <!-- Hero -->
     <div class="hero fade-in">
         <h1>Terms of Use</h1>
-        <p class="subtitle">Image Converter Plus for iOS</p>
+        <p class="subtitle">Image Converter Plus for iPhone and iPad</p>
     </div>
 
     <!-- Content Cards -->
@@ -121,56 +125,97 @@
 
         <div class="content-card fade-in">
             <h2>Agreement</h2>
-            <p>By downloading, installing, or using Image Converter Plus ("the App"), you agree to these Terms of Use. If you do not agree, please do not use the App.</p>
+            <p>These Terms of Use (the &ldquo;Terms&rdquo;) form a binding agreement between you and Denys Lebiediev (the &ldquo;Developer&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) regarding your use of the Image Converter Plus mobile application and its Share Extension (together, the &ldquo;App&rdquo;). By downloading, installing, or using the App, you confirm that you have read, understood, and accepted these Terms together with our <a href="privacy.html">Privacy Policy</a>. If you do not agree, do not use the App.</p>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2>Apple End User License Agreement</h2>
+            <p>The App is licensed, not sold, to you for use only under Apple&rsquo;s standard Licensed Application End User License Agreement (the &ldquo;Apple EULA&rdquo;), available at <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener" target="_blank">apple.com/legal/internet-services/itunes/dev/stdeula</a>, except where these Terms expand or modify it. To the extent of any conflict between these Terms and the Apple EULA, these Terms control where permitted by Apple&rsquo;s rules; otherwise the Apple EULA controls.</p>
         </div>
 
         <div class="content-card fade-in">
             <h2>License</h2>
-            <p>We grant you a personal, non-exclusive, non-transferable, revocable license to use the App on any Apple device you own or control, subject to these terms and the App Store Terms of Service.</p>
+            <p>We grant you a limited, personal, non-exclusive, non-transferable, revocable license to install and use the App on any iPhone or iPad that you own or control, in accordance with the Apple Media Services Terms and Conditions and any usage rules set out in those terms (including Family Sharing for the lifetime upgrade). You may not sell, rent, lease, sublicense, distribute, or otherwise transfer the App to anyone else.</p>
         </div>
 
         <div class="content-card fade-in">
             <h2>Your Content</h2>
-            <p>You retain full ownership of any images and files you process with the App. We do not claim any rights to your content. All processing happens locally on your device — your files are never uploaded to any server.</p>
+            <p>You retain all rights to the photos, files, and metadata you import into the App. We do not claim any ownership over your content. Because the App processes everything on your device, you do not grant us a license to your files; we never receive them.</p>
+            <p>You are responsible for ensuring that you have the right to convert, modify, share, or otherwise use the images you process. You must not use the App to handle content that you do not have permission to use.</p>
         </div>
 
         <div class="content-card fade-in">
-            <h2>Free &amp; Pro Tiers</h2>
-            <p>The App offers a free tier that lets you convert one image at a time in select formats. Optional rewarded video ads may be offered to temporarily unlock batch conversion. Pro unlocks all features, including unlimited batch conversion, all output formats, per-image settings, and metadata privacy controls.</p>
-            <p>Pro is available as a subscription (weekly, monthly, or annual) or as a one-time lifetime purchase.</p>
+            <h2>Free and Pro Tiers</h2>
+            <p>The App offers a free tier that converts one image at a time in selected formats. Free users may also opt to watch a rewarded video ad to temporarily unlock a single batch conversion. Watching an ad is always optional and you can dismiss it before completion. Pro unlocks unlimited batch conversion, all output formats (including TIFF, AVIF, and PDF), per-image settings, and the full set of metadata privacy controls.</p>
+            <p>Pro is offered either as an auto-renewable subscription (weekly, monthly, or annual) or as a one-time, non-consumable lifetime purchase. Tip purchases are optional, do not unlock features, and are non-refundable except where required by law.</p>
         </div>
 
         <div class="content-card fade-in">
-            <h2>Purchases</h2>
-            <p>All purchases are processed by Apple through the App Store. Payment is charged to your Apple ID account at confirmation of purchase. We do not have access to your payment information.</p>
-            <p>Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period at the plan&rsquo;s standard rate.</p>
-            <p>Free trials automatically convert to a paid subscription unless you cancel before the trial ends. Any unused portion of a free trial is forfeited when you purchase a subscription.</p>
-            <p>You can manage or cancel your subscription anytime in Settings&nbsp;&rarr; Apple&nbsp;ID&nbsp;&rarr; Subscriptions. Tip purchases are optional, non-refundable, and don&rsquo;t unlock additional features.</p>
+            <h2>Subscription Terms</h2>
+            <p><strong>Billing.</strong> All purchases are processed by Apple through the App Store. Payment is charged to your Apple ID at confirmation of purchase. Current pricing is shown inside the App and on the App Store listing for your storefront and may change in the future as permitted by the App Store rules.</p>
+            <p><strong>Auto-renewal.</strong> Subscriptions automatically renew at the end of each billing period at the then-current price unless cancelled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period.</p>
+            <p><strong>Free trials.</strong> Where offered, a free trial converts to a paid subscription unless you cancel before it ends. Any unused portion of a free trial is forfeited when you start a paid subscription.</p>
+            <p><strong>Managing your subscription.</strong> You can review, change, or cancel your subscription at any time in <em>Settings &nbsp;&rsaquo; Apple ID &nbsp;&rsaquo; Subscriptions</em> on your device or at <em>apps.apple.com/account/subscriptions</em>. Cancellation takes effect at the end of the current billing period; you keep Pro access until then.</p>
+            <p><strong>Refunds.</strong> Apple handles all refund requests through its standard process at <a href="https://reportaproblem.apple.com" rel="noopener" target="_blank">reportaproblem.apple.com</a>. We are unable to process refunds directly because we do not receive your payment information.</p>
+            <p><strong>Family Sharing.</strong> The lifetime upgrade and auto-renewable subscriptions are eligible for Family Sharing where supported by the App Store.</p>
         </div>
 
         <div class="content-card fade-in">
             <h2>Acceptable Use</h2>
-            <p>You agree not to use the App for any unlawful purpose, to infringe on anyone's rights, or to attempt to reverse-engineer, modify, or distribute the App or its code.</p>
+            <p>You agree to use the App in compliance with applicable law. You may not, and may not encourage anyone else to:</p>
+            <ul>
+                <li>Use the App for any unlawful purpose or to violate the rights of others;</li>
+                <li>Process content that you do not have permission to use, or that contains illegal material;</li>
+                <li>Reverse-engineer, decompile, or attempt to extract source code from the App, except as expressly permitted by law;</li>
+                <li>Modify, redistribute, or create derivative works of the App;</li>
+                <li>Circumvent or attempt to circumvent the App&rsquo;s purchase, entitlement, or rate-limiting mechanisms;</li>
+                <li>Interfere with the security, integrity, or normal operation of the App or its third-party services.</li>
+            </ul>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2>Updates and Discontinuation</h2>
+            <p>We may release updates that change, add, or remove features, fix bugs, or improve performance. New features may require Pro. We may also retire features or discontinue the App with reasonable notice when this is no longer commercially or technically feasible. Where required by law, refunds for unused subscription time will be processed by Apple.</p>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2>Third-Party Services</h2>
+            <p>The App relies on Apple StoreKit for purchases, Adapty for purchase verification, and Google AdMob (with the Google User Messaging Platform) for the optional rewarded ads shown to free users. Your use of those services is also subject to their own terms and privacy notices. We are not responsible for the practices of third-party services, but we have configured them to collect only what is necessary, as described in our <a href="privacy.html">Privacy Policy</a>.</p>
         </div>
 
         <div class="content-card fade-in">
             <h2>Disclaimer</h2>
-            <p>The App is provided "as is" and "as available" without warranties of any kind, whether express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.</p>
+            <p>The App is provided on an &ldquo;as is&rdquo; and &ldquo;as available&rdquo; basis without warranties of any kind, whether express or implied, including warranties of merchantability, fitness for a particular purpose, accuracy, or non-infringement. We do not warrant that the App will be uninterrupted, error-free, or that it will produce specific results for your files. You are responsible for keeping backups of any files you process.</p>
         </div>
 
         <div class="content-card fade-in">
             <h2>Limitation of Liability</h2>
-            <p>To the fullest extent permitted by law, the developer shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of data or profits arising from your use of the App.</p>
+            <p>To the fullest extent permitted by law, the Developer will not be liable for any indirect, incidental, special, consequential, or punitive damages, or for any loss of profits, data, or files, arising out of or in connection with your use of the App, even if we have been advised of the possibility of such damages. Our total liability for any direct damages is limited to the amount you paid for the App in the twelve months preceding the event giving rise to the claim. Some jurisdictions do not allow these limitations, in which case the limitations apply only to the maximum extent permitted there.</p>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2>Apple as Third-Party Beneficiary</h2>
+            <p>You acknowledge that these Terms are between you and the Developer only, and not with Apple. Apple is not responsible for the App or its content. However, Apple and Apple&rsquo;s subsidiaries are third-party beneficiaries of these Terms and, upon your acceptance, will have the right (and will be deemed to have accepted the right) to enforce these Terms against you as a third-party beneficiary. In the event of any failure of the App to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price for the App to you (if any). To the maximum extent permitted by law, Apple has no other warranty obligation with respect to the App.</p>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2>Governing Law and Disputes</h2>
+            <p>These Terms are governed by the laws of the country in which you ordinarily reside, without regard to its conflict-of-law principles, except to the extent applicable consumer-protection law specifies otherwise. You and the Developer agree to resolve disputes informally first by emailing us. If we cannot resolve a dispute within 60 days, you may bring the matter before the courts of your country of residence to the extent permitted by law. Nothing in these Terms limits any non-waivable consumer rights you have under the law of your country of residence.</p>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2>Severability</h2>
+            <p>If any provision of these Terms is held to be invalid or unenforceable, that provision will be limited or eliminated to the minimum extent necessary, and the remaining provisions will remain in full force and effect.</p>
         </div>
 
         <div class="content-card fade-in">
             <h2>Changes</h2>
-            <p>We may update these Terms from time to time. Changes will be posted on this page with an updated date. Your continued use of the App after changes are posted constitutes acceptance of the revised terms.</p>
+            <p>We may update these Terms from time to time. The current version will always be available at this URL with an updated &ldquo;Last updated&rdquo; date. Material changes will be highlighted in the App Store update notes for the affected release. Your continued use of the App after a change takes effect constitutes acceptance of the revised Terms.</p>
         </div>
 
         <div class="content-card fade-in">
             <h2>Contact</h2>
-            <p>If you have questions about these Terms, please contact us at <a href="mailto:imageconverterplus.support@gmail.com">imageconverterplus.support@gmail.com</a>.</p>
+            <p>If you have questions about these Terms, write to <a href="mailto:imageconverterplus.help@gmail.com">imageconverterplus.help@gmail.com</a>.</p>
         </div>
 
     </div>
@@ -192,7 +237,7 @@
 
     <!-- Footer -->
     <div class="footer fade-in">
-        <p>Last updated: April 2026</p>
+        <p>Last updated: 25 April 2026</p>
     </div>
 
 </div>

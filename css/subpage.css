@@ -33,16 +33,23 @@ body {
 }
 
 /* ---- Stagger children ---- */
-.stagger > .fade-in:nth-child(1) { transition-delay: 0s; }
-.stagger > .fade-in:nth-child(2) { transition-delay: 0.06s; }
-.stagger > .fade-in:nth-child(3) { transition-delay: 0.12s; }
-.stagger > .fade-in:nth-child(4) { transition-delay: 0.18s; }
-.stagger > .fade-in:nth-child(5) { transition-delay: 0.24s; }
-.stagger > .fade-in:nth-child(6) { transition-delay: 0.30s; }
-.stagger > .fade-in:nth-child(7) { transition-delay: 0.36s; }
-.stagger > .fade-in:nth-child(8) { transition-delay: 0.42s; }
-.stagger > .fade-in:nth-child(9) { transition-delay: 0.48s; }
+.stagger > .fade-in:nth-child(1)  { transition-delay: 0s; }
+.stagger > .fade-in:nth-child(2)  { transition-delay: 0.06s; }
+.stagger > .fade-in:nth-child(3)  { transition-delay: 0.12s; }
+.stagger > .fade-in:nth-child(4)  { transition-delay: 0.18s; }
+.stagger > .fade-in:nth-child(5)  { transition-delay: 0.24s; }
+.stagger > .fade-in:nth-child(6)  { transition-delay: 0.30s; }
+.stagger > .fade-in:nth-child(7)  { transition-delay: 0.36s; }
+.stagger > .fade-in:nth-child(8)  { transition-delay: 0.42s; }
+.stagger > .fade-in:nth-child(9)  { transition-delay: 0.48s; }
 .stagger > .fade-in:nth-child(10) { transition-delay: 0.54s; }
+.stagger > .fade-in:nth-child(11) { transition-delay: 0.60s; }
+.stagger > .fade-in:nth-child(12) { transition-delay: 0.66s; }
+.stagger > .fade-in:nth-child(13) { transition-delay: 0.72s; }
+.stagger > .fade-in:nth-child(14) { transition-delay: 0.78s; }
+.stagger > .fade-in:nth-child(15) { transition-delay: 0.84s; }
+.stagger > .fade-in:nth-child(16) { transition-delay: 0.90s; }
+.stagger > .fade-in:nth-child(n+17) { transition-delay: 0.96s; }
 
 /* ---- Content Card (unified from policy-card / terms-card) ---- */
 .content-card {

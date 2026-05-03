@@ -11,10 +11,10 @@
 ---
 
 <p align="center">
-Image Converter Plus is a privacy-focused image conversion app for iPhone and iPad. Convert between JPEG, PNG, HEIC, TIFF, and AVIF — adjust quality, resize, rename, and strip metadata. Everything is processed on-device. No servers, no uploads, no tracking.
+Image Converter Plus is a privacy-focused image conversion app for iPhone and iPad. Convert between JPEG, PDF, PNG, WebP, HEIC, AVIF, and TIFF — adjust quality, resize, rename, and strip metadata. Everything is processed on-device. No servers, no uploads, no tracking.
 </p>
 
-- 5 output formats — JPEG, PNG, HEIC, TIFF, AVIF
+- 7 output formats — JPEG, PDF, PNG, WebP, HEIC, AVIF, TIFF
 - Quality control from 40% to 100% with real-time size estimates
 - Resize from 50% to 200%
 - Granular metadata stripping — location, camera, author, device, edits, previews

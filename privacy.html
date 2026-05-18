@@ -129,7 +129,7 @@
             <ul>
                 <li>Photos and files you convert never leave your device.</li>
                 <li>Apple processes purchases. Adapty helps us verify your subscription state.</li>
-                <li>Free users may choose to watch a rewarded ad delivered by Google AdMob.</li>
+                <li>Free users may choose to watch a rewarded ad delivered by Google AdMob, which may show it through a mediation partner such as Unity Ads.</li>
                 <li>If you live in a region that requires an ad-consent form, you will see one before any ad is shown.</li>
                 <li>If we ever request permission to track you for personalized ads, you can decline at any time and the App will keep working with non-personalized ads.</li>
             </ul>
@@ -157,6 +157,8 @@
 
             <p><strong>Google AdMob and the User Messaging Platform (rewarded ads, free users only).</strong> Free users can choose to watch a rewarded video ad to unlock a single batch conversion. Pro users never see ads. When an ad is shown, Google AdMob receives the App identifier, basic device characteristics, an ad identifier, and limited interaction events (ad impression, click, completion). When required by your region (for example, the EEA, the UK, Switzerland, and parts of the United States), Google&rsquo;s User Messaging Platform shows you a consent form before any ad is loaded; you can refuse and continue using the App. Apple&rsquo;s SKAdNetwork is also used to attribute ad performance anonymously. See <a href="https://policies.google.com/technologies/ads" rel="noopener" target="_blank">policies.google.com/technologies/ads</a>.</p>
 
+            <p><strong>Unity Ads (ad mediation).</strong> To fill rewarded ads, Google AdMob uses mediation, which means an individual ad may be supplied by a partner network rather than by Google itself. Image Converter Plus includes Unity Ads, provided by Unity Technologies, as a mediation partner. When Unity Ads supplies an ad, it receives the same limited, mostly anonymous information described above &mdash; an ad identifier, basic device characteristics, and ad-interaction events such as impression and completion &mdash; and it honors the same consent choices you make through Apple&rsquo;s App Tracking Transparency prompt and the User Messaging Platform form. No ad network receives your photos, files, or conversion activity. See <a href="https://unity.com/legal/privacy-policy" rel="noopener" target="_blank">unity.com/legal/privacy-policy</a>.</p>
+
             <p><strong>Apple App Store (update check).</strong> The App periodically queries Apple&rsquo;s public iTunes Lookup endpoint to learn whether a newer version is available. This request includes only the App&rsquo;s bundle identifier and your storefront country. Apple may receive your IP address as part of any HTTPS request, but we do not.</p>
         </div>
 
@@ -164,7 +166,7 @@
             <h2>Tracking and Personalized Ads</h2>
             <p>If you are a free user, the first time the App is in a position to show you an ad we may ask, through Apple&rsquo;s standard system prompt (App Tracking Transparency), whether you allow the App to use your device&rsquo;s advertising identifier (IDFA) to deliver more relevant ads. Your answer is final: you can change it at any time in iOS&nbsp;Settings&nbsp;&rsaquo; Privacy &amp; Security &nbsp;&rsaquo; Tracking &nbsp;&rsaquo; Image Converter Plus.</p>
             <ul>
-                <li>If you <strong>Allow Tracking</strong>, AdMob may use your device&rsquo;s advertising identifier to show personalized ads.</li>
+                <li>If you <strong>Allow Tracking</strong>, AdMob and its mediation partners may use your device&rsquo;s advertising identifier to show personalized ads.</li>
                 <li>If you choose <strong>Ask App Not to Track</strong>, only non-personalized, contextual ads are shown.</li>
                 <li>Pro users do not see ads at all and are never asked the tracking question.</li>
             </ul>
@@ -189,12 +191,12 @@
 
         <div class="content-card fade-in">
             <h2>Data Retention</h2>
-            <p>We do not run a server, so there is nothing to retain on our side. Files, history, presets, and preferences live on your device and are removed when you delete them or uninstall the App. Apple, Adapty, and Google retain the limited information described above according to their own retention policies; consult their privacy notices for details.</p>
+            <p>We do not run a server, so there is nothing to retain on our side. Files, history, presets, and preferences live on your device and are removed when you delete them or uninstall the App. Apple, Adapty, Google, and Unity retain the limited information described above according to their own retention policies; consult their privacy notices for details.</p>
         </div>
 
         <div class="content-card fade-in">
             <h2>Privacy Manifest</h2>
-            <p>The App ships an Apple-required privacy manifest declaring exactly which platform APIs it uses and which data categories its third-party SDKs may collect. Specifically, the manifest declares: device identifier and advertising data linked to third-party advertising (used only by AdMob, only when you grant permission); product interaction, performance data, and other diagnostic data linked to analytics and app functionality (used by Adapty and AdMob, anonymously); and purchase history linked to app functionality and analytics (used to verify your subscription). Apple aggregates these declarations and the manifests of our third-party SDKs into the &ldquo;App Privacy&rdquo; section on the App Store listing.</p>
+            <p>The App ships an Apple-required privacy manifest declaring exactly which platform APIs it uses and which data categories its third-party SDKs may collect. Specifically, the manifest declares: device identifier and advertising data linked to third-party advertising (used by AdMob and its mediation partner Unity Ads, only when you grant permission); product interaction, performance data, and other diagnostic data linked to analytics and app functionality (used by Adapty, AdMob, and Unity Ads, anonymously); and purchase history linked to app functionality and analytics (used to verify your subscription). Apple aggregates these declarations and the manifests of our third-party SDKs into the &ldquo;App Privacy&rdquo; section on the App Store listing.</p>
         </div>
 
         <div class="content-card fade-in">
@@ -204,7 +206,7 @@
 
         <div class="content-card fade-in">
             <h2>Your Rights in the EEA, UK, and Switzerland</h2>
-            <p>If the GDPR or UK GDPR applies to you, you have the right to access, correct, delete, or export your personal data, to restrict or object to certain processing, and to lodge a complaint with your local data-protection authority. Because the App processes your photos and conversion history only on your device, you can exercise the access, correction, and deletion rights yourself directly in the App. For data held by Apple, Adapty, or Google, please contact those companies directly. You can also write to us at the address below and we will help you route the request.</p>
+            <p>If the GDPR or UK GDPR applies to you, you have the right to access, correct, delete, or export your personal data, to restrict or object to certain processing, and to lodge a complaint with your local data-protection authority. Because the App processes your photos and conversion history only on your device, you can exercise the access, correction, and deletion rights yourself directly in the App. For data held by Apple, Adapty, Google, or Unity, please contact those companies directly. You can also write to us at the address below and we will help you route the request.</p>
             <p>The legal bases we rely on are: performing the contract (delivering the App and your purchases), consent (for personalized ads, where consent is requested through the User Messaging Platform and App Tracking Transparency), and legitimate interests (limited diagnostic information needed to keep the App reliable, balanced against your interests).</p>
         </div>
 
@@ -215,7 +217,7 @@
 
         <div class="content-card fade-in">
             <h2>International Transfers</h2>
-            <p>Apple, Adapty, and Google may process limited information on servers outside your country, including in the United States. These providers rely on Standard Contractual Clauses or comparable transfer mechanisms where required by law. We do not operate our own servers and therefore do not perform additional international transfers ourselves.</p>
+            <p>Apple, Adapty, Google, and Unity may process limited information on servers outside your country, including in the United States. These providers rely on Standard Contractual Clauses or comparable transfer mechanisms where required by law. We do not operate our own servers and therefore do not perform additional international transfers ourselves.</p>
         </div>
 
         <div class="content-card fade-in">
@@ -247,7 +249,7 @@
 
     <!-- Footer -->
     <div class="footer fade-in">
-        <p>Last updated: 25 April 2026</p>
+        <p>Last updated: May 2026</p>
     </div>
 
 </div>

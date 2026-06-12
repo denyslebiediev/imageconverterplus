@@ -1,5 +1,6 @@
 /* ---- Variables (light) ---- */
 :root {
+    color-scheme: light dark;
     --text-primary: #1d1d1f;
     --text-secondary: #86868b;
     --bg-primary: #fff;

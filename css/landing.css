@@ -304,6 +304,11 @@ section {
     margin-top: 4px;
 }
 
+.pro-price .badge-link {
+    display: inline-block;
+    margin-top: 20px;
+}
+
 /* ---- Accessibility section ---- */
 .a11y-badges {
     display: flex;

@@ -14,8 +14,8 @@
   },
   "keys": {
     "title": {"en": "Image Converter Plus — Convert, Resize, and Protect Your Photos", "count": 1, "anchor": "<title>{}</title>", "scope": ["landing"], "prefill": true, "ctx": "Browser/tab + SEO title. Keep the brand 'Image Converter Plus' as-is."},
-    "meta_desc": {"en": "Convert images between JPEG, PDF, PNG, WebP, HEIC, AVIF, and TIFF. Adjust quality, resize, and strip metadata — all on your device.", "count": 2, "anchor": "content=\"{}\"", "scope": ["landing"], "prefill": true, "ctx": "Meta + OpenGraph description (same string, appears twice). Keep format tokens JPEG/PDF/PNG/WebP/HEIC/AVIF/TIFF."},
-    "jsonld_desc": {"en": "Batch image converter for iPhone and iPad. Convert between JPEG, PDF, PNG, WebP, HEIC, AVIF, and TIFF — adjust quality, resize, and strip metadata, entirely on your device.", "count": 1, "anchor": "\"description\": \"{}\"", "scope": ["landing"], "ctx": "Structured-data (schema.org) description. Keep format tokens."},
+    "meta_desc": {"en": "Convert images between JPEG, PDF, PNG, WebP, HEIC, AVIF, and TIFF. Adjust quality, resize, and remove metadata — all on your device.", "count": 2, "anchor": "content=\"{}\"", "scope": ["landing"], "prefill": true, "ctx": "Meta + OpenGraph description (same string, appears twice). Keep format tokens JPEG/PDF/PNG/WebP/HEIC/AVIF/TIFF."},
+    "jsonld_desc": {"en": "Batch image converter for iPhone and iPad. Convert between JPEG, PDF, PNG, WebP, HEIC, AVIF, and TIFF — adjust quality, resize, and remove metadata, entirely on your device.", "count": 1, "anchor": "\"description\": \"{}\"", "scope": ["landing"], "ctx": "Structured-data (schema.org) description. Keep format tokens."},
 
     "skip": {"en": "Skip to content", "count": 1, "anchor": ">{}</a>", "scope": ["landing", "sub"], "ctx": "Accessibility skip link."},
     "nav_privacy": {"en": "Privacy Policy", "count": 2, "anchor": ">{}</a>", "scope": ["landing", "sub"], "prefill": true, "ctx": "Nav + footer link label."},
@@ -27,7 +27,7 @@
 
     "chip_example": {"en": "example", "count": 1, "anchor": ">{}</span>", "scope": ["landing"], "ctx": "Small caption on the decorative hero size-comparison chip."},
     "h1_home": {"en": "Convert. Resize. <span class=\"grad\">Protect.</span>", "count": 1, "anchor": ">{}</h1>", "scope": ["landing"], "html": true, "ctx": "Hero H1. Three short imperative words. Wrap the LAST word in <span class=\"grad\">…</span> (it renders as the gradient accent)."},
-    "hero_sub": {"en": "Batch image conversion for iPhone and iPad — seven formats, precise quality control, and metadata stripped before you share. Entirely on your device.", "count": 1, "scope": ["landing"]},
+    "hero_sub": {"en": "Batch image conversion for iPhone and iPad — seven formats, precise quality control, and metadata removed before you share. Entirely on your device.", "count": 1, "scope": ["landing"]},
     "ghost_link": {"en": "See how it works <span aria-hidden=\"true\">↓</span>", "count": 1, "scope": ["landing"], "html": true, "ctx": "Scroll-down link. Translate the text; keep the arrow span."},
     "hero_availability": {"en": "Free on the App Store · iOS 16+ · iPhone &amp; iPad", "count": 1, "scope": ["landing"], "html": true, "ctx": "Keep the · separators and &amp; entity. Localize 'Free'."},
 
@@ -49,7 +49,7 @@
 
     "privacy_eyebrow": {"en": "Privacy", "count": 1, "anchor": ">{}</p>", "scope": ["landing"]},
     "privacy_title": {"en": "Your photos say more<br>than you think.", "count": 1, "scope": ["landing"], "html": true, "ctx": "Keep the <br> line break (roughly balanced two lines)."},
-    "privacy_lede": {"en": "GPS coordinates. Camera model. Timestamps. Edit history. It all travels with the file — unless you strip it.", "count": 1, "scope": ["landing"]},
+    "privacy_lede": {"en": "GPS coordinates. Camera model. Timestamps. Edit history. It all travels with the file — unless you remove it.", "count": 1, "scope": ["landing"]},
 
     "label_location": {"en": "Location", "count": 2, "anchor": ">{}<", "scope": ["landing"], "ctx": "Metadata category label (appears as a tag and as a grid heading)."},
     "label_capture": {"en": "Capture Info", "count": 2, "anchor": ">{}<", "scope": ["landing"]},
@@ -69,12 +69,12 @@
     "insp_choose": {"en": "Choose Photo", "count": 1, "scope": ["landing"], "ctx": "Pill button inside the photo dropzone. Use the platform-standard photo/file picker verb."},
     "insp_sample": {"en": "…or inspect the sample photo", "count": 1, "scope": ["landing"], "ctx": "Keep the leading … ellipsis."},
     "insp_lockline": {"en": "Read locally in your browser. Never uploaded.", "count": 1, "scope": ["landing"]},
-    "insp_noscript": {"en": "The inspector needs JavaScript — the app doesn't. It strips metadata from every photo, on-device.", "count": 1, "scope": ["landing"]},
+    "insp_noscript": {"en": "The inspector needs JavaScript — the app doesn't. It removes metadata from every photo, on-device.", "count": 1, "scope": ["landing"]},
     "insp_thumbalt": {"en": "Preview of the inspected photo", "count": 1, "anchor": "alt=\"{}\"", "scope": ["landing"], "ctx": "Alt text for the inspected-photo thumbnail."},
     "insp_fields": {"en": "fields found", "count": 1, "anchor": "id=\"exif-count-label\">{}<", "scope": ["landing", "js"], "ctx": "Static count label rendered after a number ('N fields found'); not per-count agreed. Also reset in JS."},
     "insp_mapcaption": {"en": "THIS PHOTO KNOWS WHERE YOU WERE.", "count": 1, "scope": ["landing", "js"], "ctx": "Shown when the inspected photo has GPS. Dramatic tone; uppercase if natural for the language."},
     "insp_mapnote": {"en": "Map tiles load from Google — your photo never leaves this page.", "count": 1, "scope": ["landing"]},
-    "insp_strip": {"en": "Strip it", "count": 1, "anchor": ">{}</button>", "scope": ["landing"], "ctx": "Button: remove the metadata."},
+    "insp_strip": {"en": "Remove Metadata", "count": 1, "anchor": ">{}</button>", "scope": ["landing"], "ctx": "Button: remove the metadata."},
     "insp_again": {"en": "Inspect another", "count": 1, "anchor": ">{}</button>", "scope": ["landing"]},
     "insp_clean": {"en": "<strong>Clean.</strong> Image Converter Plus does exactly this — to every photo, in batches, right on your iPhone. With granular control over all six categories.", "count": 1, "scope": ["landing"], "html": true, "ctx": "Keep <strong>…</strong> around the first word and the brand name."},
 
@@ -94,7 +94,7 @@
     "pro_title": {"en": "Unlock everything.", "count": 1, "anchor": ">{}</h2>", "scope": ["landing"]},
     "pro1_h3": {"en": "PDF, AVIF &amp; TIFF output", "count": 1, "anchor": ">{}</h3>", "scope": ["landing"], "html": true, "ctx": "Keep format tokens and &amp;."},
     "pro1_p": {"en": "All seven formats, for every use case — including whole batches merged into one PDF.", "count": 1, "scope": ["landing"]},
-    "pro2_h3": {"en": "Metadata stripping", "count": 1, "anchor": ">{}</h3>", "scope": ["landing"]},
+    "pro2_h3": {"en": "Metadata removal", "count": 1, "anchor": ">{}</h3>", "scope": ["landing"]},
     "pro2_p": {"en": "Full EXIF removal with four privacy presets and granular control.", "count": 1, "scope": ["landing"]},
     "pro3_h3": {"en": "Batch conversion", "count": 1, "anchor": ">{}</h3>", "scope": ["landing"]},
     "pro3_p": {"en": "Convert hundreds at once — in the app or straight from the Share Sheet.", "count": 1, "scope": ["landing"]},

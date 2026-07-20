@@ -65,7 +65,8 @@
     "desc_previews": {"en": "Thumbnails and extra data", "count": 1, "scope": ["landing"]},
 
     "insp_title": {"en": "See what yours says.", "count": 1, "anchor": ">{}</h3>", "scope": ["landing"], "ctx": "Heading of the interactive EXIF inspector panel."},
-    "insp_dzlabel": {"en": "Drop a photo — or choose a file", "count": 1, "scope": ["landing"]},
+    "insp_dzlabel": {"en": "Drop a photo here", "count": 1, "scope": ["landing"]},
+    "insp_choose": {"en": "Choose Photo", "count": 1, "scope": ["landing"], "ctx": "Pill button inside the photo dropzone. Use the platform-standard photo/file picker verb."},
     "insp_sample": {"en": "…or inspect the sample photo", "count": 1, "scope": ["landing"], "ctx": "Keep the leading … ellipsis."},
     "insp_lockline": {"en": "Read locally in your browser. Never uploaded.", "count": 1, "scope": ["landing"]},
     "insp_noscript": {"en": "The inspector needs JavaScript — the app doesn't. It strips metadata from every photo, on-device.", "count": 1, "scope": ["landing"]},

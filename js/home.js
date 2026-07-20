@@ -48,7 +48,9 @@ function lazyDemo(panelId, importer) {
         panel.querySelector('.dropzone')?.classList.add('is-over');
         ensure();
     });
-    panel.addEventListener('dragleave', () => {
+    panel.addEventListener('dragleave', (e) => {
+        // ignore leaves into the panel's own children, or the highlight flickers
+        if (e.relatedTarget && panel.contains(e.relatedTarget)) return;
         panel.querySelector('.dropzone')?.classList.remove('is-over');
     });
     panel.addEventListener('drop', (e) => {

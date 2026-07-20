@@ -507,14 +507,22 @@ section, .hero { position: relative; }
     align-items: center;
     gap: 10px;
     padding: 36px 24px;
-    border: 1.5px dashed var(--glass-brd);
+    background: rgba(94, 160, 255, 0.06);
+    border: 1.5px dashed rgba(94, 160, 255, 0.5);
     border-radius: var(--radius);
     cursor: pointer;
-    transition: border-color 0.15s ease-out, background 0.15s ease-out;
+    transition: border-color 0.15s ease-out, background 0.15s ease-out, box-shadow 0.15s ease-out;
 }
-.dropzone:hover, .dropzone.is-over {
+.dropzone:hover {
+    border-color: rgba(94, 160, 255, 0.75);
+    background: rgba(94, 160, 255, 0.1);
+}
+/* drag highlight: solid accent + ring, clearly stronger than hover (HIG) */
+.dropzone.is-over {
+    border-style: solid;
     border-color: var(--accent-glow);
-    background: rgba(62, 109, 245, 0.06);
+    background: rgba(94, 160, 255, 0.12);
+    box-shadow: 0 0 0 3px rgba(94, 160, 255, 0.22);
 }
 .dropzone:focus-within { outline: 2px solid var(--accent-glow); outline-offset: 3px; }
 .dropzone input[type="file"] {
@@ -524,8 +532,28 @@ section, .hero { position: relative; }
     opacity: 0;
     overflow: hidden;
 }
-.dz-icon { width: 32px; height: 32px; color: var(--accent-glow); }
-.dz-label { font-size: 15px; color: var(--text-mid); }
+.dz-disc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: rgba(94, 160, 255, 0.14);
+}
+.dz-icon { width: 26px; height: 26px; color: var(--accent-glow); }
+.dz-label { font-size: 15px; font-weight: 500; color: var(--text-hi); }
+.dz-btn {
+    margin-top: 2px;
+    padding: 8px 18px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.10);
+    color: var(--text-hi);
+    font-size: 14px;
+    font-weight: 600;
+    transition: background 0.15s ease-out;
+}
+.dropzone:hover .dz-btn { background: rgba(255, 255, 255, 0.16); }
 .lock-line {
     display: flex;
     align-items: center;

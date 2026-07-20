@@ -162,17 +162,25 @@ async function bootHero() {
         let i = 0, heroInView = true;
         new IntersectionObserver(([e]) => { heroInView = e.isIntersecting; }).observe(hero);
         // warm the six hero photos after boot so each swap is a cache hit and
-        // never competes with the LCP fetch
+        // never competes with the LCP fetch; only photos that actually load
+        // enter the rotation, so a missing file can never show a broken image
+        const heroURL = (n) => new URL(`../images/hero/0${n}.webp`, import.meta.url).href;
+        const available = [];
         setTimeout(() => {
-            for (let n = 1; n <= 6; n++) new Image().src = new URL(`../images/hero/0${n}.webp`, import.meta.url).href;
+            for (let n = 1; n <= 6; n++) {
+                const im = new Image();
+                im.onload = () => available.push(n);
+                im.src = heroURL(n);
+            }
         }, 2500);
-        // photo picker: shuffle-bag (each of the 6 shown once per pass) with a
-        // no-last-3 window, so swaps look random but never starve or clump
+        // photo picker: shuffle-bag (each available photo shown once per pass)
+        // with a no-last-3 window, so swaps look random but never starve or clump
         const recent = [];
         let bag = [];
         function nextPhoto() {
+            if (!available.length) return 0;
             if (!bag.length) {
-                bag = [1, 2, 3, 4, 5, 6];
+                bag = available.slice();
                 for (let k = bag.length - 1; k > 0; k--) {         // Fisher–Yates
                     const j = (Math.random() * (k + 1)) | 0;
                     [bag[k], bag[j]] = [bag[j], bag[k]];
@@ -200,11 +208,14 @@ async function bootHero() {
                 .to(api.state, { assemble: 0.35, duration: 1.8, ease: 'power2.inOut' }, 0)
                 .to([chipFrom, chipTo], { opacity: 0, duration: 0.25, ease: 'power1.out' }, 1.5)
                 .add(() => {
-                    const photo = new URL(`../images/hero/0${nextPhoto()}.webp`, import.meta.url).href;
+                    const n = nextPhoto();
                     chipFrom.textContent = step.from.replace(' MB', ' ' + t('unit_mb', 'MB'));
                     chipTo.textContent = step.to.replace(' MB', ' ' + t('unit_mb', 'MB'));
-                    api.swap(photo);
-                    fallback.src = photo; // hidden right now; crisp copy for the settle
+                    if (n) {
+                        const photo = heroURL(n);
+                        api.swap(photo).catch(() => {});
+                        fallback.src = photo; // hidden right now; crisp copy for the settle
+                    }
                 }, 1.8)
                 .to([chipFrom, chipTo], { opacity: 1, duration: 0.35, ease: 'power1.in' }, 1.85)
                 .to(api.state, { assemble: 1, duration: 3.6, ease: 'power3.out' }, 2.0)

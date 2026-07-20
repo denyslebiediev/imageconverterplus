@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=6759621930">
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#05060A">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <link rel="icon" href="../images/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
+    <script>
+        document.documentElement.classList.add('js');
+        // if subpage.js never boots, un-gate the reveals so content can't stay hidden
+        setTimeout(function () { if (!window.__icpSubBooted) document.documentElement.classList.remove('js'); }, 2500);
+    </script>
     <title>Termos de Utilização - Image Converter Plus</title>
     <meta name="description" content="Termos de Utilização do Image Converter Plus. Leia a licença, as condições de compra, os detalhes da renovação automática da subscrição e as diretrizes de utilização da aplicação.">
     <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
@@ -74,63 +78,76 @@
     <link rel="alternate" hreflang="cy" href="https://denyslebiediev.github.io/imageconverterplus/cy/terms.html">
     <link rel="alternate" hreflang="be" href="https://denyslebiediev.github.io/imageconverterplus/be/terms.html">
     <link rel="alternate" hreflang="x-default" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/subpage.css">
+    <meta property="og:title" content="Termos de Utilização — Image Converter Plus">
+    <meta property="og:description" content="Termos de Utilização do Image Converter Plus. Leia a licença, as condições de compra, os detalhes da renovação automática da subscrição e as diretrizes de utilização da aplicação.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://denyslebiediev.github.io/imageconverterplus/pt-PT/terms.html">
+    <meta property="og:image" content="https://denyslebiediev.github.io/imageconverterplus/images/icon-512.png">
+    <link rel="canonical" href="https://denyslebiediev.github.io/imageconverterplus/pt-PT/terms.html">
+    <link rel="preload" href="../fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/subpage-dark.css">
 
 </head>
 <body>
 
-<!-- Nav -->
-<nav>
+<a class="skip-link" href="#main">Saltar para o conteúdo</a>
+
+<nav class="site-nav" aria-label="Site">
     <div class="nav-inner">
-        <a class="nav-title" href="index.html">Image Converter Plus</a>
+        <a class="nav-brand" href="index.html">
+            <img src="../images/AppIcon.png" alt="" width="28" height="28">
+            <span>Image Converter Plus</span>
+        </a>
         <ul class="nav-links">
             <li><a href="privacy.html">Política de Privacidade</a></li>
-            <li><a href="terms.html">Termos de Utilização</a></li>
+            <li><a href="terms.html" aria-current="page">Termos de Utilização</a></li>
             <li><a href="support.html">Apoio</a></li>
         </ul>
+        <a class="nav-cta" href="https://apps.apple.com/app/image-converter-plus/id6759621930">Obter a app</a>
     </div>
 </nav>
 
-<div class="page">
+<div class="page" id="main">
 
     <!-- Hero -->
-    <div class="hero fade-in">
-        <h1>Termos de Utilização</h1>
+    <header class="page-head">
+        <p class="eyebrow mono">Jurídico · Termos</p>
+        <h1 class="headline">Termos de Utilização</h1>
         <p class="subtitle">Image Converter Plus para iPhone e iPad</p>
-    </div>
+    </header>
 
     <!-- Content Cards -->
-    <div class="stagger">
+    <div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Acordo</h2>
             <p>Estes Termos de Utilização (os &ldquo;Termos&rdquo;) constituem um acordo vinculativo entre si e Denys Lebiediev (o &ldquo;Programador&rdquo;, &ldquo;nós&rdquo;) relativamente à sua utilização da aplicação móvel Image Converter Plus e da respetiva Share Extension (em conjunto, a &ldquo;Aplicação&rdquo;). Ao transferir, instalar ou utilizar a Aplicação, confirma que leu, compreendeu e aceitou estes Termos juntamente com a nossa <a href="privacy.html">Política de Privacidade</a>. Se não concordar, não utilize a Aplicação.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Contrato de Licença de Utilizador Final da Apple</h2>
             <p>A Aplicação é licenciada, e não vendida, para si, para utilização apenas ao abrigo do Contrato de Licença de Aplicação Licenciada padrão da Apple (o &ldquo;Contrato de Licença da Apple&rdquo;), disponível em <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener" target="_blank">apple.com/legal/internet-services/itunes/dev/stdeula</a>, exceto quando estes Termos o ampliem ou modifiquem. Na medida de qualquer conflito entre estes Termos e o Contrato de Licença da Apple, prevalecem estes Termos sempre que as regras da Apple o permitam; caso contrário, prevalece o Contrato de Licença da Apple.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Licença</h2>
             <p>Concedemos-lhe uma licença limitada, pessoal, não exclusiva, intransmissível e revogável para instalar e utilizar a Aplicação em qualquer iPhone ou iPad de que seja proprietário ou que controle, em conformidade com os Termos e Condições dos Serviços Multimédia da Apple e quaisquer regras de utilização estabelecidas nesses termos (incluindo a Partilha com a Família para a atualização vitalícia). Não pode vender, alugar, locar, sublicenciar, distribuir ou de outra forma transferir a Aplicação para terceiros.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>O seu conteúdo</h2>
             <p>Mantém todos os direitos sobre as fotografias, os ficheiros e os metadados que importa para a Aplicação. Não reivindicamos qualquer propriedade sobre o seu conteúdo. Uma vez que a Aplicação processa tudo no seu dispositivo, não nos concede qualquer licença sobre os seus ficheiros; nunca os recebemos.</p>
             <p>É responsável por assegurar que tem o direito de converter, modificar, partilhar ou de outra forma utilizar as imagens que processa. Não deve utilizar a Aplicação para tratar conteúdos que não esteja autorizado a utilizar.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Níveis Gratuito e Pro</h2>
             <p>A Aplicação oferece um nível gratuito que converte uma imagem de cada vez em formatos selecionados. Os utilizadores gratuitos podem também optar por ver um anúncio de vídeo recompensado para desbloquear temporariamente uma única conversão em lote. Ver um anúncio é sempre opcional e pode dispensá-lo antes da conclusão. O Pro desbloqueia a conversão em lote ilimitada, todos os formatos de saída (incluindo PDF, AVIF e TIFF), as definições por imagem e o conjunto completo de controlos de privacidade dos metadados.</p>
             <p>O Pro é oferecido como uma subscrição de renovação automática (semanal, mensal ou anual) ou como uma compra vitalícia única e não consumível. As compras de gratificações são opcionais, não desbloqueiam funcionalidades e não são reembolsáveis, exceto quando exigido por lei.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Condições de subscrição</h2>
             <p><strong>Faturação.</strong> Todas as compras são tratadas pela Apple através da App Store. O pagamento é cobrado ao seu Apple ID no momento da confirmação da compra. Os preços atuais são apresentados dentro da Aplicação e na página da App Store da sua loja e podem ser alterados no futuro na medida do permitido pelas regras da App Store.</p>
             <p><strong>Renovação automática.</strong> As subscrições renovam-se automaticamente no final de cada período de faturação ao preço então em vigor, salvo se forem canceladas com, pelo menos, 24 horas de antecedência relativamente ao final do período em curso. A sua conta será cobrada pela renovação no prazo de 24 horas anteriores ao final do período em curso.</p>
@@ -140,7 +157,7 @@
             <p><strong>Partilha com a Família.</strong> A atualização vitalícia e as subscrições de renovação automática são elegíveis para a Partilha com a Família sempre que tal seja suportado pela App Store.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Utilização aceitável</h2>
             <p>Compromete-se a utilizar a Aplicação em conformidade com a legislação aplicável. Não pode, nem pode incentivar qualquer outra pessoa a:</p>
             <ul>
@@ -153,47 +170,47 @@
             </ul>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Atualizações e descontinuação</h2>
             <p>Podemos lançar atualizações que alterem, adicionem ou removam funcionalidades, corrijam erros ou melhorem o desempenho. As novas funcionalidades podem exigir o Pro. Podemos também descontinuar funcionalidades ou a Aplicação mediante aviso prévio razoável quando tal deixe de ser comercial ou tecnicamente viável. Quando exigido por lei, os reembolsos pelo tempo de subscrição não utilizado serão processados pela Apple.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Serviços de terceiros</h2>
             <p>A Aplicação depende do Apple StoreKit para as compras, do Adapty para a verificação das compras e do Google AdMob &mdash; juntamente com a Google User Messaging Platform e parceiros de mediação como o Unity Ads &mdash; para os anúncios recompensados opcionais apresentados aos utilizadores gratuitos. A sua utilização desses serviços está igualmente sujeita aos respetivos termos e avisos de privacidade. Não somos responsáveis pelas práticas dos serviços de terceiros, mas configurámo-los para recolher apenas o necessário, conforme descrito na nossa <a href="privacy.html">Política de Privacidade</a>.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Exclusão de responsabilidade</h2>
             <p>A Aplicação é fornecida &ldquo;tal como está&rdquo; e &ldquo;conforme disponível&rdquo;, sem garantias de qualquer tipo, expressas ou implícitas, incluindo garantias de comercialização, de adequação a uma finalidade específica, de exatidão ou de não infração. Não garantimos que a Aplicação funcione de forma ininterrupta, isenta de erros, nem que produza resultados específicos para os seus ficheiros. É responsável por manter cópias de segurança de todos os ficheiros que processa.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Limitação de responsabilidade</h2>
             <p>Na máxima medida permitida por lei, o Programador não será responsável por quaisquer danos indiretos, incidentais, especiais, consequenciais ou punitivos, nem por qualquer perda de lucros, dados ou ficheiros, decorrentes da ou relacionados com a sua utilização da Aplicação, mesmo que tenhamos sido avisados da possibilidade de tais danos. A nossa responsabilidade total por quaisquer danos diretos está limitada ao montante que pagou pela Aplicação nos doze meses anteriores ao facto que deu origem à reclamação. Algumas jurisdições não permitem estas limitações, caso em que as limitações se aplicam apenas na medida máxima aí permitida.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>A Apple como terceira beneficiária</h2>
             <p>Reconhece que estes Termos são celebrados apenas entre si e o Programador, e não com a Apple. A Apple não é responsável pela Aplicação nem pelo seu conteúdo. Contudo, a Apple e as subsidiárias da Apple são terceiras beneficiárias destes Termos e, após a sua aceitação, terão o direito (e considerar-se-á que aceitaram o direito) de fazer valer estes Termos contra si na qualidade de terceira beneficiária. Em caso de qualquer falha da Aplicação em estar em conformidade com qualquer garantia aplicável, pode notificar a Apple, e a Apple reembolsar-lhe-á o preço de compra da Aplicação (se aplicável). Na máxima medida permitida por lei, a Apple não tem qualquer outra obrigação de garantia relativamente à Aplicação.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Lei aplicável e litígios</h2>
             <p>Estes Termos regem-se pela legislação do país onde reside habitualmente, independentemente das suas normas de conflito de leis, exceto na medida em que a legislação de defesa do consumidor aplicável determine de outra forma. O utilizador e o Programador acordam em resolver os litígios primeiro de forma informal, contactando-nos por correio eletrónico. Se não conseguirmos resolver um litígio no prazo de 60 dias, pode submeter a questão aos tribunais do seu país de residência na medida do permitido por lei. Nada nestes Termos limita quaisquer direitos do consumidor irrenunciáveis que lhe assistam ao abrigo da legislação do seu país de residência.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Divisibilidade</h2>
             <p>Se alguma disposição destes Termos for considerada inválida ou inexequível, essa disposição será limitada ou eliminada na medida mínima necessária, e as restantes disposições permanecerão em pleno vigor e efeito.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Alterações</h2>
             <p>Podemos atualizar estes Termos periodicamente. A versão atual estará sempre disponível neste URL com uma data de &ldquo;Última atualização&rdquo; atualizada. As alterações substanciais serão destacadas nas notas de atualização da App Store para a versão afetada. A sua utilização continuada da Aplicação após uma alteração produzir efeitos constitui a aceitação dos Termos revistos.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Contacto</h2>
             <p>Se tiver dúvidas sobre estes Termos, escreva para <a href="mailto:imageconverterplus.help@gmail.com">imageconverterplus.help@gmail.com</a>.</p>
         </div>
@@ -201,7 +218,7 @@
     </div>
 
     <!-- Links -->
-    <div class="links-section fade-in">
+    <div class="links-section" data-reveal>
 
         <a class="link-card" href="support.html">
             <p class="link-label">Ajuda</p>
@@ -216,25 +233,94 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer fade-in">
+    <div class="footer">
         <p>Última atualização: maio de 2026</p>
     </div>
 
 </div>
 
-<script>
-    // Fade-in on scroll
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span class="copyright">© 2026 Denys Lebiediev</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">Política de Privacidade</a></li>
+            <li><a href="terms.html">Termos de Utilização</a></li>
+            <li><a href="support.html">Apoio</a></li>
+        </ul>
+        <!-- lang-menu -->
+        <details class="lang-menu">
+            <summary class="lang-trigger" aria-label="Idioma: Português (Portugal)"><svg class="lang-globe" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="8" cy="8" rx="2.8" ry="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M1.7 8h12.6M2.6 4.6h10.8M2.6 11.4h10.8" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="lang-current">Português (Portugal)</span><svg class="lang-chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+            <div class="lang-panel">
+                <ul class="lang-list" role="list" translate="no">
+                    <li><a href="../af/terms.html" lang="af" hreflang="af">Afrikaans</a></li>
+                    <li><a href="../id/terms.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+                    <li><a href="../ms/terms.html" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+                    <li><a href="../bs/terms.html" lang="bs" hreflang="bs">Bosanski</a></li>
+                    <li><a href="../ca/terms.html" lang="ca" hreflang="ca">Català</a></li>
+                    <li><a href="../cs/terms.html" lang="cs" hreflang="cs">Čeština</a></li>
+                    <li><a href="../cy/terms.html" lang="cy" hreflang="cy">Cymraeg</a></li>
+                    <li><a href="../da/terms.html" lang="da" hreflang="da">Dansk</a></li>
+                    <li><a href="../de/terms.html" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="../et/terms.html" lang="et" hreflang="et">Eesti</a></li>
+                    <li><a href="../terms.html?lang=en" lang="en" hreflang="en">English</a></li>
+                    <li><a href="../es/terms.html" lang="es" hreflang="es">Español</a></li>
+                    <li><a href="../fil/terms.html" lang="fil" hreflang="fil">Filipino</a></li>
+                    <li><a href="../fr/terms.html" lang="fr" hreflang="fr">Français</a></li>
+                    <li><a href="../ga/terms.html" lang="ga" hreflang="ga">Gaeilge</a></li>
+                    <li><a href="../hr/terms.html" lang="hr" hreflang="hr">Hrvatski</a></li>
+                    <li><a href="../is/terms.html" lang="is" hreflang="is">Íslenska</a></li>
+                    <li><a href="../it/terms.html" lang="it" hreflang="it">Italiano</a></li>
+                    <li><a href="../sw/terms.html" lang="sw" hreflang="sw">Kiswahili</a></li>
+                    <li><a href="../lv/terms.html" lang="lv" hreflang="lv">Latviešu</a></li>
+                    <li><a href="../lt/terms.html" lang="lt" hreflang="lt">Lietuvių</a></li>
+                    <li><a href="../hu/terms.html" lang="hu" hreflang="hu">Magyar</a></li>
+                    <li><a href="../mt/terms.html" lang="mt" hreflang="mt">Malti</a></li>
+                    <li><a href="../nl/terms.html" lang="nl" hreflang="nl">Nederlands</a></li>
+                    <li><a href="../nb/terms.html" lang="nb" hreflang="nb">Norsk bokmål</a></li>
+                    <li><a href="../pl/terms.html" lang="pl" hreflang="pl">Polski</a></li>
+                    <li><a href="../pt-BR/terms.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+                    <li><a href="../pt-PT/terms.html" lang="pt-PT" hreflang="pt-PT" aria-current="true">Português (Portugal)<svg class="lang-check" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="../ro/terms.html" lang="ro" hreflang="ro">Română</a></li>
+                    <li><a href="../sq/terms.html" lang="sq" hreflang="sq">Shqip</a></li>
+                    <li><a href="../sk/terms.html" lang="sk" hreflang="sk">Slovenčina</a></li>
+                    <li><a href="../sl/terms.html" lang="sl" hreflang="sl">Slovenščina</a></li>
+                    <li><a href="../fi/terms.html" lang="fi" hreflang="fi">Suomi</a></li>
+                    <li><a href="../sv/terms.html" lang="sv" hreflang="sv">Svenska</a></li>
+                    <li><a href="../vi/terms.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+                    <li><a href="../tr/terms.html" lang="tr" hreflang="tr">Türkçe</a></li>
+                    <li><a href="../be/terms.html" lang="be" hreflang="be">Беларуская</a></li>
+                    <li><a href="../bg/terms.html" lang="bg" hreflang="bg">Български</a></li>
+                    <li><a href="../mk/terms.html" lang="mk" hreflang="mk">Македонски</a></li>
+                    <li><a href="../sr/terms.html" lang="sr" hreflang="sr">Српски</a></li>
+                    <li><a href="../uk/terms.html" lang="uk" hreflang="uk">Українська</a></li>
+                    <li><a href="../el/terms.html" lang="el" hreflang="el">Ελληνικά</a></li>
+                    <li><a href="../ar/terms.html" lang="ar" hreflang="ar">العربية</a></li>
+                    <li><a href="../he/terms.html" lang="he" hreflang="he">עברית</a></li>
+                    <li><a href="../ur/terms.html" lang="ur" hreflang="ur">اردو</a></li>
+                    <li><a href="../fa/terms.html" lang="fa" hreflang="fa">فارسی</a></li>
+                    <li><a href="../hi/terms.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+                    <li><a href="../mr/terms.html" lang="mr" hreflang="mr">मराठी</a></li>
+                    <li><a href="../gu/terms.html" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+                    <li><a href="../pa/terms.html" lang="pa" hreflang="pa">ਪੰਜਾਬੀ</a></li>
+                    <li><a href="../bn/terms.html" lang="bn" hreflang="bn">বাংলা</a></li>
+                    <li><a href="../ta/terms.html" lang="ta" hreflang="ta">தமிழ்</a></li>
+                    <li><a href="../te/terms.html" lang="te" hreflang="te">తెలుగు</a></li>
+                    <li><a href="../kn/terms.html" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+                    <li><a href="../ml/terms.html" lang="ml" hreflang="ml">മലയാളം</a></li>
+                    <li><a href="../th/terms.html" lang="th" hreflang="th">ไทย</a></li>
+                    <li><a href="../ja/terms.html" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="../ko/terms.html" lang="ko" hreflang="ko">한국어</a></li>
+                    <li><a href="../zh-Hans/terms.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+                    <li><a href="../zh-Hant/terms.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+                </ul>
+            </div>
+        </details>
+        <script defer src="../js/lang-menu.js"></script>
+        <!-- /lang-menu -->
+    </div>
+</footer>
 
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
+<script defer src="../js/subpage.js"></script>
 
 </body>
 </html>

@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=6759621930">
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#05060A">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <link rel="icon" href="../images/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
+    <script>
+        document.documentElement.classList.add('js');
+        // if subpage.js never boots, un-gate the reveals so content can't stay hidden
+        setTimeout(function () { if (!window.__icpSubBooted) document.documentElement.classList.remove('js'); }, 2500);
+    </script>
     <title>Brugsvilkår - Image Converter Plus</title>
     <meta name="description" content="Brugsvilkår for Image Converter Plus. Læs licensen, købsvilkårene, detaljerne om automatisk fornyelse af abonnement og retningslinjerne for brug af appen.">
     <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
@@ -74,63 +78,76 @@
     <link rel="alternate" hreflang="cy" href="https://denyslebiediev.github.io/imageconverterplus/cy/terms.html">
     <link rel="alternate" hreflang="be" href="https://denyslebiediev.github.io/imageconverterplus/be/terms.html">
     <link rel="alternate" hreflang="x-default" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/subpage.css">
+    <meta property="og:title" content="Brugsvilkår — Image Converter Plus">
+    <meta property="og:description" content="Brugsvilkår for Image Converter Plus. Læs licensen, købsvilkårene, detaljerne om automatisk fornyelse af abonnement og retningslinjerne for brug af appen.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://denyslebiediev.github.io/imageconverterplus/da/terms.html">
+    <meta property="og:image" content="https://denyslebiediev.github.io/imageconverterplus/images/icon-512.png">
+    <link rel="canonical" href="https://denyslebiediev.github.io/imageconverterplus/da/terms.html">
+    <link rel="preload" href="../fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/subpage-dark.css">
 
 </head>
 <body>
 
-<!-- Nav -->
-<nav>
+<a class="skip-link" href="#main">Gå til indhold</a>
+
+<nav class="site-nav" aria-label="Websted">
     <div class="nav-inner">
-        <a class="nav-title" href="index.html">Image Converter Plus</a>
+        <a class="nav-brand" href="index.html">
+            <img src="../images/AppIcon.png" alt="" width="28" height="28">
+            <span>Image Converter Plus</span>
+        </a>
         <ul class="nav-links">
             <li><a href="privacy.html">Privatlivspolitik</a></li>
-            <li><a href="terms.html">Brugsvilkår</a></li>
+            <li><a href="terms.html" aria-current="page">Brugsvilkår</a></li>
             <li><a href="support.html">Support</a></li>
         </ul>
+        <a class="nav-cta" href="https://apps.apple.com/app/image-converter-plus/id6759621930">Hent appen</a>
     </div>
 </nav>
 
-<div class="page">
+<div class="page" id="main">
 
     <!-- Hero -->
-    <div class="hero fade-in">
-        <h1>Brugsvilkår</h1>
+    <header class="page-head">
+        <p class="eyebrow mono">Juridisk · Betingelser</p>
+        <h1 class="headline">Brugsvilkår</h1>
         <p class="subtitle">Image Converter Plus til iPhone og iPad</p>
-    </div>
+    </header>
 
     <!-- Content Cards -->
-    <div class="stagger">
+    <div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Aftale</h2>
             <p>Disse brugsvilkår (&ldquo;Vilkårene&rdquo;) udgør en bindende aftale mellem dig og Denys Lebiediev (&ldquo;Udvikleren&rdquo;, &ldquo;vi&rdquo;, &ldquo;os&rdquo;) vedrørende din brug af mobilapplikationen Image Converter Plus og dens Share Extension (samlet &ldquo;Appen&rdquo;). Ved at downloade, installere eller bruge Appen bekræfter du, at du har læst, forstået og accepteret disse Vilkår sammen med vores <a href="privacy.html">Privatlivspolitik</a>. Hvis du ikke er enig, må du ikke bruge Appen.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Apples slutbrugerlicensaftale</h2>
             <p>Appen licenseres, ikke sælges, til dig til brug kun under Apples standardlicensaftale for licenserede applikationer (&ldquo;Apple-EULA&rdquo;), tilgængelig på <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener" target="_blank">apple.com/legal/internet-services/itunes/dev/stdeula</a>, undtagen hvor disse Vilkår udvider eller ændrer den. I tilfælde af konflikt mellem disse Vilkår og Apple-EULA har disse Vilkår forrang i det omfang, Apples regler tillader det; ellers har Apple-EULA forrang.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Licens</h2>
             <p>Vi giver dig en begrænset, personlig, ikke-eksklusiv, ikke-overdragelig, genkaldelig licens til at installere og bruge Appen på enhver iPhone eller iPad, som du ejer eller kontrollerer, i overensstemmelse med vilkårene for Apple Media Services og eventuelle brugsregler fastsat i disse vilkår (herunder Familiedeling for livstidsopgraderingen). Du må ikke sælge, udleje, lease, give underlicens til, distribuere eller på anden måde overføre Appen til nogen anden.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Dit indhold</h2>
             <p>Du bevarer alle rettigheder til de billeder, filer og metadata, du importerer til Appen. Vi gør ikke krav på noget ejerskab over dit indhold. Da Appen behandler alt på din enhed, giver du os ingen licens til dine filer; vi modtager dem aldrig.</p>
             <p>Du er ansvarlig for at sikre, at du har ret til at konvertere, ændre, dele eller på anden måde bruge de billeder, du behandler. Du må ikke bruge Appen til at håndtere indhold, som du ikke har tilladelse til at bruge.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Gratis- og Pro-niveauer</h2>
             <p>Appen tilbyder et gratisniveau, der konverterer ét billede ad gangen i udvalgte formater. Gratisbrugere kan også vælge at se en belønnet videoannonce for midlertidigt at låse op for en enkelt batch-konvertering. At se en annonce er altid valgfrit, og du kan lukke den, før den er fuldført. Pro låser op for ubegrænset batch-konvertering, alle outputformater (herunder PDF, AVIF og TIFF), indstillinger pr. billede og hele sættet af privatlivskontroller for metadata.</p>
             <p>Pro tilbydes enten som et abonnement med automatisk fornyelse (ugentligt, månedligt eller årligt) eller som et engangskøb på livstid, der ikke er en forbrugsvare. Drikkepengekøb er valgfrie, låser ikke op for funktioner og refunderes ikke, undtagen hvor loven kræver det.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Abonnementsvilkår</h2>
             <p><strong>Fakturering.</strong> Alle køb behandles af Apple via App Store. Betalingen debiteres dit Apple-id ved bekræftelse af købet. De aktuelle priser vises inde i Appen og på App Store-siden for din butik og kan ændre sig i fremtiden i det omfang, App Store-reglerne tillader det.</p>
             <p><strong>Automatisk fornyelse.</strong> Abonnementer fornyes automatisk ved slutningen af hver faktureringsperiode til den dengang gældende pris, medmindre de annulleres mindst 24 timer før slutningen af den aktuelle periode. Din konto vil blive debiteret for fornyelsen inden for 24 timer før slutningen af den aktuelle periode.</p>
@@ -140,7 +157,7 @@
             <p><strong>Familiedeling.</strong> Livstidsopgraderingen og abonnementer med automatisk fornyelse er berettiget til Familiedeling, hvor App Store understøtter det.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Acceptabel brug</h2>
             <p>Du accepterer at bruge Appen i overensstemmelse med gældende lov. Du må ikke, og du må ikke opfordre nogen anden til at:</p>
             <ul>
@@ -153,47 +170,47 @@
             </ul>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Opdateringer og ophør</h2>
             <p>Vi kan frigive opdateringer, der ændrer, tilføjer eller fjerner funktioner, retter fejl eller forbedrer ydeevnen. Nye funktioner kan kræve Pro. Vi kan også trække funktioner tilbage eller indstille Appen med rimeligt varsel, når dette ikke længere er kommercielt eller teknisk muligt. Hvor loven kræver det, vil refusioner for ubrugt abonnementstid blive behandlet af Apple.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Tredjepartstjenester</h2>
             <p>Appen er afhængig af Apple StoreKit til køb, Adapty til købsbekræftelse og Google AdMob &mdash; sammen med Google User Messaging Platform og mæglingspartnere som Unity Ads &mdash; til de valgfrie belønnede annoncer, der vises til gratisbrugere. Din brug af disse tjenester er også underlagt deres egne vilkår og privatlivsmeddelelser. Vi er ikke ansvarlige for tredjepartstjenesters praksis, men vi har konfigureret dem til kun at indsamle det, der er nødvendigt, som beskrevet i vores <a href="privacy.html">Privatlivspolitik</a>.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Ansvarsfraskrivelse</h2>
             <p>Appen leveres &ldquo;som den er&rdquo; og &ldquo;som tilgængelig&rdquo;, uden garantier af nogen art, hverken udtrykkelige eller underforståede, herunder garantier for salgbarhed, egnethed til et bestemt formål, nøjagtighed eller ikke-krænkelse. Vi garanterer ikke, at Appen vil være uafbrudt, fejlfri, eller at den vil give bestemte resultater for dine filer. Du er ansvarlig for at opbevare sikkerhedskopier af alle filer, du behandler.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Ansvarsbegrænsning</h2>
             <p>I det omfang loven tillader det, vil Udvikleren ikke være ansvarlig for indirekte, hændelige, særlige, følgemæssige eller pønale skader eller for tab af fortjeneste, data eller filer, der opstår som følge af eller i forbindelse med din brug af Appen, selv hvis vi er blevet underrettet om muligheden for sådanne skader. Vores samlede ansvar for eventuelle direkte skader er begrænset til det beløb, du betalte for Appen i de tolv måneder forud for den begivenhed, der gav anledning til kravet. Visse jurisdiktioner tillader ikke disse begrænsninger, i hvilket tilfælde begrænsningerne kun gælder i det maksimalt tilladte omfang dér.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Apple som tredjepartsbegunstiget</h2>
             <p>Du anerkender, at disse Vilkår er indgået mellem dig og Udvikleren alene, og ikke med Apple. Apple er ikke ansvarlig for Appen eller dens indhold. Apple og Apples datterselskaber er dog tredjepartsbegunstigede af disse Vilkår og vil, ved din accept, have ret (og vil anses for at have accepteret retten) til at håndhæve disse Vilkår mod dig som tredjepartsbegunstiget. I tilfælde af enhver mangel ved Appen i at opfylde en gældende garanti kan du underrette Apple, og Apple vil refundere købsprisen for Appen til dig (hvis nogen). I det maksimalt tilladte omfang ved lov har Apple ingen anden garantiforpligtelse med hensyn til Appen.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Lovvalg og tvister</h2>
             <p>Disse Vilkår er underlagt lovgivningen i det land, hvor du sædvanligvis er bosat, uden hensyn til dets lovkonfliktprincipper, undtagen i det omfang gældende forbrugerbeskyttelseslovgivning bestemmer andet. Du og Udvikleren er enige om først at løse tvister uformelt ved at sende os en e-mail. Hvis vi ikke kan løse en tvist inden for 60 dage, kan du indbringe sagen for domstolene i dit bopælsland i det omfang, loven tillader det. Intet i disse Vilkår begrænser eventuelle ufravigelige forbrugerrettigheder, du har i henhold til lovgivningen i dit bopælsland.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Adskillelighed</h2>
             <p>Hvis en bestemmelse i disse Vilkår anses for ugyldig eller ikke kan håndhæves, vil denne bestemmelse blive begrænset eller fjernet i det mindst nødvendige omfang, og de resterende bestemmelser vil forblive i fuld kraft og virkning.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Ændringer</h2>
             <p>Vi kan opdatere disse Vilkår fra tid til anden. Den aktuelle version vil altid være tilgængelig på denne URL med en opdateret dato for &ldquo;Senest opdateret&rdquo;. Væsentlige ændringer vil blive fremhævet i App Store-opdateringsnoterne for den pågældende udgivelse. Din fortsatte brug af Appen, efter at en ændring træder i kraft, udgør accept af de reviderede Vilkår.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Kontakt</h2>
             <p>Hvis du har spørgsmål om disse Vilkår, så skriv til <a href="mailto:imageconverterplus.help@gmail.com">imageconverterplus.help@gmail.com</a>.</p>
         </div>
@@ -201,7 +218,7 @@
     </div>
 
     <!-- Links -->
-    <div class="links-section fade-in">
+    <div class="links-section" data-reveal>
 
         <a class="link-card" href="support.html">
             <p class="link-label">Hjælp</p>
@@ -216,25 +233,94 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer fade-in">
+    <div class="footer">
         <p>Senest opdateret: maj 2026</p>
     </div>
 
 </div>
 
-<script>
-    // Fade-in on scroll
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span class="copyright">© 2026 Denys Lebiediev</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">Privatlivspolitik</a></li>
+            <li><a href="terms.html">Brugsvilkår</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+        <!-- lang-menu -->
+        <details class="lang-menu">
+            <summary class="lang-trigger" aria-label="Sprog: Dansk"><svg class="lang-globe" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="8" cy="8" rx="2.8" ry="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M1.7 8h12.6M2.6 4.6h10.8M2.6 11.4h10.8" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="lang-current">Dansk</span><svg class="lang-chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+            <div class="lang-panel">
+                <ul class="lang-list" role="list" translate="no">
+                    <li><a href="../af/terms.html" lang="af" hreflang="af">Afrikaans</a></li>
+                    <li><a href="../id/terms.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+                    <li><a href="../ms/terms.html" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+                    <li><a href="../bs/terms.html" lang="bs" hreflang="bs">Bosanski</a></li>
+                    <li><a href="../ca/terms.html" lang="ca" hreflang="ca">Català</a></li>
+                    <li><a href="../cs/terms.html" lang="cs" hreflang="cs">Čeština</a></li>
+                    <li><a href="../cy/terms.html" lang="cy" hreflang="cy">Cymraeg</a></li>
+                    <li><a href="../da/terms.html" lang="da" hreflang="da" aria-current="true">Dansk<svg class="lang-check" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="../de/terms.html" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="../et/terms.html" lang="et" hreflang="et">Eesti</a></li>
+                    <li><a href="../terms.html?lang=en" lang="en" hreflang="en">English</a></li>
+                    <li><a href="../es/terms.html" lang="es" hreflang="es">Español</a></li>
+                    <li><a href="../fil/terms.html" lang="fil" hreflang="fil">Filipino</a></li>
+                    <li><a href="../fr/terms.html" lang="fr" hreflang="fr">Français</a></li>
+                    <li><a href="../ga/terms.html" lang="ga" hreflang="ga">Gaeilge</a></li>
+                    <li><a href="../hr/terms.html" lang="hr" hreflang="hr">Hrvatski</a></li>
+                    <li><a href="../is/terms.html" lang="is" hreflang="is">Íslenska</a></li>
+                    <li><a href="../it/terms.html" lang="it" hreflang="it">Italiano</a></li>
+                    <li><a href="../sw/terms.html" lang="sw" hreflang="sw">Kiswahili</a></li>
+                    <li><a href="../lv/terms.html" lang="lv" hreflang="lv">Latviešu</a></li>
+                    <li><a href="../lt/terms.html" lang="lt" hreflang="lt">Lietuvių</a></li>
+                    <li><a href="../hu/terms.html" lang="hu" hreflang="hu">Magyar</a></li>
+                    <li><a href="../mt/terms.html" lang="mt" hreflang="mt">Malti</a></li>
+                    <li><a href="../nl/terms.html" lang="nl" hreflang="nl">Nederlands</a></li>
+                    <li><a href="../nb/terms.html" lang="nb" hreflang="nb">Norsk bokmål</a></li>
+                    <li><a href="../pl/terms.html" lang="pl" hreflang="pl">Polski</a></li>
+                    <li><a href="../pt-BR/terms.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+                    <li><a href="../pt-PT/terms.html" lang="pt-PT" hreflang="pt-PT">Português (Portugal)</a></li>
+                    <li><a href="../ro/terms.html" lang="ro" hreflang="ro">Română</a></li>
+                    <li><a href="../sq/terms.html" lang="sq" hreflang="sq">Shqip</a></li>
+                    <li><a href="../sk/terms.html" lang="sk" hreflang="sk">Slovenčina</a></li>
+                    <li><a href="../sl/terms.html" lang="sl" hreflang="sl">Slovenščina</a></li>
+                    <li><a href="../fi/terms.html" lang="fi" hreflang="fi">Suomi</a></li>
+                    <li><a href="../sv/terms.html" lang="sv" hreflang="sv">Svenska</a></li>
+                    <li><a href="../vi/terms.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+                    <li><a href="../tr/terms.html" lang="tr" hreflang="tr">Türkçe</a></li>
+                    <li><a href="../be/terms.html" lang="be" hreflang="be">Беларуская</a></li>
+                    <li><a href="../bg/terms.html" lang="bg" hreflang="bg">Български</a></li>
+                    <li><a href="../mk/terms.html" lang="mk" hreflang="mk">Македонски</a></li>
+                    <li><a href="../sr/terms.html" lang="sr" hreflang="sr">Српски</a></li>
+                    <li><a href="../uk/terms.html" lang="uk" hreflang="uk">Українська</a></li>
+                    <li><a href="../el/terms.html" lang="el" hreflang="el">Ελληνικά</a></li>
+                    <li><a href="../ar/terms.html" lang="ar" hreflang="ar">العربية</a></li>
+                    <li><a href="../he/terms.html" lang="he" hreflang="he">עברית</a></li>
+                    <li><a href="../ur/terms.html" lang="ur" hreflang="ur">اردو</a></li>
+                    <li><a href="../fa/terms.html" lang="fa" hreflang="fa">فارسی</a></li>
+                    <li><a href="../hi/terms.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+                    <li><a href="../mr/terms.html" lang="mr" hreflang="mr">मराठी</a></li>
+                    <li><a href="../gu/terms.html" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+                    <li><a href="../pa/terms.html" lang="pa" hreflang="pa">ਪੰਜਾਬੀ</a></li>
+                    <li><a href="../bn/terms.html" lang="bn" hreflang="bn">বাংলা</a></li>
+                    <li><a href="../ta/terms.html" lang="ta" hreflang="ta">தமிழ்</a></li>
+                    <li><a href="../te/terms.html" lang="te" hreflang="te">తెలుగు</a></li>
+                    <li><a href="../kn/terms.html" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+                    <li><a href="../ml/terms.html" lang="ml" hreflang="ml">മലയാളം</a></li>
+                    <li><a href="../th/terms.html" lang="th" hreflang="th">ไทย</a></li>
+                    <li><a href="../ja/terms.html" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="../ko/terms.html" lang="ko" hreflang="ko">한국어</a></li>
+                    <li><a href="../zh-Hans/terms.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+                    <li><a href="../zh-Hant/terms.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+                </ul>
+            </div>
+        </details>
+        <script defer src="../js/lang-menu.js"></script>
+        <!-- /lang-menu -->
+    </div>
+</footer>
 
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
+<script defer src="../js/subpage.js"></script>
 
 </body>
 </html>

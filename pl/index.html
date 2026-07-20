@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=6759621930">
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#05060A">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <link rel="icon" href="../images/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
+    <script>document.documentElement.classList.add('js');</script>
     <title>Image Converter Plus — Konwertuj, zmieniaj rozmiar i chroń swoje zdjęcia</title>
     <meta name="description" content="Konwertuj obrazy między formatami JPEG, PDF, PNG, WebP, HEIC, AVIF i TIFF. Reguluj jakość, zmieniaj rozmiar i usuwaj metadane — wszystko na swoim urządzeniu.">
     <meta property="og:title" content="Image Converter Plus">
     <meta property="og:description" content="Konwertuj obrazy między formatami JPEG, PDF, PNG, WebP, HEIC, AVIF i TIFF. Reguluj jakość, zmieniaj rozmiar i usuwaj metadane — wszystko na swoim urządzeniu.">
     <meta property="og:type" content="website">
-        <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/">
+    <meta property="og:url" content="https://denyslebiediev.github.io/imageconverterplus/pl/index.html">
+    <meta property="og:image" content="https://denyslebiediev.github.io/imageconverterplus/images/icon-512.png">
+    <link rel="canonical" href="https://denyslebiediev.github.io/imageconverterplus/pl/index.html">
+    <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/">
     <link rel="alternate" hreflang="uk" href="https://denyslebiediev.github.io/imageconverterplus/uk/index.html">
     <link rel="alternate" hreflang="zh-Hans" href="https://denyslebiediev.github.io/imageconverterplus/zh-Hans/index.html">
     <link rel="alternate" hreflang="ja" href="https://denyslebiediev.github.io/imageconverterplus/ja/index.html">
@@ -77,241 +80,321 @@
     <link rel="alternate" hreflang="cy" href="https://denyslebiediev.github.io/imageconverterplus/cy/index.html">
     <link rel="alternate" hreflang="be" href="https://denyslebiediev.github.io/imageconverterplus/be/index.html">
     <link rel="alternate" hreflang="x-default" href="https://denyslebiediev.github.io/imageconverterplus/">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/landing.css">
-    
+    <link rel="preload" href="../fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preconnect" href="https://maps.googleapis.com" crossorigin>
+    <link rel="stylesheet" href="../css/home.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Image Converter Plus",
+      "operatingSystem": "iOS 16.0 or later",
+      "applicationCategory": "UtilitiesApplication",
+      "inLanguage": "pl",
+      "description": "Wsadowy konwerter obrazów na iPhone'a i iPada. Konwertuj między JPEG, PDF, PNG, WebP, HEIC, AVIF i TIFF — reguluj jakość, zmieniaj rozmiar i usuwaj metadane, w całości na Twoim urządzeniu.",
+      "url": "https://denyslebiediev.github.io/imageconverterplus/pl/index.html",
+      "image": "https://denyslebiediev.github.io/imageconverterplus/images/icon-512.png",
+      "installUrl": "https://apps.apple.com/app/image-converter-plus/id6759621930"
+    }
+    </script>
 </head>
 <body>
 
-<!-- Nav -->
-<nav>
+<a class="skip-link" href="#main">Przejdź do treści</a>
+
+<nav class="site-nav" aria-label="Witryna">
     <div class="nav-inner">
-        <a class="nav-title" href="index.html">Image Converter Plus</a>
+        <a class="nav-brand" href="index.html">
+            <img src="../images/AppIcon.png" alt="" width="28" height="28">
+            <span>Image Converter Plus</span>
+        </a>
         <ul class="nav-links">
             <li><a href="privacy.html">Polityka prywatności</a></li>
             <li><a href="terms.html">Warunki użytkowania</a></li>
             <li><a href="support.html">Pomoc</a></li>
         </ul>
+        <a class="nav-cta" href="https://apps.apple.com/app/image-converter-plus/id6759621930">Pobierz aplikację</a>
     </div>
 </nav>
 
-<!-- Hero -->
-<section class="hero">
-    <img class="app-icon" src="../images/AppIcon.png" alt="Pobierz w App Store">
-    <h1>Konwertuj. Skaluj.<br>Chroń.</h1>
-    <p class="subtitle">Wsadowa konwersja obrazów z kontrolą prywatności — w całości na Twoim urządzeniu.</p>
-    <div class="cta-group">
-        <a class="badge-link" href="https://apps.apple.com/app/image-converter-plus/id6759621930" aria-label="Pobierz w App Store">
-            <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/pl-pl?size=250x83" alt="Pobierz w App Store">
-        </a>
-    </div>
-    <p class="availability">Dostępne na iPhone i iPad. Wymaga iOS 16 lub nowszego.</p>
-</section>
+<main id="main">
 
-<!-- Formats -->
-<section id="formats">
-    <div class="section-inner fade-in" style="text-align: center;">
-        <p class="section-eyebrow">7 formatów wyjściowych</p>
-        <h2 class="section-headline">Każdy format, którego potrzebujesz.</h2>
-        <p class="section-body" style="margin: 0 auto 0;">Konwertuj między najpopularniejszymi formatami obrazów. Wybierz właściwą równowagę między jakością, kompatybilnością a rozmiarem pliku.</p>
-        <div class="formats-row">
-            <span class="format-badge">JPEG</span>
-            <span class="format-badge">PDF</span>
-            <span class="format-badge">PNG</span>
-            <span class="format-badge">WebP</span>
-            <span class="format-badge">HEIC</span>
-            <span class="format-badge">AVIF</span>
-            <span class="format-badge">TIFF</span>
+<!-- 01 · Hero -->
+<header class="hero" id="hero">
+    <canvas class="hero-canvas" id="hero-canvas" aria-hidden="true"></canvas>
+    <div class="hero-content">
+        <div class="hero-visual" id="hero-visual" aria-hidden="true">
+            <img class="hero-fallback" id="hero-fallback" src="../images/hero-source.webp" alt="" width="512" height="682" fetchpriority="high" decoding="async">
         </div>
-    </div>
-</section>
-
-<!-- Features -->
-<section id="features" style="background: var(--bg-secondary);">
-    <div class="section-inner fade-in">
-        <p class="section-eyebrow">Funkcje</p>
-        <h2 class="section-headline">Precyzja na każdym etapie.</h2>
-        <p class="section-body">Dostosuj jakość, rozmiar, nazwy i podgląd — wszystko przed konwersją choćby jednego obrazu.</p>
-        <div class="feature-grid">
-            
-            <div class="feature-card">
-                <span class="card-icon" aria-hidden="true">&#9881;&#65039;</span>
-                <h3>Kontrola jakości</h3>
-                <p>Reguluj jakość od 40% do 100% dla formatów stratnych. Szacowany rozmiar pliku aktualizuje się w czasie rzeczywistym.</p>
-            </div>
-            
-            <div class="feature-card">
-                <span class="card-icon" aria-hidden="true">&#8596;&#65039;</span>
-                <h3>Zmiana rozmiaru</h3>
-                <p>Skaluj obrazy od 50% do 200%. Ustaw indywidualne parametry dla każdego obrazu lub zastosuj preset dla całej partii.</p>
-            </div>
-            
-            <div class="feature-card">
-                <span class="card-icon" aria-hidden="true">&#128196;</span>
-                <h3>Nazewnictwo plików</h3>
-                <p>Dodaj prefiks lub sufiks do konwertowanych plików. Nazwij każdy obraz indywidualnie lub zastosuj regułę do wszystkich.</p>
-            </div>
-            
-            <div class="feature-card">
-                <span class="card-icon" aria-hidden="true">&#9889;</span>
-                <h3>Presety</h3>
-                <p>4 wbudowane presety do konwersji jednym dotknięciem. Format, jakość, rozmiar i nazewnictwo — już ustawione.</p>
-            </div>
-            
-        </div>
-    </div>
-</section>
-
-<!-- Privacy -->
-<section id="privacy" class="dark-section">
-    <div class="section-inner fade-in">
-        <p class="section-eyebrow" style="color: #30d158;">Prywatność</p>
-        <h2 class="section-headline">Twoje zdjęcia kryją więcej,</h2>
-        <p class="section-body">Współrzędne GPS. Model aparatu. Znaczniki czasu. Image Converter Plus usuwa ukryte metadane zanim cokolwiek udostępnisz — z precyzyjną kontrolą nad tym, co zostaje, a co znika.</p>
-        <div class="privacy-grid">
-            
-            <div class="privacy-item">
-                <span class="item-icon" aria-hidden="true">&#128205;</span>
-                <h4>Lokalizacja</h4>
-                <p>Współrzędne GPS i nazwy miejsc</p>
-            </div>
-            
-            <div class="privacy-item">
-                <span class="item-icon" aria-hidden="true">&#128247;</span>
-                <h4>Aparat</h4>
-                <p>Data, godzina i ustawienia rejestracji</p>
-            </div>
-            
-            <div class="privacy-item">
-                <span class="item-icon" aria-hidden="true">&#9997;&#65039;</span>
-                <h4>Autor</h4>
-                <p>Opisy, słowa kluczowe i twórca</p>
-            </div>
-            
-            <div class="privacy-item">
-                <span class="item-icon" aria-hidden="true">&#128241;</span>
-                <h4>Urządzenie</h4>
-                <p>Nazwa modelu i identyfikatory</p>
-            </div>
-            
-            <div class="privacy-item">
-                <span class="item-icon" aria-hidden="true">&#128736;&#65039;</span>
-                <h4>Edycje</h4>
-                <p>Historia edycji i informacje o oprogramowaniu</p>
-            </div>
-            
-            <div class="privacy-item">
-                <span class="item-icon" aria-hidden="true">&#128444;&#65039;</span>
-                <h4>Podglądy</h4>
-                <p>Osadzone miniatury</p>
-            </div>
-            
-        </div>
-    </div>
-</section>
-
-<!-- Share & History -->
-<section>
-    <div class="section-inner fade-in">
-        <p class="section-eyebrow">Przepływ pracy</p>
-        <h2 class="section-headline">Idealnie wpisuje się w Twój przepływ pracy.</h2>
-        <div class="split-section">
-            <div class="split-card">
-                <h3>Share Extension</h3>
-                <p>Konwertuj obrazy bez otwierania aplikacji. Wybierz zdjęcia w dowolnej aplikacji, dotknij Udostępnij i konwertuj w jednym kroku. Użytkownicy Pro mogą korzystać z konwersji wsadowej i wszystkich formatów bezpośrednio z Share Sheet.</p>
-            </div>
-            <div class="split-card">
-                <h3>Historia konwersji</h3>
-                <p>Każda konwersja jest zapisywana z miniaturą. W dowolnym momencie wyeksportuj ponownie do Zdjęć, Plików lub Share Sheet. Ustaw automatyczne usuwanie, aby stare konwersje były czyszczone automatycznie.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- On-Device -->
-<section style="background: var(--bg-secondary);">
-    <div class="section-inner fade-in" style="text-align: center;">
-        <p class="section-eyebrow">Na urządzeniu</p>
-        <h2 class="section-headline">Żadnych serwerów. Żadnych przesyłek.</h2>
-        <p class="section-body" style="margin: 0 auto;">Każdy obraz jest przetwarzany lokalnie na Twoim urządzeniu. Bez usług chmurowych. Bez przesyłania. Połączenie z internetem jest potrzebne wyłącznie do dokonania zakupu.</p>
-    </div>
-</section>
-
-<!-- Pro -->
-<section id="pro" class="dark-section pro-section">
-    <div class="section-inner fade-in">
-        <p class="section-eyebrow">Pro</p>
-        <h2 class="section-headline">Odblokuj wszystko.</h2>
-        <p class="section-body">Subskrybuj tygodniowo, miesięcznie lub rocznie — lub uzyskaj dożywotni dostęp jednym zakupem. Family Sharing w zestawie.</p>
-        <div class="pro-features">
-            
-            <div class="pro-feature">
-                <span class="pro-icon" aria-hidden="true">&#128194;</span>
-                <div>
-                    <h4>PDF, AVIF i TIFF</h4>
-                    <p>Odblokuj wszystkie formaty wyjściowe dla każdego zastosowania.</p>
-                </div>
-            </div>
-            
-            <div class="pro-feature">
-                <span class="pro-icon" aria-hidden="true">&#128274;</span>
-                <div>
-                    <h4>Usuwanie metadanych</h4>
-                    <p>Pełne usuwanie EXIF i metadanych z czterema presetami prywatności.</p>
-                </div>
-            </div>
-            
-            <div class="pro-feature">
-                <span class="pro-icon" aria-hidden="true">&#127384;</span>
-                <div>
-                    <h4>Konwersja wsadowa</h4>
-                    <p>Konwertuj całe partie jednocześnie — w aplikacji lub bezpośrednio z Share Sheet.</p>
-                </div>
-            </div>
-            
-        </div>
-        <div class="pro-price">
-            <span class="price">Dostęp na zawsze</span>
-            <p class="price-note">Jednorazowy zakup. Dostępne również subskrypcje.</p>
-            <a class="badge-link" href="https://apps.apple.com/app/image-converter-plus/id6759621930" aria-label="Download on the App Store">
-                <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/pl-pl?size=250x83" alt="Download on the App Store">
+        <p class="hero-chip mono" id="hero-chip" dir="ltr" aria-hidden="true">
+            <span class="chip-from" id="hero-chip-from">PNG · 18 MB</span>
+            <span class="chip-arrow">→</span>
+            <span class="chip-to" id="hero-chip-to">WebP · 1.5 MB</span>
+            <span class="chip-note">przykład</span>
+        </p>
+        <h1 class="hero-title">Konwertuj. Skaluj. <span class="grad">Chroń.</span></h1>
+        <p class="hero-sub">Wsadowa konwersja obrazów na iPhone'a i iPada — siedem formatów, precyzyjna kontrola jakości i metadane usuwane, zanim cokolwiek udostępnisz. W całości na Twoim urządzeniu.</p>
+        <div class="cta-row">
+            <a class="badge-link" href="https://apps.apple.com/app/image-converter-plus/id6759621930">
+                <img src="../images/badges/pl-pl-black.svg" alt="Pobierz w App Store" width="120" height="40">
             </a>
+            <a class="ghost-link" href="#formats">Zobacz, jak to działa <span aria-hidden="true">↓</span></a>
+        </div>
+        <p class="hero-availability">Za darmo w App Store · iOS 16+ · iPhone &amp; iPad</p>
+    </div>
+</header>
+
+<!-- 02 · Formats -->
+<section class="formats" id="formats" aria-labelledby="formats-title">
+    <div class="section-inner center">
+        <p class="eyebrow mono">Formaty</p>
+        <h2 class="headline" id="formats-title">Każdy format, jakiego kiedykolwiek potrzebujesz.</h2>
+        <p class="lede">Konwertuj między formatami, które się liczą — i wybierz właściwą równowagę między jakością, kompatybilnością a rozmiarem.</p>
+        <ul class="format-chips" role="list">
+            <li class="chip mono" data-reveal>JPEG</li>
+            <li class="chip mono is-pro" data-reveal>PDF <span class="pro-tag">PRO</span></li>
+            <li class="chip mono" data-reveal>PNG</li>
+            <li class="chip mono" data-reveal>WebP</li>
+            <li class="chip mono" data-reveal>HEIC</li>
+            <li class="chip mono is-pro" data-reveal>AVIF <span class="pro-tag">PRO</span></li>
+            <li class="chip mono is-pro" data-reveal>TIFF <span class="pro-tag">PRO</span></li>
+        </ul>
+        <p class="format-note mono" dir="ltr">PNG 18 MB&nbsp;&nbsp;→&nbsp;&nbsp;WebP 1.5 MB&nbsp;&nbsp;·&nbsp;&nbsp;to samo zdjęcie</p>
+    </div>
+</section>
+
+<!-- 03 · Features -->
+<section class="features" id="features" aria-labelledby="features-title">
+    <div class="section-inner">
+        <p class="eyebrow mono">Kontrola</p>
+        <h2 class="headline" id="features-title">Precyzja na każdym etapie.</h2>
+        <div class="features-layout">
+            <div class="features-phone" aria-hidden="true">
+                <div class="phone" id="features-phone">
+                    <img src="../images/screenshots/pl/7.webp" alt="Default Settings screen with the quality slider set to 90 percent" width="600" height="1304" loading="lazy" decoding="async" data-shot="0" class="is-active">
+                    <img src="../images/screenshots/pl/5.webp" alt="Per-image settings for a coastal photo: format, quality, size, file name, and privacy" width="600" height="1304" loading="lazy" decoding="async" data-shot="1">
+                    <img src="../images/screenshots/pl/1.webp" alt="Convert screen with a selected photo and conversion options" width="600" height="1304" loading="lazy" decoding="async" data-shot="2">
+                    <img src="../images/screenshots/pl/2.webp" alt="Batch of six photos being converted to a merged PDF" width="600" height="1304" loading="lazy" decoding="async" data-shot="3">
+                </div>
+            </div>
+            <div class="features-steps">
+                <div class="feature-step" data-step="0">
+                    <span class="step-index mono">01</span>
+                    <h3>Jakość na Twoich zasadach.</h3>
+                    <p>Ustaw jakość w dowolnym miejscu od 40 do 100% — albo przełącz na poziomy jednym dotknięciem, od Niskiej do Maksymalnej, dla każdego zdjęcia lub jako ustawienie domyślne.</p>
+                </div>
+                <div class="feature-step" data-step="1">
+                    <span class="step-index mono">02</span>
+                    <h3>Każdy obraz, własne reguły.</h3>
+                    <p>Skaluj od 50 do 200% i zmień format, jakość lub nazewnictwo dla każdego obrazu — albo zastosuj jedno ustawienie do całej partii.</p>
+                </div>
+                <div class="feature-step" data-step="2">
+                    <span class="step-index mono">03</span>
+                    <h3>Nazwane po Twojemu.</h3>
+                    <p>Zachowaj oryginalne nazwy, dodaj prefiks lub sufiks, albo ręcznie zmień nazwę każdego pliku przed zapisaniem.</p>
+                </div>
+                <div class="feature-step" data-step="3">
+                    <span class="step-index mono">04</span>
+                    <h3>Jeden dotyk. Gotowe presety.</h3>
+                    <p>JPEG High Quality, PDF Document, Quick Share, Private Photo — format, jakość, rozmiar i obsługa metadanych już ustawione.</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
-<!-- Accessibility -->
-<section>
-    <div class="section-inner fade-in">
-        <p class="section-eyebrow">Dostępność</p>
-        <h2 class="section-headline">Zaprojektowane dla każdego.</h2>
-        <p class="section-body">Dostępność uwzględniona od samego początku. Dostępne w 60 językach z selektorem języka w aplikacji.</p>
-        <div class="a11y-badges">
-            
-            <span class="a11y-badge">VoiceOver</span>
-            
-            <span class="a11y-badge">Dynamic Type</span>
-            
-            <span class="a11y-badge">Wibracje haptyczne</span>
-            
-            <span class="a11y-badge">60 języków</span>
-            
+<!-- 04 · Privacy / EXIF inspector -->
+<section class="privacy" id="privacy" aria-labelledby="privacy-title">
+    <div class="section-inner">
+        <div class="privacy-manifesto center">
+            <p class="eyebrow mono warn">Prywatność</p>
+            <h2 class="headline split-lines" id="privacy-title">Twoje zdjęcia mówią więcej,<br>niż myślisz.</h2>
+            <p class="lede">Współrzędne GPS. Model aparatu. Znaczniki czasu. Historia edycji. Wszystko to podróżuje wraz z plikiem — chyba że to usuniesz.</p>
+            <ul class="meta-tags mono" aria-hidden="true">
+                <li>Lokalizacja</li><li>Informacje o rejestracji</li><li>Podpisy &amp; autorstwo</li><li>Informacje o urządzeniu</li><li>Historia edycji</li><li>Osadzone podglądy</li>
+            </ul>
+        </div>
+
+        <div class="panel inspector" id="exif-panel">
+            <h3 class="inspector-title">Zobacz, co mówi Twoje.</h3>
+            <div class="inspector-intro" id="exif-intro">
+                <label class="dropzone" id="exif-drop">
+                    <input type="file" id="exif-input" accept="image/*,.heic,.HEIC">
+                    <svg class="dz-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.25c.41 0 .75.34.75.75v9.69l2.72-2.72a.75.75 0 1 1 1.06 1.06l-4 4a.75.75 0 0 1-1.06 0l-4-4a.75.75 0 1 1 1.06-1.06l2.72 2.72V3c0-.41.34-.75.75-.75ZM4.5 15.75a.75.75 0 0 1 .75.75v2.25c0 .41.34.75.75.75h12a.75.75 0 0 0 .75-.75V16.5a.75.75 0 0 1 1.5 0v2.25A2.25 2.25 0 0 1 18 21H6a2.25 2.25 0 0 1-2.25-2.25V16.5a.75.75 0 0 1 .75-.75Z" fill="currentColor"/></svg>
+                    <span class="dz-label">Upuść zdjęcie — albo wybierz plik</span>
+                </label>
+                <button type="button" class="link-btn" id="exif-sample">…albo zbadaj przykładowe zdjęcie</button>
+                <p class="lock-line"><svg class="lock-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 7V5a4 4 0 1 1 8 0v2h.5A1.5 1.5 0 0 1 14 8.5v5A1.5 1.5 0 0 1 12.5 15h-9A1.5 1.5 0 0 1 2 13.5v-5A1.5 1.5 0 0 1 3.5 7H4Zm1.5-2v2h5V5a2.5 2.5 0 0 0-5 0Z" fill="currentColor"/></svg> Odczytywane lokalnie w Twojej przeglądarce. Nigdy nie przesyłane.</p>
+                <noscript><p class="noscript-note">Inspektor potrzebuje JavaScriptu — aplikacja nie. Usuwa ona metadane z każdego zdjęcia, na urządzeniu.</p></noscript>
+            </div>
+            <div class="inspector-result" id="exif-result" tabindex="-1" hidden>
+                <figure class="inspector-thumb">
+                    <img id="exif-thumb" alt="Podgląd badanego zdjęcia">
+                    <div class="scanline" id="exif-scanline" aria-hidden="true"></div>
+                    <figcaption class="mono" id="exif-thumbname"></figcaption>
+                </figure>
+                <div class="inspector-dossier">
+                    <p class="dossier-head mono"><span class="count" id="exif-count">0</span> <span id="exif-count-label">znalezionych pól</span></p>
+                    <dl class="dossier-rows" id="exif-rows"></dl>
+                    <div class="map-fix" id="exif-map" hidden>
+                        <img class="map-img" id="exif-map-img" alt="" aria-hidden="true" loading="lazy" decoding="async">
+                        <svg viewBox="0 0 360 200" class="map-svg" aria-hidden="true">
+                            <g class="graticule"></g>
+                            <g class="fix" id="exif-fix">
+                                <line class="fix-h" x1="0" y1="0" x2="360" y2="0"/>
+                                <line class="fix-v" x1="0" y1="0" x2="0" y2="200"/>
+                                <circle class="fix-ring" r="9"/>
+                                <circle class="fix-dot" r="3"/>
+                            </g>
+                        </svg>
+                        <p class="map-caption mono" id="exif-map-caption">TO ZDJĘCIE WIE, GDZIE BYŁEŚ.</p>
+                        <p class="map-coords mono" id="exif-coords"></p>
+                        <p class="map-note mono">Kafelki mapy ładują się z Google — Twoje zdjęcie nigdy nie opuszcza tej strony.</p>
+                    </div>
+                    <p class="verdict" id="exif-verdict" role="status"></p>
+                    <div class="dossier-actions">
+                        <button type="button" class="btn-primary" id="exif-strip">Usuń</button>
+                        <button type="button" class="link-btn" id="exif-again">Zbadaj inne</button>
+                    </div>
+                    <div class="clean-state" id="exif-clean" hidden>
+                        <p><strong>Czyste.</strong> Image Converter Plus robi dokładnie to — z każdym zdjęciem, wsadowo, prosto na Twoim iPhonie. Z precyzyjną kontrolą nad wszystkimi sześcioma kategoriami.</p>
+                        <a class="badge-link" href="https://apps.apple.com/app/image-converter-plus/id6759621930">
+                            <img src="../images/badges/pl-pl-white.svg" alt="Pobierz w App Store" width="120" height="40" loading="lazy">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="privacy-grid" role="list">
+            <li class="privacy-item" data-reveal>
+                <svg class="pi-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7.5 7.5 0 0 1 7.5 7.5c0 4.9-5.4 10.4-6.9 11.8a.9.9 0 0 1-1.2 0C9.9 19.9 4.5 14.4 4.5 9.5A7.5 7.5 0 0 1 12 2Zm0 4.75a2.75 2.75 0 1 0 0 5.5 2.75 2.75 0 0 0 0-5.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                <h4>Lokalizacja</h4><p>Współrzędne GPS i nazwy miejsc</p>
+            </li>
+            <li class="privacy-item" data-reveal>
+                <svg class="pi-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 5.5 9.6 4a1.5 1.5 0 0 1 1.2-.6h2.4a1.5 1.5 0 0 1 1.2.6l1.1 1.5H19A2.5 2.5 0 0 1 21.5 8v9.5A2.5 2.5 0 0 1 19 20H5a2.5 2.5 0 0 1-2.5-2.5V8A2.5 2.5 0 0 1 5 5.5h3.5ZM12 9a3.75 3.75 0 1 0 0 7.5A3.75 3.75 0 0 0 12 9Z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                <h4>Informacje o rejestracji</h4><p>Data, godzina i ustawienia aparatu</p>
+            </li>
+            <li class="privacy-item" data-reveal>
+                <svg class="pi-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h7.09a2.5 2.5 0 0 1 1.77.73l4.91 4.91a2.5 2.5 0 0 1 0 3.54l-6.09 6.09a2.5 2.5 0 0 1-3.54 0L5.73 14.36A2.5 2.5 0 0 1 5 12.59L4 6.5Zm5.25 1.25a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                <h4>Podpisy &amp; autorstwo</h4><p>Podpis, słowa kluczowe i autor</p>
+            </li>
+            <li class="privacy-item" data-reveal>
+                <svg class="pi-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="2.75" width="11" height="18.5" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 18.5h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                <h4>Informacje o urządzeniu</h4><p>Nazwa modelu i identyfikatory</p>
+            </li>
+            <li class="privacy-item" data-reveal>
+                <svg class="pi-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7.5V12l3 2.25M21 12a9 9 0 1 1-2.64-6.36M21 3.75v4.5h-4.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <h4>Historia edycji</h4><p>Nazwa aplikacji i zapisy edycji</p>
+            </li>
+            <li class="privacy-item" data-reveal>
+                <svg class="pi-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="13" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 3.5h10A2.5 2.5 0 0 1 20.5 6v10M6.5 15l2.6-2.6a1 1 0 0 1 1.4 0l1.9 1.9 1.4-1.4a1 1 0 0 1 1.4 0l1.3 1.3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                <h4>Osadzone podglądy</h4><p>Miniatury i dodatkowe dane</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- 05 · Workflow -->
+<section class="workflow" id="workflow" aria-labelledby="workflow-title">
+    <div class="section-inner">
+        <p class="eyebrow mono">Przepływ pracy</p>
+        <h2 class="headline" id="workflow-title">Już w Twoim Share Sheet.</h2>
+        <div class="workflow-cards">
+            <article class="panel workflow-card" data-reveal>
+                <div class="workflow-shot tilt-l"><img src="../images/screenshots/pl/8.webp" alt="Panel Share Extension z presetami konwersji na jeden dotyk" width="600" height="1304" loading="lazy" decoding="async"></div>
+                <h3>Share Extension</h3>
+                <p>Wybierz zdjęcia w dowolnej aplikacji, dotknij Udostępnij i konwertuj w jednym kroku — bez otwierania aplikacji. Pro odblokowuje partie i wszystkie formaty prosto z panelu.</p>
+            </article>
+            <article class="panel workflow-card" data-reveal>
+                <div class="workflow-shot tilt-r"><img src="../images/screenshots/pl/6.webp" alt="Ekran historii z listą przekonwertowanych obrazów, ich rozmiarami i szczegółami" width="600" height="1304" loading="lazy" decoding="async"></div>
+                <h3>Historia konwersji</h3>
+                <p>Każda konwersja zapisana z miniaturą. W dowolnej chwili wyeksportuj ponownie do Zdjęć, Plików lub Share Sheet — automatyczne usuwanie utrzymuje porządek.</p>
+            </article>
         </div>
     </div>
 </section>
 
-<!-- Bottom CTA -->
-<section class="bottom-cta">
-    <h2>Zacznij konwertować za darmo.</h2>
-    <div class="cta-group">
-        <a class="badge-link" href="https://apps.apple.com/app/image-converter-plus/id6759621930" aria-label="Pobierz w App Store">
-            <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/pl-pl?size=250x83" alt="Pobierz w App Store">
+<!-- 06 · On-device manifesto -->
+<section class="manifesto" id="ondevice" aria-labelledby="manifesto-title">
+    <div class="section-inner center">
+        <h2 class="headline split-lines" id="manifesto-title">Żadnych serwerów.<br>Żadnych przesyłek.<br><span class="grad">Żadnych wyjątków.</span></h2>
+        <div class="rule-line" aria-hidden="true"></div>
+        <p class="lede">Każdy obraz jest przetwarzany na Twoim urządzeniu — konwersja działa nawet w Trybie samolotowym. Połączenie z internetem jest używane wyłącznie do zakupów i opcjonalnych reklam z nagrodą, które darmowi użytkownicy mogą obejrzeć, jeśli chcą. To cała lista. <a href="privacy.html">Przeczytaj politykę prywatności</a></p>
+    </div>
+</section>
+
+<!-- 07 · Pro -->
+<section class="pro" id="pro" aria-labelledby="pro-title">
+    <div class="section-inner">
+        <div class="panel pro-panel">
+            <p class="eyebrow mono violet">Pro</p>
+            <h2 class="headline" id="pro-title">Odblokuj wszystko.</h2>
+            <ul class="pro-list" role="list">
+                <li>
+                    <svg class="pro-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h4l2 2.5H19A2.5 2.5 0 0 1 21.5 9v8.5A2.5 2.5 0 0 1 19 20H6.5A2.5 2.5 0 0 1 4 17.5v-11Z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                    <div><h3>Wyjście PDF, AVIF &amp; TIFF</h3><p>Wszystkie siedem formatów, do każdego zastosowania — w tym całe partie połączone w jeden plik PDF.</p></div>
+                </li>
+                <li>
+                    <svg class="pro-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.75 19.25 6v5.25c0 4.54-3.05 8.42-7.25 9.75-4.2-1.33-7.25-5.21-7.25-9.75V6L12 2.75Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="m9 12 2.25 2.25L15.5 9.75" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    <div><h3>Usuwanie metadanych</h3><p>Pełne usuwanie EXIF z czterema presetami prywatności i precyzyjną kontrolą.</p></div>
+                </li>
+                <li>
+                    <svg class="pro-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="13" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 3.5h10A2.5 2.5 0 0 1 20.5 6v10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    <div><h3>Konwersja wsadowa</h3><p>Konwertuj setki naraz — w aplikacji lub prosto z Share Sheet.</p></div>
+                </li>
+            </ul>
+            <div class="pro-price">
+                <p class="price-line">Dostęp na zawsze.</p>
+                <p class="price-note">Jednorazowy zakup. Dostępne są też subskrypcje. Family Sharing w zestawie.</p>
+                <a class="badge-link" href="https://apps.apple.com/app/image-converter-plus/id6759621930">
+                    <img src="../images/badges/pl-pl-white.svg" alt="Pobierz w App Store" width="120" height="40" loading="lazy">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 08 · Languages & accessibility -->
+<section class="languages" id="languages" aria-labelledby="languages-title">
+    <div class="section-inner center">
+        <p class="eyebrow mono">Dla każdego</p>
+        <h2 class="headline" id="languages-title">Mówi Twoim językiem.</h2>
+        <p class="lede">60 języków z selektorem w aplikacji. VoiceOver, Dynamic Type i wibracje haptyczne w całej aplikacji.</p>
+    </div>
+    <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+            <span>Українська</span><span>Español</span><span>日本語</span><span>Deutsch</span><span>Français</span><span>简体中文</span><span>한국어</span><span>Italiano</span><span>Português</span><span>हिन्दी</span><span>Türkçe</span><span>Tiếng Việt</span><span>العربية</span><span>Nederlands</span><span>Svenska</span>
+            <span>Українська</span><span>Español</span><span>日本語</span><span>Deutsch</span><span>Français</span><span>简体中文</span><span>한국어</span><span>Italiano</span><span>Português</span><span>हिन्दी</span><span>Türkçe</span><span>Tiếng Việt</span><span>العربية</span><span>Nederlands</span><span>Svenska</span>
+        </div>
+        <div class="marquee-track reverse">
+            <span>Polski</span><span>ไทย</span><span>Ελληνικά</span><span>Čeština</span><span>Magyar</span><span>Română</span><span>עברית</span><span>Bahasa Indonesia</span><span>繁體中文</span><span>Dansk</span><span>Suomi</span><span>Norsk</span><span>Català</span><span>বাংলা</span><span>Cymraeg</span>
+            <span>Polski</span><span>ไทย</span><span>Ελληνικά</span><span>Čeština</span><span>Magyar</span><span>Română</span><span>עברית</span><span>Bahasa Indonesia</span><span>繁體中文</span><span>Dansk</span><span>Suomi</span><span>Norsk</span><span>Català</span><span>বাংলা</span><span>Cymraeg</span>
+        </div>
+    </div>
+    <div class="section-inner center">
+        <ul class="a11y-pills" role="list">
+            <li>VoiceOver</li><li>Dynamic Type</li><li>Wibracje haptyczne</li><li>60 języków</li>
+        </ul>
+    </div>
+</section>
+
+<!-- 10 · Final CTA -->
+<section class="closing" id="download" aria-labelledby="closing-title">
+    <div class="section-inner center">
+        <img class="closing-icon" src="../images/AppIcon.png" alt="" width="96" height="96" loading="lazy">
+        <h2 class="headline" id="closing-title">Wywołuj swoje zdjęcia<br>w prywatności.</h2>
+        <p class="lede">Za darmo do pobrania. Pro, gdy go potrzebujesz.</p>
+        <a class="badge-link" href="https://apps.apple.com/app/image-converter-plus/id6759621930">
+            <img src="../images/badges/pl-pl-black.svg" alt="Pobierz w App Store" width="120" height="40" loading="lazy">
         </a>
+        <p class="hero-availability">Dostępne na iPhonie i iPadzie. Wymaga iOS 16 lub nowszego.</p>
     </div>
 </section>
 
-<!-- Footer -->
-<footer>
+</main>
+
+<footer class="site-footer">
     <div class="footer-inner">
         <span class="copyright">© 2026 Denys Lebiediev</span>
         <ul class="footer-links">
@@ -319,21 +402,88 @@
             <li><a href="terms.html">Warunki użytkowania</a></li>
             <li><a href="support.html">Pomoc</a></li>
         </ul>
+        <!-- lang-menu -->
+        <details class="lang-menu">
+            <summary class="lang-trigger" aria-label="Język: Polski"><svg class="lang-globe" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="8" cy="8" rx="2.8" ry="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M1.7 8h12.6M2.6 4.6h10.8M2.6 11.4h10.8" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="lang-current">Polski</span><svg class="lang-chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+            <div class="lang-panel">
+                <ul class="lang-list" role="list" translate="no">
+                    <li><a href="../af/index.html" lang="af" hreflang="af">Afrikaans</a></li>
+                    <li><a href="../id/index.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+                    <li><a href="../ms/index.html" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+                    <li><a href="../bs/index.html" lang="bs" hreflang="bs">Bosanski</a></li>
+                    <li><a href="../ca/index.html" lang="ca" hreflang="ca">Català</a></li>
+                    <li><a href="../cs/index.html" lang="cs" hreflang="cs">Čeština</a></li>
+                    <li><a href="../cy/index.html" lang="cy" hreflang="cy">Cymraeg</a></li>
+                    <li><a href="../da/index.html" lang="da" hreflang="da">Dansk</a></li>
+                    <li><a href="../de/index.html" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="../et/index.html" lang="et" hreflang="et">Eesti</a></li>
+                    <li><a href="../index.html?lang=en" lang="en" hreflang="en">English</a></li>
+                    <li><a href="../es/index.html" lang="es" hreflang="es">Español</a></li>
+                    <li><a href="../fil/index.html" lang="fil" hreflang="fil">Filipino</a></li>
+                    <li><a href="../fr/index.html" lang="fr" hreflang="fr">Français</a></li>
+                    <li><a href="../ga/index.html" lang="ga" hreflang="ga">Gaeilge</a></li>
+                    <li><a href="../hr/index.html" lang="hr" hreflang="hr">Hrvatski</a></li>
+                    <li><a href="../is/index.html" lang="is" hreflang="is">Íslenska</a></li>
+                    <li><a href="../it/index.html" lang="it" hreflang="it">Italiano</a></li>
+                    <li><a href="../sw/index.html" lang="sw" hreflang="sw">Kiswahili</a></li>
+                    <li><a href="../lv/index.html" lang="lv" hreflang="lv">Latviešu</a></li>
+                    <li><a href="../lt/index.html" lang="lt" hreflang="lt">Lietuvių</a></li>
+                    <li><a href="../hu/index.html" lang="hu" hreflang="hu">Magyar</a></li>
+                    <li><a href="../mt/index.html" lang="mt" hreflang="mt">Malti</a></li>
+                    <li><a href="../nl/index.html" lang="nl" hreflang="nl">Nederlands</a></li>
+                    <li><a href="../nb/index.html" lang="nb" hreflang="nb">Norsk bokmål</a></li>
+                    <li><a href="../pl/index.html" lang="pl" hreflang="pl" aria-current="true">Polski<svg class="lang-check" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="../pt-BR/index.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+                    <li><a href="../pt-PT/index.html" lang="pt-PT" hreflang="pt-PT">Português (Portugal)</a></li>
+                    <li><a href="../ro/index.html" lang="ro" hreflang="ro">Română</a></li>
+                    <li><a href="../sq/index.html" lang="sq" hreflang="sq">Shqip</a></li>
+                    <li><a href="../sk/index.html" lang="sk" hreflang="sk">Slovenčina</a></li>
+                    <li><a href="../sl/index.html" lang="sl" hreflang="sl">Slovenščina</a></li>
+                    <li><a href="../fi/index.html" lang="fi" hreflang="fi">Suomi</a></li>
+                    <li><a href="../sv/index.html" lang="sv" hreflang="sv">Svenska</a></li>
+                    <li><a href="../vi/index.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+                    <li><a href="../tr/index.html" lang="tr" hreflang="tr">Türkçe</a></li>
+                    <li><a href="../be/index.html" lang="be" hreflang="be">Беларуская</a></li>
+                    <li><a href="../bg/index.html" lang="bg" hreflang="bg">Български</a></li>
+                    <li><a href="../mk/index.html" lang="mk" hreflang="mk">Македонски</a></li>
+                    <li><a href="../sr/index.html" lang="sr" hreflang="sr">Српски</a></li>
+                    <li><a href="../uk/index.html" lang="uk" hreflang="uk">Українська</a></li>
+                    <li><a href="../el/index.html" lang="el" hreflang="el">Ελληνικά</a></li>
+                    <li><a href="../ar/index.html" lang="ar" hreflang="ar">العربية</a></li>
+                    <li><a href="../he/index.html" lang="he" hreflang="he">עברית</a></li>
+                    <li><a href="../ur/index.html" lang="ur" hreflang="ur">اردو</a></li>
+                    <li><a href="../fa/index.html" lang="fa" hreflang="fa">فارسی</a></li>
+                    <li><a href="../hi/index.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+                    <li><a href="../mr/index.html" lang="mr" hreflang="mr">मराठी</a></li>
+                    <li><a href="../gu/index.html" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+                    <li><a href="../pa/index.html" lang="pa" hreflang="pa">ਪੰਜਾਬੀ</a></li>
+                    <li><a href="../bn/index.html" lang="bn" hreflang="bn">বাংলা</a></li>
+                    <li><a href="../ta/index.html" lang="ta" hreflang="ta">தமிழ்</a></li>
+                    <li><a href="../te/index.html" lang="te" hreflang="te">తెలుగు</a></li>
+                    <li><a href="../kn/index.html" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+                    <li><a href="../ml/index.html" lang="ml" hreflang="ml">മലയാളം</a></li>
+                    <li><a href="../th/index.html" lang="th" hreflang="th">ไทย</a></li>
+                    <li><a href="../ja/index.html" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="../ko/index.html" lang="ko" hreflang="ko">한국어</a></li>
+                    <li><a href="../zh-Hans/index.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+                    <li><a href="../zh-Hant/index.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+                </ul>
+            </div>
+        </details>
+        <script defer src="../js/lang-menu.js"></script>
+        <!-- /lang-menu -->
     </div>
 </footer>
 
+<script defer src="../js/vendor/gsap.min.js"></script>
+<script defer src="../js/vendor/ScrollTrigger.min.js"></script>
+<script defer src="../js/vendor/SplitText.min.js"></script>
+<script>window.__icpI18n={"insp_fields":"znalezionych pól","insp_mapcaption":"TO ZDJĘCIE WIE, GDZIE BYŁEŚ.","dl_device":"Urządzenie","dl_lens":"Obiektyw","dl_software":"Oprogramowanie","dl_captured":"Zrobiono","dl_exposure":"Ekspozycja","dl_focal":"Ogniskowa","dl_dimensions":"Wymiary","dl_author":"Autor","dl_copyright":"Prawa autorskie","dl_caption":"Podpis","dl_location":"Lokalizacja","dl_altitude":"Wysokość","alt_suffix":"m n.p.m.","unit_mb":"MB","insp_fields_left":"pozostałych pól","map_removed":"LOKALIZACJA USUNIĘTA.","meta_removed":"Metadane usunięte.","err_read":"Nie udało się odczytać tego pliku. Spróbuj z JPEG lub HEIC prosto z aparatu.","no_metadata":"Nie znaleziono metadanych — to zdjęcie jest już czyste. Zdjęcia prosto z Twojego aparatu zwykle mówią znacznie więcej. Spróbuj z którymś albo zbadaj przykład.","err_sample":"Nie udało się wczytać przykładowego zdjęcia. Upuść zamiast niego własne.","thumb_nopreview":"(brak podglądu w tej przeglądarce — metadane i tak odczytują się poprawnie)","verdict_reveal":{"few":"To zdjęcie ujawnia \u003cstrong>{n} rzeczy\u003c/strong>, których nie widzisz.","many":"To zdjęcie ujawnia \u003cstrong>{n} rzeczy\u003c/strong>, których nie widzisz.","one":"To zdjęcie ujawnia \u003cstrong>{n} rzecz\u003c/strong>, której nie widzisz.","other":"To zdjęcie ujawnia \u003cstrong>{n} rzeczy\u003c/strong>, których nie widzisz."},"verdict_almost":{"few":"Prawie czyste — tylko \u003cstrong>{n} pola techniczne\u003c/strong>. Zdjęcia prosto z Twojego aparatu zwykle mówią znacznie więcej.","many":"Prawie czyste — tylko \u003cstrong>{n} pól technicznych\u003c/strong>. Zdjęcia prosto z Twojego aparatu zwykle mówią znacznie więcej.","one":"Prawie czyste — tylko \u003cstrong>{n} pole techniczne\u003c/strong>. Zdjęcia prosto z Twojego aparatu zwykle mówią znacznie więcej.","other":"Prawie czyste — tylko \u003cstrong>{n} pola technicznego\u003c/strong>. Zdjęcia prosto z Twojego aparatu zwykle mówią znacznie więcej."}};</script>
+<script type="module" src="../js/home.js"></script>
 <script>
-    // Fade-in on scroll
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
-
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+setTimeout(function () {
+    if (!window.__icpBooted) { document.documentElement.classList.remove('js'); }
+}, 2500);
 </script>
 
 </body>

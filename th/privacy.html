@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=6759621930">
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#05060A">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <link rel="icon" href="../images/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
+    <script>
+        document.documentElement.classList.add('js');
+        // if subpage.js never boots, un-gate the reveals so content can't stay hidden
+        setTimeout(function () { if (!window.__icpSubBooted) document.documentElement.classList.remove('js'); }, 2500);
+    </script>
     <title>นโยบายความเป็นส่วนตัว - Image Converter Plus</title>
     <meta name="description" content="นโยบายความเป็นส่วนตัวสำหรับ Image Converter Plus รูปภาพจะถูกประมวลผลบนอุปกรณ์ของคุณเท่านั้น เราอธิบายอย่างชัดเจนว่า SDK ของบุคคลที่สามเก็บรวบรวมข้อมูลใดบ้างสำหรับการซื้อและโฆษณา">
     <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/privacy.html">
@@ -74,36 +78,49 @@
     <link rel="alternate" hreflang="cy" href="https://denyslebiediev.github.io/imageconverterplus/cy/privacy.html">
     <link rel="alternate" hreflang="be" href="https://denyslebiediev.github.io/imageconverterplus/be/privacy.html">
     <link rel="alternate" hreflang="x-default" href="https://denyslebiediev.github.io/imageconverterplus/privacy.html">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/subpage.css">
+    <meta property="og:title" content="นโยบายความเป็นส่วนตัว — Image Converter Plus">
+    <meta property="og:description" content="นโยบายความเป็นส่วนตัวสำหรับ Image Converter Plus รูปภาพจะถูกประมวลผลบนอุปกรณ์ของคุณเท่านั้น เราอธิบายอย่างชัดเจนว่า SDK ของบุคคลที่สามเก็บรวบรวมข้อมูลใดบ้างสำหรับการซื้อและโฆษณา">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://denyslebiediev.github.io/imageconverterplus/th/privacy.html">
+    <meta property="og:image" content="https://denyslebiediev.github.io/imageconverterplus/images/icon-512.png">
+    <link rel="canonical" href="https://denyslebiediev.github.io/imageconverterplus/th/privacy.html">
+    <link rel="preload" href="../fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/subpage-dark.css">
 
 </head>
 <body>
 
-<!-- Nav -->
-<nav>
+<a class="skip-link" href="#main">ข้ามไปยังเนื้อหา</a>
+
+<nav class="site-nav" aria-label="เว็บไซต์">
     <div class="nav-inner">
-        <a class="nav-title" href="index.html">Image Converter Plus</a>
+        <a class="nav-brand" href="index.html">
+            <img src="../images/AppIcon.png" alt="" width="28" height="28">
+            <span>Image Converter Plus</span>
+        </a>
         <ul class="nav-links">
-            <li><a href="privacy.html">นโยบายความเป็นส่วนตัว</a></li>
+            <li><a href="privacy.html" aria-current="page">นโยบายความเป็นส่วนตัว</a></li>
             <li><a href="terms.html">ข้อกำหนดการใช้งาน</a></li>
             <li><a href="support.html">การสนับสนุน</a></li>
         </ul>
+        <a class="nav-cta" href="https://apps.apple.com/app/image-converter-plus/id6759621930">ดาวน์โหลดแอป</a>
     </div>
 </nav>
 
-<div class="page">
+<div class="page" id="main">
 
     <!-- Hero -->
-    <div class="hero fade-in">
-        <h1>นโยบายความเป็นส่วนตัว</h1>
+    <header class="page-head">
+        <p class="eyebrow mono">กฎหมาย · ความเป็นส่วนตัว</p>
+        <h1 class="headline">นโยบายความเป็นส่วนตัว</h1>
         <p class="subtitle">รูปภาพของคุณยังคงอยู่บนอุปกรณ์ของคุณ หน้านี้อธิบายอย่างชัดเจนว่าเราและผู้ให้บริการของเราทำอะไร — และไม่ทำอะไร — กับข้อมูลของคุณ</p>
-    </div>
+    </header>
 
     <!-- Content Cards -->
-    <div class="stagger">
+    <div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>สรุป</h2>
             <p>Image Converter Plus (&ldquo;แอป&rdquo;) สร้างขึ้นโดย Denys Lebiediev การแปลงรูปภาพทั้งหมดทำงานบนอุปกรณ์ของคุณ เราไม่ได้ดำเนินการเซิร์ฟเวอร์ใดที่รับรูปภาพของคุณ อย่างไรก็ตาม เราใช้บริการของบุคคลที่สามที่เชื่อถือได้จำนวนเล็กน้อยเพื่อจัดการการซื้อภายในแอปและเพื่อแสดงโฆษณาวิดีโอแบบมีรางวัลที่เป็นทางเลือกแก่ผู้ใช้แบบฟรี บริการเหล่านั้นเก็บรวบรวมข้อมูลที่จำกัดและส่วนใหญ่ไม่ระบุตัวตนตามที่อธิบายไว้ด้านล่าง คุณมีอำนาจควบคุมสิ่งที่เกิดขึ้นอยู่เสมอ</p>
             <ul>
@@ -115,9 +132,9 @@
             </ul>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>สิ่งที่ยังคงอยู่บนอุปกรณ์ของคุณ</h2>
-            <p>การแปลงรูปภาพ การปรับขนาด การลบข้อมูลเมตา การใส่ลายน้ำ การตั้งชื่อไฟล์ พรีเซ็ต และประวัติการแปลงทั้งหมดเกิดขึ้นทั้งหมดบน iPhone หรือ iPad ของคุณ ไม่มีสิ่งใดเกี่ยวกับเนื้อหาของรูปภาพของคุณที่ถูกส่งไปยังเราหรือไปยังบุคคลที่สามใด ๆ</p>
+            <p>การแปลงรูปภาพ การปรับขนาด การลบข้อมูลเมตา การตั้งชื่อไฟล์ พรีเซ็ต และประวัติการแปลงทั้งหมดเกิดขึ้นทั้งหมดบน iPhone หรือ iPad ของคุณ ไม่มีสิ่งใดเกี่ยวกับเนื้อหาของรูปภาพของคุณที่ถูกส่งไปยังเราหรือไปยังบุคคลที่สามใด ๆ</p>
             <ul>
                 <li>รูปภาพและไฟล์ที่คุณนำเข้า</li>
                 <li>ข้อมูลเมตาที่ถูกแยกออกหรือลบออกจากไฟล์เหล่านั้น</li>
@@ -127,7 +144,7 @@
             <p>คุณสามารถลบข้อมูลนี้ได้ตลอดเวลาโดยการลบรายการในแท็บประวัติ การล้างประวัติจากการตั้งค่า หรือการลบแอป</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>ข้อมูลที่เก็บรวบรวมโดยบริการของบุคคลที่สาม</h2>
             <p>แอปอาศัยบริการจำนวนเล็กน้อยเพื่อให้ทำงานได้ เราได้กำหนดค่าแต่ละบริการให้เก็บรวบรวมข้อมูลขั้นต่ำที่จำเป็นเท่านั้น เราไม่มีสิทธิ์เข้าถึงเนื้อหาของรูปภาพของคุณผ่านบริการใด ๆ เหล่านั้น</p>
 
@@ -142,7 +159,7 @@
             <p><strong>Apple App Store (การตรวจสอบการอัปเดต)</strong> แอปจะสอบถามจุดสิ้นสุด iTunes Lookup สาธารณะของ Apple&rsquo; เป็นระยะเพื่อทราบว่ามีเวอร์ชันใหม่กว่าหรือไม่ คำขอนี้รวมเฉพาะตัวระบุบันเดิลของแอปและประเทศของหน้าร้านของคุณเท่านั้น Apple อาจได้รับที่อยู่ IP ของคุณเป็นส่วนหนึ่งของคำขอ HTTPS ใด ๆ แต่เราไม่ได้รับ</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>การติดตามและโฆษณาที่ปรับให้เหมาะกับแต่ละบุคคล</h2>
             <p>หากคุณเป็นผู้ใช้แบบฟรี ในครั้งแรกที่แอปอยู่ในตำแหน่งที่จะแสดงโฆษณาแก่คุณ เราอาจถามคุณผ่านการแจ้งเตือนระบบมาตรฐานของ Apple&rsquo; (App Tracking Transparency) ว่าคุณอนุญาตให้แอปใช้ตัวระบุโฆษณาของอุปกรณ์ของคุณ (IDFA) เพื่อส่งโฆษณาที่เกี่ยวข้องมากขึ้นหรือไม่ คำตอบของคุณถือเป็นที่สิ้นสุด คุณสามารถเปลี่ยนได้ตลอดเวลาใน iOS&nbsp;การตั้งค่า&nbsp;&rsaquo; ความเป็นส่วนตัวและความปลอดภัย &amp; &nbsp;&rsaquo; การติดตาม &nbsp;&rsaquo; Image Converter Plus</p>
             <ul>
@@ -153,59 +170,59 @@
             <p>ในภูมิภาคที่อยู่ภายใต้ GDPR หรือกฎหมายที่เทียบเคียงได้ แบบฟอร์มความยินยอมของ User Messaging Platform จะปรากฏก่อนที่จะโหลดโฆษณาใด ๆ และคุณสามารถตรวจสอบหรือเปลี่ยนแปลงตัวเลือกของคุณในภายหลังได้จาก <strong>การตั้งค่า &nbsp;&rsaquo; จัดการตัวเลือกโฆษณา</strong> ภายในแอป</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>รูปภาพและไฟล์ของคุณ</h2>
             <p>แอปเข้าถึงรูปภาพผ่านตัวเลือกที่รักษาความเป็นส่วนตัวของ Apple&rsquo; (<em>PHPickerViewController</em>) ซึ่งหมายความว่าเราเห็นเฉพาะรายการที่คุณเลือกอย่างชัดเจนเท่านั้น &mdash; ไม่ใช่คลังรูปภาพทั้งหมดของคุณ ไฟล์ที่คุณนำเข้าจากแอปไฟล์จะถูกอ่านโดยตรงจากตำแหน่งที่คุณเลือก รูปภาพที่แปลงแล้วจะถูกเขียนไปยังโฟลเดอร์ส่วนตัวภายในแอป ไปยังคลังรูปภาพของคุณ (โดยได้รับอนุญาตจากคุณ) หรือไปยังตำแหน่งที่คุณเลือกในแอปไฟล์</p>
             <p>หากคุณให้สิทธิ์แก่แอปในการเพิ่มไปยังคลังรูปภาพของคุณ แอปจะร้องขอสิทธิ์ขั้นต่ำ &ldquo;เพิ่มรูปภาพเท่านั้น&rdquo; เพื่อที่จะไม่สามารถอ่านรูปภาพที่มีอยู่ของคุณได้เลย</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>ส่วนขยายการแชร์</h2>
             <p>ส่วนขยายการแชร์ช่วยให้คุณแปลงรูปภาพจากแอปอื่นใดได้โดยไม่ต้องเปิด Image Converter Plus รูปภาพที่เลือกจะถูกประมวลผลในเครื่องบนอุปกรณ์ของคุณ ส่วนขยายการแชร์ไม่มีการซื้อภายในแอป โฆษณา หรือการวิเคราะห์ หากคุณแตะจุดเข้าสู่การอัปเกรดภายในส่วนขยายการแชร์ แอปหลักจะเปิดขึ้นและกระบวนการอัปเกรดจะทำงานที่นั่น</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>ข้อมูลการวินิจฉัยในอีเมลการสนับสนุน</h2>
             <p>เมื่อคุณแตะลิงก์ติดต่อภายในแอป แอปอีเมลเริ่มต้นของคุณจะเปิดขึ้นพร้อมข้อความร่างที่กรอกข้อมูลการวินิจฉัยพื้นฐานไว้ล่วงหน้า ได้แก่ เวอร์ชันแอป เวอร์ชัน iOS รุ่นอุปกรณ์ ภาษาของแอป สถานะการสมัครสมาชิก และพื้นที่ดิสก์ที่ว่าง ข้อความนี้คุณสามารถมองเห็นได้อย่างครบถ้วนก่อนที่จะส่ง ไม่มีสิ่งใดถูกส่งเว้นแต่คุณจะกดส่ง</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>การเก็บรักษาข้อมูล</h2>
             <p>เราไม่ได้ดำเนินการเซิร์ฟเวอร์ ดังนั้นจึงไม่มีสิ่งใดที่จะเก็บรักษาไว้ในฝั่งของเรา ไฟล์ ประวัติ พรีเซ็ต และการตั้งค่าอยู่บนอุปกรณ์ของคุณ และจะถูกลบออกเมื่อคุณลบหรือถอนการติดตั้งแอป Apple, Adapty, Google และ Unity เก็บรักษาข้อมูลที่จำกัดตามที่อธิบายไว้ข้างต้นตามนโยบายการเก็บรักษาของตนเอง โปรดดูประกาศความเป็นส่วนตัวของพวกเขาสำหรับรายละเอียด</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>ไฟล์รายการความเป็นส่วนตัว</h2>
             <p>แอปจัดส่งไฟล์รายการความเป็นส่วนตัวที่ Apple กำหนด ซึ่งระบุอย่างชัดเจนว่าใช้ API ของแพลตฟอร์มใดบ้างและ SDK ของบุคคลที่สามอาจเก็บรวบรวมข้อมูลในหมวดหมู่ใดบ้าง โดยเฉพาะอย่างยิ่ง ไฟล์รายการระบุว่า: ตัวระบุอุปกรณ์และข้อมูลโฆษณาที่เชื่อมโยงกับการโฆษณาของบุคคลที่สาม (ใช้โดย AdMob และพาร์ทเนอร์การไกล่เกลี่ย Unity Ads เฉพาะเมื่อคุณให้สิทธิ์) การโต้ตอบกับผลิตภัณฑ์ ข้อมูลประสิทธิภาพ และข้อมูลการวินิจฉัยอื่น ๆ ที่เชื่อมโยงกับการวิเคราะห์และฟังก์ชันการทำงานของแอป (ใช้โดย Adapty, AdMob และ Unity Ads แบบไม่ระบุตัวตน) และประวัติการซื้อที่เชื่อมโยงกับฟังก์ชันการทำงานของแอปและการวิเคราะห์ (ใช้เพื่อตรวจสอบการสมัครสมาชิกของคุณ) Apple รวบรวมการระบุเหล่านี้และไฟล์รายการของ SDK ของบุคคลที่สามของเราไว้ในส่วน &ldquo;ความเป็นส่วนตัวของแอป&rdquo; ในรายการ App Store</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>ความเป็นส่วนตัวของเด็ก</h2>
             <p>Image Converter Plus ไม่ได้มุ่งเป้าไปที่เด็กอายุต่ำกว่า 13 ปี (หรืออายุขั้นต่ำที่เทียบเท่าในประเทศของคุณ) เราไม่เก็บรวบรวมข้อมูลส่วนบุคคลจากเด็กโดยเจตนา หากคุณเชื่อว่าเด็กได้ให้ข้อมูลส่วนบุคคลแก่เราผ่านบริการของบุคคลที่สามใด ๆ โปรดติดต่อเรา และเราจะทำงานร่วมกับผู้ให้บริการที่เกี่ยวข้องเพื่อให้นำข้อมูลนั้นออก</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>สิทธิของคุณใน EEA สหราชอาณาจักร และสวิตเซอร์แลนด์</h2>
             <p>หาก GDPR หรือ UK GDPR มีผลบังคับใช้กับคุณ คุณมีสิทธิ์เข้าถึง แก้ไข ลบ หรือส่งออกข้อมูลส่วนบุคคลของคุณ จำกัดหรือคัดค้านการประมวลผลบางอย่าง และยื่นเรื่องร้องเรียนต่อหน่วยงานคุ้มครองข้อมูลในท้องถิ่นของคุณ เนื่องจากแอปประมวลผลรูปภาพและประวัติการแปลงของคุณบนอุปกรณ์ของคุณเท่านั้น คุณจึงสามารถใช้สิทธิ์ในการเข้าถึง การแก้ไข และการลบด้วยตนเองได้โดยตรงในแอป สำหรับข้อมูลที่เก็บไว้โดย Apple, Adapty, Google หรือ Unity โปรดติดต่อบริษัทเหล่านั้นโดยตรง คุณยังสามารถเขียนถึงเราที่ที่อยู่ด้านล่าง และเราจะช่วยคุณส่งคำขอไปยังปลายทางที่ถูกต้อง</p>
             <p>ฐานทางกฎหมายที่เราอาศัย ได้แก่ การปฏิบัติตามสัญญา (การส่งมอบแอปและการซื้อของคุณ) ความยินยอม (สำหรับโฆษณาที่ปรับให้เหมาะกับแต่ละบุคคล ซึ่งมีการขอความยินยอมผ่าน User Messaging Platform และ App Tracking Transparency) และผลประโยชน์โดยชอบด้วยกฎหมาย (ข้อมูลการวินิจฉัยที่จำกัดซึ่งจำเป็นต่อการรักษาความน่าเชื่อถือของแอป โดยชั่งน้ำหนักกับผลประโยชน์ของคุณ)</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>สิทธิของคุณในแคลิฟอร์เนีย</h2>
             <p>หากคุณเป็นผู้อยู่อาศัยในแคลิฟอร์เนีย California Consumer Privacy Act (CCPA/CPRA) ให้สิทธิ์แก่คุณในการทราบว่ามีการเก็บรวบรวมข้อมูลส่วนบุคคลใดบ้างเกี่ยวกับคุณ ในการร้องขอการลบข้อมูลส่วนบุคคล ในการแก้ไขข้อมูลส่วนบุคคลที่ไม่ถูกต้อง และในการเลือกไม่เข้าร่วม &ldquo;การขาย&rdquo; หรือ &ldquo;การแบ่งปัน&rdquo; ข้อมูลส่วนบุคคลสำหรับการโฆษณาตามพฤติกรรมข้ามบริบท เราไม่ขายข้อมูลส่วนบุคคลของคุณ ในการเลือกไม่เข้าร่วมการแบ่งปันใด ๆ สำหรับการโฆษณาที่ปรับให้เหมาะกับแต่ละบุคคล ให้เลือก <strong>ขอให้แอปไม่ติดตาม</strong> ในการแจ้งเตือน App Tracking Transparency หรือปฏิเสธความยินยอมในแบบฟอร์ม User Messaging Platform ในการใช้สิทธิ์อื่น ๆ โปรดติดต่อเราที่ที่อยู่ด้านล่าง</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>การถ่ายโอนระหว่างประเทศ</h2>
             <p>Apple, Adapty, Google และ Unity อาจประมวลผลข้อมูลที่จำกัดบนเซิร์ฟเวอร์นอกประเทศของคุณ รวมถึงในสหรัฐอเมริกา ผู้ให้บริการเหล่านี้อาศัยข้อสัญญามาตรฐานหรือกลไกการถ่ายโอนที่เทียบเคียงได้ตามที่กฎหมายกำหนด เราไม่ได้ดำเนินการเซิร์ฟเวอร์ของเราเอง และดังนั้นจึงไม่ได้ดำเนินการถ่ายโอนระหว่างประเทศเพิ่มเติมด้วยตัวเราเอง</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>การเปลี่ยนแปลงนโยบายนี้</h2>
             <p>หากเราทำการเปลี่ยนแปลงที่มีนัยสำคัญต่อนโยบายนี้ เราจะโพสต์เวอร์ชันที่อัปเดตที่ URL นี้ และอัปเดตวันที่ &ldquo;อัปเดตล่าสุด&rdquo; ด้านล่าง สำหรับการเปลี่ยนแปลงที่มีความหมายซึ่งส่งผลต่อข้อมูลที่เก็บรวบรวม เราจะใช้บันทึกการอัปเดตของ App Store เพื่อดึงความสนใจของคุณไปยังการเปลี่ยนแปลงนั้น</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>ติดต่อ</h2>
             <p>ผู้ควบคุมข้อมูลสำหรับการประมวลผลใด ๆ โดยเราคือ Denys Lebiediev หากคุณมีคำถามเกี่ยวกับนโยบายความเป็นส่วนตัวนี้หรือต้องการใช้สิทธิ์ของคุณ โปรดเขียนถึง <a href="mailto:imageconverterplus.help@gmail.com">imageconverterplus.help@gmail.com</a> และเราจะตอบกลับภายใน 30 วัน</p>
         </div>
@@ -213,7 +230,7 @@
     </div>
 
     <!-- Links -->
-    <div class="links-section fade-in">
+    <div class="links-section" data-reveal>
 
         <a class="link-card" href="support.html">
             <p class="link-label">ช่วยเหลือ</p>
@@ -228,25 +245,94 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer fade-in">
+    <div class="footer">
         <p>อัปเดตล่าสุด: พฤษภาคม 2026</p>
     </div>
 
 </div>
 
-<script>
-    // Fade-in on scroll
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span class="copyright">© 2026 Denys Lebiediev</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">นโยบายความเป็นส่วนตัว</a></li>
+            <li><a href="terms.html">ข้อกำหนดการใช้งาน</a></li>
+            <li><a href="support.html">การสนับสนุน</a></li>
+        </ul>
+        <!-- lang-menu -->
+        <details class="lang-menu">
+            <summary class="lang-trigger" aria-label="ภาษา: ไทย"><svg class="lang-globe" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="8" cy="8" rx="2.8" ry="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M1.7 8h12.6M2.6 4.6h10.8M2.6 11.4h10.8" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="lang-current">ไทย</span><svg class="lang-chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+            <div class="lang-panel">
+                <ul class="lang-list" role="list" translate="no">
+                    <li><a href="../af/privacy.html" lang="af" hreflang="af">Afrikaans</a></li>
+                    <li><a href="../id/privacy.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+                    <li><a href="../ms/privacy.html" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+                    <li><a href="../bs/privacy.html" lang="bs" hreflang="bs">Bosanski</a></li>
+                    <li><a href="../ca/privacy.html" lang="ca" hreflang="ca">Català</a></li>
+                    <li><a href="../cs/privacy.html" lang="cs" hreflang="cs">Čeština</a></li>
+                    <li><a href="../cy/privacy.html" lang="cy" hreflang="cy">Cymraeg</a></li>
+                    <li><a href="../da/privacy.html" lang="da" hreflang="da">Dansk</a></li>
+                    <li><a href="../de/privacy.html" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="../et/privacy.html" lang="et" hreflang="et">Eesti</a></li>
+                    <li><a href="../privacy.html?lang=en" lang="en" hreflang="en">English</a></li>
+                    <li><a href="../es/privacy.html" lang="es" hreflang="es">Español</a></li>
+                    <li><a href="../fil/privacy.html" lang="fil" hreflang="fil">Filipino</a></li>
+                    <li><a href="../fr/privacy.html" lang="fr" hreflang="fr">Français</a></li>
+                    <li><a href="../ga/privacy.html" lang="ga" hreflang="ga">Gaeilge</a></li>
+                    <li><a href="../hr/privacy.html" lang="hr" hreflang="hr">Hrvatski</a></li>
+                    <li><a href="../is/privacy.html" lang="is" hreflang="is">Íslenska</a></li>
+                    <li><a href="../it/privacy.html" lang="it" hreflang="it">Italiano</a></li>
+                    <li><a href="../sw/privacy.html" lang="sw" hreflang="sw">Kiswahili</a></li>
+                    <li><a href="../lv/privacy.html" lang="lv" hreflang="lv">Latviešu</a></li>
+                    <li><a href="../lt/privacy.html" lang="lt" hreflang="lt">Lietuvių</a></li>
+                    <li><a href="../hu/privacy.html" lang="hu" hreflang="hu">Magyar</a></li>
+                    <li><a href="../mt/privacy.html" lang="mt" hreflang="mt">Malti</a></li>
+                    <li><a href="../nl/privacy.html" lang="nl" hreflang="nl">Nederlands</a></li>
+                    <li><a href="../nb/privacy.html" lang="nb" hreflang="nb">Norsk bokmål</a></li>
+                    <li><a href="../pl/privacy.html" lang="pl" hreflang="pl">Polski</a></li>
+                    <li><a href="../pt-BR/privacy.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+                    <li><a href="../pt-PT/privacy.html" lang="pt-PT" hreflang="pt-PT">Português (Portugal)</a></li>
+                    <li><a href="../ro/privacy.html" lang="ro" hreflang="ro">Română</a></li>
+                    <li><a href="../sq/privacy.html" lang="sq" hreflang="sq">Shqip</a></li>
+                    <li><a href="../sk/privacy.html" lang="sk" hreflang="sk">Slovenčina</a></li>
+                    <li><a href="../sl/privacy.html" lang="sl" hreflang="sl">Slovenščina</a></li>
+                    <li><a href="../fi/privacy.html" lang="fi" hreflang="fi">Suomi</a></li>
+                    <li><a href="../sv/privacy.html" lang="sv" hreflang="sv">Svenska</a></li>
+                    <li><a href="../vi/privacy.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+                    <li><a href="../tr/privacy.html" lang="tr" hreflang="tr">Türkçe</a></li>
+                    <li><a href="../be/privacy.html" lang="be" hreflang="be">Беларуская</a></li>
+                    <li><a href="../bg/privacy.html" lang="bg" hreflang="bg">Български</a></li>
+                    <li><a href="../mk/privacy.html" lang="mk" hreflang="mk">Македонски</a></li>
+                    <li><a href="../sr/privacy.html" lang="sr" hreflang="sr">Српски</a></li>
+                    <li><a href="../uk/privacy.html" lang="uk" hreflang="uk">Українська</a></li>
+                    <li><a href="../el/privacy.html" lang="el" hreflang="el">Ελληνικά</a></li>
+                    <li><a href="../ar/privacy.html" lang="ar" hreflang="ar">العربية</a></li>
+                    <li><a href="../he/privacy.html" lang="he" hreflang="he">עברית</a></li>
+                    <li><a href="../ur/privacy.html" lang="ur" hreflang="ur">اردو</a></li>
+                    <li><a href="../fa/privacy.html" lang="fa" hreflang="fa">فارسی</a></li>
+                    <li><a href="../hi/privacy.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+                    <li><a href="../mr/privacy.html" lang="mr" hreflang="mr">मराठी</a></li>
+                    <li><a href="../gu/privacy.html" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+                    <li><a href="../pa/privacy.html" lang="pa" hreflang="pa">ਪੰਜਾਬੀ</a></li>
+                    <li><a href="../bn/privacy.html" lang="bn" hreflang="bn">বাংলা</a></li>
+                    <li><a href="../ta/privacy.html" lang="ta" hreflang="ta">தமிழ்</a></li>
+                    <li><a href="../te/privacy.html" lang="te" hreflang="te">తెలుగు</a></li>
+                    <li><a href="../kn/privacy.html" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+                    <li><a href="../ml/privacy.html" lang="ml" hreflang="ml">മലയാളം</a></li>
+                    <li><a href="../th/privacy.html" lang="th" hreflang="th" aria-current="true">ไทย<svg class="lang-check" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="../ja/privacy.html" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="../ko/privacy.html" lang="ko" hreflang="ko">한국어</a></li>
+                    <li><a href="../zh-Hans/privacy.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+                    <li><a href="../zh-Hant/privacy.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+                </ul>
+            </div>
+        </details>
+        <script defer src="../js/lang-menu.js"></script>
+        <!-- /lang-menu -->
+    </div>
+</footer>
 
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
+<script defer src="../js/subpage.js"></script>
 
 </body>
 </html>

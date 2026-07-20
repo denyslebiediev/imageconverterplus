@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=6759621930">
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#05060A">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <link rel="icon" href="../images/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
+    <script>
+        document.documentElement.classList.add('js');
+        // if subpage.js never boots, un-gate the reveals so content can't stay hidden
+        setTimeout(function () { if (!window.__icpSubBooted) document.documentElement.classList.remove('js'); }, 2500);
+    </script>
     <title>이용약관 - Image Converter Plus</title>
     <meta name="description" content="Image Converter Plus의 이용약관입니다. 라이선스, 구매 조건, 구독 자동 갱신 세부 사항 및 앱 사용 지침을 읽어보십시오.">
     <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
@@ -74,63 +78,76 @@
     <link rel="alternate" hreflang="cy" href="https://denyslebiediev.github.io/imageconverterplus/cy/terms.html">
     <link rel="alternate" hreflang="be" href="https://denyslebiediev.github.io/imageconverterplus/be/terms.html">
     <link rel="alternate" hreflang="x-default" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/subpage.css">
+    <meta property="og:title" content="이용약관 — Image Converter Plus">
+    <meta property="og:description" content="Image Converter Plus의 이용약관입니다. 라이선스, 구매 조건, 구독 자동 갱신 세부 사항 및 앱 사용 지침을 읽어보십시오.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://denyslebiediev.github.io/imageconverterplus/ko/terms.html">
+    <meta property="og:image" content="https://denyslebiediev.github.io/imageconverterplus/images/icon-512.png">
+    <link rel="canonical" href="https://denyslebiediev.github.io/imageconverterplus/ko/terms.html">
+    <link rel="preload" href="../fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/subpage-dark.css">
 
 </head>
 <body>
 
-<!-- Nav -->
-<nav>
+<a class="skip-link" href="#main">콘텐츠로 건너뛰기</a>
+
+<nav class="site-nav" aria-label="사이트">
     <div class="nav-inner">
-        <a class="nav-title" href="index.html">Image Converter Plus</a>
+        <a class="nav-brand" href="index.html">
+            <img src="../images/AppIcon.png" alt="" width="28" height="28">
+            <span>Image Converter Plus</span>
+        </a>
         <ul class="nav-links">
             <li><a href="privacy.html">개인정보 처리방침</a></li>
-            <li><a href="terms.html">이용약관</a></li>
+            <li><a href="terms.html" aria-current="page">이용약관</a></li>
             <li><a href="support.html">지원</a></li>
         </ul>
+        <a class="nav-cta" href="https://apps.apple.com/app/image-converter-plus/id6759621930">앱 다운로드</a>
     </div>
 </nav>
 
-<div class="page">
+<div class="page" id="main">
 
     <!-- Hero -->
-    <div class="hero fade-in">
-        <h1>이용약관</h1>
+    <header class="page-head">
+        <p class="eyebrow mono">법률 · 약관</p>
+        <h1 class="headline">이용약관</h1>
         <p class="subtitle">iPhone 및 iPad용 Image Converter Plus</p>
-    </div>
+    </header>
 
     <!-- Content Cards -->
-    <div class="stagger">
+    <div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>합의</h2>
             <p>본 이용약관(이하 &ldquo;약관&rdquo;)은 Image Converter Plus 모바일 애플리케이션 및 그 공유 확장 프로그램(통칭하여 &ldquo;앱&rdquo;)의 사용에 관하여 사용자와 Denys Lebiediev(이하 &ldquo;개발자&rdquo;, &ldquo;당사&rdquo;) 간의 구속력 있는 합의를 구성합니다. 앱을 다운로드, 설치 또는 사용함으로써 사용자는 본 약관을 당사의 <a href="privacy.html">개인정보 처리방침</a>과 함께 읽고 이해했으며 수락했음을 확인합니다. 동의하지 않는 경우 앱을 사용하지 마십시오.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Apple 최종 사용자 사용권 계약</h2>
             <p>앱은 본 약관이 이를 확장하거나 수정하는 경우를 제외하고는, 오직 <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener" target="_blank">apple.com/legal/internet-services/itunes/dev/stdeula</a>에서 확인할 수 있는 Apple&rsquo;의 표준 사용 허가 애플리케이션 최종 사용자 사용권 계약(이하 &ldquo;Apple EULA&rdquo;)에 따른 사용을 위해 사용자에게 사용이 허가되는 것이며, 판매되는 것이 아닙니다. 본 약관과 Apple EULA 간에 상충이 있는 경우, Apple&rsquo;의 규칙이 허용하는 범위 내에서 본 약관이 우선하며, 그렇지 않은 경우 Apple EULA가 우선합니다.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>라이선스</h2>
             <p>당사는 사용자에게 Apple Media Services 이용약관 및 해당 약관에 명시된 모든 사용 규칙(평생 업그레이드에 대한 Family Sharing 포함)에 따라, 사용자가 소유하거나 통제하는 모든 iPhone 또는 iPad에 앱을 설치하고 사용할 수 있는 제한적이고 개인적이며 비독점적이고 양도 불가능하며 철회 가능한 라이선스를 부여합니다. 사용자는 앱을 다른 누구에게도 판매, 임대, 대여, 재실시, 배포하거나 그 밖의 방법으로 양도할 수 없습니다.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>사용자의 콘텐츠</h2>
             <p>사용자는 앱에 가져온 사진, 파일 및 메타데이터에 대한 모든 권리를 보유합니다. 당사는 사용자의 콘텐츠에 대한 어떠한 소유권도 주장하지 않습니다. 앱은 모든 것을 사용자의 기기에서 처리하므로, 사용자는 당사에 사용자의 파일에 대한 라이선스를 부여하지 않으며, 당사는 그 파일을 절대 수신하지 않습니다.</p>
             <p>사용자는 처리하는 이미지를 변환, 수정, 공유하거나 그 밖의 방법으로 사용할 권리가 있는지 확인할 책임이 있습니다. 사용자는 사용 허가를 받지 않은 콘텐츠를 처리하기 위해 앱을 사용해서는 안 됩니다.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>무료 및 Pro 등급</h2>
             <p>앱은 선택한 형식으로 한 번에 한 이미지를 변환하는 무료 등급을 제공합니다. 무료 사용자는 또한 단일 일괄 변환을 일시적으로 잠금 해제하기 위해 보상형 동영상 광고를 시청하도록 선택할 수 있습니다. 광고 시청은 항상 선택 사항이며, 사용자는 완료 전에 이를 닫을 수 있습니다. Pro는 무제한 일괄 변환, 모든 출력 형식(PDF, AVIF, TIFF 포함), 이미지별 설정 및 전체 메타데이터 개인정보 보호 제어를 잠금 해제합니다.</p>
             <p>Pro는 자동 갱신 구독(주간, 월간 또는 연간) 또는 일회성 비소모성 평생 구매로 제공됩니다. 팁 구매는 선택 사항이며, 어떠한 기능도 잠금 해제하지 않고, 법률에서 요구하는 경우를 제외하고는 환불되지 않습니다.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>구독 조건</h2>
             <p><strong>청구.</strong> 모든 구매는 App Store를 통해 Apple이 처리합니다. 결제는 구매 확인 시 사용자의 Apple ID에 청구됩니다. 현재 가격은 앱 내 및 사용자의 스토어프런트에 대한 App Store 목록에 표시되며, 향후 App Store 규칙이 허용하는 바에 따라 변경될 수 있습니다.</p>
             <p><strong>자동 갱신.</strong> 구독은 현재 기간 종료 최소 24시간 전에 취소되지 않는 한, 각 청구 기간 종료 시 그 당시 가격으로 자동 갱신됩니다. 사용자의 계정은 현재 기간 종료 전 24시간 이내에 갱신 요금이 청구됩니다.</p>
@@ -140,7 +157,7 @@
             <p><strong>Family Sharing.</strong> 평생 업그레이드 및 자동 갱신 구독은 App Store에서 지원되는 경우 Family Sharing 대상이 됩니다.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>허용되는 사용</h2>
             <p>사용자는 관련 법률을 준수하여 앱을 사용하는 데 동의합니다. 사용자는 다음을 할 수 없으며, 다른 누구에게도 이를 권장할 수 없습니다.</p>
             <ul>
@@ -153,47 +170,47 @@
             </ul>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>업데이트 및 서비스 중단</h2>
             <p>당사는 기능을 변경, 추가 또는 제거하거나, 버그를 수정하거나, 성능을 개선하는 업데이트를 출시할 수 있습니다. 새로운 기능은 Pro를 요구할 수 있습니다. 당사는 또한 상업적 또는 기술적으로 더 이상 실행 가능하지 않은 경우 합리적인 통지와 함께 기능을 폐기하거나 앱을 중단할 수 있습니다. 법률에서 요구하는 경우, 미사용 구독 기간에 대한 환불은 Apple이 처리합니다.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>제3자 서비스</h2>
             <p>앱은 구매를 위해 Apple StoreKit, 구매 검증을 위해 Adapty, 그리고 무료 사용자에게 표시되는 선택적인 보상형 광고를 위해 Google AdMob &mdash; Google User Messaging Platform 및 Unity Ads와 같은 미디에이션 파트너와 함께 &mdash; 에 의존합니다. 해당 서비스의 사용은 그들 자체의 약관 및 개인정보 고지의 적용도 받습니다. 당사는 제3자 서비스의 관행에 대해 책임지지 않으나, 당사의 <a href="privacy.html">개인정보 처리방침</a>에 설명된 바와 같이 그들이 필요한 것만 수집하도록 구성했습니다.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>면책 조항</h2>
             <p>앱은 명시적이든 묵시적이든 어떠한 종류의 보증도 없이 &ldquo;있는 그대로&rdquo; 및 &ldquo;이용 가능한 대로&rdquo;의 기준으로 제공되며, 여기에는 상품성, 특정 목적에의 적합성, 정확성 또는 비침해에 대한 보증이 포함됩니다. 당사는 앱이 중단되지 않거나 오류가 없을 것이라거나, 사용자의 파일에 대해 특정 결과를 산출할 것이라고 보증하지 않습니다. 사용자는 처리하는 모든 파일의 백업을 유지할 책임이 있습니다.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>책임의 제한</h2>
             <p>법률이 허용하는 최대 범위 내에서, 개발자는 사용자의 앱 사용으로부터 발생하거나 그와 관련된 어떠한 간접적, 부수적, 특별, 결과적 또는 징벌적 손해, 또는 이익, 데이터 또는 파일의 손실에 대해, 당사가 그러한 손해의 가능성에 대해 통지받았더라도 책임지지 않습니다. 어떠한 직접 손해에 대한 당사의 총 책임은 청구의 원인이 된 사건 직전 12개월 동안 사용자가 앱에 대해 지불한 금액으로 제한됩니다. 일부 관할권은 이러한 제한을 허용하지 않으며, 그 경우 제한은 해당 관할권에서 허용되는 최대 범위 내에서만 적용됩니다.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>제3수익자로서의 Apple</h2>
             <p>사용자는 본 약관이 오직 사용자와 개발자 간의 것이며 Apple과의 것이 아님을 인정합니다. Apple은 앱 또는 그 콘텐츠에 대해 책임지지 않습니다. 다만 Apple 및 Apple&rsquo;의 자회사는 본 약관의 제3수익자이며, 사용자의 수락 시 본 약관을 제3수익자로서 사용자에 대하여 집행할 권리를 가집니다(그리고 그 권리를 수락한 것으로 간주됩니다). 앱이 적용 가능한 보증에 부합하지 못하는 경우, 사용자는 Apple에 통지할 수 있으며 Apple은 앱에 대한 구매 가격(있는 경우)을 사용자에게 환불합니다. 법률이 허용하는 최대 범위 내에서, Apple은 앱과 관련하여 그 밖의 어떠한 보증 의무도 지지 않습니다.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>준거법 및 분쟁</h2>
             <p>본 약관은, 적용 가능한 소비자 보호법이 달리 명시하는 범위를 제외하고, 그 법의 충돌 원칙을 고려하지 않고 사용자가 통상적으로 거주하는 국가의 법률에 따릅니다. 사용자와 개발자는 먼저 당사에 이메일을 보내 비공식적으로 분쟁을 해결하는 데 동의합니다. 당사가 60일 이내에 분쟁을 해결할 수 없는 경우, 사용자는 법률이 허용하는 범위 내에서 해당 사안을 거주 국가의 법원에 제기할 수 있습니다. 본 약관의 어떠한 내용도 사용자가 거주 국가의 법률에 따라 가지는 포기 불가능한 소비자 권리를 제한하지 않습니다.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>가분성</h2>
             <p>본 약관의 어떠한 조항이 무효이거나 집행 불가능한 것으로 판단되는 경우, 해당 조항은 필요한 최소한의 범위로 제한되거나 삭제되며, 나머지 조항은 완전한 효력을 유지합니다.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>변경</h2>
             <p>당사는 본 약관을 수시로 갱신할 수 있습니다. 현재 버전은 갱신된 &ldquo;마지막 업데이트&rdquo; 날짜와 함께 항상 이 URL에서 이용할 수 있습니다. 중대한 변경은 해당 릴리스에 대한 App Store 업데이트 노트에서 강조 표시됩니다. 변경이 효력을 발생한 후 사용자가 앱을 계속 사용하는 것은 개정된 약관의 수락을 구성합니다.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>문의</h2>
             <p>본 약관에 관한 질문이 있는 경우, <a href="mailto:imageconverterplus.help@gmail.com">imageconverterplus.help@gmail.com</a>으로 서면 문의해 주십시오.</p>
         </div>
@@ -201,7 +218,7 @@
     </div>
 
     <!-- Links -->
-    <div class="links-section fade-in">
+    <div class="links-section" data-reveal>
 
         <a class="link-card" href="support.html">
             <p class="link-label">도움말</p>
@@ -216,25 +233,94 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer fade-in">
+    <div class="footer">
         <p>마지막 업데이트: 2026년 5월</p>
     </div>
 
 </div>
 
-<script>
-    // Fade-in on scroll
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span class="copyright">© 2026 Denys Lebiediev</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">개인정보 처리방침</a></li>
+            <li><a href="terms.html">이용약관</a></li>
+            <li><a href="support.html">지원</a></li>
+        </ul>
+        <!-- lang-menu -->
+        <details class="lang-menu">
+            <summary class="lang-trigger" aria-label="언어: 한국어"><svg class="lang-globe" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="8" cy="8" rx="2.8" ry="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M1.7 8h12.6M2.6 4.6h10.8M2.6 11.4h10.8" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="lang-current">한국어</span><svg class="lang-chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+            <div class="lang-panel">
+                <ul class="lang-list" role="list" translate="no">
+                    <li><a href="../af/terms.html" lang="af" hreflang="af">Afrikaans</a></li>
+                    <li><a href="../id/terms.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+                    <li><a href="../ms/terms.html" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+                    <li><a href="../bs/terms.html" lang="bs" hreflang="bs">Bosanski</a></li>
+                    <li><a href="../ca/terms.html" lang="ca" hreflang="ca">Català</a></li>
+                    <li><a href="../cs/terms.html" lang="cs" hreflang="cs">Čeština</a></li>
+                    <li><a href="../cy/terms.html" lang="cy" hreflang="cy">Cymraeg</a></li>
+                    <li><a href="../da/terms.html" lang="da" hreflang="da">Dansk</a></li>
+                    <li><a href="../de/terms.html" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="../et/terms.html" lang="et" hreflang="et">Eesti</a></li>
+                    <li><a href="../terms.html?lang=en" lang="en" hreflang="en">English</a></li>
+                    <li><a href="../es/terms.html" lang="es" hreflang="es">Español</a></li>
+                    <li><a href="../fil/terms.html" lang="fil" hreflang="fil">Filipino</a></li>
+                    <li><a href="../fr/terms.html" lang="fr" hreflang="fr">Français</a></li>
+                    <li><a href="../ga/terms.html" lang="ga" hreflang="ga">Gaeilge</a></li>
+                    <li><a href="../hr/terms.html" lang="hr" hreflang="hr">Hrvatski</a></li>
+                    <li><a href="../is/terms.html" lang="is" hreflang="is">Íslenska</a></li>
+                    <li><a href="../it/terms.html" lang="it" hreflang="it">Italiano</a></li>
+                    <li><a href="../sw/terms.html" lang="sw" hreflang="sw">Kiswahili</a></li>
+                    <li><a href="../lv/terms.html" lang="lv" hreflang="lv">Latviešu</a></li>
+                    <li><a href="../lt/terms.html" lang="lt" hreflang="lt">Lietuvių</a></li>
+                    <li><a href="../hu/terms.html" lang="hu" hreflang="hu">Magyar</a></li>
+                    <li><a href="../mt/terms.html" lang="mt" hreflang="mt">Malti</a></li>
+                    <li><a href="../nl/terms.html" lang="nl" hreflang="nl">Nederlands</a></li>
+                    <li><a href="../nb/terms.html" lang="nb" hreflang="nb">Norsk bokmål</a></li>
+                    <li><a href="../pl/terms.html" lang="pl" hreflang="pl">Polski</a></li>
+                    <li><a href="../pt-BR/terms.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+                    <li><a href="../pt-PT/terms.html" lang="pt-PT" hreflang="pt-PT">Português (Portugal)</a></li>
+                    <li><a href="../ro/terms.html" lang="ro" hreflang="ro">Română</a></li>
+                    <li><a href="../sq/terms.html" lang="sq" hreflang="sq">Shqip</a></li>
+                    <li><a href="../sk/terms.html" lang="sk" hreflang="sk">Slovenčina</a></li>
+                    <li><a href="../sl/terms.html" lang="sl" hreflang="sl">Slovenščina</a></li>
+                    <li><a href="../fi/terms.html" lang="fi" hreflang="fi">Suomi</a></li>
+                    <li><a href="../sv/terms.html" lang="sv" hreflang="sv">Svenska</a></li>
+                    <li><a href="../vi/terms.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+                    <li><a href="../tr/terms.html" lang="tr" hreflang="tr">Türkçe</a></li>
+                    <li><a href="../be/terms.html" lang="be" hreflang="be">Беларуская</a></li>
+                    <li><a href="../bg/terms.html" lang="bg" hreflang="bg">Български</a></li>
+                    <li><a href="../mk/terms.html" lang="mk" hreflang="mk">Македонски</a></li>
+                    <li><a href="../sr/terms.html" lang="sr" hreflang="sr">Српски</a></li>
+                    <li><a href="../uk/terms.html" lang="uk" hreflang="uk">Українська</a></li>
+                    <li><a href="../el/terms.html" lang="el" hreflang="el">Ελληνικά</a></li>
+                    <li><a href="../ar/terms.html" lang="ar" hreflang="ar">العربية</a></li>
+                    <li><a href="../he/terms.html" lang="he" hreflang="he">עברית</a></li>
+                    <li><a href="../ur/terms.html" lang="ur" hreflang="ur">اردو</a></li>
+                    <li><a href="../fa/terms.html" lang="fa" hreflang="fa">فارسی</a></li>
+                    <li><a href="../hi/terms.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+                    <li><a href="../mr/terms.html" lang="mr" hreflang="mr">मराठी</a></li>
+                    <li><a href="../gu/terms.html" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+                    <li><a href="../pa/terms.html" lang="pa" hreflang="pa">ਪੰਜਾਬੀ</a></li>
+                    <li><a href="../bn/terms.html" lang="bn" hreflang="bn">বাংলা</a></li>
+                    <li><a href="../ta/terms.html" lang="ta" hreflang="ta">தமிழ்</a></li>
+                    <li><a href="../te/terms.html" lang="te" hreflang="te">తెలుగు</a></li>
+                    <li><a href="../kn/terms.html" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+                    <li><a href="../ml/terms.html" lang="ml" hreflang="ml">മലയാളം</a></li>
+                    <li><a href="../th/terms.html" lang="th" hreflang="th">ไทย</a></li>
+                    <li><a href="../ja/terms.html" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="../ko/terms.html" lang="ko" hreflang="ko" aria-current="true">한국어<svg class="lang-check" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="../zh-Hans/terms.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+                    <li><a href="../zh-Hant/terms.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+                </ul>
+            </div>
+        </details>
+        <script defer src="../js/lang-menu.js"></script>
+        <!-- /lang-menu -->
+    </div>
+</footer>
 
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
+<script defer src="../js/subpage.js"></script>
 
 </body>
 </html>

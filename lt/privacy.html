@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=6759621930">
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#05060A">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <link rel="icon" href="../images/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
+    <script>
+        document.documentElement.classList.add('js');
+        // if subpage.js never boots, un-gate the reveals so content can't stay hidden
+        setTimeout(function () { if (!window.__icpSubBooted) document.documentElement.classList.remove('js'); }, 2500);
+    </script>
     <title>Privatumo politika - Image Converter Plus</title>
     <meta name="description" content="„Image Converter Plus“ privatumo politika. Nuotraukos apdorojamos tik jūsų įrenginyje. Tiksliai paaiškiname, ką trečiųjų šalių SDK renka pirkiniams ir reklamai.">
     <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/privacy.html">
@@ -74,36 +78,49 @@
     <link rel="alternate" hreflang="cy" href="https://denyslebiediev.github.io/imageconverterplus/cy/privacy.html">
     <link rel="alternate" hreflang="be" href="https://denyslebiediev.github.io/imageconverterplus/be/privacy.html">
     <link rel="alternate" hreflang="x-default" href="https://denyslebiediev.github.io/imageconverterplus/privacy.html">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/subpage.css">
+    <meta property="og:title" content="Privatumo politika — Image Converter Plus">
+    <meta property="og:description" content="„Image Converter Plus“ privatumo politika. Nuotraukos apdorojamos tik jūsų įrenginyje. Tiksliai paaiškiname, ką trečiųjų šalių SDK renka pirkiniams ir reklamai.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://denyslebiediev.github.io/imageconverterplus/lt/privacy.html">
+    <meta property="og:image" content="https://denyslebiediev.github.io/imageconverterplus/images/icon-512.png">
+    <link rel="canonical" href="https://denyslebiediev.github.io/imageconverterplus/lt/privacy.html">
+    <link rel="preload" href="../fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/subpage-dark.css">
 
 </head>
 <body>
 
-<!-- Nav -->
-<nav>
+<a class="skip-link" href="#main">Pereiti prie turinio</a>
+
+<nav class="site-nav" aria-label="Svetainė">
     <div class="nav-inner">
-        <a class="nav-title" href="index.html">Image Converter Plus</a>
+        <a class="nav-brand" href="index.html">
+            <img src="../images/AppIcon.png" alt="" width="28" height="28">
+            <span>Image Converter Plus</span>
+        </a>
         <ul class="nav-links">
-            <li><a href="privacy.html">Privatumo politika</a></li>
+            <li><a href="privacy.html" aria-current="page">Privatumo politika</a></li>
             <li><a href="terms.html">Naudojimo sąlygos</a></li>
             <li><a href="support.html">Pagalba</a></li>
         </ul>
+        <a class="nav-cta" href="https://apps.apple.com/app/image-converter-plus/id6759621930">Atsisiųsti programėlę</a>
     </div>
 </nav>
 
-<div class="page">
+<div class="page" id="main">
 
     <!-- Hero -->
-    <div class="hero fade-in">
-        <h1>Privatumo politika</h1>
+    <header class="page-head">
+        <p class="eyebrow mono">Teisinė informacija · Privatumas</p>
+        <h1 class="headline">Privatumo politika</h1>
         <p class="subtitle">Jūsų nuotraukos lieka jūsų įrenginyje. Šiame puslapyje tiksliai paaiškinama, ką mes ir mūsų paslaugų teikėjai darome &mdash; ir ko nedarome &mdash; su jūsų informacija.</p>
-    </div>
+    </header>
 
     <!-- Content Cards -->
-    <div class="stagger">
+    <div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Santrauka</h2>
             <p>„Image Converter Plus“ (toliau &ldquo;Programėlė&rdquo;) sukūrė Denys Lebiediev. Visas vaizdų konvertavimas vyksta jūsų įrenginyje. Mes nevaldome jokio serverio, kuris gautų jūsų nuotraukas. Tačiau naudojame nedidelį skaičių patikimų trečiųjų šalių paslaugų, kad apdorotume pirkinius programėlėje ir nemokamiems naudotojams rodytume neprivalomus atlygio vaizdo įrašų skelbimus. Šios paslaugos renka ribotą, daugiausia anoniminę informaciją, kaip aprašyta toliau. Jūs visada kontroliuojate, kas vyksta.</p>
             <ul>
@@ -115,9 +132,9 @@
             </ul>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Kas lieka jūsų įrenginyje</h2>
-            <p>Visas vaizdų konvertavimas, dydžio keitimas, metaduomenų pašalinimas, vandens ženklų dėjimas, failų pavadinimų suteikimas, išankstiniai nustatymai ir konvertavimo istorija vyksta visiškai jūsų „iPhone“ arba „iPad“. Niekas apie jūsų nuotraukų turinį neperduodama mums ar bet kuriai trečiajai šaliai.</p>
+            <p>Visas vaizdų konvertavimas, dydžio keitimas, metaduomenų pašalinimas, failų pavadinimų suteikimas, išankstiniai nustatymai ir konvertavimo istorija vyksta visiškai jūsų „iPhone“ arba „iPad“. Niekas apie jūsų nuotraukų turinį neperduodama mums ar bet kuriai trečiajai šaliai.</p>
             <ul>
                 <li>Nuotraukos ir failai, kuriuos importuojate.</li>
                 <li>Metaduomenys, išgauti iš šių failų arba pašalinti iš jų.</li>
@@ -127,7 +144,7 @@
             <p>Šiuos duomenis galite bet kada ištrinti pašalindami elementus skirtuke „Istorija“, išvalydami istoriją iš „Nustatymų“ arba ištrindami Programėlę.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Trečiųjų šalių paslaugų renkama informacija</h2>
             <p>Programėlė savo veikimui remiasi nedideliu skaičiumi paslaugų. Kiekvieną iš jų sukonfigūravome taip, kad rinktų tik būtiniausius duomenis. Per jokią iš jų neturime prieigos prie jūsų nuotraukų turinio.</p>
 
@@ -142,7 +159,7 @@
             <p><strong>„Apple App Store“ (atnaujinimų tikrinimas).</strong> Programėlė periodiškai užklausia „Apple“ viešąjį „iTunes Lookup“ galinį tašką, kad sužinotų, ar yra naujesnė versija. Į šią užklausą įtraukiamas tik Programėlės paketo identifikatorius ir jūsų parduotuvės šalis. „Apple“ gali gauti jūsų IP adresą kaip bet kurios HTTPS užklausos dalį, tačiau mes ne.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Sekimas ir suasmeninti skelbimai</h2>
             <p>Jei esate nemokamas naudotojas, pirmą kartą, kai Programėlė galės parodyti jums skelbimą, galime jūsų paklausti, naudodami „Apple“ standartinį sistemos raginimą („App Tracking Transparency“), ar leidžiate Programėlei naudoti jūsų įrenginio reklamos identifikatorių (IDFA), kad būtų pateikiami aktualesni skelbimai. Jūsų atsakymas yra galutinis: galite jį bet kada pakeisti „iOS“&nbsp;„Nustatymai“&nbsp;&rsaquo; „Privatumas ir saugumas“ &nbsp;&rsaquo; „Sekimas“ &nbsp;&rsaquo; „Image Converter Plus“.</p>
             <ul>
@@ -153,59 +170,59 @@
             <p>Regionuose, kuriems taikomas BDAR arba panašūs įstatymai, „User Messaging Platform“ sutikimo forma pasirodys prieš įkeliant bet kokį skelbimą, o savo pasirinkimus vėliau galėsite peržiūrėti arba pakeisti Programėlėje skiltyje <strong>„Nustatymai“ &nbsp;&rsaquo; „Tvarkyti reklamos pasirinkimus“</strong>.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Jūsų nuotraukos ir failai</h2>
             <p>Programėlė pasiekia nuotraukas per „Apple“ privatumą saugantį parinkiklį (<em>PHPickerViewController</em>), o tai reiškia, kad matome tik elementus, kuriuos aiškiai pasirenkate &mdash; ne visą jūsų nuotraukų biblioteką. Failai, kuriuos importuojate iš programos „Failai“, nuskaitomi tiesiai iš jūsų pasirinktos vietos. Konvertuoti vaizdai įrašomi arba į privatų aplanką Programėlėje, į jūsų nuotraukų biblioteką (su jūsų leidimu) arba į vietą, kurią pasirenkate programoje „Failai“.</p>
             <p>Jei suteikiate Programėlei leidimą pridėti į jūsų nuotraukų biblioteką, Programėlė prašo minimalaus leidimo &ldquo;Tik pridėti nuotraukas&rdquo;, kad ji niekada negalėtų skaityti jūsų esamų nuotraukų.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Share Extension</h2>
             <p>„Share Extension“ leidžia konvertuoti vaizdus iš bet kurios kitos programos neatidarant „Image Converter Plus“. Pasirinkti vaizdai apdorojami vietoje, jūsų įrenginyje. „Share Extension“ neapima pirkinių programėlėje, skelbimų ar analitikos. Jei „Share Extension“ bakstelėsite atnaujinimo įėjimo tašką, atsidaro pagrindinė Programėlė ir atnaujinimo eiga vyksta ten.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Diagnostinė informacija pagalbos el. laiškuose</h2>
             <p>Kai Programėlėje bakstelėjate kontakto nuorodą, atidaroma jūsų numatytoji pašto programa su laiško juodraščiu, kuriame iš anksto įrašoma pagrindinė diagnostinė informacija: programos versija, „iOS“ versija, įrenginio modelis, programos kalba, prenumeratos būsena ir laisva disko vieta. Žinutė jums visiškai matoma prieš ją išsiunčiant. Niekas neperduodama, nebent paspausite „Siųsti“.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Duomenų saugojimas</h2>
             <p>Mes nevaldome serverio, todėl mūsų pusėje nėra ko saugoti. Failai, istorija, išankstiniai nustatymai ir nuostatos yra jūsų įrenginyje ir pašalinami, kai juos ištrinate arba pašalinate Programėlę. „Apple“, „Adapty“, „Google“ ir „Unity“ saugo pirmiau aprašytą ribotą informaciją pagal savo pačių saugojimo politiką; išsamios informacijos ieškokite jų privatumo pranešimuose.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Privatumo manifestas</h2>
             <p>Programėlėje pateikiamas „Apple“ reikalaujamas privatumo manifestas, kuriame tiksliai nurodoma, kurias platformos API ji naudoja ir kurias duomenų kategorijas gali rinkti jos trečiųjų šalių SDK. Konkrečiai, manifeste deklaruojama: įrenginio identifikatorius ir reklamos duomenys, susieti su trečiųjų šalių reklama (naudoja „AdMob“ ir jos tarpininkavimo partnerė „Unity Ads“, tik kai suteikiate leidimą); produkto sąveika, našumo duomenys ir kiti diagnostiniai duomenys, susieti su analitika ir programos funkcionalumu (naudoja „Adapty“, „AdMob“ ir „Unity Ads“, anonimiškai); ir pirkinių istorija, susieta su programos funkcionalumu ir analitika (naudojama jūsų prenumeratai patikrinti). „Apple“ apjungia šias deklaracijas ir mūsų trečiųjų šalių SDK manifestus į skiltį &ldquo;Programos privatumas&rdquo; „App Store“ įraše.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Vaikų privatumas</h2>
             <p>„Image Converter Plus“ nėra skirta jaunesniems nei 13 metų vaikams (arba atitinkamo minimalaus amžiaus jūsų šalyje). Mes sąmoningai nerenkame asmeninės informacijos iš vaikų. Jei manote, kad vaikas pateikė mums asmeninę informaciją per kurią nors trečiosios šalies paslaugą, susisiekite su mumis ir mes bendradarbiausime su atitinkamu teikėju, kad ji būtų pašalinta.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Jūsų teisės EEE, Jungtinėje Karalystėje ir Šveicarijoje</h2>
             <p>Jei jums taikomas BDAR arba UK GDPR, turite teisę susipažinti su savo asmens duomenimis, juos ištaisyti, ištrinti ar eksportuoti, apriboti tam tikrą tvarkymą ar jam nepritarti ir pateikti skundą savo vietos duomenų apsaugos institucijai. Kadangi Programėlė tvarko jūsų nuotraukas ir konvertavimo istoriją tik jūsų įrenginyje, susipažinimo, ištaisymo ir ištrynimo teises galite įgyvendinti patys tiesiogiai Programėlėje. Dėl duomenų, kuriuos saugo „Apple“, „Adapty“, „Google“ ar „Unity“, kreipkitės tiesiogiai į tas įmones. Taip pat galite rašyti mums toliau nurodytu adresu ir mes padėsime jums nukreipti užklausą.</p>
             <p>Teisiniai pagrindai, kuriais remiamės, yra šie: sutarties vykdymas (Programėlės ir jūsų pirkinių pateikimas), sutikimas (suasmenintiems skelbimams, kai sutikimo prašoma per „User Messaging Platform“ ir „App Tracking Transparency“) ir teisėti interesai (ribota diagnostinė informacija, reikalinga Programėlės patikimumui užtikrinti, palyginta su jūsų interesais).</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Jūsų teisės Kalifornijoje</h2>
             <p>Jei esate Kalifornijos gyventojas, Kalifornijos vartotojų privatumo aktas (CCPA/CPRA) suteikia jums teisę žinoti, kokia asmeninė informacija apie jus renkama, prašyti ištrinti asmeninę informaciją, ištaisyti netikslią asmeninę informaciją ir atsisakyti asmeninės informacijos &ldquo;pardavimo&rdquo; arba &ldquo;dalijimosi&rdquo; tarpkontekstinei elgsenos reklamai. Mes neparduodame jūsų asmeninės informacijos. Norėdami atsisakyti bet kokio dalijimosi suasmeninta reklama, „App Tracking Transparency“ raginime pasirinkite <strong>Prašyti programėlės nesekti</strong> arba atsisakykite sutikimo „User Messaging Platform“ formoje. Norėdami įgyvendinti kitas teises, susisiekite su mumis toliau nurodytu adresu.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Tarptautiniai perdavimai</h2>
             <p>„Apple“, „Adapty“, „Google“ ir „Unity“ gali tvarkyti ribotą informaciją serveriuose už jūsų šalies ribų, įskaitant Jungtinėse Valstijose. Šie teikėjai remiasi standartinėmis sutarčių sąlygomis arba panašiais perdavimo mechanizmais, kai to reikalauja įstatymai. Mes nevaldome savo serverių, todėl patys neatliekame papildomų tarptautinių perdavimų.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Šios politikos pakeitimai</h2>
             <p>Jei iš esmės pakeisime šią politiką, paskelbsime atnaujintą versiją šiuo URL adresu ir atnaujinsime toliau pateiktą datą &ldquo;Paskutinį kartą atnaujinta&rdquo;. Esant reikšmingiems pakeitimams, turintiems įtakos tam, kokie duomenys renkami, naudosime „App Store“ atnaujinimo pastabas, kad atkreiptume jūsų dėmesį į pakeitimą.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Kontaktai</h2>
             <p>Bet kokio pirminio tvarkymo duomenų valdytojas yra Denys Lebiediev. Jei turite klausimų dėl šios privatumo politikos arba norite įgyvendinti savo teises, rašykite adresu <a href="mailto:imageconverterplus.help@gmail.com">imageconverterplus.help@gmail.com</a> ir atsakysime per 30 dienų.</p>
         </div>
@@ -213,7 +230,7 @@
     </div>
 
     <!-- Links -->
-    <div class="links-section fade-in">
+    <div class="links-section" data-reveal>
 
         <a class="link-card" href="support.html">
             <p class="link-label">Pagalba</p>
@@ -228,25 +245,94 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer fade-in">
+    <div class="footer">
         <p>Paskutinį kartą atnaujinta: 2026 m. gegužė</p>
     </div>
 
 </div>
 
-<script>
-    // Fade-in on scroll
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span class="copyright">© 2026 Denys Lebiediev</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">Privatumo politika</a></li>
+            <li><a href="terms.html">Naudojimo sąlygos</a></li>
+            <li><a href="support.html">Pagalba</a></li>
+        </ul>
+        <!-- lang-menu -->
+        <details class="lang-menu">
+            <summary class="lang-trigger" aria-label="Kalba: Lietuvių"><svg class="lang-globe" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="8" cy="8" rx="2.8" ry="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M1.7 8h12.6M2.6 4.6h10.8M2.6 11.4h10.8" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="lang-current">Lietuvių</span><svg class="lang-chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+            <div class="lang-panel">
+                <ul class="lang-list" role="list" translate="no">
+                    <li><a href="../af/privacy.html" lang="af" hreflang="af">Afrikaans</a></li>
+                    <li><a href="../id/privacy.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+                    <li><a href="../ms/privacy.html" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+                    <li><a href="../bs/privacy.html" lang="bs" hreflang="bs">Bosanski</a></li>
+                    <li><a href="../ca/privacy.html" lang="ca" hreflang="ca">Català</a></li>
+                    <li><a href="../cs/privacy.html" lang="cs" hreflang="cs">Čeština</a></li>
+                    <li><a href="../cy/privacy.html" lang="cy" hreflang="cy">Cymraeg</a></li>
+                    <li><a href="../da/privacy.html" lang="da" hreflang="da">Dansk</a></li>
+                    <li><a href="../de/privacy.html" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="../et/privacy.html" lang="et" hreflang="et">Eesti</a></li>
+                    <li><a href="../privacy.html?lang=en" lang="en" hreflang="en">English</a></li>
+                    <li><a href="../es/privacy.html" lang="es" hreflang="es">Español</a></li>
+                    <li><a href="../fil/privacy.html" lang="fil" hreflang="fil">Filipino</a></li>
+                    <li><a href="../fr/privacy.html" lang="fr" hreflang="fr">Français</a></li>
+                    <li><a href="../ga/privacy.html" lang="ga" hreflang="ga">Gaeilge</a></li>
+                    <li><a href="../hr/privacy.html" lang="hr" hreflang="hr">Hrvatski</a></li>
+                    <li><a href="../is/privacy.html" lang="is" hreflang="is">Íslenska</a></li>
+                    <li><a href="../it/privacy.html" lang="it" hreflang="it">Italiano</a></li>
+                    <li><a href="../sw/privacy.html" lang="sw" hreflang="sw">Kiswahili</a></li>
+                    <li><a href="../lv/privacy.html" lang="lv" hreflang="lv">Latviešu</a></li>
+                    <li><a href="../lt/privacy.html" lang="lt" hreflang="lt" aria-current="true">Lietuvių<svg class="lang-check" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="../hu/privacy.html" lang="hu" hreflang="hu">Magyar</a></li>
+                    <li><a href="../mt/privacy.html" lang="mt" hreflang="mt">Malti</a></li>
+                    <li><a href="../nl/privacy.html" lang="nl" hreflang="nl">Nederlands</a></li>
+                    <li><a href="../nb/privacy.html" lang="nb" hreflang="nb">Norsk bokmål</a></li>
+                    <li><a href="../pl/privacy.html" lang="pl" hreflang="pl">Polski</a></li>
+                    <li><a href="../pt-BR/privacy.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+                    <li><a href="../pt-PT/privacy.html" lang="pt-PT" hreflang="pt-PT">Português (Portugal)</a></li>
+                    <li><a href="../ro/privacy.html" lang="ro" hreflang="ro">Română</a></li>
+                    <li><a href="../sq/privacy.html" lang="sq" hreflang="sq">Shqip</a></li>
+                    <li><a href="../sk/privacy.html" lang="sk" hreflang="sk">Slovenčina</a></li>
+                    <li><a href="../sl/privacy.html" lang="sl" hreflang="sl">Slovenščina</a></li>
+                    <li><a href="../fi/privacy.html" lang="fi" hreflang="fi">Suomi</a></li>
+                    <li><a href="../sv/privacy.html" lang="sv" hreflang="sv">Svenska</a></li>
+                    <li><a href="../vi/privacy.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+                    <li><a href="../tr/privacy.html" lang="tr" hreflang="tr">Türkçe</a></li>
+                    <li><a href="../be/privacy.html" lang="be" hreflang="be">Беларуская</a></li>
+                    <li><a href="../bg/privacy.html" lang="bg" hreflang="bg">Български</a></li>
+                    <li><a href="../mk/privacy.html" lang="mk" hreflang="mk">Македонски</a></li>
+                    <li><a href="../sr/privacy.html" lang="sr" hreflang="sr">Српски</a></li>
+                    <li><a href="../uk/privacy.html" lang="uk" hreflang="uk">Українська</a></li>
+                    <li><a href="../el/privacy.html" lang="el" hreflang="el">Ελληνικά</a></li>
+                    <li><a href="../ar/privacy.html" lang="ar" hreflang="ar">العربية</a></li>
+                    <li><a href="../he/privacy.html" lang="he" hreflang="he">עברית</a></li>
+                    <li><a href="../ur/privacy.html" lang="ur" hreflang="ur">اردو</a></li>
+                    <li><a href="../fa/privacy.html" lang="fa" hreflang="fa">فارسی</a></li>
+                    <li><a href="../hi/privacy.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+                    <li><a href="../mr/privacy.html" lang="mr" hreflang="mr">मराठी</a></li>
+                    <li><a href="../gu/privacy.html" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+                    <li><a href="../pa/privacy.html" lang="pa" hreflang="pa">ਪੰਜਾਬੀ</a></li>
+                    <li><a href="../bn/privacy.html" lang="bn" hreflang="bn">বাংলা</a></li>
+                    <li><a href="../ta/privacy.html" lang="ta" hreflang="ta">தமிழ்</a></li>
+                    <li><a href="../te/privacy.html" lang="te" hreflang="te">తెలుగు</a></li>
+                    <li><a href="../kn/privacy.html" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+                    <li><a href="../ml/privacy.html" lang="ml" hreflang="ml">മലയാളം</a></li>
+                    <li><a href="../th/privacy.html" lang="th" hreflang="th">ไทย</a></li>
+                    <li><a href="../ja/privacy.html" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="../ko/privacy.html" lang="ko" hreflang="ko">한국어</a></li>
+                    <li><a href="../zh-Hans/privacy.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+                    <li><a href="../zh-Hant/privacy.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+                </ul>
+            </div>
+        </details>
+        <script defer src="../js/lang-menu.js"></script>
+        <!-- /lang-menu -->
+    </div>
+</footer>
 
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
+<script defer src="../js/subpage.js"></script>
 
 </body>
 </html>

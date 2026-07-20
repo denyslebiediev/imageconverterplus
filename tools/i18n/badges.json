@@ -1,0 +1,238 @@
+{
+ "af": {
+  "alt": "Laai af op die App Store",
+  "token": "en-us"
+ },
+ "ar": {
+  "alt": "تنزيل من App Store",
+  "token": "ar-ar"
+ },
+ "be": {
+  "alt": "Спампаваць з App Store",
+  "token": "en-us"
+ },
+ "bg": {
+  "alt": "Изтеглете от App Store",
+  "token": "bg-bg"
+ },
+ "bn": {
+  "alt": "App Store-এ ডাউনলোড করুন",
+  "token": "en-us"
+ },
+ "bs": {
+  "alt": "Preuzmite na App Storeu",
+  "token": "en-us"
+ },
+ "ca": {
+  "alt": "Descarrega a l&#39;App Store",
+  "token": "ca-es"
+ },
+ "cs": {
+  "alt": "Stáhnout v App Store",
+  "token": "cs-cz"
+ },
+ "cy": {
+  "alt": "Lawrlwytho ar yr App Store",
+  "token": "en-us"
+ },
+ "da": {
+  "alt": "Download on the App Store",
+  "token": "da-dk"
+ },
+ "de": {
+  "alt": "Laden im App Store",
+  "token": "de-de"
+ },
+ "el": {
+  "alt": "Λήψη στο App Store",
+  "token": "el-gr"
+ },
+ "es": {
+  "alt": "Descargar en el App Store",
+  "token": "es-es"
+ },
+ "et": {
+  "alt": "Laadi alla App Store&#39;ist",
+  "token": "et-ee"
+ },
+ "fa": {
+  "alt": "دانلود در App Store",
+  "token": "en-us"
+ },
+ "fi": {
+  "alt": "Lataa App Storesta",
+  "token": "fi-fi"
+ },
+ "fil": {
+  "alt": "I-download sa App Store",
+  "token": "tl-ph"
+ },
+ "fr": {
+  "alt": "Télécharger dans l&#39;App Store",
+  "token": "fr-fr"
+ },
+ "ga": {
+  "alt": "Íoslódáil ar an App Store",
+  "token": "en-us"
+ },
+ "gu": {
+  "alt": "App Store પર ડાઉનલોડ કરો",
+  "token": "en-us"
+ },
+ "he": {
+  "alt": "הורד ב-App Store",
+  "token": "he-il"
+ },
+ "hi": {
+  "alt": "App Store पर डाउनलोड करें",
+  "token": "en-us"
+ },
+ "hr": {
+  "alt": "Preuzmite na App Storeu",
+  "token": "en-us"
+ },
+ "hu": {
+  "alt": "Letöltés az App Store-ból",
+  "token": "hu-hu"
+ },
+ "id": {
+  "alt": "Unduh di App Store",
+  "token": "id-id"
+ },
+ "is": {
+  "alt": "Sækja í App Store",
+  "token": "en-us"
+ },
+ "it": {
+  "alt": "Scarica su App Store",
+  "token": "it-it"
+ },
+ "ja": {
+  "alt": "App Storeからダウンロード",
+  "token": "ja-jp"
+ },
+ "kn": {
+  "alt": "App Store ನಲ್ಲಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+  "token": "en-us"
+ },
+ "ko": {
+  "alt": "App Store에서 다운로드",
+  "token": "ko-kr"
+ },
+ "lt": {
+  "alt": "Atsisiųsti iš App Store",
+  "token": "lt-lt"
+ },
+ "lv": {
+  "alt": "Lejupielādēt App Store",
+  "token": "lv-lv"
+ },
+ "mk": {
+  "alt": "Преземи од App Store",
+  "token": "en-us"
+ },
+ "ml": {
+  "alt": "App Store-ൽ ഡൗൺലോഡ് ചെയ്യുക",
+  "token": "en-us"
+ },
+ "mr": {
+  "alt": "App Store वर डाउनलोड करा",
+  "token": "en-us"
+ },
+ "ms": {
+  "alt": "Muat Turun di App Store",
+  "token": "ms-my"
+ },
+ "mt": {
+  "alt": "Niżżel mill-App Store",
+  "token": "mt-mt"
+ },
+ "nb": {
+  "alt": "Last ned på App Store",
+  "token": "no-no"
+ },
+ "nl": {
+  "alt": "Download in de App Store",
+  "token": "nl-nl"
+ },
+ "pa": {
+  "alt": "App Store &#39;ਤੇ ਡਾਊਨਲੋਡ ਕਰੋ",
+  "token": "en-us"
+ },
+ "pl": {
+  "alt": "Pobierz w App Store",
+  "token": "pl-pl"
+ },
+ "pt-BR": {
+  "alt": "Disponível na App Store",
+  "token": "pt-br"
+ },
+ "pt-PT": {
+  "alt": "Descarregar na App Store",
+  "token": "pt-pt"
+ },
+ "ro": {
+  "alt": "Descarcă din App Store",
+  "token": "ro-ro"
+ },
+ "sk": {
+  "alt": "Stiahnuť v App Store",
+  "token": "sk-sk"
+ },
+ "sl": {
+  "alt": "Prenesi v App Store",
+  "token": "sl-si"
+ },
+ "sq": {
+  "alt": "Shkarko në App Store",
+  "token": "en-us"
+ },
+ "sr": {
+  "alt": "Преузмите на App Store-у",
+  "token": "en-us"
+ },
+ "sv": {
+  "alt": "Ladda ned på App Store",
+  "token": "sv-se"
+ },
+ "sw": {
+  "alt": "Pakua kwenye App Store",
+  "token": "en-us"
+ },
+ "ta": {
+  "alt": "App Store இல் பதிவிறக்கவும்",
+  "token": "en-us"
+ },
+ "te": {
+  "alt": "App Store లో డౌన్‌లోడ్ చేయండి",
+  "token": "en-us"
+ },
+ "th": {
+  "alt": "ดาวน์โหลดบน App Store",
+  "token": "th-th"
+ },
+ "tr": {
+  "alt": "App Store&#39;dan İndir",
+  "token": "tr-tr"
+ },
+ "uk": {
+  "alt": "Завантажити в App Store",
+  "token": "en-us"
+ },
+ "ur": {
+  "alt": "App Store پر ڈاؤن لوڈ کریں",
+  "token": "en-us"
+ },
+ "vi": {
+  "alt": "Tải về trên App Store",
+  "token": "vi-vn"
+ },
+ "zh-Hans": {
+  "alt": "在 App Store 下载",
+  "token": "zh-cn"
+ },
+ "zh-Hant": {
+  "alt": "從 App Store 下載",
+  "token": "zh-tw"
+ }
+}

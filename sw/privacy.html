@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=6759621930">
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#05060A">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <link rel="icon" href="../images/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
+    <script>
+        document.documentElement.classList.add('js');
+        // if subpage.js never boots, un-gate the reveals so content can't stay hidden
+        setTimeout(function () { if (!window.__icpSubBooted) document.documentElement.classList.remove('js'); }, 2500);
+    </script>
     <title>Sera ya Faragha - Image Converter Plus</title>
     <meta name="description" content="Sera ya Faragha kwa Image Converter Plus. Picha huchakatwa kwenye kifaa chako pekee. Tunaeleza haswa kile ambacho SDK za watu wengine hukusanya kwa ajili ya manunuzi na matangazo.">
     <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/privacy.html">
@@ -74,36 +78,49 @@
     <link rel="alternate" hreflang="cy" href="https://denyslebiediev.github.io/imageconverterplus/cy/privacy.html">
     <link rel="alternate" hreflang="be" href="https://denyslebiediev.github.io/imageconverterplus/be/privacy.html">
     <link rel="alternate" hreflang="x-default" href="https://denyslebiediev.github.io/imageconverterplus/privacy.html">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/subpage.css">
+    <meta property="og:title" content="Sera ya Faragha — Image Converter Plus">
+    <meta property="og:description" content="Sera ya Faragha kwa Image Converter Plus. Picha huchakatwa kwenye kifaa chako pekee. Tunaeleza haswa kile ambacho SDK za watu wengine hukusanya kwa ajili ya manunuzi na matangazo.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://denyslebiediev.github.io/imageconverterplus/sw/privacy.html">
+    <meta property="og:image" content="https://denyslebiediev.github.io/imageconverterplus/images/icon-512.png">
+    <link rel="canonical" href="https://denyslebiediev.github.io/imageconverterplus/sw/privacy.html">
+    <link rel="preload" href="../fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/subpage-dark.css">
 
 </head>
 <body>
 
-<!-- Nav -->
-<nav>
+<a class="skip-link" href="#main">Rukia hadi maudhui</a>
+
+<nav class="site-nav" aria-label="Tovuti">
     <div class="nav-inner">
-        <a class="nav-title" href="index.html">Image Converter Plus</a>
+        <a class="nav-brand" href="index.html">
+            <img src="../images/AppIcon.png" alt="" width="28" height="28">
+            <span>Image Converter Plus</span>
+        </a>
         <ul class="nav-links">
-            <li><a href="privacy.html">Sera ya Faragha</a></li>
+            <li><a href="privacy.html" aria-current="page">Sera ya Faragha</a></li>
             <li><a href="terms.html">Masharti ya Matumizi</a></li>
             <li><a href="support.html">Usaidizi</a></li>
         </ul>
+        <a class="nav-cta" href="https://apps.apple.com/app/image-converter-plus/id6759621930">Pata programu</a>
     </div>
 </nav>
 
-<div class="page">
+<div class="page" id="main">
 
     <!-- Hero -->
-    <div class="hero fade-in">
-        <h1>Sera ya Faragha</h1>
+    <header class="page-head">
+        <p class="eyebrow mono">Kisheria · Faragha</p>
+        <h1 class="headline">Sera ya Faragha</h1>
         <p class="subtitle">Picha zako hubaki kwenye kifaa chako. Ukurasa huu unaeleza haswa kile tunachofanya na watoa huduma wetu — na tusichofanya — na taarifa zako.</p>
-    </div>
+    </header>
 
     <!-- Content Cards -->
-    <div class="stagger">
+    <div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Muhtasari</h2>
             <p>Image Converter Plus (&ldquo;Programu&rdquo;) imejengwa na Denys Lebiediev. Ubadilishaji wote wa picha huendeshwa kwenye kifaa chako. Hatuendeshi seva yoyote inayopokea picha zako. Hata hivyo, tunatumia idadi ndogo ya huduma za watu wengine zinazoaminika kushughulikia manunuzi ndani ya programu na kuonyesha matangazo ya video yenye zawadi ya hiari kwa watumiaji wa bila malipo. Huduma hizo hukusanya taarifa zenye mipaka, ambazo kwa kiasi kikubwa hazina utambulisho kama ilivyoelezwa hapa chini. Daima una udhibiti wa kile kinachotokea.</p>
             <ul>
@@ -115,9 +132,9 @@
             </ul>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Kile Kinachobaki Kwenye Kifaa Chako</h2>
-            <p>Ubadilishaji wote wa picha, kubadilisha ukubwa, kuondoa metadata, kuweka alama ya maji, kupatia faili majina, mipangilio iliyowekwa awali, na historia ya ubadilishaji hutokea kabisa kwenye iPhone au iPad yako. Hakuna chochote kuhusu maudhui ya picha zako kinachotumwa kwetu au kwa mtu mwingine yeyote.</p>
+            <p>Ubadilishaji wote wa picha, kubadilisha ukubwa, kuondoa metadata, kupatia faili majina, mipangilio iliyowekwa awali, na historia ya ubadilishaji hutokea kabisa kwenye iPhone au iPad yako. Hakuna chochote kuhusu maudhui ya picha zako kinachotumwa kwetu au kwa mtu mwingine yeyote.</p>
             <ul>
                 <li>Picha na faili unazoingiza.</li>
                 <li>Metadata iliyotolewa au kuondolewa kutoka kwa faili hizo.</li>
@@ -127,7 +144,7 @@
             <p>Unaweza kufuta data hii wakati wowote kwa kuondoa vipengee kwenye kichupo cha Historia, kufuta historia kutoka kwenye Mipangilio, au kufuta Programu.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Taarifa Zinazokusanywa na Huduma za Watu Wengine</h2>
             <p>Programu inategemea idadi ndogo ya huduma ili ifanye kazi. Tumeziweka kila moja yake ili ikusanye data ndogo zaidi inayohitajika. Hatuna ufikiaji wa maudhui ya picha zako kupitia yoyote kati yake.</p>
 
@@ -142,7 +159,7 @@
             <p><strong>Apple App Store (ukaguzi wa sasisho).</strong> Programu mara kwa mara huuliza sehemu ya umma ya iTunes Lookup ya Apple ili kujua iwapo toleo jipya linapatikana. Ombi hili linajumuisha kitambulishi cha kifurushi cha Programu na nchi ya duka lako pekee. Apple inaweza kupokea anwani yako ya IP kama sehemu ya ombi lolote la HTTPS, lakini sisi hatupokei.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Ufuatiliaji na Matangazo Yaliyobinafsishwa</h2>
             <p>Ikiwa wewe ni mtumiaji wa bila malipo, mara ya kwanza Programu inapokuwa katika nafasi ya kukuonyesha tangazo, tunaweza kuuliza, kupitia kidirisha cha kawaida cha mfumo cha Apple (App Tracking Transparency), iwapo unaruhusu Programu kutumia kitambulishi cha matangazo cha kifaa chako (IDFA) ili kuwasilisha matangazo yanayofaa zaidi. Jibu lako ni la mwisho: unaweza kulibadilisha wakati wowote katika iOS&nbsp;Mipangilio&nbsp;&rsaquo; Faragha &amp; Usalama &nbsp;&rsaquo; Ufuatiliaji &nbsp;&rsaquo; Image Converter Plus.</p>
             <ul>
@@ -153,59 +170,59 @@
             <p>Katika maeneo yanayolindwa na GDPR au sheria zinazolingana, fomu ya idhini ya User Messaging Platform itaonekana kabla tangazo lolote halijapakiwa, na unaweza kukagua au kubadilisha chaguo zako baadaye kutoka <strong>Mipangilio &nbsp;&rsaquo; Dhibiti Chaguo za Matangazo</strong> ndani ya Programu.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Picha na Faili Zako</h2>
             <p>Programu hufikia picha kupitia kichagulizi kinacholinda faragha cha Apple (<em>PHPickerViewController</em>), maana yake ni kwamba tunaona tu vipengee unavyochagua kwa uwazi &mdash; siyo maktaba yako yote ya picha. Faili unazoingiza kutoka programu ya Faili husomwa moja kwa moja kutoka eneo unalochagua. Picha zilizobadilishwa huandikwa ama kwenye folda ya faragha ndani ya Programu, kwenye maktaba yako ya Picha (kwa ruhusa yako), au kwenye eneo unalochagua katika programu ya Faili.</p>
             <p>Ikiwa utaipatia Programu ruhusa ya kuongeza kwenye maktaba yako ya Picha, Programu huomba ruhusa ya chini kabisa ya &ldquo;Ongeza Picha Pekee&rdquo; ili isiweze kamwe kusoma picha zako zilizopo.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Kiendelezi cha Kushiriki</h2>
             <p>Kiendelezi cha Kushiriki hukuwezesha kubadilisha picha kutoka programu nyingine yoyote bila kufungua Image Converter Plus. Picha zilizochaguliwa huchakatwa ndani ya kifaa chako. Kiendelezi cha Kushiriki hakijumuishi manunuzi ndani ya programu, matangazo, au uchanganuzi. Ukigusa sehemu ya kuingilia ya uboreshaji ndani ya Kiendelezi cha Kushiriki, Programu kuu hufunguka na mtiririko wa uboreshaji huendeshwa hapo.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Taarifa za Uchunguzi katika Barua Pepe za Usaidizi</h2>
             <p>Unapogusa kiungo cha mawasiliano ndani ya Programu, programu yako chaguomsingi ya barua pepe hufunguka na ujumbe wa rasimu ambao hujaza awali taarifa za msingi za uchunguzi: toleo la programu, toleo la iOS, modeli ya kifaa, lugha ya programu, hali ya usajili, na nafasi inayopatikana ya diski. Ujumbe huo unaonekana kikamilifu kwako kabla ya kuutuma. Hakuna chochote kinachotumwa isipokuwa ukibonyeza Tuma.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Uhifadhi wa Data</h2>
             <p>Hatuendeshi seva, kwa hivyo hakuna chochote cha kuhifadhi upande wetu. Faili, historia, mipangilio iliyowekwa awali, na mapendeleo viko kwenye kifaa chako na huondolewa unapovifuta au unapoondoa usakinishaji wa Programu. Apple, Adapty, Google, na Unity huhifadhi taarifa zenye mipaka zilizoelezwa hapo juu kulingana na sera zao wenyewe za uhifadhi; rejelea ilani zao za faragha kwa maelezo.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Ilani ya Faragha</h2>
             <p>Programu husafirisha ilani ya faragha inayohitajika na Apple inayotangaza haswa ni API zipi za jukwaa inazotumia na ni kategoria zipi za data ambazo SDK zake za watu wengine zinaweza kukusanya. Hasa, ilani hutangaza: kitambulishi cha kifaa na data ya matangazo iliyounganishwa na matangazo ya watu wengine (inayotumiwa na AdMob na mshirika wake wa upatanishi Unity Ads, pale tu unapotoa ruhusa); mwingiliano wa bidhaa, data ya utendaji, na data nyingine ya uchunguzi iliyounganishwa na uchanganuzi na utendaji wa programu (inayotumiwa na Adapty, AdMob, na Unity Ads, bila utambulisho); na historia ya ununuzi iliyounganishwa na utendaji wa programu na uchanganuzi (inayotumiwa kuthibitisha usajili wako). Apple hujumuisha matangazo haya na ilani za SDK zetu za watu wengine katika sehemu ya &ldquo;Faragha ya Programu&rdquo; kwenye orodha ya App Store.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Faragha ya Watoto</h2>
             <p>Image Converter Plus haielekezwi kwa watoto walio chini ya umri wa miaka 13 (au umri wa chini kabisa unaolingana katika nchi yako). Hatukusanyi kwa makusudi taarifa za kibinafsi kutoka kwa watoto. Ikiwa unaamini mtoto ametupatia taarifa za kibinafsi kupitia huduma yoyote ya watu wengine, tafadhali wasiliana nasi na tutafanya kazi na mtoa huduma husika ili ziondolewe.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Haki Zako katika EEA, Uingereza, na Uswisi</h2>
             <p>Ikiwa GDPR au UK GDPR inakuhusu, una haki ya kufikia, kusahihisha, kufuta, au kuhamisha data yako ya kibinafsi, kuweka mipaka au kupinga uchakataji fulani, na kuwasilisha lalamiko kwa mamlaka yako ya ndani ya ulinzi wa data. Kwa sababu Programu huchakata picha zako na historia ya ubadilishaji kwenye kifaa chako pekee, unaweza kutumia mwenyewe haki za ufikiaji, usahihishaji, na ufutaji moja kwa moja ndani ya Programu. Kwa data inayoshikiliwa na Apple, Adapty, Google, au Unity, tafadhali wasiliana na makampuni hayo moja kwa moja. Unaweza pia kutuandikia kwa anwani iliyo hapa chini na tutakusaidia kuelekeza ombi.</p>
             <p>Misingi ya kisheria tunayoitegemea ni: kutekeleza mkataba (kuwasilisha Programu na manunuzi yako), idhini (kwa matangazo yaliyobinafsishwa, ambapo idhini huombwa kupitia User Messaging Platform na App Tracking Transparency), na maslahi halali (taarifa zenye mipaka za uchunguzi zinazohitajika kuweka Programu kuwa ya kuaminika, zikilinganishwa na maslahi yako).</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Haki Zako katika California</h2>
             <p>Ikiwa wewe ni mkazi wa California, Sheria ya Faragha ya Watumiaji ya California (CCPA/CPRA) inakupa haki ya kujua ni taarifa zipi za kibinafsi zinazokusanywa kukuhusu, kuomba ufutaji wa taarifa za kibinafsi, kusahihisha taarifa za kibinafsi zisizo sahihi, na kujiondoa kwenye &ldquo;uuzaji&rdquo; au &ldquo;ushirikishaji&rdquo; wa taarifa za kibinafsi kwa ajili ya matangazo ya kitabia ya muktadha mtambuka. Hatuuzi taarifa zako za kibinafsi. Ili kujiondoa kwenye ushirikishaji wowote wa matangazo yaliyobinafsishwa, chagua <strong>Iombe Programu Isifuatilie</strong> kwenye kidirisha cha App Tracking Transparency au kataa idhini katika fomu ya User Messaging Platform. Ili kutumia haki nyingine, wasiliana nasi kwa anwani iliyo hapa chini.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Uhamishaji wa Kimataifa</h2>
             <p>Apple, Adapty, Google, na Unity wanaweza kuchakata taarifa zenye mipaka kwenye seva zilizo nje ya nchi yako, ikiwa ni pamoja na Marekani. Watoa huduma hawa hutegemea Vifungu vya Kawaida vya Mkataba au mbinu zinazolingana za uhamishaji pale sheria inapohitaji. Hatuendeshi seva zetu wenyewe na kwa hivyo sisi wenyewe hatufanyi uhamishaji wa ziada wa kimataifa.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Mabadiliko kwa Sera Hii</h2>
             <p>Ikiwa tutafanya mabadiliko makubwa kwa sera hii, tutachapisha toleo lililosasishwa kwenye URL hii na kusasisha tarehe ya &ldquo;Ilisasishwa mara ya mwisho&rdquo; iliyo hapa chini. Kwa mabadiliko yenye maana yanayoathiri ni data ipi inayokusanywa, tutatumia maelezo ya sasisho ya App Store kuvutia uangalifu wako kwenye mabadiliko hayo.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Mawasiliano</h2>
             <p>Mdhibiti wa data kwa uchakataji wowote wa upande wa kwanza ni Denys Lebiediev. Ikiwa una maswali kuhusu Sera hii ya Faragha au unataka kutumia haki zako, andika kwa <a href="mailto:imageconverterplus.help@gmail.com">imageconverterplus.help@gmail.com</a> na tutajibu ndani ya siku 30.</p>
         </div>
@@ -213,7 +230,7 @@
     </div>
 
     <!-- Links -->
-    <div class="links-section fade-in">
+    <div class="links-section" data-reveal>
 
         <a class="link-card" href="support.html">
             <p class="link-label">Msaada</p>
@@ -228,25 +245,94 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer fade-in">
+    <div class="footer">
         <p>Ilisasishwa mara ya mwisho: Mei 2026</p>
     </div>
 
 </div>
 
-<script>
-    // Fade-in on scroll
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span class="copyright">© 2026 Denys Lebiediev</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">Sera ya Faragha</a></li>
+            <li><a href="terms.html">Masharti ya Matumizi</a></li>
+            <li><a href="support.html">Usaidizi</a></li>
+        </ul>
+        <!-- lang-menu -->
+        <details class="lang-menu">
+            <summary class="lang-trigger" aria-label="Lugha: Kiswahili"><svg class="lang-globe" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="8" cy="8" rx="2.8" ry="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M1.7 8h12.6M2.6 4.6h10.8M2.6 11.4h10.8" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="lang-current">Kiswahili</span><svg class="lang-chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+            <div class="lang-panel">
+                <ul class="lang-list" role="list" translate="no">
+                    <li><a href="../af/privacy.html" lang="af" hreflang="af">Afrikaans</a></li>
+                    <li><a href="../id/privacy.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+                    <li><a href="../ms/privacy.html" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+                    <li><a href="../bs/privacy.html" lang="bs" hreflang="bs">Bosanski</a></li>
+                    <li><a href="../ca/privacy.html" lang="ca" hreflang="ca">Català</a></li>
+                    <li><a href="../cs/privacy.html" lang="cs" hreflang="cs">Čeština</a></li>
+                    <li><a href="../cy/privacy.html" lang="cy" hreflang="cy">Cymraeg</a></li>
+                    <li><a href="../da/privacy.html" lang="da" hreflang="da">Dansk</a></li>
+                    <li><a href="../de/privacy.html" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="../et/privacy.html" lang="et" hreflang="et">Eesti</a></li>
+                    <li><a href="../privacy.html?lang=en" lang="en" hreflang="en">English</a></li>
+                    <li><a href="../es/privacy.html" lang="es" hreflang="es">Español</a></li>
+                    <li><a href="../fil/privacy.html" lang="fil" hreflang="fil">Filipino</a></li>
+                    <li><a href="../fr/privacy.html" lang="fr" hreflang="fr">Français</a></li>
+                    <li><a href="../ga/privacy.html" lang="ga" hreflang="ga">Gaeilge</a></li>
+                    <li><a href="../hr/privacy.html" lang="hr" hreflang="hr">Hrvatski</a></li>
+                    <li><a href="../is/privacy.html" lang="is" hreflang="is">Íslenska</a></li>
+                    <li><a href="../it/privacy.html" lang="it" hreflang="it">Italiano</a></li>
+                    <li><a href="../sw/privacy.html" lang="sw" hreflang="sw" aria-current="true">Kiswahili<svg class="lang-check" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="../lv/privacy.html" lang="lv" hreflang="lv">Latviešu</a></li>
+                    <li><a href="../lt/privacy.html" lang="lt" hreflang="lt">Lietuvių</a></li>
+                    <li><a href="../hu/privacy.html" lang="hu" hreflang="hu">Magyar</a></li>
+                    <li><a href="../mt/privacy.html" lang="mt" hreflang="mt">Malti</a></li>
+                    <li><a href="../nl/privacy.html" lang="nl" hreflang="nl">Nederlands</a></li>
+                    <li><a href="../nb/privacy.html" lang="nb" hreflang="nb">Norsk bokmål</a></li>
+                    <li><a href="../pl/privacy.html" lang="pl" hreflang="pl">Polski</a></li>
+                    <li><a href="../pt-BR/privacy.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+                    <li><a href="../pt-PT/privacy.html" lang="pt-PT" hreflang="pt-PT">Português (Portugal)</a></li>
+                    <li><a href="../ro/privacy.html" lang="ro" hreflang="ro">Română</a></li>
+                    <li><a href="../sq/privacy.html" lang="sq" hreflang="sq">Shqip</a></li>
+                    <li><a href="../sk/privacy.html" lang="sk" hreflang="sk">Slovenčina</a></li>
+                    <li><a href="../sl/privacy.html" lang="sl" hreflang="sl">Slovenščina</a></li>
+                    <li><a href="../fi/privacy.html" lang="fi" hreflang="fi">Suomi</a></li>
+                    <li><a href="../sv/privacy.html" lang="sv" hreflang="sv">Svenska</a></li>
+                    <li><a href="../vi/privacy.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+                    <li><a href="../tr/privacy.html" lang="tr" hreflang="tr">Türkçe</a></li>
+                    <li><a href="../be/privacy.html" lang="be" hreflang="be">Беларуская</a></li>
+                    <li><a href="../bg/privacy.html" lang="bg" hreflang="bg">Български</a></li>
+                    <li><a href="../mk/privacy.html" lang="mk" hreflang="mk">Македонски</a></li>
+                    <li><a href="../sr/privacy.html" lang="sr" hreflang="sr">Српски</a></li>
+                    <li><a href="../uk/privacy.html" lang="uk" hreflang="uk">Українська</a></li>
+                    <li><a href="../el/privacy.html" lang="el" hreflang="el">Ελληνικά</a></li>
+                    <li><a href="../ar/privacy.html" lang="ar" hreflang="ar">العربية</a></li>
+                    <li><a href="../he/privacy.html" lang="he" hreflang="he">עברית</a></li>
+                    <li><a href="../ur/privacy.html" lang="ur" hreflang="ur">اردو</a></li>
+                    <li><a href="../fa/privacy.html" lang="fa" hreflang="fa">فارسی</a></li>
+                    <li><a href="../hi/privacy.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+                    <li><a href="../mr/privacy.html" lang="mr" hreflang="mr">मराठी</a></li>
+                    <li><a href="../gu/privacy.html" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+                    <li><a href="../pa/privacy.html" lang="pa" hreflang="pa">ਪੰਜਾਬੀ</a></li>
+                    <li><a href="../bn/privacy.html" lang="bn" hreflang="bn">বাংলা</a></li>
+                    <li><a href="../ta/privacy.html" lang="ta" hreflang="ta">தமிழ்</a></li>
+                    <li><a href="../te/privacy.html" lang="te" hreflang="te">తెలుగు</a></li>
+                    <li><a href="../kn/privacy.html" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+                    <li><a href="../ml/privacy.html" lang="ml" hreflang="ml">മലയാളം</a></li>
+                    <li><a href="../th/privacy.html" lang="th" hreflang="th">ไทย</a></li>
+                    <li><a href="../ja/privacy.html" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="../ko/privacy.html" lang="ko" hreflang="ko">한국어</a></li>
+                    <li><a href="../zh-Hans/privacy.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+                    <li><a href="../zh-Hant/privacy.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+                </ul>
+            </div>
+        </details>
+        <script defer src="../js/lang-menu.js"></script>
+        <!-- /lang-menu -->
+    </div>
+</footer>
 
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
+<script defer src="../js/subpage.js"></script>
 
 </body>
 </html>

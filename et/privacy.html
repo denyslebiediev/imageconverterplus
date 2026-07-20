@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=6759621930">
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#05060A">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <link rel="icon" href="../images/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
+    <script>
+        document.documentElement.classList.add('js');
+        // if subpage.js never boots, un-gate the reveals so content can't stay hidden
+        setTimeout(function () { if (!window.__icpSubBooted) document.documentElement.classList.remove('js'); }, 2500);
+    </script>
     <title>Privaatsuspoliitika - Image Converter Plus</title>
     <meta name="description" content="Image Converter Plusi privaatsuspoliitika. Fotosid töödeldakse ainult sinu seadmes. Selgitame täpselt, mida kolmandate osapoolte SDK-d ostude ja reklaamide jaoks koguvad.">
     <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/privacy.html">
@@ -74,36 +78,49 @@
     <link rel="alternate" hreflang="cy" href="https://denyslebiediev.github.io/imageconverterplus/cy/privacy.html">
     <link rel="alternate" hreflang="be" href="https://denyslebiediev.github.io/imageconverterplus/be/privacy.html">
     <link rel="alternate" hreflang="x-default" href="https://denyslebiediev.github.io/imageconverterplus/privacy.html">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/subpage.css">
+    <meta property="og:title" content="Privaatsuspoliitika — Image Converter Plus">
+    <meta property="og:description" content="Image Converter Plusi privaatsuspoliitika. Fotosid töödeldakse ainult sinu seadmes. Selgitame täpselt, mida kolmandate osapoolte SDK-d ostude ja reklaamide jaoks koguvad.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://denyslebiediev.github.io/imageconverterplus/et/privacy.html">
+    <meta property="og:image" content="https://denyslebiediev.github.io/imageconverterplus/images/icon-512.png">
+    <link rel="canonical" href="https://denyslebiediev.github.io/imageconverterplus/et/privacy.html">
+    <link rel="preload" href="../fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/subpage-dark.css">
 
 </head>
 <body>
 
-<!-- Nav -->
-<nav>
+<a class="skip-link" href="#main">Liigu sisu juurde</a>
+
+<nav class="site-nav" aria-label="Sait">
     <div class="nav-inner">
-        <a class="nav-title" href="index.html">Image Converter Plus</a>
+        <a class="nav-brand" href="index.html">
+            <img src="../images/AppIcon.png" alt="" width="28" height="28">
+            <span>Image Converter Plus</span>
+        </a>
         <ul class="nav-links">
-            <li><a href="privacy.html">Privaatsuspoliitika</a></li>
+            <li><a href="privacy.html" aria-current="page">Privaatsuspoliitika</a></li>
             <li><a href="terms.html">Kasutustingimused</a></li>
             <li><a href="support.html">Tugi</a></li>
         </ul>
+        <a class="nav-cta" href="https://apps.apple.com/app/image-converter-plus/id6759621930">Hangi rakendus</a>
     </div>
 </nav>
 
-<div class="page">
+<div class="page" id="main">
 
     <!-- Hero -->
-    <div class="hero fade-in">
-        <h1>Privaatsuspoliitika</h1>
+    <header class="page-head">
+        <p class="eyebrow mono">Juriidiline · Privaatsus</p>
+        <h1 class="headline">Privaatsuspoliitika</h1>
         <p class="subtitle">Sinu fotod jäävad sinu seadmesse. See leht selgitab täpselt, mida meie ja meie teenusepakkujad sinu teabega teevad — ja mida ei tee.</p>
-    </div>
+    </header>
 
     <!-- Content Cards -->
-    <div class="stagger">
+    <div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Kokkuvõte</h2>
             <p>Image Converter Plusi (&ldquo;rakendus&rdquo;) on loonud Denys Lebiediev. Kogu pildikonversioon toimub sinu seadmes. Me ei käita ühtegi serverit, mis sinu fotosid vastu võtaks. Siiski kasutame väikest hulka usaldusväärseid kolmandate osapoolte teenuseid, et töödelda rakendusesiseseid oste ning näidata tasuta kasutajatele valikulisi tasustatud videoreklaame. Need teenused koguvad piiratud, enamasti anonüümset teavet, nagu allpool kirjeldatud. Sul on alati kontroll selle üle, mis toimub.</p>
             <ul>
@@ -115,9 +132,9 @@
             </ul>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Mis jääb sinu seadmesse</h2>
-            <p>Kogu pildikonversioon, suuruse muutmine, metaandmete eemaldamine, vesimärgistamine, failide nimetamine, eelseaded ja konversiooniajalugu toimuvad täielikult sinu iPhone'is või iPadis. Sinu fotode sisust ei edastata midagi meile ega ühelegi kolmandale osapoolele.</p>
+            <p>Kogu pildikonversioon, suuruse muutmine, metaandmete eemaldamine, failide nimetamine, eelseaded ja konversiooniajalugu toimuvad täielikult sinu iPhone'is või iPadis. Sinu fotode sisust ei edastata midagi meile ega ühelegi kolmandale osapoolele.</p>
             <ul>
                 <li>Fotod ja failid, mida sa impordid.</li>
                 <li>Metaandmed, mis on nendest failidest eraldatud või eemaldatud.</li>
@@ -127,7 +144,7 @@
             <p>Sa võid need andmed igal ajal kustutada, eemaldades üksusi vahekaardilt Ajalugu, tühjendades ajaloo Seadetes või kustutades rakenduse.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Kolmandate osapoolte teenuste kogutud teave</h2>
             <p>Rakendus tugineb toimimiseks väikesele hulgale teenustele. Oleme need kõik seadistanud koguma minimaalsel hulgal vajalikke andmeid. Meil ei ole ühegi neist kaudu juurdepääsu sinu fotode sisule.</p>
 
@@ -142,7 +159,7 @@
             <p><strong>Apple App Store (uuenduse kontroll).</strong> Rakendus pärib perioodiliselt Apple'i avalikku iTunes Lookupi lõpp-punkti, et teada saada, kas on saadaval uuem versioon. See päring sisaldab ainult rakenduse komplekti identifikaatorit ja sinu poe riiki. Apple võib mis tahes HTTPS-päringu osana saada sinu IP-aadressi, kuid meie mitte.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Jälgimine ja isikupärastatud reklaamid</h2>
             <p>Kui sa oled tasuta kasutaja, võime esimesel korral, kui rakendus saab sulle reklaami näidata, küsida Apple'i tavapärase süsteemiviiba (App Tracking Transparency) kaudu, kas sa lubad rakendusel kasutada sinu seadme reklaamiidentifikaatorit (IDFA), et edastada asjakohasemaid reklaame. Sinu vastus on lõplik: sa võid seda igal ajal muuta jaotises iOS&nbsp;Seaded&nbsp;&rsaquo; Privaatsus ja turvalisus &nbsp;&rsaquo; Jälgimine &nbsp;&rsaquo; Image Converter Plus.</p>
             <ul>
@@ -153,59 +170,59 @@
             <p>Piirkondades, mis on hõlmatud isikuandmete kaitse üldmääruse (GDPR) või võrreldavate seadustega, ilmub User Messaging Platformi nõusoleku vorm enne mis tahes reklaami laadimist ning sa võid oma valikuid hiljem üle vaadata või muuta rakenduses jaotises <strong>Seaded &nbsp;&rsaquo; Halda reklaamivalikuid</strong>.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Sinu fotod ja failid</h2>
             <p>Rakendus pääseb fotodele juurde Apple'i privaatsust säilitava valija (<em>PHPickerViewController</em>) kaudu, mis tähendab, et me näeme ainult neid üksusi, mille sa selgesõnaliselt valid &mdash; mitte sinu kogu fotokogu. Faile, mille sa impordid rakendusest Failid, loetakse otse asukohast, mille sa valid. Teisendatud pildid kirjutatakse kas rakendusesisesesse privaatsesse kausta, sinu fotokogusse (sinu loal) või asukohta, mille sa valid rakenduses Failid.</p>
             <p>Kui sa annad rakendusele loa lisada üksusi sinu fotokogusse, taotleb rakendus minimaalset õigust &ldquo;Ainult fotode lisamine&rdquo;, et see ei saaks kunagi sinu olemasolevaid fotosid lugeda.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Jagamislaiendus</h2>
             <p>Jagamislaiendus võimaldab sul teisendada pilte mis tahes muust rakendusest, ilma et peaksid Image Converter Plusi avama. Valitud pilte töödeldakse kohapeal sinu seadmes. Jagamislaiendus ei sisalda rakendusesiseseid oste, reklaame ega analüütikat. Kui sa puudutad jagamislaienduses uuenduse sisenemispunkti, avaneb põhirakendus ja uuendamisprotsess toimub seal.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Diagnostikateave toe e-kirjades</h2>
             <p>Kui sa puudutad rakenduses kontaktilinki, avaneb sinu vaikimisi meilirakendus mustandsõnumiga, mis täidab eelnevalt põhilise diagnostikateabe: rakenduse versioon, iOS-i versioon, seadme mudel, rakenduse keel, tellimuse olek ja vaba kettaruum. Sõnum on enne saatmist sulle täielikult nähtav. Midagi ei edastata, kui sa ei vajuta Saada.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Andmete säilitamine</h2>
             <p>Me ei käita serverit, seega ei ole meie poolel midagi säilitada. Failid, ajalugu, eelseaded ja eelistused asuvad sinu seadmes ning eemaldatakse, kui sa need kustutad või rakenduse desinstallid. Apple, Adapty, Google ja Unity säilitavad eespool kirjeldatud piiratud teavet vastavalt oma säilituspoliitikatele; üksikasjade saamiseks tutvu nende privaatsusteatistega.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Privaatsusmanifest</h2>
             <p>Rakendus tarnib Apple'i nõutava privaatsusmanifesti, mis deklareerib täpselt, milliseid platvormi API-sid see kasutab ja milliseid andmekategooriaid selle kolmandate osapoolte SDK-d võivad koguda. Konkreetselt deklareerib manifest: seadme identifikaatori ja reklaamiandmed, mis on seotud kolmandate osapoolte reklaamiga (kasutavad AdMob ja tema vahenduspartner Unity Ads, ainult siis, kui sa annad loa); tooteinteraktsiooni, jõudlusandmed ja muud diagnostikaandmed, mis on seotud analüütika ja rakenduse funktsionaalsusega (kasutavad Adapty, AdMob ja Unity Ads, anonüümselt); ning ostuajaloo, mis on seotud rakenduse funktsionaalsuse ja analüütikaga (kasutatakse sinu tellimuse kontrollimiseks). Apple koondab need deklaratsioonid ja meie kolmandate osapoolte SDK-de manifestid App Store'i loendi jaotisesse &ldquo;Rakenduse privaatsus&rdquo;.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Laste privaatsus</h2>
             <p>Image Converter Plus ei ole suunatud alla 13-aastastele lastele (või sinu riigi vastavale miinimumvanusele). Me ei kogu teadlikult laste isikuandmeid. Kui sa arvad, et laps on edastanud meile isikuandmeid mõne kolmanda osapoole teenuse kaudu, võta meiega ühendust ja me teeme asjaomase teenusepakkujaga koostööd, et need eemaldada.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Sinu õigused EMP-s, Ühendkuningriigis ja Šveitsis</h2>
             <p>Kui sinu suhtes kohaldatakse isikuandmete kaitse üldmäärust (GDPR) või Ühendkuningriigi GDPR-i, on sul õigus oma isikuandmetele juurde pääseda, neid parandada, kustutada või eksportida, teatud töötlemist piirata või sellele vastu vaielda ning esitada kaebus oma kohalikule andmekaitseasutusele. Kuna rakendus töötleb sinu fotosid ja konversiooniajalugu ainult sinu seadmes, saad sa juurdepääsu, parandamise ja kustutamise õigust ise otse rakenduses kasutada. Andmete puhul, mida hoiavad Apple, Adapty, Google või Unity, võta nende ettevõtetega otse ühendust. Sa võid kirjutada ka allpool toodud aadressile ja me aitame sul taotluse suunata.</p>
             <p>Õiguslikud alused, millele me tugineme, on: lepingu täitmine (rakenduse ja sinu ostude tarnimine), nõusolek (isikupärastatud reklaamide jaoks, kui nõusolekut küsitakse User Messaging Platformi ja App Tracking Transparency kaudu) ning õigustatud huvid (piiratud diagnostikateave, mis on vajalik rakenduse usaldusväärsuse tagamiseks, kaalutuna sinu huvidega).</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Sinu õigused Californias</h2>
             <p>Kui sa oled California elanik, annab California tarbijate eraelu puutumatuse seadus (CCPA/CPRA) sulle õiguse teada, milliseid isikuandmeid sinu kohta kogutakse, taotleda isikuandmete kustutamist, parandada ebatäpseid isikuandmeid ning loobuda isikuandmete &ldquo;müügist&rdquo; või &ldquo;jagamisest&rdquo; kontekstideülese käitumispõhise reklaami eesmärgil. Me ei müü sinu isikuandmeid. Et loobuda mis tahes jagamisest isikupärastatud reklaami jaoks, vali App Tracking Transparency viibal <strong>Palu rakendusel mitte jälgida</strong> või keeldu nõusolekust User Messaging Platformi vormis. Muude õiguste kasutamiseks võta meiega ühendust allpool toodud aadressil.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Rahvusvahelised edastused</h2>
             <p>Apple, Adapty, Google ja Unity võivad töödelda piiratud teavet serverites väljaspool sinu riiki, sealhulgas Ameerika Ühendriikides. Need teenusepakkujad tuginevad standardsetele lepingutingimustele või võrreldavatele edastamismehhanismidele, kui seadus seda nõuab. Meie ei käita oma servereid ega teosta seetõttu ise täiendavaid rahvusvahelisi edastusi.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Selle poliitika muudatused</h2>
             <p>Kui me teeme sellesse poliitikasse olulisi muudatusi, avaldame uuendatud versiooni sellel URL-il ja uuendame allpool olevat kuupäeva &ldquo;Viimati uuendatud&rdquo;. Sisukate muudatuste puhul, mis mõjutavad seda, milliseid andmeid kogutakse, kasutame App Store'i uuendusmärkmeid, et juhtida sinu tähelepanu muudatusele.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Kontakt</h2>
             <p>Mis tahes esimese osapoole töötlemise vastutav töötleja on Denys Lebiediev. Kui sul on selle privaatsuspoliitika kohta küsimusi või soovid oma õigusi kasutada, kirjuta aadressile <a href="mailto:imageconverterplus.help@gmail.com">imageconverterplus.help@gmail.com</a> ja me vastame 30 päeva jooksul.</p>
         </div>
@@ -213,7 +230,7 @@
     </div>
 
     <!-- Links -->
-    <div class="links-section fade-in">
+    <div class="links-section" data-reveal>
 
         <a class="link-card" href="support.html">
             <p class="link-label">Abi</p>
@@ -228,25 +245,94 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer fade-in">
+    <div class="footer">
         <p>Viimati uuendatud: mai 2026</p>
     </div>
 
 </div>
 
-<script>
-    // Fade-in on scroll
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span class="copyright">© 2026 Denys Lebiediev</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">Privaatsuspoliitika</a></li>
+            <li><a href="terms.html">Kasutustingimused</a></li>
+            <li><a href="support.html">Tugi</a></li>
+        </ul>
+        <!-- lang-menu -->
+        <details class="lang-menu">
+            <summary class="lang-trigger" aria-label="Keel: Eesti"><svg class="lang-globe" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="8" cy="8" rx="2.8" ry="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M1.7 8h12.6M2.6 4.6h10.8M2.6 11.4h10.8" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="lang-current">Eesti</span><svg class="lang-chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+            <div class="lang-panel">
+                <ul class="lang-list" role="list" translate="no">
+                    <li><a href="../af/privacy.html" lang="af" hreflang="af">Afrikaans</a></li>
+                    <li><a href="../id/privacy.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+                    <li><a href="../ms/privacy.html" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+                    <li><a href="../bs/privacy.html" lang="bs" hreflang="bs">Bosanski</a></li>
+                    <li><a href="../ca/privacy.html" lang="ca" hreflang="ca">Català</a></li>
+                    <li><a href="../cs/privacy.html" lang="cs" hreflang="cs">Čeština</a></li>
+                    <li><a href="../cy/privacy.html" lang="cy" hreflang="cy">Cymraeg</a></li>
+                    <li><a href="../da/privacy.html" lang="da" hreflang="da">Dansk</a></li>
+                    <li><a href="../de/privacy.html" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="../et/privacy.html" lang="et" hreflang="et" aria-current="true">Eesti<svg class="lang-check" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="../privacy.html?lang=en" lang="en" hreflang="en">English</a></li>
+                    <li><a href="../es/privacy.html" lang="es" hreflang="es">Español</a></li>
+                    <li><a href="../fil/privacy.html" lang="fil" hreflang="fil">Filipino</a></li>
+                    <li><a href="../fr/privacy.html" lang="fr" hreflang="fr">Français</a></li>
+                    <li><a href="../ga/privacy.html" lang="ga" hreflang="ga">Gaeilge</a></li>
+                    <li><a href="../hr/privacy.html" lang="hr" hreflang="hr">Hrvatski</a></li>
+                    <li><a href="../is/privacy.html" lang="is" hreflang="is">Íslenska</a></li>
+                    <li><a href="../it/privacy.html" lang="it" hreflang="it">Italiano</a></li>
+                    <li><a href="../sw/privacy.html" lang="sw" hreflang="sw">Kiswahili</a></li>
+                    <li><a href="../lv/privacy.html" lang="lv" hreflang="lv">Latviešu</a></li>
+                    <li><a href="../lt/privacy.html" lang="lt" hreflang="lt">Lietuvių</a></li>
+                    <li><a href="../hu/privacy.html" lang="hu" hreflang="hu">Magyar</a></li>
+                    <li><a href="../mt/privacy.html" lang="mt" hreflang="mt">Malti</a></li>
+                    <li><a href="../nl/privacy.html" lang="nl" hreflang="nl">Nederlands</a></li>
+                    <li><a href="../nb/privacy.html" lang="nb" hreflang="nb">Norsk bokmål</a></li>
+                    <li><a href="../pl/privacy.html" lang="pl" hreflang="pl">Polski</a></li>
+                    <li><a href="../pt-BR/privacy.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+                    <li><a href="../pt-PT/privacy.html" lang="pt-PT" hreflang="pt-PT">Português (Portugal)</a></li>
+                    <li><a href="../ro/privacy.html" lang="ro" hreflang="ro">Română</a></li>
+                    <li><a href="../sq/privacy.html" lang="sq" hreflang="sq">Shqip</a></li>
+                    <li><a href="../sk/privacy.html" lang="sk" hreflang="sk">Slovenčina</a></li>
+                    <li><a href="../sl/privacy.html" lang="sl" hreflang="sl">Slovenščina</a></li>
+                    <li><a href="../fi/privacy.html" lang="fi" hreflang="fi">Suomi</a></li>
+                    <li><a href="../sv/privacy.html" lang="sv" hreflang="sv">Svenska</a></li>
+                    <li><a href="../vi/privacy.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+                    <li><a href="../tr/privacy.html" lang="tr" hreflang="tr">Türkçe</a></li>
+                    <li><a href="../be/privacy.html" lang="be" hreflang="be">Беларуская</a></li>
+                    <li><a href="../bg/privacy.html" lang="bg" hreflang="bg">Български</a></li>
+                    <li><a href="../mk/privacy.html" lang="mk" hreflang="mk">Македонски</a></li>
+                    <li><a href="../sr/privacy.html" lang="sr" hreflang="sr">Српски</a></li>
+                    <li><a href="../uk/privacy.html" lang="uk" hreflang="uk">Українська</a></li>
+                    <li><a href="../el/privacy.html" lang="el" hreflang="el">Ελληνικά</a></li>
+                    <li><a href="../ar/privacy.html" lang="ar" hreflang="ar">العربية</a></li>
+                    <li><a href="../he/privacy.html" lang="he" hreflang="he">עברית</a></li>
+                    <li><a href="../ur/privacy.html" lang="ur" hreflang="ur">اردو</a></li>
+                    <li><a href="../fa/privacy.html" lang="fa" hreflang="fa">فارسی</a></li>
+                    <li><a href="../hi/privacy.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+                    <li><a href="../mr/privacy.html" lang="mr" hreflang="mr">मराठी</a></li>
+                    <li><a href="../gu/privacy.html" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+                    <li><a href="../pa/privacy.html" lang="pa" hreflang="pa">ਪੰਜਾਬੀ</a></li>
+                    <li><a href="../bn/privacy.html" lang="bn" hreflang="bn">বাংলা</a></li>
+                    <li><a href="../ta/privacy.html" lang="ta" hreflang="ta">தமிழ்</a></li>
+                    <li><a href="../te/privacy.html" lang="te" hreflang="te">తెలుగు</a></li>
+                    <li><a href="../kn/privacy.html" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+                    <li><a href="../ml/privacy.html" lang="ml" hreflang="ml">മലയാളം</a></li>
+                    <li><a href="../th/privacy.html" lang="th" hreflang="th">ไทย</a></li>
+                    <li><a href="../ja/privacy.html" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="../ko/privacy.html" lang="ko" hreflang="ko">한국어</a></li>
+                    <li><a href="../zh-Hans/privacy.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+                    <li><a href="../zh-Hant/privacy.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+                </ul>
+            </div>
+        </details>
+        <script defer src="../js/lang-menu.js"></script>
+        <!-- /lang-menu -->
+    </div>
+</footer>
 
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
+<script defer src="../js/subpage.js"></script>
 
 </body>
 </html>

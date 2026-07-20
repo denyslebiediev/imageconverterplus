@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=6759621930">
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#05060A">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <link rel="icon" href="../images/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
+    <script>
+        document.documentElement.classList.add('js');
+        // if subpage.js never boots, un-gate the reveals so content can't stay hidden
+        setTimeout(function () { if (!window.__icpSubBooted) document.documentElement.classList.remove('js'); }, 2500);
+    </script>
     <title>Όροι Χρήσης - Image Converter Plus</title>
     <meta name="description" content="Όροι Χρήσης για το Image Converter Plus. Διαβάστε την άδεια, τους όρους αγοράς, τις λεπτομέρειες αυτόματης ανανέωσης συνδρομής και τις οδηγίες χρήσης για την εφαρμογή.">
     <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
@@ -74,63 +78,77 @@
     <link rel="alternate" hreflang="cy" href="https://denyslebiediev.github.io/imageconverterplus/cy/terms.html">
     <link rel="alternate" hreflang="be" href="https://denyslebiediev.github.io/imageconverterplus/be/terms.html">
     <link rel="alternate" hreflang="x-default" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/subpage.css">
+    <meta property="og:title" content="Όροι Χρήσης — Image Converter Plus">
+    <meta property="og:description" content="Όροι Χρήσης για το Image Converter Plus. Διαβάστε την άδεια, τους όρους αγοράς, τις λεπτομέρειες αυτόματης ανανέωσης συνδρομής και τις οδηγίες χρήσης για την εφαρμογή.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://denyslebiediev.github.io/imageconverterplus/el/terms.html">
+    <meta property="og:image" content="https://denyslebiediev.github.io/imageconverterplus/images/icon-512.png">
+    <link rel="canonical" href="https://denyslebiediev.github.io/imageconverterplus/el/terms.html">
+    <link rel="preload" href="../fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../fonts/inter-var-greek.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/subpage-dark.css">
 
 </head>
 <body>
 
-<!-- Nav -->
-<nav>
+<a class="skip-link" href="#main">Μετάβαση στο περιεχόμενο</a>
+
+<nav class="site-nav" aria-label="Ιστότοπος">
     <div class="nav-inner">
-        <a class="nav-title" href="index.html">Image Converter Plus</a>
+        <a class="nav-brand" href="index.html">
+            <img src="../images/AppIcon.png" alt="" width="28" height="28">
+            <span>Image Converter Plus</span>
+        </a>
         <ul class="nav-links">
             <li><a href="privacy.html">Πολιτική Απορρήτου</a></li>
-            <li><a href="terms.html">Όροι Χρήσης</a></li>
+            <li><a href="terms.html" aria-current="page">Όροι Χρήσης</a></li>
             <li><a href="support.html">Υποστήριξη</a></li>
         </ul>
+        <a class="nav-cta" href="https://apps.apple.com/app/image-converter-plus/id6759621930">Αποκτήστε την εφαρμογή</a>
     </div>
 </nav>
 
-<div class="page">
+<div class="page" id="main">
 
     <!-- Hero -->
-    <div class="hero fade-in">
-        <h1>Όροι Χρήσης</h1>
+    <header class="page-head">
+        <p class="eyebrow mono">Νομικά · Όροι</p>
+        <h1 class="headline">Όροι Χρήσης</h1>
         <p class="subtitle">Image Converter Plus για iPhone και iPad</p>
-    </div>
+    </header>
 
     <!-- Content Cards -->
-    <div class="stagger">
+    <div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Συμφωνία</h2>
             <p>Αυτοί οι Όροι Χρήσης (οι &ldquo;Όροι&rdquo;) αποτελούν δεσμευτική συμφωνία μεταξύ εσάς και του Denys Lebiediev (ο &ldquo;Προγραμματιστής&rdquo;, &ldquo;εμείς&rdquo;, &ldquo;εμάς&rdquo;) σχετικά με τη χρήση της εφαρμογής για κινητά Image Converter Plus και της Επέκτασης Κοινής Χρήσης της (από κοινού, η &ldquo;Εφαρμογή&rdquo;). Με τη λήψη, την εγκατάσταση ή τη χρήση της Εφαρμογής, επιβεβαιώνετε ότι έχετε διαβάσει, κατανοήσει και αποδεχθεί αυτούς τους Όρους μαζί με την <a href="privacy.html">Πολιτική Απορρήτου</a> μας. Εάν δεν συμφωνείτε, μην χρησιμοποιείτε την Εφαρμογή.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Άδεια Χρήσης Τελικού Χρήστη της Apple</h2>
             <p>Η Εφαρμογή σάς παρέχεται κατόπιν άδειας, δεν πωλείται, για χρήση μόνο βάσει της τυπικής Άδειας Χρήσης Τελικού Χρήστη Αδειοδοτημένης Εφαρμογής της Apple&rsquo; (η &ldquo;Apple EULA&rdquo;), διαθέσιμη στη διεύθυνση <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener" target="_blank">apple.com/legal/internet-services/itunes/dev/stdeula</a>, εκτός εάν αυτοί οι Όροι την επεκτείνουν ή την τροποποιούν. Στον βαθμό οποιασδήποτε σύγκρουσης μεταξύ αυτών των Όρων και της Apple EULA, αυτοί οι Όροι υπερισχύουν όπου επιτρέπεται από τους κανόνες της Apple&rsquo;· διαφορετικά υπερισχύει η Apple EULA.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Άδεια</h2>
             <p>Σας παραχωρούμε μια περιορισμένη, προσωπική, μη αποκλειστική, μη μεταβιβάσιμη, ανακλητή άδεια για την εγκατάσταση και χρήση της Εφαρμογής σε οποιοδήποτε iPhone ή iPad κατέχετε ή ελέγχετε, σύμφωνα με τους Όρους και Προϋποθέσεις των Apple Media Services και τυχόν κανόνες χρήσης που ορίζονται σε αυτούς τους όρους (συμπεριλαμβανομένου του Family Sharing για την αναβάθμιση εφ' όρου ζωής). Δεν επιτρέπεται να πωλήσετε, να ενοικιάσετε, να εκμισθώσετε, να παραχωρήσετε υποάδεια, να διανείμετε ή να μεταβιβάσετε με άλλον τρόπο την Εφαρμογή σε οποιονδήποτε άλλο.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Το Περιεχόμενό σας</h2>
             <p>Διατηρείτε όλα τα δικαιώματα στις φωτογραφίες, τα αρχεία και τα μεταδεδομένα που εισάγετε στην Εφαρμογή. Δεν διεκδικούμε καμία ιδιοκτησία επί του περιεχομένου σας. Επειδή η Εφαρμογή επεξεργάζεται τα πάντα στη συσκευή σας, δεν μας παραχωρείτε άδεια στα αρχεία σας· δεν τα λαμβάνουμε ποτέ.</p>
             <p>Είστε υπεύθυνοι για τη διασφάλιση ότι έχετε το δικαίωμα να μετατρέψετε, να τροποποιήσετε, να μοιραστείτε ή να χρησιμοποιήσετε με άλλον τρόπο τις εικόνες που επεξεργάζεστε. Δεν πρέπει να χρησιμοποιείτε την Εφαρμογή για τη διαχείριση περιεχομένου που δεν έχετε άδεια να χρησιμοποιήσετε.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Δωρεάν και Pro Επίπεδα</h2>
             <p>Η Εφαρμογή προσφέρει ένα δωρεάν επίπεδο που μετατρέπει μία εικόνα τη φορά σε επιλεγμένες μορφές. Οι δωρεάν χρήστες μπορούν επίσης να επιλέξουν να παρακολουθήσουν μια διαφήμιση βίντεο με ανταμοιβή για να ξεκλειδώσουν προσωρινά μία μαζική μετατροπή. Η παρακολούθηση μιας διαφήμισης είναι πάντα προαιρετική και μπορείτε να την κλείσετε πριν από την ολοκλήρωση. Το Pro ξεκλειδώνει απεριόριστη μαζική μετατροπή, όλες τις μορφές εξόδου (συμπεριλαμβανομένων των PDF, AVIF και TIFF), ρυθμίσεις ανά εικόνα και το πλήρες σύνολο των στοιχείων ελέγχου απορρήτου μεταδεδομένων.</p>
             <p>Το Pro προσφέρεται είτε ως αυτόματα ανανεούμενη συνδρομή (εβδομαδιαία, μηνιαία ή ετήσια) είτε ως εφάπαξ, μη αναλώσιμη αγορά εφ' όρου ζωής. Οι αγορές φιλοδωρημάτων είναι προαιρετικές, δεν ξεκλειδώνουν λειτουργίες και δεν επιστρέφονται, εκτός εάν απαιτείται από τον νόμο.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Όροι Συνδρομής</h2>
             <p><strong>Χρέωση.</strong> Όλες οι αγορές διεκπεραιώνονται από την Apple μέσω του App Store. Η πληρωμή χρεώνεται στο Apple ID σας κατά την επιβεβαίωση της αγοράς. Οι τρέχουσες τιμές εμφανίζονται εντός της Εφαρμογής και στην καταχώριση του App Store για το κατάστημά σας και ενδέχεται να αλλάξουν στο μέλλον όπως επιτρέπεται από τους κανόνες του App Store.</p>
             <p><strong>Αυτόματη ανανέωση.</strong> Οι συνδρομές ανανεώνονται αυτόματα στο τέλος κάθε περιόδου χρέωσης στην τότε ισχύουσα τιμή, εκτός εάν ακυρωθούν τουλάχιστον 24 ώρες πριν από το τέλος της τρέχουσας περιόδου. Ο λογαριασμός σας θα χρεωθεί για την ανανέωση εντός 24 ωρών πριν από το τέλος της τρέχουσας περιόδου.</p>
@@ -140,7 +158,7 @@
             <p><strong>Family Sharing.</strong> Η αναβάθμιση εφ' όρου ζωής και οι αυτόματα ανανεούμενες συνδρομές είναι επιλέξιμες για το Family Sharing όπου υποστηρίζεται από το App Store.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Αποδεκτή Χρήση</h2>
             <p>Συμφωνείτε να χρησιμοποιείτε την Εφαρμογή σύμφωνα με την ισχύουσα νομοθεσία. Δεν επιτρέπεται, ούτε να ενθαρρύνετε οποιονδήποτε άλλον, να:</p>
             <ul>
@@ -153,47 +171,47 @@
             </ul>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Ενημερώσεις και Διακοπή</h2>
             <p>Ενδέχεται να κυκλοφορήσουμε ενημερώσεις που αλλάζουν, προσθέτουν ή αφαιρούν λειτουργίες, διορθώνουν σφάλματα ή βελτιώνουν την απόδοση. Οι νέες λειτουργίες ενδέχεται να απαιτούν Pro. Ενδέχεται επίσης να αποσύρουμε λειτουργίες ή να διακόψουμε την Εφαρμογή με εύλογη προειδοποίηση, όταν αυτό δεν είναι πλέον εμπορικά ή τεχνικά εφικτό. Όπου απαιτείται από τον νόμο, οι επιστροφές χρημάτων για αχρησιμοποίητο χρόνο συνδρομής θα διεκπεραιώνονται από την Apple.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Υπηρεσίες Τρίτων</h2>
             <p>Η Εφαρμογή βασίζεται στο Apple StoreKit για τις αγορές, στο Adapty για την επαλήθευση αγορών και στο Google AdMob &mdash; μαζί με το Google User Messaging Platform και συνεργάτες διαμεσολάβησης όπως το Unity Ads &mdash; για τις προαιρετικές διαφημίσεις με ανταμοιβή που προβάλλονται σε δωρεάν χρήστες. Η χρήση αυτών των υπηρεσιών από εσάς υπόκειται επίσης στους δικούς τους όρους και σημειώσεις απορρήτου. Δεν είμαστε υπεύθυνοι για τις πρακτικές των υπηρεσιών τρίτων, αλλά τις έχουμε ρυθμίσει ώστε να συλλέγουν μόνο ό,τι είναι απαραίτητο, όπως περιγράφεται στην <a href="privacy.html">Πολιτική Απορρήτου</a> μας.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Αποποίηση Ευθύνης</h2>
             <p>Η Εφαρμογή παρέχεται &ldquo;ως έχει&rdquo; και &ldquo;ως διαθέσιμη&rdquo;, χωρίς εγγυήσεις οποιουδήποτε είδους, είτε ρητές είτε σιωπηρές, συμπεριλαμβανομένων εγγυήσεων εμπορευσιμότητας, καταλληλότητας για συγκεκριμένο σκοπό, ακρίβειας ή μη παραβίασης. Δεν εγγυόμαστε ότι η Εφαρμογή θα είναι αδιάκοπη, χωρίς σφάλματα ή ότι θα παράγει συγκεκριμένα αποτελέσματα για τα αρχεία σας. Είστε υπεύθυνοι για τη διατήρηση αντιγράφων ασφαλείας οποιωνδήποτε αρχείων επεξεργάζεστε.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Περιορισμός Ευθύνης</h2>
             <p>Στον μέγιστο βαθμό που επιτρέπεται από τον νόμο, ο Προγραμματιστής δεν θα ευθύνεται για οποιεσδήποτε έμμεσες, παρεπόμενες, ειδικές, επακόλουθες ή τιμωρητικές ζημίες, ή για οποιαδήποτε απώλεια κερδών, δεδομένων ή αρχείων, που προκύπτουν από ή σε σχέση με τη χρήση της Εφαρμογής από εσάς, ακόμη και αν έχουμε ενημερωθεί για το ενδεχόμενο τέτοιων ζημιών. Η συνολική ευθύνη μας για οποιεσδήποτε άμεσες ζημίες περιορίζεται στο ποσό που καταβάλατε για την Εφαρμογή κατά τους δώδεκα μήνες που προηγήθηκαν του γεγονότος που προκάλεσε την αξίωση. Ορισμένες δικαιοδοσίες δεν επιτρέπουν αυτούς τους περιορισμούς, οπότε σε αυτήν την περίπτωση οι περιορισμοί ισχύουν μόνο στον μέγιστο βαθμό που επιτρέπεται εκεί.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Η Apple ως Τρίτος Δικαιούχος</h2>
             <p>Αναγνωρίζετε ότι αυτοί οι Όροι ισχύουν μόνο μεταξύ εσάς και του Προγραμματιστή, και όχι με την Apple. Η Apple δεν είναι υπεύθυνη για την Εφαρμογή ή το περιεχόμενό της. Ωστόσο, η Apple και οι θυγατρικές της Apple&rsquo; είναι τρίτοι δικαιούχοι αυτών των Όρων και, κατόπιν της αποδοχής σας, θα έχουν το δικαίωμα (και θα θεωρηθεί ότι έχουν αποδεχθεί το δικαίωμα) να επιβάλουν αυτούς τους Όρους εις βάρος σας ως τρίτοι δικαιούχοι. Σε περίπτωση οποιασδήποτε αδυναμίας της Εφαρμογής να συμμορφωθεί με οποιαδήποτε ισχύουσα εγγύηση, μπορείτε να ειδοποιήσετε την Apple, και η Apple θα σας επιστρέψει την τιμή αγοράς της Εφαρμογής (εάν υπάρχει). Στον μέγιστο βαθμό που επιτρέπεται από τον νόμο, η Apple δεν έχει καμία άλλη υποχρέωση εγγύησης σχετικά με την Εφαρμογή.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Εφαρμοστέο Δίκαιο και Διαφορές</h2>
             <p>Αυτοί οι Όροι διέπονται από τους νόμους της χώρας στην οποία διαμένετε συνήθως, χωρίς να λαμβάνονται υπόψη οι αρχές περί σύγκρουσης νόμων, εκτός στον βαθμό που η ισχύουσα νομοθεσία προστασίας καταναλωτών ορίζει διαφορετικά. Εσείς και ο Προγραμματιστής συμφωνείτε να επιλύσετε τις διαφορές πρώτα ανεπίσημα στέλνοντάς μας email. Εάν δεν μπορέσουμε να επιλύσουμε μια διαφορά εντός 60 ημερών, μπορείτε να φέρετε το ζήτημα ενώπιον των δικαστηρίων της χώρας διαμονής σας στον βαθμό που επιτρέπεται από τον νόμο. Τίποτα σε αυτούς τους Όρους δεν περιορίζει τυχόν μη παραιτήσιμα δικαιώματα καταναλωτή που έχετε βάσει του δικαίου της χώρας διαμονής σας.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Διαχωρισιμότητα</h2>
             <p>Εάν οποιαδήποτε διάταξη αυτών των Όρων κριθεί άκυρη ή μη εκτελεστή, η διάταξη αυτή θα περιοριστεί ή θα εξαλειφθεί στον ελάχιστο αναγκαίο βαθμό, και οι υπόλοιπες διατάξεις θα παραμείνουν πλήρως σε ισχύ.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Αλλαγές</h2>
             <p>Ενδέχεται να ενημερώνουμε αυτούς τους Όρους κατά καιρούς. Η τρέχουσα έκδοση θα είναι πάντα διαθέσιμη σε αυτήν τη διεύθυνση URL με ενημερωμένη ημερομηνία &ldquo;Τελευταία ενημέρωση&rdquo;. Οι ουσιαστικές αλλαγές θα επισημαίνονται στις σημειώσεις ενημέρωσης του App Store για την αντίστοιχη έκδοση. Η συνεχιζόμενη χρήση της Εφαρμογής από εσάς μετά την έναρξη ισχύος μιας αλλαγής συνιστά αποδοχή των αναθεωρημένων Όρων.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Επικοινωνία</h2>
             <p>Εάν έχετε ερωτήσεις σχετικά με αυτούς τους Όρους, γράψτε στο <a href="mailto:imageconverterplus.help@gmail.com">imageconverterplus.help@gmail.com</a>.</p>
         </div>
@@ -201,7 +219,7 @@
     </div>
 
     <!-- Links -->
-    <div class="links-section fade-in">
+    <div class="links-section" data-reveal>
 
         <a class="link-card" href="support.html">
             <p class="link-label">Βοήθεια</p>
@@ -216,25 +234,94 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer fade-in">
+    <div class="footer">
         <p>Τελευταία ενημέρωση: Μάιος 2026</p>
     </div>
 
 </div>
 
-<script>
-    // Fade-in on scroll
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span class="copyright">© 2026 Denys Lebiediev</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">Πολιτική Απορρήτου</a></li>
+            <li><a href="terms.html">Όροι Χρήσης</a></li>
+            <li><a href="support.html">Υποστήριξη</a></li>
+        </ul>
+        <!-- lang-menu -->
+        <details class="lang-menu">
+            <summary class="lang-trigger" aria-label="Γλώσσα: Ελληνικά"><svg class="lang-globe" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="8" cy="8" rx="2.8" ry="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M1.7 8h12.6M2.6 4.6h10.8M2.6 11.4h10.8" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="lang-current">Ελληνικά</span><svg class="lang-chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+            <div class="lang-panel">
+                <ul class="lang-list" role="list" translate="no">
+                    <li><a href="../af/terms.html" lang="af" hreflang="af">Afrikaans</a></li>
+                    <li><a href="../id/terms.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+                    <li><a href="../ms/terms.html" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+                    <li><a href="../bs/terms.html" lang="bs" hreflang="bs">Bosanski</a></li>
+                    <li><a href="../ca/terms.html" lang="ca" hreflang="ca">Català</a></li>
+                    <li><a href="../cs/terms.html" lang="cs" hreflang="cs">Čeština</a></li>
+                    <li><a href="../cy/terms.html" lang="cy" hreflang="cy">Cymraeg</a></li>
+                    <li><a href="../da/terms.html" lang="da" hreflang="da">Dansk</a></li>
+                    <li><a href="../de/terms.html" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="../et/terms.html" lang="et" hreflang="et">Eesti</a></li>
+                    <li><a href="../terms.html?lang=en" lang="en" hreflang="en">English</a></li>
+                    <li><a href="../es/terms.html" lang="es" hreflang="es">Español</a></li>
+                    <li><a href="../fil/terms.html" lang="fil" hreflang="fil">Filipino</a></li>
+                    <li><a href="../fr/terms.html" lang="fr" hreflang="fr">Français</a></li>
+                    <li><a href="../ga/terms.html" lang="ga" hreflang="ga">Gaeilge</a></li>
+                    <li><a href="../hr/terms.html" lang="hr" hreflang="hr">Hrvatski</a></li>
+                    <li><a href="../is/terms.html" lang="is" hreflang="is">Íslenska</a></li>
+                    <li><a href="../it/terms.html" lang="it" hreflang="it">Italiano</a></li>
+                    <li><a href="../sw/terms.html" lang="sw" hreflang="sw">Kiswahili</a></li>
+                    <li><a href="../lv/terms.html" lang="lv" hreflang="lv">Latviešu</a></li>
+                    <li><a href="../lt/terms.html" lang="lt" hreflang="lt">Lietuvių</a></li>
+                    <li><a href="../hu/terms.html" lang="hu" hreflang="hu">Magyar</a></li>
+                    <li><a href="../mt/terms.html" lang="mt" hreflang="mt">Malti</a></li>
+                    <li><a href="../nl/terms.html" lang="nl" hreflang="nl">Nederlands</a></li>
+                    <li><a href="../nb/terms.html" lang="nb" hreflang="nb">Norsk bokmål</a></li>
+                    <li><a href="../pl/terms.html" lang="pl" hreflang="pl">Polski</a></li>
+                    <li><a href="../pt-BR/terms.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+                    <li><a href="../pt-PT/terms.html" lang="pt-PT" hreflang="pt-PT">Português (Portugal)</a></li>
+                    <li><a href="../ro/terms.html" lang="ro" hreflang="ro">Română</a></li>
+                    <li><a href="../sq/terms.html" lang="sq" hreflang="sq">Shqip</a></li>
+                    <li><a href="../sk/terms.html" lang="sk" hreflang="sk">Slovenčina</a></li>
+                    <li><a href="../sl/terms.html" lang="sl" hreflang="sl">Slovenščina</a></li>
+                    <li><a href="../fi/terms.html" lang="fi" hreflang="fi">Suomi</a></li>
+                    <li><a href="../sv/terms.html" lang="sv" hreflang="sv">Svenska</a></li>
+                    <li><a href="../vi/terms.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+                    <li><a href="../tr/terms.html" lang="tr" hreflang="tr">Türkçe</a></li>
+                    <li><a href="../be/terms.html" lang="be" hreflang="be">Беларуская</a></li>
+                    <li><a href="../bg/terms.html" lang="bg" hreflang="bg">Български</a></li>
+                    <li><a href="../mk/terms.html" lang="mk" hreflang="mk">Македонски</a></li>
+                    <li><a href="../sr/terms.html" lang="sr" hreflang="sr">Српски</a></li>
+                    <li><a href="../uk/terms.html" lang="uk" hreflang="uk">Українська</a></li>
+                    <li><a href="../el/terms.html" lang="el" hreflang="el" aria-current="true">Ελληνικά<svg class="lang-check" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="../ar/terms.html" lang="ar" hreflang="ar">العربية</a></li>
+                    <li><a href="../he/terms.html" lang="he" hreflang="he">עברית</a></li>
+                    <li><a href="../ur/terms.html" lang="ur" hreflang="ur">اردو</a></li>
+                    <li><a href="../fa/terms.html" lang="fa" hreflang="fa">فارسی</a></li>
+                    <li><a href="../hi/terms.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+                    <li><a href="../mr/terms.html" lang="mr" hreflang="mr">मराठी</a></li>
+                    <li><a href="../gu/terms.html" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+                    <li><a href="../pa/terms.html" lang="pa" hreflang="pa">ਪੰਜਾਬੀ</a></li>
+                    <li><a href="../bn/terms.html" lang="bn" hreflang="bn">বাংলা</a></li>
+                    <li><a href="../ta/terms.html" lang="ta" hreflang="ta">தமிழ்</a></li>
+                    <li><a href="../te/terms.html" lang="te" hreflang="te">తెలుగు</a></li>
+                    <li><a href="../kn/terms.html" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+                    <li><a href="../ml/terms.html" lang="ml" hreflang="ml">മലയാളം</a></li>
+                    <li><a href="../th/terms.html" lang="th" hreflang="th">ไทย</a></li>
+                    <li><a href="../ja/terms.html" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="../ko/terms.html" lang="ko" hreflang="ko">한국어</a></li>
+                    <li><a href="../zh-Hans/terms.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+                    <li><a href="../zh-Hant/terms.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+                </ul>
+            </div>
+        </details>
+        <script defer src="../js/lang-menu.js"></script>
+        <!-- /lang-menu -->
+    </div>
+</footer>
 
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
+<script defer src="../js/subpage.js"></script>
 
 </body>
 </html>

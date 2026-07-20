@@ -1,0 +1,389 @@
+{
+ "jsonld_desc": {
+  "en": "Batch image converter for iPhone and iPad. Convert between JPEG, PDF, PNG, WebP, HEIC, AVIF, and TIFF — adjust quality, resize, and strip metadata, entirely on your device.",
+  "ctx": "Structured-data (schema.org) description. Keep format tokens."
+ },
+ "skip": {
+  "en": "Skip to content",
+  "ctx": "Accessibility skip link."
+ },
+ "nav_cta": {
+  "en": "Get the app",
+  "ctx": "Nav call-to-action button."
+ },
+ "nav_aria": {
+  "en": "Site",
+  "ctx": "Accessible name of the site-navigation landmark (announced by screen readers)."
+ },
+ "chip_example": {
+  "en": "example",
+  "ctx": "Small caption on the decorative hero size-comparison chip."
+ },
+ "h1_home": {
+  "en": "Convert. Resize. <span class=\"grad\">Protect.</span>",
+  "ctx": "Hero H1. Three short imperative words. Wrap the LAST word in <span class=\"grad\">…</span> (it renders as the gradient accent).",
+  "html": true
+ },
+ "hero_sub": {
+  "en": "Batch image conversion for iPhone and iPad — seven formats, precise quality control, and metadata stripped before you share. Entirely on your device."
+ },
+ "ghost_link": {
+  "en": "See how it works <span aria-hidden=\"true\">↓</span>",
+  "ctx": "Scroll-down link. Translate the text; keep the arrow span.",
+  "html": true
+ },
+ "hero_availability": {
+  "en": "Free on the App Store · iOS 16+ · iPhone &amp; iPad",
+  "ctx": "Keep the · separators and &amp; entity. Localize 'Free'.",
+  "html": true
+ },
+ "formats_eyebrow": {
+  "en": "Formats",
+  "ctx": "Section eyebrow (kicker) above the formats headline."
+ },
+ "formats_title": {
+  "en": "Every format you'll ever need."
+ },
+ "formats_lede": {
+  "en": "Convert between the formats that matter — and pick the right balance of quality, compatibility, and size."
+ },
+ "format_note": {
+  "en": "PNG 18 MB&nbsp;&nbsp;→&nbsp;&nbsp;WebP 1.5 MB&nbsp;&nbsp;·&nbsp;&nbsp;same picture",
+  "ctx": "Keep PNG/WebP tokens, numbers, arrow and &nbsp; spacing. Localize the 'MB' unit per Apple convention and 'same picture'.",
+  "html": true
+ },
+ "control_eyebrow": {
+  "en": "Control"
+ },
+ "features_title": {
+  "en": "Precision at every step."
+ },
+ "feat1_h3": {
+  "en": "Quality on your terms."
+ },
+ "feat1_p": {
+  "en": "Set quality anywhere from 40 to 100% — or snap to one-tap levels from Low to Maximum, per image or as your default."
+ },
+ "feat2_h3": {
+  "en": "Every image, its own rules."
+ },
+ "feat2_p": {
+  "en": "Scale from 50 to 200% and override format, quality, or naming per image — or apply one setup to the whole batch."
+ },
+ "feat3_h3": {
+  "en": "Named your way."
+ },
+ "feat3_p": {
+  "en": "Keep original names, add a prefix or suffix, or rename each file by hand before it's saved."
+ },
+ "feat4_h3": {
+  "en": "One tap. Ready presets."
+ },
+ "feat4_p": {
+  "en": "JPEG High Quality, PDF Document, Quick Share, Private Photo — format, quality, size, and metadata handling already dialed in.",
+  "ctx": "The four preset names may stay in English or be localized to match the app's localized preset names."
+ },
+ "privacy_eyebrow": {
+  "en": "Privacy"
+ },
+ "privacy_title": {
+  "en": "Your photos say more<br>than you think.",
+  "ctx": "Keep the <br> line break (roughly balanced two lines).",
+  "html": true
+ },
+ "privacy_lede": {
+  "en": "GPS coordinates. Camera model. Timestamps. Edit history. It all travels with the file — unless you strip it."
+ },
+ "label_location": {
+  "en": "Location",
+  "ctx": "Metadata category label (appears as a tag and as a grid heading)."
+ },
+ "label_capture": {
+  "en": "Capture Info"
+ },
+ "label_captions": {
+  "en": "Captions &amp; Credits",
+  "ctx": "Keep the &amp; entity.",
+  "html": true
+ },
+ "label_device": {
+  "en": "Device Info"
+ },
+ "label_edithist": {
+  "en": "Edit History"
+ },
+ "label_previews": {
+  "en": "Embedded Previews"
+ },
+ "desc_location": {
+  "en": "GPS coordinates and place names"
+ },
+ "desc_capture": {
+  "en": "Date, time, and camera settings"
+ },
+ "desc_captions": {
+  "en": "Caption, keywords, and author"
+ },
+ "desc_device": {
+  "en": "Model name and identifiers"
+ },
+ "desc_edithist": {
+  "en": "App name and edit records"
+ },
+ "desc_previews": {
+  "en": "Thumbnails and extra data"
+ },
+ "insp_title": {
+  "en": "See what yours says.",
+  "ctx": "Heading of the interactive EXIF inspector panel."
+ },
+ "insp_dzlabel": {
+  "en": "Drop a photo — or choose a file"
+ },
+ "insp_sample": {
+  "en": "…or inspect the sample photo",
+  "ctx": "Keep the leading … ellipsis."
+ },
+ "insp_lockline": {
+  "en": "Read locally in your browser. Never uploaded."
+ },
+ "insp_noscript": {
+  "en": "The inspector needs JavaScript — the app doesn't. It strips metadata from every photo, on-device."
+ },
+ "insp_thumbalt": {
+  "en": "Preview of the inspected photo",
+  "ctx": "Alt text for the inspected-photo thumbnail."
+ },
+ "insp_fields": {
+  "en": "fields found",
+  "ctx": "Static count label rendered after a number ('N fields found'); not per-count agreed. Also reset in JS."
+ },
+ "insp_mapcaption": {
+  "en": "THIS PHOTO KNOWS WHERE YOU WERE.",
+  "ctx": "Shown when the inspected photo has GPS. Dramatic tone; uppercase if natural for the language."
+ },
+ "insp_mapnote": {
+  "en": "Map tiles load from Google — your photo never leaves this page."
+ },
+ "insp_strip": {
+  "en": "Strip it",
+  "ctx": "Button: remove the metadata."
+ },
+ "insp_again": {
+  "en": "Inspect another"
+ },
+ "insp_clean": {
+  "en": "<strong>Clean.</strong> Image Converter Plus does exactly this — to every photo, in batches, right on your iPhone. With granular control over all six categories.",
+  "ctx": "Keep <strong>…</strong> around the first word and the brand name.",
+  "html": true
+ },
+ "workflow_eyebrow": {
+  "en": "Workflow"
+ },
+ "workflow_title": {
+  "en": "Already in your Share Sheet.",
+  "ctx": "'Share Sheet' is the iOS system term — use Apple's localized name."
+ },
+ "wf1_alt": {
+  "en": "Share Extension sheet with one-tap conversion presets"
+ },
+ "wf1_h3": {
+  "en": "Share Extension"
+ },
+ "wf1_p": {
+  "en": "Select photos in any app, tap Share, convert in one step — without opening the app. Pro unlocks batches and every format right from the sheet."
+ },
+ "wf2_alt": {
+  "en": "History screen listing converted images with sizes and details"
+ },
+ "wf2_h3": {
+  "en": "Conversion History"
+ },
+ "wf2_p": {
+  "en": "Every conversion saved with a thumbnail. Re-export to Photos, Files, or the Share Sheet anytime — auto-delete keeps it tidy."
+ },
+ "manifesto_title": {
+  "en": "No servers.<br>No uploads.<br><span class=\"grad\">No exceptions.</span>",
+  "ctx": "Three short lines separated by <br>. Wrap the last line in <span class=\"grad\">…</span>.",
+  "html": true
+ },
+ "manifesto_lede": {
+  "en": "Every image is processed on your device — conversion works even in Airplane Mode. An internet connection is used only for purchases and the optional rewarded ads free users can choose to watch. That's the whole list. <a href=\"privacy.html\">Read the Privacy Policy</a>",
+  "ctx": "Keep the trailing <a href=\"privacy.html\">…</a> link; translate its text.",
+  "html": true
+ },
+ "pro_eyebrow": {
+  "en": "Pro",
+  "ctx": "Tier name 'Pro' — keep as-is unless the app localizes it."
+ },
+ "pro_title": {
+  "en": "Unlock everything."
+ },
+ "pro1_h3": {
+  "en": "PDF, AVIF &amp; TIFF output",
+  "ctx": "Keep format tokens and &amp;.",
+  "html": true
+ },
+ "pro1_p": {
+  "en": "All seven formats, for every use case — including whole batches merged into one PDF."
+ },
+ "pro2_h3": {
+  "en": "Metadata stripping"
+ },
+ "pro2_p": {
+  "en": "Full EXIF removal with four privacy presets and granular control."
+ },
+ "pro3_h3": {
+  "en": "Batch conversion"
+ },
+ "pro3_p": {
+  "en": "Convert hundreds at once — in the app or straight from the Share Sheet."
+ },
+ "price_line": {
+  "en": "Lifetime access.",
+  "ctx": "Emphasis on a one-time lifetime purchase."
+ },
+ "price_note": {
+  "en": "One-time purchase. Subscriptions available too. Family Sharing included."
+ },
+ "foreveryone_eyebrow": {
+  "en": "For everyone"
+ },
+ "languages_title": {
+  "en": "Speaks your language."
+ },
+ "languages_lede": {
+  "en": "60 languages with an in-app picker. VoiceOver, Dynamic Type, and haptic feedback throughout.",
+  "ctx": "Keep the Apple terms 'VoiceOver' and 'Dynamic Type' in English."
+ },
+ "label_haptic": {
+  "en": "Haptic Feedback"
+ },
+ "label_60langs": {
+  "en": "60 Languages",
+  "ctx": "Keep the number 60."
+ },
+ "closing_title": {
+  "en": "Develop your photos<br>in private.",
+  "ctx": "Keep the <br>. 'Develop' plays on photo development — keep the darkroom metaphor if it works in your language.",
+  "html": true
+ },
+ "closing_lede": {
+  "en": "Free to download. Pro when you need it."
+ },
+ "closing_availability": {
+  "en": "Available on iPhone and iPad. Requires iOS 16 or later."
+ },
+ "sub_eyebrow_privacy": {
+  "en": "Legal · Privacy",
+  "ctx": "Subpage kicker above the Privacy Policy title. Keep the · separator."
+ },
+ "sub_eyebrow_terms": {
+  "en": "Legal · Terms",
+  "ctx": "Subpage kicker above the Terms of Use title. Keep the · separator."
+ },
+ "sub_eyebrow_support": {
+  "en": "Help",
+  "ctx": "Subpage kicker above the Support title."
+ },
+ "dl_device": {
+  "en": "Device",
+  "ctx": "EXIF inspector row label: camera make/model."
+ },
+ "dl_lens": {
+  "en": "Lens",
+  "ctx": "EXIF inspector row label: lens model."
+ },
+ "dl_software": {
+  "en": "Software",
+  "ctx": "EXIF inspector row label: editing software."
+ },
+ "dl_captured": {
+  "en": "Captured",
+  "ctx": "EXIF inspector row label: capture date/time."
+ },
+ "dl_exposure": {
+  "en": "Exposure",
+  "ctx": "EXIF inspector row label: shutter/aperture/ISO."
+ },
+ "dl_focal": {
+  "en": "Focal length",
+  "ctx": "EXIF inspector row label."
+ },
+ "dl_dimensions": {
+  "en": "Dimensions",
+  "ctx": "EXIF inspector row label: pixel width × height."
+ },
+ "dl_author": {
+  "en": "Author",
+  "ctx": "EXIF inspector row label: artist/creator."
+ },
+ "dl_copyright": {
+  "en": "Copyright",
+  "ctx": "EXIF inspector row label."
+ },
+ "dl_caption": {
+  "en": "Caption",
+  "ctx": "EXIF inspector row label: image description."
+ },
+ "dl_location": {
+  "en": "Location",
+  "ctx": "EXIF inspector row label: GPS coordinates."
+ },
+ "dl_altitude": {
+  "en": "Altitude",
+  "ctx": "EXIF inspector row label: GPS altitude."
+ },
+ "alt_suffix": {
+  "en": "m above sea level",
+  "ctx": "Follows a number of meters, e.g. '128 m above sea level'."
+ },
+ "unit_mb": {
+  "en": "MB",
+  "ctx": "Megabyte unit in the decorative hero size chip (e.g. fr 'Mo', uk 'МБ')."
+ },
+ "insp_fields_left": {
+  "en": "fields left",
+  "ctx": "Count label after stripping ('N fields left'). Not per-count agreed."
+ },
+ "map_removed": {
+  "en": "LOCATION REMOVED.",
+  "ctx": "Map caption after the location is stripped. Uppercase if natural."
+ },
+ "meta_removed": {
+  "en": "Metadata removed.",
+  "ctx": "Status announced when stripping completes."
+ },
+ "err_read": {
+  "en": "Couldn't read that file. Try a JPEG or HEIC straight from a camera.",
+  "ctx": "Shown when a dropped file can't be parsed."
+ },
+ "no_metadata": {
+  "en": "No metadata found — this image is already clean. Photos straight from your camera usually say much more. Try one, or inspect the sample."
+ },
+ "err_sample": {
+  "en": "Couldn't load the sample photo. Drop one of your own instead."
+ },
+ "thumb_nopreview": {
+  "en": "(no preview in this browser — metadata still reads fine)",
+  "ctx": "Appended after a filename when the browser can't render the image thumbnail."
+ },
+ "verdict_reveal": {
+  "en": {
+   "one": "This photo reveals <strong>{n} thing</strong> you can't see.",
+   "other": "This photo reveals <strong>{n} things</strong> you can't see."
+  },
+  "ctx": "{n} = number of metadata fields. Keep <strong>…</strong>. Provide CLDR plural forms.",
+  "plural": true,
+  "html": true
+ },
+ "verdict_almost": {
+  "en": {
+   "one": "Almost clean — only <strong>{n} technical field</strong>. Photos straight from your camera usually say much more.",
+   "other": "Almost clean — only <strong>{n} technical fields</strong>. Photos straight from your camera usually say much more."
+  },
+  "ctx": "{n} = 1 or 2 technical fields. Keep <strong>…</strong>.",
+  "plural": true,
+  "html": true
+ }
+}

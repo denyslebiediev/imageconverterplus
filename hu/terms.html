@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=6759621930">
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#05060A">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <link rel="icon" href="../images/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
+    <script>
+        document.documentElement.classList.add('js');
+        // if subpage.js never boots, un-gate the reveals so content can't stay hidden
+        setTimeout(function () { if (!window.__icpSubBooted) document.documentElement.classList.remove('js'); }, 2500);
+    </script>
     <title>Felhasználási feltételek - Image Converter Plus</title>
     <meta name="description" content="Az Image Converter Plus felhasználási feltételei. Olvasd el a licencet, a vásárlási feltételeket, az előfizetés automatikus megújításának részleteit és az alkalmazás használati irányelveit.">
     <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
@@ -74,63 +78,76 @@
     <link rel="alternate" hreflang="cy" href="https://denyslebiediev.github.io/imageconverterplus/cy/terms.html">
     <link rel="alternate" hreflang="be" href="https://denyslebiediev.github.io/imageconverterplus/be/terms.html">
     <link rel="alternate" hreflang="x-default" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/subpage.css">
+    <meta property="og:title" content="Felhasználási feltételek — Image Converter Plus">
+    <meta property="og:description" content="Az Image Converter Plus felhasználási feltételei. Olvasd el a licencet, a vásárlási feltételeket, az előfizetés automatikus megújításának részleteit és az alkalmazás használati irányelveit.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://denyslebiediev.github.io/imageconverterplus/hu/terms.html">
+    <meta property="og:image" content="https://denyslebiediev.github.io/imageconverterplus/images/icon-512.png">
+    <link rel="canonical" href="https://denyslebiediev.github.io/imageconverterplus/hu/terms.html">
+    <link rel="preload" href="../fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/subpage-dark.css">
 
 </head>
 <body>
 
-<!-- Nav -->
-<nav>
+<a class="skip-link" href="#main">Ugrás a tartalomra</a>
+
+<nav class="site-nav" aria-label="Webhely">
     <div class="nav-inner">
-        <a class="nav-title" href="index.html">Image Converter Plus</a>
+        <a class="nav-brand" href="index.html">
+            <img src="../images/AppIcon.png" alt="" width="28" height="28">
+            <span>Image Converter Plus</span>
+        </a>
         <ul class="nav-links">
             <li><a href="privacy.html">Adatvédelmi szabályzat</a></li>
-            <li><a href="terms.html">Felhasználási feltételek</a></li>
+            <li><a href="terms.html" aria-current="page">Felhasználási feltételek</a></li>
             <li><a href="support.html">Támogatás</a></li>
         </ul>
+        <a class="nav-cta" href="https://apps.apple.com/app/image-converter-plus/id6759621930">Töltsd le az alkalmazást</a>
     </div>
 </nav>
 
-<div class="page">
+<div class="page" id="main">
 
     <!-- Hero -->
-    <div class="hero fade-in">
-        <h1>Felhasználási feltételek</h1>
+    <header class="page-head">
+        <p class="eyebrow mono">Jogi · Feltételek</p>
+        <h1 class="headline">Felhasználási feltételek</h1>
         <p class="subtitle">Image Converter Plus iPhone-ra és iPadre</p>
-    </div>
+    </header>
 
     <!-- Content Cards -->
-    <div class="stagger">
+    <div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Megállapodás</h2>
             <p>Ezek a felhasználási feltételek (a &ldquo;Feltételek&rdquo;) kötelező érvényű megállapodást képeznek közted és Denys Lebiediev (a &ldquo;Fejlesztő&rdquo;, &ldquo;mi&rdquo;) között az Image Converter Plus mobilalkalmazás és annak megosztási bővítménye (együtt az &ldquo;Alkalmazás&rdquo;) általad történő használatára vonatkozóan. Az Alkalmazás letöltésével, telepítésével vagy használatával megerősíted, hogy elolvastad, megértetted és elfogadtad ezeket a Feltételeket az <a href="privacy.html">adatvédelmi szabályzatunkkal</a> együtt. Ha nem értesz egyet, ne használd az Alkalmazást.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Apple végfelhasználói licencszerződés</h2>
             <p>Az Alkalmazás licencelve van, nem értékesítve a számodra, kizárólag az Apple szabványos, licencelt alkalmazásokra vonatkozó végfelhasználói licencszerződése (az &ldquo;Apple EULA&rdquo;) szerinti használatra, amely a <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener" target="_blank">apple.com/legal/internet-services/itunes/dev/stdeula</a> címen érhető el, kivéve ott, ahol ezek a Feltételek kiterjesztik vagy módosítják azt. A jelen Feltételek és az Apple EULA közötti bármely ellentmondás mértékéig ezek a Feltételek az irányadók, ahol azt az Apple szabályai megengedik; egyébként az Apple EULA az irányadó.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Licenc</h2>
             <p>Korlátozott, személyes, nem kizárólagos, nem átruházható, visszavonható licencet biztosítunk neked az Alkalmazás telepítésére és használatára bármely olyan iPhone-on vagy iPaden, amely a tulajdonodban van vagy az irányításod alatt áll, az Apple médiaszolgáltatások feltételeinek és az azokban meghatározott bármely használati szabálynak megfelelően (beleértve a Family Sharing szolgáltatást az élethosszig tartó frissítéshez). Nem értékesítheted, nem adhatod bérbe, nem adhatod lízingbe, nem licencelheted tovább, nem terjesztheted és más módon nem ruházhatod át az Alkalmazást senki másnak.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>A tartalmad</h2>
             <p>Minden jogot megtartasz az Alkalmazásba importált fényképekre, fájlokra és metaadatokra. Nem támasztunk semmilyen tulajdonjogi igényt a tartalmadra. Mivel az Alkalmazás mindent az eszközödön dolgoz fel, nem adsz nekünk licencet a fájljaidra; soha nem kapjuk meg azokat.</p>
             <p>Te vagy a felelős annak biztosításáért, hogy jogod legyen az általad feldolgozott képek konvertálásához, módosításához, megosztásához vagy más módon történő használatához. Nem használhatod az Alkalmazást olyan tartalom kezelésére, amelynek használatára nincs engedélyed.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Ingyenes és Pro szintek</h2>
             <p>Az Alkalmazás ingyenes szintet kínál, amely egyszerre egy képet konvertál a kiválasztott formátumokba. Az ingyenes felhasználók dönthetnek úgy is, hogy megtekintenek egy jutalmazott videohirdetést, hogy ideiglenesen feloldjanak egyetlen kötegelt konvertálást. Egy hirdetés megtekintése mindig opcionális, és a befejezés előtt bezárhatod. A Pro feloldja a korlátlan kötegelt konvertálást, az összes kimeneti formátumot (beleértve a PDF-et, az AVIF-ot és a TIFF-et), a képenkénti beállításokat és a metaadat-adatvédelmi vezérlők teljes készletét.</p>
             <p>A Pro vagy automatikusan megújuló előfizetésként (heti, havi vagy éves) vagy egyszeri, nem fogyasztható, élethosszig tartó vásárlásként érhető el. A borravalós vásárlások opcionálisak, nem oldanak fel funkciókat, és nem visszatéríthetők, kivéve ott, ahol ezt a törvény megköveteli.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Előfizetési feltételek</h2>
             <p><strong>Számlázás.</strong> Minden vásárlást az Apple dolgoz fel az App Store-on keresztül. A fizetés a vásárlás megerősítésekor terheli az Apple ID-dat. Az aktuális árak az Alkalmazáson belül és az áruházadra vonatkozó App Store-listán jelennek meg, és a jövőben az App Store szabályai által megengedett módon változhatnak.</p>
             <p><strong>Automatikus megújítás.</strong> Az előfizetések minden számlázási időszak végén automatikusan megújulnak az akkor érvényes áron, kivéve, ha legalább 24 órával az aktuális időszak vége előtt lemondják őket. A fiókodat a megújításért az aktuális időszak vége előtti 24 órán belül terheljük meg.</p>
@@ -140,7 +157,7 @@
             <p><strong>Family Sharing.</strong> Az élethosszig tartó frissítés és az automatikusan megújuló előfizetések alkalmasak a Family Sharingra, ahol azt az App Store támogatja.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Elfogadható használat</h2>
             <p>Beleegyezel abba, hogy az Alkalmazást az alkalmazandó joggal összhangban használod. Nem, és mást sem ösztönözhetsz arra, hogy:</p>
             <ul>
@@ -153,47 +170,47 @@
             </ul>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Frissítések és megszüntetés</h2>
             <p>Olyan frissítéseket adhatunk ki, amelyek megváltoztatnak, hozzáadnak vagy eltávolítanak funkciókat, hibákat javítanak vagy javítják a teljesítményt. Az új funkciók Prot igényelhetnek. Funkciókat is megszüntethetünk, vagy az Alkalmazást ésszerű értesítéssel beszüntethetjük, amikor ez kereskedelmi vagy műszaki szempontból már nem megvalósítható. Ahol a törvény megköveteli, a fel nem használt előfizetési időre vonatkozó visszatérítéseket az Apple dolgozza fel.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Harmadik féltől származó szolgáltatások</h2>
             <p>Az Alkalmazás a vásárlásokhoz az Apple StoreKitre, a vásárlás-ellenőrzéshez az Adaptyre és a Google AdMobra &mdash; a Google User Messaging Platformmal és olyan közvetítő partnerekkel együtt, mint a Unity Ads &mdash; támaszkodik az ingyenes felhasználóknak megjelenített opcionális jutalmazott hirdetésekhez. Ezeknek a szolgáltatásoknak az általad történő használata szintén a saját feltételeik és adatvédelmi tájékoztatóik hatálya alá tartozik. Nem vagyunk felelősek a harmadik féltől származó szolgáltatások gyakorlatáért, de úgy konfiguráltuk őket, hogy csak a szükséges adatokat gyűjtsék, az <a href="privacy.html">adatvédelmi szabályzatunkban</a> leírtak szerint.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Felelősség kizárása</h2>
             <p>Az Alkalmazást &ldquo;adott állapotában&rdquo; és &ldquo;a rendelkezésre állás szerint&rdquo; biztosítjuk, bármiféle, akár kifejezett, akár hallgatólagos szavatosság nélkül, beleértve az értékesíthetőségre, az adott célra való alkalmasságra, a pontosságra vagy a jogtisztaságra vonatkozó szavatosságot. Nem szavatoljuk, hogy az Alkalmazás megszakítás nélküli vagy hibamentes lesz, sem azt, hogy a fájljaidhoz konkrét eredményeket fog produkálni. Te vagy a felelős az általad feldolgozott bármely fájl biztonsági másolatainak megőrzéséért.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Felelősség korlátozása</h2>
             <p>A törvény által megengedett legteljesebb mértékben a Fejlesztő nem felel semmilyen közvetett, járulékos, különleges, következményi vagy büntető jellegű kárért, sem az Alkalmazás általad történő használatából eredő vagy azzal összefüggő nyereség-, adat- vagy fájlveszteségért, még akkor sem, ha figyelmeztettek minket az ilyen károk lehetőségére. A bármilyen közvetlen kárra vonatkozó teljes felelősségünk arra az összegre korlátozódik, amelyet a követelést megalapozó eseményt megelőző tizenkét hónapban az Alkalmazásért fizettél. Egyes joghatóságok nem engedik meg ezeket a korlátozásokat, mely esetben a korlátozások csak az ott megengedett legnagyobb mértékben alkalmazandók.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Az Apple mint harmadik fél kedvezményezett</h2>
             <p>Tudomásul veszed, hogy ezek a Feltételek kizárólag közted és a Fejlesztő között állnak fenn, és nem az Apple-lel. Az Apple nem felelős az Alkalmazásért vagy annak tartalmáért. Ugyanakkor az Apple és az Apple leányvállalatai e Feltételek harmadik fél kedvezményezettjei, és az általad történő elfogadásukkor jogosultak lesznek (és úgy tekintendők, hogy elfogadták ezt a jogot) e Feltételek harmadik fél kedvezményezettként veled szembeni érvényesítésére. Abban az esetben, ha az Alkalmazás bármely vonatkozó szavatosságnak nem felel meg, értesítheted az Apple-t, és az Apple visszatéríti neked az Alkalmazás vételárát (ha van ilyen). A törvény által megengedett legnagyobb mértékben az Apple-nek nincs más szavatossági kötelezettsége az Alkalmazással kapcsolatban.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Irányadó jog és viták</h2>
             <p>Ezekre a Feltételekre annak az országnak a törvényei az irányadók, ahol szokásosan tartózkodsz, annak kollíziós elveire való tekintet nélkül, kivéve azt a mértéket, amíg az alkalmazandó fogyasztóvédelmi jog másként rendelkezik. Te és a Fejlesztő megállapodtok abban, hogy a vitákat először informálisan, nekünk küldött e-mailben rendezitek. Ha nem tudunk egy vitát 60 napon belül rendezni, a törvény által megengedett mértékben a lakóhelyed szerinti ország bíróságai elé viheted az ügyet. E Feltételekben semmi nem korlátozza azokat a lemondhatatlan fogyasztói jogokat, amelyek a lakóhelyed szerinti ország joga alapján megilletnek.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Elválaszthatóság</h2>
             <p>Ha e Feltételek bármely rendelkezését érvénytelennek vagy végrehajthatatlannak találják, az adott rendelkezést a szükséges legkisebb mértékben korlátozzák vagy megszüntetik, a fennmaradó rendelkezések pedig teljes mértékben hatályban maradnak.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Módosítások</h2>
             <p>Időről időre frissíthetjük ezeket a Feltételeket. Az aktuális verzió mindig elérhető lesz ezen az URL-en, frissített &ldquo;Utolsó frissítés&rdquo; dátummal. A lényeges módosításokat kiemeljük az érintett kiadás App Store frissítési megjegyzéseiben. Az Alkalmazás módosítás hatálybalépését követő folyamatos használata a módosított Feltételek elfogadásának minősül.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Kapcsolat</h2>
             <p>Ha kérdéseid vannak ezekkel a Feltételekkel kapcsolatban, írj a <a href="mailto:imageconverterplus.help@gmail.com">imageconverterplus.help@gmail.com</a> címre.</p>
         </div>
@@ -201,7 +218,7 @@
     </div>
 
     <!-- Links -->
-    <div class="links-section fade-in">
+    <div class="links-section" data-reveal>
 
         <a class="link-card" href="support.html">
             <p class="link-label">Súgó</p>
@@ -216,25 +233,94 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer fade-in">
+    <div class="footer">
         <p>Utolsó frissítés: 2026. május</p>
     </div>
 
 </div>
 
-<script>
-    // Fade-in on scroll
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span class="copyright">© 2026 Denys Lebiediev</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">Adatvédelmi szabályzat</a></li>
+            <li><a href="terms.html">Felhasználási feltételek</a></li>
+            <li><a href="support.html">Támogatás</a></li>
+        </ul>
+        <!-- lang-menu -->
+        <details class="lang-menu">
+            <summary class="lang-trigger" aria-label="Nyelv: Magyar"><svg class="lang-globe" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="8" cy="8" rx="2.8" ry="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M1.7 8h12.6M2.6 4.6h10.8M2.6 11.4h10.8" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="lang-current">Magyar</span><svg class="lang-chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+            <div class="lang-panel">
+                <ul class="lang-list" role="list" translate="no">
+                    <li><a href="../af/terms.html" lang="af" hreflang="af">Afrikaans</a></li>
+                    <li><a href="../id/terms.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+                    <li><a href="../ms/terms.html" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+                    <li><a href="../bs/terms.html" lang="bs" hreflang="bs">Bosanski</a></li>
+                    <li><a href="../ca/terms.html" lang="ca" hreflang="ca">Català</a></li>
+                    <li><a href="../cs/terms.html" lang="cs" hreflang="cs">Čeština</a></li>
+                    <li><a href="../cy/terms.html" lang="cy" hreflang="cy">Cymraeg</a></li>
+                    <li><a href="../da/terms.html" lang="da" hreflang="da">Dansk</a></li>
+                    <li><a href="../de/terms.html" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="../et/terms.html" lang="et" hreflang="et">Eesti</a></li>
+                    <li><a href="../terms.html?lang=en" lang="en" hreflang="en">English</a></li>
+                    <li><a href="../es/terms.html" lang="es" hreflang="es">Español</a></li>
+                    <li><a href="../fil/terms.html" lang="fil" hreflang="fil">Filipino</a></li>
+                    <li><a href="../fr/terms.html" lang="fr" hreflang="fr">Français</a></li>
+                    <li><a href="../ga/terms.html" lang="ga" hreflang="ga">Gaeilge</a></li>
+                    <li><a href="../hr/terms.html" lang="hr" hreflang="hr">Hrvatski</a></li>
+                    <li><a href="../is/terms.html" lang="is" hreflang="is">Íslenska</a></li>
+                    <li><a href="../it/terms.html" lang="it" hreflang="it">Italiano</a></li>
+                    <li><a href="../sw/terms.html" lang="sw" hreflang="sw">Kiswahili</a></li>
+                    <li><a href="../lv/terms.html" lang="lv" hreflang="lv">Latviešu</a></li>
+                    <li><a href="../lt/terms.html" lang="lt" hreflang="lt">Lietuvių</a></li>
+                    <li><a href="../hu/terms.html" lang="hu" hreflang="hu" aria-current="true">Magyar<svg class="lang-check" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="../mt/terms.html" lang="mt" hreflang="mt">Malti</a></li>
+                    <li><a href="../nl/terms.html" lang="nl" hreflang="nl">Nederlands</a></li>
+                    <li><a href="../nb/terms.html" lang="nb" hreflang="nb">Norsk bokmål</a></li>
+                    <li><a href="../pl/terms.html" lang="pl" hreflang="pl">Polski</a></li>
+                    <li><a href="../pt-BR/terms.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+                    <li><a href="../pt-PT/terms.html" lang="pt-PT" hreflang="pt-PT">Português (Portugal)</a></li>
+                    <li><a href="../ro/terms.html" lang="ro" hreflang="ro">Română</a></li>
+                    <li><a href="../sq/terms.html" lang="sq" hreflang="sq">Shqip</a></li>
+                    <li><a href="../sk/terms.html" lang="sk" hreflang="sk">Slovenčina</a></li>
+                    <li><a href="../sl/terms.html" lang="sl" hreflang="sl">Slovenščina</a></li>
+                    <li><a href="../fi/terms.html" lang="fi" hreflang="fi">Suomi</a></li>
+                    <li><a href="../sv/terms.html" lang="sv" hreflang="sv">Svenska</a></li>
+                    <li><a href="../vi/terms.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+                    <li><a href="../tr/terms.html" lang="tr" hreflang="tr">Türkçe</a></li>
+                    <li><a href="../be/terms.html" lang="be" hreflang="be">Беларуская</a></li>
+                    <li><a href="../bg/terms.html" lang="bg" hreflang="bg">Български</a></li>
+                    <li><a href="../mk/terms.html" lang="mk" hreflang="mk">Македонски</a></li>
+                    <li><a href="../sr/terms.html" lang="sr" hreflang="sr">Српски</a></li>
+                    <li><a href="../uk/terms.html" lang="uk" hreflang="uk">Українська</a></li>
+                    <li><a href="../el/terms.html" lang="el" hreflang="el">Ελληνικά</a></li>
+                    <li><a href="../ar/terms.html" lang="ar" hreflang="ar">العربية</a></li>
+                    <li><a href="../he/terms.html" lang="he" hreflang="he">עברית</a></li>
+                    <li><a href="../ur/terms.html" lang="ur" hreflang="ur">اردو</a></li>
+                    <li><a href="../fa/terms.html" lang="fa" hreflang="fa">فارسی</a></li>
+                    <li><a href="../hi/terms.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+                    <li><a href="../mr/terms.html" lang="mr" hreflang="mr">मराठी</a></li>
+                    <li><a href="../gu/terms.html" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+                    <li><a href="../pa/terms.html" lang="pa" hreflang="pa">ਪੰਜਾਬੀ</a></li>
+                    <li><a href="../bn/terms.html" lang="bn" hreflang="bn">বাংলা</a></li>
+                    <li><a href="../ta/terms.html" lang="ta" hreflang="ta">தமிழ்</a></li>
+                    <li><a href="../te/terms.html" lang="te" hreflang="te">తెలుగు</a></li>
+                    <li><a href="../kn/terms.html" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+                    <li><a href="../ml/terms.html" lang="ml" hreflang="ml">മലയാളം</a></li>
+                    <li><a href="../th/terms.html" lang="th" hreflang="th">ไทย</a></li>
+                    <li><a href="../ja/terms.html" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="../ko/terms.html" lang="ko" hreflang="ko">한국어</a></li>
+                    <li><a href="../zh-Hans/terms.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+                    <li><a href="../zh-Hant/terms.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+                </ul>
+            </div>
+        </details>
+        <script defer src="../js/lang-menu.js"></script>
+        <!-- /lang-menu -->
+    </div>
+</footer>
 
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
+<script defer src="../js/subpage.js"></script>
 
 </body>
 </html>

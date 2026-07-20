@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=6759621930">
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#05060A">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <link rel="icon" href="../images/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
+    <script>
+        document.documentElement.classList.add('js');
+        // if subpage.js never boots, un-gate the reveals so content can't stay hidden
+        setTimeout(function () { if (!window.__icpSubBooted) document.documentElement.classList.remove('js'); }, 2500);
+    </script>
     <title>使用條款 - Image Converter Plus</title>
     <meta name="description" content="Image Converter Plus 使用條款。請閱讀授權、購買條款、訂閱自動續訂詳情以及該應用程式的使用準則。">
     <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
@@ -74,63 +78,76 @@
     <link rel="alternate" hreflang="cy" href="https://denyslebiediev.github.io/imageconverterplus/cy/terms.html">
     <link rel="alternate" hreflang="be" href="https://denyslebiediev.github.io/imageconverterplus/be/terms.html">
     <link rel="alternate" hreflang="x-default" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/subpage.css">
+    <meta property="og:title" content="使用條款 — Image Converter Plus">
+    <meta property="og:description" content="Image Converter Plus 使用條款。請閱讀授權、購買條款、訂閱自動續訂詳情以及該應用程式的使用準則。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://denyslebiediev.github.io/imageconverterplus/zh-Hant/terms.html">
+    <meta property="og:image" content="https://denyslebiediev.github.io/imageconverterplus/images/icon-512.png">
+    <link rel="canonical" href="https://denyslebiediev.github.io/imageconverterplus/zh-Hant/terms.html">
+    <link rel="preload" href="../fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/subpage-dark.css">
 
 </head>
 <body>
 
-<!-- Nav -->
-<nav>
+<a class="skip-link" href="#main">跳至內容</a>
+
+<nav class="site-nav" aria-label="網站">
     <div class="nav-inner">
-        <a class="nav-title" href="index.html">Image Converter Plus</a>
+        <a class="nav-brand" href="index.html">
+            <img src="../images/AppIcon.png" alt="" width="28" height="28">
+            <span>Image Converter Plus</span>
+        </a>
         <ul class="nav-links">
             <li><a href="privacy.html">隱私權政策</a></li>
-            <li><a href="terms.html">使用條款</a></li>
+            <li><a href="terms.html" aria-current="page">使用條款</a></li>
             <li><a href="support.html">支援</a></li>
         </ul>
+        <a class="nav-cta" href="https://apps.apple.com/app/image-converter-plus/id6759621930">取得 App</a>
     </div>
 </nav>
 
-<div class="page">
+<div class="page" id="main">
 
     <!-- Hero -->
-    <div class="hero fade-in">
-        <h1>使用條款</h1>
+    <header class="page-head">
+        <p class="eyebrow mono">法律 · 條款</p>
+        <h1 class="headline">使用條款</h1>
         <p class="subtitle">適用於 iPhone 與 iPad 的 Image Converter Plus</p>
-    </div>
+    </header>
 
     <!-- Content Cards -->
-    <div class="stagger">
+    <div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>協議</h2>
             <p>本使用條款（以下簡稱&ldquo;本條款&rdquo;）構成您與 Denys Lebiediev（以下簡稱&ldquo;開發者&rdquo;、&ldquo;我們&rdquo;、&ldquo;我方&rdquo;）之間就您使用 Image Converter Plus 行動應用程式及其分享擴充功能（合稱&ldquo;本應用程式&rdquo;）而訂立的具有約束力的協議。下載、安裝或使用本應用程式，即表示您確認已閱讀、理解並接受本條款連同我們的<a href="privacy.html">隱私權政策</a>。如果您不同意，請勿使用本應用程式。</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Apple 使用者授權合約</h2>
             <p>本應用程式係授權而非售予您，且僅可在 Apple&rsquo;s 的標準《授權應用程式使用者授權合約》（以下簡稱&ldquo;Apple EULA&rdquo;，可於 <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener" target="_blank">apple.com/legal/internet-services/itunes/dev/stdeula</a> 取得）之下使用，但本條款對其予以擴展或修改之處除外。在本條款與 Apple EULA 之間存在任何衝突的範圍內，於 Apple&rsquo;s 規則允許的情況下以本條款為準；否則以 Apple EULA 為準。</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>授權</h2>
             <p>我們授予您一項有限的、個人的、非專屬的、不可轉讓的、可撤銷的授權，以便您在您擁有或控制的任何 iPhone 或 iPad 上安裝與使用本應用程式，且應遵循《Apple Media Services 條款與條件》以及該等條款中規定的任何使用規則（包括針對終身升級的 Family Sharing）。您不得將本應用程式出售、出租、租賃、再授權、散布或以其他方式轉讓給任何其他人。</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>您的內容</h2>
             <p>您保留對您匯入本應用程式的相片、檔案與中繼資料的所有權利。我們不主張對您內容的任何所有權。由於本應用程式在您的裝置上處理所有內容，您不會授予我們對您檔案的授權；我們絕不會收到這些檔案。</p>
             <p>您有責任確保您擁有轉換、修改、分享或以其他方式使用您所處理影像的權利。您不得使用本應用程式來處理您未獲許可使用的內容。</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>免費版與 Pro 版</h2>
             <p>本應用程式提供免費版，可以選定格式一次轉換一張影像。免費使用者還可以選擇觀看獎勵影片廣告，以暫時解鎖一次批次轉換。觀看廣告始終是選擇性的，您可以在其完成之前將其關閉。Pro 可解鎖無限批次轉換、所有輸出格式（包括 PDF、AVIF 與 TIFF）、個別影像設定以及全套中繼資料隱私控制項。</p>
             <p>Pro 以自動續訂訂閱（每週、每月或每年）或一次性的、非消耗型的終身購買的形式提供。小費購買是選擇性的，不會解鎖任何功能，且除法律要求外不予退款。</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>訂閱條款</h2>
             <p><strong>帳單。</strong> 所有購買均由 Apple 透過 App Store 處理。款項將在確認購買時向您的 Apple ID 收取。目前的定價會顯示在本應用程式內以及針對您商店的 App Store 商品頁上，並可能在未來按照 App Store 規則所允許的方式變更。</p>
             <p><strong>自動續訂。</strong> 除非在目前週期結束前至少 24 小時取消，否則訂閱會在每個帳單週期結束時按當時的價格自動續訂。您的帳戶將在目前週期結束前 24 小時內被收取續訂費用。</p>
@@ -140,7 +157,7 @@
             <p><strong>Family Sharing。</strong> 在 App Store 支援的情況下，終身升級與自動續訂訂閱符合 Family Sharing 的資格。</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>可接受的使用</h2>
             <p>您同意遵守適用法律使用本應用程式。您不得，也不得鼓勵任何其他人：</p>
             <ul>
@@ -153,47 +170,47 @@
             </ul>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>更新與停止提供</h2>
             <p>我們可能會發佈更新，以變更、新增或移除功能、修正錯誤或提升效能。新功能可能需要 Pro。當本應用程式在商業上或技術上不再可行時，我們也可能在合理通知後停用功能或停止提供本應用程式。在法律要求的情況下，未使用訂閱時間的退款將由 Apple 處理。</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>第三方服務</h2>
             <p>本應用程式依賴 Apple StoreKit 進行購買、依賴 Adapty 進行購買驗證，並依賴 Google AdMob &mdash; 連同 Google User Messaging Platform 以及 Unity Ads 等中介合作夥伴 &mdash; 來提供向免費使用者顯示的選擇性獎勵廣告。您對這些服務的使用亦須遵守其各自的條款與隱私權聲明。我們不對第三方服務的做法負責，但正如我們的<a href="privacy.html">隱私權政策</a>所述，我們已將它們設定為僅蒐集必要的內容。</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>免責聲明</h2>
             <p>本應用程式按&ldquo;現狀&rdquo;與&ldquo;現有可用&rdquo;的基礎提供，不附帶任何明示或默示的任何種類的擔保，包括對適售性、特定用途適用性、準確性或不侵權的擔保。我們不擔保本應用程式將不中斷、無錯誤，或將為您的檔案產生特定結果。您有責任為您處理的任何檔案保留備份。</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>責任限制</h2>
             <p>在法律允許的最大範圍內，對於因您使用本應用程式而產生或與之相關的任何間接的、附帶的、特殊的、衍生性的或懲罰性的損害，或任何利潤、資料或檔案的損失，開發者概不負責，即使我們已被告知發生此類損害的可能性。我們對任何直接損害的總責任，以您在引起索賠的事件之前十二個月內為本應用程式支付的金額為限。某些司法管轄區不允許這些限制，在此情況下，這些限制僅在該地允許的最大範圍內適用。</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Apple 作為第三方受益人</h2>
             <p>您承認本條款僅在您與開發者之間訂立，而非與 Apple 訂立。Apple 不對本應用程式或其內容負責。但是，Apple 及 Apple&rsquo;s 的子公司是本條款的第三方受益人，並且在您接受後，將有權（且將被視為已接受該權利）作為第三方受益人對您強制執行本條款。如果本應用程式未能符合任何適用的擔保，您可以通知 Apple，Apple 將向您退還本應用程式的購買價格（如有）。在法律允許的最大範圍內，Apple 對本應用程式不承擔任何其他擔保義務。</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>準據法與爭議</h2>
             <p>本條款受您通常居住所在國家/地區的法律管轄，不考量其法律衝突原則，但適用的消費者保護法另有規定的範圍除外。您與開發者同意首先透過向我們傳送電子郵件以非正式方式解決爭議。如果我們無法在 60 天內解決爭議，您可以在法律允許的範圍內將該事項提交至您居住國家/地區的法院。本條款中的任何內容均不限制您依據居住國家/地區法律所享有的任何不可拋棄的消費者權利。</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>可分割性</h2>
             <p>如果本條款的任何條款被認定為無效或不可執行，該條款將在必要的最小範圍內受到限制或被刪除，其餘條款將繼續完全有效。</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>變更</h2>
             <p>我們可能會不時更新本條款。目前版本將始終在此 URL 提供，並附有更新後的&ldquo;最後更新&rdquo;日期。重大變更將在受影響版本的 App Store 更新說明中予以強調說明。在變更生效後您繼續使用本應用程式，即構成對修訂後條款的接受。</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>聯絡方式</h2>
             <p>如果您對本條款有疑問，請寫信至 <a href="mailto:imageconverterplus.help@gmail.com">imageconverterplus.help@gmail.com</a>。</p>
         </div>
@@ -201,7 +218,7 @@
     </div>
 
     <!-- Links -->
-    <div class="links-section fade-in">
+    <div class="links-section" data-reveal>
 
         <a class="link-card" href="support.html">
             <p class="link-label">說明</p>
@@ -216,25 +233,94 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer fade-in">
+    <div class="footer">
         <p>最後更新：2026 年 5 月</p>
     </div>
 
 </div>
 
-<script>
-    // Fade-in on scroll
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span class="copyright">© 2026 Denys Lebiediev</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">隱私權政策</a></li>
+            <li><a href="terms.html">使用條款</a></li>
+            <li><a href="support.html">支援</a></li>
+        </ul>
+        <!-- lang-menu -->
+        <details class="lang-menu">
+            <summary class="lang-trigger" aria-label="語言: 繁體中文"><svg class="lang-globe" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="8" cy="8" rx="2.8" ry="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M1.7 8h12.6M2.6 4.6h10.8M2.6 11.4h10.8" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="lang-current">繁體中文</span><svg class="lang-chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+            <div class="lang-panel">
+                <ul class="lang-list" role="list" translate="no">
+                    <li><a href="../af/terms.html" lang="af" hreflang="af">Afrikaans</a></li>
+                    <li><a href="../id/terms.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+                    <li><a href="../ms/terms.html" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+                    <li><a href="../bs/terms.html" lang="bs" hreflang="bs">Bosanski</a></li>
+                    <li><a href="../ca/terms.html" lang="ca" hreflang="ca">Català</a></li>
+                    <li><a href="../cs/terms.html" lang="cs" hreflang="cs">Čeština</a></li>
+                    <li><a href="../cy/terms.html" lang="cy" hreflang="cy">Cymraeg</a></li>
+                    <li><a href="../da/terms.html" lang="da" hreflang="da">Dansk</a></li>
+                    <li><a href="../de/terms.html" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="../et/terms.html" lang="et" hreflang="et">Eesti</a></li>
+                    <li><a href="../terms.html?lang=en" lang="en" hreflang="en">English</a></li>
+                    <li><a href="../es/terms.html" lang="es" hreflang="es">Español</a></li>
+                    <li><a href="../fil/terms.html" lang="fil" hreflang="fil">Filipino</a></li>
+                    <li><a href="../fr/terms.html" lang="fr" hreflang="fr">Français</a></li>
+                    <li><a href="../ga/terms.html" lang="ga" hreflang="ga">Gaeilge</a></li>
+                    <li><a href="../hr/terms.html" lang="hr" hreflang="hr">Hrvatski</a></li>
+                    <li><a href="../is/terms.html" lang="is" hreflang="is">Íslenska</a></li>
+                    <li><a href="../it/terms.html" lang="it" hreflang="it">Italiano</a></li>
+                    <li><a href="../sw/terms.html" lang="sw" hreflang="sw">Kiswahili</a></li>
+                    <li><a href="../lv/terms.html" lang="lv" hreflang="lv">Latviešu</a></li>
+                    <li><a href="../lt/terms.html" lang="lt" hreflang="lt">Lietuvių</a></li>
+                    <li><a href="../hu/terms.html" lang="hu" hreflang="hu">Magyar</a></li>
+                    <li><a href="../mt/terms.html" lang="mt" hreflang="mt">Malti</a></li>
+                    <li><a href="../nl/terms.html" lang="nl" hreflang="nl">Nederlands</a></li>
+                    <li><a href="../nb/terms.html" lang="nb" hreflang="nb">Norsk bokmål</a></li>
+                    <li><a href="../pl/terms.html" lang="pl" hreflang="pl">Polski</a></li>
+                    <li><a href="../pt-BR/terms.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+                    <li><a href="../pt-PT/terms.html" lang="pt-PT" hreflang="pt-PT">Português (Portugal)</a></li>
+                    <li><a href="../ro/terms.html" lang="ro" hreflang="ro">Română</a></li>
+                    <li><a href="../sq/terms.html" lang="sq" hreflang="sq">Shqip</a></li>
+                    <li><a href="../sk/terms.html" lang="sk" hreflang="sk">Slovenčina</a></li>
+                    <li><a href="../sl/terms.html" lang="sl" hreflang="sl">Slovenščina</a></li>
+                    <li><a href="../fi/terms.html" lang="fi" hreflang="fi">Suomi</a></li>
+                    <li><a href="../sv/terms.html" lang="sv" hreflang="sv">Svenska</a></li>
+                    <li><a href="../vi/terms.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+                    <li><a href="../tr/terms.html" lang="tr" hreflang="tr">Türkçe</a></li>
+                    <li><a href="../be/terms.html" lang="be" hreflang="be">Беларуская</a></li>
+                    <li><a href="../bg/terms.html" lang="bg" hreflang="bg">Български</a></li>
+                    <li><a href="../mk/terms.html" lang="mk" hreflang="mk">Македонски</a></li>
+                    <li><a href="../sr/terms.html" lang="sr" hreflang="sr">Српски</a></li>
+                    <li><a href="../uk/terms.html" lang="uk" hreflang="uk">Українська</a></li>
+                    <li><a href="../el/terms.html" lang="el" hreflang="el">Ελληνικά</a></li>
+                    <li><a href="../ar/terms.html" lang="ar" hreflang="ar">العربية</a></li>
+                    <li><a href="../he/terms.html" lang="he" hreflang="he">עברית</a></li>
+                    <li><a href="../ur/terms.html" lang="ur" hreflang="ur">اردو</a></li>
+                    <li><a href="../fa/terms.html" lang="fa" hreflang="fa">فارسی</a></li>
+                    <li><a href="../hi/terms.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+                    <li><a href="../mr/terms.html" lang="mr" hreflang="mr">मराठी</a></li>
+                    <li><a href="../gu/terms.html" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+                    <li><a href="../pa/terms.html" lang="pa" hreflang="pa">ਪੰਜਾਬੀ</a></li>
+                    <li><a href="../bn/terms.html" lang="bn" hreflang="bn">বাংলা</a></li>
+                    <li><a href="../ta/terms.html" lang="ta" hreflang="ta">தமிழ்</a></li>
+                    <li><a href="../te/terms.html" lang="te" hreflang="te">తెలుగు</a></li>
+                    <li><a href="../kn/terms.html" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+                    <li><a href="../ml/terms.html" lang="ml" hreflang="ml">മലയാളം</a></li>
+                    <li><a href="../th/terms.html" lang="th" hreflang="th">ไทย</a></li>
+                    <li><a href="../ja/terms.html" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="../ko/terms.html" lang="ko" hreflang="ko">한국어</a></li>
+                    <li><a href="../zh-Hans/terms.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+                    <li><a href="../zh-Hant/terms.html" lang="zh-Hant" hreflang="zh-Hant" aria-current="true">繁體中文<svg class="lang-check" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                </ul>
+            </div>
+        </details>
+        <script defer src="../js/lang-menu.js"></script>
+        <!-- /lang-menu -->
+    </div>
+</footer>
 
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
+<script defer src="../js/subpage.js"></script>
 
 </body>
 </html>

@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=6759621930">
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#05060A">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <link rel="icon" href="../images/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
+    <script>
+        document.documentElement.classList.add('js');
+        // if subpage.js never boots, un-gate the reveals so content can't stay hidden
+        setTimeout(function () { if (!window.__icpSubBooted) document.documentElement.classList.remove('js'); }, 2500);
+    </script>
     <title>Zásady ochrany osobních údajů - Image Converter Plus</title>
     <meta name="description" content="Zásady ochrany osobních údajů aplikace Image Converter Plus. Fotografie se zpracovávají pouze ve vašem zařízení. Vysvětlujeme přesně, co sady SDK třetích stran shromažďují pro nákupy a reklamy.">
     <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/privacy.html">
@@ -74,36 +78,49 @@
     <link rel="alternate" hreflang="cy" href="https://denyslebiediev.github.io/imageconverterplus/cy/privacy.html">
     <link rel="alternate" hreflang="be" href="https://denyslebiediev.github.io/imageconverterplus/be/privacy.html">
     <link rel="alternate" hreflang="x-default" href="https://denyslebiediev.github.io/imageconverterplus/privacy.html">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/subpage.css">
+    <meta property="og:title" content="Zásady ochrany osobních údajů — Image Converter Plus">
+    <meta property="og:description" content="Zásady ochrany osobních údajů aplikace Image Converter Plus. Fotografie se zpracovávají pouze ve vašem zařízení. Vysvětlujeme přesně, co sady SDK třetích stran shromažďují pro nákupy a reklamy.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://denyslebiediev.github.io/imageconverterplus/cs/privacy.html">
+    <meta property="og:image" content="https://denyslebiediev.github.io/imageconverterplus/images/icon-512.png">
+    <link rel="canonical" href="https://denyslebiediev.github.io/imageconverterplus/cs/privacy.html">
+    <link rel="preload" href="../fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/subpage-dark.css">
 
 </head>
 <body>
 
-<!-- Nav -->
-<nav>
+<a class="skip-link" href="#main">Přejít na obsah</a>
+
+<nav class="site-nav" aria-label="Web">
     <div class="nav-inner">
-        <a class="nav-title" href="index.html">Image Converter Plus</a>
+        <a class="nav-brand" href="index.html">
+            <img src="../images/AppIcon.png" alt="" width="28" height="28">
+            <span>Image Converter Plus</span>
+        </a>
         <ul class="nav-links">
-            <li><a href="privacy.html">Zásady ochrany osobních údajů</a></li>
+            <li><a href="privacy.html" aria-current="page">Zásady ochrany osobních údajů</a></li>
             <li><a href="terms.html">Podmínky používání</a></li>
             <li><a href="support.html">Podpora</a></li>
         </ul>
+        <a class="nav-cta" href="https://apps.apple.com/app/image-converter-plus/id6759621930">Získat aplikaci</a>
     </div>
 </nav>
 
-<div class="page">
+<div class="page" id="main">
 
     <!-- Hero -->
-    <div class="hero fade-in">
-        <h1>Zásady ochrany osobních údajů</h1>
+    <header class="page-head">
+        <p class="eyebrow mono">Právní · Soukromí</p>
+        <h1 class="headline">Zásady ochrany osobních údajů</h1>
         <p class="subtitle">Vaše fotografie zůstávají ve vašem zařízení. Tato stránka přesně vysvětluje, co my a naši poskytovatelé služeb s vašimi informacemi děláme &mdash; a co neděláme.</p>
-    </div>
+    </header>
 
     <!-- Content Cards -->
-    <div class="stagger">
+    <div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Shrnutí</h2>
             <p>Aplikaci Image Converter Plus (&ldquo;Aplikace&rdquo;) vytváří Denys Lebiediev. Veškerý převod obrázků probíhá ve vašem zařízení. Neprovozujeme žádný server, který by přijímal vaše fotografie. Využíváme však malý počet důvěryhodných služeb třetích stran ke zpracování nákupů v aplikaci a k zobrazování volitelných odměňovaných videoreklam uživatelům bezplatné verze. Tyto služby shromažďují omezené, převážně anonymní informace, jak je popsáno níže. Vždy máte kontrolu nad tím, co se děje.</p>
             <ul>
@@ -115,9 +132,9 @@
             </ul>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Co zůstává ve vašem zařízení</h2>
-            <p>Veškerý převod obrázků, změna velikosti, odstraňování metadat, vodoznak, pojmenovávání souborů, předvolby a historie převodů probíhají výhradně ve vašem iPhonu nebo iPadu. Nic o obsahu vašich fotografií není přenášeno nám ani žádné třetí straně.</p>
+            <p>Veškerý převod obrázků, změna velikosti, odstraňování metadat, pojmenovávání souborů, předvolby a historie převodů probíhají výhradně ve vašem iPhonu nebo iPadu. Nic o obsahu vašich fotografií není přenášeno nám ani žádné třetí straně.</p>
             <ul>
                 <li>Fotografie a soubory, které importujete.</li>
                 <li>Metadata extrahovaná z těchto souborů nebo z nich odstraněná.</li>
@@ -127,7 +144,7 @@
             <p>Tato data můžete kdykoli smazat odebráním položek na kartě Historie, vymazáním historie v Nastavení nebo smazáním Aplikace.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Informace shromažďované službami třetích stran</h2>
             <p>Aplikace ke svému fungování využívá malý počet služeb. Každou z nich jsme nakonfigurovali tak, aby shromažďovala minimum nezbytných údajů. Prostřednictvím žádné z nich nemáme přístup k obsahu vašich fotografií.</p>
 
@@ -142,7 +159,7 @@
             <p><strong>Apple App Store (kontrola aktualizací).</strong> Aplikace pravidelně dotazuje veřejný koncový bod iTunes Lookup společnosti Apple, aby zjistila, zda je k dispozici novější verze. Tento požadavek obsahuje pouze identifikátor balíčku Aplikace a zemi vašeho obchodu. Apple může obdržet vaši IP adresu jako součást jakéhokoli požadavku HTTPS, ale my nikoli.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Sledování a personalizované reklamy</h2>
             <p>Pokud jste uživatelem bezplatné verze, při prvním okamžiku, kdy je Aplikace v pozici, aby vám zobrazila reklamu, se vás můžeme zeptat &mdash; prostřednictvím standardní systémové výzvy Apple (App Tracking Transparency) &mdash; zda Aplikaci povolíte používat reklamní identifikátor vašeho zařízení (IDFA) k doručování relevantnějších reklam. Vaše odpověď je konečná: můžete ji kdykoli změnit v iOS&nbsp;Nastavení&nbsp;&rsaquo; Soukromí a zabezpečení &nbsp;&rsaquo; Sledování &nbsp;&rsaquo; Image Converter Plus.</p>
             <ul>
@@ -153,59 +170,59 @@
             <p>V regionech, na které se vztahuje GDPR nebo srovnatelné zákony, se formulář souhlasu User Messaging Platform zobrazí před načtením jakékoli reklamy a svá rozhodnutí můžete později zkontrolovat nebo změnit v <strong>Nastavení &nbsp;&rsaquo; Spravovat volby reklam</strong> uvnitř Aplikace.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Vaše fotografie a soubory</h2>
             <p>Aplikace přistupuje k fotografiím prostřednictvím nástroje pro výběr společnosti Apple šetrného k soukromí (<em>PHPickerViewController</em>), což znamená, že vidíme pouze položky, které výslovně vyberete &mdash; nikoli celou vaši fotogalerii. Soubory, které importujete z aplikace Soubory, se čtou přímo z umístění, které zvolíte. Převedené obrázky se zapisují buď do soukromé složky uvnitř Aplikace, do vaší fotogalerie (s vaším svolením), nebo do umístění, které zvolíte v aplikaci Soubory.</p>
             <p>Pokud Aplikaci udělíte oprávnění k přidávání do vaší fotogalerie, Aplikace si vyžádá minimální oprávnění &ldquo;Pouze přidávání fotografií&rdquo;, takže nikdy nemůže číst vaše stávající fotografie.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Share Extension</h2>
             <p>Share Extension vám umožňuje převádět obrázky z jakékoli jiné aplikace bez otevření Image Converter Plus. Vybrané obrázky se zpracovávají lokálně ve vašem zařízení. Share Extension nezahrnuje nákupy v aplikaci, reklamy ani analytiku. Pokud klepnete na vstupní bod upgradu uvnitř Share Extension, otevře se hlavní Aplikace a proces upgradu proběhne tam.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Diagnostické informace v e-mailech podpory</h2>
             <p>Když klepnete na kontaktní odkaz uvnitř Aplikace, otevře se vaše výchozí e-mailová aplikace s konceptem zprávy, který předvyplní základní diagnostické informace: verzi aplikace, verzi iOS, model zařízení, jazyk aplikace, stav předplatného a dostupné úložiště. Zpráva je pro vás plně viditelná, než ji odešlete. Nic není přeneseno, dokud nestisknete Odeslat.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Uchovávání údajů</h2>
             <p>Neprovozujeme server, takže na naší straně není co uchovávat. Soubory, historie, předvolby a preference jsou ve vašem zařízení a odstraní se, když je smažete nebo Aplikaci odinstalujete. Apple, Adapty, Google a Unity uchovávají omezené informace popsané výše v souladu se svými vlastními zásadami uchovávání; podrobnosti najdete v jejich oznámeních o ochraně osobních údajů.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Manifest ochrany soukromí</h2>
             <p>Aplikace obsahuje manifest ochrany soukromí vyžadovaný společností Apple, který přesně deklaruje, která rozhraní API platformy používá a které kategorie údajů mohou shromažďovat její sady SDK třetích stran. Konkrétně manifest deklaruje: identifikátor zařízení a reklamní údaje spojené s reklamou třetích stran (používané službou AdMob a jejím mediačním partnerem Unity Ads, pouze když udělíte povolení); interakci s produktem, údaje o výkonu a další diagnostické údaje spojené s analytikou a funkčností aplikace (používané službami Adapty, AdMob a Unity Ads, anonymně); a historii nákupů spojenou s funkčností aplikace a analytikou (používanou k ověření vašeho předplatného). Apple tato prohlášení a manifesty našich sad SDK třetích stran sloučí do sekce &ldquo;Soukromí aplikace&rdquo; na stránce App Store.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Soukromí dětí</h2>
             <p>Image Converter Plus není určena dětem mladším 13 let (nebo odpovídajícímu minimálnímu věku ve vaší zemi). Vědomě neshromažďujeme osobní údaje od dětí. Pokud se domníváte, že nám dítě poskytlo osobní údaje prostřednictvím jakékoli služby třetí strany, kontaktujte nás a my budeme s příslušným poskytovatelem spolupracovat na jejich odstranění.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Vaše práva v EHP, Spojeném království a Švýcarsku</h2>
             <p>Pokud se na vás vztahuje GDPR nebo britské GDPR, máte právo na přístup ke svým osobním údajům, na jejich opravu, výmaz nebo export, na omezení určitého zpracování nebo vznesení námitky proti němu a na podání stížnosti u svého místního úřadu pro ochranu osobních údajů. Protože Aplikace zpracovává vaše fotografie a historii převodů pouze ve vašem zařízení, můžete práva na přístup, opravu a výmaz uplatnit sami přímo v Aplikaci. V případě údajů uchovávaných společnostmi Apple, Adapty, Google nebo Unity kontaktujte přímo tyto společnosti. Můžete nám také napsat na níže uvedenou adresu a my vám pomůžeme žádost nasměrovat.</p>
             <p>Právní základy, o které se opíráme, jsou: plnění smlouvy (poskytování Aplikace a vašich nákupů), souhlas (s personalizovanými reklamami, kdy je souhlas vyžadován prostřednictvím User Messaging Platform a App Tracking Transparency) a oprávněné zájmy (omezené diagnostické informace potřebné k udržení spolehlivosti Aplikace, vyvážené vůči vašim zájmům).</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Vaše práva v Kalifornii</h2>
             <p>Pokud jste rezidentem Kalifornie, kalifornský zákon o ochraně soukromí spotřebitelů (CCPA/CPRA) vám dává právo vědět, jaké osobní údaje jsou o vás shromažďovány, požádat o výmaz osobních údajů, opravit nepřesné osobní údaje a odhlásit se z &ldquo;prodeje&rdquo; nebo &ldquo;sdílení&rdquo; osobních údajů pro behaviorální reklamu napříč kontexty. Vaše osobní údaje neprodáváme. Chcete-li se odhlásit z jakéhokoli sdílení pro personalizovanou reklamu, zvolte <strong>Požádat aplikaci, aby nesledovala</strong> ve výzvě App Tracking Transparency nebo odmítněte souhlas ve formuláři User Messaging Platform. K uplatnění ostatních práv nás kontaktujte na níže uvedené adrese.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Mezinárodní přenosy</h2>
             <p>Apple, Adapty, Google a Unity mohou zpracovávat omezené informace na serverech mimo vaši zemi, včetně ve Spojených státech. Tito poskytovatelé se opírají o standardní smluvní doložky nebo srovnatelné mechanismy přenosu tam, kde to vyžaduje zákon. Neprovozujeme vlastní servery, a proto sami neprovádíme žádné další mezinárodní přenosy.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Změny těchto zásad</h2>
             <p>Pokud provedeme podstatné změny těchto zásad, zveřejníme aktualizovanou verzi na této adrese URL a aktualizujeme datum &ldquo;Naposledy aktualizováno&rdquo; níže. U významných změn, které ovlivňují, jaké údaje se shromažďují, použijeme poznámky k aktualizaci v App Store, abychom na změnu upozornili.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Kontakt</h2>
             <p>Správcem údajů pro jakékoli zpracování z naší strany je Denys Lebiediev. Máte-li dotazy k těmto zásadám ochrany osobních údajů nebo chcete-li uplatnit svá práva, napište na <a href="mailto:imageconverterplus.help@gmail.com">imageconverterplus.help@gmail.com</a> a my odpovíme do 30 dnů.</p>
         </div>
@@ -213,7 +230,7 @@
     </div>
 
     <!-- Links -->
-    <div class="links-section fade-in">
+    <div class="links-section" data-reveal>
 
         <a class="link-card" href="support.html">
             <p class="link-label">Nápověda</p>
@@ -228,25 +245,94 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer fade-in">
+    <div class="footer">
         <p>Naposledy aktualizováno: květen 2026</p>
     </div>
 
 </div>
 
-<script>
-    // Fade-in on scroll
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span class="copyright">© 2026 Denys Lebiediev</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">Zásady ochrany osobních údajů</a></li>
+            <li><a href="terms.html">Podmínky používání</a></li>
+            <li><a href="support.html">Podpora</a></li>
+        </ul>
+        <!-- lang-menu -->
+        <details class="lang-menu">
+            <summary class="lang-trigger" aria-label="Jazyk: Čeština"><svg class="lang-globe" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="8" cy="8" rx="2.8" ry="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M1.7 8h12.6M2.6 4.6h10.8M2.6 11.4h10.8" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="lang-current">Čeština</span><svg class="lang-chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+            <div class="lang-panel">
+                <ul class="lang-list" role="list" translate="no">
+                    <li><a href="../af/privacy.html" lang="af" hreflang="af">Afrikaans</a></li>
+                    <li><a href="../id/privacy.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+                    <li><a href="../ms/privacy.html" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+                    <li><a href="../bs/privacy.html" lang="bs" hreflang="bs">Bosanski</a></li>
+                    <li><a href="../ca/privacy.html" lang="ca" hreflang="ca">Català</a></li>
+                    <li><a href="../cs/privacy.html" lang="cs" hreflang="cs" aria-current="true">Čeština<svg class="lang-check" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="../cy/privacy.html" lang="cy" hreflang="cy">Cymraeg</a></li>
+                    <li><a href="../da/privacy.html" lang="da" hreflang="da">Dansk</a></li>
+                    <li><a href="../de/privacy.html" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="../et/privacy.html" lang="et" hreflang="et">Eesti</a></li>
+                    <li><a href="../privacy.html?lang=en" lang="en" hreflang="en">English</a></li>
+                    <li><a href="../es/privacy.html" lang="es" hreflang="es">Español</a></li>
+                    <li><a href="../fil/privacy.html" lang="fil" hreflang="fil">Filipino</a></li>
+                    <li><a href="../fr/privacy.html" lang="fr" hreflang="fr">Français</a></li>
+                    <li><a href="../ga/privacy.html" lang="ga" hreflang="ga">Gaeilge</a></li>
+                    <li><a href="../hr/privacy.html" lang="hr" hreflang="hr">Hrvatski</a></li>
+                    <li><a href="../is/privacy.html" lang="is" hreflang="is">Íslenska</a></li>
+                    <li><a href="../it/privacy.html" lang="it" hreflang="it">Italiano</a></li>
+                    <li><a href="../sw/privacy.html" lang="sw" hreflang="sw">Kiswahili</a></li>
+                    <li><a href="../lv/privacy.html" lang="lv" hreflang="lv">Latviešu</a></li>
+                    <li><a href="../lt/privacy.html" lang="lt" hreflang="lt">Lietuvių</a></li>
+                    <li><a href="../hu/privacy.html" lang="hu" hreflang="hu">Magyar</a></li>
+                    <li><a href="../mt/privacy.html" lang="mt" hreflang="mt">Malti</a></li>
+                    <li><a href="../nl/privacy.html" lang="nl" hreflang="nl">Nederlands</a></li>
+                    <li><a href="../nb/privacy.html" lang="nb" hreflang="nb">Norsk bokmål</a></li>
+                    <li><a href="../pl/privacy.html" lang="pl" hreflang="pl">Polski</a></li>
+                    <li><a href="../pt-BR/privacy.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+                    <li><a href="../pt-PT/privacy.html" lang="pt-PT" hreflang="pt-PT">Português (Portugal)</a></li>
+                    <li><a href="../ro/privacy.html" lang="ro" hreflang="ro">Română</a></li>
+                    <li><a href="../sq/privacy.html" lang="sq" hreflang="sq">Shqip</a></li>
+                    <li><a href="../sk/privacy.html" lang="sk" hreflang="sk">Slovenčina</a></li>
+                    <li><a href="../sl/privacy.html" lang="sl" hreflang="sl">Slovenščina</a></li>
+                    <li><a href="../fi/privacy.html" lang="fi" hreflang="fi">Suomi</a></li>
+                    <li><a href="../sv/privacy.html" lang="sv" hreflang="sv">Svenska</a></li>
+                    <li><a href="../vi/privacy.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+                    <li><a href="../tr/privacy.html" lang="tr" hreflang="tr">Türkçe</a></li>
+                    <li><a href="../be/privacy.html" lang="be" hreflang="be">Беларуская</a></li>
+                    <li><a href="../bg/privacy.html" lang="bg" hreflang="bg">Български</a></li>
+                    <li><a href="../mk/privacy.html" lang="mk" hreflang="mk">Македонски</a></li>
+                    <li><a href="../sr/privacy.html" lang="sr" hreflang="sr">Српски</a></li>
+                    <li><a href="../uk/privacy.html" lang="uk" hreflang="uk">Українська</a></li>
+                    <li><a href="../el/privacy.html" lang="el" hreflang="el">Ελληνικά</a></li>
+                    <li><a href="../ar/privacy.html" lang="ar" hreflang="ar">العربية</a></li>
+                    <li><a href="../he/privacy.html" lang="he" hreflang="he">עברית</a></li>
+                    <li><a href="../ur/privacy.html" lang="ur" hreflang="ur">اردو</a></li>
+                    <li><a href="../fa/privacy.html" lang="fa" hreflang="fa">فارسی</a></li>
+                    <li><a href="../hi/privacy.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+                    <li><a href="../mr/privacy.html" lang="mr" hreflang="mr">मराठी</a></li>
+                    <li><a href="../gu/privacy.html" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+                    <li><a href="../pa/privacy.html" lang="pa" hreflang="pa">ਪੰਜਾਬੀ</a></li>
+                    <li><a href="../bn/privacy.html" lang="bn" hreflang="bn">বাংলা</a></li>
+                    <li><a href="../ta/privacy.html" lang="ta" hreflang="ta">தமிழ்</a></li>
+                    <li><a href="../te/privacy.html" lang="te" hreflang="te">తెలుగు</a></li>
+                    <li><a href="../kn/privacy.html" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+                    <li><a href="../ml/privacy.html" lang="ml" hreflang="ml">മലയാളം</a></li>
+                    <li><a href="../th/privacy.html" lang="th" hreflang="th">ไทย</a></li>
+                    <li><a href="../ja/privacy.html" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="../ko/privacy.html" lang="ko" hreflang="ko">한국어</a></li>
+                    <li><a href="../zh-Hans/privacy.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+                    <li><a href="../zh-Hant/privacy.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+                </ul>
+            </div>
+        </details>
+        <script defer src="../js/lang-menu.js"></script>
+        <!-- /lang-menu -->
+    </div>
+</footer>
 
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
+<script defer src="../js/subpage.js"></script>
 
 </body>
 </html>

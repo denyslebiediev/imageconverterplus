@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=6759621930">
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#05060A">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="icon" href="images/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -15,7 +14,10 @@
     (function() {
         // Skip language detection when the URL explicitly asks for English
         // (e.g., when a per-language page redirects here for legal accuracy).
-        if (location.search.indexOf('lang=en') !== -1) return;
+        if (location.search.indexOf('lang=en') !== -1) {
+            try { localStorage.setItem('icp-lang', 'en'); } catch (e) {}
+            return;
+        }
 
         var supported = ["uk","zh-Hans","ja","es","pt-BR","ko","de","fr","hi","id","tr","vi","ar","it","zh-Hant","nl","sv","nb","da","fi","he","pl","th","pt-PT","el","cs","hu","ro","sk","hr","ms","ca","bn","ur","fil","pa","ta","te","fa","mr","gu","kn","ml","af","bg","sr","sl","mt","ga","sq","bs","mk","is","et","lv","lt","sw","cy","be"];
         var set = {};
@@ -25,6 +27,12 @@
             'zh-CN': 'zh-Hans', 'zh-TW': 'zh-Hant',
             'pt': 'pt-BR', 'no': 'nb', 'tl': 'fil'
         };
+
+        // an explicit choice from the footer language switcher wins over browser languages
+        var stored = null;
+        try { stored = localStorage.getItem('icp-lang'); } catch (e) {}
+        if (stored === 'en') return;
+        if (stored && set[stored]) { location.replace(stored + '/terms.html'); return; }
 
         var langs = navigator.languages || [navigator.language || 'en'];
         for (var i = 0; i < langs.length; i++) {
@@ -38,6 +46,11 @@
             if (set[base]) { location.replace(base + '/terms.html'); return; }
         }
     })();
+    </script>
+    <script>
+        document.documentElement.classList.add('js');
+        // if subpage.js never boots, un-gate the reveals so content can't stay hidden
+        setTimeout(function () { if (!window.__icpSubBooted) document.documentElement.classList.remove('js'); }, 2500);
     </script>
     <title>Terms of Use - Image Converter Plus</title>
     <meta name="description" content="Terms of Use for Image Converter Plus. Read the license, purchase terms, subscription auto-renewal details, and usage guidelines for the app.">
@@ -102,63 +115,76 @@
     <link rel="alternate" hreflang="cy" href="https://denyslebiediev.github.io/imageconverterplus/cy/terms.html">
     <link rel="alternate" hreflang="be" href="https://denyslebiediev.github.io/imageconverterplus/be/terms.html">
     <link rel="alternate" hreflang="x-default" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/subpage.css">
+    <meta property="og:title" content="Terms of Use — Image Converter Plus">
+    <meta property="og:description" content="Terms of Use for Image Converter Plus. Read the license, purchase terms, subscription auto-renewal details, and usage guidelines for the app.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://denyslebiediev.github.io/imageconverterplus/terms.html">
+    <meta property="og:image" content="https://denyslebiediev.github.io/imageconverterplus/images/icon-512.png">
+    <link rel="canonical" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
+    <link rel="preload" href="fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/subpage-dark.css">
 
 </head>
 <body>
 
-<!-- Nav -->
-<nav>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<nav class="site-nav" aria-label="Site">
     <div class="nav-inner">
-        <a class="nav-title" href="index.html">Image Converter Plus</a>
+        <a class="nav-brand" href="index.html">
+            <img src="images/AppIcon.png" alt="" width="28" height="28">
+            <span>Image Converter Plus</span>
+        </a>
         <ul class="nav-links">
             <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="terms.html">Terms of Use</a></li>
+            <li><a href="terms.html" aria-current="page">Terms of Use</a></li>
             <li><a href="support.html">Support</a></li>
         </ul>
+        <a class="nav-cta" href="https://apps.apple.com/app/image-converter-plus/id6759621930">Get the app</a>
     </div>
 </nav>
 
-<div class="page">
+<div class="page" id="main">
 
     <!-- Hero -->
-    <div class="hero fade-in">
-        <h1>Terms of Use</h1>
+    <header class="page-head">
+        <p class="eyebrow mono">Legal · Terms</p>
+        <h1 class="headline">Terms of Use</h1>
         <p class="subtitle">Image Converter Plus for iPhone and iPad</p>
-    </div>
+    </header>
 
     <!-- Content Cards -->
-    <div class="stagger">
+    <div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Agreement</h2>
             <p>These Terms of Use (the &ldquo;Terms&rdquo;) form a binding agreement between you and Denys Lebiediev (the &ldquo;Developer&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) regarding your use of the Image Converter Plus mobile application and its Share Extension (together, the &ldquo;App&rdquo;). By downloading, installing, or using the App, you confirm that you have read, understood, and accepted these Terms together with our <a href="privacy.html">Privacy Policy</a>. If you do not agree, do not use the App.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Apple End User License Agreement</h2>
             <p>The App is licensed, not sold, to you for use only under Apple&rsquo;s standard Licensed Application End User License Agreement (the &ldquo;Apple EULA&rdquo;), available at <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener" target="_blank">apple.com/legal/internet-services/itunes/dev/stdeula</a>, except where these Terms expand or modify it. To the extent of any conflict between these Terms and the Apple EULA, these Terms control where permitted by Apple&rsquo;s rules; otherwise the Apple EULA controls.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>License</h2>
             <p>We grant you a limited, personal, non-exclusive, non-transferable, revocable license to install and use the App on any iPhone or iPad that you own or control, in accordance with the Apple Media Services Terms and Conditions and any usage rules set out in those terms (including Family Sharing for the lifetime upgrade). You may not sell, rent, lease, sublicense, distribute, or otherwise transfer the App to anyone else.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Your Content</h2>
             <p>You retain all rights to the photos, files, and metadata you import into the App. We do not claim any ownership over your content. Because the App processes everything on your device, you do not grant us a license to your files; we never receive them.</p>
             <p>You are responsible for ensuring that you have the right to convert, modify, share, or otherwise use the images you process. You must not use the App to handle content that you do not have permission to use.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Free and Pro Tiers</h2>
             <p>The App offers a free tier that converts one image at a time in selected formats. Free users may also opt to watch a rewarded video ad to temporarily unlock a single batch conversion. Watching an ad is always optional and you can dismiss it before completion. Pro unlocks unlimited batch conversion, all output formats (including PDF, AVIF, and TIFF), per-image settings, and the full set of metadata privacy controls.</p>
             <p>Pro is offered either as an auto-renewable subscription (weekly, monthly, or annual) or as a one-time, non-consumable lifetime purchase. Tip purchases are optional, do not unlock features, and are non-refundable except where required by law.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Subscription Terms</h2>
             <p><strong>Billing.</strong> All purchases are processed by Apple through the App Store. Payment is charged to your Apple ID at confirmation of purchase. Current pricing is shown inside the App and on the App Store listing for your storefront and may change in the future as permitted by the App Store rules.</p>
             <p><strong>Auto-renewal.</strong> Subscriptions automatically renew at the end of each billing period at the then-current price unless cancelled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period.</p>
@@ -168,7 +194,7 @@
             <p><strong>Family Sharing.</strong> The lifetime upgrade and auto-renewable subscriptions are eligible for Family Sharing where supported by the App Store.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Acceptable Use</h2>
             <p>You agree to use the App in compliance with applicable law. You may not, and may not encourage anyone else to:</p>
             <ul>
@@ -181,47 +207,47 @@
             </ul>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Updates and Discontinuation</h2>
             <p>We may release updates that change, add, or remove features, fix bugs, or improve performance. New features may require Pro. We may also retire features or discontinue the App with reasonable notice when this is no longer commercially or technically feasible. Where required by law, refunds for unused subscription time will be processed by Apple.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Third-Party Services</h2>
             <p>The App relies on Apple StoreKit for purchases, Adapty for purchase verification, and Google AdMob &mdash; together with the Google User Messaging Platform, and mediation partners such as Unity Ads &mdash; for the optional rewarded ads shown to free users. Your use of those services is also subject to their own terms and privacy notices. We are not responsible for the practices of third-party services, but we have configured them to collect only what is necessary, as described in our <a href="privacy.html">Privacy Policy</a>.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Disclaimer</h2>
             <p>The App is provided on an &ldquo;as is&rdquo; and &ldquo;as available&rdquo; basis without warranties of any kind, whether express or implied, including warranties of merchantability, fitness for a particular purpose, accuracy, or non-infringement. We do not warrant that the App will be uninterrupted, error-free, or that it will produce specific results for your files. You are responsible for keeping backups of any files you process.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Limitation of Liability</h2>
             <p>To the fullest extent permitted by law, the Developer will not be liable for any indirect, incidental, special, consequential, or punitive damages, or for any loss of profits, data, or files, arising out of or in connection with your use of the App, even if we have been advised of the possibility of such damages. Our total liability for any direct damages is limited to the amount you paid for the App in the twelve months preceding the event giving rise to the claim. Some jurisdictions do not allow these limitations, in which case the limitations apply only to the maximum extent permitted there.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Apple as Third-Party Beneficiary</h2>
             <p>You acknowledge that these Terms are between you and the Developer only, and not with Apple. Apple is not responsible for the App or its content. However, Apple and Apple&rsquo;s subsidiaries are third-party beneficiaries of these Terms and, upon your acceptance, will have the right (and will be deemed to have accepted the right) to enforce these Terms against you as a third-party beneficiary. In the event of any failure of the App to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price for the App to you (if any). To the maximum extent permitted by law, Apple has no other warranty obligation with respect to the App.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Governing Law and Disputes</h2>
             <p>These Terms are governed by the laws of the country in which you ordinarily reside, without regard to its conflict-of-law principles, except to the extent applicable consumer-protection law specifies otherwise. You and the Developer agree to resolve disputes informally first by emailing us. If we cannot resolve a dispute within 60 days, you may bring the matter before the courts of your country of residence to the extent permitted by law. Nothing in these Terms limits any non-waivable consumer rights you have under the law of your country of residence.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Severability</h2>
             <p>If any provision of these Terms is held to be invalid or unenforceable, that provision will be limited or eliminated to the minimum extent necessary, and the remaining provisions will remain in full force and effect.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Changes</h2>
             <p>We may update these Terms from time to time. The current version will always be available at this URL with an updated &ldquo;Last updated&rdquo; date. Material changes will be highlighted in the App Store update notes for the affected release. Your continued use of the App after a change takes effect constitutes acceptance of the revised Terms.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Contact</h2>
             <p>If you have questions about these Terms, write to <a href="mailto:imageconverterplus.help@gmail.com">imageconverterplus.help@gmail.com</a>.</p>
         </div>
@@ -229,7 +255,7 @@
     </div>
 
     <!-- Links -->
-    <div class="links-section fade-in">
+    <div class="links-section" data-reveal>
 
         <a class="link-card" href="support.html">
             <p class="link-label">Help</p>
@@ -244,25 +270,94 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer fade-in">
+    <div class="footer">
         <p>Last updated: May 2026</p>
     </div>
 
 </div>
 
-<script>
-    // Fade-in on scroll
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span class="copyright">© 2026 Denys Lebiediev</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+        <!-- lang-menu -->
+        <details class="lang-menu">
+            <summary class="lang-trigger" aria-label="Language: English"><svg class="lang-globe" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="8" cy="8" rx="2.8" ry="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M1.7 8h12.6M2.6 4.6h10.8M2.6 11.4h10.8" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="lang-current">English</span><svg class="lang-chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+            <div class="lang-panel">
+                <ul class="lang-list" role="list" translate="no">
+                    <li><a href="af/terms.html" lang="af" hreflang="af">Afrikaans</a></li>
+                    <li><a href="id/terms.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+                    <li><a href="ms/terms.html" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+                    <li><a href="bs/terms.html" lang="bs" hreflang="bs">Bosanski</a></li>
+                    <li><a href="ca/terms.html" lang="ca" hreflang="ca">Català</a></li>
+                    <li><a href="cs/terms.html" lang="cs" hreflang="cs">Čeština</a></li>
+                    <li><a href="cy/terms.html" lang="cy" hreflang="cy">Cymraeg</a></li>
+                    <li><a href="da/terms.html" lang="da" hreflang="da">Dansk</a></li>
+                    <li><a href="de/terms.html" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="et/terms.html" lang="et" hreflang="et">Eesti</a></li>
+                    <li><a href="terms.html?lang=en" lang="en" hreflang="en" aria-current="true">English<svg class="lang-check" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="es/terms.html" lang="es" hreflang="es">Español</a></li>
+                    <li><a href="fil/terms.html" lang="fil" hreflang="fil">Filipino</a></li>
+                    <li><a href="fr/terms.html" lang="fr" hreflang="fr">Français</a></li>
+                    <li><a href="ga/terms.html" lang="ga" hreflang="ga">Gaeilge</a></li>
+                    <li><a href="hr/terms.html" lang="hr" hreflang="hr">Hrvatski</a></li>
+                    <li><a href="is/terms.html" lang="is" hreflang="is">Íslenska</a></li>
+                    <li><a href="it/terms.html" lang="it" hreflang="it">Italiano</a></li>
+                    <li><a href="sw/terms.html" lang="sw" hreflang="sw">Kiswahili</a></li>
+                    <li><a href="lv/terms.html" lang="lv" hreflang="lv">Latviešu</a></li>
+                    <li><a href="lt/terms.html" lang="lt" hreflang="lt">Lietuvių</a></li>
+                    <li><a href="hu/terms.html" lang="hu" hreflang="hu">Magyar</a></li>
+                    <li><a href="mt/terms.html" lang="mt" hreflang="mt">Malti</a></li>
+                    <li><a href="nl/terms.html" lang="nl" hreflang="nl">Nederlands</a></li>
+                    <li><a href="nb/terms.html" lang="nb" hreflang="nb">Norsk bokmål</a></li>
+                    <li><a href="pl/terms.html" lang="pl" hreflang="pl">Polski</a></li>
+                    <li><a href="pt-BR/terms.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+                    <li><a href="pt-PT/terms.html" lang="pt-PT" hreflang="pt-PT">Português (Portugal)</a></li>
+                    <li><a href="ro/terms.html" lang="ro" hreflang="ro">Română</a></li>
+                    <li><a href="sq/terms.html" lang="sq" hreflang="sq">Shqip</a></li>
+                    <li><a href="sk/terms.html" lang="sk" hreflang="sk">Slovenčina</a></li>
+                    <li><a href="sl/terms.html" lang="sl" hreflang="sl">Slovenščina</a></li>
+                    <li><a href="fi/terms.html" lang="fi" hreflang="fi">Suomi</a></li>
+                    <li><a href="sv/terms.html" lang="sv" hreflang="sv">Svenska</a></li>
+                    <li><a href="vi/terms.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+                    <li><a href="tr/terms.html" lang="tr" hreflang="tr">Türkçe</a></li>
+                    <li><a href="be/terms.html" lang="be" hreflang="be">Беларуская</a></li>
+                    <li><a href="bg/terms.html" lang="bg" hreflang="bg">Български</a></li>
+                    <li><a href="mk/terms.html" lang="mk" hreflang="mk">Македонски</a></li>
+                    <li><a href="sr/terms.html" lang="sr" hreflang="sr">Српски</a></li>
+                    <li><a href="uk/terms.html" lang="uk" hreflang="uk">Українська</a></li>
+                    <li><a href="el/terms.html" lang="el" hreflang="el">Ελληνικά</a></li>
+                    <li><a href="ar/terms.html" lang="ar" hreflang="ar">العربية</a></li>
+                    <li><a href="he/terms.html" lang="he" hreflang="he">עברית</a></li>
+                    <li><a href="ur/terms.html" lang="ur" hreflang="ur">اردو</a></li>
+                    <li><a href="fa/terms.html" lang="fa" hreflang="fa">فارسی</a></li>
+                    <li><a href="hi/terms.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+                    <li><a href="mr/terms.html" lang="mr" hreflang="mr">मराठी</a></li>
+                    <li><a href="gu/terms.html" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+                    <li><a href="pa/terms.html" lang="pa" hreflang="pa">ਪੰਜਾਬੀ</a></li>
+                    <li><a href="bn/terms.html" lang="bn" hreflang="bn">বাংলা</a></li>
+                    <li><a href="ta/terms.html" lang="ta" hreflang="ta">தமிழ்</a></li>
+                    <li><a href="te/terms.html" lang="te" hreflang="te">తెలుగు</a></li>
+                    <li><a href="kn/terms.html" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+                    <li><a href="ml/terms.html" lang="ml" hreflang="ml">മലയാളം</a></li>
+                    <li><a href="th/terms.html" lang="th" hreflang="th">ไทย</a></li>
+                    <li><a href="ja/terms.html" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="ko/terms.html" lang="ko" hreflang="ko">한국어</a></li>
+                    <li><a href="zh-Hans/terms.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+                    <li><a href="zh-Hant/terms.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+                </ul>
+            </div>
+        </details>
+        <script defer src="js/lang-menu.js"></script>
+        <!-- /lang-menu -->
+    </div>
+</footer>
 
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
+<script defer src="js/subpage.js"></script>
 
 </body>
 </html>

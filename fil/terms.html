@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=6759621930">
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#05060A">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <link rel="icon" href="../images/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
+    <script>
+        document.documentElement.classList.add('js');
+        // if subpage.js never boots, un-gate the reveals so content can't stay hidden
+        setTimeout(function () { if (!window.__icpSubBooted) document.documentElement.classList.remove('js'); }, 2500);
+    </script>
     <title>Mga Tuntunin ng Paggamit - Image Converter Plus</title>
     <meta name="description" content="Mga Tuntunin ng Paggamit para sa Image Converter Plus. Basahin ang lisensya, mga tuntunin sa pagbili, mga detalye ng awtomatikong pag-renew ng subscription, at mga gabay sa paggamit para sa app.">
     <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
@@ -74,63 +78,76 @@
     <link rel="alternate" hreflang="cy" href="https://denyslebiediev.github.io/imageconverterplus/cy/terms.html">
     <link rel="alternate" hreflang="be" href="https://denyslebiediev.github.io/imageconverterplus/be/terms.html">
     <link rel="alternate" hreflang="x-default" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/subpage.css">
+    <meta property="og:title" content="Mga Tuntunin ng Paggamit — Image Converter Plus">
+    <meta property="og:description" content="Mga Tuntunin ng Paggamit para sa Image Converter Plus. Basahin ang lisensya, mga tuntunin sa pagbili, mga detalye ng awtomatikong pag-renew ng subscription, at mga gabay sa paggamit para sa app.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://denyslebiediev.github.io/imageconverterplus/fil/terms.html">
+    <meta property="og:image" content="https://denyslebiediev.github.io/imageconverterplus/images/icon-512.png">
+    <link rel="canonical" href="https://denyslebiediev.github.io/imageconverterplus/fil/terms.html">
+    <link rel="preload" href="../fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/subpage-dark.css">
 
 </head>
 <body>
 
-<!-- Nav -->
-<nav>
+<a class="skip-link" href="#main">Lumaktaw sa nilalaman</a>
+
+<nav class="site-nav" aria-label="Site">
     <div class="nav-inner">
-        <a class="nav-title" href="index.html">Image Converter Plus</a>
+        <a class="nav-brand" href="index.html">
+            <img src="../images/AppIcon.png" alt="" width="28" height="28">
+            <span>Image Converter Plus</span>
+        </a>
         <ul class="nav-links">
             <li><a href="privacy.html">Patakaran sa Privacy</a></li>
-            <li><a href="terms.html">Mga Tuntunin ng Paggamit</a></li>
+            <li><a href="terms.html" aria-current="page">Mga Tuntunin ng Paggamit</a></li>
             <li><a href="support.html">Suporta</a></li>
         </ul>
+        <a class="nav-cta" href="https://apps.apple.com/app/image-converter-plus/id6759621930">Kunin ang app</a>
     </div>
 </nav>
 
-<div class="page">
+<div class="page" id="main">
 
     <!-- Hero -->
-    <div class="hero fade-in">
-        <h1>Mga Tuntunin ng Paggamit</h1>
+    <header class="page-head">
+        <p class="eyebrow mono">Legal · Mga Tuntunin</p>
+        <h1 class="headline">Mga Tuntunin ng Paggamit</h1>
         <p class="subtitle">Image Converter Plus para sa iPhone at iPad</p>
-    </div>
+    </header>
 
     <!-- Content Cards -->
-    <div class="stagger">
+    <div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Kasunduan</h2>
             <p>Ang mga Tuntunin ng Paggamit na ito (ang &ldquo;Mga Tuntunin&rdquo;) ay bumubuo ng isang nagbubuklod na kasunduan sa pagitan mo at ni Denys Lebiediev (ang &ldquo;Developer&rdquo;, &ldquo;kami&rdquo;) tungkol sa iyong paggamit sa mobile application na Image Converter Plus at sa Share Extension nito (sama-sama, ang &ldquo;App&rdquo;). Sa pamamagitan ng pag-download, pag-install, o paggamit sa App, kinukumpirma mo na nabasa, naunawaan, at tinanggap mo ang mga Tuntuning ito kasama ang aming <a href="privacy.html">Patakaran sa Privacy</a>. Kung hindi ka sumasang-ayon, huwag gamitin ang App.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Apple End User License Agreement</h2>
             <p>Ang App ay nililisensyahan, hindi ibinebenta, sa iyo para gamitin lamang sa ilalim ng karaniwang Licensed Application End User License Agreement ng Apple (ang &ldquo;Apple EULA&rdquo;), na makukuha sa <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener" target="_blank">apple.com/legal/internet-services/itunes/dev/stdeula</a>, maliban kung saan pinalalawak o binabago ng mga Tuntuning ito ang mga ito. Sa lawak ng anumang salungatan sa pagitan ng mga Tuntuning ito at ng Apple EULA, ang mga Tuntuning ito ang umiiral kung saan pinapayagan ng mga patakaran ng Apple; kung hindi, ang Apple EULA ang umiiral.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Lisensya</h2>
             <p>Binibigyan ka namin ng limitado, personal, hindi eksklusibo, hindi naililipat, at maaaring bawiing lisensya upang mag-install at gamitin ang App sa anumang iPhone o iPad na iyong pag-aari o kinokontrol, alinsunod sa Apple Media Services Terms and Conditions at sa anumang mga panuntunan sa paggamit na nakasaad sa mga tuntuning iyon (kasama ang Family Sharing para sa lifetime upgrade). Hindi mo maaaring ibenta, irenta, ipaupa, isublisensya, ipamahagi, o kung hindi man ay ilipat ang App sa sinumang iba pa.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Ang Iyong Nilalaman</h2>
             <p>Pinapanatili mo ang lahat ng karapatan sa mga larawan, file, at metadata na ini-import mo sa App. Hindi kami nag-aangkin ng anumang pagmamay-ari sa iyong nilalaman. Dahil pinoproseso ng App ang lahat sa iyong device, hindi mo kami binibigyan ng lisensya sa iyong mga file; hindi namin ito kailanman natatanggap.</p>
             <p>Ikaw ang may pananagutan na tiyakin na mayroon kang karapatang i-convert, baguhin, ibahagi, o kung hindi man ay gamitin ang mga larawang iyong pinoproseso. Hindi mo dapat gamitin ang App upang asikasuhin ang nilalaman na wala kang pahintulot na gamitin.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Mga Antas na Libre at Pro</h2>
             <p>Nag-aalok ang App ng libreng antas na nag-convert ng isang larawan sa bawat pagkakataon sa mga piniling format. Maaari ring piliin ng mga libreng user na manood ng rewarded video ad upang pansamantalang i-unlock ang isang batch conversion. Ang panonood ng ad ay palaging opsyonal at maaari mo itong isara bago makumpleto. Ina-unlock ng Pro ang walang limitasyong batch conversion, ang lahat ng output na format (kasama ang PDF, AVIF, at TIFF), mga setting sa bawat larawan, at ang buong hanay ng mga kontrol sa privacy ng metadata.</p>
             <p>Ang Pro ay inaalok alinman bilang isang awtomatikong nagre-renew na subscription (lingguhan, buwanan, o taunan) o bilang isang isahang, hindi nakukunsumong lifetime na pagbili. Ang mga pagbili ng tip ay opsyonal, hindi nag-a-unlock ng mga tampok, at hindi maibabalik maliban kung saan kinakailangan ng batas.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Mga Tuntunin ng Subscription</h2>
             <p><strong>Pagsingil.</strong> Ang lahat ng pagbili ay pinoproseso ng Apple sa pamamagitan ng App Store. Ang bayad ay sinisingil sa iyong Apple ID sa kumpirmasyon ng pagbili. Ang kasalukuyang presyo ay ipinapakita sa loob ng App at sa listahan ng App Store para sa iyong storefront at maaaring magbago sa hinaharap ayon sa pinapahintulutan ng mga patakaran ng App Store.</p>
             <p><strong>Awtomatikong pag-renew.</strong> Ang mga subscription ay awtomatikong nagre-renew sa katapusan ng bawat panahon ng pagsingil sa kasalukuyang presyo sa panahong iyon maliban kung kakanselahin nang hindi bababa sa 24 na oras bago ang katapusan ng kasalukuyang panahon. Ang iyong account ay sisingilin para sa pag-renew sa loob ng 24 na oras bago ang katapusan ng kasalukuyang panahon.</p>
@@ -140,7 +157,7 @@
             <p><strong>Family Sharing.</strong> Ang lifetime upgrade at ang mga awtomatikong nagre-renew na subscription ay kuwalipikado para sa Family Sharing kung saan ito sinusuportahan ng App Store.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Katanggap-tanggap na Paggamit</h2>
             <p>Sumasang-ayon kang gamitin ang App nang naaayon sa naaangkop na batas. Hindi mo maaaring, at hindi mo maaaring hikayatin ang sinumang iba pa na:</p>
             <ul>
@@ -153,47 +170,47 @@
             </ul>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Mga Update at Pagtigil</h2>
             <p>Maaari kaming maglabas ng mga update na nagbabago, nagdaragdag, o nag-aalis ng mga tampok, nag-aayos ng mga bug, o nagpapabuti ng performance. Maaaring mangailangan ng Pro ang mga bagong tampok. Maaari rin naming itigil ang mga tampok o ihinto ang App nang may makatwirang abiso kapag hindi na ito magagawa sa komersyal o teknikal na paraan. Kung saan kinakailangan ng batas, ang mga refund para sa hindi nagamit na panahon ng subscription ay ipoproseso ng Apple.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Mga Third-Party na Serbisyo</h2>
             <p>Umaasa ang App sa Apple StoreKit para sa mga pagbili, sa Adapty para sa pag-verify ng pagbili, at sa Google AdMob &mdash; kasama ang Google User Messaging Platform, at mga mediation partner gaya ng Unity Ads &mdash; para sa opsyonal na mga rewarded ad na ipinapakita sa mga libreng user. Ang iyong paggamit sa mga serbisyong iyon ay napapailalim din sa kani-kanilang mga tuntunin at abiso sa privacy. Hindi kami may pananagutan sa mga gawain ng mga third-party na serbisyo, ngunit naka-configure namin ang mga ito upang kolektahin lamang kung ano ang kinakailangan, ayon sa inilarawan sa aming <a href="privacy.html">Patakaran sa Privacy</a>.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Pagtatatwa</h2>
             <p>Ang App ay ibinibigay sa batayang &ldquo;as is&rdquo; at &ldquo;as available&rdquo; nang walang anumang uri ng warranty, hayagan man o ipinahihiwatig, kasama ang mga warranty ng merchantability, kaangkupan para sa isang partikular na layunin, katumpakan, o hindi paglabag. Hindi namin ginagarantiya na ang App ay magiging walang abala, walang error, o na ito ay magbubunga ng mga partikular na resulta para sa iyong mga file. Ikaw ang may pananagutan sa pagpapanatili ng mga backup ng anumang file na iyong pinoproseso.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Limitasyon ng Pananagutan</h2>
             <p>Sa pinakamalawak na lawak na pinapahintulutan ng batas, ang Developer ay hindi mananagot para sa anumang hindi tuwiran, kasiping, espesyal, kasunod, o mapagparusang pinsala, o para sa anumang pagkawala ng kita, data, o file, na nagmumula sa o may kaugnayan sa iyong paggamit sa App, kahit na napaalalahanan kami sa posibilidad ng gayong mga pinsala. Ang aming kabuuang pananagutan para sa anumang tuwirang pinsala ay limitado sa halagang binayad mo para sa App sa loob ng labindalawang buwan na nauna sa pangyayaring nagbunga ng paghahabol. May ilang hurisdiksyon na hindi pinapayagan ang mga limitasyong ito, kung saan ang mga limitasyon ay nalalapat lamang sa pinakamataas na lawak na pinapahintulutan doon.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Apple bilang Third-Party na Benepisyaryo</h2>
             <p>Kinikilala mo na ang mga Tuntuning ito ay sa pagitan mo at ng Developer lamang, at hindi sa Apple. Hindi mananagot ang Apple para sa App o sa nilalaman nito. Gayunpaman, ang Apple at ang mga subsidiary ng Apple ay mga third-party na benepisyaryo ng mga Tuntuning ito at, sa iyong pagtanggap, ay magkakaroon ng karapatan (at ituturing na tinanggap ang karapatan) na ipatupad ang mga Tuntuning ito laban sa iyo bilang isang third-party na benepisyaryo. Sa kaganapan ng anumang pagkabigo ng App na umayon sa anumang naaangkop na warranty, maaari mong abisuhan ang Apple, at ibabalik ng Apple sa iyo ang presyo ng pagbili para sa App (kung mayroon man). Sa pinakamataas na lawak na pinapahintulutan ng batas, ang Apple ay walang ibang obligasyon sa warranty patungkol sa App.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Namamahalang Batas at mga Hidwaan</h2>
             <p>Ang mga Tuntuning ito ay pinamamahalaan ng mga batas ng bansa kung saan ka karaniwang naninirahan, nang hindi isinasaalang-alang ang mga prinsipyo nito sa salungatan ng batas, maliban sa lawak na ang naaangkop na batas sa proteksyon ng mamimili ay tumutukoy nang naiiba. Ikaw at ang Developer ay sumasang-ayong lutasin muna ang mga hidwaan nang impormal sa pamamagitan ng pag-email sa amin. Kung hindi namin malulutas ang isang hidwaan sa loob ng 60 araw, maaari mong dalhin ang usapin sa mga hukuman ng iyong bansang tinitirhan sa lawak na pinapahintulutan ng batas. Walang anuman sa mga Tuntuning ito ang naglilimita sa anumang hindi maitatakwil na karapatan ng mamimili na mayroon ka sa ilalim ng batas ng iyong bansang tinitirhan.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Paghihiwalay</h2>
             <p>Kung ang anumang probisyon ng mga Tuntuning ito ay matuklasang walang bisa o hindi maipatutupad, ang probisyong iyon ay lilimitahan o aalisin sa pinakamababang lawak na kinakailangan, at ang natitirang mga probisyon ay mananatiling lubos na may bisa at epekto.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Mga Pagbabago</h2>
             <p>Maaari naming i-update ang mga Tuntuning ito paminsan-minsan. Ang kasalukuyang bersyon ay palaging makukuha sa URL na ito na may na-update na petsang &ldquo;Huling na-update&rdquo;. Ang materyal na mga pagbabago ay tatampukin sa mga tala ng update sa App Store para sa apektadong release. Ang iyong patuloy na paggamit sa App pagkatapos magkabisa ang isang pagbabago ay bumubuo ng pagtanggap sa binagong mga Tuntunin.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Makipag-ugnayan</h2>
             <p>Kung may mga tanong ka tungkol sa mga Tuntuning ito, sumulat sa <a href="mailto:imageconverterplus.help@gmail.com">imageconverterplus.help@gmail.com</a>.</p>
         </div>
@@ -201,7 +218,7 @@
     </div>
 
     <!-- Links -->
-    <div class="links-section fade-in">
+    <div class="links-section" data-reveal>
 
         <a class="link-card" href="support.html">
             <p class="link-label">Tulong</p>
@@ -216,25 +233,94 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer fade-in">
+    <div class="footer">
         <p>Huling na-update: Mayo 2026</p>
     </div>
 
 </div>
 
-<script>
-    // Fade-in on scroll
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span class="copyright">© 2026 Denys Lebiediev</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">Patakaran sa Privacy</a></li>
+            <li><a href="terms.html">Mga Tuntunin ng Paggamit</a></li>
+            <li><a href="support.html">Suporta</a></li>
+        </ul>
+        <!-- lang-menu -->
+        <details class="lang-menu">
+            <summary class="lang-trigger" aria-label="Wika: Filipino"><svg class="lang-globe" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="8" cy="8" rx="2.8" ry="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M1.7 8h12.6M2.6 4.6h10.8M2.6 11.4h10.8" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="lang-current">Filipino</span><svg class="lang-chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+            <div class="lang-panel">
+                <ul class="lang-list" role="list" translate="no">
+                    <li><a href="../af/terms.html" lang="af" hreflang="af">Afrikaans</a></li>
+                    <li><a href="../id/terms.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+                    <li><a href="../ms/terms.html" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+                    <li><a href="../bs/terms.html" lang="bs" hreflang="bs">Bosanski</a></li>
+                    <li><a href="../ca/terms.html" lang="ca" hreflang="ca">Català</a></li>
+                    <li><a href="../cs/terms.html" lang="cs" hreflang="cs">Čeština</a></li>
+                    <li><a href="../cy/terms.html" lang="cy" hreflang="cy">Cymraeg</a></li>
+                    <li><a href="../da/terms.html" lang="da" hreflang="da">Dansk</a></li>
+                    <li><a href="../de/terms.html" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="../et/terms.html" lang="et" hreflang="et">Eesti</a></li>
+                    <li><a href="../terms.html?lang=en" lang="en" hreflang="en">English</a></li>
+                    <li><a href="../es/terms.html" lang="es" hreflang="es">Español</a></li>
+                    <li><a href="../fil/terms.html" lang="fil" hreflang="fil" aria-current="true">Filipino<svg class="lang-check" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="../fr/terms.html" lang="fr" hreflang="fr">Français</a></li>
+                    <li><a href="../ga/terms.html" lang="ga" hreflang="ga">Gaeilge</a></li>
+                    <li><a href="../hr/terms.html" lang="hr" hreflang="hr">Hrvatski</a></li>
+                    <li><a href="../is/terms.html" lang="is" hreflang="is">Íslenska</a></li>
+                    <li><a href="../it/terms.html" lang="it" hreflang="it">Italiano</a></li>
+                    <li><a href="../sw/terms.html" lang="sw" hreflang="sw">Kiswahili</a></li>
+                    <li><a href="../lv/terms.html" lang="lv" hreflang="lv">Latviešu</a></li>
+                    <li><a href="../lt/terms.html" lang="lt" hreflang="lt">Lietuvių</a></li>
+                    <li><a href="../hu/terms.html" lang="hu" hreflang="hu">Magyar</a></li>
+                    <li><a href="../mt/terms.html" lang="mt" hreflang="mt">Malti</a></li>
+                    <li><a href="../nl/terms.html" lang="nl" hreflang="nl">Nederlands</a></li>
+                    <li><a href="../nb/terms.html" lang="nb" hreflang="nb">Norsk bokmål</a></li>
+                    <li><a href="../pl/terms.html" lang="pl" hreflang="pl">Polski</a></li>
+                    <li><a href="../pt-BR/terms.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+                    <li><a href="../pt-PT/terms.html" lang="pt-PT" hreflang="pt-PT">Português (Portugal)</a></li>
+                    <li><a href="../ro/terms.html" lang="ro" hreflang="ro">Română</a></li>
+                    <li><a href="../sq/terms.html" lang="sq" hreflang="sq">Shqip</a></li>
+                    <li><a href="../sk/terms.html" lang="sk" hreflang="sk">Slovenčina</a></li>
+                    <li><a href="../sl/terms.html" lang="sl" hreflang="sl">Slovenščina</a></li>
+                    <li><a href="../fi/terms.html" lang="fi" hreflang="fi">Suomi</a></li>
+                    <li><a href="../sv/terms.html" lang="sv" hreflang="sv">Svenska</a></li>
+                    <li><a href="../vi/terms.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+                    <li><a href="../tr/terms.html" lang="tr" hreflang="tr">Türkçe</a></li>
+                    <li><a href="../be/terms.html" lang="be" hreflang="be">Беларуская</a></li>
+                    <li><a href="../bg/terms.html" lang="bg" hreflang="bg">Български</a></li>
+                    <li><a href="../mk/terms.html" lang="mk" hreflang="mk">Македонски</a></li>
+                    <li><a href="../sr/terms.html" lang="sr" hreflang="sr">Српски</a></li>
+                    <li><a href="../uk/terms.html" lang="uk" hreflang="uk">Українська</a></li>
+                    <li><a href="../el/terms.html" lang="el" hreflang="el">Ελληνικά</a></li>
+                    <li><a href="../ar/terms.html" lang="ar" hreflang="ar">العربية</a></li>
+                    <li><a href="../he/terms.html" lang="he" hreflang="he">עברית</a></li>
+                    <li><a href="../ur/terms.html" lang="ur" hreflang="ur">اردو</a></li>
+                    <li><a href="../fa/terms.html" lang="fa" hreflang="fa">فارسی</a></li>
+                    <li><a href="../hi/terms.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+                    <li><a href="../mr/terms.html" lang="mr" hreflang="mr">मराठी</a></li>
+                    <li><a href="../gu/terms.html" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+                    <li><a href="../pa/terms.html" lang="pa" hreflang="pa">ਪੰਜਾਬੀ</a></li>
+                    <li><a href="../bn/terms.html" lang="bn" hreflang="bn">বাংলা</a></li>
+                    <li><a href="../ta/terms.html" lang="ta" hreflang="ta">தமிழ்</a></li>
+                    <li><a href="../te/terms.html" lang="te" hreflang="te">తెలుగు</a></li>
+                    <li><a href="../kn/terms.html" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+                    <li><a href="../ml/terms.html" lang="ml" hreflang="ml">മലയാളം</a></li>
+                    <li><a href="../th/terms.html" lang="th" hreflang="th">ไทย</a></li>
+                    <li><a href="../ja/terms.html" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="../ko/terms.html" lang="ko" hreflang="ko">한국어</a></li>
+                    <li><a href="../zh-Hans/terms.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+                    <li><a href="../zh-Hant/terms.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+                </ul>
+            </div>
+        </details>
+        <script defer src="../js/lang-menu.js"></script>
+        <!-- /lang-menu -->
+    </div>
+</footer>
 
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
+<script defer src="../js/subpage.js"></script>
 
 </body>
 </html>

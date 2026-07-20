@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=6759621930">
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#05060A">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <link rel="icon" href="../images/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
+    <script>
+        document.documentElement.classList.add('js');
+        // if subpage.js never boots, un-gate the reveals so content can't stay hidden
+        setTimeout(function () { if (!window.__icpSubBooted) document.documentElement.classList.remove('js'); }, 2500);
+    </script>
     <title>Politika ta' Privatezza - Image Converter Plus</title>
     <meta name="description" content="Politika ta' Privatezza għal Image Converter Plus. Ir-ritratti jiġu pproċessati biss fuq it-tagħmir tiegħek. Nispjegaw eżattament x'jiġbru l-SDKs ta' partijiet terzi għax-xiri u r-reklami.">
     <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/privacy.html">
@@ -74,36 +78,49 @@
     <link rel="alternate" hreflang="cy" href="https://denyslebiediev.github.io/imageconverterplus/cy/privacy.html">
     <link rel="alternate" hreflang="be" href="https://denyslebiediev.github.io/imageconverterplus/be/privacy.html">
     <link rel="alternate" hreflang="x-default" href="https://denyslebiediev.github.io/imageconverterplus/privacy.html">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/subpage.css">
+    <meta property="og:title" content="Politika ta' Privatezza — Image Converter Plus">
+    <meta property="og:description" content="Politika ta' Privatezza għal Image Converter Plus. Ir-ritratti jiġu pproċessati biss fuq it-tagħmir tiegħek. Nispjegaw eżattament x'jiġbru l-SDKs ta' partijiet terzi għax-xiri u r-reklami.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://denyslebiediev.github.io/imageconverterplus/mt/privacy.html">
+    <meta property="og:image" content="https://denyslebiediev.github.io/imageconverterplus/images/icon-512.png">
+    <link rel="canonical" href="https://denyslebiediev.github.io/imageconverterplus/mt/privacy.html">
+    <link rel="preload" href="../fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/subpage-dark.css">
 
 </head>
 <body>
 
-<!-- Nav -->
-<nav>
+<a class="skip-link" href="#main">Aqbeż għall-kontenut</a>
+
+<nav class="site-nav" aria-label="Sit">
     <div class="nav-inner">
-        <a class="nav-title" href="index.html">Image Converter Plus</a>
+        <a class="nav-brand" href="index.html">
+            <img src="../images/AppIcon.png" alt="" width="28" height="28">
+            <span>Image Converter Plus</span>
+        </a>
         <ul class="nav-links">
-            <li><a href="privacy.html">Politika ta' Privatezza</a></li>
+            <li><a href="privacy.html" aria-current="page">Politika ta' Privatezza</a></li>
             <li><a href="terms.html">Termini tal-Użu</a></li>
             <li><a href="support.html">Appoġġ</a></li>
         </ul>
+        <a class="nav-cta" href="https://apps.apple.com/app/image-converter-plus/id6759621930">Ikseb l-app</a>
     </div>
 </nav>
 
-<div class="page">
+<div class="page" id="main">
 
     <!-- Hero -->
-    <div class="hero fade-in">
-        <h1>Politika ta' Privatezza</h1>
+    <header class="page-head">
+        <p class="eyebrow mono">Legali · Privatezza</p>
+        <h1 class="headline">Politika ta' Privatezza</h1>
         <p class="subtitle">Ir-ritratti tiegħek jibqgħu fuq it-tagħmir tiegħek. Din il-paġna tispjega eżattament x'nagħmlu aħna u l-fornituri tas-servizzi tagħna &mdash; u x'ma nagħmlux &mdash; bl-informazzjoni tiegħek.</p>
-    </div>
+    </header>
 
     <!-- Content Cards -->
-    <div class="stagger">
+    <div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Sommarju</h2>
             <p>Image Converter Plus (l-&ldquo;App&rdquo;) huwa żviluppat minn Denys Lebiediev. Il-konverżjoni kollha tal-immaġni ssir fuq it-tagħmir tiegħek. Ma nħaddmu l-ebda server li jirċievi r-ritratti tiegħek. Madankollu, nużaw għadd żgħir ta' servizzi fdati ta' partijiet terzi biex inwettqu x-xiri fl-app u biex nuru reklami ta' video ppremjati fakultattivi lill-utenti bla ħlas. Dawk is-servizzi jiġbru informazzjoni limitata, fil-biċċa l-kbira anonima, kif deskritt hawn taħt. Inti dejjem għandek il-kontroll fuq dak li jiġri.</p>
             <ul>
@@ -115,9 +132,9 @@
             </ul>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>X'Jibqa' fuq it-Tagħmir Tiegħek</h2>
-            <p>Il-konverżjoni tal-immaġni kollha, it-tibdil tad-daqs, it-tneħħija tal-metadata, l-immarkar bl-ilma, l-għoti ta' ismijiet lill-fajls, il-presets u l-istorja tal-konverżjonijiet iseħħu kollha kemm huma fuq l-iPhone jew l-iPad tiegħek. Xejn dwar il-kontenut tar-ritratti tiegħek ma jiġi trażmess lilna jew lil xi parti terza.</p>
+            <p>Il-konverżjoni tal-immaġni kollha, it-tibdil tad-daqs, it-tneħħija tal-metadata, l-għoti ta' ismijiet lill-fajls, il-presets u l-istorja tal-konverżjonijiet iseħħu kollha kemm huma fuq l-iPhone jew l-iPad tiegħek. Xejn dwar il-kontenut tar-ritratti tiegħek ma jiġi trażmess lilna jew lil xi parti terza.</p>
             <ul>
                 <li>Ir-ritratti u l-fajls li timporta.</li>
                 <li>Il-metadata estratta jew imneħħija minn dawk il-fajls.</li>
@@ -127,7 +144,7 @@
             <p>Tista' tħassar din id-data fi kwalunkwe ħin billi tneħħi elementi fit-tab Storja, billi tnaddaf l-istorja mis-Settings, jew billi tħassar l-App.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Informazzjoni Miġbura minn Servizzi ta' Partijiet Terzi</h2>
             <p>L-App tiddependi fuq għadd żgħir ta' servizzi biex tiffunzjona. Ikkonfigurajna lil kull wieħed minnhom biex jiġbru l-anqas data meħtieġa. M'għandniex aċċess għall-kontenut tar-ritratti tiegħek permezz ta' ebda wieħed minnhom.</p>
 
@@ -142,7 +159,7 @@
             <p><strong>Apple App Store (verifika tal-aġġornamenti).</strong> L-App perjodikament tagħmel mistoqsija lill-endpoint pubbliku iTunes Lookup ta' Apple biex tkun taf jekk hijiex disponibbli verżjoni aktar ġdida. Din it-talba tinkludi biss l-identifikatur tal-pakkett tal-App u l-pajjiż tal-istorefront tiegħek. Apple tista' tirċievi l-indirizz IP tiegħek bħala parti minn kwalunkwe talba HTTPS, iżda aħna le.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Insegwiment u Reklami Personalizzati</h2>
             <p>Jekk inti utent bla ħlas, l-ewwel darba li l-App tkun f'pożizzjoni li turik reklam aħna nistgħu nistaqsu, permezz tal-prompt standard tas-sistema ta' Apple (App Tracking Transparency), jekk tippermettix lill-App tuża l-identifikatur tar-reklamar tat-tagħmir tiegħek (IDFA) biex tagħti reklami aktar rilevanti. It-tweġiba tiegħek hija finali: tista' tibdilha fi kwalunkwe ħin f'iOS&nbsp;Settings&nbsp;&rsaquo; Privatezza u Sigurtà &nbsp;&rsaquo; Insegwiment &nbsp;&rsaquo; Image Converter Plus.</p>
             <ul>
@@ -153,59 +170,59 @@
             <p>F'reġjuni koperti mill-GDPR jew minn liġijiet komparabbli, il-formola ta' kunsens tal-User Messaging Platform tidher qabel ma jiġi kkargat xi reklam, u tista' tirrevedi jew tibdel l-għażliet tiegħek aktar tard minn <strong>Settings &nbsp;&rsaquo; Immaniġġja l-Għażliet tar-Reklami</strong> ġewwa l-App.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Ir-Ritratti u l-Fajls Tiegħek</h2>
             <p>L-App taċċessa r-ritratti permezz tal-għażielet li jħares il-privatezza ta' Apple (<em>PHPickerViewController</em>), li jfisser li naraw biss l-elementi li tagħżel b'mod espliċitu &mdash; mhux il-librerija sħiħa tar-ritratti tiegħek. Il-fajls li timporta mill-app Fajls jinqraw direttament mill-post li tagħżel. L-immaġni kkonvertiti jinkitbu jew f'folder privat ġewwa l-App, fil-librerija tar-ritratti tiegħek (bil-permess tiegħek), jew fil-post li tagħżel fl-app Fajls.</p>
             <p>Jekk tagħti lill-App il-permess biex iżżid mal-librerija tar-ritratti tiegħek, l-App titlob il-permess minimu &ldquo;Żid Ritratti Biss&rdquo; sabiex qatt ma tkun tista' taqra r-ritratti eżistenti tiegħek.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Share Extension</h2>
             <p>Is-Share Extension tippermettilek tikkonverti immaġni minn kwalunkwe app oħra mingħajr ma tiftaħ Image Converter Plus. L-immaġni magħżula jiġu pproċessati lokalment fuq it-tagħmir tiegħek. Is-Share Extension ma tinkludix xiri fl-app, reklami jew analitika. Jekk tagħfas il-punt tad-dħul għall-aġġornament ġewwa s-Share Extension, l-App prinċipali tinfetaħ u l-proċess tal-aġġornament jiġri hemmhekk.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Informazzjoni Dijanjostika fl-Emails ta' Appoġġ</h2>
             <p>Meta tagħfas link ta' kuntatt ġewwa l-App, l-app tal-email awtomatika tiegħek tinfetaħ b'abbozz ta' messaġġ li jimla minn qabel informazzjoni dijanjostika bażika: il-verżjoni tal-app, il-verżjoni tal-iOS, il-mudell tat-tagħmir, il-lingwa tal-app, l-istat tal-abbonament u l-ispazju tad-diska disponibbli. Il-messaġġ huwa kompletament viżibbli għalik qabel ma tibagħtu. Xejn ma jiġi trażmess sakemm ma tagħfasx Ibgħat.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Żamma tad-Data</h2>
             <p>Aħna ma nħaddmu l-ebda server, għalhekk m'hemm xejn x'jinżamm min-naħa tagħna. Il-fajls, l-istorja, il-presets u l-preferenzi jgħixu fuq it-tagħmir tiegħek u jitneħħew meta tħassarhom jew tneħħi l-App. Apple, Adapty, Google u Unity iżommu l-informazzjoni limitata deskritta hawn fuq skont il-politiki ta' żamma tagħhom stess; ikkonsulta l-avviżi ta' privatezza tagħhom għad-dettalji.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Manifest tal-Privatezza</h2>
             <p>L-App tiġi b'manifest tal-privatezza meħtieġ minn Apple li jiddikjara eżattament liema APIs tal-pjattaforma tuża u liema kategoriji ta' data jistgħu jiġbru l-SDKs ta' partijiet terzi tagħha. B'mod speċifiku, il-manifest jiddikjara: l-identifikatur tat-tagħmir u d-data tar-reklamar marbuta mar-reklamar ta' partijiet terzi (użati minn AdMob u s-sieħeb ta' medjazzjoni tiegħu Unity Ads, biss meta tagħti l-permess); l-interazzjoni mal-prodott, id-data tal-prestazzjoni u data dijanjostika oħra marbuta mal-analitika u mal-funzjonalità tal-app (użati minn Adapty, AdMob u Unity Ads, b'mod anonimu); u l-istorja tax-xiri marbuta mal-funzjonalità tal-app u mal-analitika (użata biex tivverifika l-abbonament tiegħek). Apple tiġbor flimkien dawn id-dikjarazzjonijiet u l-manifesti tal-SDKs ta' partijiet terzi tagħna fis-sezzjoni &ldquo;Privatezza tal-App&rdquo; fil-paġna tal-App Store.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Privatezza tat-Tfal</h2>
             <p>Image Converter Plus mhuwiex dirett lejn tfal taħt it-13-il sena (jew l-età minima ekwivalenti fil-pajjiż tiegħek). Aħna ma niġbrux b'mod konxju informazzjoni personali mingħand it-tfal. Jekk temmen li tifel jew tifla tatna informazzjoni personali permezz ta' xi servizz ta' parti terza, jekk jogħġbok ikkuntattjana u naħdmu mal-fornitur rilevanti biex inneħħuha.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Id-Drittijiet Tiegħek fiż-ŻEE, ir-Renju Unit u l-Iżvizzera</h2>
             <p>Jekk il-GDPR jew il-GDPR tar-Renju Unit japplika għalik, għandek id-dritt li taċċessa, tikkoreġi, tħassar jew tesporta d-data personali tiegħek, li tirrestrinġi jew toġġezzjona għal ċertu pproċessar, u li tressaq ilment lill-awtorità tal-protezzjoni tad-data lokali tiegħek. Minħabba li l-App tipproċessa r-ritratti u l-istorja tal-konverżjonijiet tiegħek biss fuq it-tagħmir tiegħek, tista' teżerċita d-drittijiet ta' aċċess, korrezzjoni u tħassir inti stess direttament fl-App. Għad-data miżmuma minn Apple, Adapty, Google jew Unity, jekk jogħġbok ikkuntattja lil dawk il-kumpaniji direttament. Tista' wkoll tikteb lilna fl-indirizz hawn taħt u ngħinuk twassal it-talba.</p>
             <p>Il-bażijiet legali li niddependu fuqhom huma: it-twettiq tal-kuntratt (il-konsenja tal-App u tax-xiri tiegħek), il-kunsens (għar-reklami personalizzati, fejn il-kunsens jintalab permezz tal-User Messaging Platform u l-App Tracking Transparency), u l-interessi leġittimi (informazzjoni dijanjostika limitata meħtieġa biex l-App tinżamm affidabbli, ibbilanċjata mal-interessi tiegħek).</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Id-Drittijiet Tiegħek f'Kalifornja</h2>
             <p>Jekk inti residenti ta' Kalifornja, l-Att dwar il-Privatezza tal-Konsumatur ta' Kalifornja (CCPA/CPRA) jagħtik id-dritt li tkun taf liema informazzjoni personali tinġabar dwarek, li titlob it-tħassir tal-informazzjoni personali, li tikkoreġi informazzjoni personali mhux preċiża, u li tagħżel li ma tiħux sehem fil-&ldquo;bejgħ&rdquo; jew fil-&ldquo;qsim&rdquo; tal-informazzjoni personali għal reklamar tal-imġiba bejn il-kuntesti. Aħna ma nbigħux l-informazzjoni personali tiegħek. Biex tagħżel li ma tiħux sehem fi kwalunkwe qsim għal reklamar personalizzat, agħżel <strong>Itlob lill-App Biex Ma Ssegwix</strong> fil-prompt App Tracking Transparency jew irrifjuta l-kunsens fil-formola tal-User Messaging Platform. Biex teżerċita d-drittijiet l-oħra, ikkuntattjana fl-indirizz hawn taħt.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Trasferimenti Internazzjonali</h2>
             <p>Apple, Adapty, Google u Unity jistgħu jipproċessaw informazzjoni limitata fuq servers barra mill-pajjiż tiegħek, inkluż fl-Istati Uniti. Dawn il-fornituri jiddependu fuq Klawżoli Kuntrattwali Standard jew mekkaniżmi ta' trasferiment komparabbli fejn meħtieġ mil-liġi. Aħna ma nħaddmu l-ebda server tagħna stess u għalhekk ma nwettqu l-ebda trasferiment internazzjonali addizzjonali aħna stess.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Bidliet f'Din il-Politika</h2>
             <p>Jekk nagħmlu bidliet sostanzjali f'din il-politika, nippubblikaw il-verżjoni aġġornata f'din l-URL u naġġornaw id-data &ldquo;L-aħħar aġġornament&rdquo; hawn taħt. Għal bidliet sinifikanti li jaffettwaw liema data tinġabar, nużaw in-noti tal-aġġornament tal-App Store biex niġbdu l-attenzjoni tiegħek lejn il-bidla.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Kuntatt</h2>
             <p>Il-kontrollur tad-data għal kwalunkwe pproċessar tal-ewwel parti huwa Denys Lebiediev. Jekk għandek mistoqsijiet dwar din il-Politika ta' Privatezza jew tixtieq teżerċita d-drittijiet tiegħek, ikteb lil <a href="mailto:imageconverterplus.help@gmail.com">imageconverterplus.help@gmail.com</a> u nwieġbu fi żmien 30 jum.</p>
         </div>
@@ -213,7 +230,7 @@
     </div>
 
     <!-- Links -->
-    <div class="links-section fade-in">
+    <div class="links-section" data-reveal>
 
         <a class="link-card" href="support.html">
             <p class="link-label">Għajnuna</p>
@@ -228,25 +245,94 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer fade-in">
+    <div class="footer">
         <p>L-aħħar aġġornament: Mejju 2026</p>
     </div>
 
 </div>
 
-<script>
-    // Fade-in on scroll
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span class="copyright">© 2026 Denys Lebiediev</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">Politika ta' Privatezza</a></li>
+            <li><a href="terms.html">Termini tal-Użu</a></li>
+            <li><a href="support.html">Appoġġ</a></li>
+        </ul>
+        <!-- lang-menu -->
+        <details class="lang-menu">
+            <summary class="lang-trigger" aria-label="Lingwa: Malti"><svg class="lang-globe" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="8" cy="8" rx="2.8" ry="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M1.7 8h12.6M2.6 4.6h10.8M2.6 11.4h10.8" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="lang-current">Malti</span><svg class="lang-chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+            <div class="lang-panel">
+                <ul class="lang-list" role="list" translate="no">
+                    <li><a href="../af/privacy.html" lang="af" hreflang="af">Afrikaans</a></li>
+                    <li><a href="../id/privacy.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+                    <li><a href="../ms/privacy.html" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+                    <li><a href="../bs/privacy.html" lang="bs" hreflang="bs">Bosanski</a></li>
+                    <li><a href="../ca/privacy.html" lang="ca" hreflang="ca">Català</a></li>
+                    <li><a href="../cs/privacy.html" lang="cs" hreflang="cs">Čeština</a></li>
+                    <li><a href="../cy/privacy.html" lang="cy" hreflang="cy">Cymraeg</a></li>
+                    <li><a href="../da/privacy.html" lang="da" hreflang="da">Dansk</a></li>
+                    <li><a href="../de/privacy.html" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="../et/privacy.html" lang="et" hreflang="et">Eesti</a></li>
+                    <li><a href="../privacy.html?lang=en" lang="en" hreflang="en">English</a></li>
+                    <li><a href="../es/privacy.html" lang="es" hreflang="es">Español</a></li>
+                    <li><a href="../fil/privacy.html" lang="fil" hreflang="fil">Filipino</a></li>
+                    <li><a href="../fr/privacy.html" lang="fr" hreflang="fr">Français</a></li>
+                    <li><a href="../ga/privacy.html" lang="ga" hreflang="ga">Gaeilge</a></li>
+                    <li><a href="../hr/privacy.html" lang="hr" hreflang="hr">Hrvatski</a></li>
+                    <li><a href="../is/privacy.html" lang="is" hreflang="is">Íslenska</a></li>
+                    <li><a href="../it/privacy.html" lang="it" hreflang="it">Italiano</a></li>
+                    <li><a href="../sw/privacy.html" lang="sw" hreflang="sw">Kiswahili</a></li>
+                    <li><a href="../lv/privacy.html" lang="lv" hreflang="lv">Latviešu</a></li>
+                    <li><a href="../lt/privacy.html" lang="lt" hreflang="lt">Lietuvių</a></li>
+                    <li><a href="../hu/privacy.html" lang="hu" hreflang="hu">Magyar</a></li>
+                    <li><a href="../mt/privacy.html" lang="mt" hreflang="mt" aria-current="true">Malti<svg class="lang-check" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="../nl/privacy.html" lang="nl" hreflang="nl">Nederlands</a></li>
+                    <li><a href="../nb/privacy.html" lang="nb" hreflang="nb">Norsk bokmål</a></li>
+                    <li><a href="../pl/privacy.html" lang="pl" hreflang="pl">Polski</a></li>
+                    <li><a href="../pt-BR/privacy.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+                    <li><a href="../pt-PT/privacy.html" lang="pt-PT" hreflang="pt-PT">Português (Portugal)</a></li>
+                    <li><a href="../ro/privacy.html" lang="ro" hreflang="ro">Română</a></li>
+                    <li><a href="../sq/privacy.html" lang="sq" hreflang="sq">Shqip</a></li>
+                    <li><a href="../sk/privacy.html" lang="sk" hreflang="sk">Slovenčina</a></li>
+                    <li><a href="../sl/privacy.html" lang="sl" hreflang="sl">Slovenščina</a></li>
+                    <li><a href="../fi/privacy.html" lang="fi" hreflang="fi">Suomi</a></li>
+                    <li><a href="../sv/privacy.html" lang="sv" hreflang="sv">Svenska</a></li>
+                    <li><a href="../vi/privacy.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+                    <li><a href="../tr/privacy.html" lang="tr" hreflang="tr">Türkçe</a></li>
+                    <li><a href="../be/privacy.html" lang="be" hreflang="be">Беларуская</a></li>
+                    <li><a href="../bg/privacy.html" lang="bg" hreflang="bg">Български</a></li>
+                    <li><a href="../mk/privacy.html" lang="mk" hreflang="mk">Македонски</a></li>
+                    <li><a href="../sr/privacy.html" lang="sr" hreflang="sr">Српски</a></li>
+                    <li><a href="../uk/privacy.html" lang="uk" hreflang="uk">Українська</a></li>
+                    <li><a href="../el/privacy.html" lang="el" hreflang="el">Ελληνικά</a></li>
+                    <li><a href="../ar/privacy.html" lang="ar" hreflang="ar">العربية</a></li>
+                    <li><a href="../he/privacy.html" lang="he" hreflang="he">עברית</a></li>
+                    <li><a href="../ur/privacy.html" lang="ur" hreflang="ur">اردو</a></li>
+                    <li><a href="../fa/privacy.html" lang="fa" hreflang="fa">فارسی</a></li>
+                    <li><a href="../hi/privacy.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+                    <li><a href="../mr/privacy.html" lang="mr" hreflang="mr">मराठी</a></li>
+                    <li><a href="../gu/privacy.html" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+                    <li><a href="../pa/privacy.html" lang="pa" hreflang="pa">ਪੰਜਾਬੀ</a></li>
+                    <li><a href="../bn/privacy.html" lang="bn" hreflang="bn">বাংলা</a></li>
+                    <li><a href="../ta/privacy.html" lang="ta" hreflang="ta">தமிழ்</a></li>
+                    <li><a href="../te/privacy.html" lang="te" hreflang="te">తెలుగు</a></li>
+                    <li><a href="../kn/privacy.html" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+                    <li><a href="../ml/privacy.html" lang="ml" hreflang="ml">മലയാളം</a></li>
+                    <li><a href="../th/privacy.html" lang="th" hreflang="th">ไทย</a></li>
+                    <li><a href="../ja/privacy.html" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="../ko/privacy.html" lang="ko" hreflang="ko">한국어</a></li>
+                    <li><a href="../zh-Hans/privacy.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+                    <li><a href="../zh-Hant/privacy.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+                </ul>
+            </div>
+        </details>
+        <script defer src="../js/lang-menu.js"></script>
+        <!-- /lang-menu -->
+    </div>
+</footer>
 
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
+<script defer src="../js/subpage.js"></script>
 
 </body>
 </html>

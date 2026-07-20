@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://denyslebiediev.github.io/imageconverterplus/sitemap.xml

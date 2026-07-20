@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=6759621930">
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#05060A">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <link rel="icon" href="../images/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
+    <script>
+        document.documentElement.classList.add('js');
+        // if subpage.js never boots, un-gate the reveals so content can't stay hidden
+        setTimeout(function () { if (!window.__icpSubBooted) document.documentElement.classList.remove('js'); }, 2500);
+    </script>
     <title>Termini tal-Użu - Image Converter Plus</title>
     <meta name="description" content="Termini tal-Użu għal Image Converter Plus. Aqra l-liċenzja, it-termini tax-xiri, id-dettalji tat-tiġdid awtomatiku tal-abbonament u l-linji gwida tal-użu għall-app.">
     <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
@@ -74,63 +78,76 @@
     <link rel="alternate" hreflang="cy" href="https://denyslebiediev.github.io/imageconverterplus/cy/terms.html">
     <link rel="alternate" hreflang="be" href="https://denyslebiediev.github.io/imageconverterplus/be/terms.html">
     <link rel="alternate" hreflang="x-default" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/subpage.css">
+    <meta property="og:title" content="Termini tal-Użu — Image Converter Plus">
+    <meta property="og:description" content="Termini tal-Użu għal Image Converter Plus. Aqra l-liċenzja, it-termini tax-xiri, id-dettalji tat-tiġdid awtomatiku tal-abbonament u l-linji gwida tal-użu għall-app.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://denyslebiediev.github.io/imageconverterplus/mt/terms.html">
+    <meta property="og:image" content="https://denyslebiediev.github.io/imageconverterplus/images/icon-512.png">
+    <link rel="canonical" href="https://denyslebiediev.github.io/imageconverterplus/mt/terms.html">
+    <link rel="preload" href="../fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/subpage-dark.css">
 
 </head>
 <body>
 
-<!-- Nav -->
-<nav>
+<a class="skip-link" href="#main">Aqbeż għall-kontenut</a>
+
+<nav class="site-nav" aria-label="Sit">
     <div class="nav-inner">
-        <a class="nav-title" href="index.html">Image Converter Plus</a>
+        <a class="nav-brand" href="index.html">
+            <img src="../images/AppIcon.png" alt="" width="28" height="28">
+            <span>Image Converter Plus</span>
+        </a>
         <ul class="nav-links">
             <li><a href="privacy.html">Politika ta' Privatezza</a></li>
-            <li><a href="terms.html">Termini tal-Użu</a></li>
+            <li><a href="terms.html" aria-current="page">Termini tal-Użu</a></li>
             <li><a href="support.html">Appoġġ</a></li>
         </ul>
+        <a class="nav-cta" href="https://apps.apple.com/app/image-converter-plus/id6759621930">Ikseb l-app</a>
     </div>
 </nav>
 
-<div class="page">
+<div class="page" id="main">
 
     <!-- Hero -->
-    <div class="hero fade-in">
-        <h1>Termini tal-Użu</h1>
+    <header class="page-head">
+        <p class="eyebrow mono">Legali · Termini</p>
+        <h1 class="headline">Termini tal-Użu</h1>
         <p class="subtitle">Image Converter Plus għal iPhone u iPad</p>
-    </div>
+    </header>
 
     <!-- Content Cards -->
-    <div class="stagger">
+    <div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Ftehim</h2>
             <p>Dawn it-Termini tal-Użu (it-&ldquo;Termini&rdquo;) jiffurmaw ftehim vinkolanti bejnek u Denys Lebiediev (l-&ldquo;Żviluppatur&rdquo;, &ldquo;aħna&rdquo;, &ldquo;lilna&rdquo;) dwar l-użu tiegħek tal-applikazzjoni mobbli Image Converter Plus u s-Share Extension tagħha (flimkien, l-&ldquo;App&rdquo;). Billi tniżżel, tinstalla jew tuża l-App, tikkonferma li qrajt, fhimt u aċċettajt dawn it-Termini flimkien mal-<a href="privacy.html">Politika ta' Privatezza</a> tagħna. Jekk ma taqbilx, tużax l-App.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Ftehim ta' Liċenzja għall-Utent Aħħari ta' Apple</h2>
             <p>L-App hija liċenzjata, mhux mibjugħa, lilek għall-użu biss skont il-Ftehim ta' Liċenzja Standard għal Applikazzjonijiet Liċenzjati ta' Apple (l-&ldquo;Apple EULA&rdquo;), disponibbli fuq <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener" target="_blank">apple.com/legal/internet-services/itunes/dev/stdeula</a>, ħlief fejn dawn it-Termini jespandu jew jimmodifikawh. Sa fejn ikun hemm xi konflitt bejn dawn it-Termini u l-Apple EULA, dawn it-Termini jipprevalu fejn ikun permess mir-regoli ta' Apple; inkella jipprevali l-Apple EULA.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Liċenzja</h2>
             <p>Nagħtuk liċenzja limitata, personali, mhux esklużiva, mhux trasferibbli u revokabbli biex tinstalla u tuża l-App fuq kwalunkwe iPhone jew iPad li tippossjedi jew tikkontrolla, skont it-Termini u l-Kundizzjonijiet tas-Servizzi tal-Midja ta' Apple u kwalunkwe regola tal-użu stabbilita f'dawk it-termini (inkluż Family Sharing għall-aġġornament għal tul il-ħajja). Ma tistax tbigħ, tikri, tikri b'lokazzjoni, tagħti subliċenzja, tqassam jew b'mod ieħor tittrasferixxi l-App lil ħaddieħor.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Il-Kontenut Tiegħek</h2>
             <p>Inti żżomm id-drittijiet kollha fuq ir-ritratti, il-fajls u l-metadata li timporta fl-App. Aħna ma nippretendu l-ebda sjieda fuq il-kontenut tiegħek. Minħabba li l-App tipproċessa kollox fuq it-tagħmir tiegħek, inti ma tagħtiniex liċenzja fuq il-fajls tiegħek; aħna qatt ma nirċevuhom.</p>
             <p>Inti responsabbli li tiżgura li għandek id-dritt li tikkonverti, timmodifika, taqsam jew b'mod ieħor tuża l-immaġni li tipproċessa. M'għandekx tuża l-App biex timmaniġġja kontenut li m'għandekx permess tużah.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Livelli Bla Ħlas u Pro</h2>
             <p>L-App toffri livell bla ħlas li jikkonverti immaġni waħda kull darba f'formati magħżula. L-utenti bla ħlas jistgħu wkoll jagħżlu li jaraw reklam ta' video ppremjat biex jiżblukkaw temporanjament konverżjoni waħda f'lott. Li tara reklam huwa dejjem fakultattiv u tista' tneħħih qabel ma jitlesta. Pro jiżblokka l-konverżjoni f'lott bla limitu, il-formati kollha tal-output (inkluż PDF, AVIF u TIFF), is-settings għal kull immaġni u s-sett sħiħ ta' kontrolli tal-privatezza tal-metadata.</p>
             <p>Pro huwa offrut jew bħala abbonament li jiġġedded awtomatikament (kull ġimgħa, kull xahar jew kull sena) jew bħala xiri uniku, mhux konsumabbli, għal tul il-ħajja. Ix-xiri tat-tips huwa fakultattiv, ma jiżblokkax karatteristiċi u mhux rimborżabbli ħlief fejn meħtieġ mil-liġi.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Termini tal-Abbonament</h2>
             <p><strong>Fatturazzjoni.</strong> Ix-xiri kollu jiġi pproċessat minn Apple permezz tal-App Store. Il-ħlas jiġi ċċarġjat lill-Apple ID tiegħek mal-konferma tax-xiri. Il-prezzijiet attwali jintwerew ġewwa l-App u fil-paġna tal-App Store għall-istorefront tiegħek u jistgħu jinbidlu fil-futur kif permess mir-regoli tal-App Store.</p>
             <p><strong>Tiġdid awtomatiku.</strong> L-abbonamenti jiġġeddu awtomatikament fi tmiem kull perjodu ta' fatturazzjoni bil-prezz li jkun fis-seħħ dak il-ħin sakemm ma jiġux ikkanċellati mill-anqas 24 siegħa qabel tmiem il-perjodu attwali. Il-kont tiegħek jiġi ċċarġjat għat-tiġdid fi żmien 24 siegħa qabel tmiem il-perjodu attwali.</p>
@@ -140,7 +157,7 @@
             <p><strong>Family Sharing.</strong> L-aġġornament għal tul il-ħajja u l-abbonamenti li jiġġeddu awtomatikament huma eliġibbli għal Family Sharing fejn appoġġjat mill-App Store.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Użu Aċċettabbli</h2>
             <p>Inti taqbel li tuża l-App f'konformità mal-liġi applikabbli. Ma tistax, u ma tistax tinkoraġġixxi lil ħaddieħor biex:</p>
             <ul>
@@ -153,47 +170,47 @@
             </ul>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Aġġornamenti u Twaqqif</h2>
             <p>Nistgħu noħorġu aġġornamenti li jibdlu, iżidu jew ineħħu karatteristiċi, isewwu l-iżbalji jew itejbu l-prestazzjoni. Karatteristiċi ġodda jistgħu jeħtieġu Pro. Nistgħu wkoll nirtiraw karatteristiċi jew inwaqqfu l-App b'avviż raġonevoli meta dan ma jkunx aktar fattibbli kummerċjalment jew teknikament. Fejn meħtieġ mil-liġi, ir-rimborżi għaż-żmien tal-abbonament mhux użat jiġu pproċessati minn Apple.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Servizzi ta' Partijiet Terzi</h2>
             <p>L-App tiddependi fuq Apple StoreKit għax-xiri, Adapty għall-verifika tax-xiri, u Google AdMob &mdash; flimkien mal-Google User Messaging Platform u sħab ta' medjazzjoni bħal Unity Ads &mdash; għar-reklami ppremjati fakultattivi li jintwerew lill-utenti bla ħlas. L-użu tiegħek ta' dawk is-servizzi huwa wkoll soġġett għat-termini u l-avviżi ta' privatezza tagħhom stess. Aħna mhux responsabbli għall-prattiki tas-servizzi ta' partijiet terzi, iżda kkonfigurajniehom biex jiġbru biss dak li hu meħtieġ, kif deskritt fil-<a href="privacy.html">Politika ta' Privatezza</a> tagħna.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Ċaħda ta' Responsabbiltà</h2>
             <p>L-App hija pprovduta fuq bażi &ldquo;kif inhi&rdquo; u &ldquo;kif disponibbli&rdquo; mingħajr garanziji ta' ebda tip, kemm espressi kif ukoll impliċiti, inkluż garanziji ta' kummerċjabbiltà, idoneità għal skop partikolari, eżattezza jew nuqqas ta' ksur. Aħna ma niggarantixxux li l-App tkun bla interruzzjoni, ħielsa mill-iżbalji, jew li tipproduċi riżultati speċifiċi għall-fajls tiegħek. Inti responsabbli li żżomm backups ta' kwalunkwe fajl li tipproċessa.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Limitazzjoni tar-Responsabbiltà</h2>
             <p>Sal-massimu permess mil-liġi, l-Iżviluppatur ma jkunx responsabbli għal kwalunkwe ħsara indiretta, inċidentali, speċjali, konsegwenzjali jew punittiva, jew għal kwalunkwe telf ta' profitti, data jew fajls, li tirriżulta minn jew b'konnessjoni mal-użu tiegħek tal-App, anke jekk ġejna avżati bil-possibbiltà ta' tali ħsarat. Ir-responsabbiltà totali tagħna għal kwalunkwe ħsara diretta hija limitata għall-ammont li ħallast għall-App fit-tnax-il xahar ta' qabel l-avveniment li ta lok għat-talba. Xi ġurisdizzjonijiet ma jippermettux dawn il-limitazzjonijiet, u f'dak il-każ il-limitazzjonijiet japplikaw biss sal-massimu permess hemmhekk.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Apple bħala Benefiċjarju Terz</h2>
             <p>Inti tirrikonoxxi li dawn it-Termini huma biss bejnek u l-Iżviluppatur, u mhux ma' Apple. Apple mhix responsabbli għall-App jew għall-kontenut tagħha. Madankollu, Apple u s-sussidjarji ta' Apple huma benefiċjarji terzi ta' dawn it-Termini u, mal-aċċettazzjoni tiegħek, ikollhom id-dritt (u jitqiesu li aċċettaw id-dritt) li jinfurzaw dawn it-Termini kontrik bħala benefiċjarju terz. Fil-każ ta' xi nuqqas tal-App li tkun konformi ma' xi garanzija applikabbli, tista' tinnotifika lil Apple, u Apple tirrimborżak il-prezz tax-xiri tal-App (jekk ikun hemm). Sal-massimu permess mil-liġi, Apple m'għandha l-ebda obbligu ieħor ta' garanzija fir-rigward tal-App.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Liġi Applikabbli u Tilwim</h2>
             <p>Dawn it-Termini huma rregolati mil-liġijiet tal-pajjiż fejn normalment tirresjedi, mingħajr ma jitqiesu l-prinċipji tal-konflitt tal-liġijiet tiegħu, ħlief sal-punt li l-liġi applikabbli dwar il-protezzjoni tal-konsumatur tispeċifika mod ieħor. Inti u l-Iżviluppatur taqblu li ssolvu t-tilwim l-ewwel b'mod informali billi tibagħtulna email. Jekk ma nkunux nistgħu nsolvu tilwima fi żmien 60 jum, tista' tressaq il-kwistjoni quddiem il-qrati tal-pajjiż ta' residenza tiegħek sal-punt permess mil-liġi. Xejn f'dawn it-Termini ma jillimita kwalunkwe dritt tal-konsumatur li ma jistax jiġi rinunzjat li għandek skont il-liġi tal-pajjiż ta' residenza tiegħek.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Separabbiltà</h2>
             <p>Jekk xi dispożizzjoni ta' dawn it-Termini tinstab invalida jew mhux infurzabbli, dik id-dispożizzjoni tiġi limitata jew eliminata sal-punt minimu meħtieġ, u d-dispożizzjonijiet li jifdal jibqgħu fis-seħħ b'mod sħiħ.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Bidliet</h2>
             <p>Nistgħu naġġornaw dawn it-Termini minn żmien għal żmien. Il-verżjoni attwali dejjem tkun disponibbli f'din l-URL b'data &ldquo;L-aħħar aġġornament&rdquo; aġġornata. Bidliet sostanzjali jiġu enfasizzati fin-noti tal-aġġornament tal-App Store għall-verżjoni affettwata. L-użu kontinwu tiegħek tal-App wara li bidla tidħol fis-seħħ jikkostitwixxi aċċettazzjoni tat-Termini riveduti.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Kuntatt</h2>
             <p>Jekk għandek mistoqsijiet dwar dawn it-Termini, ikteb lil <a href="mailto:imageconverterplus.help@gmail.com">imageconverterplus.help@gmail.com</a>.</p>
         </div>
@@ -201,7 +218,7 @@
     </div>
 
     <!-- Links -->
-    <div class="links-section fade-in">
+    <div class="links-section" data-reveal>
 
         <a class="link-card" href="support.html">
             <p class="link-label">Għajnuna</p>
@@ -216,25 +233,94 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer fade-in">
+    <div class="footer">
         <p>L-aħħar aġġornament: Mejju 2026</p>
     </div>
 
 </div>
 
-<script>
-    // Fade-in on scroll
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span class="copyright">© 2026 Denys Lebiediev</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">Politika ta' Privatezza</a></li>
+            <li><a href="terms.html">Termini tal-Użu</a></li>
+            <li><a href="support.html">Appoġġ</a></li>
+        </ul>
+        <!-- lang-menu -->
+        <details class="lang-menu">
+            <summary class="lang-trigger" aria-label="Lingwa: Malti"><svg class="lang-globe" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="8" cy="8" rx="2.8" ry="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M1.7 8h12.6M2.6 4.6h10.8M2.6 11.4h10.8" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="lang-current">Malti</span><svg class="lang-chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+            <div class="lang-panel">
+                <ul class="lang-list" role="list" translate="no">
+                    <li><a href="../af/terms.html" lang="af" hreflang="af">Afrikaans</a></li>
+                    <li><a href="../id/terms.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+                    <li><a href="../ms/terms.html" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+                    <li><a href="../bs/terms.html" lang="bs" hreflang="bs">Bosanski</a></li>
+                    <li><a href="../ca/terms.html" lang="ca" hreflang="ca">Català</a></li>
+                    <li><a href="../cs/terms.html" lang="cs" hreflang="cs">Čeština</a></li>
+                    <li><a href="../cy/terms.html" lang="cy" hreflang="cy">Cymraeg</a></li>
+                    <li><a href="../da/terms.html" lang="da" hreflang="da">Dansk</a></li>
+                    <li><a href="../de/terms.html" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="../et/terms.html" lang="et" hreflang="et">Eesti</a></li>
+                    <li><a href="../terms.html?lang=en" lang="en" hreflang="en">English</a></li>
+                    <li><a href="../es/terms.html" lang="es" hreflang="es">Español</a></li>
+                    <li><a href="../fil/terms.html" lang="fil" hreflang="fil">Filipino</a></li>
+                    <li><a href="../fr/terms.html" lang="fr" hreflang="fr">Français</a></li>
+                    <li><a href="../ga/terms.html" lang="ga" hreflang="ga">Gaeilge</a></li>
+                    <li><a href="../hr/terms.html" lang="hr" hreflang="hr">Hrvatski</a></li>
+                    <li><a href="../is/terms.html" lang="is" hreflang="is">Íslenska</a></li>
+                    <li><a href="../it/terms.html" lang="it" hreflang="it">Italiano</a></li>
+                    <li><a href="../sw/terms.html" lang="sw" hreflang="sw">Kiswahili</a></li>
+                    <li><a href="../lv/terms.html" lang="lv" hreflang="lv">Latviešu</a></li>
+                    <li><a href="../lt/terms.html" lang="lt" hreflang="lt">Lietuvių</a></li>
+                    <li><a href="../hu/terms.html" lang="hu" hreflang="hu">Magyar</a></li>
+                    <li><a href="../mt/terms.html" lang="mt" hreflang="mt" aria-current="true">Malti<svg class="lang-check" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="../nl/terms.html" lang="nl" hreflang="nl">Nederlands</a></li>
+                    <li><a href="../nb/terms.html" lang="nb" hreflang="nb">Norsk bokmål</a></li>
+                    <li><a href="../pl/terms.html" lang="pl" hreflang="pl">Polski</a></li>
+                    <li><a href="../pt-BR/terms.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+                    <li><a href="../pt-PT/terms.html" lang="pt-PT" hreflang="pt-PT">Português (Portugal)</a></li>
+                    <li><a href="../ro/terms.html" lang="ro" hreflang="ro">Română</a></li>
+                    <li><a href="../sq/terms.html" lang="sq" hreflang="sq">Shqip</a></li>
+                    <li><a href="../sk/terms.html" lang="sk" hreflang="sk">Slovenčina</a></li>
+                    <li><a href="../sl/terms.html" lang="sl" hreflang="sl">Slovenščina</a></li>
+                    <li><a href="../fi/terms.html" lang="fi" hreflang="fi">Suomi</a></li>
+                    <li><a href="../sv/terms.html" lang="sv" hreflang="sv">Svenska</a></li>
+                    <li><a href="../vi/terms.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+                    <li><a href="../tr/terms.html" lang="tr" hreflang="tr">Türkçe</a></li>
+                    <li><a href="../be/terms.html" lang="be" hreflang="be">Беларуская</a></li>
+                    <li><a href="../bg/terms.html" lang="bg" hreflang="bg">Български</a></li>
+                    <li><a href="../mk/terms.html" lang="mk" hreflang="mk">Македонски</a></li>
+                    <li><a href="../sr/terms.html" lang="sr" hreflang="sr">Српски</a></li>
+                    <li><a href="../uk/terms.html" lang="uk" hreflang="uk">Українська</a></li>
+                    <li><a href="../el/terms.html" lang="el" hreflang="el">Ελληνικά</a></li>
+                    <li><a href="../ar/terms.html" lang="ar" hreflang="ar">العربية</a></li>
+                    <li><a href="../he/terms.html" lang="he" hreflang="he">עברית</a></li>
+                    <li><a href="../ur/terms.html" lang="ur" hreflang="ur">اردو</a></li>
+                    <li><a href="../fa/terms.html" lang="fa" hreflang="fa">فارسی</a></li>
+                    <li><a href="../hi/terms.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+                    <li><a href="../mr/terms.html" lang="mr" hreflang="mr">मराठी</a></li>
+                    <li><a href="../gu/terms.html" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+                    <li><a href="../pa/terms.html" lang="pa" hreflang="pa">ਪੰਜਾਬੀ</a></li>
+                    <li><a href="../bn/terms.html" lang="bn" hreflang="bn">বাংলা</a></li>
+                    <li><a href="../ta/terms.html" lang="ta" hreflang="ta">தமிழ்</a></li>
+                    <li><a href="../te/terms.html" lang="te" hreflang="te">తెలుగు</a></li>
+                    <li><a href="../kn/terms.html" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+                    <li><a href="../ml/terms.html" lang="ml" hreflang="ml">മലയാളം</a></li>
+                    <li><a href="../th/terms.html" lang="th" hreflang="th">ไทย</a></li>
+                    <li><a href="../ja/terms.html" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="../ko/terms.html" lang="ko" hreflang="ko">한국어</a></li>
+                    <li><a href="../zh-Hans/terms.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+                    <li><a href="../zh-Hant/terms.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+                </ul>
+            </div>
+        </details>
+        <script defer src="../js/lang-menu.js"></script>
+        <!-- /lang-menu -->
+    </div>
+</footer>
 
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
+<script defer src="../js/subpage.js"></script>
 
 </body>
 </html>

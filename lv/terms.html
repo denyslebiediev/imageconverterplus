@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=6759621930">
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#05060A">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <link rel="icon" href="../images/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
+    <script>
+        document.documentElement.classList.add('js');
+        // if subpage.js never boots, un-gate the reveals so content can't stay hidden
+        setTimeout(function () { if (!window.__icpSubBooted) document.documentElement.classList.remove('js'); }, 2500);
+    </script>
     <title>Lietošanas noteikumi - Image Converter Plus</title>
     <meta name="description" content="Lietotnes Image Converter Plus lietošanas noteikumi. Izlasiet licenci, pirkuma noteikumus, informāciju par abonementa automātisko atjaunošanu un lietotnes lietošanas vadlīnijas.">
     <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
@@ -74,63 +78,76 @@
     <link rel="alternate" hreflang="cy" href="https://denyslebiediev.github.io/imageconverterplus/cy/terms.html">
     <link rel="alternate" hreflang="be" href="https://denyslebiediev.github.io/imageconverterplus/be/terms.html">
     <link rel="alternate" hreflang="x-default" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/subpage.css">
+    <meta property="og:title" content="Lietošanas noteikumi — Image Converter Plus">
+    <meta property="og:description" content="Lietotnes Image Converter Plus lietošanas noteikumi. Izlasiet licenci, pirkuma noteikumus, informāciju par abonementa automātisko atjaunošanu un lietotnes lietošanas vadlīnijas.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://denyslebiediev.github.io/imageconverterplus/lv/terms.html">
+    <meta property="og:image" content="https://denyslebiediev.github.io/imageconverterplus/images/icon-512.png">
+    <link rel="canonical" href="https://denyslebiediev.github.io/imageconverterplus/lv/terms.html">
+    <link rel="preload" href="../fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/subpage-dark.css">
 
 </head>
 <body>
 
-<!-- Nav -->
-<nav>
+<a class="skip-link" href="#main">Pāriet uz saturu</a>
+
+<nav class="site-nav" aria-label="Vietne">
     <div class="nav-inner">
-        <a class="nav-title" href="index.html">Image Converter Plus</a>
+        <a class="nav-brand" href="index.html">
+            <img src="../images/AppIcon.png" alt="" width="28" height="28">
+            <span>Image Converter Plus</span>
+        </a>
         <ul class="nav-links">
             <li><a href="privacy.html">Konfidencialitātes politika</a></li>
-            <li><a href="terms.html">Lietošanas noteikumi</a></li>
+            <li><a href="terms.html" aria-current="page">Lietošanas noteikumi</a></li>
             <li><a href="support.html">Atbalsts</a></li>
         </ul>
+        <a class="nav-cta" href="https://apps.apple.com/app/image-converter-plus/id6759621930">Iegūt lietotni</a>
     </div>
 </nav>
 
-<div class="page">
+<div class="page" id="main">
 
     <!-- Hero -->
-    <div class="hero fade-in">
-        <h1>Lietošanas noteikumi</h1>
+    <header class="page-head">
+        <p class="eyebrow mono">Juridiskā informācija · Noteikumi</p>
+        <h1 class="headline">Lietošanas noteikumi</h1>
         <p class="subtitle">Image Converter Plus iPhone un iPad ierīcēm</p>
-    </div>
+    </header>
 
     <!-- Content Cards -->
-    <div class="stagger">
+    <div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Vienošanās</h2>
             <p>Šie lietošanas noteikumi (&ldquo;Noteikumi&rdquo;) veido saistošu vienošanos starp jums un Denys Lebiediev (&ldquo;Izstrādātājs&rdquo;, &ldquo;mēs&rdquo;, &ldquo;mums&rdquo;) attiecībā uz jūsu mobilās lietotnes Image Converter Plus un tās Share Extension (kopā &ldquo;Lietotne&rdquo;) lietošanu. Lejupielādējot, instalējot vai lietojot Lietotni, jūs apstiprināt, ka esat izlasījis, sapratis un piekritis šiem Noteikumiem kopā ar mūsu <a href="privacy.html">konfidencialitātes politiku</a>. Ja nepiekrītat, nelietojiet Lietotni.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Apple galalietotāja licences līgums</h2>
             <p>Lietotne tiek licencēta, nevis pārdota jums lietošanai tikai saskaņā ar Apple standarta licencētās lietojumprogrammas galalietotāja licences līgumu (&ldquo;Apple EULA&rdquo;), kas pieejams vietnē <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener" target="_blank">apple.com/legal/internet-services/itunes/dev/stdeula</a>, izņemot tur, kur šie Noteikumi to paplašina vai groza. Ciktāl pastāv jebkāda pretruna starp šiem Noteikumiem un Apple EULA, šie Noteikumi ir noteicošie, ciktāl to atļauj Apple noteikumi; pretējā gadījumā noteicošais ir Apple EULA.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Licence</h2>
             <p>Mēs piešķiram jums ierobežotu, personisku, neekskluzīvu, nenododamu, atsaucamu licenci instalēt un lietot Lietotni jebkurā iPhone vai iPad ierīcē, kura jums pieder vai kuru jūs kontrolējat, saskaņā ar Apple Media Services noteikumiem un nosacījumiem un jebkuriem lietošanas noteikumiem, kas izklāstīti šajos noteikumos (tostarp Family Sharing mūža jauninājumam). Jūs nedrīkstat Lietotni pārdot, iznomāt, nodot lietošanā, sublicencēt, izplatīt vai citādi nodot nevienam citam.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Jūsu saturs</h2>
             <p>Jūs saglabājat visas tiesības uz fotoattēliem, failiem un metadatiem, kurus importējat Lietotnē. Mēs nepretendējam ne uz kādām īpašumtiesībām uz jūsu saturu. Tā kā Lietotne visu apstrādā jūsu ierīcē, jūs nepiešķirat mums licenci uz saviem failiem; mēs tos nekad nesaņemam.</p>
             <p>Jūs esat atbildīgs par to, lai nodrošinātu, ka jums ir tiesības konvertēt, modificēt, kopīgot vai citādi izmantot apstrādātos attēlus. Jūs nedrīkstat izmantot Lietotni, lai apstrādātu saturu, kuru jums nav atļaujas izmantot.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Bezmaksas un Pro līmeņi</h2>
             <p>Lietotne piedāvā bezmaksas līmeni, kas vienlaikus konvertē vienu attēlu izvēlētajos formātos. Bezmaksas lietotāji var arī izvēlēties skatīties atlīdzības video reklāmu, lai uz laiku atbloķētu vienu pakešu konvertēšanu. Reklāmas skatīšanās vienmēr ir izvēles iespēja, un jūs to varat aizvērt pirms pabeigšanas. Pro atbloķē neierobežotu pakešu konvertēšanu, visus izvades formātus (tostarp PDF, AVIF un TIFF), iestatījumus katram attēlam un pilnu metadatu konfidencialitātes vadīklu kopumu.</p>
             <p>Pro tiek piedāvāts vai nu kā automātiski atjaunojams abonements (nedēļas, mēneša vai gada), vai kā vienreizējs, nepatērējams mūža pirkums. Dzeramnaudas pirkumi ir izvēles iespēja, neatbloķē funkcijas un nav atmaksājami, izņemot gadījumus, kad to pieprasa likums.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Abonementa noteikumi</h2>
             <p><strong>Norēķini.</strong> Visus pirkumus apstrādā Apple, izmantojot App Store. Maksa tiek iekasēta no jūsu Apple ID, apstiprinot pirkumu. Pašreizējās cenas tiek rādītas Lietotnē un App Store ierakstā jūsu veikalam, un nākotnē tās var mainīties, ciktāl to atļauj App Store noteikumi.</p>
             <p><strong>Automātiskā atjaunošana.</strong> Abonementi katra norēķinu perioda beigās automātiski atjaunojas par tobrīd spēkā esošo cenu, ja vien tie netiek atcelti vismaz 24 stundas pirms pašreizējā perioda beigām. No jūsu konta tiks iekasēta maksa par atjaunošanu 24 stundu laikā pirms pašreizējā perioda beigām.</p>
@@ -140,7 +157,7 @@
             <p><strong>Family Sharing.</strong> Mūža jauninājums un automātiski atjaunojami abonementi ir piemēroti Family Sharing tur, kur to atbalsta App Store.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Pieņemama lietošana</h2>
             <p>Jūs piekrītat lietot Lietotni saskaņā ar piemērojamiem tiesību aktiem. Jūs nedrīkstat un nedrīkstat mudināt nevienu citu:</p>
             <ul>
@@ -153,47 +170,47 @@
             </ul>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Atjauninājumi un pārtraukšana</h2>
             <p>Mēs varam izlaist atjauninājumus, kas maina, pievieno vai noņem funkcijas, labo kļūdas vai uzlabo veiktspēju. Jaunām funkcijām var būt nepieciešams Pro. Mēs varam arī izņemt funkcijas vai pārtraukt Lietotni ar saprātīgu iepriekšēju paziņojumu, kad tas vairs nav komerciāli vai tehniski iespējams. Ja to pieprasa likums, atmaksas par neizmantoto abonementa laiku apstrādās Apple.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Trešo pušu pakalpojumi</h2>
             <p>Lietotne paļaujas uz Apple StoreKit pirkumiem, Adapty pirkumu pārbaudei un Google AdMob &mdash; kopā ar Google User Messaging Platform un starpniecības partneriem, piemēram, Unity Ads &mdash; izvēles atlīdzības reklāmām, kas tiek rādītas bezmaksas lietotājiem. Jūsu šo pakalpojumu lietošanai arī piemērojami to pašu noteikumi un konfidencialitātes paziņojumi. Mēs neesam atbildīgi par trešo pušu pakalpojumu praksi, taču esam tos konfigurējuši tā, lai tie vāktu tikai to, kas ir nepieciešams, kā aprakstīts mūsu <a href="privacy.html">konfidencialitātes politikā</a>.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Atruna</h2>
             <p>Lietotne tiek nodrošināta &ldquo;tāda, kāda tā ir&rdquo; un &ldquo;tāda, kāda tā ir pieejama&rdquo; pamata, bez jebkāda veida garantijām, ne tiešām, ne netiešām, tostarp tirgojamības, piemērotības konkrētam mērķim, precizitātes vai tiesību nepārkāpšanas garantijām. Mēs negarantējam, ka Lietotne darbosies bez pārtraukumiem, bez kļūdām vai ka tā sniegs konkrētus rezultātus jūsu failiem. Jūs esat atbildīgs par jebkuru jūsu apstrādāto failu rezerves kopiju saglabāšanu.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Atbildības ierobežojums</h2>
             <p>Ciktāl to atļauj likums, Izstrādātājs nebūs atbildīgs par jebkādiem netiešiem, nejaušiem, īpašiem, izrietošiem vai soda zaudējumiem, vai par jebkādu peļņas, datu vai failu zudumu, kas izriet no jūsu Lietotnes lietošanas vai ir saistīts ar to, pat ja mēs esam tikuši brīdināti par šādu zaudējumu iespējamību. Mūsu kopējā atbildība par jebkādiem tiešiem zaudējumiem ir ierobežota līdz summai, kuru jūs samaksājāt par Lietotni divpadsmit mēnešos pirms notikuma, kas radīja prasību. Dažas jurisdikcijas neļauj šos ierobežojumus, tādā gadījumā ierobežojumi tiek piemēroti tikai tādā mērā, kādā tas tur ir maksimāli atļauts.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Apple kā trešās puses labuma guvējs</h2>
             <p>Jūs atzīstat, ka šie Noteikumi ir starp jums un Izstrādātāju vien, nevis ar Apple. Apple nav atbildīgs par Lietotni vai tās saturu. Tomēr Apple un Apple meitasuzņēmumi ir šo Noteikumu trešās puses labuma guvēji un pēc jūsu piekrišanas tiem būs tiesības (un tiks uzskatīts, ka tie ir pieņēmuši šīs tiesības) īstenot šos Noteikumus pret jums kā trešās puses labuma guvējam. Ja Lietotne neatbilst jebkurai piemērojamai garantijai, jūs varat paziņot Apple, un Apple atmaksās jums Lietotnes pirkuma cenu (ja tāda ir). Ciktāl to maksimāli atļauj likums, Apple nav nekādu citu garantijas saistību attiecībā uz Lietotni.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Piemērojamie tiesību akti un strīdi</h2>
             <p>Šos Noteikumus regulē tās valsts tiesību akti, kurā jūs parasti dzīvojat, neņemot vērā tās tiesību normu kolīziju principus, izņemot tiktāl, ciktāl piemērojamie patērētāju aizsardzības tiesību akti nosaka citādi. Jūs un Izstrādātājs piekrītat strīdus vispirms risināt neformāli, nosūtot mums e-pastu. Ja mēs nevaram atrisināt strīdu 60 dienu laikā, jūs varat iesniegt jautājumu izskatīšanai savas dzīvesvietas valsts tiesās tiktāl, ciktāl to atļauj likums. Nekas šajos Noteikumos neierobežo nekādas neatsaucamas patērētāja tiesības, kas jums ir saskaņā ar jūsu dzīvesvietas valsts tiesību aktiem.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Nodalāmība</h2>
             <p>Ja kāds šo Noteikumu nosacījums tiek atzīts par spēkā neesošu vai neizpildāmu, šis nosacījums tiks ierobežots vai izslēgts minimālā nepieciešamajā apjomā, un pārējie nosacījumi paliks pilnā spēkā.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Izmaiņas</h2>
             <p>Mēs laiku pa laikam varam atjaunināt šos Noteikumus. Pašreizējā versija vienmēr būs pieejama šajā URL adresē ar atjauninātu datumu &ldquo;Pēdējoreiz atjaunināts&rdquo;. Būtiskas izmaiņas tiks izceltas App Store atjauninājumu piezīmēs attiecīgajam laidienam. Jūsu turpmāka Lietotnes lietošana pēc tam, kad izmaiņas stājas spēkā, ir uzskatāma par pārskatīto Noteikumu pieņemšanu.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Kontakti</h2>
             <p>Ja jums ir jautājumi par šiem Noteikumiem, rakstiet uz <a href="mailto:imageconverterplus.help@gmail.com">imageconverterplus.help@gmail.com</a>.</p>
         </div>
@@ -201,7 +218,7 @@
     </div>
 
     <!-- Links -->
-    <div class="links-section fade-in">
+    <div class="links-section" data-reveal>
 
         <a class="link-card" href="support.html">
             <p class="link-label">Palīdzība</p>
@@ -216,25 +233,94 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer fade-in">
+    <div class="footer">
         <p>Pēdējoreiz atjaunināts: 2026. gada maijs</p>
     </div>
 
 </div>
 
-<script>
-    // Fade-in on scroll
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span class="copyright">© 2026 Denys Lebiediev</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">Konfidencialitātes politika</a></li>
+            <li><a href="terms.html">Lietošanas noteikumi</a></li>
+            <li><a href="support.html">Atbalsts</a></li>
+        </ul>
+        <!-- lang-menu -->
+        <details class="lang-menu">
+            <summary class="lang-trigger" aria-label="Valoda: Latviešu"><svg class="lang-globe" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="8" cy="8" rx="2.8" ry="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M1.7 8h12.6M2.6 4.6h10.8M2.6 11.4h10.8" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="lang-current">Latviešu</span><svg class="lang-chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+            <div class="lang-panel">
+                <ul class="lang-list" role="list" translate="no">
+                    <li><a href="../af/terms.html" lang="af" hreflang="af">Afrikaans</a></li>
+                    <li><a href="../id/terms.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+                    <li><a href="../ms/terms.html" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+                    <li><a href="../bs/terms.html" lang="bs" hreflang="bs">Bosanski</a></li>
+                    <li><a href="../ca/terms.html" lang="ca" hreflang="ca">Català</a></li>
+                    <li><a href="../cs/terms.html" lang="cs" hreflang="cs">Čeština</a></li>
+                    <li><a href="../cy/terms.html" lang="cy" hreflang="cy">Cymraeg</a></li>
+                    <li><a href="../da/terms.html" lang="da" hreflang="da">Dansk</a></li>
+                    <li><a href="../de/terms.html" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="../et/terms.html" lang="et" hreflang="et">Eesti</a></li>
+                    <li><a href="../terms.html?lang=en" lang="en" hreflang="en">English</a></li>
+                    <li><a href="../es/terms.html" lang="es" hreflang="es">Español</a></li>
+                    <li><a href="../fil/terms.html" lang="fil" hreflang="fil">Filipino</a></li>
+                    <li><a href="../fr/terms.html" lang="fr" hreflang="fr">Français</a></li>
+                    <li><a href="../ga/terms.html" lang="ga" hreflang="ga">Gaeilge</a></li>
+                    <li><a href="../hr/terms.html" lang="hr" hreflang="hr">Hrvatski</a></li>
+                    <li><a href="../is/terms.html" lang="is" hreflang="is">Íslenska</a></li>
+                    <li><a href="../it/terms.html" lang="it" hreflang="it">Italiano</a></li>
+                    <li><a href="../sw/terms.html" lang="sw" hreflang="sw">Kiswahili</a></li>
+                    <li><a href="../lv/terms.html" lang="lv" hreflang="lv" aria-current="true">Latviešu<svg class="lang-check" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="../lt/terms.html" lang="lt" hreflang="lt">Lietuvių</a></li>
+                    <li><a href="../hu/terms.html" lang="hu" hreflang="hu">Magyar</a></li>
+                    <li><a href="../mt/terms.html" lang="mt" hreflang="mt">Malti</a></li>
+                    <li><a href="../nl/terms.html" lang="nl" hreflang="nl">Nederlands</a></li>
+                    <li><a href="../nb/terms.html" lang="nb" hreflang="nb">Norsk bokmål</a></li>
+                    <li><a href="../pl/terms.html" lang="pl" hreflang="pl">Polski</a></li>
+                    <li><a href="../pt-BR/terms.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+                    <li><a href="../pt-PT/terms.html" lang="pt-PT" hreflang="pt-PT">Português (Portugal)</a></li>
+                    <li><a href="../ro/terms.html" lang="ro" hreflang="ro">Română</a></li>
+                    <li><a href="../sq/terms.html" lang="sq" hreflang="sq">Shqip</a></li>
+                    <li><a href="../sk/terms.html" lang="sk" hreflang="sk">Slovenčina</a></li>
+                    <li><a href="../sl/terms.html" lang="sl" hreflang="sl">Slovenščina</a></li>
+                    <li><a href="../fi/terms.html" lang="fi" hreflang="fi">Suomi</a></li>
+                    <li><a href="../sv/terms.html" lang="sv" hreflang="sv">Svenska</a></li>
+                    <li><a href="../vi/terms.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+                    <li><a href="../tr/terms.html" lang="tr" hreflang="tr">Türkçe</a></li>
+                    <li><a href="../be/terms.html" lang="be" hreflang="be">Беларуская</a></li>
+                    <li><a href="../bg/terms.html" lang="bg" hreflang="bg">Български</a></li>
+                    <li><a href="../mk/terms.html" lang="mk" hreflang="mk">Македонски</a></li>
+                    <li><a href="../sr/terms.html" lang="sr" hreflang="sr">Српски</a></li>
+                    <li><a href="../uk/terms.html" lang="uk" hreflang="uk">Українська</a></li>
+                    <li><a href="../el/terms.html" lang="el" hreflang="el">Ελληνικά</a></li>
+                    <li><a href="../ar/terms.html" lang="ar" hreflang="ar">العربية</a></li>
+                    <li><a href="../he/terms.html" lang="he" hreflang="he">עברית</a></li>
+                    <li><a href="../ur/terms.html" lang="ur" hreflang="ur">اردو</a></li>
+                    <li><a href="../fa/terms.html" lang="fa" hreflang="fa">فارسی</a></li>
+                    <li><a href="../hi/terms.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+                    <li><a href="../mr/terms.html" lang="mr" hreflang="mr">मराठी</a></li>
+                    <li><a href="../gu/terms.html" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+                    <li><a href="../pa/terms.html" lang="pa" hreflang="pa">ਪੰਜਾਬੀ</a></li>
+                    <li><a href="../bn/terms.html" lang="bn" hreflang="bn">বাংলা</a></li>
+                    <li><a href="../ta/terms.html" lang="ta" hreflang="ta">தமிழ்</a></li>
+                    <li><a href="../te/terms.html" lang="te" hreflang="te">తెలుగు</a></li>
+                    <li><a href="../kn/terms.html" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+                    <li><a href="../ml/terms.html" lang="ml" hreflang="ml">മലയാളം</a></li>
+                    <li><a href="../th/terms.html" lang="th" hreflang="th">ไทย</a></li>
+                    <li><a href="../ja/terms.html" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="../ko/terms.html" lang="ko" hreflang="ko">한국어</a></li>
+                    <li><a href="../zh-Hans/terms.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+                    <li><a href="../zh-Hant/terms.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+                </ul>
+            </div>
+        </details>
+        <script defer src="../js/lang-menu.js"></script>
+        <!-- /lang-menu -->
+    </div>
+</footer>
 
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
+<script defer src="../js/subpage.js"></script>
 
 </body>
 </html>

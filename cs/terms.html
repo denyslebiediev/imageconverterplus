@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=6759621930">
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#05060A">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <link rel="icon" href="../images/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
+    <script>
+        document.documentElement.classList.add('js');
+        // if subpage.js never boots, un-gate the reveals so content can't stay hidden
+        setTimeout(function () { if (!window.__icpSubBooted) document.documentElement.classList.remove('js'); }, 2500);
+    </script>
     <title>Podmínky používání - Image Converter Plus</title>
     <meta name="description" content="Podmínky používání aplikace Image Converter Plus. Přečtěte si licenci, podmínky nákupu, podrobnosti o automatickém obnovení předplatného a pokyny k používání aplikace.">
     <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
@@ -74,63 +78,76 @@
     <link rel="alternate" hreflang="cy" href="https://denyslebiediev.github.io/imageconverterplus/cy/terms.html">
     <link rel="alternate" hreflang="be" href="https://denyslebiediev.github.io/imageconverterplus/be/terms.html">
     <link rel="alternate" hreflang="x-default" href="https://denyslebiediev.github.io/imageconverterplus/terms.html">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/subpage.css">
+    <meta property="og:title" content="Podmínky používání — Image Converter Plus">
+    <meta property="og:description" content="Podmínky používání aplikace Image Converter Plus. Přečtěte si licenci, podmínky nákupu, podrobnosti o automatickém obnovení předplatného a pokyny k používání aplikace.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://denyslebiediev.github.io/imageconverterplus/cs/terms.html">
+    <meta property="og:image" content="https://denyslebiediev.github.io/imageconverterplus/images/icon-512.png">
+    <link rel="canonical" href="https://denyslebiediev.github.io/imageconverterplus/cs/terms.html">
+    <link rel="preload" href="../fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/subpage-dark.css">
 
 </head>
 <body>
 
-<!-- Nav -->
-<nav>
+<a class="skip-link" href="#main">Přejít na obsah</a>
+
+<nav class="site-nav" aria-label="Web">
     <div class="nav-inner">
-        <a class="nav-title" href="index.html">Image Converter Plus</a>
+        <a class="nav-brand" href="index.html">
+            <img src="../images/AppIcon.png" alt="" width="28" height="28">
+            <span>Image Converter Plus</span>
+        </a>
         <ul class="nav-links">
             <li><a href="privacy.html">Zásady ochrany osobních údajů</a></li>
-            <li><a href="terms.html">Podmínky používání</a></li>
+            <li><a href="terms.html" aria-current="page">Podmínky používání</a></li>
             <li><a href="support.html">Podpora</a></li>
         </ul>
+        <a class="nav-cta" href="https://apps.apple.com/app/image-converter-plus/id6759621930">Získat aplikaci</a>
     </div>
 </nav>
 
-<div class="page">
+<div class="page" id="main">
 
     <!-- Hero -->
-    <div class="hero fade-in">
-        <h1>Podmínky používání</h1>
+    <header class="page-head">
+        <p class="eyebrow mono">Právní · Podmínky</p>
+        <h1 class="headline">Podmínky používání</h1>
         <p class="subtitle">Image Converter Plus pro iPhone a iPad</p>
-    </div>
+    </header>
 
     <!-- Content Cards -->
-    <div class="stagger">
+    <div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Smlouva</h2>
             <p>Tyto Podmínky používání (&ldquo;Podmínky&rdquo;) tvoří závaznou smlouvu mezi vámi a Denysem Lebiedievem (&ldquo;Vývojář&rdquo;, &ldquo;my&rdquo;, &ldquo;nás&rdquo;) ohledně vašeho používání mobilní aplikace Image Converter Plus a její Share Extension (společně &ldquo;Aplikace&rdquo;). Stažením, instalací nebo používáním Aplikace potvrzujete, že jste si tyto Podmínky spolu s našimi <a href="privacy.html">Zásadami ochrany osobních údajů</a> přečetli, porozuměli jim a přijali je. Pokud nesouhlasíte, Aplikaci nepoužívejte.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Licenční smlouva s koncovým uživatelem společnosti Apple</h2>
             <p>Aplikace je vám licencována, nikoli prodána, k použití pouze v souladu se standardní licenční smlouvou společnosti Apple pro licencované aplikace (&ldquo;Apple EULA&rdquo;), dostupnou na <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener" target="_blank">apple.com/legal/internet-services/itunes/dev/stdeula</a>, s výjimkou případů, kdy ji tyto Podmínky rozšiřují nebo upravují. V případě jakéhokoli rozporu mezi těmito Podmínkami a Apple EULA mají tyto Podmínky přednost v rozsahu povoleném pravidly společnosti Apple; jinak má přednost Apple EULA.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Licence</h2>
             <p>Udělujeme vám omezenou, osobní, nevýhradní, nepřenosnou, odvolatelnou licenci k instalaci a používání Aplikace na jakémkoli iPhonu nebo iPadu, který vlastníte nebo ovládáte, v souladu s podmínkami služeb Apple Media Services a jakýmikoli pravidly používání stanovenými v těchto podmínkách (včetně Rodinného sdílení pro doživotní upgrade). Aplikaci nesmíte prodávat, pronajímat, poskytovat na leasing, sublicencovat, distribuovat ani jinak převádět na kohokoli jiného.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Váš obsah</h2>
             <p>Zachováváte si veškerá práva k fotografiím, souborům a metadatům, které do Aplikace importujete. Nečiníme si nárok na žádné vlastnictví vašeho obsahu. Protože Aplikace vše zpracovává ve vašem zařízení, neudělujete nám žádnou licenci k vašim souborům; nikdy je neobdržíme.</p>
             <p>Jste odpovědní za zajištění toho, že máte právo převádět, upravovat, sdílet nebo jinak používat obrázky, které zpracováváte. Aplikaci nesmíte používat ke zpracování obsahu, který nemáte oprávnění používat.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Bezplatná a Pro úroveň</h2>
             <p>Aplikace nabízí bezplatnou úroveň, která převádí jeden obrázek najednou ve vybraných formátech. Uživatelé bezplatné verze se mohou také rozhodnout zhlédnout odměňovanou videoreklamu k dočasnému odemčení jednoho dávkového převodu. Zhlédnutí reklamy je vždy volitelné a můžete ji zavřít před jejím dokončením. Pro odemyká neomezený dávkový převod, všechny výstupní formáty (včetně PDF, AVIF a TIFF), nastavení pro jednotlivé obrázky a kompletní sadu ovládacích prvků soukromí pro metadata.</p>
             <p>Pro se nabízí buď jako automaticky obnovované předplatné (týdenní, měsíční nebo roční), nebo jako jednorázový, nespotřebovatelný doživotní nákup. Nákupy spropitného jsou volitelné, neodemykají funkce a nejsou vratné, s výjimkou případů vyžadovaných zákonem.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Podmínky předplatného</h2>
             <p><strong>Účtování.</strong> Všechny nákupy zpracovává Apple prostřednictvím App Store. Platba je při potvrzení nákupu účtována vašemu Apple ID. Aktuální ceny se zobrazují uvnitř Aplikace a na stránce App Store pro váš obchod a v budoucnu se mohou změnit v rozsahu povoleném pravidly App Store.</p>
             <p><strong>Automatické obnovení.</strong> Předplatná se na konci každého fakturačního období automaticky obnovují za tehdy aktuální cenu, pokud nejsou zrušena alespoň 24 hodin před koncem aktuálního období. Váš účet bude za obnovení zaúčtován do 24 hodin před koncem aktuálního období.</p>
@@ -140,7 +157,7 @@
             <p><strong>Rodinné sdílení.</strong> Doživotní upgrade a automaticky obnovovaná předplatná jsou způsobilá pro Rodinné sdílení tam, kde to App Store podporuje.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Přijatelné použití</h2>
             <p>Souhlasíte s tím, že budete Aplikaci používat v souladu s platnými zákony. Nesmíte, a nesmíte k tomu nikoho jiného povzbuzovat:</p>
             <ul>
@@ -153,47 +170,47 @@
             </ul>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Aktualizace a ukončení</h2>
             <p>Můžeme vydávat aktualizace, které mění, přidávají nebo odebírají funkce, opravují chyby nebo zlepšují výkon. Nové funkce mohou vyžadovat Pro. Můžeme také funkce zrušit nebo Aplikaci s přiměřeným předstihem ukončit, pokud to již není komerčně nebo technicky proveditelné. Tam, kde to vyžaduje zákon, zpracuje vrácení peněz za nevyužitou dobu předplatného Apple.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Služby třetích stran</h2>
             <p>Aplikace se spoléhá na Apple StoreKit pro nákupy, Adapty pro ověřování nákupů a Google AdMob &mdash; spolu s Google User Messaging Platform a mediačními partnery, jako je Unity Ads &mdash; pro volitelné odměňované reklamy zobrazované uživatelům bezplatné verze. Vaše používání těchto služeb se rovněž řídí jejich vlastními podmínkami a oznámeními o ochraně osobních údajů. Neneseme odpovědnost za postupy služeb třetích stran, ale nakonfigurovali jsme je tak, aby shromažďovaly pouze to, co je nezbytné, jak je popsáno v našich <a href="privacy.html">Zásadách ochrany osobních údajů</a>.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Vyloučení odpovědnosti</h2>
             <p>Aplikace je poskytována &ldquo;tak, jak je&rdquo; a &ldquo;jak je dostupná&rdquo;, bez jakýchkoli záruk, ať už výslovných nebo předpokládaných, včetně záruk obchodovatelnosti, vhodnosti pro určitý účel, přesnosti nebo neporušení práv. Nezaručujeme, že Aplikace bude nepřerušovaná, bezchybná nebo že přinese konkrétní výsledky pro vaše soubory. Jste odpovědní za uchovávání záloh všech souborů, které zpracováváte.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Omezení odpovědnosti</h2>
             <p>V nejširším rozsahu povoleném zákonem Vývojář neodpovídá za žádné nepřímé, náhodné, zvláštní, následné nebo sankční škody ani za jakoukoli ztrátu zisku, dat nebo souborů vyplývající z vašeho používání Aplikace nebo v souvislosti s ním, i když jsme byli na možnost takových škod upozorněni. Naše celková odpovědnost za jakékoli přímé škody je omezena na částku, kterou jste za Aplikaci zaplatili v dvanácti měsících předcházejících události, jež vedla k nároku. Některé jurisdikce tato omezení nepovolují, v takovém případě se omezení uplatní pouze v maximálním rozsahu tam povoleném.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Apple jako třetí oprávněná strana</h2>
             <p>Berete na vědomí, že tyto Podmínky jsou uzavřeny pouze mezi vámi a Vývojářem, nikoli se společností Apple. Apple neodpovídá za Aplikaci ani za její obsah. Apple a dceřiné společnosti Apple jsou však třetími oprávněnými stranami těchto Podmínek a po vašem přijetí budou mít právo (a bude se mít za to, že toto právo přijaly) vymáhat tyto Podmínky vůči vám jako třetí oprávněná strana. V případě jakéhokoli selhání Aplikace v souladu s jakoukoli platnou zárukou můžete uvědomit Apple a Apple vám vrátí kupní cenu Aplikace (pokud existuje). V maximálním rozsahu povoleném zákonem nemá Apple žádnou jinou záruční povinnost ve vztahu k Aplikaci.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Rozhodné právo a spory</h2>
             <p>Tyto Podmínky se řídí právem země, ve které obvykle pobýváte, bez ohledu na její kolizní normy, s výjimkou rozsahu, v jakém platné právní předpisy na ochranu spotřebitele stanoví jinak. Vy a Vývojář souhlasíte, že spory budete nejprve řešit neformálně tím, že nám napíšete e-mail. Pokud spor nevyřešíme do 60 dnů, můžete věc předložit soudům země vašeho bydliště v rozsahu povoleném zákonem. Nic v těchto Podmínkách neomezuje žádná nezcizitelná spotřebitelská práva, která máte podle práva země vašeho bydliště.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Oddělitelnost</h2>
             <p>Pokud bude některé ustanovení těchto Podmínek shledáno neplatným nebo nevymahatelným, bude toto ustanovení omezeno nebo odstraněno v minimálním nezbytném rozsahu a zbývající ustanovení zůstanou plně v platnosti a účinnosti.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Změny</h2>
             <p>Tyto Podmínky můžeme čas od času aktualizovat. Aktuální verze bude vždy k dispozici na této adrese URL s aktualizovaným datem &ldquo;Naposledy aktualizováno&rdquo;. Podstatné změny budou zvýrazněny v poznámkách k aktualizaci v App Store pro příslušné vydání. Vaše pokračující používání Aplikace poté, co změna nabude účinnosti, představuje přijetí revidovaných Podmínek.</p>
         </div>
 
-        <div class="content-card fade-in">
+        <div class="content-card" data-reveal>
             <h2>Kontakt</h2>
             <p>Máte-li dotazy k těmto Podmínkám, napište na <a href="mailto:imageconverterplus.help@gmail.com">imageconverterplus.help@gmail.com</a>.</p>
         </div>
@@ -201,7 +218,7 @@
     </div>
 
     <!-- Links -->
-    <div class="links-section fade-in">
+    <div class="links-section" data-reveal>
 
         <a class="link-card" href="support.html">
             <p class="link-label">Nápověda</p>
@@ -216,25 +233,94 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer fade-in">
+    <div class="footer">
         <p>Naposledy aktualizováno: květen 2026</p>
     </div>
 
 </div>
 
-<script>
-    // Fade-in on scroll
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span class="copyright">© 2026 Denys Lebiediev</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">Zásady ochrany osobních údajů</a></li>
+            <li><a href="terms.html">Podmínky používání</a></li>
+            <li><a href="support.html">Podpora</a></li>
+        </ul>
+        <!-- lang-menu -->
+        <details class="lang-menu">
+            <summary class="lang-trigger" aria-label="Jazyk: Čeština"><svg class="lang-globe" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="8" cy="8" rx="2.8" ry="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M1.7 8h12.6M2.6 4.6h10.8M2.6 11.4h10.8" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="lang-current">Čeština</span><svg class="lang-chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+            <div class="lang-panel">
+                <ul class="lang-list" role="list" translate="no">
+                    <li><a href="../af/terms.html" lang="af" hreflang="af">Afrikaans</a></li>
+                    <li><a href="../id/terms.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+                    <li><a href="../ms/terms.html" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+                    <li><a href="../bs/terms.html" lang="bs" hreflang="bs">Bosanski</a></li>
+                    <li><a href="../ca/terms.html" lang="ca" hreflang="ca">Català</a></li>
+                    <li><a href="../cs/terms.html" lang="cs" hreflang="cs" aria-current="true">Čeština<svg class="lang-check" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="../cy/terms.html" lang="cy" hreflang="cy">Cymraeg</a></li>
+                    <li><a href="../da/terms.html" lang="da" hreflang="da">Dansk</a></li>
+                    <li><a href="../de/terms.html" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="../et/terms.html" lang="et" hreflang="et">Eesti</a></li>
+                    <li><a href="../terms.html?lang=en" lang="en" hreflang="en">English</a></li>
+                    <li><a href="../es/terms.html" lang="es" hreflang="es">Español</a></li>
+                    <li><a href="../fil/terms.html" lang="fil" hreflang="fil">Filipino</a></li>
+                    <li><a href="../fr/terms.html" lang="fr" hreflang="fr">Français</a></li>
+                    <li><a href="../ga/terms.html" lang="ga" hreflang="ga">Gaeilge</a></li>
+                    <li><a href="../hr/terms.html" lang="hr" hreflang="hr">Hrvatski</a></li>
+                    <li><a href="../is/terms.html" lang="is" hreflang="is">Íslenska</a></li>
+                    <li><a href="../it/terms.html" lang="it" hreflang="it">Italiano</a></li>
+                    <li><a href="../sw/terms.html" lang="sw" hreflang="sw">Kiswahili</a></li>
+                    <li><a href="../lv/terms.html" lang="lv" hreflang="lv">Latviešu</a></li>
+                    <li><a href="../lt/terms.html" lang="lt" hreflang="lt">Lietuvių</a></li>
+                    <li><a href="../hu/terms.html" lang="hu" hreflang="hu">Magyar</a></li>
+                    <li><a href="../mt/terms.html" lang="mt" hreflang="mt">Malti</a></li>
+                    <li><a href="../nl/terms.html" lang="nl" hreflang="nl">Nederlands</a></li>
+                    <li><a href="../nb/terms.html" lang="nb" hreflang="nb">Norsk bokmål</a></li>
+                    <li><a href="../pl/terms.html" lang="pl" hreflang="pl">Polski</a></li>
+                    <li><a href="../pt-BR/terms.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+                    <li><a href="../pt-PT/terms.html" lang="pt-PT" hreflang="pt-PT">Português (Portugal)</a></li>
+                    <li><a href="../ro/terms.html" lang="ro" hreflang="ro">Română</a></li>
+                    <li><a href="../sq/terms.html" lang="sq" hreflang="sq">Shqip</a></li>
+                    <li><a href="../sk/terms.html" lang="sk" hreflang="sk">Slovenčina</a></li>
+                    <li><a href="../sl/terms.html" lang="sl" hreflang="sl">Slovenščina</a></li>
+                    <li><a href="../fi/terms.html" lang="fi" hreflang="fi">Suomi</a></li>
+                    <li><a href="../sv/terms.html" lang="sv" hreflang="sv">Svenska</a></li>
+                    <li><a href="../vi/terms.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+                    <li><a href="../tr/terms.html" lang="tr" hreflang="tr">Türkçe</a></li>
+                    <li><a href="../be/terms.html" lang="be" hreflang="be">Беларуская</a></li>
+                    <li><a href="../bg/terms.html" lang="bg" hreflang="bg">Български</a></li>
+                    <li><a href="../mk/terms.html" lang="mk" hreflang="mk">Македонски</a></li>
+                    <li><a href="../sr/terms.html" lang="sr" hreflang="sr">Српски</a></li>
+                    <li><a href="../uk/terms.html" lang="uk" hreflang="uk">Українська</a></li>
+                    <li><a href="../el/terms.html" lang="el" hreflang="el">Ελληνικά</a></li>
+                    <li><a href="../ar/terms.html" lang="ar" hreflang="ar">العربية</a></li>
+                    <li><a href="../he/terms.html" lang="he" hreflang="he">עברית</a></li>
+                    <li><a href="../ur/terms.html" lang="ur" hreflang="ur">اردو</a></li>
+                    <li><a href="../fa/terms.html" lang="fa" hreflang="fa">فارسی</a></li>
+                    <li><a href="../hi/terms.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+                    <li><a href="../mr/terms.html" lang="mr" hreflang="mr">मराठी</a></li>
+                    <li><a href="../gu/terms.html" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+                    <li><a href="../pa/terms.html" lang="pa" hreflang="pa">ਪੰਜਾਬੀ</a></li>
+                    <li><a href="../bn/terms.html" lang="bn" hreflang="bn">বাংলা</a></li>
+                    <li><a href="../ta/terms.html" lang="ta" hreflang="ta">தமிழ்</a></li>
+                    <li><a href="../te/terms.html" lang="te" hreflang="te">తెలుగు</a></li>
+                    <li><a href="../kn/terms.html" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+                    <li><a href="../ml/terms.html" lang="ml" hreflang="ml">മലയാളം</a></li>
+                    <li><a href="../th/terms.html" lang="th" hreflang="th">ไทย</a></li>
+                    <li><a href="../ja/terms.html" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="../ko/terms.html" lang="ko" hreflang="ko">한국어</a></li>
+                    <li><a href="../zh-Hans/terms.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+                    <li><a href="../zh-Hant/terms.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+                </ul>
+            </div>
+        </details>
+        <script defer src="../js/lang-menu.js"></script>
+        <!-- /lang-menu -->
+    </div>
+</footer>
 
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
+<script defer src="../js/subpage.js"></script>
 
 </body>
 </html>

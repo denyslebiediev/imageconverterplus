@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=6759621930">
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#05060A">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <link rel="icon" href="../images/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
+    <script>
+        document.documentElement.classList.add('js');
+        // if subpage.js never boots, un-gate the reveals so content can't stay hidden
+        setTimeout(function () { if (!window.__icpSubBooted) document.documentElement.classList.remove('js'); }, 2500);
+    </script>
     <title>Ondersteuning - Image Converter Plus</title>
     <meta name="description" content="Krijg hulp bij Image Converter Plus. Vind antwoorden op veelgestelde vragen over het converteren, aanpassen en beschermen van je foto&#39;s.">
         <link rel="alternate" hreflang="en" href="https://denyslebiediev.github.io/imageconverterplus/support.html">
@@ -74,54 +78,66 @@
     <link rel="alternate" hreflang="cy" href="https://denyslebiediev.github.io/imageconverterplus/cy/support.html">
     <link rel="alternate" hreflang="be" href="https://denyslebiediev.github.io/imageconverterplus/be/support.html">
     <link rel="alternate" hreflang="x-default" href="https://denyslebiediev.github.io/imageconverterplus/support.html">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/subpage.css">
-    <link rel="stylesheet" href="../css/support.css">
+    <meta property="og:title" content="Ondersteuning — Image Converter Plus">
+    <meta property="og:description" content="Krijg hulp bij Image Converter Plus. Vind antwoorden op veelgestelde vragen over het converteren, aanpassen en beschermen van je foto&#39;s.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://denyslebiediev.github.io/imageconverterplus/nl/support.html">
+    <meta property="og:image" content="https://denyslebiediev.github.io/imageconverterplus/images/icon-512.png">
+    <link rel="canonical" href="https://denyslebiediev.github.io/imageconverterplus/nl/support.html">
+    <link rel="preload" href="../fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/subpage-dark.css">
 
 </head>
 <body>
 
-<!-- Nav -->
-<nav>
+<a class="skip-link" href="#main">Ga naar inhoud</a>
+
+<nav class="site-nav" aria-label="Site">
     <div class="nav-inner">
-        <a class="nav-title" href="index.html">Image Converter Plus</a>
+        <a class="nav-brand" href="index.html">
+            <img src="../images/AppIcon.png" alt="" width="28" height="28">
+            <span>Image Converter Plus</span>
+        </a>
         <ul class="nav-links">
             <li><a href="privacy.html">Privacybeleid</a></li>
             <li><a href="terms.html">Gebruiksvoorwaarden</a></li>
-            <li><a href="support.html">Ondersteuning</a></li>
+            <li><a href="support.html" aria-current="page">Ondersteuning</a></li>
         </ul>
+        <a class="nav-cta" href="https://apps.apple.com/app/image-converter-plus/id6759621930">Download de app</a>
     </div>
 </nav>
 
-<div class="page">
+<div class="page" id="main">
 
     <!-- Hero -->
-    <div class="hero fade-in">
-        <h1>Ondersteuning</h1>
+    <header class="page-head">
+        <p class="eyebrow mono">Help</p>
+        <h1 class="headline">Ondersteuning</h1>
         <p class="subtitle">Vind antwoorden op veelgestelde vragen over het converteren, aanpassen en beschermen van je foto's.</p>
         <a href="mailto:imageconverterplus.help@gmail.com" class="contact-btn">Neem contact op</a>
-    </div>
+    </header>
 
     <!-- Formats -->
-    <div class="formats-section fade-in">
+    <div class="formats-section" data-reveal>
         <p class="section-label">Formaten</p>
         <h2 class="section-title">Zeven formaten, één app.</h2>
         <p class="section-desc">Converteer tussen de populairste afbeeldingsformaten met volledige kwaliteitsregeling.</p>
-        <div class="formats-row stagger">
-            <span class="format-badge fade-in">JPEG</span>
-            <span class="format-badge fade-in">PDF</span>
-            <span class="format-badge fade-in">PNG</span>
-            <span class="format-badge fade-in">WebP</span>
-            <span class="format-badge fade-in">HEIC</span>
-            <span class="format-badge fade-in">AVIF</span>
-            <span class="format-badge fade-in">TIFF</span>
+        <div class="formats-row">
+            <span class="format-badge chip mono">JPEG</span>
+            <span class="format-badge chip mono is-pro">PDF <span class="pro-tag">PRO</span></span>
+            <span class="format-badge chip mono">PNG</span>
+            <span class="format-badge chip mono">WebP</span>
+            <span class="format-badge chip mono">HEIC</span>
+            <span class="format-badge chip mono is-pro">AVIF <span class="pro-tag">PRO</span></span>
+            <span class="format-badge chip mono is-pro">TIFF <span class="pro-tag">PRO</span></span>
         </div>
     </div>
 
     <!-- FAQ -->
     <div class="faq-section">
 
-        <div class="faq-category fade-in">
+        <div class="faq-category" data-reveal>
             <h2 class="faq-category-title">Aan de slag</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
@@ -161,7 +177,7 @@
             </div>
         </div>
 
-        <div class="faq-category fade-in">
+        <div class="faq-category" data-reveal>
             <h2 class="faq-category-title">Conversieinstellingen</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
@@ -201,7 +217,7 @@
             </div>
         </div>
 
-        <div class="faq-category fade-in">
+        <div class="faq-category" data-reveal>
             <h2 class="faq-category-title">Privacy &amp; metadata</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
@@ -241,7 +257,7 @@
             </div>
         </div>
 
-        <div class="faq-category fade-in">
+        <div class="faq-category" data-reveal>
             <h2 class="faq-category-title">Advertenties &amp; tracking</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
@@ -281,7 +297,7 @@
             </div>
         </div>
 
-        <div class="faq-category fade-in">
+        <div class="faq-category" data-reveal>
             <h2 class="faq-category-title">Opslaan &amp; delen</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
@@ -312,7 +328,7 @@
             </div>
         </div>
 
-        <div class="faq-category fade-in">
+        <div class="faq-category" data-reveal>
             <h2 class="faq-category-title">Presets</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
@@ -334,7 +350,7 @@
             </div>
         </div>
 
-        <div class="faq-category fade-in">
+        <div class="faq-category" data-reveal>
             <h2 class="faq-category-title">Geschiedenis</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
@@ -356,7 +372,7 @@
             </div>
         </div>
 
-        <div class="faq-category fade-in">
+        <div class="faq-category" data-reveal>
             <h2 class="faq-category-title">Pro</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
@@ -387,7 +403,7 @@
             </div>
         </div>
 
-        <div class="faq-category fade-in">
+        <div class="faq-category" data-reveal>
             <h2 class="faq-category-title">Probleemoplossing</h2>
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
@@ -430,7 +446,7 @@
     </div>
 
     <!-- System Requirements -->
-    <div class="requirements fade-in">
+    <div class="requirements" data-reveal>
         <h3>Systeemvereisten</h3>
         <p>iOS 16.0 of later</p>
         <p>Compatibel met iPhone en iPad</p>
@@ -438,7 +454,7 @@
     </div>
 
     <!-- Links -->
-    <div class="links-section fade-in">
+    <div class="links-section" data-reveal>
 
         <a class="link-card" href="privacy.html">
             <p class="link-label">Juridisch</p>
@@ -453,45 +469,94 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer fade-in">
+    <div class="footer">
         <p>Laatst bijgewerkt: mei 2026</p>
     </div>
 
 </div>
 
-<script>
-    // Fade-in on scroll
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span class="copyright">© 2026 Denys Lebiediev</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">Privacybeleid</a></li>
+            <li><a href="terms.html">Gebruiksvoorwaarden</a></li>
+            <li><a href="support.html">Ondersteuning</a></li>
+        </ul>
+        <!-- lang-menu -->
+        <details class="lang-menu">
+            <summary class="lang-trigger" aria-label="Taal: Nederlands"><svg class="lang-globe" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><ellipse cx="8" cy="8" rx="2.8" ry="6.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M1.7 8h12.6M2.6 4.6h10.8M2.6 11.4h10.8" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="lang-current">Nederlands</span><svg class="lang-chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+            <div class="lang-panel">
+                <ul class="lang-list" role="list" translate="no">
+                    <li><a href="../af/support.html" lang="af" hreflang="af">Afrikaans</a></li>
+                    <li><a href="../id/support.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+                    <li><a href="../ms/support.html" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+                    <li><a href="../bs/support.html" lang="bs" hreflang="bs">Bosanski</a></li>
+                    <li><a href="../ca/support.html" lang="ca" hreflang="ca">Català</a></li>
+                    <li><a href="../cs/support.html" lang="cs" hreflang="cs">Čeština</a></li>
+                    <li><a href="../cy/support.html" lang="cy" hreflang="cy">Cymraeg</a></li>
+                    <li><a href="../da/support.html" lang="da" hreflang="da">Dansk</a></li>
+                    <li><a href="../de/support.html" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="../et/support.html" lang="et" hreflang="et">Eesti</a></li>
+                    <li><a href="../support.html?lang=en" lang="en" hreflang="en">English</a></li>
+                    <li><a href="../es/support.html" lang="es" hreflang="es">Español</a></li>
+                    <li><a href="../fil/support.html" lang="fil" hreflang="fil">Filipino</a></li>
+                    <li><a href="../fr/support.html" lang="fr" hreflang="fr">Français</a></li>
+                    <li><a href="../ga/support.html" lang="ga" hreflang="ga">Gaeilge</a></li>
+                    <li><a href="../hr/support.html" lang="hr" hreflang="hr">Hrvatski</a></li>
+                    <li><a href="../is/support.html" lang="is" hreflang="is">Íslenska</a></li>
+                    <li><a href="../it/support.html" lang="it" hreflang="it">Italiano</a></li>
+                    <li><a href="../sw/support.html" lang="sw" hreflang="sw">Kiswahili</a></li>
+                    <li><a href="../lv/support.html" lang="lv" hreflang="lv">Latviešu</a></li>
+                    <li><a href="../lt/support.html" lang="lt" hreflang="lt">Lietuvių</a></li>
+                    <li><a href="../hu/support.html" lang="hu" hreflang="hu">Magyar</a></li>
+                    <li><a href="../mt/support.html" lang="mt" hreflang="mt">Malti</a></li>
+                    <li><a href="../nl/support.html" lang="nl" hreflang="nl" aria-current="true">Nederlands<svg class="lang-check" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+                    <li><a href="../nb/support.html" lang="nb" hreflang="nb">Norsk bokmål</a></li>
+                    <li><a href="../pl/support.html" lang="pl" hreflang="pl">Polski</a></li>
+                    <li><a href="../pt-BR/support.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+                    <li><a href="../pt-PT/support.html" lang="pt-PT" hreflang="pt-PT">Português (Portugal)</a></li>
+                    <li><a href="../ro/support.html" lang="ro" hreflang="ro">Română</a></li>
+                    <li><a href="../sq/support.html" lang="sq" hreflang="sq">Shqip</a></li>
+                    <li><a href="../sk/support.html" lang="sk" hreflang="sk">Slovenčina</a></li>
+                    <li><a href="../sl/support.html" lang="sl" hreflang="sl">Slovenščina</a></li>
+                    <li><a href="../fi/support.html" lang="fi" hreflang="fi">Suomi</a></li>
+                    <li><a href="../sv/support.html" lang="sv" hreflang="sv">Svenska</a></li>
+                    <li><a href="../vi/support.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+                    <li><a href="../tr/support.html" lang="tr" hreflang="tr">Türkçe</a></li>
+                    <li><a href="../be/support.html" lang="be" hreflang="be">Беларуская</a></li>
+                    <li><a href="../bg/support.html" lang="bg" hreflang="bg">Български</a></li>
+                    <li><a href="../mk/support.html" lang="mk" hreflang="mk">Македонски</a></li>
+                    <li><a href="../sr/support.html" lang="sr" hreflang="sr">Српски</a></li>
+                    <li><a href="../uk/support.html" lang="uk" hreflang="uk">Українська</a></li>
+                    <li><a href="../el/support.html" lang="el" hreflang="el">Ελληνικά</a></li>
+                    <li><a href="../ar/support.html" lang="ar" hreflang="ar">العربية</a></li>
+                    <li><a href="../he/support.html" lang="he" hreflang="he">עברית</a></li>
+                    <li><a href="../ur/support.html" lang="ur" hreflang="ur">اردو</a></li>
+                    <li><a href="../fa/support.html" lang="fa" hreflang="fa">فارسی</a></li>
+                    <li><a href="../hi/support.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+                    <li><a href="../mr/support.html" lang="mr" hreflang="mr">मराठी</a></li>
+                    <li><a href="../gu/support.html" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+                    <li><a href="../pa/support.html" lang="pa" hreflang="pa">ਪੰਜਾਬੀ</a></li>
+                    <li><a href="../bn/support.html" lang="bn" hreflang="bn">বাংলা</a></li>
+                    <li><a href="../ta/support.html" lang="ta" hreflang="ta">தமிழ்</a></li>
+                    <li><a href="../te/support.html" lang="te" hreflang="te">తెలుగు</a></li>
+                    <li><a href="../kn/support.html" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+                    <li><a href="../ml/support.html" lang="ml" hreflang="ml">മലയാളം</a></li>
+                    <li><a href="../th/support.html" lang="th" hreflang="th">ไทย</a></li>
+                    <li><a href="../ja/support.html" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="../ko/support.html" lang="ko" hreflang="ko">한국어</a></li>
+                    <li><a href="../zh-Hans/support.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+                    <li><a href="../zh-Hant/support.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+                </ul>
+            </div>
+        </details>
+        <script defer src="../js/lang-menu.js"></script>
+        <!-- /lang-menu -->
+    </div>
+</footer>
 
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-
-    // Accordion FAQ
-    document.querySelectorAll('.faq-question').forEach(btn => {
-        btn.addEventListener('click', () => {
-            const item = btn.closest('.faq-item');
-            const isOpen = item.classList.contains('open');
-
-            // close all items in the same category
-            item.closest('.faq-category').querySelectorAll('.faq-item.open').forEach(openItem => {
-                openItem.classList.remove('open');
-                openItem.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
-            });
-
-            // toggle clicked item
-            if (!isOpen) {
-                item.classList.add('open');
-                btn.setAttribute('aria-expanded', 'true');
-            }
-        });
-    });
-</script>
+<script defer src="../js/subpage.js"></script>
 
 </body>
 </html>

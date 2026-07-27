@@ -124,7 +124,7 @@
             <h2>Buod</h2>
             <p>Ang Image Converter Plus (ang &ldquo;App&rdquo;) ay binuo ni Denys Lebiediev. Ang lahat ng pag-convert ng larawan ay tumatakbo sa iyong device. Wala kaming pinapatakbong anumang server na tumatanggap ng iyong mga larawan. Gayunpaman, gumagamit kami ng kakaunting bilang ng mga pinagkakatiwalaang third-party na serbisyo upang asikasuhin ang mga pagbili sa app at upang magpakita ng opsyonal na mga rewarded video ad sa mga libreng user. Ang mga serbisyong iyon ay kumokolekta ng limitado, kadalasang anonimo na impormasyon ayon sa inilarawan sa ibaba. Lagi kang may kontrol sa kung ano ang nangyayari.</p>
             <ul>
-                <li>Hindi kailanman umaalis sa iyong device ang mga larawan at file na iyong na-convert.</li>
+                <li>Hindi kailanman ina-upload ang mga larawan at file na kino-convert mo &mdash; aalis lang ang mga ito sa iyong device kapag pinili mong i-save o i-share ang mga ito.</li>
                 <li>Pinoproseso ng Apple ang mga pagbili. Tumutulong ang Adapty na i-verify namin ang katayuan ng iyong subscription.</li>
                 <li>Maaaring piliin ng mga libreng user na manood ng rewarded ad na inihahatid ng Google AdMob, na maaaring magpakita nito sa pamamagitan ng mediation partner gaya ng Unity Ads.</li>
                 <li>Kung nakatira ka sa isang rehiyon na nangangailangan ng form ng pahintulot para sa ad, makakakita ka ng isa bago ipakita ang anumang ad.</li>
@@ -148,7 +148,7 @@
             <h2>Impormasyong Kinokolekta ng mga Third-Party na Serbisyo</h2>
             <p>Umaasa ang App sa kakaunting bilang ng mga serbisyo upang gumana. Naka-configure namin ang bawat isa sa kanila upang kolektahin ang minimum na data na kinakailangan. Wala kaming access sa nilalaman ng iyong mga larawan sa pamamagitan ng alinman sa kanila.</p>
 
-            <p><strong>Apple StoreKit (mga pagbili).</strong> Ang lahat ng pagbili sa app &mdash; mga subscription, ang lifetime upgrade, at mga tip &mdash; ay pinoproseso ng Apple. Sinisingil ng Apple ang iyong Apple ID, at tumatanggap kami ng anonimong kumpirmasyon ng transaksyon. Hindi namin kailanman nakikita ang iyong pangalan, email address, billing address, o paraan ng pagbabayad.</p>
+            <p><strong>Apple StoreKit (mga pagbili).</strong> Ang lahat ng pagbili sa app &mdash; mga subscription, ang lifetime upgrade, at mga tip &mdash; ay pinoproseso ng Apple. Sinisingil ng Apple ang iyong Apple ID, at tumatanggap kami ng anonimong kumpirmasyon ng transaksyon. Hindi namin kailanman nakikita ang iyong pangalan, email address, billing address, o paraan ng pagbabayad. Kung humingi ka ng refund sa Apple, ibinabahagi ng App sa Apple ang limitadong consumption data tungkol sa iyong mga in-app purchase — gaya ng iyong purchase at refund history sa app, edad ng iyong account, at pangkalahatang usage signals — upang matulungan ang Apple na magdesisyon sa iyong refund request. Walang mga larawan, file, o personal na impormasyon na ibinabahagi.</p>
 
             <p><strong>Adapty (pamamahala ng subscription).</strong> Gumagamit kami ng Adapty upang i-verify kung mayroon kang aktibong subscription o lifetime na pagbili. Tumatanggap ang Adapty ng anonimong identifier na nakatakda sa device na nililikha ng SDK nito kasama ang impormasyon ng transaksyon sa App Store na kinakailangan upang i-validate ang iyong pagbili, ang bersyon ng App, at ang mga pangunahing katangian ng device (bersyon ng operating system at modelo ng device). Hindi tumatanggap ang Adapty ng iyong Apple ID, ng iyong email address, o ng nilalaman ng iyong mga larawan. Tingnan ang <a href="https://adapty.io/privacy" rel="noopener" target="_blank">adapty.io/privacy</a>.</p>
 
@@ -156,12 +156,14 @@
 
             <p><strong>Unity Ads (mediation ng ad).</strong> Upang punan ang mga rewarded ad, gumagamit ang Google AdMob ng mediation, na nangangahulugang ang isang indibidwal na ad ay maaaring ibigay ng isang partner network sa halip na ng Google mismo. Kasama sa Image Converter Plus ang Unity Ads, na ibinibigay ng Unity Technologies, bilang isang mediation partner. Kapag nagbibigay ang Unity Ads ng isang ad, tumatanggap ito ng kaparehong limitado, kadalasang anonimong impormasyon na inilarawan sa itaas &mdash; isang ad identifier, mga pangunahing katangian ng device, at mga event ng interaksyon sa ad gaya ng impression at pagkumpleto &mdash; at iginagalang nito ang kaparehong mga pagpili ng pahintulot na ginawa mo sa pamamagitan ng prompt ng App Tracking Transparency ng Apple at ng form ng User Messaging Platform. Walang ad network na tumatanggap ng iyong mga larawan, file, o aktibidad sa pag-convert. Tingnan ang <a href="https://unity.com/legal/privacy-policy" rel="noopener" target="_blank">unity.com/legal/privacy-policy</a>.</p>
 
+            <p>Maaaring tantiyahin ng mga ad network ang tinatayang lokasyon mula sa iyong IP address. Hindi kailanman ina-access mismo ng Image Converter Plus ang iyong lokasyon.</p>
+
             <p><strong>Apple App Store (pagsuri sa update).</strong> Pana-panahong sinusuri ng App ang pampublikong iTunes Lookup endpoint ng Apple upang malaman kung available ang isang mas bagong bersyon. Kasama lamang sa kahilingang ito ang bundle identifier ng App at ang bansa ng iyong storefront. Maaaring tumanggap ang Apple ng iyong IP address bilang bahagi ng anumang kahilingang HTTPS, ngunit hindi kami.</p>
         </div>
 
         <div class="content-card" data-reveal>
             <h2>Pagsubaybay at mga Personalisadong Ad</h2>
-            <p>Kung isa kang libreng user, sa unang pagkakataon na nasa posisyon ang App na magpakita sa iyo ng ad, maaari naming tanungin, sa pamamagitan ng karaniwang system prompt ng Apple (App Tracking Transparency), kung pinapayagan mo ang App na gamitin ang advertising identifier ng iyong device (IDFA) upang maghatid ng mas may kaugnayang mga ad. Pinal ang iyong sagot: maaari mo itong baguhin anumang oras sa iOS&nbsp;Mga Setting&nbsp;&rsaquo; Privacy &amp; Security &nbsp;&rsaquo; Tracking &nbsp;&rsaquo; Image Converter Plus.</p>
+            <p>Kung isa kang libreng user, sa unang pagkakataon na nasa posisyon ang App na magpakita sa iyo ng ad, maaari naming tanungin, sa pamamagitan ng karaniwang system prompt ng Apple (App Tracking Transparency), kung pinapayagan mo ang App na gamitin ang advertising identifier ng iyong device (IDFA) upang maghatid ng mas may kaugnayang mga ad. Maaari mong baguhin ang iyong sagot anumang oras sa iOS&nbsp;Mga Setting&nbsp;&rsaquo; Privacy &amp; Security&nbsp;&rsaquo; Tracking&nbsp;&rsaquo; Image Converter Plus.</p>
             <ul>
                 <li>Kung piliin mong <strong>Payagan ang Pagsubaybay</strong>, maaaring gamitin ng AdMob at ng mga mediation partner nito ang advertising identifier ng iyong device upang magpakita ng mga personalisadong ad.</li>
                 <li>Kung piliin mong <strong>Hilingin sa App na Huwag Subaybayan</strong>, mga hindi personalisado at kontekstuwal na ad lamang ang ipinapakita.</li>
@@ -193,7 +195,7 @@
 
         <div class="content-card" data-reveal>
             <h2>Privacy Manifest</h2>
-            <p>Naglalaman ang App ng isang privacy manifest na hinihiling ng Apple na naglalahad nang eksakto kung aling mga platform API ang ginagamit nito at kung aling mga kategorya ng data ang maaaring kolektahin ng mga third-party na SDK nito. Partikular, inilalahad ng manifest: ang identifier ng device at advertising data na nakaugnay sa third-party na advertising (ginagamit ng AdMob at ng mediation partner nitong Unity Ads, kapag binigyan mo lamang ng pahintulot); ang interaksyon sa produkto, performance data, at iba pang diagnostic data na nakaugnay sa analytics at functionality ng app (ginagamit ng Adapty, AdMob, at Unity Ads, nang anonimo); at ang kasaysayan ng pagbili na nakaugnay sa functionality ng app at analytics (ginagamit upang i-verify ang iyong subscription). Pinagsasama ng Apple ang mga deklarasyong ito at ang mga manifest ng aming mga third-party na SDK sa seksyong &ldquo;App Privacy&rdquo; sa listahan ng App Store.</p>
+            <p>Naglalaman ang App ng isang privacy manifest na hinihiling ng Apple na naglalahad nang eksakto kung aling mga platform API ang ginagamit nito at kung aling mga kategorya ng data ang maaaring kolektahin ng mga third-party na SDK nito. Partikular, inilalahad ng manifest: ang identifier ng device at advertising data na nakaugnay sa third-party na advertising (ginagamit ng AdMob at ng mediation partner nitong Unity Ads, kapag binigyan mo lamang ng pahintulot); ang interaksyon sa produkto, performance data, at iba pang diagnostic data na nakaugnay sa analytics at functionality ng app (ginagamit ng Adapty, AdMob, at Unity Ads, nang anonimo); at ang kasaysayan ng pagbili na nakaugnay sa functionality ng app at analytics (ginagamit upang i-verify ang iyong subscription). Pinagsasama ng Apple ang mga deklarasyong ito at ang mga manifest ng aming mga third-party na SDK sa seksyong &ldquo;App Privacy&rdquo; sa listahan ng App Store. Kaya ipinapakita rin sa listahang iyon ang mga kategoryang idinedeklara ng sariling mga manifest ng mga SDK, tulad ng tinatayang lokasyon (tinataya mula sa iyong IP address) at crash data.</p>
         </div>
 
         <div class="content-card" data-reveal>
@@ -246,7 +248,7 @@
 
     <!-- Footer -->
     <div class="footer">
-        <p>Huling na-update: Mayo 2026</p>
+        <p>Huling na-update: Hulyo 2026</p>
     </div>
 
 </div>

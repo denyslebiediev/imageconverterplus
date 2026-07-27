@@ -124,7 +124,7 @@
             <h2>Sažetak</h2>
             <p>Image Converter Plus (&ldquo;Aplikacija&rdquo;) razvija Denys Lebiediev. Sva konverzija slika izvodi se na vašem uređaju. Ne upravljamo nijednim serverom koji prima vaše fotografije. Međutim, koristimo mali broj pouzdanih usluga trećih strana za obradu kupovina unutar aplikacije i za prikazivanje neobaveznih nagradnih videooglasa besplatnim korisnicima. Te usluge prikupljaju ograničene, uglavnom anonimne informacije kako je opisano u nastavku. Uvijek imate kontrolu nad onim što se dešava.</p>
             <ul>
-                <li>Fotografije i datoteke koje konvertujete nikada ne napuštaju vaš uređaj.</li>
+                <li>Fotografije i datoteke koje konvertujete nikada se ne otpremaju &mdash; one napuštaju vaš uređaj samo kada ih odlučite sačuvati ili podijeliti.</li>
                 <li>Apple obrađuje kupovine. Adapty nam pomaže da potvrdimo status vaše pretplate.</li>
                 <li>Besplatni korisnici mogu odabrati da gledaju nagradni oglas koji isporučuje Google AdMob, koji ga može prikazati putem partnera za posredovanje kao što je Unity Ads.</li>
                 <li>Ako živite u regiji koja zahtijeva obrazac za pristanak na oglase, vidjet ćete ga prije prikazivanja bilo kojeg oglasa.</li>
@@ -148,7 +148,7 @@
             <h2>Informacije koje prikupljaju usluge trećih strana</h2>
             <p>Aplikacija se za svoj rad oslanja na mali broj usluga. Svaku od njih konfigurirali smo da prikuplja najmanju potrebnu količinu podataka. Niti putem jedne od njih nemamo pristup sadržaju vaših fotografija.</p>
 
-            <p><strong>Apple StoreKit (kupovine).</strong> Sve kupovine unutar aplikacije &mdash; pretplate, doživotnu nadogradnju i napojnice &mdash; obrađuje Apple. Apple tereti vaš Apple ID, a mi primamo anonimnu potvrdu transakcije. Nikada ne vidimo vaše ime, adresu e-pošte, adresu za naplatu niti način plaćanja.</p>
+            <p><strong>Apple StoreKit (kupovine).</strong> Sve kupovine unutar aplikacije &mdash; pretplate, doživotnu nadogradnju i napojnice &mdash; obrađuje Apple. Apple tereti vaš Apple ID, a mi primamo anonimnu potvrdu transakcije. Nikada ne vidimo vaše ime, adresu e-pošte, adresu za naplatu niti način plaćanja. Ako od Applea zatražite povrat novca, Aplikacija dijeli s Appleom ograničene podatke o potrošnji kupovina u aplikaciji — poput vaše historije kupovina i povrata u aplikaciji, dužine postojanja računa i zbirnih signala korištenja — kako bi pomogla Appleu da odluči o vašem zahtjevu. Ne dijele se nikakve fotografije, datoteke ni lični podaci.</p>
 
             <p><strong>Adapty (upravljanje pretplatama).</strong> Adapty koristimo da provjerimo imate li aktivnu pretplatu ili doživotnu kupovinu. Adapty prima anonimni identifikator vezan za uređaj koji generira njegov SDK, zajedno s informacijama o transakciji App Storea potrebnim za potvrdu vaše kupovine, verzijom Aplikacije i osnovnim karakteristikama uređaja (verzija operativnog sistema i model uređaja). Adapty ne prima vaš Apple ID, vašu adresu e-pošte niti sadržaj vaših fotografija. Pogledajte <a href="https://adapty.io/privacy" rel="noopener" target="_blank">adapty.io/privacy</a>.</p>
 
@@ -156,12 +156,14 @@
 
             <p><strong>Unity Ads (posredovanje oglasa).</strong> Za popunjavanje nagradnih oglasa Google AdMob koristi posredovanje, što znači da pojedinačni oglas može isporučiti partnerska mreža umjesto same kompanije Google. Image Converter Plus uključuje Unity Ads, koji isporučuje Unity Technologies, kao partnera za posredovanje. Kada Unity Ads isporuči oglas, prima iste ograničene, uglavnom anonimne informacije opisane gore &mdash; oglasni identifikator, osnovne karakteristike uređaja i događaje interakcije s oglasom kao što su prikaz i dovršetak &mdash; te poštuje iste odluke o pristanku koje donosite putem Appleovog upita App Tracking Transparency i obrasca User Messaging Platform. Nijedna oglasna mreža ne prima vaše fotografije, datoteke niti vašu aktivnost konverzije. Pogledajte <a href="https://unity.com/legal/privacy-policy" rel="noopener" target="_blank">unity.com/legal/privacy-policy</a>.</p>
 
+            <p>Oglasne mreže mogu procijeniti približnu lokaciju na osnovu vaše IP adrese. Sam Image Converter Plus nikada ne pristupa vašoj lokaciji.</p>
+
             <p><strong>Apple App Store (provjera ažuriranja).</strong> Aplikacija povremeno upituje Appleovu javnu krajnju tačku iTunes Lookup kako bi saznala je li dostupna novija verzija. Taj zahtjev uključuje samo identifikator paketa Aplikacije i zemlju vaše trgovine. Apple može primiti vašu IP adresu kao dio bilo kojeg HTTPS zahtjeva, ali mi ne.</p>
         </div>
 
         <div class="content-card" data-reveal>
             <h2>Praćenje i personalizirani oglasi</h2>
-            <p>Ako ste besplatni korisnik, prvi put kada je Aplikacija u poziciji da vam prikaže oglas, možemo vas pitati &mdash; putem Appleovog standardnog sistemskog upita (App Tracking Transparency) &mdash; dopuštate li Aplikaciji da koristi oglasni identifikator vašeg uređaja (IDFA) za isporuku relevantnijih oglasa. Vaš je odgovor konačan: možete ga promijeniti u bilo kojem trenutku u iOS&nbsp;Postavke&nbsp;&rsaquo; Privatnost i sigurnost &nbsp;&rsaquo; Praćenje &nbsp;&rsaquo; Image Converter Plus.</p>
+            <p>Ako ste besplatni korisnik, prvi put kada je Aplikacija u poziciji da vam prikaže oglas, možemo vas pitati &mdash; putem Appleovog standardnog sistemskog upita (App Tracking Transparency) &mdash; dopuštate li Aplikaciji da koristi oglasni identifikator vašeg uređaja (IDFA) za isporuku relevantnijih oglasa. Svoj odgovor možete promijeniti u bilo kojem trenutku u iOS&nbsp;Postavke&nbsp;&rsaquo; Privatnost i sigurnost&nbsp;&rsaquo; Praćenje&nbsp;&rsaquo; Image Converter Plus.</p>
             <ul>
                 <li>Ako odaberete <strong>Dopusti praćenje</strong>, AdMob i njegovi partneri za posredovanje mogu koristiti oglasni identifikator vašeg uređaja za prikazivanje personaliziranih oglasa.</li>
                 <li>Ako odaberete <strong>Zatraži od aplikacije da ne prati</strong>, prikazuju se samo nepersonalizirani, kontekstualni oglasi.</li>
@@ -193,7 +195,7 @@
 
         <div class="content-card" data-reveal>
             <h2>Manifest privatnosti</h2>
-            <p>Aplikacija sadrži manifest privatnosti koji zahtijeva Apple i koji tačno deklarira koje interfejse platforme koristi te koje kategorije podataka mogu prikupljati njeni SDK-ovi trećih strana. Konkretno, manifest deklarira: identifikator uređaja i oglasne podatke povezane s oglašavanjem trećih strana (koje koriste AdMob i njegov partner za posredovanje Unity Ads, samo kada date dozvolu); interakciju s proizvodom, podatke o performansama i druge dijagnostičke podatke povezane s analitikom i funkcionalnošću aplikacije (koje koriste Adapty, AdMob i Unity Ads, anonimno); te historiju kupovina povezanu s funkcionalnošću aplikacije i analitikom (koja se koristi za potvrdu vaše pretplate). Apple objedinjuje te izjave i manifeste naših SDK-ova trećih strana u odjeljku &ldquo;Privatnost aplikacije&rdquo; na stranici App Storea.</p>
+            <p>Aplikacija sadrži manifest privatnosti koji zahtijeva Apple i koji tačno deklarira koje interfejse platforme koristi te koje kategorije podataka mogu prikupljati njeni SDK-ovi trećih strana. Konkretno, manifest deklarira: identifikator uređaja i oglasne podatke povezane s oglašavanjem trećih strana (koje koriste AdMob i njegov partner za posredovanje Unity Ads, samo kada date dozvolu); interakciju s proizvodom, podatke o performansama i druge dijagnostičke podatke povezane s analitikom i funkcionalnošću aplikacije (koje koriste Adapty, AdMob i Unity Ads, anonimno); te historiju kupovina povezanu s funkcionalnošću aplikacije i analitikom (koja se koristi za potvrdu vaše pretplate). Apple objedinjuje te izjave i manifeste naših SDK-ova trećih strana u odjeljku &ldquo;Privatnost aplikacije&rdquo; na stranici App Storea. Zato taj prikaz uključuje i kategorije deklarirane u vlastitim manifestima SDK-ova, poput približne lokacije (procijenjene iz vaše IP adrese) i podataka o rušenju.</p>
         </div>
 
         <div class="content-card" data-reveal>
@@ -246,7 +248,7 @@
 
     <!-- Footer -->
     <div class="footer">
-        <p>Posljednje ažuriranje: maj 2026.</p>
+        <p>Posljednje ažuriranje: juli 2026.</p>
     </div>
 
 </div>

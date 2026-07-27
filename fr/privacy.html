@@ -124,7 +124,7 @@
             <h2>Résumé</h2>
             <p>Image Converter Plus (l'&ldquo;App&rdquo;) est développée par Denys Lebiediev. Toute la conversion d'images s'effectue sur votre appareil. Nous n'exploitons aucun serveur qui reçoit vos photos. Nous utilisons toutefois un petit nombre de services tiers de confiance pour gérer les achats intégrés et afficher des publicités vidéo avec récompense facultatives aux utilisateurs gratuits. Ces services collectent des informations limitées et, pour la plupart, anonymes, comme décrit ci-dessous. Vous gardez toujours le contrôle de ce qui se passe.</p>
             <ul>
-                <li>Les photos et fichiers que vous convertissez ne quittent jamais votre appareil.</li>
+                <li>Les photos et fichiers que vous convertissez ne sont jamais envoyés &mdash; ils ne quittent votre appareil que lorsque vous choisissez de les enregistrer ou de les partager.</li>
                 <li>Apple traite les achats. Adapty nous aide à vérifier l'état de votre abonnement.</li>
                 <li>Les utilisateurs gratuits peuvent choisir de regarder une publicité avec récompense fournie par Google AdMob, qui peut la diffuser via un partenaire de médiation tel qu'Unity Ads.</li>
                 <li>Si vous résidez dans une région qui exige un formulaire de consentement publicitaire, vous en verrez un avant l'affichage de toute publicité.</li>
@@ -148,7 +148,7 @@
             <h2>Informations collectées par les services tiers</h2>
             <p>L'App s'appuie sur un petit nombre de services pour fonctionner. Nous avons configuré chacun d'eux pour collecter le minimum de données nécessaires. Nous n'avons accès au contenu de vos photos par aucun d'eux.</p>
 
-            <p><strong>Apple StoreKit (achats).</strong> Tous les achats intégrés &mdash; abonnements, mise à niveau à vie et pourboires &mdash; sont traités par Apple. Apple débite votre identifiant Apple, et nous recevons une confirmation de transaction anonyme. Nous ne voyons jamais votre nom, votre adresse e-mail, votre adresse de facturation ni votre moyen de paiement.</p>
+            <p><strong>Apple StoreKit (achats).</strong> Tous les achats intégrés &mdash; abonnements, mise à niveau à vie et pourboires &mdash; sont traités par Apple. Apple débite votre identifiant Apple, et nous recevons une confirmation de transaction anonyme. Nous ne voyons jamais votre nom, votre adresse e-mail, votre adresse de facturation ni votre moyen de paiement. Si vous demandez un remboursement à Apple, l'App partage avec Apple des données limitées sur l'utilisation de vos achats intégrés — comme votre historique d'achats et de remboursements dans l'app, l'ancienneté de votre compte et des signaux d'usage agrégés — afin d'aider Apple à statuer sur votre demande. Aucune photo, aucun fichier ni aucune information personnelle n'est partagé.</p>
 
             <p><strong>Adapty (gestion des abonnements).</strong> Nous utilisons Adapty pour vérifier si vous disposez d'un abonnement actif ou d'un achat à vie. Adapty reçoit un identifiant anonyme propre à l'appareil généré par son SDK, ainsi que les informations de transaction de l'App Store nécessaires pour valider votre achat, la version de l'App et des caractéristiques de base de l'appareil (version du système d'exploitation et modèle de l'appareil). Adapty ne reçoit pas votre identifiant Apple, votre adresse e-mail ni le contenu de vos photos. Voir <a href="https://adapty.io/privacy" rel="noopener" target="_blank">adapty.io/privacy</a>.</p>
 
@@ -156,12 +156,14 @@
 
             <p><strong>Unity Ads (médiation publicitaire).</strong> Pour diffuser les publicités avec récompense, Google AdMob recourt à la médiation, ce qui signifie qu'une publicité donnée peut être fournie par un réseau partenaire plutôt que par Google lui-même. Image Converter Plus intègre Unity Ads, fourni par Unity Technologies, en tant que partenaire de médiation. Lorsqu'Unity Ads fournit une publicité, il reçoit les mêmes informations limitées et, pour la plupart, anonymes décrites ci-dessus &mdash; un identifiant publicitaire, des caractéristiques de base de l'appareil et des événements d'interaction publicitaire tels que l'impression et l'achèvement &mdash; et il respecte les mêmes choix de consentement que vous effectuez via l'invite App Tracking Transparency d'Apple et le formulaire de la User Messaging Platform. Aucun réseau publicitaire ne reçoit vos photos, vos fichiers ni votre activité de conversion. Voir <a href="https://unity.com/legal/privacy-policy" rel="noopener" target="_blank">unity.com/legal/privacy-policy</a>.</p>
 
+            <p>Les réseaux publicitaires peuvent estimer une position approximative à partir de votre adresse IP. Image Converter Plus lui-même n’accède jamais à votre position.</p>
+
             <p><strong>Apple App Store (vérification des mises à jour).</strong> L'App interroge périodiquement le point de terminaison public iTunes Lookup d'Apple pour savoir si une version plus récente est disponible. Cette requête ne contient que l'identifiant de bundle de l'App et le pays de votre boutique. Apple peut recevoir votre adresse IP dans le cadre de toute requête HTTPS, mais pas nous.</p>
         </div>
 
         <div class="content-card" data-reveal>
             <h2>Suivi et publicités personnalisées</h2>
-            <p>Si vous êtes un utilisateur gratuit, la première fois que l'App est en mesure de vous montrer une publicité, nous pouvons vous demander, via l'invite système standard d'Apple (App Tracking Transparency), si vous autorisez l'App à utiliser l'identifiant publicitaire de votre appareil (IDFA) pour diffuser des publicités plus pertinentes. Votre réponse est définitive : vous pouvez la modifier à tout moment dans iOS&nbsp;Réglages&nbsp;&rsaquo; Confidentialité et sécurité &nbsp;&rsaquo; Suivi &nbsp;&rsaquo; Image Converter Plus.</p>
+            <p>Si vous êtes un utilisateur gratuit, la première fois que l'App est en mesure de vous montrer une publicité, nous pouvons vous demander, via l'invite système standard d'Apple (App Tracking Transparency), si vous autorisez l'App à utiliser l'identifiant publicitaire de votre appareil (IDFA) pour diffuser des publicités plus pertinentes. Vous pouvez modifier votre réponse à tout moment dans Réglages iOS&nbsp;&rsaquo; Confidentialité et sécurité&nbsp;&rsaquo; Suivi&nbsp;&rsaquo; Image Converter Plus.</p>
             <ul>
                 <li>Si vous choisissez <strong>Autoriser le suivi</strong>, AdMob et ses partenaires de médiation peuvent utiliser l'identifiant publicitaire de votre appareil pour afficher des publicités personnalisées.</li>
                 <li>Si vous choisissez <strong>Demander à l'app de ne pas me suivre</strong>, seules des publicités non personnalisées et contextuelles sont affichées.</li>
@@ -193,7 +195,7 @@
 
         <div class="content-card" data-reveal>
             <h2>Manifeste de confidentialité</h2>
-            <p>L'App inclut un manifeste de confidentialité requis par Apple qui déclare précisément quelles API de plateforme elle utilise et quelles catégories de données ses SDK tiers peuvent collecter. Plus précisément, le manifeste déclare : l'identifiant de l'appareil et les données publicitaires liés à la publicité par des tiers (utilisés par AdMob et son partenaire de médiation Unity Ads, uniquement lorsque vous accordez l'autorisation) ; l'interaction avec le produit, les données de performance et d'autres données de diagnostic liées à l'analyse et au fonctionnement de l'app (utilisées par Adapty, AdMob et Unity Ads, de manière anonyme) ; et l'historique des achats lié au fonctionnement de l'app et à l'analyse (utilisé pour vérifier votre abonnement). Apple regroupe ces déclarations et les manifestes de nos SDK tiers dans la section &ldquo;Confidentialité de l'app&rdquo; de la fiche de l'App Store.</p>
+            <p>L'App inclut un manifeste de confidentialité requis par Apple qui déclare précisément quelles API de plateforme elle utilise et quelles catégories de données ses SDK tiers peuvent collecter. Plus précisément, le manifeste déclare : l'identifiant de l'appareil et les données publicitaires liés à la publicité par des tiers (utilisés par AdMob et son partenaire de médiation Unity Ads, uniquement lorsque vous accordez l'autorisation) ; l'interaction avec le produit, les données de performance et d'autres données de diagnostic liées à l'analyse et au fonctionnement de l'app (utilisées par Adapty, AdMob et Unity Ads, de manière anonyme) ; et l'historique des achats lié au fonctionnement de l'app et à l'analyse (utilisé pour vérifier votre abonnement). Apple regroupe ces déclarations et les manifestes de nos SDK tiers dans la section &ldquo;Confidentialité de l'app&rdquo; de la fiche de l'App Store. Cette section affiche donc aussi des catégories déclarées par les manifestes propres aux SDK, comme la position approximative (estimée à partir de votre adresse IP) et les données de plantage.</p>
         </div>
 
         <div class="content-card" data-reveal>
@@ -246,7 +248,7 @@
 
     <!-- Footer -->
     <div class="footer">
-        <p>Dernière mise à jour : mai 2026</p>
+        <p>Dernière mise à jour : juillet 2026</p>
     </div>
 
 </div>

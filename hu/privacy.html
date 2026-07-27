@@ -124,7 +124,7 @@
             <h2>Összefoglaló</h2>
             <p>Az Image Converter Plust (az &ldquo;Alkalmazás&rdquo;) Denys Lebiediev fejleszti. Minden képkonvertálás az eszközödön fut. Nem üzemeltetünk olyan kiszolgálót, amely fogadná a fényképeidet. Ugyanakkor kis számú megbízható, harmadik féltől származó szolgáltatást használunk az alkalmazáson belüli vásárlások kezeléséhez és ahhoz, hogy az ingyenes felhasználóknak opcionális, jutalmazott videohirdetéseket jelenítsünk meg. Ezek a szolgáltatások korlátozott, többnyire névtelen adatokat gyűjtenek, az alábbiakban leírtak szerint. Mindig te rendelkezel afelett, hogy mi történik.</p>
             <ul>
-                <li>Az általad konvertált fényképek és fájlok soha nem hagyják el az eszközödet.</li>
+                <li>Az általad konvertált fényképek és fájlok soha nem kerülnek feltöltésre &mdash; csak akkor hagyják el az eszközödet, ha úgy döntesz, hogy mented vagy megosztod őket.</li>
                 <li>Az Apple kezeli a vásárlásokat. Az Adapty segít nekünk ellenőrizni az előfizetésed állapotát.</li>
                 <li>Az ingyenes felhasználók dönthetnek úgy, hogy megtekintenek egy, a Google AdMob által megjelenített jutalmazott hirdetést, amelyet az AdMob egy közvetítő partneren, például a Unity Adson keresztül is megjeleníthet.</li>
                 <li>Ha olyan régióban élsz, ahol hirdetési hozzájárulási űrlap szükséges, akkor bármely hirdetés megjelenítése előtt látni fogsz egyet.</li>
@@ -148,7 +148,7 @@
             <h2>A harmadik féltől származó szolgáltatások által gyűjtött adatok</h2>
             <p>Az Alkalmazás a működéséhez kis számú szolgáltatásra támaszkodik. Mindegyiket úgy konfiguráltuk, hogy a lehető legkevesebb szükséges adatot gyűjtse. Egyiküket sem éri el a fényképeid tartalma.</p>
 
-            <p><strong>Apple StoreKit (vásárlások).</strong> Minden alkalmazáson belüli vásárlást &mdash; az előfizetéseket, az élethosszig tartó frissítést és a borravalókat &mdash; az Apple dolgoz fel. Az Apple az Apple ID-dat terheli meg, mi pedig egy névtelen tranzakció-megerősítést kapunk. Soha nem látjuk a nevedet, az e-mail-címedet, a számlázási címedet vagy a fizetési módodat.</p>
+            <p><strong>Apple StoreKit (vásárlások).</strong> Minden alkalmazáson belüli vásárlást &mdash; az előfizetéseket, az élethosszig tartó frissítést és a borravalókat &mdash; az Apple dolgoz fel. Az Apple az Apple ID-dat terheli meg, mi pedig egy névtelen tranzakció-megerősítést kapunk. Soha nem látjuk a nevedet, az e-mail-címedet, a számlázási címedet vagy a fizetési módodat. Ha visszatérítést kérsz az Apple-től, az Alkalmazás korlátozott felhasználási adatokat oszt meg az Apple-lel az alkalmazáson belüli vásárlásaidról &mdash; például az alkalmazáson belüli vásárlási és visszatérítési előzményeidet, fiókod élettartamát és összesített használati jelzéseket &mdash;, hogy az Apple dönteni tudjon a kérésedről. Fényképeket, fájlokat vagy személyes adatokat nem osztunk meg.</p>
 
             <p><strong>Adapty (előfizetés-kezelés).</strong> Az Adaptyt arra használjuk, hogy ellenőrizzük, van-e aktív előfizetésed vagy élethosszig tartó vásárlásod. Az Adapty az SDK-ja által generált, névtelen, eszközre kiterjedő azonosítót kap, az App Store-tranzakció vásárlásod érvényesítéséhez szükséges adataival, az Alkalmazás verziójával és az alapvető eszközjellemzőkkel (operációsrendszer-verzió és eszközmodell) együtt. Az Adapty nem kapja meg az Apple ID-dat, az e-mail-címedet vagy a fényképeid tartalmát. Lásd: <a href="https://adapty.io/privacy" rel="noopener" target="_blank">adapty.io/privacy</a>.</p>
 
@@ -156,12 +156,14 @@
 
             <p><strong>Unity Ads (hirdetésközvetítés).</strong> A jutalmazott hirdetések kitöltéséhez a Google AdMob közvetítést alkalmaz, ami azt jelenti, hogy egy adott hirdetést nem maga a Google, hanem egy partnerhálózat is biztosíthat. Az Image Converter Plus közvetítő partnerként tartalmazza a Unity Adsot, amelyet a Unity Technologies biztosít. Amikor a Unity Ads biztosít egy hirdetést, ugyanazokat a korlátozott, többnyire névtelen adatokat kapja meg, mint amelyeket fentebb leírtunk &mdash; egy hirdetésazonosítót, az alapvető eszközjellemzőket és a hirdetési interakciós eseményeket, például a megjelenítést és a befejezést &mdash;, és ugyanazokat a hozzájárulási döntéseket tartja tiszteletben, amelyeket az Apple App Tracking Transparency kérdésén és a User Messaging Platform űrlapján keresztül hozol meg. Egyetlen hirdetési hálózat sem kapja meg a fényképeidet, fájljaidat vagy konvertálási tevékenységedet. Lásd: <a href="https://unity.com/legal/privacy-policy" rel="noopener" target="_blank">unity.com/legal/privacy-policy</a>.</p>
 
+            <p>A hirdetési hálózatok az Ön IP-címéből hozzávetőleges helyet becsülhetnek meg. Maga az Image Converter Plus soha nem fér hozzá az Ön helyadataihoz.</p>
+
             <p><strong>Apple App Store (frissítésellenőrzés).</strong> Az Alkalmazás időnként lekérdezi az Apple nyilvános iTunes Lookup végpontját, hogy megtudja, elérhető-e újabb verzió. Ez a kérés csak az Alkalmazás csomagazonosítóját és az áruházad országát tartalmazza. Az Apple bármely HTTPS-kérés részeként megkaphatja az IP-címedet, mi azonban nem.</p>
         </div>
 
         <div class="content-card" data-reveal>
             <h2>Nyomon követés és személyre szabott hirdetések</h2>
-            <p>Ha ingyenes felhasználó vagy, akkor az első alkalommal, amikor az Alkalmazás abba a helyzetbe kerül, hogy hirdetést jelenítsen meg neked, az Apple szabványos rendszerkérésén (App Tracking Transparency) keresztül megkérdezhetjük, hogy engedélyezed-e az Alkalmazás számára az eszközöd hirdetési azonosítójának (IDFA) használatát relevánsabb hirdetések megjelenítéséhez. A válaszod végleges: bármikor megváltoztathatod itt: iOS&nbsp;Beállítások&nbsp;&rsaquo; Adatvédelem és biztonság &nbsp;&rsaquo; Nyomon követés &nbsp;&rsaquo; Image Converter Plus.</p>
+            <p>Ha ingyenes felhasználó vagy, akkor az első alkalommal, amikor az Alkalmazás abba a helyzetbe kerül, hogy hirdetést jelenítsen meg neked, az Apple szabványos rendszerkérésén (App Tracking Transparency) keresztül megkérdezhetjük, hogy engedélyezed-e az Alkalmazás számára az eszközöd hirdetési azonosítójának (IDFA) használatát relevánsabb hirdetések megjelenítéséhez. A válaszodat bármikor megváltoztathatod itt: iOS&nbsp;Beállítások&nbsp;&rsaquo; Adatvédelem és biztonság&nbsp;&rsaquo; Nyomon követés&nbsp;&rsaquo; Image Converter Plus.</p>
             <ul>
                 <li>Ha a <strong>Nyomon követés engedélyezése</strong> lehetőséget választod, az AdMob és közvetítő partnerei az eszközöd hirdetési azonosítóját használhatják személyre szabott hirdetések megjelenítéséhez.</li>
                 <li>Ha az <strong>App felkérése a nyomon követés mellőzésére</strong> lehetőséget választod, csak nem személyre szabott, kontextuális hirdetések jelennek meg.</li>
@@ -193,7 +195,7 @@
 
         <div class="content-card" data-reveal>
             <h2>Adatvédelmi jegyzék</h2>
-            <p>Az Alkalmazás egy, az Apple által előírt adatvédelmi jegyzéket tartalmaz, amely pontosan megadja, hogy mely platform-API-kat használja, és hogy a harmadik féltől származó SDK-i mely adatkategóriákat gyűjthetik. Konkrétan a jegyzék a következőket nyilatkozza: eszközazonosító és hirdetési adatok harmadik féltől származó hirdetéshez kapcsolva (az AdMob és közvetítő partnere, a Unity Ads használja, csak akkor, ha engedélyt adsz); termékinterakció, teljesítményadatok és egyéb diagnosztikai adatok analitikához és alkalmazásfunkciókhoz kapcsolva (az Adapty, az AdMob és a Unity Ads használja, névtelenül); valamint vásárlási előzmények alkalmazásfunkciókhoz és analitikához kapcsolva (az előfizetésed ellenőrzésére használjuk). Az Apple ezeket a nyilatkozatokat és a harmadik féltől származó SDK-ink jegyzékeit az App Store-listán az &ldquo;Alkalmazás adatkezelése&rdquo; szakaszban összesíti.</p>
+            <p>Az Alkalmazás egy, az Apple által előírt adatvédelmi jegyzéket tartalmaz, amely pontosan megadja, hogy mely platform-API-kat használja, és hogy a harmadik féltől származó SDK-i mely adatkategóriákat gyűjthetik. Konkrétan a jegyzék a következőket nyilatkozza: eszközazonosító és hirdetési adatok harmadik féltől származó hirdetéshez kapcsolva (az AdMob és közvetítő partnere, a Unity Ads használja, csak akkor, ha engedélyt adsz); termékinterakció, teljesítményadatok és egyéb diagnosztikai adatok analitikához és alkalmazásfunkciókhoz kapcsolva (az Adapty, az AdMob és a Unity Ads használja, névtelenül); valamint vásárlási előzmények alkalmazásfunkciókhoz és analitikához kapcsolva (az előfizetésed ellenőrzésére használjuk). Az Apple ezeket a nyilatkozatokat és a harmadik féltől származó SDK-ink jegyzékeit az App Store-listán az &ldquo;Alkalmazás adatkezelése&rdquo; szakaszban összesíti. Ezért ez a szakasz az SDK-k saját manifesztjeiben deklarált kategóriákat is megjeleníti, például a hozzávetőleges helyzetet (az IP-címedből becsülve) és az összeomlási adatokat.</p>
         </div>
 
         <div class="content-card" data-reveal>
@@ -246,7 +248,7 @@
 
     <!-- Footer -->
     <div class="footer">
-        <p>Utolsó frissítés: 2026. május</p>
+        <p>Utolsó frissítés: 2026. július</p>
     </div>
 
 </div>

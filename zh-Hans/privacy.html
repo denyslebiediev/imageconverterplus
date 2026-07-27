@@ -124,7 +124,7 @@
             <h2>摘要</h2>
             <p>Image Converter Plus（以下简称&ldquo;本应用&rdquo;）由 Denys Lebiediev 开发。所有图像转换均在您的设备上运行。我们不运营任何接收您照片的服务器。但是，我们确实使用了少数受信任的第三方服务来处理应用内购买，并向免费用户展示可选的激励视频广告。这些服务会收集有限的、大部分为匿名的信息，详见下文说明。您始终可以掌控所发生的一切。</p>
             <ul>
-                <li>您转换的照片和文件绝不会离开您的设备。</li>
+                <li>您转换的照片和文件绝不会被上传——只有当您选择存储或分享时，它们才会离开您的设备。</li>
                 <li>Apple 处理购买。Adapty 帮助我们核实您的订阅状态。</li>
                 <li>免费用户可以选择观看由 Google AdMob 投放的激励广告，AdMob 可能通过 Unity Ads 等中介合作伙伴展示该广告。</li>
                 <li>如果您所在的地区要求广告同意表单，您将在展示任何广告之前看到此表单。</li>
@@ -148,7 +148,7 @@
             <h2>第三方服务收集的信息</h2>
             <p>本应用依赖少数服务来实现其功能。我们已将每一项服务配置为仅收集必要的最少量数据。我们无法通过其中任何一项服务访问您照片的内容。</p>
 
-            <p><strong>Apple StoreKit（购买）。</strong> 所有应用内购买 &mdash; 订阅、终身升级和打赏 &mdash; 均由 Apple 处理。Apple 向您的 Apple ID 收费，我们收到一份匿名的交易确认。我们绝不会看到您的姓名、电子邮件地址、账单地址或付款方式。</p>
+            <p><strong>Apple StoreKit（购买）。</strong> 所有应用内购买 &mdash; 订阅、终身升级和打赏 &mdash; 均由 Apple 处理。Apple 向您的 Apple ID 收费，我们收到一份匿名的交易确认。我们绝不会看到您的姓名、电子邮件地址、账单地址或付款方式。如果您向 Apple 申请退款，本应用会与 Apple 共享与您的应用内购买相关的有限使用数据——例如您在本应用内的购买和退款记录、帐户存续时间，以及综合使用信号——以帮助 Apple 决定是否处理您的退款申请。我们不会共享任何照片、文件或个人信息。</p>
 
             <p><strong>Adapty（订阅管理）。</strong> 我们使用 Adapty 来核实您是否拥有有效的订阅或终身购买。Adapty 会收到由其 SDK 生成的匿名的设备范围标识符，以及核实您购买所需的 App Store 交易信息、应用版本和基本设备特征（操作系统版本和设备型号）。Adapty 不会收到您的 Apple ID、您的电子邮件地址或您照片的内容。请参阅 <a href="https://adapty.io/privacy" rel="noopener" target="_blank">adapty.io/privacy</a>。</p>
 
@@ -156,12 +156,14 @@
 
             <p><strong>Unity Ads（广告中介）。</strong> 为了填充激励广告，Google AdMob 使用中介，这意味着某一条广告可能由合作伙伴网络而非 Google 自身提供。Image Converter Plus 集成了由 Unity Technologies 提供的 Unity Ads 作为中介合作伙伴。当 Unity Ads 提供广告时，它会收到上述相同的有限的、大部分为匿名的信息 &mdash; 广告标识符、基本设备特征以及展示和完成等广告互动事件 &mdash; 并尊重您通过 Apple&rsquo;s App Tracking Transparency 提示和 User Messaging Platform 表单所做的相同同意选择。任何广告网络都不会收到您的照片、文件或转换活动。请参阅 <a href="https://unity.com/legal/privacy-policy" rel="noopener" target="_blank">unity.com/legal/privacy-policy</a>。</p>
 
-            <p><strong>Apple App Store（更新检查）。</strong> 本应用会定期查询 Apple&rsquo;s 的公开 iTunes Lookup 端点，以了解是否有更新版本可用。此请求仅包含本应用的 bundle 标识符和您的店面所在国家/地区。Apple 可能会在任何 HTTPS 请求中收到您的 IP 地址，但我们不会。</p>
+            <p>广告网络可能会根据您的 IP 地址估算大致位置。Image Converter Plus 本身绝不会访问您的位置信息。</p>
+
+            <p><strong>Apple App Store（更新检查）。</strong> 本应用会定期查询 Apple 的公开 iTunes Lookup 端点，以了解是否有更新版本可用。此请求仅包含本应用的 bundle 标识符和您的店面所在国家/地区。Apple 可能会在任何 HTTPS 请求中收到您的 IP 地址，但我们不会。</p>
         </div>
 
         <div class="content-card" data-reveal>
             <h2>追踪与个性化广告</h2>
-            <p>如果您是免费用户，在本应用首次能够向您展示广告时，我们可能会通过 Apple&rsquo;s 的标准系统提示（App Tracking Transparency）询问您是否允许本应用使用您设备的广告标识符（IDFA）来投放更相关的广告。您的回答是最终的：您可以随时在 iOS&nbsp;设置&nbsp;&rsaquo; 隐私与安全性 &nbsp;&rsaquo; 跟踪 &nbsp;&rsaquo; Image Converter Plus 中更改它。</p>
+            <p>如果您是免费用户，在本应用首次能够向您展示广告时，我们可能会通过 Apple 的标准系统提示（App Tracking Transparency）询问您是否允许本应用使用您设备的广告标识符（IDFA）来投放更相关的广告。您可以随时在 iOS 设置&nbsp;&rsaquo; 隐私与安全性&nbsp;&rsaquo; 跟踪&nbsp;&rsaquo; Image Converter Plus 中更改您的回答。</p>
             <ul>
                 <li>如果您选择<strong>允许跟踪</strong>，AdMob 及其中介合作伙伴可能会使用您设备的广告标识符来展示个性化广告。</li>
                 <li>如果您选择<strong>要求 App 不要跟踪</strong>，则仅会展示非个性化的情境广告。</li>
@@ -172,7 +174,7 @@
 
         <div class="content-card" data-reveal>
             <h2>您的照片和文件</h2>
-            <p>本应用通过 Apple&rsquo;s 的隐私保护选取器（<em>PHPickerViewController</em>）访问照片，这意味着我们只能看到您明确选择的项目 &mdash; 而非您的整个照片图库。您从文件 App 导入的文件会直接从您选择的位置读取。转换后的图像会写入本应用内的私有文件夹、您的照片图库（经您许可）或您在文件 App 中选取的位置之一。</p>
+            <p>本应用通过 Apple 的隐私保护选取器（<em>PHPickerViewController</em>）访问照片，这意味着我们只能看到您明确选择的项目 &mdash; 而非您的整个照片图库。您从文件 App 导入的文件会直接从您选择的位置读取。转换后的图像会写入本应用内的私有文件夹、您的照片图库（经您许可）或您在文件 App 中选取的位置之一。</p>
             <p>如果您授予本应用向您的照片图库添加内容的许可，本应用会请求最低限度的&ldquo;仅添加照片&rdquo;权限，因此它绝不会读取您现有的照片。</p>
         </div>
 
@@ -193,7 +195,7 @@
 
         <div class="content-card" data-reveal>
             <h2>隐私清单</h2>
-            <p>本应用附带一份 Apple 要求的隐私清单，确切声明它使用了哪些平台 API，以及其第三方 SDK 可能收集哪些数据类别。具体而言，该清单声明：与第三方广告关联的设备标识符和广告数据（由 AdMob 及其中介合作伙伴 Unity Ads 使用，仅在您授予许可时）；与分析和应用功能关联的产品互动、性能数据和其他诊断数据（由 Adapty、AdMob 和 Unity Ads 匿名使用）；以及与应用功能和分析关联的购买历史（用于核实您的订阅）。Apple 会将这些声明以及我们第三方 SDK 的清单汇总到 App Store 商品页的&ldquo;App 隐私&rdquo;部分。</p>
+            <p>本应用附带一份 Apple 要求的隐私清单，确切声明它使用了哪些平台 API，以及其第三方 SDK 可能收集哪些数据类别。具体而言，该清单声明：与第三方广告关联的设备标识符和广告数据（由 AdMob 及其中介合作伙伴 Unity Ads 使用，仅在您授予许可时）；与分析和应用功能关联的产品互动、性能数据和其他诊断数据（由 Adapty、AdMob 和 Unity Ads 匿名使用）；以及与应用功能和分析关联的购买历史（用于核实您的订阅）。Apple 会将这些声明以及我们第三方 SDK 的清单汇总到 App Store 商品页的&ldquo;App 隐私&rdquo;部分。因此，该页面还会显示各 SDK 自身清单所声明的类别，例如粗略位置（根据您的 IP 地址估算）和崩溃数据。</p>
         </div>
 
         <div class="content-card" data-reveal>
@@ -246,7 +248,7 @@
 
     <!-- Footer -->
     <div class="footer">
-        <p>最后更新：2026 年 5 月</p>
+        <p>最后更新：2026 年 7 月</p>
     </div>
 
 </div>

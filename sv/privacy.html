@@ -124,7 +124,7 @@
             <h2>Sammanfattning</h2>
             <p>Image Converter Plus (&ldquo;appen&rdquo;) är utvecklad av Denys Lebiediev. All bildkonvertering körs på din enhet. Vi driver ingen server som tar emot dina foton. Vi använder dock ett litet antal betrodda tredjepartstjänster för att hantera köp i appen och för att visa valfria belönade videoannonser för gratisanvändare. Dessa tjänster samlar in begränsad, mestadels anonym information enligt beskrivningen nedan. Du har alltid kontroll över vad som händer.</p>
             <ul>
-                <li>Foton och filer som du konverterar lämnar aldrig din enhet.</li>
+                <li>Foton och filer som du konverterar laddas aldrig upp &mdash; de lämnar bara din enhet när du väljer att spara eller dela dem.</li>
                 <li>Apple hanterar köp. Adapty hjälper oss att verifiera din prenumerationsstatus.</li>
                 <li>Gratisanvändare kan välja att titta på en belönad annons som levereras av Google AdMob, som kan visa den via en medieringspartner som Unity Ads.</li>
                 <li>Om du bor i en region som kräver ett formulär för annonssamtycke kommer du att se ett sådant innan någon annons visas.</li>
@@ -148,7 +148,7 @@
             <h2>Information som samlas in av tredjepartstjänster</h2>
             <p>Appen är beroende av ett litet antal tjänster för att fungera. Vi har konfigurerat var och en av dem för att samla in minsta möjliga nödvändiga data. Vi har inte tillgång till innehållet i dina foton via någon av dem.</p>
 
-            <p><strong>Apple StoreKit (köp).</strong> Alla köp i appen &mdash; prenumerationer, livstidsuppgraderingen och dricks &mdash; hanteras av Apple. Apple debiterar ditt Apple ID, och vi får en anonym transaktionsbekräftelse. Vi ser aldrig ditt namn, din e-postadress, din faktureringsadress eller din betalningsmetod.</p>
+            <p><strong>Apple StoreKit (köp).</strong> Alla köp i appen &mdash; prenumerationer, livstidsuppgraderingen och dricks &mdash; hanteras av Apple. Apple debiterar ditt Apple ID, och vi får en anonym transaktionsbekräftelse. Vi ser aldrig ditt namn, din e-postadress, din faktureringsadress eller din betalningsmetod. Om du ber Apple om återbetalning delar appen begränsade förbrukningsdata om dina köp i appen med Apple — till exempel din köp- och återbetalningshistorik i appen, kontots ålder och samlade användningssignaler — så att Apple kan fatta ett beslut om din begäran. Inga bilder, filer eller personuppgifter delas.</p>
 
             <p><strong>Adapty (hantering av prenumerationer).</strong> Vi använder Adapty för att verifiera om du har en aktiv prenumeration eller ett livstidsköp. Adapty får en anonym, enhetsbunden identifierare som genereras av dess SDK tillsammans med den transaktionsinformation från App Store som behövs för att validera ditt köp, appversionen och grundläggande enhetsegenskaper (operativsystemversion och enhetsmodell). Adapty får inte ditt Apple ID, din e-postadress eller innehållet i dina foton. Se <a href="https://adapty.io/privacy" rel="noopener" target="_blank">adapty.io/privacy</a>.</p>
 
@@ -156,12 +156,14 @@
 
             <p><strong>Unity Ads (annonsmediering).</strong> För att fylla belönade annonser använder Google AdMob mediering, vilket innebär att en enskild annons kan tillhandahållas av ett partnernätverk i stället för av Google själv. Image Converter Plus inkluderar Unity Ads, som tillhandahålls av Unity Technologies, som medieringspartner. När Unity Ads tillhandahåller en annons får det samma begränsade, mestadels anonyma information som beskrivs ovan &mdash; en annonsidentifierare, grundläggande enhetsegenskaper och annonsinteraktionshändelser såsom visning och slutförande &mdash; och det respekterar samma samtyckesval som du gör via Apples App Tracking Transparency-fråga och User Messaging Platform-formuläret. Inget annonsnätverk får dina foton, filer eller konverteringsaktivitet. Se <a href="https://unity.com/legal/privacy-policy" rel="noopener" target="_blank">unity.com/legal/privacy-policy</a>.</p>
 
+            <p>Annonsnätverk kan uppskatta en ungefärlig plats utifrån din IP-adress. Image Converter Plus har aldrig själv åtkomst till din plats.</p>
+
             <p><strong>Apple App Store (uppdateringskontroll).</strong> Appen frågar regelbundet Apples offentliga iTunes Lookup-slutpunkt för att ta reda på om en nyare version är tillgänglig. Denna begäran innehåller endast appens paketidentifierare och ditt butiksland. Apple kan få din IP-adress som en del av varje HTTPS-begäran, men det gör inte vi.</p>
         </div>
 
         <div class="content-card" data-reveal>
             <h2>Spårning och personanpassade annonser</h2>
-            <p>Om du är en gratisanvändare kan vi första gången appen är i en position att visa dig en annons fråga, via Apples standardsystemfråga (App Tracking Transparency), om du tillåter appen att använda din enhets annonsidentifierare (IDFA) för att leverera mer relevanta annonser. Ditt svar är slutgiltigt: du kan ändra det när som helst i iOS&nbsp;Inställningar&nbsp;&rsaquo; Integritet och säkerhet &nbsp;&rsaquo; Spårning &nbsp;&rsaquo; Image Converter Plus.</p>
+            <p>Om du är en gratisanvändare kan vi första gången appen är i en position att visa dig en annons fråga, via Apples standardsystemfråga (App Tracking Transparency), om du tillåter appen att använda din enhets annonsidentifierare (IDFA) för att leverera mer relevanta annonser. Du kan ändra ditt svar när som helst i iOS&nbsp;Inställningar&nbsp;&rsaquo; Integritet och säkerhet&nbsp;&rsaquo; Spårning&nbsp;&rsaquo; Image Converter Plus.</p>
             <ul>
                 <li>Om du väljer <strong>Tillåt spårning</strong> kan AdMob och dess medieringspartner använda din enhets annonsidentifierare för att visa personanpassade annonser.</li>
                 <li>Om du väljer <strong>Be appen att inte spåra</strong> visas endast icke-personanpassade, kontextuella annonser.</li>
@@ -193,7 +195,7 @@
 
         <div class="content-card" data-reveal>
             <h2>Integritetsmanifest</h2>
-            <p>Appen levereras med ett av Apple obligatoriskt integritetsmanifest som exakt anger vilka plattforms-API:er den använder och vilka datakategorier dess tredjeparts-SDK:er kan samla in. Manifestet anger specifikt: enhetsidentifierare och annonsdata kopplade till tredjepartsannonsering (används av AdMob och dess medieringspartner Unity Ads, endast när du ger tillstånd); produktinteraktion, prestandadata och andra diagnostiska data kopplade till analys och appfunktionalitet (används av Adapty, AdMob och Unity Ads, anonymt); och köphistorik kopplad till appfunktionalitet och analys (används för att verifiera din prenumeration). Apple sammanställer dessa deklarationer och manifesten för våra tredjeparts-SDK:er i avsnittet &ldquo;Appsekretess&rdquo; på App Store-sidan.</p>
+            <p>Appen levereras med ett av Apple obligatoriskt integritetsmanifest som exakt anger vilka plattforms-API:er den använder och vilka datakategorier dess tredjeparts-SDK:er kan samla in. Manifestet anger specifikt: enhetsidentifierare och annonsdata kopplade till tredjepartsannonsering (används av AdMob och dess medieringspartner Unity Ads, endast när du ger tillstånd); produktinteraktion, prestandadata och andra diagnostiska data kopplade till analys och appfunktionalitet (används av Adapty, AdMob och Unity Ads, anonymt); och köphistorik kopplad till appfunktionalitet och analys (används för att verifiera din prenumeration). Apple sammanställer dessa deklarationer och manifesten för våra tredjeparts-SDK:er i avsnittet &ldquo;Appsekretess&rdquo; på App Store-sidan. Den översikten visar därför även kategorier som SDK:ernas egna manifest deklarerar, till exempel ungefärlig plats (uppskattad utifrån din IP-adress) och kraschdata.</p>
         </div>
 
         <div class="content-card" data-reveal>
@@ -246,7 +248,7 @@
 
     <!-- Footer -->
     <div class="footer">
-        <p>Senast uppdaterad: maj 2026</p>
+        <p>Senast uppdaterad: juli 2026</p>
     </div>
 
 </div>

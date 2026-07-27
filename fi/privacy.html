@@ -124,7 +124,7 @@
             <h2>Yhteenveto</h2>
             <p>Image Converter Plus (&ldquo;Sovellus&rdquo;) on Denys Lebiedievin kehittämä. Kaikki kuvanmuunnos suoritetaan laitteellasi. Emme ylläpidä mitään palvelinta, joka vastaanottaisi valokuviasi. Käytämme kuitenkin pientä määrää luotettavia kolmansien osapuolten palveluja sovelluksen sisäisten ostosten käsittelyyn ja valinnaisten palkitsevien videomainosten näyttämiseen maksuttomille käyttäjille. Nämä palvelut keräävät rajallisia, enimmäkseen anonyymejä tietoja alla kuvatulla tavalla. Sinulla on aina hallinta siitä, mitä tapahtuu.</p>
             <ul>
-                <li>Muuntamasi valokuvat ja tiedostot eivät koskaan poistu laitteeltasi.</li>
+                <li>Muuntamiasi valokuvia ja tiedostoja ei koskaan ladata palvelimelle &mdash; ne poistuvat laitteeltasi vain, kun päätät tallentaa tai jakaa ne.</li>
                 <li>Apple käsittelee ostokset. Adapty auttaa meitä vahvistamaan tilauksesi tilan.</li>
                 <li>Maksuttomat käyttäjät voivat halutessaan katsoa Google AdMobin toimittaman palkitsevan mainoksen, jonka se voi näyttää välityskumppanin, kuten Unity Adsin, kautta.</li>
                 <li>Jos asut alueella, joka edellyttää mainossuostumuslomaketta, näet sellaisen ennen minkään mainoksen näyttämistä.</li>
@@ -148,7 +148,7 @@
             <h2>Kolmansien osapuolten palvelujen keräämät tiedot</h2>
             <p>Sovellus tukeutuu toimintaansa pieneen määrään palveluja. Olemme määrittäneet jokaisen niistä keräämään vähimmäismäärän tarvittavia tietoja. Meillä ei ole pääsyä valokuviesi sisältöön minkään niistä kautta.</p>
 
-            <p><strong>Apple StoreKit (ostokset).</strong> Kaikki sovelluksen sisäiset ostokset &mdash; tilaukset, elinikäinen päivitys ja juomarahat &mdash; käsittelee Apple. Apple veloittaa Apple ID:täsi, ja me saamme anonyymin tapahtumavahvistuksen. Emme koskaan näe nimeäsi, sähköpostiosoitettasi, laskutusosoitettasi tai maksutapaasi.</p>
+            <p><strong>Apple StoreKit (ostokset).</strong> Kaikki sovelluksen sisäiset ostokset &mdash; tilaukset, elinikäinen päivitys ja juomarahat &mdash; käsittelee Apple. Apple veloittaa Apple ID:täsi, ja me saamme anonyymin tapahtumavahvistuksen. Emme koskaan näe nimeäsi, sähköpostiosoitettasi, laskutusosoitettasi tai maksutapaasi. Jos pyydät Applelta palautusta, Sovellus jakaa Applelle rajoitettuja sovelluksen sisäisiin ostoihin liittyviä käyttötietoja — kuten oston- ja palautushistoriasi sovelluksessa, tilisi keston ja kootut käyttösignaalit —, jotta Apple voi tehdä päätöksen pyynnöstäsi. Mitään valokuvia, tiedostoja tai henkilökohtaisia tietoja ei jaeta.</p>
 
             <p><strong>Adapty (tilausten hallinta).</strong> Käytämme Adaptya vahvistaaksemme, onko sinulla aktiivinen tilaus tai elinikäinen ostos. Adapty saa SDK:nsa luoman anonyymin laitekohtaisen tunnisteen sekä App Store -tapahtumatiedot, joita ostoksesi vahvistaminen edellyttää, Sovelluksen version ja laitteen perusominaisuudet (käyttöjärjestelmän version ja laitemallin). Adapty ei saa Apple ID:täsi, sähköpostiosoitettasi tai valokuviesi sisältöä. Katso <a href="https://adapty.io/privacy" rel="noopener" target="_blank">adapty.io/privacy</a>.</p>
 
@@ -156,12 +156,14 @@
 
             <p><strong>Unity Ads (mainosvälitys).</strong> Palkitsevien mainosten täyttämiseksi Google AdMob käyttää välitystä, mikä tarkoittaa, että yksittäisen mainoksen voi toimittaa kumppaniverkosto Googlen itsensä sijaan. Image Converter Plus sisältää Unity Adsin, jonka toimittaa Unity Technologies, välityskumppanina. Kun Unity Ads toimittaa mainoksen, se saa samat rajalliset, enimmäkseen anonyymit tiedot, jotka on kuvattu yllä &mdash; mainostunnisteen, laitteen perusominaisuudet ja mainoksen vuorovaikutustapahtumat, kuten näyttökerran ja valmistumisen &mdash; ja noudattaa samoja suostumusvalintoja, jotka teet Applen App Tracking Transparency -kehotteen ja User Messaging Platform -lomakkeen kautta. Mikään mainosverkosto ei saa valokuviasi, tiedostojasi tai muunnostoimintaasi. Katso <a href="https://unity.com/legal/privacy-policy" rel="noopener" target="_blank">unity.com/legal/privacy-policy</a>.</p>
 
+            <p>Mainosverkostot voivat päätellä likimääräisen sijainnin IP-osoitteestasi. Image Converter Plus itse ei koskaan käytä sijaintiasi.</p>
+
             <p><strong>Apple App Store (päivitysten tarkistus).</strong> Sovellus tekee säännöllisesti kyselyn Applen julkiseen iTunes Lookup -päätepisteeseen saadakseen selville, onko uudempi versio saatavilla. Tämä pyyntö sisältää vain Sovelluksen pakettitunnisteen ja kauppasi maan. Apple voi saada IP-osoitteesi osana mitä tahansa HTTPS-pyyntöä, mutta me emme.</p>
         </div>
 
         <div class="content-card" data-reveal>
             <h2>Seuranta ja personoidut mainokset</h2>
-            <p>Jos olet maksuton käyttäjä, ensimmäisellä kerralla, kun Sovellus pystyy näyttämään sinulle mainoksen, saatamme kysyä sinulta &mdash; Applen vakiojärjestelmäkehotteen (App Tracking Transparency) kautta &mdash; sallitko Sovelluksen käyttää laitteesi mainostunnistetta (IDFA) osuvampien mainosten toimittamiseen. Vastauksesi on lopullinen: voit muuttaa sitä milloin tahansa kohdassa iOS&nbsp;Asetukset&nbsp;&rsaquo; Tietosuoja ja turvallisuus &nbsp;&rsaquo; Seuranta &nbsp;&rsaquo; Image Converter Plus.</p>
+            <p>Jos olet maksuton käyttäjä, ensimmäisellä kerralla, kun Sovellus pystyy näyttämään sinulle mainoksen, saatamme kysyä sinulta &mdash; Applen vakiojärjestelmäkehotteen (App Tracking Transparency) kautta &mdash; sallitko Sovelluksen käyttää laitteesi mainostunnistetta (IDFA) osuvampien mainosten toimittamiseen. Voit muuttaa vastaustasi milloin tahansa kohdassa iOS&nbsp;Asetukset&nbsp;&rsaquo; Tietosuoja ja turvallisuus&nbsp;&rsaquo; Seuranta&nbsp;&rsaquo; Image Converter Plus.</p>
             <ul>
                 <li>Jos valitset <strong>Salli seuranta</strong>, AdMob ja sen välityskumppanit voivat käyttää laitteesi mainostunnistetta personoitujen mainosten näyttämiseen.</li>
                 <li>Jos valitset <strong>Pyydä sovellusta olemaan seuraamatta</strong>, näytetään vain personoimattomia, kontekstuaalisia mainoksia.</li>
@@ -193,7 +195,7 @@
 
         <div class="content-card" data-reveal>
             <h2>Tietosuojamanifesti</h2>
-            <p>Sovellus sisältää Applen edellyttämän tietosuojamanifestin, joka ilmoittaa tarkalleen, mitä alustan rajapintoja se käyttää ja mitä tietoluokkia sen kolmansien osapuolten SDK:t voivat kerätä. Tarkemmin sanottuna manifesti ilmoittaa: laitetunnisteen ja mainostiedot, jotka on liitetty kolmannen osapuolen mainontaan (käyttäjinä AdMob ja sen välityskumppani Unity Ads, vain kun annat luvan); tuotevuorovaikutuksen, suorituskykytiedot ja muut diagnostiikkatiedot, jotka on liitetty analytiikkaan ja sovelluksen toiminnallisuuteen (käyttäjinä Adapty, AdMob ja Unity Ads, anonyymisti); ja ostohistorian, joka on liitetty sovelluksen toiminnallisuuteen ja analytiikkaan (käytetään tilauksesi vahvistamiseen). Apple kokoaa nämä ilmoitukset ja kolmansien osapuolten SDK:idemme manifestit App Store -luettelon &ldquo;Sovelluksen tietosuoja&rdquo; -osioon.</p>
+            <p>Sovellus sisältää Applen edellyttämän tietosuojamanifestin, joka ilmoittaa tarkalleen, mitä alustan rajapintoja se käyttää ja mitä tietoluokkia sen kolmansien osapuolten SDK:t voivat kerätä. Tarkemmin sanottuna manifesti ilmoittaa: laitetunnisteen ja mainostiedot, jotka on liitetty kolmannen osapuolen mainontaan (käyttäjinä AdMob ja sen välityskumppani Unity Ads, vain kun annat luvan); tuotevuorovaikutuksen, suorituskykytiedot ja muut diagnostiikkatiedot, jotka on liitetty analytiikkaan ja sovelluksen toiminnallisuuteen (käyttäjinä Adapty, AdMob ja Unity Ads, anonyymisti); ja ostohistorian, joka on liitetty sovelluksen toiminnallisuuteen ja analytiikkaan (käytetään tilauksesi vahvistamiseen). Apple kokoaa nämä ilmoitukset ja kolmansien osapuolten SDK:idemme manifestit App Store -luettelon &ldquo;Sovelluksen tietosuoja&rdquo; -osioon. Siksi kyseisessä osiossa näkyvät myös SDK:iden omissa manifesteissa ilmoitetut luokat, kuten likimääräinen sijainti (arvioitu IP-osoitteesi perusteella) ja kaatumistiedot.</p>
         </div>
 
         <div class="content-card" data-reveal>
@@ -246,7 +248,7 @@
 
     <!-- Footer -->
     <div class="footer">
-        <p>Viimeksi päivitetty: toukokuu 2026</p>
+        <p>Viimeksi päivitetty: heinäkuu 2026</p>
     </div>
 
 </div>

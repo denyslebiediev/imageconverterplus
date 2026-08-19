@@ -62,6 +62,17 @@
         hits.push(a);
         if (!a.hasAttribute('aria-current')) actionable++;
     }
+    /* Nothing in their list is shipped — offer one way out rather than nothing.
+       ru readers get uk by deliberate choice; everyone else gets English.
+       ponytail: last resort only, so a browser that matched something keeps it. */
+    if (!hits.length) {
+        var fallback = 'en';
+        for (var n = 0; n < wanted.length; n++) {
+            if (String(wanted[n]).toLowerCase().split('-')[0] === 'ru') { fallback = 'uk'; break; }
+        }
+        var fb = byCode[fallback];
+        if (fb) { hits.push(fb); if (!fb.hasAttribute('aria-current')) actionable++; }
+    }
     if (!actionable) return;   /* nothing to switch to -> no block at all */
 
     /* clone: the anchors already carry the right relative href for this page's depth */

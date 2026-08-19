@@ -153,6 +153,7 @@ body::after {
 }
 .nav-brand {
     display: flex;
+    flex: none;
     align-items: center;
     gap: 10px;
     font-size: 15px;
@@ -177,6 +178,8 @@ body::after {
 .nav-links a:hover { color: var(--text-hi); }
 .nav-cta {
     position: relative;
+    flex: none;
+    white-space: nowrap;
     font-size: 13px;
     font-weight: 600;
     color: var(--text-hi);
@@ -190,6 +193,27 @@ body::after {
     transition: box-shadow 0.15s ease-out;
 }
 .nav-cta:hover { box-shadow: 0 0 24px -8px rgba(94, 160, 255, 0.5); }
+
+/* The bar is a fixed var(--nav-h), so its items must never wrap — two lines make
+   the CTA 58.3px and its gradient hairline falls outside the 56px bar. Measured
+   max-content needs across all 61 locales: full nav 913px (bg), brand + CTA 456px,
+   icon + CTA 294px — hence 940 and 520. */
+@media (max-width: 939px) {
+    .nav-links { display: none; }
+    .nav-cta { margin-inline-start: auto; }   /* the auto margin nav-links carried */
+}
+@media (max-width: 519px) {
+    /* icon-only lockup; the wordmark stays in the a11y tree because the icon's alt
+       is empty and the wordmark is the link's only accessible name */
+    .nav-brand span {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip-path: inset(50%);
+        white-space: nowrap;
+    }
+}
 
 /* ---- Sections shared ---- */
 section, .hero { position: relative; }
@@ -1046,7 +1070,6 @@ html.js .hero-content > :not(.hero-visual) { opacity: 0; }
 
 /* ---- Mobile ---- */
 @media (max-width: 767px) {
-    .nav-links { display: none; }
     .hero-visual { width: min(30svh, 58vw); }
     .features-layout { grid-template-columns: 1fr; }
     .features-phone { position: static; }

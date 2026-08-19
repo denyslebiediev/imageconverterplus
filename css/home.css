@@ -991,6 +991,24 @@ section, .hero { position: relative; }
 .lang-list a[aria-current] { color: var(--text-hi); font-weight: 600; }
 .lang-check { margin-inline-start: auto; color: var(--accent-glow); flex: none; }
 
+/* Browser-language row pinned above the scrolling list (js/lang-menu.js) */
+.lang-panel.has-pinned {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.lang-panel.has-pinned .lang-list:not(.lang-pinned) {
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+}
+.lang-pinned {
+    flex: none;
+    margin-block-end: 5px;
+    padding-block-end: 5px;
+    border-block-end: 1px solid var(--glass-brd);
+}
+
 /* ---- Reveal gating (JS present only) ---- */
 html.js [data-reveal] {
     opacity: 0;

@@ -52,13 +52,17 @@
     var MAX_PINNED = 3;
     var wanted = navigator.languages || [navigator.language || ''];
     var hits = [];
+    var actionable = 0;
     for (var j = 0; j < wanted.length && hits.length < MAX_PINNED; j++) {
         var tag = String(wanted[j]).toLowerCase();
         var a = lookup(tag) || lookup(tag.split('-')[0]);
-        /* skip what we don't ship, the page they are already reading, and en-US/en dupes */
-        if (a && !a.hasAttribute('aria-current') && hits.indexOf(a) === -1) hits.push(a);
+        /* keep the page's own language so the block mirrors the browser's list;
+           skip only what we don't ship and en-US/en style duplicates */
+        if (!a || hits.indexOf(a) !== -1) continue;
+        hits.push(a);
+        if (!a.hasAttribute('aria-current')) actionable++;
     }
-    if (!hits.length) return;
+    if (!actionable) return;   /* nothing to switch to -> no block at all */
 
     /* clone: the anchors already carry the right relative href for this page's depth */
     var pinned = document.createElement('ul');

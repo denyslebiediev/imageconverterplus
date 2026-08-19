@@ -1,12 +1,18 @@
 #!/usr/bin/env python3
-"""Convert ASC screenshot sources (../Screenshots/6.9/<Language>/*.png) into the
-web set: timestamp-sort -> 1..N, sips resample to 600px wide -> cwebp -q78 ->
+"""Convert ASC screenshot sources (<app repo>/Screenshots/6.9/<Language>/*.png) into
+the web set: filename-sort -> 1..N, sips resample to 600px wide -> cwebp -q78 ->
 images/screenshots/<locale>/<i>.webp.
+
+Slot order is the filename sort, so a folder whose capture order differs from the
+canonical screen order (see English (US)/) must be renamed 1.png..8.png first.
 
 Variant folders (English AU/CA/UK, French Canada, Spanish Mexico) collapse: only
 the canonical folder per locale is mapped. 'en' is intentionally NOT regenerated
 (the reviewed images/screenshots/en/ baseline is preserved). Locales with no
 source fall back to ../images/screenshots/en/ at build time.
+
+Only the slots the site actually uses are encoded (WEB_SLOTS); the sources carry
+8 shots per language but the landing page curates 6.
 
 Emits tools/i18n/screenshots.json = sorted list of locales that have own screenshots.
 Idempotent: existing <i>.webp are skipped.
@@ -17,9 +23,10 @@ import subprocess
 import tempfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SRC = os.path.join(ROOT, "..", "Screenshots", "6.9")
+SRC = os.path.expanduser("~/Projects/ios_projects/ImageConverterPlus/Screenshots/6.9")
 DEST = os.path.join(ROOT, "images", "screenshots")
 OUT = os.path.join(ROOT, "tools", "i18n", "screenshots.json")
+WEB_SLOTS = {1, 2, 5, 6, 7, 8}
 
 FOLDER_MAP = {
     "Arabic": "ar", "Catalan": "ca", "Chinese (Simplified)": "zh-Hans",
@@ -27,10 +34,11 @@ FOLDER_MAP = {
     "Danish": "da", "Dutch": "nl", "English (US)": "en", "Finnish": "fi",
     "French": "fr", "German": "de", "Greek": "el", "Hebrew": "he", "Hindi": "hi",
     "Hungarian": "hu", "Indonesian": "id", "Italian": "it", "Japanese": "ja",
-    "Korean": "ko", "Malay": "ms", "Norwegian": "nb", "Polish": "pl",
-    "Portuguese (Brazil)": "pt-BR", "Portuguese (Portugal)": "pt-PT",
-    "Romanian": "ro", "Slovak": "sk", "Spanish (Spain)": "es", "Swedish": "sv",
-    "Thai": "th", "Turkish": "tr", "Ukrainian": "uk", "Vietnamese": "vi",
+    "Korean": "ko", "Malay": "ms", "Norwegian": "nb", "Odia": "or",
+    "Polish": "pl", "Portuguese (Brazil)": "pt-BR",
+    "Portuguese (Portugal)": "pt-PT", "Romanian": "ro", "Slovak": "sk",
+    "Spanish (Spain)": "es", "Swedish": "sv", "Thai": "th", "Turkish": "tr",
+    "Ukrainian": "uk", "Vietnamese": "vi",
 }
 
 
@@ -67,6 +75,8 @@ def main():
         outdir = os.path.join(DEST, loc)
         os.makedirs(outdir, exist_ok=True)
         for i, png in enumerate(pngs, 1):
+            if i not in WEB_SLOTS:
+                continue
             if convert(os.path.join(path, png), os.path.join(outdir, "%d.webp" % i)):
                 made += 1
         have.append(loc)

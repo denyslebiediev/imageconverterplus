@@ -960,8 +960,9 @@ section, .hero { position: relative; }
     width: 240px;
     max-width: calc(100vw - 40px);
     max-height: min(60vh, 420px);
-    overflow-y: auto;
-    overscroll-behavior: contain;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
     padding: 6px;
     background: rgba(17, 22, 36, 0.88);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -988,25 +989,50 @@ section, .hero { position: relative; }
     text-decoration: none;
 }
 .lang-list a:hover { background: var(--glass); color: var(--text-hi); }
-.lang-list a[aria-current] { color: var(--text-hi); font-weight: 600; }
+.lang-list a[aria-current] { color: var(--text-hi); }
 .lang-check { margin-inline-start: auto; color: var(--accent-glow); flex: none; }
 
-/* Browser-language row pinned above the scrolling list (js/lang-menu.js) */
-.lang-panel.has-pinned {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
-.lang-panel.has-pinned .lang-list:not(.lang-pinned) {
+/* The list is always the scroller and the panel only frames it, so the pinned
+   browser-language block (js/lang-menu.js) stays put and one set of scrollbar
+   rules covers both states. */
+.lang-list:not(.lang-pinned) {
     min-height: 0;
     overflow-y: auto;
     overscroll-behavior: contain;
 }
+/* Thin, trackless indicator — the macOS overlay look even when the system is set
+   to always show scroll bars. 11px track, 3px transparent border => 5px thumb. */
+.lang-list {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(235, 235, 245, 0.24) transparent;
+}
+.lang-list::-webkit-scrollbar { width: 11px; }
+.lang-list::-webkit-scrollbar-track { background: transparent; }
+.lang-list::-webkit-scrollbar-thumb {
+    min-height: 36px;
+    border: 3px solid transparent;
+    border-radius: 6px;
+    background: rgba(235, 235, 245, 0.24);
+    background-clip: padding-box;
+}
+.lang-list::-webkit-scrollbar-thumb:hover {
+    background: rgba(235, 235, 245, 0.42);
+    background-clip: padding-box;
+}
 .lang-pinned {
     flex: none;
+    /* never overflows, so this draws no thumb — it exists only to reserve exactly the
+       same gutter the list below reserves, in classic AND overlay scrollbar modes */
+    overflow-y: scroll;
     margin-block-end: 5px;
     padding-block-end: 5px;
-    border-block-end: 1px solid var(--glass-brd);
+    border-block-end: 1px solid rgba(255, 255, 255, 0.14);
+}
+/* the global +3px outset ring is clipped by the scroll container */
+.lang-list a:focus-visible { outline-offset: -2px; }
+/* HIG: 44pt minimum tap target */
+@media (pointer: coarse) {
+    .lang-list a { min-height: 44px; }
 }
 
 /* ---- Reveal gating (JS present only) ---- */

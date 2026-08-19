@@ -46,23 +46,29 @@
         return byCode[tag] || byCode[(ALIASES[tag] || '').toLowerCase()] || null;
     }
 
+    /* every preferred language we ship, in the browser's own order — iOS Settings >
+       Language & Region > Preferred Languages. ponytail: 3 is enough to keep the
+       section from crowding out the list; raise it if anyone actually lists more. */
+    var MAX_PINNED = 3;
     var wanted = navigator.languages || [navigator.language || ''];
-    var hit = null;
-    for (var j = 0; j < wanted.length && !hit; j++) {
+    var hits = [];
+    for (var j = 0; j < wanted.length && hits.length < MAX_PINNED; j++) {
         var tag = String(wanted[j]).toLowerCase();
-        hit = lookup(tag) || lookup(tag.split('-')[0]);
+        var a = lookup(tag) || lookup(tag.split('-')[0]);
+        /* skip what we don't ship, the page they are already reading, and en-US/en dupes */
+        if (a && !a.hasAttribute('aria-current') && hits.indexOf(a) === -1) hits.push(a);
     }
-    /* nothing we ship, or they are already reading it */
-    if (!hit || hit.hasAttribute('aria-current')) return;
+    if (!hits.length) return;
 
-    /* clone: the anchor already carries the right relative href for this page's depth */
-    var li = document.createElement('li');
-    li.appendChild(hit.cloneNode(true));
+    /* clone: the anchors already carry the right relative href for this page's depth */
     var pinned = document.createElement('ul');
     pinned.className = 'lang-list lang-pinned';
     pinned.setAttribute('role', 'list');
     pinned.setAttribute('translate', 'no');
-    pinned.appendChild(li);
+    for (var k = 0; k < hits.length; k++) {
+        var li = document.createElement('li');
+        li.appendChild(hits[k].cloneNode(true));
+        pinned.appendChild(li);
+    }
     panel.insertBefore(pinned, list);
-    panel.classList.add('has-pinned');
 })();

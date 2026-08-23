@@ -21,7 +21,7 @@ Image Converter Plus is a privacy-focused image conversion app for iPhone and iP
 - 4 built-in presets for one-tap conversion
 - Share Extension for converting without opening the app
 - Conversion history with re-export
-- Available in 60 languages
+- Available in 61 languages
 
 <p align="center">
   <a href="https://denyslebiediev.github.io/imageconverterplus/">Website</a> · <a href="https://apps.apple.com/app/id6759621930">App Store</a> · <a href="mailto:imageconverterplus.help@gmail.com">Support</a>

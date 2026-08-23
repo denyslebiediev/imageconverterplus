@@ -131,7 +131,7 @@ def cmd_selftest():
 
 
 def locales():
-    """The 59 locale directory names (every dir with an index.html, excluding en)."""
+    """The 60 locale directory names (every dir with an index.html, excluding en)."""
     out = []
     for name in sorted(os.listdir(ROOT)):
         if name == "en":
@@ -326,7 +326,7 @@ LANGS = (
     ("sr", "Српски"), ("uk", "Українська"), ("el", "Ελληνικά"),
     ("ar", "العربية"), ("he", "עברית"), ("ur", "اردو"), ("fa", "فارسی"),
     ("hi", "हिन्दी"), ("mr", "मराठी"), ("gu", "ગુજરાતી"), ("pa", "ਪੰਜਾਬੀ"),
-    ("bn", "বাংলা"), ("ta", "தமிழ்"), ("te", "తెలుగు"), ("kn", "ಕನ್ನಡ"),
+    ("bn", "বাংলা"), ("or", "ଓଡ଼ିଆ"), ("ta", "தமிழ்"), ("te", "తెలుగు"), ("kn", "ಕನ್ನಡ"),
     ("ml", "മലയാളം"), ("th", "ไทย"),
     ("ja", "日本語"), ("ko", "한국어"), ("zh-Hans", "简体中文"), ("zh-Hant", "繁體中文"),
 )

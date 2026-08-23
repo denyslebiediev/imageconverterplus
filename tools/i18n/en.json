@@ -45,7 +45,7 @@
     "feat3_h3": {"en": "Named your way.", "count": 1, "anchor": ">{}</h3>", "scope": ["landing"]},
     "feat3_p": {"en": "Keep original names, add a prefix or suffix, or rename each file by hand before it's saved.", "count": 1, "scope": ["landing"]},
     "feat4_h3": {"en": "One tap. Ready presets.", "count": 1, "anchor": ">{}</h3>", "scope": ["landing"]},
-    "feat4_p": {"en": "JPEG High Quality, PDF Document, Quick Share, Private Photo — format, quality, size, and metadata handling already dialed in.", "count": 1, "scope": ["landing"], "ctx": "The four preset names may stay in English or be localized to match the app's localized preset names."},
+    "feat4_p": {"en": "JPEG High Quality, PDF Document, Quick Share, Private Photo — format, quality, size, and metadata handling already dialed in.", "count": 1, "scope": ["landing"], "ctx": "The four preset names must match the app's localized preset names exactly (Core Localizable.xcstrings)."},
 
     "privacy_eyebrow": {"en": "Privacy", "count": 1, "anchor": ">{}</p>", "scope": ["landing"]},
     "privacy_title": {"en": "Your photos say more<br>than you think.", "count": 1, "scope": ["landing"], "html": true, "ctx": "Keep the <br> line break (roughly balanced two lines)."},
@@ -88,7 +88,7 @@
     "wf2_p": {"en": "Every conversion saved with a thumbnail. Re-export to Photos, Files, or the Share Sheet anytime — auto-delete keeps it tidy.", "count": 1, "scope": ["landing"]},
 
     "manifesto_title": {"en": "No servers.<br>No uploads.<br><span class=\"grad\">No exceptions.</span>", "count": 1, "scope": ["landing"], "html": true, "ctx": "Three short lines separated by <br>. Wrap the last line in <span class=\"grad\">…</span>."},
-    "manifesto_lede": {"en": "Every image is processed on your device — conversion works even in Airplane Mode. An internet connection is used only for purchases and the optional rewarded ads free users can choose to watch. That's the whole list. <a href=\"privacy.html\">Read the Privacy Policy</a>", "count": 1, "scope": ["landing"], "html": true, "ctx": "Keep the trailing <a href=\"privacy.html\">…</a> link; translate its text."},
+    "manifesto_lede": {"en": "Every image is processed on your device — conversion works even in Airplane Mode. An internet connection is used only for purchases, update checks, and the optional rewarded ads free users can choose to watch. Your photos never touch the network. <a href=\"privacy.html\">Read the Privacy Policy</a>", "count": 1, "scope": ["landing"], "html": true, "ctx": "Keep the trailing <a href=\"privacy.html\">…</a> link; translate its text."},
 
     "pro_eyebrow": {"en": "Pro", "count": 1, "anchor": ">{}</p>", "scope": ["landing"], "ctx": "Tier name 'Pro' — keep as-is unless the app localizes it."},
     "pro_title": {"en": "Unlock everything.", "count": 1, "anchor": ">{}</h2>", "scope": ["landing"]},
@@ -103,9 +103,9 @@
 
     "foreveryone_eyebrow": {"en": "For everyone", "count": 1, "anchor": ">{}</p>", "scope": ["landing"]},
     "languages_title": {"en": "Speaks your language.", "count": 1, "anchor": ">{}</h2>", "scope": ["landing"]},
-    "languages_lede": {"en": "60 languages with an in-app picker. VoiceOver, Dynamic Type, and haptic feedback throughout.", "count": 1, "scope": ["landing"], "ctx": "Keep the Apple terms 'VoiceOver' and 'Dynamic Type' in English."},
+    "languages_lede": {"en": "61 languages with an in-app picker. VoiceOver, Dynamic Type, and haptic feedback throughout.", "count": 1, "scope": ["landing"], "ctx": "Keep the Apple terms 'VoiceOver' and 'Dynamic Type' in English."},
     "label_haptic": {"en": "Haptic Feedback", "count": 1, "anchor": ">{}</li>", "scope": ["landing"]},
-    "label_60langs": {"en": "60 Languages", "count": 1, "anchor": ">{}</li>", "scope": ["landing"], "ctx": "Keep the number 60."},
+    "label_60langs": {"en": "61 Languages", "count": 1, "anchor": ">{}</li>", "scope": ["landing"], "ctx": "Keep the number 61."},
 
     "closing_title": {"en": "Develop your photos<br>in private.", "count": 1, "scope": ["landing"], "html": true, "ctx": "Keep the <br>. 'Develop' plays on photo development — keep the darkroom metaphor if it works in your language."},
     "closing_lede": {"en": "Free to download. Pro when you need it.", "count": 1, "scope": ["landing"]},

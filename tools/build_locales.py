@@ -303,7 +303,7 @@ def cmd_validate():
 
 
 RTL = {"ar", "fa", "he", "ur"}
-SITE = "https://denyslebiediev.github.io/imageconverterplus"
+SITE = "https://imageconverterplus.denyslebiediev.com"
 EXTRA_PRELOAD = {
     "uk": "cyrillic", "be": "cyrillic", "bg": "cyrillic", "mk": "cyrillic", "sr": "cyrillic",
     "el": "greek", "vi": "vietnamese",

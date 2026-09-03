@@ -24,7 +24,7 @@ Image Converter Plus is a privacy-focused image conversion app for iPhone and iP
 - Available in 61 languages
 
 <p align="center">
-  <a href="https://denyslebiediev.github.io/imageconverterplus/">Website</a> · <a href="https://apps.apple.com/app/id6759621930">App Store</a> · <a href="mailto:imageconverterplus.help@gmail.com">Support</a>
+  <a href="https://imageconverterplus.denyslebiediev.com/">Website</a> · <a href="https://apps.apple.com/app/id6759621930">App Store</a> · <a href="mailto:imageconverterplus.help@gmail.com">Support</a>
 </p>
 
 <p align="center">© 2026 Denys Lebiediev</p>

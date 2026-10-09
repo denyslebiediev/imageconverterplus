@@ -462,38 +462,26 @@ section, .hero { position: relative; }
     position: relative;
     width: min(340px, 100%);
     margin-inline: auto;
-    aspect-ratio: 600 / 1304;
-    border-radius: clamp(36px, 5.2vw, 52px);
-    background: #1A1D26;
-    padding: 10px;
-    box-shadow:
-        inset 0 1px 0 rgba(255, 255, 255, 0.08),
-        0 32px 80px -32px rgba(0, 0, 0, 0.8);
+    aspect-ratio: 675 / 1380;
+    filter: drop-shadow(0 28px 36px rgba(0, 0, 0, 0.55));
     transition: transform 0.4s ease-out;
 }
-.phone::before {
-    content: "";
-    position: absolute;
-    top: 22px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 26%;
-    height: 3.2%;
-    background: #05060A;
-    border-radius: 100px;
-    z-index: 2;
-}
+/* The bezel is baked into each shot (transparent corners), so a plain crossfade would
+   dip the whole phone to ~75% opacity mid-fade. Fade the new shot in on top instead,
+   and drop the old one only once it's covered. */
 .phone img {
     position: absolute;
-    inset: 10px;
-    width: calc(100% - 20px);
-    height: calc(100% - 20px);
-    object-fit: cover;
-    border-radius: clamp(28px, 4.2vw, 42px);
+    inset: 0;
+    width: 100%;
+    height: 100%;
     opacity: 0;
+    transition: opacity 0s 0.4s;
+}
+.phone img.is-active {
+    opacity: 1;
+    z-index: 1;
     transition: opacity 0.4s ease-out;
 }
-.phone img.is-active { opacity: 1; }
 .features-steps { display: flex; flex-direction: column; }
 .feature-step {
     min-height: 52vh;
@@ -813,13 +801,9 @@ section, .hero { position: relative; }
 .workflow-shot {
     width: min(190px, 52%);
     margin: 0 auto 28px;
-    border-radius: 24px;
-    background: #1A1D26;
-    padding: 7px;
-    box-shadow: 0 24px 60px -24px rgba(0, 0, 0, 0.8);
+    filter: drop-shadow(0 20px 28px rgba(0, 0, 0, 0.55));
     transition: transform 0.2s ease-out;
 }
-.workflow-shot img { border-radius: 18px; }
 .tilt-l { transform: rotate(-3deg); }
 .tilt-r { transform: rotate(3deg); }
 .workflow-card:hover .tilt-l { transform: rotate(-3deg) translateY(-6px); }
